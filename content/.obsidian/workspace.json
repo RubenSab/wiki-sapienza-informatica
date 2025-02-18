@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "ef4387c58f639384",
+        "id": "5781e6f4d947cbd6",
         "type": "tabs",
         "children": [
           {
-            "id": "86543358a17e67bd",
+            "id": "3c409f12beaf003b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "progettazione di sistemi digitali/addizionatore sequenziale.md",
+                "file": "progettazione di sistemi digitali/tabelle inverse dei flip flop.md",
                 "mode": "preview",
                 "source": false,
                 "backlinks": true,
@@ -28,16 +28,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "addizionatore sequenziale"
+              "title": "tabelle inverse dei flip flop"
             }
           },
           {
-            "id": "44894c8ae49f9f3f",
+            "id": "283a311799180294",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "progettazione di sistemi digitali/scorrimento sia a destra che a sinistra di registri (SISO).md",
+                "file": "progettazione di sistemi digitali/flip-flop set-reset (SR).md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,79 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "scorrimento sia a destra che a sinistra di registri (SISO)"
-            }
-          },
-          {
-            "id": "dd8b3a514ed12ea2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "progettazione di sistemi digitali/addizionatore a propagazione di riporto (ripple carry adder).md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "addizionatore a propagazione di riporto (ripple carry adder)"
-            }
-          },
-          {
-            "id": "f090d05a8fc01d38",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "progettazione di sistemi digitali/registro contatore.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "registro contatore"
-            }
-          },
-          {
-            "id": "ac3612fb0a204880",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "progettazione di sistemi digitali/unità aritmetico logica (ALU).md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "unità aritmetico logica (ALU)"
+              "title": "flip-flop set-reset (SR)"
             }
           }
         ]
@@ -241,7 +169,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "differenza",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -314,8 +242,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 342.5,
-    "collapsed": true
+    "width": 342.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -328,43 +255,43 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "86543358a17e67bd",
+  "active": "1e8284bbece5404c",
   "lastOpenFiles": [
-    "progettazione di sistemi digitali/registro contatore.md",
-    "progettazione di sistemi digitali/unità aritmetico logica (ALU).md",
-    "progettazione di sistemi digitali/adder sequenziale.jpg",
-    "progettazione di sistemi digitali/ALU.svg",
-    "progettazione di sistemi digitali/addizionatore sequenziale.md",
-    "progettazione di sistemi digitali/automa sommatore.png",
-    "progettazione di sistemi digitali/ripple_carry_adder.webp",
-    "progettazione di sistemi digitali/Full-Adder.png",
-    "progettazione di sistemi digitali/Half-Adder.png",
-    "progettazione di sistemi digitali/ALU Massini.svg",
-    "progettazione di sistemi digitali/addizionatore a propagazione di riporto (ripple carry adder).md",
-    "progettazione di sistemi digitali/contatore di eventi.md",
-    "progettazione di sistemi digitali/addizionatori (adder).md",
-    "progettazione di sistemi digitali/full adder (FA).md",
-    "progettazione di sistemi digitali/scorrimento sia a destra che a sinistra di registri (SISO).md",
-    "progettazione di sistemi digitali/automi a stati finiti (finite state automata).md",
-    "calcolo differenziale/notazione o grande.md",
-    "progettazione di sistemi digitali/sintesi dell'addizionatore sequenziale.md",
-    "progettazione di sistemi digitali/flip-flop.md",
-    "progettazione di sistemi digitali/latch set-reset (SR).md",
-    "progettazione di sistemi digitali/flip-flop set-reset (SR).md",
-    "progettazione di sistemi digitali/flip-flop delay (D).md",
-    "progettazione di sistemi digitali/flip-flop toggle (T).md",
     "progettazione di sistemi digitali/tabelle inverse dei flip flop.md",
+    "progettazione di sistemi digitali/flip-flop.md",
+    "progettazione di sistemi digitali/latch.md",
+    "analisi del latch.md",
+    "progettazione di sistemi digitali/latch set-reset (SR).md",
+    "progettazione di sistemi digitali/flip-flop delay (D).md",
     "progettazione di sistemi digitali/flip-flop (JK).md",
-    "progettazione di sistemi digitali/esempio Mealy.png",
-    "progettazione di sistemi digitali/ripple carry adder per valori in CA2.md",
-    "Pasted image 20250212190133.png",
-    "progettazione di sistemi digitali/esempio Moore.png",
-    "progettazione di sistemi digitali/analisi di reti sequenziali.md",
-    "progettazione di sistemi digitali/criterio di minimalità.md",
-    "progettazione di sistemi digitali/contatore sincrono modulo 2 alla n.md",
+    "progettazione di sistemi digitali/flip-flop set-reset (SR).md",
+    "progettazione di sistemi digitali/flip-flop SR master-slave.md",
+    "Pasted image 20250218112715.png",
+    "Pasted image 20250218112653.png",
+    "Pasted image 20250218112525.png",
+    "Pasted image 20250218112515.png",
+    "progettazione di sistemi digitali/flip-flop JK.png",
+    "Pasted image 20250218113005.png",
+    "Pasted image 20250218112855.png",
+    "progettazione di sistemi digitali/flip-flop SR.svg",
+    "progettazione di sistemi digitali/latch set-reset.md",
+    "progettazione di sistemi digitali/AND gate con funzione di controllo.md",
+    "progettazione di sistemi digitali/latch sincrono (gated latch).md",
+    "progettazione di sistemi digitali/unità aritmetico logica (ALU).md",
+    "progettazione di sistemi digitali/complemento a 2 (CA2).md",
+    "progettazione di sistemi digitali/caricamento parallelo e seriale di registri + right shift register.md",
+    "progettazione di sistemi digitali/flip-flop master-slave.png",
+    "Pasted image 20250218103012.png",
+    "progettazione di sistemi digitali/rappresentazione o codifica di numeri con la virgola (IEEE 754).md",
+    "progettazione di sistemi digitali/registro contatore.md",
     "progettazione di sistemi digitali/memoria.md",
-    "progettazione di sistemi digitali/sintesi di reti sequenziali.md",
-    "progettazione di sistemi digitali/minimizzazione dell'automa a stati finiti.md",
+    "progettazione di sistemi digitali/operazioni con numeri in virgola mobile.md",
+    "progettazione di sistemi digitali/addizionatore a propagazione di riporto (ripple carry adder).md",
+    "progettazione di sistemi digitali/automa a stati finiti (finite state automata).md",
+    "progettazione di sistemi digitali/contatore sincrono preselezionabile.md",
+    "progettazione di sistemi digitali/contatore sincrono con reset.md",
+    "progettazione di sistemi digitali/contatore di eventi.md",
+    "progettazione di sistemi digitali/contatore con abilitazione al conteggio.md",
     "progettazione di sistemi digitali/contatore sincrono bidirezionale.md",
     "altro",
     "piani di studi",

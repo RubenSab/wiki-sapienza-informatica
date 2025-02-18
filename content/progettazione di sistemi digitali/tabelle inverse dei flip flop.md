@@ -1,4 +1,4 @@
-# [[latch set-reset (SR)]]
+# [[flip-flop set-reset (SR)]] e [[flip-flop SR master-slave]]
 
 | $y, Y$ | $s, r$ (+ ragionamento)                                               |
 | ------ | --------------------------------------------------------------------- |

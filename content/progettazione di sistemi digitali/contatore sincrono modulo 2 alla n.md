@@ -1,5 +1,5 @@
 # esempio di contatore sincrono mod 8
-Disegniamo lo schema dell'automa con il [[automi a stati finiti (finite state automata)|modello di Moore]].
+Disegniamo lo schema dell'automa con il [[automa a stati finiti (finite state automata)|modello di Moore]].
 
 ![[automa contatore Moore.jpg]]
 

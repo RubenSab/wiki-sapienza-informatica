@@ -4,7 +4,7 @@ la conversione è la [[funzione]] applicata all'input, per questo si parla di [[
 
 - [[rappresentazione o codifica dei numeri naturali]]
 - [[rappresentazione o codifica dei numeri interi relativi]]
-- [[rappresentazione o codifica di numeri con la virgola]]
+- [[rappresentazione o codifica di numeri con la virgola (IEEE 754)]]
 # altre rappresentazioni dell'informazione
 - [[codifica BCD (Binary Coded Decimal)]]
 - [[codice 2-su-5]]

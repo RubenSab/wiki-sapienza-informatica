@@ -1,4 +1,6 @@
-Per codificare in binario la parte decimale di un numero, bisogna moltiplicare ripetutamente la parte dopo la virgola per per la base (=2 nel codice binario).
+#todo
+Per codificare in binario un numero con la virgola si usa il seguente procedimento:
+
 ```
 Esempio:
 17,36
@@ -15,12 +17,15 @@ Esempio:
 
 17,36 = 10001,01011
 ```
-Ma quanti bit si devono allocare per la parte intera e per la parte decimale?
-# virgola fissa
-Usa $n$ bit totali:
-- $k$ bit per la parte intera
+
+Volendo standardizzare la codifica, quanti bit si devono allocare per la parte intera e per la parte decimale?
+# con la virgola fissa
+
+Si usa un numero fisso $n$ bit totali:
+- un numero fisso $k$ di bit per la parte intera
 - $n-k$ bit per la parte frazionaria
-# virgola mobile
+# con la virgola mobile (IEEE 754)
+
 Come nella notazione scientifica esprimiamo il valore usando una potenza della base adeguata.
 Lo standard odierno della rappresentazione dei numeri decimali in virgola mobile è "**l'IEEE 754**" (*I triple E*), in cui gli $n$ bit della rappresentazione si dividono in:
 - segno (a cui è dedicato un singolo bit $s$, negativo se $s=1$ e positivo se $s=0$)
@@ -30,7 +35,7 @@ Lo standard odierno della rappresentazione dei numeri decimali in virgola mobile
 
 >esempio:
 >$1011,011 = 1,011011*2^3$
->$0,001001 = 1,001*2^-2$
+>$0,001001 = 1,001*2^{-2}$
 
 ## codifiche con livelli di precisione diversi
 
@@ -40,14 +45,15 @@ Lo standard odierno della rappresentazione dei numeri decimali in virgola mobile
 | 32  | single precision | 1         | 8             | 23           |
 | 64  | double precision | 1         | 11            | 53           |
 ## esponente
-- Si considera la rappresentazione in [[complemento a 2 (CA2)]], con $e$ bit rappresento un'intervallo di valori possibili di $[-2^{e-1};2^{e-1}-1]$.
+- Si considera la rappresentazione in [[complemento a 2 (CA2)]]: con $e$ bit rappresento un'intervallo di valori possibili di $[-2^{e-1};2^{e-1}-1]$.
 - Si aggiunge il bias $2^{e-1}-1$ in modo che l'esponente sia positivo.
 >esempio: se $e=5$ il bias è $15$
 >se $e=8$ il bias è $127$
-- Si ottiene l'intervallo $[-2^{e-1}+2^{e-1}-1;2^{e-1}-1+2^{e-1}] \rightarrow  [-1;2^e-2]$.
+- Si ottiene l'intervallo $[-2^{e-1}+2^{e-1}-1;2^{e-1}-1+2^{e-1}-1] \rightarrow  [-1;2^e-2]$.
 - Si eliminano i due valori più piccoli, cioè -1 e 0, ottenendo $[1;2^e-2]$, in binario $[0..01;1..10]$
 ## rappresentazione
-Nello standard IEEE 754, il segno, l'esponente e l mantissa di un numero in virgola mobile viene rappresentato mettendo vicini i bit del segno, dell'esponente e della mantissa; talvolta si usa la base esadecimale (base 16,, più compatta del binario) in cui ogni numero rappresenta 4 bit.
+Nello standard IEEE 754, il segno, l'esponente e l mantissa di un numero in virgola mobile viene rappresentato mettendo vicini i bit del segno, dell'esponente e della mantissa; talvolta si usa la base esadecimale (base 16, più compatta del binario) in cui ogni numero rappresenta 4 bit.
+
 ```
 Esempio: 26,42 = <0;10011;1010011010> = 0100111010011010
 0100 = 4
@@ -56,7 +62,36 @@ Esempio: 26,42 = <0;10011;1010011010> = 0100111010011010
 1010 = A
 26,42 = 0x4E9A
 ```
-## tipi di valori diversi
+## categorie di valori numerici diversi
+
+### numeri rappresentabili (normalized)
+
+#### valore assoluto massimo
+
+Il valore assoluto più grande rappresentabile nell'IEEE 754 corrisponde alla mantissa più grande abbinata all'esponente più grande.
+
+- La **mantissa più grande** è una sequenza di 1 lunga quanto i bit disponibili $m$ (più l'uno implicito): $$1,1111111111_{2} = {10-0,0000000001}_{2} = 2-2^{-m}$$
+- l'**esponente più grande**, *considerando il bias*, è una sequenza di 1 lunga quanto i bit disponibili (tranne l'ultimo che è 0, perché l'esponente tutto a 1 è riservato per i valori infiniti) ${11110}_{2} = 2^{e}-1$; se si toglie il bias, si ottiene il valore vero di $$2^{e}-1-\text{bias} = (2^{e}-1)-(2^{e-1}-1) = 2^{e} - 2^{e-1} = 2^{e-1}$$
+
+Quindi il **più grande valore assoluto rappresentabile** è $$\pm {(2-2^{-m})}\cdot 2^{e-1}$$
+- Per l'*half precision*, $(2-2^{-10})\cdot 2^{2^4}$
+#### valore assoluto minimo
+
+Il valore più piccolo rappresentabile nell'IEEE 754 corrisponde alla mantissa più piccola abbinata all'esponente più piccolo.
+
+- La **mantissa più piccola** è una sequenza di 0 lunga quanto i bit disponibili (più l'uno implicito): $${1,0000000000}_{2} = 1$$
+- L'**esponente più piccolo**, *considerando il bias* è una sequenza di 0 lunga quanto i bit disponibili, ma se si toglie il bias, si ottiene il valore vero di $$0-\text{bias} = - 2^{e-1}+1$$
+
+Quindi il **più piccolo valore assoluto rappresentabile** è $$1\cdot 2^{1-2^{e-1}}\ \ ()$$
+
+| Tipo di numero     | Intervallo Minimo                 | Intervallo Massimo                 |
+| ------------------ | --------------------------------- | ---------------------------------- |
+| **Denormalizzato** | $-2^{1 - bias} \times 2^{-n}$     | $2^{1 - bias} \times (1 - 2^{-n})$ |
+| **Normalizzato**   | $2^{1 - bias} \times 2^{-n}$      | $(1 - 2^{-n}) \times 2^{k - bias}$ |
+| **Zero**           | $0$                               | $0$                                |
+| **Infinito**       | $+\infty$ (per esponente massimo) | $-\infty$ (per esponente massimo)  |
+| **NaN**            | Non numerico (esponente massimo)  | Non numerico (esponente massimo)   |
+
 
 | tipo                                              | esponente   | mantissa  | segno |
 | ------------------------------------------------- | ----------- | --------- | ----- |

@@ -1,7 +1,7 @@
 > Adder sequenziale che somma due numeri arbitrariamente lunghi sommando la cifra n-esima del primo con quella del secondo, producendo in output il singolo bit della somma delle due cifre a ogni iterazione.
 
 # Sintesi dell'automa
-## 1. [[automi a stati finiti (finite state automata)|Diagramma di Mealy]], stati dell'automa e della macchina
+## 1. [[automa a stati finiti (finite state automata)|Diagramma di Mealy]], stati dell'automa e della macchina
 
 L'idea è di memorizzare il riporto generato in ogni iterazione in un singolo in un singolo [[flip-flop]], dato che è rappresentato da un singolo bit.
 

@@ -1,5 +1,3 @@
-> è la cella di base della memoria: memorizza un singolo bit e contiene una ***linea di feedback***.
+> è la cella di base della memoria: memorizza un singolo bit grazie a ***linea di feedback*** che cattura l'output e lo fa ritornare nel circuito come un input.
 
-- [[latch set-reset (SR)]] (il più semplice)
-- [[latch sincrono (gated latch)]]
-- [[master-slave latch (o flip-flop SR master-slave)]]
+- [[latch set-reset (SR)]]

@@ -4,6 +4,7 @@
 3. Decidere il segno del risultato
 4. Eseguire l'operazione
 5. Valutare il risultato e aggiustare la potenza portandola allo standard (normalizzazione)
+
 ```
 Somma tra:
 
