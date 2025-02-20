@@ -2,7 +2,7 @@
 
 >NOR: $\overline{a+b}$ ($a \downarrow b$)
 
-NAND e NOR sono operatori universali, quindi posso realizzare NOT, AND e OR usando solo NAND oppure solo NOR (eccetto in casi particolari, quindi bisogna verificare con [[algebra di Boole|De Morgan]]). Dei circuiti così realizzati si chiamano reti all-AND o reti all-OR.
+NAND e NOR sono operatori universali, quindi posso realizzare NOT, AND e OR usando solo NAND oppure solo NOR (eccetto in casi particolari, quindi bisogna verificare con [[algebra di Boole|De Morgan]]). Dei circuiti così realizzati si chiamano reti all-NAND o reti all-NOR.
 ## all NAND (conveniente per forme SOP)
 **NOT** $\overline a = \overline{aa} = a\uparrow a$
 **AND** $ab=\overline{a\uparrow b}=(a\uparrow b)\uparrow(a\uparrow b)$

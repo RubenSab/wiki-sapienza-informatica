@@ -1,7 +1,7 @@
 Inventata da George Boole, l'algebra di Boole fornisce un modo simbolico per manipolare e rappresentare le informazioni logiche.
 
 L'algebra di Boole può essere interpretata in più modi, ad esempio considerandola come
-- manipolazione di aree di figure geometriche,
+- manipolazione di aree di figure geometriche (vedi i diagrammi di Eulero-Venn),
 - l'algebra della [[logica proposizionale]]
 - l'[[algebra delle porte logiche]] dei circuiti,
 
@@ -9,31 +9,27 @@ ma sempre avendo cura di mantenere la validità e la consistenza degli assiomi.
 # Basi dell'algebra booleana
 I postulati che definiscono un'algebra, come quella booleana, sono *consistenti* tra loro, *semplici* e *indipendenti*.
 
-L'algebra di Boole può essere costruita a partire da diversi insiemi di postulati, dei quali uno dei più intuitivi è costituito da 6 postulati e 3 definizioni:
+L'algebra di Boole può essere costruita a partire da diversi insiemi di postulati, dei quali uno dei più intuitivi è costituito da questi postulati e definizioni:
 ## postulati (o assiomi)
 
 Gli assiomi elencati sotto sono quelli dell'algebra booleana pura, ma per l'interpretazione a [[porte logiche]] è utile usare 0 e 1 come A e B, e {0, 1} come classe $K$ (anche chiamata alfabeto di supporto).
 1. **Chiusura**  
    - $A + B \in K$
-   - $A \cdot B \in K$
-2. **Complemento**  
+   - $A \cdot B \in K$  
    - $\forall A \in K, \quad \overline{A} \in K$  
-3. **Commutatività**  
+2. **Commutatività**  
    - $A + B = B + A$  
    - $A \cdot B = B \cdot A$  
-4. **Associatività**  
+3. **Associatività**  
    - $(A + B) + C = A + (B + C)$  
    - $(A \cdot B) \cdot C = A \cdot (B \cdot C)$  
-5. **Distributività**  
+4. **Distributività**  
    - $A \cdot (B + C) = A \cdot B + A \cdot C$  
    - $A + (B \cdot C) = (A + B) \cdot (A + C)$  
-6. **Identità**  
-   - $A + 0 = A$  
-   - $A \cdot 1 = A$  
-7. **Complementazione**  
+5. **Complementazione**  
    - $A + \overline{A} = 1$  
    - $A \cdot \overline{A} = 0$  
-8. **Idempotenza**  
+6. **Idempotenza**  
    - $A + A = A$  
    - $A \cdot A = A$
 
@@ -42,8 +38,10 @@ Questi sono i principi fondamentali che definiscono un'algebra booleana.
 >N.B. A differenza della matematica, sia l'operatore + che l'operatore $\cdot$ godono delle proprietà associativa, commutativa e distributiva (es: $(x+y)\cdot(x+z)=x+y\cdot z$.
 ## definizioni
 (non sono assiomi ma seguono naturalmente dagli assiomi):
-1. $A+\overline A=1$ elemento universale
-2. $\overline{A+\overline A}=0$ elemento nullo
+
+- 0 è l'elemento neutro dell'OR e l'elemento nullo dell'AND
+- 1 è l'elemento neutro dell'AND e l'elemento nullo dell'OR
+
 # principio di dualità
 Ogni identità valida nell'Algebra Booleana rimane valida se si scambiano fra loro:
 - gli operatori $+$ e $\cdot$
@@ -67,7 +65,7 @@ avendo cura di mantenere le precedenze degli operatori, cioè le proprietà espl
 | $X+1=1$               | $X \cdot 0 = 0$           | Elemento nullo   |
 | $X + X = X$           | $X\cdot X = X$            | Idempotenza      |
 
-# proprietà
+# teoremi/proprietà dell'algebra booleana
 
 | espressione                                    | forma duale                                       | nome                |
 | ---------------------------------------------- | ------------------------------------------------- | ------------------- |

@@ -2,6 +2,4 @@ Il funzionamento di un circuito, visto come struttura sequenziale di porte logic
 
 - [[ottimizzazione delle reti combinatorie]]
 - [[porte logiche]]
-- [[segnali a onda quadra]]
-- [[funzione di maggioranza]]
 - [[funzioni non completamente definita o specificata]]

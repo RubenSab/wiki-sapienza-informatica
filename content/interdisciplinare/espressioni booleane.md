@@ -37,7 +37,7 @@ L'identità si può verificare:
 ### forme normali SOP
 > Le forme SOP (Sum of Products), o forme disgiuntive, sono espressioni nella forma prodotto $+$ prodotto.
 ### procedimento per ottenere una forma normale
-1. Applicare De Morgan per "spostare" la complementazione da espressioni più grandi alle singole variabili.o
+1. Applicare De Morgan per "spostare" la complementazione da espressioni più grandi alle singole variabili.
 2. Applicare la **proprietà distributiva** per svolgere le espressioni tra parentesi.
 3. Applicare più volte **assorbimento** e **idempotenza** per eliminare termini ridondanti o ripetuti, così otteniamo una forma normale.
 - [[esercizio con conversioni tra forme SOP, POS e canoniche]]

@@ -11,7 +11,7 @@ $F$ è una corrispondenza biunivoca tra $\mathbb{N}$ e $\mathbb{P}$, quindi i du
 
 >N.B.: Ogni sottoinsieme infinito di $\mathbb{N}$ è numerabile.
 
-- Anche $\mathbb{N}\times\mathbb{N}$ è numerabile, uno dei metodi possibili per dimostrarlo è il metodo della [[coda di colomba (o dove tail)]].
+- Anche $\mathbb{N}\times\mathbb{N}$ è numerabile, uno dei metodi possibili per dimostrarlo è il metodo della [coda di colomba (o dove tail)](https://medium.com/@dillihangrae/dovetailing-in-turing-machine-e1ea2bb330ce).
 # concetto di cardinalità nelle codifiche di informazioni
 - NI = NC codifica non ambigua e non ridondante: gli [[teoria degli insiemi|insiemi]] I e C hanno lo stesso numero di "parole" per codificare ogni tipo di informazioni presenti.
 - NI > NC codifica ambigua: non ci sono abbastanza "parole" per codificare ogni tipo di informazioni presenti.
