@@ -1,4 +1,4 @@
-> Se la funzione $f$ è [[derivata|derivabile]] $n$ volte $$\implies  P_{n}(x;x_{0})=\sum_{k=0}^{n}\frac{f^{(k)}(x_{0})}{k!}(x-x_{0})^{k}$$
+> Se la funzione $f$ è [[derivate|derivabile]] $n$ volte $$\implies  P_{n}(x;x_{0})=\sum_{k=0}^{n}\frac{f^{(k)}(x_{0})}{k!}(x-x_{0})^{k}$$
 è il [[miglior polinomio]], detto polinomio di Taylor di ordine $n$ centrato in $x_{0}$. è l'UNICO polinomio tale che $$\lim_{x\rightarrow x_{0}}\frac{f(x)-P_{n}(x;x_{0})}{(x-x_{0})^n}=0$$
 
 > La formula si può riscrivere come $$f(a)+f^{'}(a)(x−a)+\frac{f^{''}(a)}{2!}(x−a)^{2}+\frac{f^{′′′}(a)}{3!}(x−a)^{3}+⋯$$

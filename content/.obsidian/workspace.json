@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "calcolo differenziale/calcolo differenziale.md",
+                "file": "calcolo differenziale/derivate.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "calcolo differenziale"
+              "title": "derivate"
             }
           }
         ]
@@ -71,8 +71,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 280.5094871520996,
-    "collapsed": true
+    "width": 280.5094871520996
   },
   "right": {
     "id": "26b38658cac3fe47",
@@ -178,6 +177,10 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "calcolo differenziale/serie di Taylor.md",
+    "calcolo differenziale/derivate.md",
+    "calcolo differenziale/calcolo differenziale.md",
+    "Untitled.md",
     "progettazione di sistemi digitali/progettazione di sistemi digitali.md",
     "metodi matematici per l'informatica/metodi matematici per l'informatica.md",
     "progettazione di sistemi digitali/funzione di maggioranza.md",
@@ -199,11 +202,7 @@
     "progettazione di sistemi digitali/algebra delle porte logiche e reti combinatorie.md",
     "metodi matematici per l'informatica/induzione.md",
     "metodi matematici per l'informatica/induzione matematica.md",
-    "calcolo differenziale/calcolo differenziale.md",
     "calcolo differenziale/formulario completo del calcolo differenziale.md",
-    "metodi matematici per l'informatica/esercizi/esercizi di metodi matematici per l'informatica.md",
-    "metodi matematici per l'informatica/esercizi/esercizi 10-15.md",
-    "calcolo differenziale/limiti.md",
     "progettazione di sistemi digitali/flip-flop JK.png",
     "progettazione di sistemi digitali/comparatore.svg",
     "progettazione di sistemi digitali/adder sequenziale.jpg",

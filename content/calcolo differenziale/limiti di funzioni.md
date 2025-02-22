@@ -7,7 +7,7 @@ $$\lim_{n\rightarrow +\infty}{f(x)}=L \iff \forall\varepsilon > 0\ \ \ \ \exists
 # teorema "dell'esistenza del limite"
 $$\lim_{x\rightarrow x_{0}}{f(x)}=\blacksquare \iff \lim_{x\rightarrow x_{0}^+}{f(x)}=\blacksquare = \lim_{x\rightarrow x_{0}^-}{f(x)}$$
 - [[funzione continua e discontinua]]
-- [[derivata]]
+- [[derivate]]
 # possibili limiti di una funzione
 #todo inserire definizioni
 
