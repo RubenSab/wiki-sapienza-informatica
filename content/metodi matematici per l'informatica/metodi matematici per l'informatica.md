@@ -1,7 +1,7 @@
 ---
-updated_at: 2025-02-22T11:42:09.688+01:00
+updated_at: 2025-02-22T15:24:12.004+01:00
 ---
-# indice
+# argomenti
 
 ## prima parte
 

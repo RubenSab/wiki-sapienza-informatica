@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "progettazione di sistemi digitali/progettazione di sistemi digitali.md",
-                "mode": "preview",
+                "file": "calcolo differenziale/calcolo differenziale.md",
+                "mode": "source",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -28,25 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "progettazione di sistemi digitali"
-            }
-          }
-        ]
-      },
-      {
-        "id": "95a261756359aa11",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "1e8284bbece5404c",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "graph",
-              "state": {},
-              "pinned": true,
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "title": "calcolo differenziale"
             }
           }
         ]
@@ -194,9 +176,10 @@
       "timethings:Activate view": false
     }
   },
-  "active": "1e8284bbece5404c",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
     "progettazione di sistemi digitali/progettazione di sistemi digitali.md",
+    "metodi matematici per l'informatica/metodi matematici per l'informatica.md",
     "progettazione di sistemi digitali/funzione di maggioranza.md",
     "progettazione di sistemi digitali/moduli standard.md",
     "progettazione di sistemi digitali/diagramma temporale di reti sequenziali.md",
@@ -214,7 +197,6 @@
     "interdisciplinare/cardinalità (o potenza).md",
     "progettazione di sistemi digitali/overflow.md",
     "progettazione di sistemi digitali/algebra delle porte logiche e reti combinatorie.md",
-    "metodi matematici per l'informatica/metodi matematici per l'informatica.md",
     "metodi matematici per l'informatica/induzione.md",
     "metodi matematici per l'informatica/induzione matematica.md",
     "calcolo differenziale/calcolo differenziale.md",
