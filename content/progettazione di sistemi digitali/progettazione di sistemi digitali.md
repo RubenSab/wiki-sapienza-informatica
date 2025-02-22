@@ -1,13 +1,23 @@
+---
+updated_at: 2025-02-22T12:17:02.380+01:00
+---
+Libro consigliato: **Reti logiche** M. Morris Mano, C. R. Kime, T. Martin, Pearson Ed.
+
+# indice
+
+## codifica dell'informazione
+- [[codifica dell'informazione (alfa)numerica]] e [[overflow]]
+- [[errori di trasmissione]]
+
+## reti combinatorie
+- [[algebra delle porte logiche e reti combinatorie|reti combinatorie]]
+- [[espressioni booleane]] e [[criterio di minimalità]]
+- [[moduli standard]], [[addizionatori (adder)]] e [[unità aritmetico logica (ALU)]]
+
+## reti sequenziali
+- [[flip-flop]], [[reti sequenziali]] e [[automa a stati finiti (finite state automata)]]
+- [[registri]]
+
+
+## altro
 - [[esercizi di progettazione di sistemi digitali]]
-
-https://twiki.di.uniroma1.it/twiki/view/Architetture1/EO/CanaleE_O
-- preparazione sull'architettura/funzionamento di un calcolatore
-- parte di progettazione dei computer basata sulla logica
-
-libro consigliato: **Reti logiche** M. Morris Mano, C. R. Kime, T. Martin, Pearson Ed.
-
-[[definizione di computer, architettura di von neumann]]
-
-- [[rappresentazione dell'informazione]]
-- [[algebra delle porte logiche|reti combinatorie]] e [[moduli standard]]
-- [[reti sequenziali]]

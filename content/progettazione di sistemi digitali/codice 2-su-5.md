@@ -1,4 +1,7 @@
->è una codifica ridondante utile per trasmettere le informazioni permettendo di controllare se si sono verificati [[errori di trasmissione]]. In questa codifica solo 2 bit su 5 valgono 1, e a ogni bit si associa un peso.
+---
+updated_at: 2025-02-22T12:03:07.617+01:00
+---
+> è una codifica ridondante utile per trasmettere le informazioni permettendo di controllare se si sono verificati [[errori di trasmissione]]. In questa codifica solo 2 bit su 5 valgono 1, e a ogni bit si associa un peso.
 
 ```
 Esempio: pesi 6 3 2 1 0 (ma potrebbero essere diversi) 

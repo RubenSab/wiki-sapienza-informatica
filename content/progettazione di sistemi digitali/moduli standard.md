@@ -1,3 +1,7 @@
+---
+updated_at: 2025-02-22T12:13:51.527+01:00
+---
+- [[complementatore]]
 - [[decodificatore (DEC)]]
 - [[codificatore (ENC)]]
 - [[multiplexer (MUX)]]

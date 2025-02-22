@@ -21,7 +21,7 @@ Mappa di Karnaugh corrispondente:
 | 1    | M4  | M5  | M7  | M6  |
 # "coordinate" delle K-mappe a n variabili
 
->N.B.: Notiamo che per la K-mappa generica a 3 variabili, le "coordinate" sull' "asse" bc non sono 00 01 10 11, ma 00 01 11 10, infatti la loro numerazione ***non è in binario*** ma in [[Gray code]].
+>N.B.: Notiamo che per la K-mappa generica a 3 variabili, le "coordinate" sull' "asse" bc non sono 00 01 10 11, ma 00 01 11 10, infatti la loro numerazione ***non è in binario*** ma in [[gray code]].
 ## esempio
 | a b c | output |
 | ----- | ------ |

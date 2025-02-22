@@ -3,7 +3,7 @@ Inventata da George Boole, l'algebra di Boole fornisce un modo simbolico per man
 L'algebra di Boole può essere interpretata in più modi, ad esempio considerandola come
 - manipolazione di aree di figure geometriche (vedi i diagrammi di Eulero-Venn),
 - l'algebra della [[logica proposizionale]]
-- l'[[algebra delle porte logiche]] dei circuiti,
+- l'[[algebra delle porte logiche e reti combinatorie]] dei circuiti,
 
 ma sempre avendo cura di mantenere la validità e la consistenza degli assiomi.
 # Basi dell'algebra booleana

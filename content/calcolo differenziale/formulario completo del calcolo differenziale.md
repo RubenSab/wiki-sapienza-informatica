@@ -1,3 +1,6 @@
+---
+updated_at: 2025-02-22T11:32:15.646+01:00
+---
 $E \subseteq \mathbb{N}$
 
 > $M$ si dice **maggiorante** di $E$ se $M \geq N\ \ \forall N \in E$

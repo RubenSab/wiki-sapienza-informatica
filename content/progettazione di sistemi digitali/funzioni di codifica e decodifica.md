@@ -1,6 +1,6 @@
 c: I -> C
 
-I è l'insieme delle informazioni e C è il codice, la [[rappresentazione dell'informazione|rappresentazione]].
+I è l'insieme delle informazioni e C è il codice, la [[codifica dell'informazione (alfa)numerica|rappresentazione]].
 
 questa [[relazione]] si basa sull'alfabeto, cioè l'insieme dei simboli utilizzati.
 nelle rappresentazioni per il computer useremo solo {0, 1}, i bit (Binary Digit).

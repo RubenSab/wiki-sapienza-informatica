@@ -1,10 +1,8 @@
-# bit di parità
-I bit di parità sono bit aggiuntivi all'informazione codificata per individuare errori in trasmissione.
-## parità pari
-> Il numero di bit uguali a 1 compreso il bit di parità deve essere pari. 
+---
+updated_at: 2025-02-22T12:05:58.757+01:00
+---
+> Nelle trasmissioni dell'informazione possono avvenire degli errori, cioè delle inversioni indesiderate dei bit.
 
-## parità dispari
-> Il numero di bit uguali a 1 compreso il bit di parità deve essere dispari.
+Per compensare ciò si utilizzano molti metodi tra cui il [[gray code]] e [[bit di parità]].
+Questi ultimi sono impiegati nel [[codice 2-su-5]], nel [[codice di Hamming]] e nell'[[ASCII]].
 
-- Il mittente aggiunge il bit di parità.
-- Il destinatario ricalcola il bit di parità e lo confronta con quello ricevuto e decide se ci sono stati errori in trasmissione.

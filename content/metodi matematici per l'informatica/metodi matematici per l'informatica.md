@@ -1,9 +1,17 @@
-- [[esercizi di metodi matematici per l'informatica]]
-# prima parte
+---
+updated_at: 2025-02-22T11:42:09.688+01:00
+---
+# indice
+
+## prima parte
+
 - [[teoria degli insiemi]]
-- [[metodi matematici per l'informatica/induzione]]
-## esercizi
-- [[esercizi 10-15]]
-# seconda parte
+- [[induzione]]
+## seconda parte
+
 - [[logica proposizionale]]
 - [[logica predicativa]]
+
+## altro
+
+- [[esercizi di metodi matematici per l'informatica]]

@@ -1,19 +1,19 @@
 {
   "main": {
-    "id": "5a9b45b98df6cb56",
+    "id": "5324373015726ba8",
     "type": "split",
     "children": [
       {
-        "id": "5781e6f4d947cbd6",
+        "id": "4509724f8bf84da7",
         "type": "tabs",
         "children": [
           {
-            "id": "3c409f12beaf003b",
+            "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "progettazione di sistemi digitali/operazioni aritmetiche in base 2.md",
+                "file": "progettazione di sistemi digitali/progettazione di sistemi digitali.md",
                 "mode": "preview",
                 "source": false,
                 "backlinks": true,
@@ -28,121 +28,28 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "operazioni aritmetiche in base 2"
+              "title": "progettazione di sistemi digitali"
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "95a261756359aa11",
+        "type": "tabs",
+        "children": [
           {
-            "id": "283a311799180294",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "progettazione di sistemi digitali/flip-flop set-reset (SR).md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "flip-flop set-reset (SR)"
-            }
-          },
-          {
-            "id": "2b7e0d6347e1e603",
+            "id": "1e8284bbece5404c",
             "type": "leaf",
             "pinned": true,
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "index.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
+              "type": "graph",
+              "state": {},
               "pinned": true,
-              "icon": "lucide-file",
-              "title": "index"
-            }
-          },
-          {
-            "id": "5d51cf0861011fd5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "progettazione di sistemi digitali/addizionatore sequenziale.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "addizionatore sequenziale"
-            }
-          },
-          {
-            "id": "5f9cb1e32193e4b6",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "progettazione di sistemi digitali/flip-flop JK.png"
-              },
-              "icon": "lucide-image",
-              "title": "flip-flop JK"
-            }
-          },
-          {
-            "id": "0040ec1db52fb81a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "calcolo differenziale/formulario calcolo differenziale.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "formulario calcolo differenziale"
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "vertical"
@@ -169,16 +76,6 @@
             }
           },
           {
-            "id": "b81d9572839438c6",
-            "type": "leaf",
-            "state": {
-              "type": "surfing-tab-tree",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
-            }
-          },
-          {
             "id": "e4e232db8a5f12b5",
             "type": "leaf",
             "state": {
@@ -187,60 +84,13 @@
               "icon": "lucide-bookmark",
               "title": "Bookmarks"
             }
-          },
-          {
-            "id": "8a0ca084c03dbab4",
-            "type": "leaf",
-            "state": {
-              "type": "surfing-tab-tree",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
-            }
-          },
-          {
-            "id": "f8f30c9a426e0e5f",
-            "type": "leaf",
-            "state": {
-              "type": "surfing-tab-tree",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
-            }
-          },
-          {
-            "id": "bf6ffb2552926f94",
-            "type": "leaf",
-            "state": {
-              "type": "surfing-tab-tree",
-              "state": {},
-              "icon": "chrome",
-              "title": "Surfing Tab Tree"
-            }
-          }
-        ]
-      },
-      {
-        "id": "adb2dbe053b7b3b6",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "1e8284bbece5404c",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "graph",
-              "state": {},
-              "pinned": true,
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
-            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 280.5094871520996
+    "width": 280.5094871520996,
+    "collapsed": true
   },
   "right": {
     "id": "26b38658cac3fe47",
@@ -340,37 +190,38 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "homepage:Open homepage": false
+      "homepage:Open homepage": false,
+      "timethings:Activate view": false
     }
   },
-  "active": "0040ec1db52fb81a",
+  "active": "1e8284bbece5404c",
   "lastOpenFiles": [
-    "calcolo differenziale/calcolo differenziale.md",
-    "calcolo differenziale/formulario calcolo differenziale.md",
-    "interdisciplinare/funzione.md",
-    "index.md",
-    "Untitled.md",
-    "progettazione di sistemi digitali/operazioni aritmetiche in base 2.md",
-    "progettazione di sistemi digitali/sistemi numerici del calcolatore.md",
+    "progettazione di sistemi digitali/progettazione di sistemi digitali.md",
     "progettazione di sistemi digitali/funzione di maggioranza.md",
-    "progettazione di sistemi digitali/complemento a 2 (CA2).md",
-    "progettazione di sistemi digitali/ripple carry adder per valori in CA2.md",
-    "progettazione di sistemi digitali/addizionatore sequenziale.md",
-    "progettazione di sistemi digitali/registro contatore.md",
-    "progettazione di sistemi digitali/contatore sincrono modulo 2 alla n.md",
-    "progettazione di sistemi digitali/registri.md",
-    "progettazione di sistemi digitali/registri di memorizzazione.md",
-    "progettazione di sistemi digitali/registro universale.md",
-    "progettazione di sistemi digitali/rotazione a destra e a sinistra di registri.md",
-    "progettazione di sistemi digitali/scorrimento sia a destra che a sinistra di registri (SISO).md",
-    "progettazione di sistemi digitali/caricamento parallelo e seriale di registri + right shift register.md",
-    "interdisciplinare/algebra di Boole.md",
-    "interdisciplinare/espressioni booleane.md",
-    "progettazione di sistemi digitali/algebra delle porte logiche.md",
-    "progettazione di sistemi digitali/NAND e NOR.md",
-    "progettazione di sistemi digitali/altri operatori logici.md",
-    "progettazione di sistemi digitali/flip-flop (JK).md",
-    "progettazione di sistemi digitali/tabelle inverse dei flip flop.md",
+    "progettazione di sistemi digitali/moduli standard.md",
+    "progettazione di sistemi digitali/diagramma temporale di reti sequenziali.md",
+    "progettazione di sistemi digitali/errori di trasmissione.md",
+    "progettazione di sistemi digitali/codifica dell'informazione (alfa)numerica.md",
+    "progettazione di sistemi digitali/rappresentazione o codifica dei numeri interi relativi.md",
+    "progettazione di sistemi digitali/rappresentazione o codifica dei numeri naturali.md",
+    "progettazione di sistemi digitali/sistemi numerici posizionali.md",
+    "progettazione di sistemi digitali/sistemi numerici del calcolatore.md",
+    "progettazione di sistemi digitali/gray code.md",
+    "progettazione di sistemi digitali/ASCII.md",
+    "progettazione di sistemi digitali/codice di Hamming.md",
+    "progettazione di sistemi digitali/codice 2-su-5.md",
+    "progettazione di sistemi digitali/bit di parità.md",
+    "interdisciplinare/cardinalità (o potenza).md",
+    "progettazione di sistemi digitali/overflow.md",
+    "progettazione di sistemi digitali/algebra delle porte logiche e reti combinatorie.md",
+    "metodi matematici per l'informatica/metodi matematici per l'informatica.md",
+    "metodi matematici per l'informatica/induzione.md",
+    "metodi matematici per l'informatica/induzione matematica.md",
+    "calcolo differenziale/calcolo differenziale.md",
+    "calcolo differenziale/formulario completo del calcolo differenziale.md",
+    "metodi matematici per l'informatica/esercizi/esercizi di metodi matematici per l'informatica.md",
+    "metodi matematici per l'informatica/esercizi/esercizi 10-15.md",
+    "calcolo differenziale/limiti.md",
     "progettazione di sistemi digitali/flip-flop JK.png",
     "progettazione di sistemi digitali/comparatore.svg",
     "progettazione di sistemi digitali/adder sequenziale.jpg",
