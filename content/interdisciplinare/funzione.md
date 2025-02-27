@@ -1,8 +1,11 @@
+---
+updated_at: 2025-02-27T11:09:09.979+01:00
+---
 $f:\mathbb{R}\rightarrow\mathbb{R}, \ \ x\rightarrow f(x)$
 $f: A \rightarrow B$
 - $f$ è la legge che associa ad ogni elemento di $A$ un'elemento di $B$
-- $A$ è il dominio
-- $B$ è il codominio
+- $A$ è il dominio (insieme degli input)
+- $B$ è il codominio (insieme degli output)
 
 >Una **funzione** è una [[relazione]] ($F\subseteq A\times B$, $\forall a \in A\ \exists !\ b\in B\ |\ (a,b)\in F$) che associa (l'[[teoria degli insiemi|insieme]] A) il dominio e (B) il codominio.
 >Esempio: $f(a)=a^2\rightarrow\{(a,b)\in\mathbb{N}\times\mathbb{N}\ |\ b=a^2\}=(0,0)(1,1)(2,4)(3,9)..(a,a^2)$

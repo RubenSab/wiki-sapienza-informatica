@@ -1,0 +1,11 @@
+---
+updated_at: 2025-02-27T14:21:32.501+01:00
+---
+- **Indipendenza dalla piattaforma**: *write once, run anywhere*, non viene compilato su una macchina, ma nel [[bytecode]] di una macchina virtuale.
+- **Sicurezza**: non permette manomissioni, le tecniche di autenticazione sono basate su codifiche con chiavi pubbliche.
+- **Robustezza**: le situazioni tipiche d’errore vengono eliminate il più possibile a tempo di compilazione – Laddove non possibile, gestite a tempo di esecuzione con appositi controlli.
+- **Multithreading**: supporta nativamente programmi che gestiscono attività eseguite in contemporanea (thread) – Facilita la costruzione di applicazioni interattive.
+- **Interpretato e compilato**: il byte code è tradotto “al volo” in istruzioni macchina native – Rende più veloce e snello il processo di sviluppo
+- **Alte prestazioni**: con l’uso dei compilatori Just-In-Time (JIT), le prestazioni sono le stesse se non addirittura SUPERIORI del codice nativo
+- **Distribuito**: progettato per ambienti distribuiti come Internet
+- **Dinamico**: si adatta a un ambiente in evoluzione – Porta con sé parecchie informazioni a tempo di esecuzione per verificare e risolvere gli accessi agli oggetti

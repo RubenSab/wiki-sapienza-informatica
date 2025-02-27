@@ -1,1 +1,1 @@
-- nell'architettura di von neumann connette [[cpu]], [[memoria]] e [[dispositivi di ingresso e uscita, (IO)]]; al giorno d'oggi si è formata una gerarchia di moduli con bus più complessi.
+- nell'architettura di von neumann connette [[CPU]], [[memoria]] e [[dispositivi di ingresso e uscita, (IO)]]; al giorno d'oggi si è formata una gerarchia di moduli con bus più complessi.
