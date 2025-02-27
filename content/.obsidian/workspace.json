@@ -16,8 +16,19 @@
               "icon": "lucide-file",
               "title": "New tab"
             }
+          },
+          {
+            "id": "94c99d839d274695",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -161,8 +172,10 @@
       "timethings:Activate view": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "6b36e9a938a7c537",
   "lastOpenFiles": [
+    "Untitled.md",
+    "index.md",
     "metodologie di programmazione/oggetto.md",
     "metodologie di programmazione/programmazione orientata agli oggetti.md",
     "metodologie di programmazione/metodo.md",
@@ -170,12 +183,10 @@
     "metodologie di programmazione/classe.md",
     "metodologie di programmazione/ereditarietà.md",
     "metodologie di programmazione/Untitled.md",
-    "Untitled.md",
     "metodologie di programmazione/superclasse.md",
     "metodologie di programmazione/incapsulamento.md",
     "metodologie di programmazione/information hiding.md",
     "metodologie di programmazione/metodologie di programmazione.md",
-    "metodologie di programmazione/index.md",
     "metodologie di programmazione",
     "calcolo differenziale/derivate.md",
     "calcolo differenziale/serie di Taylor.md",
