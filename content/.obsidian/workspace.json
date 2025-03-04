@@ -4,37 +4,37 @@
     "type": "split",
     "children": [
       {
-        "id": "cfe23f12bed0f2b7",
+        "id": "f4bf260bd92c66e9",
         "type": "tabs",
-        "dimension": 43.47826086956522,
+        "dimension": 37.703804347826086,
         "children": [
           {
             "id": "e7a7b303c61786dc",
             "type": "leaf",
+            "pinned": true,
             "state": {
-              "type": "pdf",
-              "state": {
-                "file": "metodologie di programmazione/Introduzione OOP.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "Introduzione OOP"
+              "type": "graph",
+              "state": {},
+              "pinned": true,
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ]
       },
       {
-        "id": "4509724f8bf84da7",
+        "id": "903d427b2508ac56",
         "type": "tabs",
-        "dimension": 56.52173913043478,
+        "dimension": 62.296195652173914,
         "children": [
           {
-            "id": "bf12837a97a77b11",
+            "id": "32d11047def0b1ff",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "metodologie di programmazione/tipo di dati.md",
-                "mode": "preview",
+                "file": "metodologie di programmazione/classe.md",
+                "mode": "source",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -48,19 +48,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "tipo di dati"
-            }
-          },
-          {
-            "id": "a63ba785249da1fe",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "graph",
-              "state": {},
-              "pinned": true,
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "title": "classe"
             }
           }
         ]
@@ -208,39 +196,41 @@
       "timethings:Activate view": false
     }
   },
-  "active": "bf12837a97a77b11",
+  "active": "32d11047def0b1ff",
   "lastOpenFiles": [
-    "metodologie di programmazione/variabile.md",
-    "metodologie di programmazione/tipo di dati.md",
-    "metodologie di programmazione/Java.md",
-    "metodologie di programmazione/caratteristiche di Java.md",
-    "metodologie di programmazione/Introduzione OOP.pdf",
-    "metodologie di programmazione/classe.md",
-    "metodologie di programmazione/oggetto.md",
-    "progettazione di sistemi digitali/ASCII.md",
-    "metodologie di programmazione/metodologie di programmazione.md",
-    "metodologie di programmazione/programmazione orientata agli oggetti.md",
-    "metodologie di programmazione/Introduzione Metodologie di Programmazione.pdf",
-    "metodologie di programmazione/messaggio.md",
     "metodologie di programmazione/metodo.md",
-    "metodologie di programmazione/incapsulamento.md",
-    "metodologie di programmazione/information hiding.md",
-    "architettura degli elaboratori/RISC.md",
-    "architettura degli elaboratori/architettura degli elaboratori.md",
-    "progettazione di sistemi digitali/esempio di progettazione dell'automa della macchina distributrice.md",
-    "architettura degli elaboratori/architettura di von neumann.md",
-    "architettura degli elaboratori/dispositivi di ingresso e uscita, (IO).md",
-    "architettura degli elaboratori/CPU.md",
-    "index.md",
-    "progettazione di sistemi digitali/registri.md",
-    "architettura degli elaboratori/Pasted image 20250227123947.png",
-    "interdisciplinare/funzione.md",
-    "architettura degli elaboratori/AE - 01 - Introduzione.pdf",
-    "progettazione di sistemi digitali/sistema binario.md",
-    "progettazione di sistemi digitali/unità di misura del sistema binario.md",
-    "architettura degli elaboratori",
-    "metodologie di programmazione/ereditarietà.md",
+    "metodologie di programmazione/Introduzione Metodologie di Programmazione.pdf",
+    "metodologie di programmazione/metodologie di programmazione.md",
     "metodologie di programmazione/Untitled.md",
+    "metodologie di programmazione/operatori.md",
+    "metodologie di programmazione/information hiding.md",
+    "metodologie di programmazione/programmazione orientata agli oggetti.md",
+    "metodologie di programmazione/riceve un input in esecuzione e genera un output.md",
+    "calcolo differenziale/Untitled.md",
+    "Untitled 1.md",
+    "metodologie di programmazione/Hello World in Java.md",
+    "interdisciplinare/funzione.md",
+    "metodologie di programmazione/boolean.md",
+    "metodologie di programmazione/tipo di dati.md",
+    "progettazione di sistemi digitali/modulo e segno (MS).md",
+    "progettazione di sistemi digitali/rappresentazione o codifica dei numeri interi relativi.md",
+    "progettazione di sistemi digitali/codifica dell'informazione (alfa)numerica.md",
+    "progettazione di sistemi digitali/codifica BCD (Binary Coded Decimal).md",
+    "metodologie di programmazione/char.md",
+    "metodologie di programmazione/letterale.md",
+    "metodologie di programmazione/espressione (Java).md",
+    "metodologie di programmazione/incapsulamento.md",
+    "metodologie di programmazione/variabile.md",
+    "introduzione agli algoritmi/efficienza.md",
+    "introduzione agli algoritmi/notazione Theta.md",
+    "introduzione agli algoritmi/notazione Omega.md",
+    "introduzione agli algoritmi",
+    "calcolo integrale",
+    "progettazione di sistemi digitali/comparator.webp",
+    "metodologie di programmazione/Introduzione OOP.pdf",
+    "architettura degli elaboratori/Pasted image 20250227123947.png",
+    "architettura degli elaboratori/AE - 01 - Introduzione.pdf",
+    "architettura degli elaboratori",
     "metodologie di programmazione",
     "progettazione di sistemi digitali/flip-flop JK.png",
     "progettazione di sistemi digitali/comparatore.svg",
@@ -250,12 +240,9 @@
     "progettazione di sistemi digitali/multiplexer.svg",
     "progettazione di sistemi digitali/encoder.svg",
     "Pasted image 20250218112715.png",
-    "Pasted image 20250218112653.png",
     "altro",
     "piani di studi",
     "progettazione di sistemi digitali/Logigator_ Editor.html",
-    "progettazione di sistemi digitali/Logigator_ Editor_files/polyfills-LZBJRJJE.js",
-    "progettazione di sistemi digitali/Logigator_ Editor_files/styles-OSOO62JX.css",
     "progettazione di sistemi digitali/rete sequenziale generica.canvas"
   ]
 }

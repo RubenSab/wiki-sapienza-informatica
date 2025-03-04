@@ -32,14 +32,7 @@
       "query": "path: \"metodi matematici per l'informatica\"  ",
       "color": {
         "a": 1,
-        "rgb": 6315737
-      }
-    },
-    {
-      "query": "path:\"fondamenti di programmazione\"  ",
-      "color": {
-        "a": 1,
-        "rgb": 9427294
+        "rgb": 7495385
       }
     },
     {
@@ -69,6 +62,20 @@
         "a": 1,
         "rgb": 14713938
       }
+    },
+    {
+      "query": "path: \"calcolo integrale\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 5412832
+      }
+    },
+    {
+      "query": "path: \"introduzione agli algoritmi\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 9166930
+      }
     }
   ],
   "collapse-display": false,
@@ -81,6 +88,6 @@
   "repelStrength": 13.1947643390821,
   "linkStrength": 0.682620759238239,
   "linkDistance": 178,
-  "scale": 0.16928770581073577,
+  "scale": 0.11026176993759129,
   "close": true
 }

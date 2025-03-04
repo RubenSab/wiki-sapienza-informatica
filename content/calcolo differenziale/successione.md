@@ -1,3 +1,6 @@
+---
+updated_at: 2025-03-03T09:00:54.226+01:00
+---
 > Una successione numerica è una qualsiasi sequenza infinita e ordinata di [[numeri reali]] in cui gli elementi possono al più coincidere tra loro.
 
 $a: \mathbb{N} \rightarrow \mathbb{R}$
@@ -19,6 +22,7 @@ Esempio con Fibonacci:
 
 # definizioni e concetti matematici delle successioni
 - [[infiniti e infinitesimi]]
+- [[notazione asintotica]]
 - [[notazione o-piccolo]]
 - [[notazione O-grande]]
 - [[concetto di asintotico]]

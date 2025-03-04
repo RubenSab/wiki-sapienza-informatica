@@ -1,7 +1,9 @@
 ---
-updated_at: 2025-02-27T14:28:49.241+01:00
+updated_at: 2025-03-04T09:06:28.315+01:00
 ---
-> è un nome usato per riferirsi a un valore di un [[tipo di dati]].
+> è un nome usato per riferirsi a un valore di un [[tipo di dati]], è rappresentata graficamente da un [[letterale]].
+
+> è una rappresentazione a livello di codice sorgente del valore o di un tipo di dati.
 
 Una variabile è creata per mezzo di una **dichiarazione**:
 
@@ -19,4 +21,14 @@ Un'istruzione può includere una **dichiarazione** e un'**assegnazione** allo st
 
 ``` Java
 int contatore = 0;
+```
+
+esempio: (codice dentro un [[metodo]]
+
+``` java
+int a, b;     // a e b non definite
+a = 5;        // a = 5 e b non definita
+b = a+10;     // a = 5 e b = 15
+int c = a+b;  // a = 5, b = 15 e c = 20
+a = c-3;      // a = 17, b = 15, c = 20
 ```

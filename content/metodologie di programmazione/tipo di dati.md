@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-02-27T14:37:30.642+01:00
+updated_at: 2025-03-04T09:21:34.842+01:00
 ---
 > Un tipo di dati è un'insieme di valori e di operazioni definite su tali valori.
 
@@ -12,16 +12,16 @@ updated_at: 2025-02-27T14:37:30.642+01:00
 
 In [[Java]] sono:
 
-| Tipo    | Dominio                                                                        | Operatori   | Dimensione |
-| ------- | ------------------------------------------------------------------------------ | ----------- | ---------- |
-| byte    | $[-128;127]$                                                                   |             | 1 byte     |
-| boolean | `true` o `false`                                                               | `&& \|\| !` | 1 byte     |
-| char    | tutti i caratteri unicode                                                      | `+ -`       | 2 byte     |
-| short   | interi $[-32768;32767]$                                                        |             | 2 byte     |
-| int     | interi $[-2147483648;2147483647]$                                              | `+ - * / %` | 4 byte     |
-| float   | parte intera: ±1038, parte frazionaria: circa 7 cifre decimali significative   |             | 4 byte     |
-| long    | interi $[-9223372036854775808;9223372036854775807]$                            |             | 8 byte     |
-| double  | parte intera: ±10308, parte frazionaria: circa 15 cifre decimali significative | `+ - * / %` | 8 byte     |
-| String* | sequenze di caratteri unicode                                                  | `+`         | variabile  |
+| Tipo        | Dominio                                                                        | Operatori   | Dimensione |
+| ----------- | ------------------------------------------------------------------------------ | ----------- | ---------- |
+| byte        | $[-128;127]$                                                                   |             | 1 byte     |
+| [[boolean]] | `true` o `false`                                                               | `&& \|\| !` | 1 byte     |
+| [[char]]    | tutti i caratteri unicode                                                      | `+ -`       | 2 byte     |
+| short       | interi $[-32768;32767]$                                                        |             | 2 byte     |
+| int         | interi $[-2147483648;2147483647]$                                              | `+ - * / %` | 4 byte     |
+| float       | parte intera: ±1038, parte frazionaria: circa 7 cifre decimali significative   |             | 4 byte     |
+| long        | interi $[-9223372036854775808;9223372036854775807]$                            |             | 8 byte     |
+| double      | parte intera: ±10308, parte frazionaria: circa 15 cifre decimali significative | `+ - * / %` | 8 byte     |
+| String*     | sequenze di caratteri unicode                                                  | `+`         | variabile  |
 \*le stringhe non sono veramente primitive, ma si possono trattare come tali.
 

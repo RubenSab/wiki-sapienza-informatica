@@ -1,6 +1,6 @@
 ---
 title: Wiki Informatica Sapienza primo anno (canale MZ)
-updated_at: 2025-02-27T10:35:19.265+01:00
+updated_at: 2025-02-28T11:17:57.793+01:00
 ---
 
 > email docenti: cognome@di.uniroma1.it
@@ -15,3 +15,5 @@ updated_at: 2025-02-27T10:35:19.265+01:00
 
 - [[metodologie di programmazione]]
 - [[architettura degli elaboratori]]
+- [[calcolo integrale]]
+- [[introduzione agli algoritmi]]
