@@ -4,36 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "f4bf260bd92c66e9",
+        "id": "4509724f8bf84da7",
         "type": "tabs",
-        "dimension": 37.703804347826086,
         "children": [
           {
             "id": "e7a7b303c61786dc",
             "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "graph",
-              "state": {},
-              "pinned": true,
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
-            }
-          }
-        ]
-      },
-      {
-        "id": "903d427b2508ac56",
-        "type": "tabs",
-        "dimension": 62.296195652173914,
-        "children": [
-          {
-            "id": "32d11047def0b1ff",
-            "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "metodologie di programmazione/classe.md",
+                "file": "calcolo integrale/serie.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -48,7 +28,17 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "classe"
+              "title": "serie"
+            }
+          },
+          {
+            "id": "d066b9bbdce94796",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ]
@@ -108,7 +98,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tipo",
+                "query": "carab",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -181,8 +171,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 342.5,
-    "collapsed": true
+    "width": 342.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -196,34 +185,43 @@
       "timethings:Activate view": false
     }
   },
-  "active": "32d11047def0b1ff",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "metodologie di programmazione/metodo.md",
-    "metodologie di programmazione/Introduzione Metodologie di Programmazione.pdf",
-    "metodologie di programmazione/metodologie di programmazione.md",
-    "metodologie di programmazione/Untitled.md",
-    "metodologie di programmazione/operatori.md",
+    "calcolo integrale/confronto asintotico.md",
+    "calcolo integrale/serie.md",
+    "calcolo integrale/successione di cauchy.md",
+    "calcolo integrale/serie di Mengoli.md",
+    "calcolo integrale/serie armoniche.md",
+    "calcolo differenziale/teoremi dei limiti sulle successioni.md",
+    "calcolo integrale/serie geometriche.md",
+    "calcolo integrale/Untitled.md",
+    "calcolo differenziale/limiti.md",
+    "calcolo differenziale/limiti di successioni.md",
+    "calcolo differenziale/successione.md",
+    "interdisciplinare/notazione asintotica.md",
+    "calcolo differenziale/teorema ponte.md",
+    "calcolo integrale/calcolo integrale.md",
+    "progettazione di sistemi digitali/progettazione di sistemi digitali.md",
+    "metodologie di programmazione/classe.md",
+    "metodologie di programmazione/java.lang.String.md",
+    "metodologie di programmazione/Unified Modeling Language (UML).md",
+    "metodologie di programmazione/classi.md",
     "metodologie di programmazione/information hiding.md",
-    "metodologie di programmazione/programmazione orientata agli oggetti.md",
-    "metodologie di programmazione/riceve un input in esecuzione e genera un output.md",
-    "calcolo differenziale/Untitled.md",
-    "Untitled 1.md",
-    "metodologie di programmazione/Hello World in Java.md",
-    "interdisciplinare/funzione.md",
-    "metodologie di programmazione/boolean.md",
-    "metodologie di programmazione/tipo di dati.md",
-    "progettazione di sistemi digitali/modulo e segno (MS).md",
-    "progettazione di sistemi digitali/rappresentazione o codifica dei numeri interi relativi.md",
-    "progettazione di sistemi digitali/codifica dell'informazione (alfa)numerica.md",
-    "progettazione di sistemi digitali/codifica BCD (Binary Coded Decimal).md",
-    "metodologie di programmazione/char.md",
-    "metodologie di programmazione/letterale.md",
-    "metodologie di programmazione/espressione (Java).md",
     "metodologie di programmazione/incapsulamento.md",
-    "metodologie di programmazione/variabile.md",
-    "introduzione agli algoritmi/efficienza.md",
-    "introduzione agli algoritmi/notazione Theta.md",
-    "introduzione agli algoritmi/notazione Omega.md",
+    "metodologie di programmazione/esempio di progettazione di una classe.md",
+    "metodologie di programmazione/Pasted image 20250306142721.png",
+    "metodologie di programmazione/Pasted image 20250306142435.png",
+    "metodologie di programmazione/Pasted image 20250306142415.png",
+    "metodologie di programmazione/Pasted image 20250306142411.png",
+    "metodologie di programmazione/Pasted image 20250306142314.png",
+    "metodologie di programmazione/diagramma delle classi in UML.md",
+    "metodologie di programmazione/metodologie di programmazione.md",
+    "metodologie di programmazione/programmazione orientata agli oggetti.md",
+    "interdisciplinare/funzione.md",
+    "architettura degli elaboratori/Pasted image 20250306101823.png",
+    "architettura degli elaboratori/Pasted image 20250306101803.png",
+    "architettura degli elaboratori/Pasted image 20250306101745.png",
+    "metodologie di programmazione/Introduzione Metodologie di Programmazione.pdf",
     "introduzione agli algoritmi",
     "calcolo integrale",
     "progettazione di sistemi digitali/comparator.webp",
@@ -232,14 +230,6 @@
     "architettura degli elaboratori/AE - 01 - Introduzione.pdf",
     "architettura degli elaboratori",
     "metodologie di programmazione",
-    "progettazione di sistemi digitali/flip-flop JK.png",
-    "progettazione di sistemi digitali/comparatore.svg",
-    "progettazione di sistemi digitali/adder sequenziale.jpg",
-    "progettazione di sistemi digitali/Full-Adder.png",
-    "progettazione di sistemi digitali/Half-Adder.png",
-    "progettazione di sistemi digitali/multiplexer.svg",
-    "progettazione di sistemi digitali/encoder.svg",
-    "Pasted image 20250218112715.png",
     "altro",
     "piani di studi",
     "progettazione di sistemi digitali/Logigator_ Editor.html",

@@ -1,9 +1,12 @@
 ---
-updated_at: 2025-02-27T10:56:45.322+01:00
+updated_at: 2025-03-04T12:15:52.698+01:00
 ---
-bit = **BI**nary digi**T** (0 o 1)
 
-10^3 bit = kilobit (mille bit) (circa 2^10)
-10^6 bit = megabit (un milione di bit) (circa 2^20)
-10^9 bit = gigabit (un miliardo di bit) (circa 2^30)
-...
+| unità in 2^n       |             | unità in 10^n |      |
+| ------------------ | ----------- | ------------- | ---- |
+| bit (BInary Digit) | 1           |               |      |
+| nibble             | 4           |               |      |
+| byte               | 8           |               |      |
+| kibibit            | 2^10 (1024) | kilobit       | 10^3 |
+| mebibit            | 2^20        | megabit       | 10^6 |
+| gibibit            | 2^30        | gigabit       | 10^9 |

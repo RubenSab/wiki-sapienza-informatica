@@ -1,3 +1,6 @@
+---
+updated_at: 2025-03-04T12:50:13.027+01:00
+---
 è un sistema di codifica dei numeri interi relativi, in cui il bit più significativo è associato a $-2^{n-1}$, dove n è il numero di bit.
 
 | 3 bit | bin | complemento a 2                                                                                       |
@@ -51,17 +54,5 @@ Esempio:
 
 
 ```
-# estensione del segno in CA2
-Si usa per rappresentare su più bit un valore in CA2.
-- Se il bit più significativo è 0, allora a sinistra si aggiungono degli 0, altrimenti si aggiungono degli 1.
-```
-Esempio:
--3 = 1101
-estendiamo la lunghezza del registro di 2 bit
-1101 -> 111101
 
-si può verificare che in CA2:
-1101 = -2^3 + 2^2 + 2^0 = -3
-111101 = -2^5 (MSB) + 2^4 + 2^3 + 2^2 + 2^0 = -3
-
-```
+- [[estensione del segno in CA2]]

@@ -1,5 +1,8 @@
+---
+updated_at: 2025-03-04T13:01:36.453+01:00
+---
 #todo
-Per codificare in binario un numero con la virgola si usa il seguente procedimento:
+Per codificare in binario i [[numeri razionali]] si usa il seguente procedimento:
 
 ```
 Esempio:
@@ -39,11 +42,11 @@ Lo standard odierno della rappresentazione dei numeri decimali in virgola mobile
 
 ## codifiche con livelli di precisione diversi
 
-| n   |                  | s (segno) | e (esponente) | m (mantissa) |
-| --- | ---------------- | --------- | ------------- | ------------ |
-| 16  | half precision   | 1         | 5             | 10           |
-| 32  | single precision | 1         | 8             | 23           |
-| 64  | double precision | 1         | 11            | 53           |
+| n   |                       | s (segno) | e (esponente) | m (mantissa) |
+| --- | --------------------- | --------- | ------------- | ------------ |
+| 16  | half precision (HP)   | 1         | 5             | 10           |
+| 32  | single precision (SP) | 1         | 8             | 23           |
+| 64  | double precision (DP) | 1         | 11            | 53           |
 ## esponente
 - Si considera la rappresentazione in [[complemento a 2 (CA2)]]: con $e$ bit rappresento un'intervallo di valori possibili di $[-2^{e-1};2^{e-1}-1]$.
 - Si aggiunge il bias $2^{e-1}-1$ in modo che l'esponente sia positivo.
@@ -62,45 +65,18 @@ Esempio: 26,42 = <0;10011;1010011010> = 0100111010011010
 1010 = A
 26,42 = 0x4E9A
 ```
-## categorie di valori numerici diversi
 
-### numeri rappresentabili (normalized)
+# categorie di valori
 
-#### valore assoluto massimo
+| tipo                                              | esponente         | mantissa  | segno |
+| ------------------------------------------------- | ----------------- | --------- | ----- |
+| zero                                              | 0                 | 0         | +/-   |
+| numeri denormalizzati/subnormal (prossimi allo 0) | 0                 | $\neq$ 0  | +/-   |
+| **numeri normalizzati**                           | $[1;2^e-2]$       | qualunque | +/-   |
+| infiniti                                          | $2^e-1$ (tutti 1) | 0         | +/-   |
+| NaN (Not A Number)                                | $2^e-1$ (tutti 1) | $\neq$ 0  | +/-   |
 
-Il valore assoluto più grande rappresentabile nell'IEEE 754 corrisponde alla mantissa più grande abbinata all'esponente più grande.
-
-- La **mantissa più grande** è una sequenza di 1 lunga quanto i bit disponibili $m$ (più l'uno implicito): $$1,1111111111_{2} = {10-0,0000000001}_{2} = 2-2^{-m}$$
-- l'**esponente più grande**, *considerando il bias*, è una sequenza di 1 lunga quanto i bit disponibili (tranne l'ultimo che è 0, perché l'esponente tutto a 1 è riservato per i valori infiniti) ${11110}_{2} = 2^{e}-1$; se si toglie il bias, si ottiene il valore vero di $$2^{e}-1-\text{bias} = (2^{e}-1)-(2^{e-1}-1) = 2^{e} - 2^{e-1} = 2^{e-1}$$
-
-Quindi il **più grande valore assoluto rappresentabile** è $$\pm {(2-2^{-m})}\cdot 2^{e-1}$$
-- Per l'*half precision*, $(2-2^{-10})\cdot 2^{2^4}$
-#### valore assoluto minimo
-
-Il valore più piccolo rappresentabile nell'IEEE 754 corrisponde alla mantissa più piccola abbinata all'esponente più piccolo.
-
-- La **mantissa più piccola** è una sequenza di 0 lunga quanto i bit disponibili (più l'uno implicito): $${1,0000000000}_{2} = 1$$
-- L'**esponente più piccolo**, *considerando il bias* è una sequenza di 0 lunga quanto i bit disponibili, ma se si toglie il bias, si ottiene il valore vero di $$0-\text{bias} = - 2^{e-1}+1$$
-
-Quindi il **più piccolo valore assoluto rappresentabile** è $$1\cdot 2^{1-2^{e-1}}\ \ ()$$
-
-| Tipo di numero     | Intervallo Minimo                 | Intervallo Massimo                 |
-| ------------------ | --------------------------------- | ---------------------------------- |
-| **Denormalizzato** | $-2^{1 - bias} \times 2^{-n}$     | $2^{1 - bias} \times (1 - 2^{-n})$ |
-| **Normalizzato**   | $2^{1 - bias} \times 2^{-n}$      | $(1 - 2^{-n}) \times 2^{k - bias}$ |
-| **Zero**           | $0$                               | $0$                                |
-| **Infinito**       | $+\infty$ (per esponente massimo) | $-\infty$ (per esponente massimo)  |
-| **NaN**            | Non numerico (esponente massimo)  | Non numerico (esponente massimo)   |
-
-
-| tipo                                              | esponente   | mantissa  | segno |
-| ------------------------------------------------- | ----------- | --------- | ----- |
-| zero                                              | 0           | 0         | +/-   |
-| numeri denormalizzati/subnormal (prossimi allo 0) | 0           | $\neq$ 0  | +/-   |
-| numeri normali                                    | $[1;2^e-2]$ | qualunque | +/-   |
-| infiniti                                          | $2^e-1$     | 0         | +/-   |
-| NaN (Not A Number)                                | $2^e-1$     | $\neq$ 0  | +/-   |
->Esempio con $n=16$
+>Esempio in *half-precision* ($n=16$)
 
 | overflow negativi        | $<-(2-2^{-10})*2^{15}$          |
 | ------------------------ | ------------------------------- |
@@ -113,6 +89,7 @@ Quindi il **più piccolo valore assoluto rappresentabile** è $$1\cdot 2^{1-2^{e
 
 
 esempi di rappresentazione in virgola mobile:
+
 ```
 Esempio: n = 16 bit, segno = 1 bit, esponente = 5 bit, mantissa = 10, bias = 15
 

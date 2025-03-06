@@ -1,12 +1,21 @@
 ---
-updated_at: 2025-03-04T11:09:37.477+01:00
+updated_at: 2025-03-05T13:01:33.302+01:00
 ---
-> Un metodo è una [[funzione]] associata in modo esclusivo a una [[classe]], essa può essere eseguita sia da un'[[oggetto]] (istanza della classe) che dalla classe stessa.
+> Un metodo è una [[funzione]] associata in modo esclusivo a una [[classe]], può essere richiamato sia da un'[[oggetto]] che una classe stessa.
 
-Nella [[programmazione orientata agli oggetti]] ogni funzione è un metodo di quale classe.
+- I metodi sono tipicamente [[accesso|pubblici]].
+- Per convenzione il nome dei metodi è in *camelCase*.
 
-# alcuni metodi della classe math di Java
-#todo
-sbd
-max
-min
+> N.B.: Nella [[programmazione orientata agli oggetti]] **ogni funzione** è un metodo di quale classe.
+
+# definizione di un metodo
+``` java
+public tipo_di_dati nomeDelMetodo(tipo_di_dati_del nomeParam1, ..., tipo_di_dati_del nomeParamn)
+{
+	istruzione 1;
+	...
+	...
+	...
+	istruzione m;
+}
+```

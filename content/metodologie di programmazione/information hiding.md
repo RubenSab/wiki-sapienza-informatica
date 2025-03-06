@@ -1,4 +1,4 @@
 ---
-updated_at: 2025-02-26T15:05:02.574+01:00
+updated_at: 2025-03-06T13:30:41.278+01:00
 ---
-> Un programma può nascondere la sua [[complessità]] mediante la semplicità degli [[oggetto|oggetti]].
+> Un programma può nascondere la sua [[complessità]] mediante l'[[incapsulamento]].
