@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-03-07T00:02:05.884+01:00
+updated_at: 2025-03-07T09:03:12.052+01:00
 ---
 > Una serie numerica $a_{n}$ è la [[successione]] delle somme (somme parziali) dei primi $n$ termini di una successione $a_{n}$.
 
@@ -27,7 +27,8 @@ $S_{n}$ oscilla tra $0$ e $1$, quindi non converge.
 > N.B.: La definizione di serie fornita sopra è incompleta, infatti l'indice di partenza della sommatoria può essere un numero qualsiasi\*.
 
 Infatti, *\*(solo se non si verificano forme indeterminate)* vale che $$\lim_{n\to +\infty}S_{n}=S \iff \lim_{n\to +\infty}(S_{n}-S)=0$$
-Sostituendo $S$ e $S_{n}$ con le loro definizioni, otteniamo $$\lim_{n\to +\infty}\left( \sum_{k=1}^{n}a_{k} - \sum_{n=1}^{+\infty}a_{k} \right) = \lim_{n\to +\infty} \sum_{k=n+1}^{+\infty}a_{n}\ \ \ \to\ \ \ S_{n}-S = \sum_{k=n+1}^{+\infty}a_{n}$$
+Sostituendo $S$ e $S_{n}$ con le loro definizioni, otteniamo $$\lim_{n\to +\infty}\left( \sum_{k=1}^{n}a_{k} - \sum_{n=1}^{+\infty}a_{k} \right) = \lim_{n\to +\infty} 
+\sum_{k=n+1}^{+\infty}a_{n}\ \ \ \to\ \ \ S_{n}-S = \sum_{k=n+1}^{+\infty}a_{n}$$
 Quindi $n$ può essere un numero arbitrario.
 
 # serie più comuni

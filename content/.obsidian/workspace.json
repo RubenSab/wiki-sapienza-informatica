@@ -13,7 +13,31 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "calcolo integrale/serie.md",
+                "file": "architettura degli elaboratori/RISC-V.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "RISC-V"
+            }
+          },
+          {
+            "id": "2030a8ef3d530d44",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "progettazione di sistemi digitali/unità di misura del sistema binario.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,15 +52,17 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "serie"
+              "title": "unità di misura del sistema binario"
             }
           },
           {
-            "id": "d066b9bbdce94796",
+            "id": "743ee78b0abd6e44",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "graph",
               "state": {},
+              "pinned": true,
               "icon": "lucide-git-fork",
               "title": "Graph view"
             }
@@ -81,8 +107,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 229.5094871520996,
-    "collapsed": true
+    "width": 229.5094871520996
   },
   "right": {
     "id": "26b38658cac3fe47",
@@ -171,7 +196,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 342.5
+    "width": 342.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -187,37 +213,37 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "architettura degli elaboratori/istruzione Store (S-type).md",
+    "architettura degli elaboratori/RISC-V.md",
+    "architettura degli elaboratori/formati delle istruzioni.md",
+    "progettazione di sistemi digitali/unità di misura del sistema binario.md",
+    "architettura degli elaboratori/istruzione Immediato (I-type).md",
+    "architettura degli elaboratori/istruzione Registro (R-type).md",
+    "architettura degli elaboratori/elenco di operazioni RISC-V.md",
+    "interdisciplinare/funzione.md",
+    "introduzione agli algoritmi/efficienza.md",
+    "introduzione agli algoritmi/complessità temporale.md",
+    "introduzione agli algoritmi/complessità spaziale.md",
+    "introduzione agli algoritmi/pseudocodice.md",
+    "introduzione agli algoritmi/introduzione agli algoritmi.md",
+    "introduzione agli algoritmi/costo computazionale.md",
+    "interdisciplinare/notazione asintotica.md",
+    "interdisciplinare/serie geometriche.md",
+    "introduzione agli algoritmi/metodo dei limiti asintotici delle somme.md",
+    "metodi matematici per l'informatica/induzione matematica.md",
     "calcolo integrale/confronto asintotico.md",
+    "introduzione agli algoritmi/metodo della forma chiusa.md",
+    "introduzione agli algoritmi/metodo dell'integrale.md",
     "calcolo integrale/serie.md",
+    "calcolo integrale/serie armoniche.md",
+    "metodologie di programmazione/oggetto.md",
     "calcolo integrale/successione di cauchy.md",
     "calcolo integrale/serie di Mengoli.md",
-    "calcolo integrale/serie armoniche.md",
-    "calcolo differenziale/teoremi dei limiti sulle successioni.md",
-    "calcolo integrale/serie geometriche.md",
-    "calcolo integrale/Untitled.md",
-    "calcolo differenziale/limiti.md",
-    "calcolo differenziale/limiti di successioni.md",
-    "calcolo differenziale/successione.md",
-    "interdisciplinare/notazione asintotica.md",
-    "calcolo differenziale/teorema ponte.md",
-    "calcolo integrale/calcolo integrale.md",
-    "progettazione di sistemi digitali/progettazione di sistemi digitali.md",
-    "metodologie di programmazione/classe.md",
-    "metodologie di programmazione/java.lang.String.md",
-    "metodologie di programmazione/Unified Modeling Language (UML).md",
-    "metodologie di programmazione/classi.md",
-    "metodologie di programmazione/information hiding.md",
-    "metodologie di programmazione/incapsulamento.md",
-    "metodologie di programmazione/esempio di progettazione di una classe.md",
     "metodologie di programmazione/Pasted image 20250306142721.png",
     "metodologie di programmazione/Pasted image 20250306142435.png",
     "metodologie di programmazione/Pasted image 20250306142415.png",
     "metodologie di programmazione/Pasted image 20250306142411.png",
     "metodologie di programmazione/Pasted image 20250306142314.png",
-    "metodologie di programmazione/diagramma delle classi in UML.md",
-    "metodologie di programmazione/metodologie di programmazione.md",
-    "metodologie di programmazione/programmazione orientata agli oggetti.md",
-    "interdisciplinare/funzione.md",
     "architettura degli elaboratori/Pasted image 20250306101823.png",
     "architettura degli elaboratori/Pasted image 20250306101803.png",
     "architettura degli elaboratori/Pasted image 20250306101745.png",

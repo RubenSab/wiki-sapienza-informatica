@@ -1,7 +1,7 @@
 ---
-updated_at: 2025-03-03T10:14:02.413+01:00
+updated_at: 2025-03-07T11:47:34.551+01:00
 ---
-> è utile per calcolare l'[[efficienza]] di un [[algoritmo]] valutandone la sua [[complessità temporale]], stimando quando aumenta il **tempo di calcolo** al crescere della **dimensione** ($n$) dell'input, quindi confrontando il tasso di crescita (comportamento asintotico) di una funzione in confronto a un'altra.
+> è utile per calcolare l'[[efficienza]] di un [[algoritmo]] interpretandolo come una [[funzione]] tra dimensione dell'input ($n$) e tempo di calcolo ($t$), valutandone la sua [[complessità temporale]], stimando quando aumenta $t$ in base a $n$, poi confrontando il tasso di crescita (comportamento asintotico) di una funzione in confronto a un'altra.
 
 > N.B.: tutte le funzioni trattate nelle notazioni O-grande, Omega e Theta (quelle utili per valutare l'efficienza degli algoritmi) sono *asintoticamente positive*, cioè tendono a $+\infty$.
 
@@ -12,3 +12,12 @@ updated_at: 2025-03-03T10:14:02.413+01:00
 - [[notazione Omega]]
 - [[notazione Theta]]
 - [[notazione o-piccolo]]
+
+# asintotica per le somme ([[serie]])
+
+Le somme più comuni in asintotica sono le [[serie geometriche]] e le [[serie armoniche]], però vedendole come rappresentazioni di algoritmi non ci interessa la convergenza ma la loro complessità temporale in notazione asintotica.
+
+- [[metodo della forma chiusa]]
+- [[metodo dei limiti asintotici delle somme]]
+- [[metodo dell'integrale]]
+- per [[induzione matematica]]

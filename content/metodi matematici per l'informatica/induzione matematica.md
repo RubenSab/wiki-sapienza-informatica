@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-02-22T11:40:47.205+01:00
+updated_at: 2025-03-07T11:52:27.385+01:00
 ---
 $$[P(0)\wedge(P(n)\implies P(n))]\implies \forall n, P(n)$$
 > Un'importante proprietà dei [[numeri naturali]] è che $n$ o è $0$ o è $n+1$, cioè il successivo di un altro numero, ciò rende possibile l'induzione.
@@ -36,33 +36,3 @@ $$\frac{{n(n+1)}}{2}+n+1=\frac{{(n+1)(n+2)}}{2}=\sum_{i=0}^{n-1} i$$
 - Abbiamo dimostrato che $P(k)$ è vero, ma supponiamo per assurdo che $\exists k\ |\ P(k)$  sia falso, (sia $k$ il più piccolo intero per cui $P(k)$ è falso) e $P(k)$ valga almeno per $0$ (per dimostrazione diretta).
 - Ma se $P(k) \implies P(k-1)$ è vero, allora se $P(k)$ è falso allora anche $P(k-1)$ è falso.
 - Questo significa che si arriverà a dire che $P(0)$ è falso, ma ciò è un assurdo.
-
-
-
-# esempio con la somma degli angoli interni dei poligoni
-
-#todo
-
-TESI: Per ogni $n \geq 3$ la somma degli angoli interni di un poligono di $n$ lati è uguale a $180(n-2)$
-1. Caso base: per $3$ lati, un poligono ha $180$ gradi.
-2. Consideriamo un poligono di $n$ lati, assumiamo che un poligono 
-
-## caso base
-
-- $\forall n\ n^{3}+5n$ è multiplo di $6$.
-- $P(0)=0$ -> vero
-
-## passo induttivo
-
-Si ipotizza che $n^{3}+5n = 6k$
-
-- $(n+1)^{3}+5(n+1)$
-- $n^3+3n^2+3n+5n+6$
-- $(n^3+5n)+3n^2+3n+6$ 
-- $3n^2+3n+6+3n(n+1)$
-- $3n^2+3n$ è multiplo di 6 per ipotesi induttiva
-
-$6$ è multiplo di 6
-$3n(n+1)$ è multiplo di 3, ma è anche un multiplo di 2, perché è il prodotto di due numeri consecutivi, quindi un numero pari per un numero dispari. un multiplo di 3 e di 2 è anche un multiplo di 6.
-
-la somma di n multipli di 6 è un multiplo di 6.
