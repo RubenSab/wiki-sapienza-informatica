@@ -1,7 +1,7 @@
 ---
-updated_at: 2025-03-07T23:14:45.520+01:00
+updated_at: 2025-03-10T18:51:00.149+01:00
 ---
-- Bit: **BI**nary **D**igit, è l'unità base del [[sistema binario]], vale 1 o 0.
+Bit: **BI**nary **D**igit, è l'unità base del [[sistema binario]], vale 1 o 0.
 - Nibble: 4 Bit,
 - Byte: 8 Bit,
 - Half Word: 16 bit,

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "architettura degli elaboratori/RISC-V.md",
+                "file": "interdisciplinare/notazione asintotica.md",
                 "mode": "preview",
                 "source": false,
                 "backlinks": true,
@@ -28,17 +28,29 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "RISC-V"
+              "title": "notazione asintotica"
             }
           },
           {
-            "id": "2030a8ef3d530d44",
+            "id": "2238dcd024257286",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "graph",
+              "state": {},
+              "pinned": true,
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          },
+          {
+            "id": "31f037b27448d391",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "progettazione di sistemi digitali/unità di misura del sistema binario.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -54,20 +66,9 @@
               "icon": "lucide-file",
               "title": "unità di misura del sistema binario"
             }
-          },
-          {
-            "id": "743ee78b0abd6e44",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "graph",
-              "state": {},
-              "pinned": true,
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
-            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -107,7 +108,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 229.5094871520996
+    "width": 229.5094871520996,
+    "collapsed": true
   },
   "right": {
     "id": "26b38658cac3fe47",
@@ -211,34 +213,35 @@
       "timethings:Activate view": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "31f037b27448d391",
   "lastOpenFiles": [
-    "architettura degli elaboratori/istruzione Store (S-type).md",
+    "architettura degli elaboratori/differenze tra CISC e RISC.md",
+    "interdisciplinare/notazione asintotica.md",
+    "interdisciplinare/funzione.md",
+    "progettazione di sistemi digitali/latch set-reset (SR).md",
+    "progettazione di sistemi digitali/latch_tagliato.svg",
+    "progettazione di sistemi digitali/analisi del latch.md",
+    "introduzione agli algoritmi/introduzione agli algoritmi.md",
+    "interdisciplinare/algoritmo.md",
+    "introduzione agli algoritmi/esempi di algoritmi con diversa complessità.md",
+    "introduzione agli algoritmi/notazione Omega.md",
+    "introduzione agli algoritmi/notazione Theta.md",
+    "introduzione agli algoritmi/notazione O-grande.md",
+    "calcolo differenziale/notazione o-piccolo.md",
+    "introduzione agli algoritmi/metodo dei limiti asintotici delle somme.md",
+    "introduzione agli algoritmi/string slicing in python.md",
+    "introduzione agli algoritmi/complessità degli algoritmi più comuni in Python.md",
+    "introduzione agli algoritmi/pseudocodice.md",
+    "introduzione agli algoritmi/efficienza.md",
+    "introduzione agli algoritmi/concatenazione delle stinghe in python.md",
+    "metodi matematici per l'informatica/induzione matematica.md",
     "architettura degli elaboratori/RISC-V.md",
+    "architettura degli elaboratori/istruzione Store (S-type).md",
     "architettura degli elaboratori/formati delle istruzioni.md",
     "progettazione di sistemi digitali/unità di misura del sistema binario.md",
     "architettura degli elaboratori/istruzione Immediato (I-type).md",
     "architettura degli elaboratori/istruzione Registro (R-type).md",
     "architettura degli elaboratori/elenco di operazioni RISC-V.md",
-    "interdisciplinare/funzione.md",
-    "introduzione agli algoritmi/efficienza.md",
-    "introduzione agli algoritmi/complessità temporale.md",
-    "introduzione agli algoritmi/complessità spaziale.md",
-    "introduzione agli algoritmi/pseudocodice.md",
-    "introduzione agli algoritmi/introduzione agli algoritmi.md",
-    "introduzione agli algoritmi/costo computazionale.md",
-    "interdisciplinare/notazione asintotica.md",
-    "interdisciplinare/serie geometriche.md",
-    "introduzione agli algoritmi/metodo dei limiti asintotici delle somme.md",
-    "metodi matematici per l'informatica/induzione matematica.md",
-    "calcolo integrale/confronto asintotico.md",
-    "introduzione agli algoritmi/metodo della forma chiusa.md",
-    "introduzione agli algoritmi/metodo dell'integrale.md",
-    "calcolo integrale/serie.md",
-    "calcolo integrale/serie armoniche.md",
-    "metodologie di programmazione/oggetto.md",
-    "calcolo integrale/successione di cauchy.md",
-    "calcolo integrale/serie di Mengoli.md",
     "metodologie di programmazione/Pasted image 20250306142721.png",
     "metodologie di programmazione/Pasted image 20250306142435.png",
     "metodologie di programmazione/Pasted image 20250306142415.png",
@@ -252,7 +255,6 @@
     "calcolo integrale",
     "progettazione di sistemi digitali/comparator.webp",
     "metodologie di programmazione/Introduzione OOP.pdf",
-    "architettura degli elaboratori/Pasted image 20250227123947.png",
     "architettura degli elaboratori/AE - 01 - Introduzione.pdf",
     "architettura degli elaboratori",
     "metodologie di programmazione",

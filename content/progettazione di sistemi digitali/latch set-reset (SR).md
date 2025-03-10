@@ -1,3 +1,6 @@
+---
+updated_at: 2025-03-10T18:45:16.047+01:00
+---
 > è il tipo di latch più semplice, costruito a partire da due porte NOR.
 
 ![[latch.svg]]
@@ -27,5 +30,3 @@ r -> | r   not y (z)| -> z
 $$y_{\text{ nuova}}=\overline{r+z}=\overline{r+\overline{s+y_{\text{ vecchia}}}}=\overline{r}\bullet(s+y_{\text{ vecchia}})$$
 
 >N.B.: Il tempo $\Delta t$ tra la $y$ nuova e quella vecchia non è indifferente: dipende dal tempo di attraversamento del segnale fra porte NOR.
-
-- [[analisi del latch]]

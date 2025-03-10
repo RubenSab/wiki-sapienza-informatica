@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-03-06T10:12:29.337+01:00
+updated_at: 2025-03-10T18:50:08.817+01:00
 ---
 > CISC: *Complex Instruction Set Computer*.
 
@@ -12,5 +12,4 @@ updated_at: 2025-03-06T10:12:29.337+01:00
 | **Modi di indirizzamento complessi**                                                             | **Modi di indirizzamento semplici**                                                                      |
 | **Istruzioni complesse**: pipeline più complicata                                                | **Istruzioni semplici**: pipeline più veloce                                                             |
 
-- in questa architettura della [[CPU]], le parole (word) di default sono lunghe 32 bit. 
-#todo
+- in questa architettura della [[CPU]], le parole ([[unità di misura del sistema binario|word]]) di default sono lunghe 32 bit. 

@@ -32,7 +32,7 @@
       "query": "path: \"metodi matematici per l'informatica\"  ",
       "color": {
         "a": 1,
-        "rgb": 7495385
+        "rgb": 9002713
       }
     },
     {
@@ -67,7 +67,7 @@
       "query": "path: \"calcolo integrale\"  ",
       "color": {
         "a": 1,
-        "rgb": 5412832
+        "rgb": 4294907
       }
     },
     {
@@ -88,6 +88,6 @@
   "repelStrength": 13.1947643390821,
   "linkStrength": 0.682620759238239,
   "linkDistance": 178,
-  "scale": 0.12170018894286401,
+  "scale": 0.8438394035797826,
   "close": true
 }
