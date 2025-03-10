@@ -1,7 +1,7 @@
 ---
-updated_at: 2025-03-10T18:36:47.708+01:00
+updated_at: 2025-03-10T18:58:46.048+01:00
 ---
-$$\lim_{n\to +\infty}{\frac{f(x)}{g(x)}}= \left\{\begin{array} 0 \to f(x) \in O(g(x)) \\ +\infty \to f(x) \in \Omega(g(x)) \\ k \in \mathbb{R} \to f(x) \in \Theta(g(x)) \end{array}\right.$$
+$$\lim_{n\to +\infty}{\frac{f(x)}{g(x)}}= \left\{\begin{array} \\ 0 \to f(x) \in O(g(x)) \\ +\infty \to f(x) \in \Omega(g(x)) \\ k \in \mathbb{R} \to f(x) \in \Theta(g(x)) \end{array}\right.$$
 
 > è utile per calcolare l'[[efficienza]] di un [[algoritmo]] interpretandolo come una [[funzione]] tra dimensione dell'input ($n$) e tempo di calcolo ($t$), valutandone la sua [[complessità temporale]], stimando quando aumenta $t$ in base a $n$, poi confrontando il tasso di crescita (comportamento asintotico) di una funzione in confronto a un'altra.
 

@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "interdisciplinare/notazione asintotica.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -30,45 +30,8 @@
               "icon": "lucide-file",
               "title": "notazione asintotica"
             }
-          },
-          {
-            "id": "2238dcd024257286",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "graph",
-              "state": {},
-              "pinned": true,
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
-            }
-          },
-          {
-            "id": "31f037b27448d391",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "progettazione di sistemi digitali/unità di misura del sistema binario.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "unità di misura del sistema binario"
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -108,8 +71,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 229.5094871520996,
-    "collapsed": true
+    "width": 229.5094871520996
   },
   "right": {
     "id": "26b38658cac3fe47",
@@ -213,10 +175,11 @@
       "timethings:Activate view": false
     }
   },
-  "active": "31f037b27448d391",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "architettura degli elaboratori/differenze tra CISC e RISC.md",
     "interdisciplinare/notazione asintotica.md",
+    "progettazione di sistemi digitali/unità di misura del sistema binario.md",
+    "architettura degli elaboratori/differenze tra CISC e RISC.md",
     "interdisciplinare/funzione.md",
     "progettazione di sistemi digitali/latch set-reset (SR).md",
     "progettazione di sistemi digitali/latch_tagliato.svg",
@@ -238,7 +201,6 @@
     "architettura degli elaboratori/RISC-V.md",
     "architettura degli elaboratori/istruzione Store (S-type).md",
     "architettura degli elaboratori/formati delle istruzioni.md",
-    "progettazione di sistemi digitali/unità di misura del sistema binario.md",
     "architettura degli elaboratori/istruzione Immediato (I-type).md",
     "architettura degli elaboratori/istruzione Registro (R-type).md",
     "architettura degli elaboratori/elenco di operazioni RISC-V.md",
