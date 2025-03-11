@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-03-04T09:14:15.624+01:00
+updated_at: 2025-03-11T11:45:26.310+01:00
 ---
 > Un'espressione è un [[letterale]], una [[variabile]] o una sequenza di operazioni su letterali e/o variabili che producono un valore.
 

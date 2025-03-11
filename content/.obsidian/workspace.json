@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "interdisciplinare/notazione asintotica.md",
-                "mode": "source",
+                "file": "architettura degli elaboratori/vettori in RISC-V.md",
+                "mode": "preview",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -28,7 +28,17 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "notazione asintotica"
+              "title": "vettori in RISC-V"
+            }
+          },
+          {
+            "id": "38466a57138875f1",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ]
@@ -71,7 +81,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 229.5094871520996
+    "width": 229.5094871520996,
+    "collapsed": true
   },
   "right": {
     "id": "26b38658cac3fe47",
@@ -87,7 +98,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "carab",
+                "query": "riferim",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -177,45 +188,45 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "interdisciplinare/notazione asintotica.md",
-    "progettazione di sistemi digitali/unità di misura del sistema binario.md",
-    "architettura degli elaboratori/differenze tra CISC e RISC.md",
-    "interdisciplinare/funzione.md",
-    "progettazione di sistemi digitali/latch set-reset (SR).md",
-    "progettazione di sistemi digitali/latch_tagliato.svg",
-    "progettazione di sistemi digitali/analisi del latch.md",
-    "introduzione agli algoritmi/introduzione agli algoritmi.md",
-    "interdisciplinare/algoritmo.md",
-    "introduzione agli algoritmi/esempi di algoritmi con diversa complessità.md",
-    "introduzione agli algoritmi/notazione Omega.md",
-    "introduzione agli algoritmi/notazione Theta.md",
-    "introduzione agli algoritmi/notazione O-grande.md",
-    "calcolo differenziale/notazione o-piccolo.md",
-    "introduzione agli algoritmi/metodo dei limiti asintotici delle somme.md",
-    "introduzione agli algoritmi/string slicing in python.md",
-    "introduzione agli algoritmi/complessità degli algoritmi più comuni in Python.md",
-    "introduzione agli algoritmi/pseudocodice.md",
-    "introduzione agli algoritmi/efficienza.md",
-    "introduzione agli algoritmi/concatenazione delle stinghe in python.md",
-    "metodi matematici per l'informatica/induzione matematica.md",
-    "architettura degli elaboratori/RISC-V.md",
-    "architettura degli elaboratori/istruzione Store (S-type).md",
-    "architettura degli elaboratori/formati delle istruzioni.md",
-    "architettura degli elaboratori/istruzione Immediato (I-type).md",
-    "architettura degli elaboratori/istruzione Registro (R-type).md",
     "architettura degli elaboratori/elenco di operazioni RISC-V.md",
+    "architettura degli elaboratori/esempio di codice RISC-V.md",
+    "architettura degli elaboratori/RISC-V.md",
+    "architettura degli elaboratori/vettori in RISC-V.md",
+    "interdisciplinare/memoria RAM.md",
+    "metodologie di programmazione/variabile.md",
+    "progettazione di sistemi digitali/registri.md",
+    "architettura degli elaboratori/cicli in RISC-V.md",
+    "architettura degli elaboratori/Organizzazione della memoria.md",
+    "architettura degli elaboratori/modi di indirizzamento.md",
+    "architettura degli elaboratori/formati delle istruzioni.md",
+    "architettura degli elaboratori/Untitled.md",
+    "progettazione di sistemi digitali/unità aritmetico logica (ALU).md",
+    "metodologie di programmazione/espressione.md",
+    "metodologie di programmazione/regex (espressioni regolari).md",
+    "metodologie di programmazione/metodologie di programmazione.md",
+    "metodologie di programmazione/programmazione orientata agli oggetti.md",
+    "metodologie di programmazione/Java.md",
+    "introduzione agli algoritmi/introduzione agli algoritmi.md",
+    "python.md",
+    "metodologie di programmazione/classe.md",
+    "metodologie di programmazione/package.md",
+    "metodologie di programmazione/tipi di dati.md",
+    "metodologie di programmazione/char.md",
+    "metodologie di programmazione/boolean.md",
+    "metodologie di programmazione/Pasted image 20250311113121.png",
+    "metodologie di programmazione/lettura input da console.md",
+    "metodologie di programmazione/Pasted image 20250311111510.png",
+    "metodologie di programmazione/Pasted image 20250311105706.png",
+    "metodologie di programmazione/Pasted image 20250311105109.png",
+    "interdisciplinare/Pasted image 20250311095722.png",
+    "progettazione di sistemi digitali/latch_tagliato.svg",
     "metodologie di programmazione/Pasted image 20250306142721.png",
     "metodologie di programmazione/Pasted image 20250306142435.png",
     "metodologie di programmazione/Pasted image 20250306142415.png",
     "metodologie di programmazione/Pasted image 20250306142411.png",
-    "metodologie di programmazione/Pasted image 20250306142314.png",
-    "architettura degli elaboratori/Pasted image 20250306101823.png",
-    "architettura degli elaboratori/Pasted image 20250306101803.png",
-    "architettura degli elaboratori/Pasted image 20250306101745.png",
     "metodologie di programmazione/Introduzione Metodologie di Programmazione.pdf",
     "introduzione agli algoritmi",
     "calcolo integrale",
-    "progettazione di sistemi digitali/comparator.webp",
     "metodologie di programmazione/Introduzione OOP.pdf",
     "architettura degli elaboratori/AE - 01 - Introduzione.pdf",
     "architettura degli elaboratori",

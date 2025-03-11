@@ -1,5 +1,5 @@
 - [[CPU]]
-- [[memoria]]
+- [[memoria RAM]]
 - [[unità di controllo]]
 - [[dispositivi di ingresso e uscita, (IO)]]
 - [[bus]]

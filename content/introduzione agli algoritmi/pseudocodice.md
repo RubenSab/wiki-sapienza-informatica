@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-03-07T13:21:08.383+01:00
+updated_at: 2025-03-10T19:08:30.093+01:00
 ---
 > È una sorta di linguaggio di programmazione "informale".
 
@@ -10,7 +10,7 @@ updated_at: 2025-03-07T13:21:08.383+01:00
 
 ## istruzioni base
 
-> L'assegnazione di una variabile, le operazioni aritmetico logiche e altre istruzioni base con [[complessità]] costante esistono in pseudocodice e si assume che hanno tutte complessità $O(1)$.
+> L'assegnazione di una variabile, le operazioni aritmetico logiche e altre istruzioni base con [[complessità temporale]] costante esistono in pseudocodice e si assume che hanno tutte complessità $O(1)$.
 ## istruzioni condizionali
 
 > `if`, `else` e tutti gli altri loop dei linguaggi di programmazione esistono anche in pseudocodice e hanno un [[costo computazionale]] pari alla somma dei costi di tutte le iterazioni.

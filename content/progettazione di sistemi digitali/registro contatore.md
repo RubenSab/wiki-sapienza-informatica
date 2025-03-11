@@ -24,7 +24,7 @@ Possono essere **sincroni** o **asincroni**, non come i [[registri di memorizzaz
 		- [[contatore di eventi]]
 	- con ingressi asincroni
 		- [[contatore sincrono con reset]]
-		- [[contatore sincrono preselezionabile]]
+		- [[Program Counter]]
 
 # asincrono o a cascata
 

@@ -1,11 +1,11 @@
 ---
-updated_at: 2025-03-10T18:51:00.149+01:00
+updated_at: 2025-03-10T21:09:19.002+01:00
 ---
 Bit: **BI**nary **D**igit, è l'unità base del [[sistema binario]], vale 1 o 0.
 - Nibble: 4 Bit,
 - Byte: 8 Bit,
-- Half Word: 16 bit,
-- Word: 32 bit o 64 in base alla [[CPU]].
+- Half Word: 2 Byte,
+- Word: 4 Byte, (o 8 se l'architettura è a 64 bit invece che 32) in base alla [[CPU]].
 # multipli di 2
 
 |          | bit                      | byte                |

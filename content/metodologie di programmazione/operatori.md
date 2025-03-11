@@ -3,7 +3,7 @@ updated_at: 2025-03-04T09:43:06.237+01:00
 ---
 # operatori numerici
 
-> Si riferiscono ai [[tipo di dati|tipi]] numerici
+> Si riferiscono ai [[tipi di dati|tipi]] numerici
 
 | Operatori | Operazioni                         | Precedenza |
 | --------- | ---------------------------------- | ---------- |

@@ -1,7 +1,7 @@
 ---
-updated_at: 2025-03-05T15:40:03.668+01:00
+updated_at: 2025-03-11T10:16:36.877+01:00
 ---
-> È un [[metodo]] che ha lo stesso nome (case-sensitive) della [[classe]] a cui appartiene, serve a inizializzare i [[campo|campi]] di un [[oggetto]] della sua classe ai valori di default. Se non è specificato, Java crea per ogni classe un *costruttore di default* "vuoto", cioè senza parametri.
+> È un [[metodo]] che ha lo stesso nome (case-sensitive) della [[classe]] a cui appartiene, serve a inizializzare i [[campi]] di un [[oggetto]] della sua classe ai valori di default. Se non è specificato, Java crea per ogni classe un *costruttore di default* "vuoto", cioè senza parametri.
 
 Una classe può avere anche più costruttori che DEVONO differire nel **numero** e nel **tipo** di parametri
 

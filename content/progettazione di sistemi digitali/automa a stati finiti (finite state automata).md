@@ -1,4 +1,8 @@
-# modello di Mealy
+---
+updated_at: 2025-03-11T09:24:43.377+01:00
+---
+# modelli di automa
+## modello di Mealy
 secondo il modello di Mealy, l'automa a stati finiti è la struttura matematica che ha:
 
 - $\Sigma$: un'alfabeto finito di ingresso in cui sono scritti gli input
@@ -13,7 +17,7 @@ Esempio: (0, 01) -> 01
 
 ![[esempio Mealy.png]]
 
-# modello di Moore
+## modello di Moore
 Differisce dal modello di Mealy solo per la funzione di uscita $\lambda$,  qui definita come $\lambda ': Q \rightarrow U$
 
 Nel modello di Moore, l'uscita prodotta dallo stato dell'automa + lo stato dell'automa stesso sono considerati come un singolo stato.
@@ -33,3 +37,7 @@ Una tavola degli stati futuri può essere rappresentata come tabella dell'automa
 | $S_{3}$       | $S_{10}/0$ | $S_{11}/0$ |
 
 - [[esempio di progettazione dell'automa della macchina distributrice]]
+
+# Automa dei linguaggi regolari
+
+Delle [[regex (espressioni regolari)]] di un [[linguaggio regolare]] possono essere riconosciute e prodotte da un automa a stati finiti secondo le regole del linguaggio. C'è un teorema di equivalenza che stabilisce un parallelismo tra automi a stati finiti e definizioni di linguaggi regolari.

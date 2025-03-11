@@ -1,7 +1,8 @@
 ---
-updated_at: 2025-03-04T13:01:36.453+01:00
+updated_at: 2025-03-10T21:18:05.995+01:00
 ---
 #todo
+
 Per codificare in binario i [[numeri razionali]] si usa il seguente procedimento:
 
 ```

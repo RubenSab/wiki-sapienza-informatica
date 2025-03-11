@@ -1,7 +1,9 @@
 ---
-updated_at: 2025-03-04T09:06:28.315+01:00
+updated_at: 2025-03-11T09:49:24.716+01:00
 ---
-> è un nome usato per riferirsi a un valore di un [[tipo di dati]], è rappresentata graficamente da un [[letterale]].
+> Può contenere o un valore di un [[tipi di dati]] primitivo, o un **riferimento** a un [[oggetto]], è rappresentata graficamente da un [[letterale]].
+
+> N.B.: NON esistono variabili che contengono oggetti (proprio perché esistono quelle che contengono riferimenti ad oggetti).
 
 > è una rappresentazione a livello di codice sorgente del valore o di un tipo di dati.
 

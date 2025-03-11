@@ -1,9 +1,10 @@
 ---
-updated_at: 2025-02-27T12:42:43.985+01:00
+updated_at: 2025-03-11T21:36:30.168+01:00
 ---
 > Un **registro** è un componente che memorizza temporaneamente e gestisce informazioni binarie di pochi bit (x32 o x64) su un numero di posizioni, cioè un insieme di celle di memoria ([[flip-flop]]), per poter trasferire i bit tra i circuiti. Possono operare in parallelo o in serie.
 
 # tipi di registri
+
 - **[[caricamento parallelo e seriale di registri + right shift register|SISO]] (Serial In - Serial Out): I dati vengono inseriti **bit per bit** in ingresso e escono **bit per bit** in uscita.
 - **SIPO** (Serial In - Parallel Out): I dati vengono inseriti **bit per bit** in modo seriale, ma vengono letti **tutti insieme** in parallelo.
 - **PISO** (Parallel In - Serial Out): I dati vengono caricati tutti insieme in parallelo e poi vengono trasmessi bit per bit in uscita.
