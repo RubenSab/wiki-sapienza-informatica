@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-03-10T10:40:27.022+01:00
+updated_at: 2025-03-16T23:13:51.448+01:00
 ---
 # es1: complessità lineare "nascosta"
 
@@ -94,7 +94,7 @@ def es5(n):
 ```
 
 #todo
-$n^3$
+$n^3$ ^tr-t9kvgu4hp
 
 ---
 # es6:
@@ -108,3 +108,64 @@ def es6(n):
 ```
 
 `p` cresce esponenzialmente ***ad ogni*** (!!!) iterazione ($p \approx 2^{2^{i}}$) e il programma si ferma quando $p \approx n$, sostituendo otteniamo che $n \approx 2^{2^{i}}$, quindi $i \approx log_{2}{(log_{2}{n})}$, cioè la complessità è $O(log_{2}{(log_{2}{n})})$.
+
+---
+# es7:
+
+``` python
+def es7(n):
+	u, t, s = 1
+	while u <= n:
+		for j in range(t):
+			s += 1
+		u += 1
+		t += 1
+	return s
+```
+
+La prima volta il for viene eseguito una volta, poi due volte, poi tre etc, perché ad ogni iterazione del while, il for si allunga di 1 iterazione, perché $t$ viene incrementato di uno.
+$$1+2+3+\ldots+n = \sum_{i=1}^{n}{i} = \frac{n(n+1)}{2} \in \Theta(n^{2})$$
+---
+# es8:
+
+``` python
+def es8(n):
+	n = abs(n)
+	s = n = t
+	p = 0
+	while s >= 1:
+		s = s // 4
+		p += 1
+	while n - p > 0:
+		n -= p
+		t += 5
+	return t
+```
+
+- Il primo while ha complessità $log_{4}{n}$, perché $s=n$ e $s$ si divide ogni volta per 4.
+- La complessità del secondo while dipende da $p$, che nel while precedente aumenta sempre si uno, risultando quindi $\approx log_{4}{n}$. Adesso la condizione del while si può riscrivere come $n-p>0 \to n>p \to n>\log_{4}{n}$, cioè il ciclo si ferma quando $n \approx \log_{4}{n}$, quindi dura $\log_{4}{n}$ iterazioni. #todo 
+
+---
+# es9:
+
+``` python
+def es9(n):
+	n = abs(n)
+	s, p = n, 2
+	i, r = 1
+	while s >= 1:
+		s = s // 5
+		p += 2
+	p = p*p
+	while i*i*i < n:
+		for j in range(p):
+			r += 1
+		i += 1
+	return r
+```
+
+- Il primo while ha complessità $\Theta(\log_{5}{n}) = \Theta(\log{n})$.
+- Nel secondo while $i$ ogni volta si incrementa di 1 e si ferma quando $i^{3} \approx n$, quindi quando $i \approx {n}^{\frac{1}{3}}$.
+- Il for annidato, dipendente da $p$, avrà $(\log_{5}{n})^{2}$ iterazioni.
+- Quindi il secondo while avrà la complessità totale uguale al prodotto delle complessità del for interno e del while esterno, quindi $\Theta\left(n^{\frac{1}{3}} \cdot \log^{2}{n}\right)$.
+- La complessità del programma sarà la maggiore tra il primo e il secondo while, quindi $\Theta\left(n^{\frac{1}{3}} \cdot \log^{2}{n}\right)$

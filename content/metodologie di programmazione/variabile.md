@@ -1,7 +1,7 @@
 ---
-updated_at: 2025-03-11T09:49:24.716+01:00
+updated_at: 2025-03-18T11:12:17.245+01:00
 ---
-> Può contenere o un valore di un [[tipi di dati]] primitivo, o un **riferimento** a un [[oggetto]], è rappresentata graficamente da un [[letterale]].
+> Può contenere o un valore di un [[tipi]] primitivo, o un **riferimento** a un [[oggetto]], è rappresentata graficamente da un [[letterale]].
 
 > N.B.: NON esistono variabili che contengono oggetti (proprio perché esistono quelle che contengono riferimenti ad oggetti).
 
@@ -25,7 +25,7 @@ Un'istruzione può includere una **dichiarazione** e un'**assegnazione** allo st
 int contatore = 0;
 ```
 
-esempio: (codice dentro un [[metodo]]
+esempio: (codice dentro un [[metodo]])
 
 ``` java
 int a, b;     // a e b non definite
@@ -34,3 +34,5 @@ b = a+10;     // a = 5 e b = 15
 int c = a+b;  // a = 5, b = 15 e c = 20
 a = c-3;      // a = 17, b = 15, c = 20
 ```
+
+> Una variabile può essere dichiarata `final`, rendendola una **costante**.

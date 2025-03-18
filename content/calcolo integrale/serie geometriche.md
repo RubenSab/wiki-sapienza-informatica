@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-03-07T12:20:05.015+01:00
+updated_at: 2025-03-16T22:31:14.226+01:00
 ---
 > Una [[serie]] geometrica di "*ragione* $q$" (costante) è definita $$S_{k}=\sum_{n=1}^{+\infty}q^{n},\ q \in \mathbb{R}$$
 

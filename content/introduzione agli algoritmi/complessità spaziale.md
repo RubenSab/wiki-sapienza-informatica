@@ -1,4 +1,4 @@
 ---
-updated_at: 2025-03-07T13:22:07.893+01:00
+updated_at: 2025-03-17T09:39:50.812+01:00
 ---
-#todo
+> Segue le stesse regole per la valutazione della [[complessità temporale]], ma in riferimento al numero di [[registri]] o delle unità di [[memoria RAM]] impiegate piuttosto che al tempo.

@@ -46,7 +46,7 @@ Esempio:
 $f(x)=x^{3}+3x^{2}-6x+8$
 Se $f(x)=Q_{n}(x)+o(x^{n})\implies Q_{n}$ è il polinomio di Taylor
 Se $g(x)=1+x+o(x)\implies P_{1}(g(x);0)=1+x$
-$h(x)=1+2x+o(x^{3})$
+$h(x)=1+2x+o(x^{3})$ ^tr-nq4adjprk
 
 $P_{0}(h;0)=1$
 $P_{1}(h;0)=1+2x$

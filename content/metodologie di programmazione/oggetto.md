@@ -11,7 +11,7 @@ Gli oggetti vengono creati quando il [[main]] viene eseguito, quindi la memoria 
 2. Creazione: Menu menuOpzioni = ***new Menu()***
 3. Assegnazione: Menu menuOpzioni ***=*** new Menu()
 
-Ogni oggetto ha un suo [[tipi di dati]], detto [[classe]], quindi ogni oggetto si dice essere un'**istanza** di una classe.
+Ogni oggetto ha un suo [[tipi]], detto [[classe]], quindi ogni oggetto si dice essere un'**istanza** di una classe.
 
 Per effettuare una richiesta a un'oggetto, si invia un [[messaggio]] a quell'oggetto usando un metodo.
 

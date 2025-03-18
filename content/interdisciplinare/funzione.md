@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-02-27T11:09:09.979+01:00
+updated_at: 2025-03-17T09:11:40.322+01:00
 ---
 $f:\mathbb{R}\rightarrow\mathbb{R}, \ \ x\rightarrow f(x)$
 $f: A \rightarrow B$
@@ -15,8 +15,14 @@ $f: A \rightarrow B$
 
 >L'**immagine** di $f(x)$ è $im(A)=\{f(x),x\in A\}$, oppure $im(A)=\{b\ |\ (a,b)\in F\}$, $F\subseteq A\times B$
 
-
 # proprietà delle funzioni
+
+> Una funzione si dice **ricorsiva** quando la sua definizione fa riferimento a se stessa.
+
+Esempio:
+- $0!=1$
+- $n! = (n-1)! \text{ se } n>0$
+
 >$f: A \rightarrow B$ si dice **suriettiva** se $f(A)=B$, cioè se l'insieme delle immagini coincide con B.
 
 >N.B.: per rendere una funzione suriettiva si restringe il dominio.
@@ -30,6 +36,7 @@ $f: A \rightarrow B$
 >Data $f:A\rightarrow B$ iniettiva e suriettiva esiste la funzione inversa $f^-1:B\rightarrow A$, che ha la proprietà: $$f^{-1}(f(x))=x\ \forall x \in A$$$$f(f^{-1}(x))=x\ \forall x \in A$$
 
 # composizione delle funzioni
+
 $f: A \rightarrow B$
 $g: B  \rightarrow C$
 
@@ -38,6 +45,7 @@ $g \circ f: A \rightarrow C$
 $x\rightarrow g(f(x))$
 
 # teoremi delle funzioni
+
 - [[teorema dell'esistenza degli zeri]]
 - [[teorema dei valori intermedi]]
 - [[teorema di Weierstrass]]

@@ -2,7 +2,7 @@
 updated_at: 2025-03-11T12:15:25.966+01:00
 ---
 #todo
-al tempo di Von Neuman c'era solo la memoria, ora ce ne sono più tipi
+al tempo di Von Neuman c'era solo la memoria, ora ce ne sono più tipi ^tr-0kinbvam6
 
 - [[memoria cache]]
 - [[disco rigido]]

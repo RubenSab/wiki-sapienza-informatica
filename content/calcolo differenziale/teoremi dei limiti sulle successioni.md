@@ -1,3 +1,6 @@
+---
+updated_at: 2025-03-16T22:33:10.413+01:00
+---
 # teorema di unicità del limite
 > Se il limite della [[successione]] esiste, allora è unico.
 
@@ -8,7 +11,7 @@ $n\geq \frac{1}{{\varepsilon}}-1\Longleftrightarrow n_{\varepsilon}=\frac{1}{{\v
 # teorema della distributività del limite
 Siano
 > $a_{n} \rightarrow L \in \mathbb{R}$
-$b_{n}\rightarrow M \in \mathbb{R}$
+> $b_{n}\rightarrow M \in \mathbb{R}$
 
 Allora
 >$a_n+b_n\rightarrow L+M$

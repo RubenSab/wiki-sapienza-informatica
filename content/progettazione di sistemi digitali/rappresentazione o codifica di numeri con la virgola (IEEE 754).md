@@ -1,7 +1,7 @@
 ---
 updated_at: 2025-03-10T21:18:05.995+01:00
 ---
-#todo
+#todo 
 
 Per codificare in binario i [[numeri razionali]] si usa il seguente procedimento:
 

@@ -1,4 +1,4 @@
-#todo scrivere il procedimento senza fare ogni passaggio manualmente
+#todo scrivere il procedimento senza fare ogni passaggio manualmente ^tr-ghjgsjxzk
 
 # tabella di verità
 ```

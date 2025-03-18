@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-03-11T11:35:18.922+01:00
+updated_at: 2025-03-13T14:16:09.018+01:00
 ---
 > Un tipo di dati è un'insieme di valori e di operazioni definite su tali valori.
 
@@ -38,3 +38,15 @@ In [[Java]] sono:
 | classe X       | null                           |
 
 > N.B.: le inizializzazioni sono automatiche per i campi di una classe, ma NON per le variabili locali dei metodi.
+
+# la parola chiave var
+
+Esempio:
+
+``` java
+var k = 10;           // equivale a int k = 10
+var s = "ciao";       // equivale a String s = "ciao"
+var p = new Pippo();  // equivale a Pippo p = new Pippo()
+```
+
+> N.B.: ***NON LO DEVI USARE MAIIII!!! SE LO USI LA GENTE MUORE!!!***

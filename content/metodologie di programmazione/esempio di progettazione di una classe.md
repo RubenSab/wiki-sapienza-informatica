@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-03-06T14:28:02.878+01:00
+updated_at: 2025-03-12T12:28:01.397+01:00
 ---
 # 0. specifica
 
@@ -17,13 +17,14 @@ visualizzare un menù come questo:
 
 - Aggiungere una nuova opzione: `public void addOption(String option) {...}`
 
-- Visualizzare il menù: `public void ddisplay() {...}`
+- Visualizzare il menù: `public void display() {...}`
 - Costruire l’oggetto:
 	- Costruttore con una prima opzione in input?
 	- Costruttore vuoto?
 
 - Meglio evitare casi speciali: `public Menu() {...}`
 # 3. scrivere la documentazione per l''interfaccia pubblica
+
 ![[Pasted image 20250306142314.png]]
 # 4. identifica i campi
 

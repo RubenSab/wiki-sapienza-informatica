@@ -1,9 +1,7 @@
 ---
-updated_at: 2025-03-11T20:16:56.081+01:00
+updated_at: 2025-03-18T15:17:06.238+01:00
 ---
-#todo
 # if else
-## in C
 
 ``` c
 if (x >= 0) {
@@ -15,15 +13,18 @@ if (x >= 0) {
 
 ```
 
-## in Assembly
+Diventa
 
 ```
 .text
-	# uso il registro t0 per la var. X
-	bltz t0, Else                                # test X < 0
+
+	li t0, 5                                           # x = 5
+	
+	bge t0, zero, Else                                 # test x >= 0
 
 	# codice da eseguire se il test è vero
-	j endif                                      # esco dall’IF
+
+	j EndIf                                            # esco dall’IF
 
 	Else:
 		# codice da eseguire se il test è falso
@@ -32,6 +33,7 @@ if (x >= 0) {
 ```
 
 > `j` è l'istruzione di salto.
+
 ## esempio
 
 ```python
@@ -55,3 +57,26 @@ Else: sub s0, s1, s2
 
 Esci: # resto del codice
 ```
+
+# while e for
+
+``` python
+while i < 10:
+	i += 1
+```
+## in Assembly
+
+```
+li t0, 1
+li t1, 10
+
+While:
+	bge t0, t1, EndWhile
+	addi t0, t0, 1
+	j While
+
+EndWhile:
+	# parte del codice dopo il while
+```
+
+Un ciclo for è semplicemente un ciclo while con un contatore che si ferma a una certa soglia specificata

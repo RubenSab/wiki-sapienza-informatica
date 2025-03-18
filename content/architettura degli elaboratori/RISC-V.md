@@ -1,13 +1,13 @@
 ---
-updated_at: 2025-03-11T20:16:16.937+01:00
+updated_at: 2025-03-18T14:49:24.889+01:00
 ---
 > **Reduced Instruction Set Computers**: RISC-V è un'**A**rchitettura di **S**et di **I**struzioni (ISA) open-source, cioè un set minimo di istruzioni semplici che possiamo far eseguire al computer.
 
 # In che contesto e come opera RISC-V?
-## registri
+## [[registri]]
 
 L'architettura RISC-V ha:
-- 32 [[registri]] per gli interi (x0, x1, ..., x31)
+- 32 [[registri generali dell'architettura RISC-V|registri generali]] per gli interi (x0, x1, ..., x31)
 - 32 registri per i numeri in [[rappresentazione o codifica di numeri con la virgola (IEEE 754)|floating point]] (f0, f1, ..., f31)
 - [[Program Counter]]
 - Control Status Registers
@@ -19,7 +19,7 @@ I registri hanno lunghezza fissa, sono chiamati x0, x1 ... x31, usati per memori
 
 ## memoria
 
-La memoria consente di memorizzare vettori, altre strutture dati, o il contenuto dei registri, vi si accede dai registri solamente attraverso istruzioni di trasferimento dati dai registri (S-type).
+La [[memoria RAM]] consente di memorizzare vettori, altre strutture dati, il contenuto dei registri ***e il programma stesso (!!!)*** (**ogni riga è indicizzata in un indirizzo di memoria**): vi si accede dai registri solamente attraverso istruzioni di trasferimento dati dai registri (S-type).
 
 Abbiamo a disposizione $2^{30}$ word (di 32 bit) a 32 bit di memoria, dalla posizione Memoria\[$0$\] a Memoria\[$2^{32}-4$\].
 
@@ -32,7 +32,8 @@ Abbiamo a disposizione $2^{30}$ word (di 32 bit) a 32 bit di memoria, dalla posi
 ## istruzioni
 
 La codifica di un'istruzione deve indicare:
-- L'**OpCode**: quale operazione (e se necessario quale sotto-operazione va svolta)
+
+- L'**OpCode**: quale operazione far svolgere alla [[CPU]] (e se necessario quale sotto-operazione va svolta)
 - Quali **argomenti** sono necessari
 - Dove mettere il risultato
 
@@ -53,16 +54,41 @@ Non tutte le istruzioni necessitano degli stessi campi, quindi si usano diversi 
 
 I [[modi di indirizzamento]] sono le tecniche utilizzate dai processori per determinare il dato memorizzato in un indirizzo (in memoria o in un registro), dato un indirizzo.
 
-### etichette
+### etichette (label)
 
-- Gli indirizzi di salto sono noiosi da calcolare e possono indurre in facili errori
-- L’etichetta associa alla parola l’indirizzo dell’istruzione dove è scritta
-- L’etichetta potrà essere usata nel codice assembly
+Gli indirizzi di salto sono noiosi da calcolare e possono indurre in facili errori, quindi esistono le **etichette** per semplificare il lavoro ai programmatori:
+
+L’etichetta associa alla parola l’indirizzo dell’istruzione dove è scritta, potrà essere usata nel codice assembly al posto dell'indirizzo della [[memoria RAM]] che rappresenta (cioè alla riga del programma in esecuzione), come se fosse una costante numerica nei linguaggi ad alto livello.
+
 - L’assemblatore converte le etichette in salti o in indirizzi
 - Le pseudoistruzioni possono usare come argomenti le etichette
 
-Esempio:
-#todo
+Esempio: etichetta per una funzione
+
+```
+sum:                # Etichetta "sum"
+    add a0, a0, a1  # Somma a0 + a1 e salva in a0
+    ret             # Ritorna (usa ra per tornare)
+```
+
+Esempio: etichetta per un [[cicli in RISC-V|ciclo]]
+
+```
+loop:           
+    addi t0, t0, 1  # Incrementa t0 di 1
+    blt t0, t1, loop # Se t0 < t1, salta a "loop"
+```
+
+Esempio: etichetta per dati in memoria
+
+```
+.data
+message: 
+    .asciz "Hello, RISC-V!\n"
+
+.text
+    la a0, message  # Carica l'indirizzo di "message" in a0
+```
 
 ### pseudoistruzioni
 
@@ -100,10 +126,12 @@ li, x9, 123. → addi x9, x0, 123
 # Implementazioni di costrutti ad alto livello in RISC-V Assembly
 
 - [[vettori in RISC-V]]
+- [[stringhe in RISC-V]]
+- [[matrici in RISC-V]]
 - [[cicli in RISC-V]]
 
 # Esempi e altro
 
 - [[esempio di codice RISC-V]]
 - [[differenze tra CISC e RISC]]
-- [[Organizzazione della memoria]]
+- [[system calls]]

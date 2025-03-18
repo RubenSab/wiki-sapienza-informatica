@@ -4,7 +4,7 @@ Il cancello si apre se
 - si usa la chiave
 - ma non entrambi
 e
-- non ci sono intralci
+- non ci sono intralci ^tr-h1suoso2l
 
 # procedimento
 1. tavola di verità

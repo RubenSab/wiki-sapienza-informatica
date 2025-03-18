@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e7a7b303c61786dc",
+            "id": "ddd439378c92a3e4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "architettura degli elaboratori/vettori in RISC-V.md",
+                "file": "metodologie di programmazione/flussi di controllo.md",
                 "mode": "preview",
                 "source": false,
                 "backlinks": true,
@@ -28,17 +28,31 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "vettori in RISC-V"
+              "title": "flussi di controllo"
             }
           },
           {
-            "id": "38466a57138875f1",
+            "id": "24fbe1efbe577609",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "architettura degli elaboratori/vettori in RISC-V.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "vettori in RISC-V"
             }
           }
         ]
@@ -98,7 +112,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "riferim",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -166,6 +180,16 @@
               "icon": "links-coming-in",
               "title": "Backlinks for 2024-10-17"
             }
+          },
+          {
+            "id": "62488359400687d7",
+            "type": "leaf",
+            "state": {
+              "type": "infranodus-graph-view",
+              "state": {},
+              "icon": "infranodus-icon",
+              "title": "TagsRoutes"
+            }
           }
         ]
       }
@@ -183,57 +207,58 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "homepage:Open homepage": false,
-      "timethings:Activate view": false
+      "timethings:Activate view": false,
+      "infranodus-graph-view:InfraNodus Graph View": true
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "ddd439378c92a3e4",
   "lastOpenFiles": [
-    "architettura degli elaboratori/elenco di operazioni RISC-V.md",
-    "architettura degli elaboratori/esempio di codice RISC-V.md",
-    "architettura degli elaboratori/RISC-V.md",
+    "architettura degli elaboratori/matrici in RISC-V.md",
     "architettura degli elaboratori/vettori in RISC-V.md",
-    "interdisciplinare/memoria RAM.md",
-    "metodologie di programmazione/variabile.md",
-    "progettazione di sistemi digitali/registri.md",
+    "metodologie di programmazione/array.md",
     "architettura degli elaboratori/cicli in RISC-V.md",
-    "architettura degli elaboratori/Organizzazione della memoria.md",
-    "architettura degli elaboratori/modi di indirizzamento.md",
+    "architettura degli elaboratori/RISC-V.md",
+    "architettura degli elaboratori/elenco di operazioni RISC-V.md",
+    "architettura degli elaboratori/registri generali dell'architettura RISC-V.md",
     "architettura degli elaboratori/formati delle istruzioni.md",
-    "architettura degli elaboratori/Untitled.md",
-    "progettazione di sistemi digitali/unità aritmetico logica (ALU).md",
-    "metodologie di programmazione/espressione.md",
-    "metodologie di programmazione/regex (espressioni regolari).md",
-    "metodologie di programmazione/metodologie di programmazione.md",
-    "metodologie di programmazione/programmazione orientata agli oggetti.md",
-    "metodologie di programmazione/Java.md",
-    "introduzione agli algoritmi/introduzione agli algoritmi.md",
-    "python.md",
+    "architettura degli elaboratori/system calls.md",
+    "architettura degli elaboratori/Organizzazione della memoria.md",
+    "progettazione di sistemi digitali/registri.md",
+    "interdisciplinare/memoria RAM.md",
+    "metodologie di programmazione/oggetto.md",
+    "metodologie di programmazione/enumerazione.md",
+    "metodologie di programmazione/campi.md",
+    "metodologie di programmazione/Pasted image 20250318114121.png",
+    "metodologie di programmazione/Pasted image 20250318114106.png",
     "metodologie di programmazione/classe.md",
-    "metodologie di programmazione/package.md",
-    "metodologie di programmazione/tipi di dati.md",
-    "metodologie di programmazione/char.md",
-    "metodologie di programmazione/boolean.md",
-    "metodologie di programmazione/Pasted image 20250311113121.png",
-    "metodologie di programmazione/lettura input da console.md",
-    "metodologie di programmazione/Pasted image 20250311111510.png",
-    "metodologie di programmazione/Pasted image 20250311105706.png",
-    "metodologie di programmazione/Pasted image 20250311105109.png",
+    "metodologie di programmazione/costruttore.md",
+    "progettazione di sistemi digitali/flip-flop.md",
+    "interdisciplinare/funzione.md",
+    "metodologie di programmazione/variabile.md",
+    "metodologie di programmazione/Pasted image 20250318112302.png",
+    "metodologie di programmazione/Pasted image 20250318112236.png",
+    "metodologie di programmazione/tipi.md",
+    "metodologie di programmazione/Java.md",
+    "metodologie di programmazione/metodo.md",
+    "metodologie di programmazione/modificatori di visibilità.md",
+    "metodologie di programmazione/incapsulamento.md",
+    "metodologie di programmazione/Pasted image 20250318110001.png",
+    "metodologie di programmazione/flussi di controllo.md",
+    "metodologie di programmazione/Pasted image 20250318100240.png",
+    "metodologie di programmazione/Pasted image 20250318100229.png",
+    "metodologie di programmazione/Pasted image 20250318092548.png",
     "interdisciplinare/Pasted image 20250311095722.png",
-    "progettazione di sistemi digitali/latch_tagliato.svg",
-    "metodologie di programmazione/Pasted image 20250306142721.png",
-    "metodologie di programmazione/Pasted image 20250306142435.png",
-    "metodologie di programmazione/Pasted image 20250306142415.png",
-    "metodologie di programmazione/Pasted image 20250306142411.png",
+    "TagsRoutes/logs",
+    "TagsRoutes",
+    "graph-screenshot/graph-screenshot-2025-03-14-14-21-39.png",
+    "graph-screenshot",
+    "TagsRoutes/reports",
+    "metodologie di programmazione/lab3/Test.java",
+    "metodologie di programmazione/lab3/Segmento.java",
+    "metodologie di programmazione/lab3/Punto.java",
+    "metodologie di programmazione/lab3",
     "metodologie di programmazione/Introduzione Metodologie di Programmazione.pdf",
     "introduzione agli algoritmi",
-    "calcolo integrale",
-    "metodologie di programmazione/Introduzione OOP.pdf",
-    "architettura degli elaboratori/AE - 01 - Introduzione.pdf",
-    "architettura degli elaboratori",
-    "metodologie di programmazione",
-    "altro",
-    "piani di studi",
-    "progettazione di sistemi digitali/Logigator_ Editor.html",
     "progettazione di sistemi digitali/rete sequenziale generica.canvas"
   ]
 }

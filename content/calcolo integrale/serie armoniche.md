@@ -1,6 +1,7 @@
 ---
-updated_at: 2025-03-07T11:03:59.367+01:00
+updated_at: 2025-03-16T23:40:45.280+01:00
 ---
-#todo 
+> $$\sum_{n=1}^{+\infty}{\frac{1}{n^{\alpha}}}, \alpha > 0$$
 
-> Alcune sono convergenti mentre 
+- $\alpha \leq 1$ -> la serie diverge
+- $\alpha \geq 1$ -> la serie converge

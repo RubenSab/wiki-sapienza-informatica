@@ -1,26 +1,47 @@
 ---
-updated_at: 2025-03-11T11:37:23.071+01:00
+updated_at: 2025-03-18T11:13:34.488+01:00
 ---
-# elementi di Java
+# Elementi di Java
+
+- [[caratteristiche di Java]]
+
+## elementi di base e caratteristiche del linguaggio
 
 - [[espressione]]
 - [[operatori]]
-- [[tipi di dati]]
+- [[tipi]]
 - [[variabile]]
 - [[oggetto]]
 - [[classe]]
 - [[campi|campo]]
 - [[metodo]]
+- [[flussi di controllo]]
 - [[package]]
 - [[javadoc]]
-# altro
+- [[lettura input da console]]
+
+## strutture dati
+
+- [[array]]
+- [[enumerazione]]
+## concetti più complessi
+
 - [[ereditarietà]]
 - [[superclasse]]
 - [[polimorfismo]]
 - [[incapsulamento]]
-- [[caratteristiche di Java]]
+
+## Tipi/Oggetti built-in
+
+- [[java.lang.String]]
+
+# Altro
+
 - [[Unified Modeling Language (UML)]]
 - [[regex (espressioni regolari)]]
 - [[memoria RAM|anatomia della memoria]]
 - [[analisi dello stato della memoria]]
-- [[lettura input da console]]
+
+# Esempi
+- [[esempio di progettazione di una classe]]
+- [[progettazione di una classe, punti e segmenti]]

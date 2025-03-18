@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-03-07T09:03:12.052+01:00
+updated_at: 2025-03-16T23:36:37.474+01:00
 ---
 > Una serie numerica $a_{n}$ è la [[successione]] delle somme (somme parziali) dei primi $n$ termini di una successione $a_{n}$.
 
@@ -7,22 +7,24 @@ updated_at: 2025-03-07T09:03:12.052+01:00
 
 # convergenza e divergenza
 
-- se $\exists \lim_{n\to +\infty}{s_{n}}$ allora $\sum_{n=1}^{+\infty}a_{n} \in \mathbb{R}$ ha un significato:
+- Se $\exists \lim_{n\to +\infty}{s_{n}}$ allora $\sum_{n=1}^{+\infty}a_{n} \in \mathbb{R}$ ha un significato:
 	- se la somma è uguale a un numero, la serie [[limiti di successioni|converge]].
 	- se la somma è uguale a $\pm \infty$ allora la serie [[limiti di successioni|diverge]].
-- se $\nexists \lim_{n\to +\infty}{s_{n}}$ allora $\sum_{n=1}^{+\infty}a_{n}$ è indeterminata, privo di significato.
+- Se $\nexists \lim_{n\to +\infty}{s_{n}}$ allora $\sum_{n=1}^{+\infty}a_{n}$ è indeterminata, privo di significato.
 
+
+> La condizione necessaria per la convergenza è $$\lim_{n\to +\infty}{a_{n}}=0$$ ma non è sufficiente, ad esempio $\sum_{n=1}^{+\infty}{\frac{1}{n}}$ la rispetta, però non converge.
 ## esempi
 
 $a_{n}=(-1)^{n}$ oscilla tra $1$ e $-1$ quindi non converge, controlliamo se $S_{n}=\sum_{n=1}^{+\infty}a_{n}$
 $S_{n}$ oscilla tra $0$ e $1$, quindi non converge.
 
-## metodi per determinare la convergenza
+## metodi per determinare convergenza e divergenza
 
-- [[successione di cauchy]]
+- [[successione di Cauchy]]
 - [[teoremi dei limiti sulle successioni|teorema dei carabinieri]]
 - [[confronto asintotico]]
-# estensione della definizione
+# estensione della definizione a ogni indice
 
 > N.B.: La definizione di serie fornita sopra è incompleta, infatti l'indice di partenza della sommatoria può essere un numero qualsiasi\*.
 

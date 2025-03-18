@@ -3,7 +3,7 @@ updated_at: 2025-03-04T09:43:06.237+01:00
 ---
 # operatori numerici
 
-> Si riferiscono ai [[tipi di dati|tipi]] numerici
+> Si riferiscono ai [[tipi|tipi]] numerici
 
 | Operatori | Operazioni                         | Precedenza |
 | --------- | ---------------------------------- | ---------- |
@@ -38,4 +38,4 @@ updated_at: 2025-03-04T09:43:06.237+01:00
 - #todo
 # operatori unari
 - post-incremento e post-decremento: `++` e `--` (suffissi)
-- pre-incremento e pre-decremento: `++` e `--` (prefissi), `+` e `-`
+- pre-incremento e pre-decremento: `++` e `--` (prefissi), `+` e `-` ^tr-8m3t2oyo0

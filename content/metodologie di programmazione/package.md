@@ -1,7 +1,7 @@
 ---
-updated_at: 2025-03-11T11:31:15.922+01:00
+updated_at: 2025-03-16T23:12:48.321+01:00
 ---
-#todo
+#todo 
 
 > Sono collezioni (rappresentate fisicamente da cartelle) di [[classe|classi]] con funzionalità correlate e sotto-package.
 
@@ -26,6 +26,10 @@ Una classe può essere inserita in un determinato package semplicemente:
 - specificandolo all’inizio del file (parola chiave package)
 - posizionando il file nella corretta sottocartella
 
-Esempio di package:
+## Convenzioni per i nomi dei package
+
+#todo
+
+## Esempio di package:
 
 ![[Pasted image 20250311113121.png]]
