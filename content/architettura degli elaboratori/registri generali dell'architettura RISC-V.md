@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-03-18T12:29:36.111+01:00
+updated_at: 2025-03-20T10:46:51.336+01:00
 ---
 > Nel set di istruzioni [[RISC-V]], i [[registri]] sono **32** e sono indicati come `x0` fino a `x31`. Ogni registro ha un nome convenzionale per facilitarne l'uso e un ruolo specifico.
 # Registri generali (`x0 - x31`)
@@ -78,5 +78,3 @@ Qui `a0` e `a1` contengono i parametri della funzione, e il risultato viene rest
 - Alcuni registri sono preservati tra chiamate (`sX`), altri no (`tX`).
 - `aX` per argomenti e valori di ritorno.
 - `sp`, `ra`, `zero`, `gp` e `tp` hanno ruoli speciali.
-
-Questa struttura aiuta a scrivere codice efficiente e facilmente comprensibile in assembly RISC-V! 🚀

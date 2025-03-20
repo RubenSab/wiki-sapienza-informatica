@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-03-18T10:48:43.869+01:00
+updated_at: 2025-03-20T18:45:44.101+01:00
 ---
 > Un metodo è una [[funzione]] associata in modo esclusivo a una [[classe]], può essere richiamato sia da un'[[oggetto]] che una classe stessa. Ha degli argomenti in input e spesso restituisce un output con `return`.
 
@@ -32,3 +32,7 @@ public tipo_di_dati nomeDelMetodo(tipo_di_dati_del nomeParam1, ..., tipo_di_dati
 Esempio:
 
 ![[Pasted image 20250311105109.png]]
+
+# metodi astratti
+
+> Sono metodi che non possono essere implementati e non fanno nulla, infatti non hanno nemmeno le parentesi graffe del corpo di istruzioni. Servono solo ad essere [[ereditarietà|ereditati]], facendo da prototipi.

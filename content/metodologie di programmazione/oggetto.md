@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-03-11T10:16:58.892+01:00
+updated_at: 2025-03-20T13:26:09.998+01:00
 ---
 > Nella [[programmazione orientata agli oggetti]], un oggetto è un'entità all'interno di un programma in esecuzione. Gli **oggetti** sono tipi caratterizzati da **valori specifici dei membri di classe**, cioè [[metodo|metodi]] e [[campi]] (stati).
 
@@ -14,4 +14,3 @@ Gli oggetti vengono creati quando il [[main]] viene eseguito, quindi la memoria 
 Ogni oggetto ha un suo [[tipi]], detto [[classe]], quindi ogni oggetto si dice essere un'**istanza** di una classe.
 
 Per effettuare una richiesta a un'oggetto, si invia un [[messaggio]] a quell'oggetto usando un metodo.
-

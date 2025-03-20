@@ -6,38 +6,15 @@
       {
         "id": "4509724f8bf84da7",
         "type": "tabs",
+        "dimension": 63.9871382636656,
         "children": [
           {
-            "id": "ddd439378c92a3e4",
+            "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "metodologie di programmazione/flussi di controllo.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "flussi di controllo"
-            }
-          },
-          {
-            "id": "24fbe1efbe577609",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "architettura degli elaboratori/vettori in RISC-V.md",
+                "file": "metodologie di programmazione/metodo.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +29,38 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "vettori in RISC-V"
+              "title": "metodo"
+            }
+          }
+        ]
+      },
+      {
+        "id": "f69726ccb367da1b",
+        "type": "tabs",
+        "dimension": 36.01286173633441,
+        "children": [
+          {
+            "id": "358b6e5c69180e7f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "metodologie di programmazione/ereditarietà.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "ereditarietà"
             }
           }
         ]
@@ -95,8 +103,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 229.5094871520996,
-    "collapsed": true
+    "width": 229.5094871520996
   },
   "right": {
     "id": "26b38658cac3fe47",
@@ -211,46 +218,46 @@
       "infranodus-graph-view:InfraNodus Graph View": true
     }
   },
-  "active": "ddd439378c92a3e4",
+  "active": "358b6e5c69180e7f",
   "lastOpenFiles": [
-    "architettura degli elaboratori/matrici in RISC-V.md",
-    "architettura degli elaboratori/vettori in RISC-V.md",
-    "metodologie di programmazione/array.md",
-    "architettura degli elaboratori/cicli in RISC-V.md",
-    "architettura degli elaboratori/RISC-V.md",
+    "metodologie di programmazione/metodo.md",
+    "metodologie di programmazione/classe abstract.md",
+    "metodologie di programmazione/classe.md",
+    "metodologie di programmazione/ereditarietà.md",
+    "metodologie di programmazione/ereditarietàUML.svg",
+    "ereditarietàUML.svg",
+    "metodologie di programmazione/modificatori di visibilità.md",
+    "metodologie di programmazione/superclasse.md",
+    "metodologie di programmazione/Java.md",
+    "metodologie di programmazione/programmazione orientata agli oggetti.md",
+    "metodologie di programmazione/classe wrapper.md",
+    "metodologie di programmazione/oggetto.md",
+    "architettura degli elaboratori/funzioni in RISC-V.md",
     "architettura degli elaboratori/elenco di operazioni RISC-V.md",
     "architettura degli elaboratori/registri generali dell'architettura RISC-V.md",
+    "architettura degli elaboratori/RISC-V.md",
+    "metodologie di programmazione/array.md",
+    "metodologie di programmazione/flussi di controllo.md",
+    "architettura degli elaboratori/matrici in RISC-V.md",
+    "architettura degli elaboratori/vettori in RISC-V.md",
+    "architettura degli elaboratori/cicli in RISC-V.md",
     "architettura degli elaboratori/formati delle istruzioni.md",
     "architettura degli elaboratori/system calls.md",
     "architettura degli elaboratori/Organizzazione della memoria.md",
     "progettazione di sistemi digitali/registri.md",
     "interdisciplinare/memoria RAM.md",
-    "metodologie di programmazione/oggetto.md",
     "metodologie di programmazione/enumerazione.md",
     "metodologie di programmazione/campi.md",
     "metodologie di programmazione/Pasted image 20250318114121.png",
     "metodologie di programmazione/Pasted image 20250318114106.png",
-    "metodologie di programmazione/classe.md",
-    "metodologie di programmazione/costruttore.md",
-    "progettazione di sistemi digitali/flip-flop.md",
-    "interdisciplinare/funzione.md",
-    "metodologie di programmazione/variabile.md",
     "metodologie di programmazione/Pasted image 20250318112302.png",
     "metodologie di programmazione/Pasted image 20250318112236.png",
-    "metodologie di programmazione/tipi.md",
-    "metodologie di programmazione/Java.md",
-    "metodologie di programmazione/metodo.md",
-    "metodologie di programmazione/modificatori di visibilità.md",
-    "metodologie di programmazione/incapsulamento.md",
     "metodologie di programmazione/Pasted image 20250318110001.png",
-    "metodologie di programmazione/flussi di controllo.md",
     "metodologie di programmazione/Pasted image 20250318100240.png",
     "metodologie di programmazione/Pasted image 20250318100229.png",
     "metodologie di programmazione/Pasted image 20250318092548.png",
-    "interdisciplinare/Pasted image 20250311095722.png",
     "TagsRoutes/logs",
     "TagsRoutes",
-    "graph-screenshot/graph-screenshot-2025-03-14-14-21-39.png",
     "graph-screenshot",
     "TagsRoutes/reports",
     "metodologie di programmazione/lab3/Test.java",

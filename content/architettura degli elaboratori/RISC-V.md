@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-03-18T14:49:24.889+01:00
+updated_at: 2025-03-20T10:17:45.008+01:00
 ---
 > **Reduced Instruction Set Computers**: RISC-V è un'**A**rchitettura di **S**et di **I**struzioni (ISA) open-source, cioè un set minimo di istruzioni semplici che possiamo far eseguire al computer.
 
@@ -129,6 +129,7 @@ li, x9, 123. → addi x9, x0, 123
 - [[stringhe in RISC-V]]
 - [[matrici in RISC-V]]
 - [[cicli in RISC-V]]
+- [[funzioni in RISC-V]]
 
 # Esempi e altro
 
