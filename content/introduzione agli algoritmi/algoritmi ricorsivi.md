@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-03-17T10:08:01.106+01:00
+updated_at: 2025-03-21T11:13:27.543+01:00
 ---
 > In informatica un [[algoritmo]] [[funzione|ricorsivo]] è un algoritmo che nella sua definizione fa riferimento a se stesso.
 

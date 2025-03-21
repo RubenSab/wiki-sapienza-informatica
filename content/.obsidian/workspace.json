@@ -6,7 +6,6 @@
       {
         "id": "4509724f8bf84da7",
         "type": "tabs",
-        "dimension": 63.9871382636656,
         "children": [
           {
             "id": "e7a7b303c61786dc",
@@ -14,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "metodologie di programmazione/metodo.md",
+                "file": "introduzione agli algoritmi/algoritmi ricorsivi.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -29,23 +28,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "metodo"
+              "title": "algoritmi ricorsivi"
             }
-          }
-        ]
-      },
-      {
-        "id": "f69726ccb367da1b",
-        "type": "tabs",
-        "dimension": 36.01286173633441,
-        "children": [
+          },
           {
-            "id": "358b6e5c69180e7f",
+            "id": "35912d4c30d3f733",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "metodologie di programmazione/ereditarietà.md",
+                "file": "progettazione di sistemi digitali/unità di misura del sistema binario.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -60,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "ereditarietà"
+              "title": "unità di misura del sistema binario"
             }
           }
         ]
@@ -119,7 +111,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "glob",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -202,8 +194,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 342.5,
-    "collapsed": true
+    "width": 342.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -218,12 +209,20 @@
       "infranodus-graph-view:InfraNodus Graph View": true
     }
   },
-  "active": "358b6e5c69180e7f",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "progettazione di sistemi digitali/unità di misura del sistema binario.md",
+    "introduzione agli algoritmi/algoritmi ricorsivi.md",
+    "architettura degli elaboratori/funzioni in RISC-V.md",
+    "architettura degli elaboratori/vettori in RISC-V.md",
+    "architettura degli elaboratori/Untitled.md",
+    "architettura degli elaboratori/matrici in RISC-V.md",
+    "architettura degli elaboratori/elenco di operazioni RISC-V.md",
+    "metodologie di programmazione/Hello World in Java.md",
+    "metodologie di programmazione/ereditarietà.md",
     "metodologie di programmazione/metodo.md",
     "metodologie di programmazione/classe abstract.md",
     "metodologie di programmazione/classe.md",
-    "metodologie di programmazione/ereditarietà.md",
     "metodologie di programmazione/ereditarietàUML.svg",
     "ereditarietàUML.svg",
     "metodologie di programmazione/modificatori di visibilità.md",
@@ -232,22 +231,14 @@
     "metodologie di programmazione/programmazione orientata agli oggetti.md",
     "metodologie di programmazione/classe wrapper.md",
     "metodologie di programmazione/oggetto.md",
-    "architettura degli elaboratori/funzioni in RISC-V.md",
-    "architettura degli elaboratori/elenco di operazioni RISC-V.md",
     "architettura degli elaboratori/registri generali dell'architettura RISC-V.md",
     "architettura degli elaboratori/RISC-V.md",
     "metodologie di programmazione/array.md",
     "metodologie di programmazione/flussi di controllo.md",
-    "architettura degli elaboratori/matrici in RISC-V.md",
-    "architettura degli elaboratori/vettori in RISC-V.md",
     "architettura degli elaboratori/cicli in RISC-V.md",
     "architettura degli elaboratori/formati delle istruzioni.md",
     "architettura degli elaboratori/system calls.md",
     "architettura degli elaboratori/Organizzazione della memoria.md",
-    "progettazione di sistemi digitali/registri.md",
-    "interdisciplinare/memoria RAM.md",
-    "metodologie di programmazione/enumerazione.md",
-    "metodologie di programmazione/campi.md",
     "metodologie di programmazione/Pasted image 20250318114121.png",
     "metodologie di programmazione/Pasted image 20250318114106.png",
     "metodologie di programmazione/Pasted image 20250318112302.png",

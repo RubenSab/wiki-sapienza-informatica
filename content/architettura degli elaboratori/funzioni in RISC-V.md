@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-03-20T11:58:11.117+01:00
+updated_at: 2025-03-20T23:23:53.875+01:00
 ---
 #todo 
 
@@ -32,7 +32,7 @@ La funzione chiamante (anche il Main) esegue una procedura precisa per chiamare 
 Per chiamare la funzione/procedura:
 
 ```
-jar etichettaFunzione
+jal etichettaFunzione
 ```
 
 Per tornare a continuare l'esecuzione della funzione chiamante:

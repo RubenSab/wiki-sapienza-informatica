@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-03-18T15:58:38.511+01:00
+updated_at: 2025-03-20T22:02:17.606+01:00
 ---
 ``` python
 matrix = [
@@ -24,9 +24,9 @@ In assembly lo spazio di memoria è lineare, la matrice si riduce a una procedur
 	li t2, 4 # carico 4 in t2
 	lw t3, width # carico la larghezza della matrice in t3
 	
-	mul t4, t3, t1 # t4 = lunghezza * indice y
-	add t4, t4, t0 # t4 = lunghezza * indice y + indice x
-	mul t4, t4, t2 # t4 = 4 * (lunghezza * indice y + indice x)
+	mul t4, t3, t1 # t4 = larghezza * indice y
+	add t4, t4, t0 # t4 = larghezza * indice y + indice x
+	mul t4, t4, t2 # t4 = 4 * (larghezza * indice y + indice x)
 	
 	
 	la t5, matrice # carico l'indirizzo base della matrice in t5

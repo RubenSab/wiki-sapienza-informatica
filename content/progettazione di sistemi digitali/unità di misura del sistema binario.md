@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-03-10T21:09:19.002+01:00
+updated_at: 2025-03-21T11:13:57.068+01:00
 ---
 Bit: **BI**nary **D**igit, è l'unità base del [[sistema binario]], vale 1 o 0.
 - Nibble: 4 Bit,
@@ -10,12 +10,12 @@ Bit: **BI**nary **D**igit, è l'unità base del [[sistema binario]], vale 1 o 0.
 
 |          | bit                      | byte                |
 | -------- | ------------------------ | ------------------- |
-| **kibi** | kibibit: 2^10 (1024) bit | kibibyte: 2^10 byte |
-| **mebi** | mebibit: 2^20 bit        | mebibyte: 2^20 byte |
-| **gibi** | gibibit: 2^30 bit        | gibibyte: 2^30 byte |
+| **kibi** | kilobit: 2^10 (1024) bit | kilobyte: 2^10 byte |
+| **mebi** | megabit: 2^20 bit        | megabyte: 2^20 byte |
+| **gibi** | gigabit: 2^30 bit        | gibabyte: 2^30 byte |
 # multipli di 10
 |          | bit               | byte                |
 | -------- | ----------------- | ------------------- |
-| **kilo** | kilobit: 10^3 bit | kilobyte: 10^3 byte |
-| **mega** | megabit: 10^6 bit | megabyte: 10^6 byte |
-| **giga** | gigabit: 10^9 bit | gigabyte: 10^9 byte |
+| **kilo** | kibibit: 10^3 bit | kibibyte: 10^3 byte |
+| **mega** | mebibit: 10^6 bit | mebibyte: 10^6 byte |
+| **giga** | gibibit: 10^9 bit | gibibyte: 10^9 byte |
