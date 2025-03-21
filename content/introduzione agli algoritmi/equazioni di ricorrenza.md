@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-03-21T13:21:58.444+01:00
+updated_at: 2025-03-21T13:23:18.631+01:00
 ---
 > Le equazioni di ricorrenza calcolano la [[complessità temporale]] degli [[algoritmi ricorsivi]]. Non si può calcolare normalmente la complessità di questi algoritmi dato che la loro funzione di [[costo computazionale]] è anch'essa ricorsiva.
 
@@ -25,18 +25,27 @@ $$
 # Metodi di risoluzione
 ## Metodo iterativo (con l'esempio sopra)
 
-> Consiste nel calcolare $T(n)$ in termini $T(n-m),\ m<n$, poi $T(n-m-p), p < m$ e così via sostituendo fino a che si raggiunge $T(1)$. 
+> Consiste nel calcolare $T(n)$ in termini $T(n-m),\ m<n$, poi $T(n-m-p), p < m$ e così via sostituendo fino a che si raggiunge $T(1)$.
+
 $$T(n) = T(n-1) + \Theta(1)$$
+
 $$T(n) = T(n-2) + \Theta(1) + \Theta(1)$$
+
 $$T(n) = T(n-3) + \Theta(1) + \Theta(1) + \Theta(1)$$
+
 $$\ldots$$
+
 $$T(n) = T(n-k) +\sum_{i=1}^{k}\Theta(1)$$
+
 $$T(n)=T(1) + \sum_{i=1}^{n-1}\Theta(1)$$
+
 $$T(n)=T(1) + (n-1)\cdot \Theta(1)$$
+
 $$T(n)= \Theta(1) \cdot n = \Theta(n)$$
 ## Metodo dell'albero
 #todo
 Esempio:
+
 $$T(n) =
 \begin{cases}
 \Theta(1) & \text{se } n=0 \\
