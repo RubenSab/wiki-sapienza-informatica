@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-03-21T13:04:04.710+01:00
+updated_at: 2025-03-21T13:21:58.444+01:00
 ---
 > Le equazioni di ricorrenza calcolano la [[complessità temporale]] degli [[algoritmi ricorsivi]]. Non si può calcolare normalmente la complessità di questi algoritmi dato che la loro funzione di [[costo computazionale]] è anch'essa ricorsiva.
 
@@ -42,7 +42,6 @@ $$T(n) =
 \Theta(1) & \text{se } n=0 \\
 2T(\frac{n}{2}) + \Theta(1) & \text{altrimenti}
 \end{cases}
-\
 $$
 
 $$T(n) \text{ costa come}
