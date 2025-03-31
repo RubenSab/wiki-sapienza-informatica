@@ -15,13 +15,6 @@
       }
     },
     {
-      "query": "tag:toadd",
-      "color": {
-        "a": 1,
-        "rgb": 14701269
-      }
-    },
-    {
       "query": "path: \"progettazione di sistemi digitali\"  ",
       "color": {
         "a": 1,
@@ -88,6 +81,6 @@
   "repelStrength": 13.1947643390821,
   "linkStrength": 0.682620759238239,
   "linkDistance": 178,
-  "scale": 0.09444172844305973,
+  "scale": 0.1419016303199199,
   "close": true
 }

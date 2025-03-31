@@ -1,3 +1,6 @@
+---
+updated_at: 2025-03-21T15:49:25.667+01:00
+---
 >Indicata con |I| oppure NI, per gli insiemi **finiti** si identifica come il numero di elementi nell'insieme, mentre per gli insiemi **infiniti** vale che due insiemi hanno la stessa cardinalità o potenza quando esiste una [[funzione|corrispondenza biunivoca]] tra di loro, indipendentemente se uno sia o non sia il sottoinsieme dell'altro.
 
 Esempio di insiemi infiniti con la stessa cardinalità:
@@ -13,8 +16,9 @@ $F$ è una corrispondenza biunivoca tra $\mathbb{N}$ e $\mathbb{P}$, quindi i du
 
 - Anche $\mathbb{N}\times\mathbb{N}$ è numerabile, uno dei metodi possibili per dimostrarlo è il metodo della [coda di colomba (o dove tail)](https://medium.com/@dillihangrae/dovetailing-in-turing-machine-e1ea2bb330ce).
 # concetto di cardinalità nelle codifiche di informazioni
+
 - NI = NC codifica non ambigua e non ridondante: gli [[teoria degli insiemi|insiemi]] I e C hanno lo stesso numero di "parole" per codificare ogni tipo di informazioni presenti.
 - NI > NC codifica ambigua: non ci sono abbastanza "parole" per codificare ogni tipo di informazioni presenti.
 - NI < NC codifica ridondante: ci sono più "parole" di quante sono necessarie per codificare le informazioni presenti. Di per se non è negativa, anzi si usa per la correzione degli [[errori di trasmissione]] e per altri scopi, ma riduce l'efficienza.
 
-efficienza = bisogna tendere a una codifica meno ridondante possibile.
+Bisogna tendere a una [[funzioni di codifica e decodifica|codifica]] meno ridondante possibile.

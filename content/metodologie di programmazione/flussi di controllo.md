@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-03-18T10:57:44.472+01:00
+updated_at: 2025-03-25T19:06:00.204+01:00
 ---
 # istruzioni condizionali
 ## if
@@ -106,7 +106,7 @@ switch(<espressione intera con risultato intero, char compresi>)
 
 ## espressione switch
 
-Esempio: #todo 
+Esempio:
 
 ``` java
 String s = switch(c) {
@@ -114,7 +114,7 @@ String s = switch(c) {
 	case 'h' -> "acca";
 	case 'e' -> "elle";
 	case 'c' -> "ci";
-	case 'a', 'e', 'i', 'o', 'u' -> 
+	case 'a', 'e', 'i', 'o', 'u' -> 'vocale';
 }
 ```
 
@@ -124,7 +124,6 @@ String s = switch(c) {
 
 ``` java
 while (<espressione booleana>) <singola istruzione>;
-
 ```
 
 ``` java

@@ -6,4 +6,4 @@ updated_at: 2025-03-06T14:12:25.947+01:00
 [[Introduzione Metodologie di Programmazione.pdf|PDF introduttivo]]
 
 - [[programmazione orientata agli oggetti]]
-- [[Unified Modeling Language (UML)]]
+- [[UML (Unified Modeling Language)]]

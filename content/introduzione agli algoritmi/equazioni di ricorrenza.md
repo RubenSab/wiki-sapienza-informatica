@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-03-21T13:23:18.631+01:00
+updated_at: 2025-03-24T10:16:13.294+01:00
 ---
 > Le equazioni di ricorrenza calcolano la [[complessità temporale]] degli [[algoritmi ricorsivi]]. Non si può calcolare normalmente la complessità di questi algoritmi dato che la loro funzione di [[costo computazionale]] è anch'essa ricorsiva.
 
@@ -84,11 +84,75 @@ $$
 Dimostriamo che è in $\exists c\ |\ T(n)\leq c\cdot n \in O(n)$
 ## Master theorem
 
-> È una formula generale per risolvere le equazioni di ricorrenza.
+> Il teorema principale delle equazioni ricorrenti fornisce un metodo per determinare la [[complessità temporale]] delle [[equazioni di ricorrenza]] del tipo
 
+$$T(n)=
+\begin{cases} aT\left(\frac{n}{b}\right)+\Theta(f(n)) & \text{altrimenti} \\
+\Theta(1) & \text{se}\ n = 1\\
+\end{cases}$$
 
-# Esempi
-## Esempio con il fattoriale
+dove:
+- $a \geq 1, a \in \mathbb{N}$ è il numero di sottoproblemi,
+- $b > 1, b \in \mathbb{R}$ è il fattore di divisione del problema,
+- $f(n)$ è un termine aggiuntivo che rappresenta il costo della divisione e della combinatoria.
+
+Avendo una funzione ricorsiva $f(n)$, la possiamo confrontare con $n \log{a}$ e possono verificarsi solo 3 casi:
+
+- $f(n) = O(n^{\log_{b}{a-\varepsilon}}) \to T(n) = \Theta(n^{\log_{b}{a}})$
+- $f(n) = \Theta(n^{\log_{b}{a}}) \to T(n) = \Theta(n^{\log_{b}{a}} \cdot \log{n})$
+- $f(n) = \Omega(n^{\log_{b}{a} + \varepsilon}) \to T(n) = \Theta(f(n))$
+
+> N.B.: Il master theorem non si può applicare se c'è un $T(n+\text{ qualcosa})$ nell'equazione.
+
+Per il caso $\Omega$ si deve verificare questa condizione$$\exists c < 1\ \text{tale che}\ a\cdot f\left(\frac{n}{b}\right) < c\cdot f(n)$$ma in realtà si verifica sempre, a meno che non ci siano in gioco funzioni trigonometriche.
+
+### esempio di applicazione con la ricerca binaria
+
+$$T(n) =
+\begin{cases}
+\Theta(1) & n=1\\
+T\left(\frac{n}{2}\right) + \Theta(1) & \text{altrimenti}
+\end{cases}$$
+- $a = 1$
+- $b=2$
+
+Calcoliamo la funzione per confrontare $f(n)$:
+$$n^{\log_{b}{a}}=n^{log_{2}{1}}=1$$
+Il risultato è 1, significa che $f(n)$ e $n^{log_{b}{a}}$ sono asintoticamente uguali, quindi siamo nel caso $\Theta$ del teorema:
+$$f(n) = \Omega(1) \to T(n) = \Theta(n^{\log_{b}{a}} \cdot \log{n}) = \Theta(\log{n})$$
+
+### esempio di applicazione con un programma
+
+``` python
+def es(n):
+	
+	if n <= 2:
+		return 7
+	
+	x = 5 * es(n//2)
+
+	while n >= 1:
+		n = n//2
+		x += 3
+
+	return x
+```
+
+$$T(n) =
+\begin{cases} \Theta(1) & n \leq 2\\
+T\left(\frac{n}{2}\right) + \Theta(\log{n}) & \text{altrimenti}
+\end{cases}$$
+- $a=1$
+- $b=2$
+
+Calcoliamo la funzione per confrontare $f(n)$: #todo
+$$n^{\log_{b}{a}}=n^{log_{2}{1}}=n^{0+\varepsilon}$$
+Il risultato è 1, significa che $f(n)$ e $n^{log_{b}{a}}$ sono asintoticamente uguali, quindi siamo nel caso $\Theta$ del teorema:
+
+$$f(n) = \Omega(1) \to T(n) = \Theta(n^{\log_{b}{a}} \cdot \log{n}) = \Theta(\log{n})$$
+
+## Esempi
+### Esempio con il fattoriale
 
 ``` python
 def fattoriale(n):
@@ -108,7 +172,7 @@ T(n-1) + \Theta(1) & \text{altrimenti}
 \end{cases}
 $$
 Risolvendo l'equazione di ricorrenza, la complessità del programma risulta $\Theta(n)$.
-## Esempio con la somma delle liste
+### Esempio con la somma delle liste
 
 ``` python
 def somma(A):
@@ -140,6 +204,6 @@ $$T(n) =
 \begin{cases}
 \Theta(1) & \text{se } n=0 \\
 T(n-1) + \Theta(n) & \text{altrimenti}
-\end{cases}
-\ = \Theta(n)
+\end{cases}\ = \Theta(n)
 $$
+---

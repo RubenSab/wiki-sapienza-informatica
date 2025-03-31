@@ -1,7 +1,7 @@
 ---
-updated_at: 2025-03-21T11:17:00.213+01:00
+updated_at: 2025-03-24T20:05:33.351+01:00
 ---
-> In informatica un [[algoritmo]] [[funzione|ricorsivo]] è un algoritmo che nella sua definizione fa riferimento a se stesso.
+> In informatica un [[algoritmo]] [[funzione|ricorsivo]] è un algoritmo che nella sua definizione fa riferimento a se stesso. La loro [[complessità temporale]] si calcola con le [[equazioni di ricorrenza]].
 
 Esempio:
 
@@ -18,5 +18,3 @@ Ogni problema che si può risolvere in modo ricorsivo può essere anche risolto 
 # Quando usare la ricorsione?
 
 Per quei casi in cui è più facile programmare una cosa in modo ricorsivo piuttosto che iterativo.
-
-- [[equazioni di ricorrenza]]

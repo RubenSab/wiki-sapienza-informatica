@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-03-06T14:29:40.292+01:00
+updated_at: 2025-03-25T10:43:59.882+01:00
 ---
 > Il linguaggio di modellazione unificato, è un linguaggio di modellazione e specifica basato sul [[programmazione orientata agli oggetti|paradigma orientato agli oggetti]].
 

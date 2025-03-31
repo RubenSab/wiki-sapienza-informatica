@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-03-18T11:13:34.488+01:00
+updated_at: 2025-03-27T13:43:58.755+01:00
 ---
 # Elementi di Java
 
@@ -15,21 +15,23 @@ updated_at: 2025-03-18T11:13:34.488+01:00
 - [[classe]]
 - [[campi|campo]]
 - [[metodo]]
+- [[overloading]]
+- [[overriding]]
 - [[flussi di controllo]]
 - [[package]]
 - [[javadoc]]
 - [[lettura input da console]]
-
+- [[classe Object]]
 ## strutture dati
 
 - [[array]]
 - [[enumerazione]]
 ## concetti più complessi
 
-- [[ereditarietà]]
-- [[superclasse]]
-- [[polimorfismo]]
+- [[binding]]
 - [[incapsulamento]]
+- [[ereditarietà]]
+- [[polimorfismo]]
 
 ## Tipi/Oggetti built-in
 
@@ -37,11 +39,11 @@ updated_at: 2025-03-18T11:13:34.488+01:00
 
 # Altro
 
-- [[Unified Modeling Language (UML)]]
+- [[UML (Unified Modeling Language)]]
 - [[regex (espressioni regolari)]]
 - [[memoria RAM|anatomia della memoria]]
 - [[analisi dello stato della memoria]]
+- [[Junit]]
 
 # Esempi
 - [[esempio di progettazione di una classe]]
-- [[progettazione di una classe, punti e segmenti]]

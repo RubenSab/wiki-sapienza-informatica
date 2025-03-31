@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "interdisciplinare/teoria degli insiemi.md",
-                "mode": "source",
+                "file": "introduzione agli algoritmi/algoritmi di ordinamento.md",
+                "mode": "preview",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -28,7 +28,17 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "teoria degli insiemi"
+              "title": "algoritmi di ordinamento"
+            }
+          },
+          {
+            "id": "45641fc14a82ce2f",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ]
@@ -71,7 +81,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 229.5094871520996
+    "width": 229.5094871520996,
+    "collapsed": true
   },
   "right": {
     "id": "26b38658cac3fe47",
@@ -87,7 +98,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "glob",
+                "query": "lower",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -188,34 +199,34 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "introduzione agli algoritmi/equazioni di ricorrenza.md",
-    "introduzione agli algoritmi/algoritmi ricorsivi.md",
-    "progettazione di sistemi digitali/unità di misura del sistema binario.md",
-    "architettura degli elaboratori/funzioni in RISC-V.md",
-    "architettura degli elaboratori/vettori in RISC-V.md",
-    "architettura degli elaboratori/Untitled.md",
-    "architettura degli elaboratori/matrici in RISC-V.md",
-    "architettura degli elaboratori/elenco di operazioni RISC-V.md",
-    "metodologie di programmazione/Hello World in Java.md",
+    "introduzione agli algoritmi/selection sort.md",
+    "introduzione agli algoritmi/algoritmi di ordinamento.md",
+    "introduzione agli algoritmi/bubble sort.md",
+    "introduzione agli algoritmi/insertion sort.md",
+    "interdisciplinare/funzione.md",
+    "introduzione agli algoritmi/problemi combinatori.md",
+    "introduzione agli algoritmi/introduzione agli algoritmi.md",
+    "introduzione agli algoritmi/algoritmi di ricerca.md",
+    "introduzione agli algoritmi/ricerca lineare.md",
+    "metodologie di programmazione/upcasting e downcasting.md",
+    "metodologie di programmazione/casting.md",
     "metodologie di programmazione/ereditarietà.md",
-    "metodologie di programmazione/metodo.md",
-    "metodologie di programmazione/classe abstract.md",
-    "metodologie di programmazione/classe.md",
+    "metodologie di programmazione/this e super.md",
+    "metodologie di programmazione/polimorfismo.md",
+    "metodologie di programmazione/classe Object.md",
+    "metodologie di programmazione/binding.md",
+    "metodologie di programmazione/Java.md",
+    "architettura degli elaboratori/elenco di operazioni RISC-V.md",
+    "metodologie di programmazione/overriding.md",
+    "metodologie di programmazione/overloading.md",
+    "architettura degli elaboratori/registri generali dell'architettura RISC-V.md",
+    "metodologie di programmazione/caratteristiche di Java.md",
+    "metodologie di programmazione/esempio di progettazione di una classe.md",
+    "metodologie di programmazione/progettazione di una classe, punti e segmenti.md",
+    "metodologie di programmazione/javadoc.md",
+    "metodologie di programmazione/java.lang.String.md",
     "metodologie di programmazione/ereditarietàUML.svg",
     "ereditarietàUML.svg",
-    "metodologie di programmazione/modificatori di visibilità.md",
-    "metodologie di programmazione/superclasse.md",
-    "metodologie di programmazione/Java.md",
-    "metodologie di programmazione/programmazione orientata agli oggetti.md",
-    "metodologie di programmazione/classe wrapper.md",
-    "metodologie di programmazione/oggetto.md",
-    "architettura degli elaboratori/registri generali dell'architettura RISC-V.md",
-    "architettura degli elaboratori/RISC-V.md",
-    "metodologie di programmazione/array.md",
-    "metodologie di programmazione/flussi di controllo.md",
-    "architettura degli elaboratori/cicli in RISC-V.md",
-    "architettura degli elaboratori/formati delle istruzioni.md",
-    "architettura degli elaboratori/system calls.md",
     "metodologie di programmazione/Pasted image 20250318114121.png",
     "metodologie di programmazione/Pasted image 20250318114106.png",
     "metodologie di programmazione/Pasted image 20250318112302.png",
