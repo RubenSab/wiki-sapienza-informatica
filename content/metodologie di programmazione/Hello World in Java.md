@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-03-04T09:53:00.505+01:00
+updated_at: 2025-04-01T11:45:27.446+02:00
 ---
 ``` Java
 public class HelloWorld
@@ -12,13 +12,11 @@ public class HelloWorld
 }
 ```
 
-[[public]], [[static]] e [[void]] sono parole chiave.
+L'intero programma è una [[classe]] che risiede in un file (con codifica `utf-8`), deve avere ***lo stesso nome*** della classe creata.
 
-L'intero programma è una [[classe]] risiede in un file (con codifica `utf-8`) che deve avere ***lo stesso nome*** della classe creata.
+La classe contiene il [[metodo]] main.
 
-La classe contiene il [[metodo]] [[main]].
-
-`(String[] args)` definisce gli [[argomenti]] del metodo.
+`(String[] args)` definisce gli argomenti del metodo.
 
 Questo è il corpo del metodo `main`, composto da 2 istruzioni:
 

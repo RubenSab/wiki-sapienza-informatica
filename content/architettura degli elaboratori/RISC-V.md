@@ -1,15 +1,16 @@
 ---
-updated_at: 2025-03-20T10:17:45.008+01:00
+updated_at: 2025-04-01T12:36:33.595+02:00
 ---
 > **Reduced Instruction Set Computers**: RISC-V è un'**A**rchitettura di **S**et di **I**struzioni (ISA) open-source, cioè un set minimo di istruzioni semplici che possiamo far eseguire al computer.
 
+- [[CPU|Architettura CPU RISC-V]]
 # In che contesto e come opera RISC-V?
 ## [[registri]]
 
 L'architettura RISC-V ha:
 - 32 [[registri generali dell'architettura RISC-V|registri generali]] per gli interi (x0, x1, ..., x31)
 - 32 registri per i numeri in [[rappresentazione o codifica di numeri con la virgola (IEEE 754)|floating point]] (f0, f1, ..., f31)
-- [[Program Counter]]
+- [[PC (Program Counter)]]
 - Control Status Registers
 - [[memoria RAM]] centrale
 
@@ -106,7 +107,7 @@ li, x9, 123. → addi x9, x0, 123
 - **Fetch/caricamento della istruzione** dalla posizione indicata dal Program Counter;
 - **Decodifica/riconoscimento** della istruzione, la Control Unit attiva le parti funzionali necessarie;
 - **Load/caricamento di eventuali argomenti** a seconda dei modi di indirizzamento (vedi dopo);
-- **Esecuzione della istruzione**, in genere da parte dell’[[unità aritmetico logica (ALU)]]
+- **Esecuzione della istruzione**, in genere da parte dell’[[ALU (unità aritmetico logica)]]
 - **Store/salvataggio del risultato** in memoria o in un registro
 - **Aggiornamento del Program Counter** (contemporaneamente ad altre fasi)
 

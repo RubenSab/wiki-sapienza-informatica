@@ -1,7 +1,7 @@
 ---
 updated_at: 2025-03-04T12:44:38.404+01:00
 ---
-- Il sistema affermato per rappresentare i [[numeri interi relativi]] è il [[complemento a 2 (CA2)]]; altri sistemi meno efficienti ma comunque utilizzati in alcune [[unità aritmetico logica (ALU)|unità aritmetico logiche]] sono il [[modulo e segno (MS)]], il [[complemento a 1 (CA1)]] e la [[notazione polarizzata]]
+- Il sistema affermato per rappresentare i [[numeri interi relativi]] è il [[complemento a 2 (CA2)]]; altri sistemi meno efficienti ma comunque utilizzati in alcune [[ALU (unità aritmetico logica)|unità aritmetico logiche]] sono il [[modulo e segno (MS)]], il [[complemento a 1 (CA1)]] e la [[notazione polarizzata]]
 
 | 3 bit | bin | MS  | CA1 | CA2 |
 | ----- | --- | --- | --- | --- |

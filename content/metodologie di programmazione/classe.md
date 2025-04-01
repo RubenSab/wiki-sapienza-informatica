@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-03-25T19:02:10.520+01:00
+updated_at: 2025-04-01T10:50:24.772+02:00
 ---
 > È una parte del codice sorgente che fornisce un prototipo astratto per gli [[oggetto|oggetti]] di un particolare tipo (ogni oggetto è un'istanza di una classe).
 > è identificata dai **membri di classe**, cioè sia dai suoi **[[campi]]** (stati degli oggetti) che dai suoi **[[metodo|metodi]]** (comportamenti che essa possiede).
@@ -9,8 +9,7 @@ updated_at: 2025-03-25T19:02:10.520+01:00
 Ogni classe è inizializzata da un [[costruttore]]; se non ne viene specificato uno, Java crea per ogni classe un *costruttore di default* "vuoto", cioè senza parametri.
 
 - [[classe wrapper]]
-- [[classe abstract]]
+- [[classe astratta]]
+- [[classe final]]
 
-# classi da imparare
-
-- [[java.lang.String]]
+[[esempio di progettazione di una classe]]

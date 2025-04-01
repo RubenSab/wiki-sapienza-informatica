@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-03-27T14:19:26.847+01:00
+updated_at: 2025-04-01T09:51:19.865+02:00
 ---
 > È un concetto cardine della [[programmazione orientata agli oggetti]]. È una forma di riuso del software, un meccanismo in cui una nuova [[classe]] (detta *sottoclasse*) è creata assorbendo i membri ([[campi]] e [[metodo|metodi]]) di una classe già esistente (della *superclasse*), aggiungendo nuovi membri e ridefinendo i metodi della superclasse (ma tipicamente non i campi).
 
@@ -9,7 +9,6 @@ Si dice che una sottoclasse *estende* la superclasse.
 
 > Si può controllare se un oggetto è un tipo o un sottotipo di un altra classe con l'operatore binario `<oggetto> instanceof <classe>`.
 
-#todo
 - [[this e super]]
 
 Esempio:

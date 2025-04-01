@@ -1,7 +1,9 @@
 ---
-updated_at: 2025-03-27T14:15:01.504+01:00
+updated_at: 2025-04-01T09:40:10.176+02:00
 ---
-> Il polimorfismo consiste nel fatto che una [[variabile]] di un tipo A può contenere un riferimento a un [[oggetto]] del tipo A o di una qualsiasi sua sotto[[classe]].
+> Il polimorfismo è la possibilità di creare [[oggetto|oggetti]] di tipo [[ereditarietà|superclasse]] (anche [[classe astratta|astratta]]!!!) usando i costruttori delle sue sottoclassi, rendendo i metodi della superclasse un'interfaccia comune a cui l'oggetto istanziato dalla sottoclasse si può riferire. Ciò rende possibile l'[[upcasting e downcasting]].
+
+> Il polimorfismo si basa sul fatto che una [[variabile]] di un tipo A può contenere un riferimento a un [[oggetto]] del tipo A o di una qualsiasi sua sotto[[classe]].
 
 Esempio:
 

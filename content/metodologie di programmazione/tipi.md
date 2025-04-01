@@ -3,14 +3,14 @@ updated_at: 2025-03-13T14:16:09.018+01:00
 ---
 > Un tipo di dati è un'insieme di valori e di operazioni definite su tali valori.
 
-> N.B.: in [[Java]] sono **statici**, cioè il tipo di una variabile non può mai cambiare finché essa rimane in memoria.
+> N.B.: in [[metodologie di programmazione/Java]] sono **statici**, cioè il tipo di una variabile non può mai cambiare finché essa rimane in memoria.
 # tipi di dati di base (o primitivi)
 
-> Sono **built-in**, cioè predefiniti (di default) nel linguaggio. **NON SONO [[oggetto|OGGETTI]]** *(nemmeno in [[Java]])*.
+> Sono **built-in**, cioè predefiniti (di default) nel linguaggio. **NON SONO [[oggetto|OGGETTI]]** *(nemmeno in [[metodologie di programmazione/Java]])*.
 
 > N.B.: E’ fondamentale essere a conoscenza di quali siano i tipi di base e quali non lo siano per ragioni di efficienza e di allocazione della memoria.
 
-In [[Java]] sono:
+In [[metodologie di programmazione/Java]] sono:
 
 | Tipo     | Dominio                                                                        | Operatori   | Dimensione |
 | -------- | ------------------------------------------------------------------------------ | ----------- | ---------- |

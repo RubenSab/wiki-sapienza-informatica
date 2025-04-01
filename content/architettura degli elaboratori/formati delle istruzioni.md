@@ -3,7 +3,7 @@ updated_at: 2025-03-11T12:30:42.785+01:00
 ---
 ### R-type (Register type)
 
-> Fanno compiere all'[[unità aritmetico logica (ALU)|ALU]] un'operazione aritmetico/logica, operano con 2 [[registri]] di input e uno di output, NON hanno accesso alla [[memoria RAM]].
+> Fanno compiere all'[[ALU (unità aritmetico logica)|ALU]] un'operazione aritmetico/logica, operano con 2 [[registri]] di input e uno di output, NON hanno accesso alla [[memoria RAM]].
 
 | campo     | funct7 | rs2 | rs1 | funct3 | rd  | opcode |
 | --------- | ------ | --- | --- | ------ | --- | ------ |
@@ -26,7 +26,7 @@ updated_at: 2025-03-11T12:30:42.785+01:00
 
 > Gestiscono il branching condizionale, gli *immediate* codificano la posizione della memoria (dove sono scritte altre istruzioni del programma) a cui si deve saltare per iniziare la branch se una certa condizione in input è verificata.
 
-La posizione a cui si deve saltare è codificata [[Program Counter]] + immediate \* 2
+La posizione a cui si deve saltare è codificata [[PC (Program Counter)]] + immediate \* 2
 
 > N.B.: Hanno lo stesso formato delle S-type ma *imm* è interpretato in modo diverso
 

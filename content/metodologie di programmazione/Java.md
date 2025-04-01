@@ -1,12 +1,9 @@
 ---
-updated_at: 2025-03-27T13:43:58.755+01:00
+updated_at: 2025-04-01T10:56:55.383+02:00
 ---
-# Elementi di Java
+# Concetti di base e caratteristiche del linguaggio
 
 - [[caratteristiche di Java]]
-
-## elementi di base e caratteristiche del linguaggio
-
 - [[espressione]]
 - [[operatori]]
 - [[tipi]]
@@ -22,28 +19,18 @@ updated_at: 2025-03-27T13:43:58.755+01:00
 - [[javadoc]]
 - [[lettura input da console]]
 - [[classe Object]]
-## strutture dati
-
+- [[binding]]
+- [[java.lang.String]]
 - [[array]]
 - [[enumerazione]]
-## concetti più complessi
 
-- [[binding]]
+# concetti e tecniche di progettazione del software
+
 - [[incapsulamento]]
 - [[ereditarietà]]
 - [[polimorfismo]]
-
-## Tipi/Oggetti built-in
-
-- [[java.lang.String]]
-
-# Altro
-
+- [[interfaccia]]
 - [[UML (Unified Modeling Language)]]
-- [[regex (espressioni regolari)]]
 - [[memoria RAM|anatomia della memoria]]
 - [[analisi dello stato della memoria]]
 - [[Junit]]
-
-# Esempi
-- [[esempio di progettazione di una classe]]

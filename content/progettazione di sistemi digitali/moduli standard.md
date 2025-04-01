@@ -9,5 +9,5 @@ updated_at: 2025-02-22T12:13:51.527+01:00
 - [[programmable logic array (PLA)]]
 - [[read only memory (ROM)]]
 - [[comparatore (COMP)]]
-- [[unità aritmetico logica (ALU)]]
-- [[addizionatori (adder)]]
+- [[ALU (unità aritmetico logica)]]
+- [[adder]]

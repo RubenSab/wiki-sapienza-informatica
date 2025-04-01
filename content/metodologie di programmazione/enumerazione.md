@@ -1,9 +1,9 @@
 ---
-updated_at: 2025-03-18T11:41:07.239+01:00
+updated_at: 2025-04-01T10:29:22.137+02:00
 ---
-> Spesso è utile definire dei [[tipi]]/[[classe|classi]] (detti enumerazioni) i cui valori possono essere scelti tra un insieme predefinito di identificatori univoci **costanti**, dette *costanti enumerative*, che sono **implicitemente** `static`. Un tipo enumerazione viene dichiarato mediante la sintassi.
+> Spesso è utile definire dei [[tipi]] (detti enumerazioni) i cui valori possono essere scelti tra un insieme predefinito e immutabile di **costanti**, dette *costanti enumerative*, che sono **implicitamente** `static`.
 
-> N.B.: Non è possibile creare un [[oggetto]] del tipo enumerato.
+Ciò si realizza con le [[classe astratta|classi astratte]]:
 
 ``` java
 public enum NomeEnumerazione
@@ -12,7 +12,14 @@ public enum NomeEnumerazione
 }
 ```
 
-Come ogni classe, la dichiarazione di un'enumerazione può contenere altre componenti tradizionali:
+> N.B.: Non è possibile creare un [[oggetto]] del tipo enumerazione, però ogni costante enumerativa è un'istanza public e final; non se ne possono creare altre.
+
+> N.B.: Il costruttore deve essere definito **necessariamente** senza [[modificatori di visibilità]] come de fosse default (anche se non è veramente default ma implicitamente private). 
+
+Le classi enumerative estendono la classe Enum, da cui ereditano i metodi [[toString]] e [[clone]].
+
+Come ogni classe, la dichiarazione di un'enumerazione può contenere:
+
 - costruttori,
 - [[campi]],
 - [[metodo|metodi]]

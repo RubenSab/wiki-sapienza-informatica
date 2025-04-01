@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-03-20T18:45:44.101+01:00
+updated_at: 2025-04-01T11:05:14.600+02:00
 ---
 > Un metodo è una [[funzione]] associata in modo esclusivo a una [[classe]], può essere richiamato sia da un'[[oggetto]] che una classe stessa. Ha degli argomenti in input e spesso restituisce un output con `return`.
 
@@ -27,7 +27,7 @@ public tipo_di_dati nomeDelMetodo(tipo_di_dati_del nomeParam1, ..., tipo_di_dati
 
 # metodi statici
 
-> Sono **metodi di classe** che NON hanno accesso a [[campi]] di istanza/oggetto, ma hanno accesso solo ai campi di classe.
+> Sono **metodi di classe** che NON hanno accesso a [[campi]] di istanza/oggetto, ma hanno accesso solo ai campi di classe. NON godono di [[polimorfismo]].
 
 Esempio:
 

@@ -7,7 +7,7 @@ Un [[package]] si rappresenta come un rettangolo che all'interno può contenere 
 
 # Classi
 
-Una [[classe]] si rappresenta come un rettangolo diviso orizzontalmente in tre sezioni: la prima contiene il nome (eventualmente preceduto dal tag `<abstract>` per le [[classe abstract|classi astratte]]), la seconda contiene i campi nel formato `-campo:tipo_di_dati` e la terza contiene i metodi nel formato:
+Una [[classe]] si rappresenta come un rettangolo diviso orizzontalmente in tre sezioni: la prima contiene il nome (eventualmente preceduto dal tag `<abstract>` per le [[classe astratta|classi astratte]]), la seconda contiene i campi nel formato `-campo:tipo_di_dati` e la terza contiene i metodi nel formato:
 `simbolo_della_visibilità metodo(campo:tipo_in_input,...): tipo_in_output`.
 
 ![[Pasted image 20250312122639.png]]

@@ -1,14 +1,27 @@
 ---
-updated_at: 2025-03-11T12:15:25.966+01:00
+updated_at: 2025-04-01T09:14:51.022+02:00
 ---
-#todo
-al tempo di Von Neuman c'era solo la memoria, ora ce ne sono più tipi ^tr-0kinbvam6
+e#todo
+# Anatomia della memoria in Java
 
-- [[memoria cache]]
-- [[disco rigido]]
+Nella Java Virtual Machine, esistono due (+1) tipi di memoria:
 
-# anatomia della memoria in Java
+- lo **stack** dove vengono caricate le **[[variabile|variabili]] locali**, i **riferimenti** agli [[oggetto|oggetti]];
+- lo **heap**, dove vanno le aree di memoria allocate per la **creazione dinamica**;
+- la zona speciale di memoria nativa detta **metaspace**, che memorizza i [[campi]] static.
 
-> Nella Java Virtual Machine, esistono due tipi di memoria: lo **[[stack]]** dove vengono caricate le **[[variabile|variabili]] locali**, i **riferimenti** agli [[oggetto|oggetti]]; lo **[[heap]]**, dove vanno le aree di memoria allocate per la **creazione dinamica** (Inoltre c'è anche una zona di memoria speciale chiamata **MetaSpace**, che memorizza i [[campi]] static.
+## Cosa succede alla creazione di un oggetto?
 
-![[Pasted image 20250311095722.png]]
+1. **Dichiarazione**: l'oggetto viene dichiarato, viene allocata una porzione di memoria nello **stack** che contiene un valore/stato indefinito.
+2. **Creazione**: l'oggetto viene creato a seguito dell'istruzione `new`, viene allocata un porzione di memoria nello **heap** che contiene lo stato di default (non ancora inizializzato) dell'oggetto. Es: `null` nel caso di oggetti, `0` nel caso di interi, `false` nel caso dei booleani, etc.
+3. **Assegnazione**: L'indirizzo di memoria della porzione dello heap viene memorizzata nella porzione di memoria dello stack, creando un **riferimento** (visualizzabile come una freccia) che parte da della cella nello stack e indica quella nello heap.
+
+## Cosa succede alla creazione di una variabile locale?
+
+1. **Dichiarazione**: La variabile viene dichiarata, viene allocata una porzione di memoria nello **stack** che contiene un valore/stato indefinito.
+2. **Inizializzazione**: La variabile viene inizializzata e la porzione dello **stack** allocata memorizza direttamente il valore inizializzato (senza riferimenti allo heap).
+
+## Cosa succede alla creazione di un campo static?
+
+> N.B.: Avviene prima della creazione degli oggetti della classe in cui il campo static è contenuto; inoltre esiste in una **singola** locazione di memoria, a differenza dei campi non static, memorizzati in locazioni diverse per ogni oggetto.
+
