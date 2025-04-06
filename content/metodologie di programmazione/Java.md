@@ -1,12 +1,14 @@
 ---
-updated_at: 2025-04-01T10:56:55.383+02:00
+updated_at: 2025-04-03T14:08:37.144+02:00
 ---
 # Concetti di base e caratteristiche del linguaggio
 
 - [[caratteristiche di Java]]
 - [[espressione]]
 - [[operatori]]
+- [[modificatori di visibilità]]
 - [[tipi]]
+- [[casting]]
 - [[variabile]]
 - [[oggetto]]
 - [[classe]]
@@ -23,7 +25,7 @@ updated_at: 2025-04-01T10:56:55.383+02:00
 - [[java.lang.String]]
 - [[array]]
 - [[enumerazione]]
-
+- [[interfaccia]]
 # concetti e tecniche di progettazione del software
 
 - [[incapsulamento]]

@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-03-25T19:06:00.204+01:00
+updated_at: 2025-04-02T14:41:42.411+02:00
 ---
 # istruzioni condizionali
 ## if
@@ -86,7 +86,7 @@ switch(<espressione intera con risultato intero, char compresi>)
 	case <risultato dell espressione numero 2>: <istruzione2>; break;
 	case <risultato dell espressione numero N>: <istruzioneN>; break;
 	default: <istruzione da eseguire se il caso non è tra i precedenti>; break;
-}
+};
 ```
 
 ## switch compatti
@@ -99,7 +99,7 @@ switch(<espressione intera con risultato intero, char compresi>)
 	case <risultato dell espressione numero 2> -> <istruzione2>;
 	case <risultato dell espressione numero N> -> <istruzioneN>;
 	default -> <istruzione da eseguire se il caso non è tra i precedenti>;
-}
+};
 ```
 
 > N.B.: L'operatore freccia sottintende il break.
@@ -115,7 +115,7 @@ String s = switch(c) {
 	case 'e' -> "elle";
 	case 'c' -> "ci";
 	case 'a', 'e', 'i', 'o', 'u' -> 'vocale';
-}
+};
 ```
 
 # cicli

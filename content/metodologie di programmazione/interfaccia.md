@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-04-01T11:36:20.162+02:00
+updated_at: 2025-04-03T13:51:44.098+02:00
 ---
 > Le interfacce sono uno strumento che Java mette a disposizione per consentire a più [[classe|classi]] (anche molto diverse tra loro, slegate da relazioni *is-A*) di fornire e implementare un insieme di [[metodo|metodi]] comuni. Definiscono e standardizzano l'interazione fra [[oggetto|oggetti]] tramite un insieme limitato di operazioni.
 
@@ -15,9 +15,11 @@ Sono classi che possono contenere soltanto:
 
 Non contengono costruttori e variabili locali.
 
-# Esempio
+> N.B.: Le [[relazioni tra oggetti]] *is-a* del [[polimorfismo]] valgono anche per le interfacce.
 
-## Interfaccia
+## Esempio
+
+### Interfaccia
 
 ``` java
 public interface SupportoRiscrivibile
@@ -27,7 +29,7 @@ public interface SupportoRiscrivibile
 	void sccrivi();
 }
 ```
-## Classe
+### Classe che la implementa
 
 ``` java
 public class Nastro implements SupportoRiscrivibile, altraInterfaccia, ancoraUnAltraInterfaccia, etc
@@ -49,6 +51,7 @@ public class Nastro implements SupportoRiscrivibile, altraInterfaccia, ancoraUnA
 }
 ```
 
+
 # Interfaccia iterabile
 
 Ci sono molte classi che rappresentano sequenze di elementi, come le liste, le array e le stringhe. Queste strutture dati hanno in comune che è possibile iterare sui loro elementi.
@@ -68,3 +71,20 @@ public interface Iterabile
 #todo (scrivi perché esistono le interfacce notevoli)
 
 - [[interfacce notevoli]]
+
+# Interfacce estese da interfacce
+
+Esempio: #todo
+
+``` java
+public interfacce Operatorebinario
+{
+	double applica(double a, double b)
+}
+
+public enum OperatoriDiBase implements OperatoreBinario
+{
+	SOMMA: applica()
+	SOTTRAZIONE: 
+}
+```

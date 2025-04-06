@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-03-25T19:01:25.249+01:00
+updated_at: 2025-04-03T13:33:29.735+02:00
 ---
 # Package
 
@@ -23,26 +23,10 @@ La [[modificatori di visibilità|visibilità]] si rappresenta così:
 | protetta   | #        |
 | package    | ~        |
 
-## relazioni tra oggetti
+## [[relazioni tra oggetti]]
 
-> Due [[oggetto|oggetti]] possono avere relazioni di tipo "_is a_" (l'oggetto è un'istanza di una classe/ due oggetti sono uguali) e "_has a_" (l'oggetto "contiene" un altro oggetto).
-### relazioni is-A (estensione)
-
-> Implicano una gerarchia di [[ereditarietà]].
-
-Si indicano con una freccia che termina con un triangolo vuoto.
-
-### relazioni has-A (associazione)
-
-> Implicano un "contenimento" (in realtà riferimento) di un oggetto in un altro.
-
-Si indicano con una semplice linea a cui va accostato il numero di istanze dell'oggetto contenuto (vicino a quest'ultimo).
-
-### dipendenza
-
-> Un oggetto fa uso di un altro oggetto nel suo codice.
-
-Si indica con una semplice freccia dalla puntina nera
+- *is a*: si indicano con una freccia che termina con un triangolo vuoto.
+- *has a*: si indicano con una semplice freccia dalla puntina nera.
 
 ### composizione
 
@@ -59,3 +43,7 @@ Vengono indicare con una freccia che termina con un rombo vuoto verso il parent.
 ### enumerazione
 
 Si indica con un simbolo $\oplus$ con linee che collegano il campo verso i vari valori che può assumere il valore.
+
+# Interfacce
+
+L'[[ereditarietà]] di un'interfaccia da parte di una classe si indica con una freccia semplice tratteggiata.
