@@ -4,17 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "923f58d79a2bb5a3",
+        "id": "4509724f8bf84da7",
         "type": "tabs",
-        "dimension": 59.44293478260869,
         "children": [
           {
-            "id": "6aecdf7dbfce5191",
+            "id": "e7a7b303c61786dc",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "graph",
+              "state": {},
+              "pinned": true,
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          },
+          {
+            "id": "3d4fb41b93dd77b3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "introduzione agli algoritmi/equazioni di ricorrenza.md",
+                "file": "interdisciplinare/funzione.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -29,26 +40,31 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "equazioni di ricorrenza"
+              "title": "funzione"
             }
-          }
-        ]
-      },
-      {
-        "id": "4509724f8bf84da7",
-        "type": "tabs",
-        "dimension": 40.557065217391305,
-        "children": [
+          },
           {
-            "id": "e7a7b303c61786dc",
+            "id": "965f17d793afd61b",
             "type": "leaf",
-            "pinned": true,
             "state": {
-              "type": "graph",
-              "state": {},
-              "pinned": true,
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "introduzione agli algoritmi/mergesort.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "mergesort"
             }
           }
         ]
@@ -209,17 +225,17 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "introduzione agli algoritmi/mergesort.md",
+    "interdisciplinare/funzione.md",
     "introduzione agli algoritmi/equazioni di ricorrenza.md",
     "todo/java.md",
     "introduzione agli algoritmi/problem solving.md",
     "introduzione agli algoritmi/costo computazionale.md",
     "metodologie di programmazione/Java.md",
-    "introduzione agli algoritmi/mergesort.md",
     "introduzione agli algoritmi/algoritmi di ordinamento.md",
     "introduzione agli algoritmi/bucket sort.md",
     "calcolo differenziale/teorema de l'hopital.md",
     "introduzione agli algoritmi/counting sort.md",
-    "interdisciplinare/funzione.md",
     "metodologie di programmazione/classe annidate e interne.md",
     "metodologie di programmazione/campi.md",
     "metodologie di programmazione/classe.md",

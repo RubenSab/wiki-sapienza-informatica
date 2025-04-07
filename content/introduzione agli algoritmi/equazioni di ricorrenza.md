@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-04-05T22:20:35.139+02:00
+updated_at: 2025-04-07T09:00:49.153+02:00
 ---
 > Le equazioni di ricorrenza esprimono la [[complessità temporale]] degli [[algoritmi ricorsivi]]. Non si può calcolare normalmente la complessità di questi algoritmi dato che la loro [[funzione]] di [[costo computazionale]] è anch'essa ricorsiva.
 
@@ -41,7 +41,7 @@ $$T(n) = T(n-3) + \Theta(1) + \Theta(1) + \Theta(1)$$
 
 $$\ldots$$
 
-Il procedimento termina quando si raggiunge il caso base, quindi quando il termine generico del sotto-sottoproblema è uguale al caso base. Poi si potrà riscrivere l'equazione con una sommatoria e risolverla.
+Il procedimento termina quando si raggiunge il caso base, quindi quando il termine generico del sotto-problema è uguale al caso base. Poi si potrà riscrivere l'equazione con una sommatoria e risolverla.
 
 $$n-k=1 \to k=n-1$$
 $$T(n) = T(n-k) +\sum_{i=1}^{n-1}\Theta(1)$$
@@ -79,52 +79,22 @@ Ora calcoliamo quando l'algoritmo si fermerà, cioè quando raggiungerà il caso
 
 Abbiamo ottenuto che servono $\log_{2}{n}$ livelli per arrivare al caso base $T(1)$. Sommiamo quindi tutti i livelli:
 $$T(n) = \sum_{k=0}^{\log_{2}{n}}{\Theta(n)}=\Theta(n \cdot \log{n})$$
-## Metodo di sostituzione
-
-#todo 
-
-> Prima si ipotizza la complessità della funzione, poi si dimostra per [[induzione matematica]] che $T(\ldots) \in O(\ldots)$ e successivamente che $T(\dots)\in\Omega(\dots)$. 
-
-Esempio:
-$$T(n) =
-\begin{cases}
-\Theta(1) & \text{se } n=1 \\
-T(n-1) + \Theta(1) & \text{altrimenti}
-\end{cases}
-$$
-Assumiamo che questa equazione abbia complessità $O(n)$
-$$T(n) =
-\begin{cases}
-b & \text{se } n=1 \\
-T(n-1) + A & \text{altrimenti}
-\end{cases}
-$$
-Dimostriamo che è in $\exists c\ |\ T(n)\leq c\cdot n \in O(n)$
 ## Master theorem
 
-> Il teorema principale delle equazioni ricorrenti fornisce un metodo per determinare la [[complessità temporale]] delle [[equazioni di ricorrenza]] del tipo
+> Il teorema principale delle equazioni ricorrenti, o teorema dell'esperto, fornisce un metodo per determinare la complessità temporale di una famiglia di equazioni di ricorrenza nella forma
 
-$$T(n)=
-\begin{cases} aT\left(\frac{n}{b}\right)+\Theta(f(n)) & \text{altrimenti} \\
-\Theta(1) & \text{se}\ n = 1\\
-\end{cases}$$
+$$T(n)=aT\left(\frac{n}{b}\right)+f(n),\ a\geq 1, \ b>1$$
+Avendo una funzione ricorsiva $f(n)$, la possiamo confrontare con $n^{\log_{b}{a}}$ e possono verificarsi solo 3 casi (data una qualsiasi costante $\varepsilon > 0$):
 
-dove:
-- $a \geq 1, a \in \mathbb{N}$ è il numero di sottoproblemi,
-- $b > 1, b \in \mathbb{R}$ è il fattore di divisione del problema,
-- $f(n)$ è un termine aggiuntivo che rappresenta il costo della divisione e della combinatoria.
+- $f(n)$ è fortemente dominata: $f(n) = O(n^{\log_{b}{a-\varepsilon}}) \to T(n) = \Theta(n^{\log_{b}{a}})$
+- $f(n)$ è asintoticamente uguale: $f(n) = \Theta(n^{\log_{b}{a}}) \to T(n) = \Theta(n^{\log_{b}{a}} \cdot \log{n})$
+- $f(n)$ domina fortemente $f(n) = \Omega(n^{\log_{b}{a} + \varepsilon}) \to T(n) = \Theta(f(n))$
 
-Avendo una funzione ricorsiva $f(n)$, la possiamo confrontare con $n \log{a}$ e possono verificarsi solo 3 casi:
-
-- $f(n) = O(n^{\log_{b}{a-\varepsilon}}) \to T(n) = \Theta(n^{\log_{b}{a}})$
-- $f(n) = \Theta(n^{\log_{b}{a}}) \to T(n) = \Theta(n^{\log_{b}{a}} \cdot \log{n})$
-- $f(n) = \Omega(n^{\log_{b}{a} + \varepsilon}) \to T(n) = \Theta(f(n))$
-
-> N.B.: Il master theorem non si può applicare se c'è un $T(n+\text{ qualcosa})$ nell'equazione.
+> N.B.: Il master theorem non si può applicare se c'è un $T(n+\text{ qualcosa})$ nell'equazione, oppure quando la funzione non domina o non è dominata fortemente da $n^{\log_{b}{a}}$.
 
 Per il caso $\Omega$ si deve verificare questa condizione$$\exists c < 1\ \text{tale che}\ a\cdot f\left(\frac{n}{b}\right) < c\cdot f(n)$$ma in realtà si verifica sempre, a meno che non ci siano in gioco funzioni trigonometriche.
 
-### esempio di applicazione con la ricerca binaria
+### Esempio di applicazione con la ricerca binaria
 
 $$T(n) =
 \begin{cases}
@@ -169,7 +139,38 @@ Il risultato è 1, significa che $f(n)$ e $n^{log_{b}{a}}$ sono asintoticamente 
 
 $$f(n) = \Omega(1) \to T(n) = \Theta(n^{\log_{b}{a}} \cdot \log{n}) = \Theta(\log{n})$$
 
-# Esempi
+## Metodo di sostituzione
+
+> Consiste nell'ipotizzare la complessità della funzione analizzata e poi verificare l'ipotesi tramite l'[[induzione matematica]].
+
+### Esempio
+
+Dimostriamo che $T(n) = 2 T(n-1) + \Theta(n) \in \Theta(2^{n})$
+
+1. Dimostrare che $T(n) \in \Theta(2^{n})$ significa dimostrare che $T(n) \in O(2^{n})$ e $T(n) \in \Omega(2^{n})$.
+2. Prima dimostriamo $T(n) \in O(2^{n})$,
+3. poi $T(n) \in \Omega(2^{n})$.
+4. Se i risultati sono uguali, allora l'ipotesi è verificata.
+#### Ipotesi induttiva
+
+Se dando per vero $T(n) \in O(2^{n})$ ricaviamo che $T(n+1) \in O(2^{n+1})$, allora l'ipotesi iniziale è verificata.
+
+$T(n) \in O(2^{n})$ corrisponde a $T(n) \leq c \cdot 2^{n},\ c \in \mathbb{R^{+}}$ (per la definizione stessa della [[notazione O-grande]])
+#### Caso base
+
+Il caso base $T(1)$ è evidentemente verificato.
+
+#### Dimostrazione
+
+- Per definizione, $T(n+1) = 2 T(n) + \Theta(n+1)$
+- Per ipotesi induttiva $T(n+1) \leq 2 \cdot c \cdot 2^{n} + \Theta(n+1)$
+- $T(n+1) = O(2^{n+1}) + \Theta(n+1)$
+- Dato che $O(2^{n+1})$ domina fortemente su $\Theta(n+1)$, $\Theta(n+1)$ è trascurabile.
+- $T(n+1) = O(2^{n+1}) \implies T(n) \in O(2^{n})$.
+
+Seguendo un ragionamento analogo ma con il $\geq$, si dimostra anche $T(n) \in \Omega(2^{n})$, poi si osserva che i risultati sono uguali, quindi si conclude che $T(n) \in \Theta(2^{n})$.
+
+# Esempi di equazioni di ricorrenza a partire da programmi
 ### Esempio con il fattoriale
 
 ``` python
@@ -180,7 +181,7 @@ def fattoriale(n):
 ```
 
 - Il tempo dipende da $n$: $T(n)$
-- Il caso base costa $\Theta(1)$ e si calcola con le classiche regole della [[complessità temporale]]
+- Il caso base costa $\Theta(1)$ e si calcola con le classiche regole della complessità temporale
 - Il caso ricorsivo costa $T(n-1) + \Theta(1)$
 
 $$T(n) =
