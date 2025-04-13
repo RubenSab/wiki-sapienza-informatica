@@ -1,7 +1,6 @@
 ---
-updated_at: 2025-04-01T09:14:51.022+02:00
+updated_at: 2025-04-08T10:10:36.908+02:00
 ---
-e#todo
 # Anatomia della memoria in Java
 
 Nella Java Virtual Machine, esistono due (+1) tipi di memoria:

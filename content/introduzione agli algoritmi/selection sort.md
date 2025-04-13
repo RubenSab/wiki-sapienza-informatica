@@ -1,18 +1,42 @@
 ---
-updated_at: 2025-03-28T12:12:34.072+01:00
+updated_at: 2025-04-13T22:09:45.777+02:00
 ---
-> L'idea è di ordinare progressivamente la lista, facendo crescere la parte ordinata della lista.
+> L'idea è di far crescere a sinistra la parte ordinata dell'array trovando ripetutamente l'elemento minimo della parte non ordinata e spostandolo all'inizio della parte non ordinata.
 
-Ha [[complessità temporale]] $\Theta(n^{2})$ perché itera su una porzione della lista per ogni elemento e, per come è fatto, il caso ottimo e il caso pessimo coincidono.
+Una sua particolarità è avere il numero di confronti/scambi fisso.
+# Funzionamento
 
-Ha [[complessità spaziale]] $O(1)$ perché opera *in loco*.
+1. Divide l'array in due parti, ordinata (inizialmente vuota) e non ordinata.
+2. Ad ogni iterazione:
+	1. trova l'elemento minimo nella parte non ordinata,
+	2. lo scambia con il primo elemento della parte non ordinata,
+	3. espande la parte ordinata includendo il nuovo elemento.
+
+# Complessità
+
+Ha [[complessità temporale]] $\Theta(n^{2})$ perché itera su una porzione della lista per ogni elemento e il caso ottimo e il caso pessimo coincidono perché il numero di scambi tra elementi è fisso
+
+Ha [[complessità spaziale]] $\Theta(1)$ perché opera *in loco*.
+
+# Implementazione
+
 
 ``` python
 def selection_sort(A):
+
+	n = len(A)
+	
+	# scorre l'array con indice i da 0 a n-1
 	for i in range(n-1):
+
+		# considera l'elemento alla posizione i come minimo
 		indice_min = i
+
+		# cerca l'indice dell'elemento minimo nella parte non ordinata
 		for j in range(i+1, n):
 			if A[j] < A[indice_min]:
 				indice_min = j
+
+		# scambia l'elemento minimo con quello considerato in partenza, facendo crescere di un elemento la parte ordinata
 		A[i], A[indice_min] = A[indice_min], A[i]
 ```

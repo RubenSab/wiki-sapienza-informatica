@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-03-10T09:38:41.663+01:00
+updated_at: 2025-04-10T13:17:10.999+02:00
 ---
 # funzioni built-in
 ## Il metodo `count` in Python
@@ -55,7 +55,7 @@ def in(A, x):
 > N.B.: Piuttosto che fare operazioni (tutte di complessità lineare) sulle stringhe, conviene convertirle in **liste**, perché hanno complessità $O(1)$ per le operazioni sul singolo elemento.
 ## slicing
 
-> Il costo dell'istruzione `A[a:b]` dipende dal numero di elementi nella slice. Ogni elemento deve essere copiato dalla lista originale alla nuova lista, quindi il [[costo computazionale]] è proporzionale alla dimensione dell'output. La complessità temporale è di $O(b-a)$.
+> Il costo dell'istruzione `A[a:b]` dipende dal numero di elementi nella slice. Ogni elemento deve essere copiato dalla lista originale alla nuova lista, quindi il costo computazionale è proporzionale alla dimensione dell'output. La complessità temporale è di $O(b-a)$.
 
 ## concatenazione
 

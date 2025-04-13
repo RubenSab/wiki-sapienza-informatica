@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-04-03T14:08:37.144+02:00
+updated_at: 2025-04-10T13:25:48.578+02:00
 ---
 # Concetti di base e caratteristiche del linguaggio
 
@@ -26,7 +26,7 @@ updated_at: 2025-04-03T14:08:37.144+02:00
 - [[array]]
 - [[enumerazione]]
 - [[interfaccia]]
-# concetti e tecniche di progettazione del software
+# Concetti e tecniche di progettazione del software
 
 - [[incapsulamento]]
 - [[ereditarietà]]
@@ -36,3 +36,7 @@ updated_at: 2025-04-03T14:08:37.144+02:00
 - [[memoria RAM|anatomia della memoria]]
 - [[analisi dello stato della memoria]]
 - [[Junit]]
+
+# [[Programmazione funzionale]]
+
+# [[struttura dati|strutture dati]]

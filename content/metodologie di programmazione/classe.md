@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-04-03T14:12:54.752+02:00
+updated_at: 2025-04-08T09:18:36.354+02:00
 ---
 > È una parte del codice sorgente che fornisce un prototipo astratto per gli [[oggetto|oggetti]] di un particolare tipo (ogni oggetto è un'istanza di una classe).
 > è identificata dai **membri di classe**, cioè sia dai suoi **[[campi]]** (stati degli oggetti) che dai suoi **[[metodo|metodi]]** (comportamenti che essa possiede).
@@ -12,5 +12,6 @@ Ogni classe è inizializzata da un [[costruttore]]; se non ne viene specificato 
 - [[classe astratta]]
 - [[classe final]]
 - [[classe annidate e interne]]
+- [[classe anonima]]
 
 [[esempio di progettazione di una classe]]

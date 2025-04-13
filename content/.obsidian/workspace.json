@@ -8,7 +8,31 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e7a7b303c61786dc",
+            "id": "38ee9f885c4ac7d4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "introduzione agli algoritmi/algoritmi di ordinamento.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "algoritmi di ordinamento"
+            }
+          },
+          {
+            "id": "310ad1d7611a3215",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -17,54 +41,6 @@
               "pinned": true,
               "icon": "lucide-git-fork",
               "title": "Graph view"
-            }
-          },
-          {
-            "id": "3d4fb41b93dd77b3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "interdisciplinare/funzione.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "funzione"
-            }
-          },
-          {
-            "id": "965f17d793afd61b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "introduzione agli algoritmi/mergesort.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "mergesort"
             }
           }
         ]
@@ -124,7 +100,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "static",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -223,34 +199,34 @@
       "infranodus-graph-view:InfraNodus Graph View": true
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "38ee9f885c4ac7d4",
   "lastOpenFiles": [
-    "introduzione agli algoritmi/mergesort.md",
-    "interdisciplinare/funzione.md",
-    "introduzione agli algoritmi/equazioni di ricorrenza.md",
-    "todo/java.md",
-    "introduzione agli algoritmi/problem solving.md",
-    "introduzione agli algoritmi/costo computazionale.md",
-    "metodologie di programmazione/Java.md",
+    "introduzione agli algoritmi/selection sort.md",
     "introduzione agli algoritmi/algoritmi di ordinamento.md",
-    "introduzione agli algoritmi/bucket sort.md",
-    "calcolo differenziale/teorema de l'hopital.md",
-    "introduzione agli algoritmi/counting sort.md",
-    "metodologie di programmazione/classe annidate e interne.md",
-    "metodologie di programmazione/campi.md",
-    "metodologie di programmazione/classe.md",
+    "interdisciplinare/funzione.md",
+    "metodologie di programmazione/struttura dati.md",
+    "introduzione agli algoritmi/heapsort.md",
+    "introduzione agli algoritmi/master theorem.md",
+    "introduzione agli algoritmi/esercizi di complessità e ottimizzazione.md",
+    "introduzione agli algoritmi/notazione Omega.md",
+    "introduzione agli algoritmi/equazioni di ricorrenza.md",
+    "introduzione agli algoritmi/metodo dell'albero.md",
+    "metodologie di programmazione/ArrayList.md",
+    "interdisciplinare/memoria RAM.md",
     "metodologie di programmazione/clone.md",
-    "metodologie di programmazione/upcasting e downcasting.md",
-    "metodologie di programmazione/modificatori di visibilità.md",
-    "metodologie di programmazione/relazioni tra oggetti.md",
-    "metodologie di programmazione/overriding.md",
-    "metodologie di programmazione/classe Object.md",
+    "metodologie di programmazione/collezioni fondamentali.md",
+    "metodologie di programmazione/array.md",
+    "metodologie di programmazione/collezione.md",
+    "metodologie di programmazione/Java.md",
+    "metodologie di programmazione/struttur dati.md",
+    "metodologie di programmazione/Programmazione funzionale.md",
+    "metodologie di programmazione/interfacce funzionali.md",
+    "metodologie di programmazione/SAM (Single Abstract Method).md",
     "metodologie di programmazione/interfaccia.md",
-    "metodologie di programmazione/interfacce notevoli.md",
-    "metodologie di programmazione/diagramma delle classi in UML.md",
-    "architettura degli elaboratori/stringhe in RISC-V.md",
-    "metodologie di programmazione/UML (Unified Modeling Language).md",
-    "metodologie di programmazione/ereditarietà.md",
+    "introduzione agli algoritmi/pseudocodice.md",
+    "introduzione agli algoritmi/introduzione agli algoritmi.md",
+    "introduzione agli algoritmi/complessità degli algoritmi più comuni in Python.md",
+    "introduzione agli algoritmi/costo computazionale.md",
     "architettura degli elaboratori/Pasted image 20250401124637.png",
     "architettura degli elaboratori/Pasted image 20250401124406.png",
     "metodologie di programmazione/Pasted image 20250311113121.png",
