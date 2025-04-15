@@ -8,31 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e7a7b303c61786dc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "interdisciplinare/linked list.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "linked list"
-            }
-          },
-          {
-            "id": "33080cb9cbb371bc",
+            "id": "e880315b0b5eb2a4",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -44,36 +20,12 @@
             }
           },
           {
-            "id": "5705d0c2acdd0187",
+            "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "interdisciplinare/strutture dati.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "strutture dati"
-            }
-          },
-          {
-            "id": "2bba595167900f07",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "introduzione agli algoritmi/liste in Python.md",
+                "file": "architettura degli elaboratori/architettura CPU RISC-V.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -88,16 +40,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "liste in Python"
+              "title": "architettura CPU RISC-V"
             }
           },
           {
-            "id": "3a01fae15f03071f",
+            "id": "360f46867fb80b8d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "interdisciplinare/array.md",
+                "file": "architettura degli elaboratori/CPU.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -107,16 +59,40 @@
                   "sortOrder": "alphabetical",
                   "showSearch": false,
                   "searchQuery": "",
-                  "backlinkCollapsed": true,
+                  "backlinkCollapsed": false,
                   "unlinkedCollapsed": true
                 }
               },
               "icon": "lucide-file",
-              "title": "array"
+              "title": "CPU"
+            }
+          },
+          {
+            "id": "320fef3429cc112a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "architettura degli elaboratori/architettura di Von Neumann.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "architettura di Von Neumann"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -272,34 +248,36 @@
       "infranodus-graph-view:InfraNodus Graph View": true
     }
   },
-  "active": "33080cb9cbb371bc",
+  "active": "360f46867fb80b8d",
   "lastOpenFiles": [
+    "architettura degli elaboratori/CPU.md",
+    "architettura degli elaboratori/architettura di Von Neumann.md",
+    "architettura degli elaboratori/architettura CPU RISC-V.md",
+    "architettura degli elaboratori/assembly RISC-V.md",
+    "architettura degli elaboratori/elementi di stato.md",
+    "architettura degli elaboratori/CU (unità di controllo).md",
+    "progettazione di sistemi digitali/ALU.md",
+    "architettura degli elaboratori/architettura degli elaboratori.md",
+    "architettura degli elaboratori/RISC-V.md",
+    "architettura degli elaboratori/formati delle istruzioni.md",
+    "progettazione di sistemi digitali/bus.md",
+    "architettura degli elaboratori/Pasted image 20250415121550.png",
+    "architettura degli elaboratori/differenze tra CISC e RISC.md",
+    "metodologie di programmazione/Java.md",
+    "architettura degli elaboratori/system calls.md",
+    "Elementi di stato/memoria.md",
+    "interdisciplinare/memoria (RAM).md",
+    "architettura degli elaboratori/cicli in RISC-V.md",
+    "architettura degli elaboratori/matrici in RISC-V.md",
+    "architettura degli elaboratori/stringhe in RISC-V.md",
+    "architettura degli elaboratori/esempio di codice RISC-V.md",
+    "architettura degli elaboratori/funzioni in RISC-V.md",
+    "architettura degli elaboratori/modi di indirizzamento.md",
+    "Elementi di stato",
+    "architettura degli elaboratori/Memoria.md",
+    "architettura degli elaboratori/registri generali dell'architettura RISC-V.md",
     "interdisciplinare/array.md",
     "architettura degli elaboratori/array in RISC-V.md",
-    "architettura degli elaboratori/RISC-V.md",
-    "interdisciplinare/strutture dati.md",
-    "introduzione agli algoritmi/liste in Python.md",
-    "interdisciplinare/linked list.md",
-    "interdisciplinare/memoria (RAM).md",
-    "introduzione agli algoritmi/introduzione agli algoritmi.md",
-    "metodologie di programmazione/metodologie di programmazione.md",
-    "metodologie di programmazione/Java.md",
-    "metodologie di programmazione/programmazione orientata agli oggetti.md",
-    "metodologie di programmazione/programmazione funzionale.md",
-    "metodologie di programmazione/ArrayList.md",
-    "metodologie di programmazione/collezione.md",
-    "hashcode.md",
-    "architettura degli elaboratori/esempio di codice RISC-V.md",
-    "introduzione agli algoritmi/algoritmi di ordinamento.md",
-    "introduzione agli algoritmi/bubble sort.md",
-    "progettazione di sistemi digitali/registro contatore.md",
-    "introduzione agli algoritmi/insertion sort.md",
-    "introduzione agli algoritmi/selection sort.md",
-    "interdisciplinare/funzione.md",
-    "introduzione agli algoritmi/heapsort.md",
-    "introduzione agli algoritmi/master theorem.md",
-    "introduzione agli algoritmi/esercizi di complessità e ottimizzazione.md",
-    "introduzione agli algoritmi/notazione Omega.md",
     "architettura degli elaboratori/Pasted image 20250401124637.png",
     "architettura degli elaboratori/Pasted image 20250401124406.png",
     "metodologie di programmazione/Pasted image 20250311113121.png",
@@ -310,7 +288,6 @@
     "metodologie di programmazione/Pasted image 20250318114121.png",
     "metodologie di programmazione/Pasted image 20250318114106.png",
     "metodologie di programmazione/Pasted image 20250318112302.png",
-    "metodologie di programmazione/Pasted image 20250318112236.png",
     "TagsRoutes/logs",
     "TagsRoutes",
     "graph-screenshot",
@@ -319,7 +296,6 @@
     "metodologie di programmazione/lab3/Segmento.java",
     "metodologie di programmazione/lab3/Punto.java",
     "metodologie di programmazione/lab3",
-    "metodologie di programmazione/Introduzione Metodologie di Programmazione.pdf",
     "progettazione di sistemi digitali/rete sequenziale generica.canvas"
   ]
 }

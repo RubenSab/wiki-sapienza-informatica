@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-03-18T15:17:06.238+01:00
+updated_at: 2025-04-15T11:48:05.819+02:00
 ---
 # if else
 
@@ -10,7 +10,6 @@ if (x >= 0) {
 	// codice da eseguire se il test è falso
 }
 // codice seguente
-
 ```
 
 Diventa

@@ -1,7 +1,7 @@
 ---
-updated_at: 2025-04-01T12:18:39.088+02:00
+updated_at: 2025-04-15T12:40:05.950+02:00
 ---
-> Questo componente del processore effettua calcoli e operazioni logiche. Riceve in input due [[bus]] (a 64 bit nelle architetture moderne) accompagnati da un bus parallelo detto ***opcode*** (Operation Code) per configurarla (scegliere l'operazione da effettuare tra i due bus) e ritorna in output il risultato dell'operazione tra i due bus, cioè un bus altrettanto lungo.
+> L'Unità Aritmetico Logica, componente della [[CPU]], effettua calcoli e operazioni logiche. Riceve in input due [[bus]] (a 64 bit nelle architetture moderne) accompagnati da un bus parallelo detto ***opcode*** (Operation Code) per configurarla (scegliere l'operazione da effettuare tra i due bus) e ritorna in output il risultato dell'operazione tra i due bus, cioè un bus altrettanto lungo.
 
 > All'interno delle ALU è SEMPRE presente un [[full adder (FA)]].
 

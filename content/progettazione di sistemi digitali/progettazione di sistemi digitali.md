@@ -14,7 +14,7 @@ Libro consigliato: **Reti logiche** M. Morris Mano, C. R. Kime, T. Martin, Pears
 
 - [[algebra delle porte logiche e reti combinatorie|reti combinatorie]]
 - [[espressioni booleane]] e [[criterio di minimalità]]
-- [[moduli standard]], [[adder]] e [[ALU (unità aritmetico logica)]]
+- [[moduli standard]], [[adder]] e [[ALU]]
 
 ## reti sequenziali
 

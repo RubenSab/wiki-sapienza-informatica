@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-03-20T22:02:17.606+01:00
+updated_at: 2025-04-15T11:47:36.716+02:00
 ---
 ``` python
 matrix = [
@@ -9,7 +9,7 @@ matrix = [
 ]
 ```
 
-In assembly lo spazio di memoria è lineare, la matrice si riduce a una procedura per ottenere l'elemento della matrice agli indici x e y corrispondenti.
+Dato che in assembly lo spazio di memoria è lineare, le matrici (come le altre [[strutture dati]]) non possono esistere fisicamente, ma sono da pensare come un'[[array]] di dati su cui è definita una procedura per ottenere l'elemento agli indici x e y corrispondenti come se fosse una matrice.
 
 ```
 .data
