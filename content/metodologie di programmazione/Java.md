@@ -33,10 +33,10 @@ updated_at: 2025-04-10T13:25:48.578+02:00
 - [[polimorfismo]]
 - [[interfaccia]]
 - [[UML (Unified Modeling Language)]]
-- [[memoria RAM|anatomia della memoria]]
+- [[memoria (RAM)|anatomia della memoria]]
 - [[analisi dello stato della memoria]]
 - [[Junit]]
 
-# [[Programmazione funzionale]]
+# [[programmazione funzionale]]
 
-# [[struttura dati|strutture dati]]
+# [[strutture dati|strutture dati]]

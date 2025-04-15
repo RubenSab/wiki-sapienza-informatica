@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "38ee9f885c4ac7d4",
+            "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "introduzione agli algoritmi/algoritmi di ordinamento.md",
+                "file": "interdisciplinare/linked list.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,11 +28,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "algoritmi di ordinamento"
+              "title": "linked list"
             }
           },
           {
-            "id": "310ad1d7611a3215",
+            "id": "33080cb9cbb371bc",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -42,8 +42,81 @@
               "icon": "lucide-git-fork",
               "title": "Graph view"
             }
+          },
+          {
+            "id": "5705d0c2acdd0187",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "interdisciplinare/strutture dati.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "strutture dati"
+            }
+          },
+          {
+            "id": "2bba595167900f07",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "introduzione agli algoritmi/liste in Python.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "liste in Python"
+            }
+          },
+          {
+            "id": "3a01fae15f03071f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "interdisciplinare/array.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": true,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "array"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -199,34 +272,34 @@
       "infranodus-graph-view:InfraNodus Graph View": true
     }
   },
-  "active": "38ee9f885c4ac7d4",
+  "active": "33080cb9cbb371bc",
   "lastOpenFiles": [
-    "introduzione agli algoritmi/selection sort.md",
+    "interdisciplinare/array.md",
+    "architettura degli elaboratori/array in RISC-V.md",
+    "architettura degli elaboratori/RISC-V.md",
+    "interdisciplinare/strutture dati.md",
+    "introduzione agli algoritmi/liste in Python.md",
+    "interdisciplinare/linked list.md",
+    "interdisciplinare/memoria (RAM).md",
+    "introduzione agli algoritmi/introduzione agli algoritmi.md",
+    "metodologie di programmazione/metodologie di programmazione.md",
+    "metodologie di programmazione/Java.md",
+    "metodologie di programmazione/programmazione orientata agli oggetti.md",
+    "metodologie di programmazione/programmazione funzionale.md",
+    "metodologie di programmazione/ArrayList.md",
+    "metodologie di programmazione/collezione.md",
+    "hashcode.md",
+    "architettura degli elaboratori/esempio di codice RISC-V.md",
     "introduzione agli algoritmi/algoritmi di ordinamento.md",
+    "introduzione agli algoritmi/bubble sort.md",
+    "progettazione di sistemi digitali/registro contatore.md",
+    "introduzione agli algoritmi/insertion sort.md",
+    "introduzione agli algoritmi/selection sort.md",
     "interdisciplinare/funzione.md",
-    "metodologie di programmazione/struttura dati.md",
     "introduzione agli algoritmi/heapsort.md",
     "introduzione agli algoritmi/master theorem.md",
     "introduzione agli algoritmi/esercizi di complessità e ottimizzazione.md",
     "introduzione agli algoritmi/notazione Omega.md",
-    "introduzione agli algoritmi/equazioni di ricorrenza.md",
-    "introduzione agli algoritmi/metodo dell'albero.md",
-    "metodologie di programmazione/ArrayList.md",
-    "interdisciplinare/memoria RAM.md",
-    "metodologie di programmazione/clone.md",
-    "metodologie di programmazione/collezioni fondamentali.md",
-    "metodologie di programmazione/array.md",
-    "metodologie di programmazione/collezione.md",
-    "metodologie di programmazione/Java.md",
-    "metodologie di programmazione/struttur dati.md",
-    "metodologie di programmazione/Programmazione funzionale.md",
-    "metodologie di programmazione/interfacce funzionali.md",
-    "metodologie di programmazione/SAM (Single Abstract Method).md",
-    "metodologie di programmazione/interfaccia.md",
-    "introduzione agli algoritmi/pseudocodice.md",
-    "introduzione agli algoritmi/introduzione agli algoritmi.md",
-    "introduzione agli algoritmi/complessità degli algoritmi più comuni in Python.md",
-    "introduzione agli algoritmi/costo computazionale.md",
     "architettura degli elaboratori/Pasted image 20250401124637.png",
     "architettura degli elaboratori/Pasted image 20250401124406.png",
     "metodologie di programmazione/Pasted image 20250311113121.png",

@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-04-08T10:10:36.908+02:00
+updated_at: 2025-04-14T10:24:40.970+02:00
 ---
 # Anatomia della memoria in Java
 

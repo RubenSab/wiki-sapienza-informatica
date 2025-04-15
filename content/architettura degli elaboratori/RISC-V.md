@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-04-01T12:36:33.595+02:00
+updated_at: 2025-04-15T11:20:22.514+02:00
 ---
 > **Reduced Instruction Set Computers**: RISC-V è un'**A**rchitettura di **S**et di **I**struzioni (ISA) open-source, cioè un set minimo di istruzioni semplici che possiamo far eseguire al computer.
 
@@ -12,7 +12,7 @@ L'architettura RISC-V ha:
 - 32 registri per i numeri in [[rappresentazione o codifica di numeri con la virgola (IEEE 754)|floating point]] (f0, f1, ..., f31)
 - [[PC (Program Counter)]]
 - Control Status Registers
-- [[memoria RAM]] centrale
+- [[memoria (RAM)]] centrale
 
 I registri hanno lunghezza fissa, sono chiamati x0, x1 ... x31, usati per memorizzare (ordini di grandezza più velocemente della memoria) sia dati temporanei che istruzioni. Ogni istruzione è codificata da una [[unità di misura del sistema binario|word]] immagazzinata in un singolo registro.
 
@@ -20,7 +20,7 @@ I registri hanno lunghezza fissa, sono chiamati x0, x1 ... x31, usati per memori
 
 ## memoria
 
-La [[memoria RAM]] consente di memorizzare vettori, altre strutture dati, il contenuto dei registri ***e il programma stesso (!!!)*** (**ogni riga è indicizzata in un indirizzo di memoria**): vi si accede dai registri solamente attraverso istruzioni di trasferimento dati dai registri (S-type).
+La [[memoria (RAM)]] consente di memorizzare vettori, altre strutture dati, il contenuto dei registri ***e il programma stesso (!!!)*** (**ogni riga è indicizzata in un indirizzo di memoria**): vi si accede dai registri solamente attraverso istruzioni di trasferimento dati dai registri (S-type).
 
 Abbiamo a disposizione $2^{30}$ word (di 32 bit) a 32 bit di memoria, dalla posizione Memoria\[$0$\] a Memoria\[$2^{32}-4$\].
 
@@ -59,7 +59,7 @@ I [[modi di indirizzamento]] sono le tecniche utilizzate dai processori per dete
 
 Gli indirizzi di salto sono noiosi da calcolare e possono indurre in facili errori, quindi esistono le **etichette** per semplificare il lavoro ai programmatori:
 
-L’etichetta associa alla parola l’indirizzo dell’istruzione dove è scritta, potrà essere usata nel codice assembly al posto dell'indirizzo della [[memoria RAM]] che rappresenta (cioè alla riga del programma in esecuzione), come se fosse una costante numerica nei linguaggi ad alto livello.
+L’etichetta associa alla parola l’indirizzo dell’istruzione dove è scritta, potrà essere usata nel codice assembly al posto dell'indirizzo della [[memoria (RAM)]] che rappresenta (cioè alla riga del programma in esecuzione), come se fosse una costante numerica nei linguaggi ad alto livello.
 
 - L’assemblatore converte le etichette in salti o in indirizzi
 - Le pseudoistruzioni possono usare come argomenti le etichette
@@ -126,7 +126,7 @@ li, x9, 123. → addi x9, x0, 123
 
 # Implementazioni di costrutti ad alto livello in RISC-V Assembly
 
-- [[vettori in RISC-V]]
+- [[array]]
 - [[stringhe in RISC-V]]
 - [[matrici in RISC-V]]
 - [[cicli in RISC-V]]

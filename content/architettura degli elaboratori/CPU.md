@@ -1,7 +1,7 @@
 ---
 updated_at: 2025-04-01T13:26:23.885+02:00
 ---
-> La **Central Processing Unit** è una [[automa a stati finiti (finite state automata)|macchina sequenziale]], fa solo calcoli e si appoggia ai [[registri]] e alla [[memoria RAM]] per memorizzare il suo stato.
+> La **Central Processing Unit** è una [[automa a stati finiti (finite state automata)|macchina sequenziale]], fa solo calcoli e si appoggia ai [[registri]] e alla [[memoria (RAM)]] per memorizzare il suo stato.
 
 È formata da:
 - **Elementi di stato** (sensibili al fronte di salita del clock): registri e memoria RAM.
@@ -45,7 +45,7 @@ Tutto questo è coordinato dall'unità di controllo (Instruction Decoder).
 
 - [[PC (Program Counter)]] che contiene l'indirizzo dell'istruzione corrente
 - [[adder]] per calcolare il PC allo step successivo e le destinazioni dei salti relativi. Ha 32 bit in input e 32 in output.
-- [[memoria RAM]]
+- [[memoria (RAM)]]
 	- memoria istruzioni:
 		- input: indirizzo a 32 bit
 		- output: istruzione da 32 bit contenuta nella posizione indicata dall'indirizzo di input

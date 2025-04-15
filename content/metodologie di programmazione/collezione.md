@@ -15,7 +15,7 @@ updated_at: 2025-04-10T13:30:24.406+02:00
 
 1. Sopra c'è [[interfaccia iterabile|Iterable]],
 2. Collection estende Iterable,
-3. Le [[struttura dati|collezioni notevoli]] estendono Collection
+3. Le [[strutture dati|collezioni notevoli]] estendono Collection
 4. SortedSet estende Set
 
 #todo ForEach e Consumer

@@ -1,17 +1,17 @@
 ---
-updated_at: 2025-04-13T22:10:00.353+02:00
+updated_at: 2025-04-14T09:12:15.585+02:00
 ---
 # Lista degli algoritmi principali
 
 ## Algoritmi naive
 
-> Nonostante siano più i semplici, sia concettualmente sia per l'implementazione, sono anche i più inefficienti su grandi [[struttura dati|strutture dati]].
+> Nonostante siano più i semplici, sia concettualmente sia per l'implementazione, sono anche i più inefficienti su grandi [[strutture dati|strutture dati]].
 
 | algoritmo          | complessità temporale | complessità spaziale |
 | ------------------ | --------------------- | -------------------- |
 | [[selection sort]] | $\Theta(n^{2})$       | $\Theta(1)$          |
-| [[insertion sort]] | $O(n^{2})$            |                      |
-| [[bubble sort]]    | $O(n^{2})$            |                      |
+| [[insertion sort]] | $O(n^{2}), \Omega(n)$ | $\Theta(1)$          |
+| [[bubble sort]]    | $O(n^{2}), \Omega(n)$ | $\Theta(1)$          |
 
 ## Algoritmi non naive
 

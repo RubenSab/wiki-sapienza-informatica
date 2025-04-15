@@ -1,7 +1,7 @@
 ---
-updated_at: 2025-03-04T13:49:58.609+01:00
+updated_at: 2025-04-14T09:44:29.191+02:00
 ---
-Realizziamo questo snippet C in [[Assembly]] [[RISC-V]].
+Realizziamo questo snippet C in assembly [[RISC-V]].
 
 ``` c
 f = (g+h)-(i+j);
