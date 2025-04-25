@@ -1,3 +1,6 @@
+---
+updated_at: 2025-04-16T12:13:29.635+02:00
+---
 # multiplexer standard
 
 > Modulo che riceve $n$ linee in ingresso e $n$ linee di selezione (di cui una sola vale 1), e in output ritorna le linee di ingresso scelte dalle linee di selezione.

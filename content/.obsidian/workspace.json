@@ -8,24 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e880315b0b5eb2a4",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "graph",
-              "state": {},
-              "pinned": true,
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
-            }
-          },
-          {
             "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "architettura degli elaboratori/architettura CPU RISC-V.md",
+                "file": "calcolo integrale/formulario di calcolo integrale.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -40,59 +28,10 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "architettura CPU RISC-V"
-            }
-          },
-          {
-            "id": "360f46867fb80b8d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "architettura degli elaboratori/CPU.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "CPU"
-            }
-          },
-          {
-            "id": "320fef3429cc112a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "architettura degli elaboratori/architettura di Von Neumann.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "architettura di Von Neumann"
+              "title": "formulario di calcolo integrale"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -132,8 +71,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 229.5094871520996,
-    "collapsed": true
+    "width": 229.5094871520996
   },
   "right": {
     "id": "26b38658cac3fe47",
@@ -149,7 +87,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "elvis",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -248,36 +186,38 @@
       "infranodus-graph-view:InfraNodus Graph View": true
     }
   },
-  "active": "360f46867fb80b8d",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "calcolo integrale/formulario di calcolo integrale.md",
+    "calcolo integrale/calcolo integrale.md",
+    "calcolo integrale/successione di Cauchy.md",
+    "metodologie di programmazione/ArrayList.md",
+    "metodologie di programmazione/collezione.md",
+    "metodologie di programmazione/enumerazione.md",
+    "metodologie di programmazione/flussi di controllo.md",
+    "interdisciplinare/array.md",
+    "metodologie di programmazione/classe annidate e interne.md",
+    "architettura degli elaboratori/CPU RISC-V a singolo colpo di clock senza pipeline.md",
+    "architettura degli elaboratori/assembly RISC-V.md",
+    "progettazione di sistemi digitali/ALU.md",
+    "progettazione di sistemi digitali/multiplexer (MUX).md",
+    "progettazione di sistemi digitali/moduli standard.md",
+    "metodologie di programmazione/Java.md",
+    "metodologie di programmazione/polimorfismo.md",
+    "architettura degli elaboratori/RISC-V.md",
+    "progettazione di sistemi digitali/estensione del segno in CA2.md",
     "architettura degli elaboratori/CPU.md",
     "architettura degli elaboratori/architettura di Von Neumann.md",
-    "architettura degli elaboratori/architettura CPU RISC-V.md",
-    "architettura degli elaboratori/assembly RISC-V.md",
-    "architettura degli elaboratori/elementi di stato.md",
-    "architettura degli elaboratori/CU (unità di controllo).md",
-    "progettazione di sistemi digitali/ALU.md",
-    "architettura degli elaboratori/architettura degli elaboratori.md",
-    "architettura degli elaboratori/RISC-V.md",
-    "architettura degli elaboratori/formati delle istruzioni.md",
-    "progettazione di sistemi digitali/bus.md",
-    "architettura degli elaboratori/Pasted image 20250415121550.png",
-    "architettura degli elaboratori/differenze tra CISC e RISC.md",
-    "metodologie di programmazione/Java.md",
-    "architettura degli elaboratori/system calls.md",
-    "Elementi di stato/memoria.md",
-    "interdisciplinare/memoria (RAM).md",
-    "architettura degli elaboratori/cicli in RISC-V.md",
-    "architettura degli elaboratori/matrici in RISC-V.md",
-    "architettura degli elaboratori/stringhe in RISC-V.md",
-    "architettura degli elaboratori/esempio di codice RISC-V.md",
-    "architettura degli elaboratori/funzioni in RISC-V.md",
-    "architettura degli elaboratori/modi di indirizzamento.md",
-    "Elementi di stato",
-    "architettura degli elaboratori/Memoria.md",
+    "progettazione di sistemi digitali/registri.md",
+    "architettura degli elaboratori/elementi di stato (registri e RAM).md",
     "architettura degli elaboratori/registri generali dell'architettura RISC-V.md",
-    "interdisciplinare/array.md",
-    "architettura degli elaboratori/array in RISC-V.md",
+    "interdisciplinare/memoria (RAM).md",
+    "progettazione di sistemi digitali/bus.md",
+    "progettazione di sistemi digitali/PC (Program Counter).md",
+    "architettura degli elaboratori/Pasted image 20250415132516.png",
+    "progettazione di sistemi digitali/rete sequenziale generica.canvas",
+    "architettura degli elaboratori/Pasted image 20250415121550.png",
+    "Elementi di stato",
     "architettura degli elaboratori/Pasted image 20250401124637.png",
     "architettura degli elaboratori/Pasted image 20250401124406.png",
     "metodologie di programmazione/Pasted image 20250311113121.png",
@@ -287,7 +227,6 @@
     "ereditarietàUML.svg",
     "metodologie di programmazione/Pasted image 20250318114121.png",
     "metodologie di programmazione/Pasted image 20250318114106.png",
-    "metodologie di programmazione/Pasted image 20250318112302.png",
     "TagsRoutes/logs",
     "TagsRoutes",
     "graph-screenshot",
@@ -295,7 +234,6 @@
     "metodologie di programmazione/lab3/Test.java",
     "metodologie di programmazione/lab3/Segmento.java",
     "metodologie di programmazione/lab3/Punto.java",
-    "metodologie di programmazione/lab3",
-    "progettazione di sistemi digitali/rete sequenziale generica.canvas"
+    "metodologie di programmazione/lab3"
   ]
 }

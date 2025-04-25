@@ -1,6 +1,13 @@
 ---
-updated_at: 2025-03-06T22:17:43.519+01:00
+updated_at: 2025-04-24T21:14:50.259+02:00
 ---
-# argomenti
-## serie numeriche
+- [[formulario di calcolo integrale]]
+# Argomenti
+
+#todo
+## Serie numeriche
+
 - [[serie]]
+
+## Integrali
+

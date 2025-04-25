@@ -1,4 +1,4 @@
 ---
-updated_at: 2025-04-15T12:40:58.029+02:00
+updated_at: 2025-04-15T22:33:53.537+02:00
 ---
-> È la componente della [[CPU]] che **legge** le [[assembly RISC-V|istruzioni]], le **decodifica**, dice all'[[ALU]] (ma anche ad altri circuiti) **come eseguirle** ed effettua i controlli delle attività necessarie per l’esecuzione.
+> È il componente della [[CPU]] (un [[decodificatore (DEC)]] non standard) che riceve in input l'*OpCode* delle [[assembly RISC-V|istruzioni]] e ha come output le linee di selezione delle unità funzionali della CPU, dirigendole.

@@ -1,7 +1,7 @@
 ---
-updated_at: 2025-03-04T12:50:31.692+01:00
+updated_at: 2025-04-15T23:38:57.423+02:00
 ---
-Si usa per rappresentare su più bit un valore in [[complemento a 2 (CA2)]].
+Si usa per rappresentare un valore in [[complemento a 2 (CA2)]] in più bit di quelli di partenza.
 
 - Se il bit più significativo è 0, allora a sinistra si aggiungono degli 0, altrimenti si aggiungono degli 1.
 

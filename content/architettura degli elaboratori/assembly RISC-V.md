@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-04-15T12:34:10.027+02:00
+updated_at: 2025-04-15T22:22:10.671+02:00
 ---
 # Implementazioni di costrutti ad alto livello in Assembly RISC-V
 
@@ -8,25 +8,16 @@ updated_at: 2025-04-15T12:34:10.027+02:00
 - [[matrici in RISC-V]]
 - [[cicli in RISC-V]]
 - [[funzioni in RISC-V]]
-# Istruzioni
+# Istruzioni RISC-V
 
-- [[elenco di operazioni RISC-V]]
-
-## Fasi di esecuzione di un istruzione
-
-- **Fetch/caricamento della istruzione** dalla posizione indicata dal Program Counter;
-- **Decodifica/riconoscimento** della istruzione, la Control Unit attiva le parti funzionali necessarie;
-- **Load/caricamento di eventuali argomenti** a seconda dei modi di indirizzamento (vedi dopo);
-- **Esecuzione della istruzione**, in genere da parte dell’[[ALU]]
-- **Store/salvataggio del risultato** in memoria o in un registro
-- **Aggiornamento del Program Counter** (contemporaneamente ad altre fasi)
-
+- [[fasi dell'esecuzione di un'istruzione]]
+- [[elenco di istruzioni RISC-V]]
 ## Com'è fatta un'istruzione?
 
 La codifica di un'istruzione deve indicare:
 
-- L'**OpCode**: quale operazione far svolgere alla [[CPU]] (e se necessario quale sotto-operazione va svolta)
-- Quali **argomenti** sono necessari
+- L'**OpCode**: quale operazione far svolgere alla [[CPU]] (e se necessario quale sotto-operazione va svolta),
+- Quali **argomenti** sono necessari,
 - Dove mettere il risultato
 
 Più nel dettaglio, ogni istruzione ha una lunghezza totale fissa di 32 bit, e in linea di massima (ma ci sono diversi [[formati delle istruzioni]]) ha come campi:
