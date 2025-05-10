@@ -1,7 +1,7 @@
 ---
-updated_at: 2025-04-15T11:21:34.108+02:00
+updated_at: 2025-05-10T12:58:21.748+02:00
 ---
-> Un array è un [[oggetto]] che memorizza un gruppo dalle **dimensioni costanti** di [[variabile|variabili]] (chiamati elementi), tutti **dello stesso [[tipi|tipo]]** (per questo si dice che le array sono *omogenee*).
+> Un array, o vettore, è una [[struttura dati]] statica che memorizza un insieme ordinato di elementi dello stesso [[tipi|tipo]] (per questo si dice che le array sono *omogenee*).
 
 # Vantaggi e svantaggi
 
@@ -10,10 +10,18 @@ updated_at: 2025-04-15T11:21:34.108+02:00
 | Si può accedere all'i-esimo elemento direttamente.                                 | Ha lunghezza immutabile.                 |
 | Nel raro caso in cui non siano built-in, sono estremamente facili da implementare. | Rimuovere un elemento costa $\Theta(1)$. |
 |                                                                                    | Sono omogenee.                           |
+# [[complessità temporale|Costo]] delle operazioni
 
+| operazione                                        | array disordinato | array ordinato |
+| ------------------------------------------------- | ----------------- | -------------- |
+| ricerca in base al valore                         | $O(n)$            | $O(\log n)$    |
+| minimo e massimo                                  | $\Theta(n)$       | $\Theta(1)$    |
+| inserimento\* a posizione $n\neq$ lunghezza array | $\Theta(n)$       | $O(n)$         |
+| rimozione\* in base al valore                     | $\Theta(n)$       | $O(n)$         |
+\*prevedono anche lo scorrimento per mantenere l'ordine tra gli elementi e coprire i buchi.
 # In Java
 
-> N.B.: le variabili di array contengono il riferimento all’array.
+> N.B.: le [[variabile|variabili]] di array contengono il riferimento all’array.
 
 > Gli elementi di un array possono essere tipi primitivi (interi, double, ecc.) oppure riferimenti a oggetti (inclusi altri array!).
 

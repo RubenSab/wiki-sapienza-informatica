@@ -9,4 +9,4 @@ updated_at: 2025-04-14T10:03:24.278+02:00
 
 - Valutare l'[[efficienza]] degli [[algoritmo|algoritmi]], anche [[algoritmi ricorsivi|ricorsivi]] con la [[notazione asintotica]] e il costo computazionale.
 - [[Problem solving]] per [[problemi combinatori]], con [[algoritmi di ordinamento]] e [[algoritmi di ricerca]] scritti in [[pseudocodice]] e Python.
-- Spiegazione e implementazione delle [[strutture dati]] più comuni.
+- Spiegazione e implementazione delle [[struttura dati]] più comuni.

@@ -5,7 +5,7 @@ updated_at: 2025-04-14T09:12:15.585+02:00
 
 ## Algoritmi naive
 
-> Nonostante siano più i semplici, sia concettualmente sia per l'implementazione, sono anche i più inefficienti su grandi [[strutture dati|strutture dati]].
+> Nonostante siano più i semplici, sia concettualmente sia per l'implementazione, sono anche i più inefficienti su grandi [[struttura dati|struttura dati]].
 
 | algoritmo          | complessità temporale | complessità spaziale |
 | ------------------ | --------------------- | -------------------- |

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "calcolo integrale/formulario di calcolo integrale.md",
+                "file": "interdisciplinare/stack.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,10 +28,143 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "formulario di calcolo integrale"
+              "title": "stack"
+            }
+          },
+          {
+            "id": "7811f0108c9df2a8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "interdisciplinare/queue.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "queue"
+            }
+          },
+          {
+            "id": "a27ed2865fbc2eac",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "graph",
+              "state": {},
+              "pinned": true,
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          },
+          {
+            "id": "931953a62344f288",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "interdisciplinare/albero (radicato).md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "albero (radicato)"
+            }
+          },
+          {
+            "id": "4f3307ef3e8e4524",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "progettazione di sistemi digitali/read only memory (ROM).md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "read only memory (ROM)"
+            }
+          },
+          {
+            "id": "154e3dbf1c935516",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "interdisciplinare/memoria (RAM).md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "memoria (RAM)"
+            }
+          },
+          {
+            "id": "25fd560f75f56d83",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "introduzione agli algoritmi/complessità spaziale.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "complessità spaziale"
             }
           }
-        ]
+        ],
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -71,7 +204,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 229.5094871520996
+    "width": 229.5094871520996,
+    "collapsed": true
   },
   "right": {
     "id": "26b38658cac3fe47",
@@ -87,7 +221,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "elvis",
+                "query": "tag:#todo",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -170,7 +304,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 342.5,
+    "width": 200,
     "collapsed": true
   },
   "left-ribbon": {
@@ -186,8 +320,23 @@
       "infranodus-graph-view:InfraNodus Graph View": true
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "25fd560f75f56d83",
   "lastOpenFiles": [
+    "interdisciplinare/albero (radicato).md",
+    "introduzione agli algoritmi/complessità spaziale.md",
+    "interdisciplinare/memoria (RAM).md",
+    "progettazione di sistemi digitali/read only memory (ROM).md",
+    "interdisciplinare/queue.md",
+    "interdisciplinare/puntatore.md",
+    "progettazione di sistemi digitali/funzioni di codifica e decodifica.md",
+    "progettazione di sistemi digitali/codifica dell'informazione (alfa)numerica.md",
+    "interdisciplinare/struttura dati.md",
+    "interdisciplinare/stack.md",
+    "interdisciplinare/linked list.md",
+    "interdisciplinare/lista doppiamente puntata.md",
+    "introduzione agli algoritmi/lista di Python.md",
+    "interdisciplinare/array.md",
+    "metodologie di programmazione/variabile.md",
     "calcolo integrale/formulario di calcolo integrale.md",
     "calcolo integrale/calcolo integrale.md",
     "calcolo integrale/successione di Cauchy.md",
@@ -195,25 +344,10 @@
     "metodologie di programmazione/collezione.md",
     "metodologie di programmazione/enumerazione.md",
     "metodologie di programmazione/flussi di controllo.md",
-    "interdisciplinare/array.md",
     "metodologie di programmazione/classe annidate e interne.md",
     "architettura degli elaboratori/CPU RISC-V a singolo colpo di clock senza pipeline.md",
     "architettura degli elaboratori/assembly RISC-V.md",
     "progettazione di sistemi digitali/ALU.md",
-    "progettazione di sistemi digitali/multiplexer (MUX).md",
-    "progettazione di sistemi digitali/moduli standard.md",
-    "metodologie di programmazione/Java.md",
-    "metodologie di programmazione/polimorfismo.md",
-    "architettura degli elaboratori/RISC-V.md",
-    "progettazione di sistemi digitali/estensione del segno in CA2.md",
-    "architettura degli elaboratori/CPU.md",
-    "architettura degli elaboratori/architettura di Von Neumann.md",
-    "progettazione di sistemi digitali/registri.md",
-    "architettura degli elaboratori/elementi di stato (registri e RAM).md",
-    "architettura degli elaboratori/registri generali dell'architettura RISC-V.md",
-    "interdisciplinare/memoria (RAM).md",
-    "progettazione di sistemi digitali/bus.md",
-    "progettazione di sistemi digitali/PC (Program Counter).md",
     "architettura degli elaboratori/Pasted image 20250415132516.png",
     "progettazione di sistemi digitali/rete sequenziale generica.canvas",
     "architettura degli elaboratori/Pasted image 20250415121550.png",

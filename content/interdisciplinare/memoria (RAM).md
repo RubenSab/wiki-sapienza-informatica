@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-04-15T23:15:50.340+02:00
+updated_at: 2025-05-10T17:24:27.965+02:00
 ---
 > La Random Access Memory è il componente del [[architettura di Von Neumann|computer]] che ne costituisce la memoria volatile, cioè quella che immagazzina i dati temporanei (Random Access sta per accesso "istantaneo" a qualsiasi locazione).
 
@@ -16,7 +16,7 @@ updated_at: 2025-04-15T23:15:50.340+02:00
 
 Nella Java Virtual Machine, esistono due (+1) tipi di memoria:
 
-- lo **stack** dove vengono caricate le **[[variabile|variabili]] locali**, i **riferimenti** agli [[oggetto|oggetti]];
+- lo **[[stack]]** dove vengono caricate le **[[variabile|variabili]] locali**, i **riferimenti** agli [[oggetto|oggetti]];
 - lo **heap**, dove vanno le aree di memoria allocate per la **creazione dinamica**;
 - la zona speciale di memoria nativa detta **metaspace**, che memorizza i [[campi]] static.
 

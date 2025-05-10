@@ -1,7 +1,7 @@
 ---
-updated_at: 2025-03-04T12:31:49.583+01:00
+updated_at: 2025-05-10T22:54:11.984+02:00
 ---
-> La ROM è un modulo standard che riceve in ingresso un indirizzo di memoria e passa in uscita i bit contenuti nella posizione a cui si riferisce l'[[indirizzi|indirizzo]].
+> La ROM è un modulo standard che riceve in ingresso un indirizzo di memoria e passa in uscita i bit contenuti nella posizione a cui si riferisce l'indirizzo.
 > è composta da un [[decodificatore (DEC)]] non standard collegato a una matrice di porte OR (ognuna viene usata per produrre un bit in uscita).
 # Esempio
 

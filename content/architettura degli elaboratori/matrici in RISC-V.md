@@ -9,7 +9,7 @@ matrix = [
 ]
 ```
 
-Dato che in assembly lo spazio di memoria è lineare, le matrici (come le altre [[strutture dati]]) non possono esistere fisicamente, ma sono da pensare come un'[[array]] di dati su cui è definita una procedura per ottenere l'elemento agli indici x e y corrispondenti come se fosse una matrice.
+Dato che in assembly lo spazio di memoria è lineare, le matrici (come le altre [[struttura dati]]) non possono esistere fisicamente, ma sono da pensare come un'[[array]] di dati su cui è definita una procedura per ottenere l'elemento agli indici x e y corrispondenti come se fosse una matrice.
 
 ```
 .data

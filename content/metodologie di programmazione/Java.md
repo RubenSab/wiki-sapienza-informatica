@@ -39,4 +39,4 @@ updated_at: 2025-04-10T13:25:48.578+02:00
 
 # [[programmazione funzionale]]
 
-# [[strutture dati|strutture dati]]
+# [[struttura dati|struttura dati]]

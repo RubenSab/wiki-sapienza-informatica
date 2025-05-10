@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-04-25T19:07:17.709+02:00
+updated_at: 2025-04-28T10:57:23.658+02:00
 ---
 # Serie
 ## Condizione necessaria per la convergenza
@@ -10,7 +10,7 @@ $$\lim_{n \to +\infty}{a_{n}}=0$$
 ### Serie a segno costante
 #### Serie geometriche
 
-$$\sum^{+\infty}q^{n}, q \in \mathbb{R} \to \lim_{n\to +\infty} S_{k} = \begin{cases} +\infty \text{ se } q \geq 1 \text{ divergenza} \\ \frac{1}{1-q} \text{ se } |q| < 1 \text{ convergenza} \\ \nexists \text{ se } q \leq -1 \text{ indeterminatezza} \end{cases}$$
+$$\sum^{+\infty}q^{n}, q \in \mathbb{R} \to \lim_{n\to +\infty} S_{k} = \begin{cases} +\infty \text{ se } q \geq 1 & \text{ divergenza} \\ \frac{1}{1-q} \text{ se } |q| < 1 & \text{ convergenza} \\ \nexists \text{ se } q \leq -1 & \text{ indeterminatezza} \end{cases}$$
 
 #### Serie armoniche
 
@@ -80,6 +80,11 @@ $$\sum_{n=1}^{+\infty}a_{n},\ a_{n} > 0 \begin{cases} \text{converge se } \lim_{
 
 ## Metodi di integrazione
 
+### Numeratore = derivata del denominatore
+
+$$
+\int \frac{f'(x)}{f(x)}\, dx = \ln |f(x)| + c
+$$
 ### Integrazione per parti
 
 $$
@@ -95,23 +100,13 @@ $$
 
 ### Integrazione di funzioni razionali (fratti semplici)
 
-Valida per $\frac{P(x)}{Q(x)}$ con $\deg P < \deg Q$:
-
-- Scomposizione in fratti semplici
-- Riconduzione a logaritmi o arcotangenti
-
-### Integrazione di funzioni trigonometriche
-
-- Identità trigonometriche: $\sin^2 x = \frac{1 - \cos 2x}{2}$
-- Sostituzioni: $t = \tan\left(\frac{x}{2}\right)$ (formula di Weierstrass)
-
-### Integrazione di radici
-
-Sostituzioni utili:
-
-- $\sqrt{a^2 - x^2} \Rightarrow x = a \sin\theta$
-- $\sqrt{a^2 + x^2} \Rightarrow x = a \tan\theta$
-- $\sqrt{x^2 - a^2} \Rightarrow x = a \sec\theta$
+Per $\int{\frac{P(x)}{Q(x)}}$:
+- Se $\deg P > \deg Q$ si esegue la divisione in colonna tra i polinomi $P(x)$ e $Q(x)$ e si sostituisce il risultato (quoziente + resto/denominatore) nell'integrale stesso.
+- Se $\deg P = \deg Q$ o si riconduce il numeratore alla derivata del denominatore, o si fa lo stesso la divisione dei polinomi.
+- Se $\deg P < \deg Q$:
+	- Se $\frac{P(x)}{Q(x)} = \frac{A}{Bx+C}\, dx$ siamo nel caso più facile, numeratore = derivata del denominatore.
+	- Se $\frac{P(x)}{Q(x)} = \frac{Ax+(E)}{Bx^{2}+Cx+d}\, dx,\ \text{con } C^{2}-4BD<0$ 
+	- tutti gli altri casi in cui $\deg(N)<\deg(D)$ esprimere la funzione integranda come somma di funzioni razionali fratte.
 
 ## Integrali noti
 
