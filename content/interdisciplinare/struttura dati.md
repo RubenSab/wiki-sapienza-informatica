@@ -12,7 +12,7 @@ Le strutture dati di base sono:
 - [[linked list]]
 - [[stack]]
 - [[queue]]
-- [[albero (radicato)]]
+- [[albero]]
 
 # In Java
 

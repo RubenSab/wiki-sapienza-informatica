@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "interdisciplinare/stack.md",
+                "file": "interdisciplinare/albero.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,143 +28,10 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "stack"
-            }
-          },
-          {
-            "id": "7811f0108c9df2a8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "interdisciplinare/queue.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "queue"
-            }
-          },
-          {
-            "id": "a27ed2865fbc2eac",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "graph",
-              "state": {},
-              "pinned": true,
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
-            }
-          },
-          {
-            "id": "931953a62344f288",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "interdisciplinare/albero (radicato).md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "albero (radicato)"
-            }
-          },
-          {
-            "id": "4f3307ef3e8e4524",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "progettazione di sistemi digitali/read only memory (ROM).md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "read only memory (ROM)"
-            }
-          },
-          {
-            "id": "154e3dbf1c935516",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "interdisciplinare/memoria (RAM).md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "memoria (RAM)"
-            }
-          },
-          {
-            "id": "25fd560f75f56d83",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "introduzione agli algoritmi/complessità spaziale.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "complessità spaziale"
+              "title": "albero"
             }
           }
-        ],
-        "currentTab": 6
+        ]
       }
     ],
     "direction": "vertical"
@@ -320,9 +187,12 @@
       "infranodus-graph-view:InfraNodus Graph View": true
     }
   },
-  "active": "25fd560f75f56d83",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "interdisciplinare/albero (radicato).md",
+    "introduzione agli algoritmi/equazioni di ricorrenza.md",
+    "interdisciplinare/albero.md",
+    "interdisciplinare/rappresentazione degli alberi binari.md",
+    "interdisciplinare/nomenclatura degli alberi.md",
     "introduzione agli algoritmi/complessità spaziale.md",
     "interdisciplinare/memoria (RAM).md",
     "progettazione di sistemi digitali/read only memory (ROM).md",
@@ -345,9 +215,6 @@
     "metodologie di programmazione/enumerazione.md",
     "metodologie di programmazione/flussi di controllo.md",
     "metodologie di programmazione/classe annidate e interne.md",
-    "architettura degli elaboratori/CPU RISC-V a singolo colpo di clock senza pipeline.md",
-    "architettura degli elaboratori/assembly RISC-V.md",
-    "progettazione di sistemi digitali/ALU.md",
     "architettura degli elaboratori/Pasted image 20250415132516.png",
     "progettazione di sistemi digitali/rete sequenziale generica.canvas",
     "architettura degli elaboratori/Pasted image 20250415121550.png",
