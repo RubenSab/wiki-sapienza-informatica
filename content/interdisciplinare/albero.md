@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-05-11T23:14:07.994+02:00
+updated_at: 2025-05-12T08:36:52.753+02:00
 ---
 > Un albero radicato è una [[struttura dati]] composta da nodi organizzati gerarchicamente. Ha un nodo radice che non ha genitori. Ogni altro nodo dell'albero ha esattamente un genitore e può avere $n$ figli. I nodi che non hanno figli sono chiamati foglie.
 
@@ -109,10 +109,10 @@ Indipendentemente dall'albero, la complessità della visita è **sempre** $\Thet
 ## Funzioni utili che sfruttano la visita dell'albero
 
 ``` python
-def conta_nodi(nodo):
+def conta_nodi_albero(nodo):
 	if nodo == None:
 		return 0
-	return conta_nodi(nodo.left) + conta_nodi(nodo.right) + 1
+	return conta_nodi_albero(nodo.left) + conta_nodi_albero(nodo.right) + 1
 ```
 
 ``` python

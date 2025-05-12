@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-05-10T19:27:51.213+02:00
+updated_at: 2025-05-12T09:27:45.239+02:00
 ---
 > La queue (o coda) è una [[struttura dati|struttura dati]] FIFO (*First In First Out*) che prevede solo due operazioni: **inserimento (enqueue) alla fine della coda (tail)** e **l'estrazione (dequeue) del primo elemento della coda (tail)**. Non sono previste altre modalità di accesso, inserimento o rimozione.
 
@@ -25,14 +25,22 @@ Oppure si può implementare con le [[linked list]]
 class Coda:
 
 	def __init__(self):
-		self.coda = None
+		self.coda = None # ultimo nodo
+		self.testa = None # primo nodo
 
-	def inserisci(self, x):
-		
+	def inserisci(self, x): # in coda
+		nuovo_nodo = Nodo(x)
+		if self.coda:
+			self.coda.next = nuovo_nodo
+		else:
+			self.testa = nuovo_nodo
+		self.coda = nuovo_nodo
 
 	def pop(self):
 		if self.testa:
 			valore = self.testa.value
 			self.testa = self.test.next
+			if self.testa is None: # se la coda è vuota dopo il pop
+				self.coda = None
 			return valore
 ```
