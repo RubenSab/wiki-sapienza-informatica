@@ -13,31 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "interdisciplinare/queue.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "queue"
-            }
-          },
-          {
-            "id": "06cce1678801af50",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "interdisciplinare/stack.md",
+                "file": "introduzione agli algoritmi/equazioni di ricorrenza.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +28,17 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "stack"
+              "title": "equazioni di ricorrenza"
+            }
+          },
+          {
+            "id": "e578a55b48d07b62",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -112,7 +98,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#todo",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -168,7 +154,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "news/2024-10-17.md",
+                "file": "architettura degli elaboratori/hazard.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -178,24 +164,24 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 2024-10-17"
+              "title": "Backlinks for hazard"
             }
           },
           {
-            "id": "62488359400687d7",
+            "id": "dc8bc743e45363f9",
             "type": "leaf",
             "state": {
-              "type": "infranodus-graph-view",
+              "type": "example-view",
               "state": {},
-              "icon": "infranodus-icon",
-              "title": "TagsRoutes"
+              "icon": "lucide-file",
+              "title": "Most edited files"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 200,
+    "width": 354.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -207,38 +193,38 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "homepage:Open homepage": false,
-      "timethings:Activate view": false,
-      "infranodus-graph-view:InfraNodus Graph View": true
+      "timethings:Activate view": false
     }
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "interdisciplinare/stack.md",
-    "interdisciplinare/queue.md",
-    "interdisciplinare/struttura dati.md",
-    "interdisciplinare/albero.md",
-    "metodologie di programmazione/campi.md",
-    "interdisciplinare/funzione.md",
+    "introduzione agli algoritmi/metodo iterativo.md",
     "introduzione agli algoritmi/equazioni di ricorrenza.md",
-    "introduzione agli algoritmi/rappresentazione degli alberi binari.md",
-    "introduzione agli algoritmi/nomenclatura degli alberi.md",
-    "introduzione agli algoritmi/complessità spaziale.md",
+    "introduzione agli algoritmi/master theorem.md",
+    "introduzione agli algoritmi/metodo dell'albero.md",
+    "architettura degli elaboratori/architettura RISC-V con pipeline.md",
+    "architettura degli elaboratori/assembly RISC-V.md",
+    "architettura degli elaboratori/RISC-V.md",
+    "architettura degli elaboratori/elementi di stato (registri e RAM).md",
+    "architettura degli elaboratori/CPU.md",
+    "architettura degli elaboratori/architettura RISC-V a singolo colpo di clock e senza pipeline.md",
+    "architettura degli elaboratori/hazard.md",
+    "architettura degli elaboratori/modi di indirizzamento.md",
     "interdisciplinare/memoria (RAM).md",
-    "progettazione di sistemi digitali/read only memory (ROM).md",
-    "interdisciplinare/puntatore.md",
-    "progettazione di sistemi digitali/funzioni di codifica e decodifica.md",
-    "progettazione di sistemi digitali/codifica dell'informazione (alfa)numerica.md",
-    "interdisciplinare/linked list.md",
-    "interdisciplinare/lista doppiamente puntata.md",
-    "introduzione agli algoritmi/lista di Python.md",
-    "interdisciplinare/array.md",
-    "metodologie di programmazione/variabile.md",
-    "calcolo integrale/formulario di calcolo integrale.md",
-    "calcolo integrale/calcolo integrale.md",
-    "calcolo integrale/successione di Cauchy.md",
-    "metodologie di programmazione/ArrayList.md",
-    "metodologie di programmazione/collezione.md",
-    "metodologie di programmazione/enumerazione.md",
+    "interdisciplinare/espressioni booleane.md",
+    "progettazione di sistemi digitali/adder.md",
+    "progettazione di sistemi digitali/ripple carry adder per valori in CA2.md",
+    "progettazione di sistemi digitali/addizionatore a propagazione di riporto (ripple carry adder).md",
+    "progettazione di sistemi digitali/full adder (FA).md",
+    "progettazione di sistemi digitali/half adder (HA).md",
+    "architettura degli elaboratori/aggiunta di una nuova istruzione.md",
+    "architettura degli elaboratori/differenze tra CISC e RISC, vantaggi di RISC.md",
+    "index.md",
+    "architettura degli elaboratori/funzioni in RISC-V.md",
+    "architettura degli elaboratori/stringhe in RISC-V.md",
+    "progettazione di sistemi digitali/registri.md",
+    "progettazione di sistemi digitali/flip-flop.md",
+    "architettura degli elaboratori/Pasted image 20250513185631.png",
     "architettura degli elaboratori/Pasted image 20250415132516.png",
     "progettazione di sistemi digitali/rete sequenziale generica.canvas",
     "architettura degli elaboratori/Pasted image 20250415121550.png",
@@ -251,7 +237,6 @@
     "metodologie di programmazione/ereditarietàUML.svg",
     "ereditarietàUML.svg",
     "metodologie di programmazione/Pasted image 20250318114121.png",
-    "metodologie di programmazione/Pasted image 20250318114106.png",
     "TagsRoutes/logs",
     "TagsRoutes",
     "graph-screenshot",

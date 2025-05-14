@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-05-10T12:36:23.089+02:00
+updated_at: 2025-05-12T09:35:40.795+02:00
 ---
 > È un'insieme di dati in cui si possono individuare un **modo sistematico si organizzazione** e un **insieme di operatori/operazioni** che permettono di manipolarlo. Può essere *omogenea* o *disomogenea* rispetto ai [[tipi]] dei dati contenuti, *statica* (dimensione specificata al momento della creazione) o *dinamica* (dimensione variabile nel tempo).
 
@@ -12,6 +12,7 @@ Le strutture dati di base sono:
 - [[linked list]]
 - [[stack]]
 - [[queue]]
+- [[dizionario]]
 - [[albero]]
 
 # In Java

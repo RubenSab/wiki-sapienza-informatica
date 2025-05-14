@@ -1,9 +1,19 @@
 ---
-updated_at: 2025-04-15T22:46:04.852+02:00
+updated_at: 2025-05-13T18:31:45.550+02:00
 ---
-- ***Fetch/caricamento nella [[CPU]] dell'istruzione*** dalla posizione indicata dal Program Counter;
-- ***Decodifica/riconoscimento dell'istruzione***, la [[CU (unità di controllo)|Control Unit]] imposta le linee di selezione delle unità funzionali;
-- ***Load/caricamento di eventuali argomenti*** a seconda dei [[modi di indirizzamento]];
-- ***Esecuzione dell'istruzione***, in genere da parte dell’[[ALU]]
-- ***Store/salvataggio del risultato*** in [[memoria (RAM)]] o nei [[registri]] (in questo caso si chiama Write Back);
-- ***Aggiornamento del Program Counter*** (normale / per salti condizionati / per salti non condizionati)
+
+| Acronimo | Nome della fase                   | Funzionamento                                                                                                                                                                     |
+| -------- | --------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| IF       | Instruction Fetch                 | La [[memoria (RAM)\|memoria]] istruzioni da come output l'istruzione indicata dal [[PC (Program Counter)]].                                                                       |
+| ID       | Instruction Decode                | La [[CU (Control Unit)]] riceve input l'istruzione e di conseguenza imposta tutte le linee di selezione delle unità funzionali, poi vengono letti gli argomenti dai [[registri]]. |
+| EXE      | Execute                           | L'[[ALU]] fa il calcolo necessario (tipo R, accesso alla memoria o branch)                                                                                                        |
+| MEM      | Memory Access                     | Eventualmente la memoria viene scritta o letta (`lw` o `sw`)                                                                                                                      |
+| WB       | register Write Back               | Eventualmente il risultato dell'ALU o quello letto dalla memoria viene messo nel registro destinazione.                                                                           |
+|          | Aggiornamento del Program Counter | Il PC si aggiorna per passare alla prossima istruzione (+4) o per salti condizionati e non.                                                                                       |
+
+Esempi:
+
+- [[formati delle istruzioni|Tipo R]]: IF, ID, EXE, WB
+- `beq`: IF, ID, EXE
+- `lw`: IF, ID, EXE, MEM, WB
+- `sw`: ID, ID, EXE, MEM

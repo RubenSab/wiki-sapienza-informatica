@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-04-15T11:35:22.969+02:00
+updated_at: 2025-05-13T19:51:51.931+02:00
 ---
 #ai
 
@@ -12,5 +12,3 @@ updated_at: 2025-04-15T11:35:22.969+02:00
 | Relativo al [[PC (Program Counter)]] | L'indirizzo dell'operando è contenuto in un **registro**. L'istruzione utilizza il contenuto del registro come indirizzo di memoria. | `lw x1, (x2)` (carica il valore da memoria all'indirizzo contenuto in x2 e lo memorizza in x1)                          |
 | Con indirizzo + offset               | Un **registro** contiene un **indirizzo di memoria** da cui l'istruzione recupera l'operando.                                        | `lw x1, 0(x2)` (carica il valore da memoria all'indirizzo contenuto in x2 e lo memorizza in x1)                         |
 > N.B.: `(x) = contenuto della memoria all'indirizzo x`
-
-#todo aggiungi i modi di indirizzamento complessi

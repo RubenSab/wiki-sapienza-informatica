@@ -1,17 +1,17 @@
 ---
 title: Wiki Informatica Sapienza primo anno (canale MZ)
-updated_at: 2025-02-28T11:17:57.793+01:00
+updated_at: 2025-05-13T19:19:09.708+02:00
 ---
+# Primo anno
 
-> email docenti: cognome@di.uniroma1.it
-
-# corsi del primo semestre
+## Primo semestre
 
 - [[calcolo differenziale]]
 - [[progettazione di sistemi digitali]]
 - [[metodi matematici per l'informatica]]
 - (niente appunti per fondamenti di programmazione)
-# corsi del secondo semestre
+
+## Secondo semestre
 
 - [[metodologie di programmazione]]
 - [[architettura degli elaboratori]]
