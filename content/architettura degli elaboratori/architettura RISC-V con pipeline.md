@@ -1,7 +1,9 @@
 ---
-updated_at: 2025-05-14T12:21:22.157+02:00
+updated_at: 2025-05-17T19:13:36.449+02:00
 ---
 > Si può ottimizzare l'[[architettura RISC-V a singolo colpo di clock e senza pipeline]] in quanto in ogni [[fasi dell'esecuzione di un'istruzione|fase dell'esecuzione delle istruzioni]] la [[CPU]] è inutilizzata per l'80%, perché le unità funzionali si attivano una alla volta. L'idea è di far eseguire contemporaneamente fasi diverse di più istruzioni (max 5) in modo che più unità funzionali possibili siano occupate in un determinato momento.
+
+# Come funziona la pipeline
 
 | istruzioni |     |     |     |     |     |     |     |     |     |
 | ---------- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -16,12 +18,11 @@ La fase *Instruction Fetch* si può sovrapporre alla fase *Instruction Decode*, 
 
 Il calcolo del periodo di clock cambia, non bisogna più vedere la durata totale dell'**istruzione** più lenta, ma quella della **singola fase** più lenta.
 
-Senza pipeline: periodo di clock di **800 ps** in base alla durata totale dell'istruzione più lenta.
+## Quantificare l'aumento della velocità di esecuzione
 
-> Per valutare l'efficienza della pipeline bisogna introdurre il ***throughput***, cioè il numero di istruzioni per fase.
-
-![[Pasted image 20250513185631.png]]
-
+**Senza pipeline**: periodo di clock di **800 ps** in base alla durata totale dell'istruzione più lenta.
+**Con pipeline**: periodo di clock di **200 ps** in base alla durata della fase più lenta (IF e MEM).
+(In media) la velocità di esecuzione delle istruzioni è quadruplicata.
 
 | istruzione | IF  | ID  | EXE | MEM | WB  | totale |
 | ---------- | --- | --- | --- | --- | --- | ------ |
@@ -30,7 +31,15 @@ Senza pipeline: periodo di clock di **800 ps** in base alla durata totale dell'i
 | Tipo R     | 200 | 100 | 200 |     | 100 | 600    |
 | `beq`      | 200 | 100 | 200 |     |     | 500    |
 
-Con pipeline: periodo di clock di **200 ps** in base alla durata della fase più lenta (IF e MEM).
+> Per valutare l'efficienza di una sequenza di informazioni, con o senza pipeline, bisogna introdurre il ***throughput***, cioè il numero di istruzioni completate (in una determinata situazione) diviso il numero di fasi per completarle.
 
-Il periodo di clock è il 25% di quello dell'architettura non ottimizzata.
+![[Pasted image 20250513185631.png]]
 
+**Senza pipeline**: throughput = 3/15 = 0.2
+**Con pipeline**: throughput = 3/7 = 0.43
+
+# Come costruire la pipeline
+
+Innanzitutto bisogna considerare che ciascuna fase riceve informazioni e segnali di controllo e ne passa altre alla successiva, inoltre i segnali necessari devono restare stabili (quindi memorizzati) durante tutta la fase, cambiando solo al fronte di salita del clock.
+
+La soluzione è separare ciascuna fase dalla successiva con un [[registri|registro]], che riceve e memorizza tutti gli output è i segnali di controllo necessari della fase precedente e li memorizza per quella successiva.

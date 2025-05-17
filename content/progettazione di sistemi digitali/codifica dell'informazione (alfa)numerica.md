@@ -9,7 +9,7 @@ updated_at: 2025-02-22T11:49:47.051+01:00
 
 - [[rappresentazione o codifica dei numeri naturali]]
 - [[rappresentazione o codifica dei numeri interi relativi]]
-- [[rappresentazione o codifica di numeri con la virgola (IEEE 754)]]
+- [[rappresentazione o codifica di numeri con la virgola]]
 # altre rappresentazioni dell'informazione
 
 - [[codifica BCD (Binary Coded Decimal)]]

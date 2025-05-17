@@ -1,9 +1,9 @@
 ---
-updated_at: 2025-05-13T19:23:52.064+02:00
+updated_at: 2025-05-15T12:03:56.349+02:00
 ---
 ![[Pasted image 20250415132516.png]]
 
-Questa CPU implementa le [[elenco di istruzioni RISC-V|istruzioni]] di Tipo R, `lw`, `sw` e `beq`.
+Questa CPU implementa le [[assembly RISC-V|istruzioni]] di Tipo R, `lw`, `sw` e `beq`.
 # Come progettarla?
 
 1. **Definire come viene elaborata un'istruzione** (in quali fasi viene eseguita?);

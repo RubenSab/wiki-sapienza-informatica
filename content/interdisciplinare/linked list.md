@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-05-10T17:08:33.575+02:00
+updated_at: 2025-05-16T12:24:35.590+02:00
 ---
 > La linked list è una [[struttura dati]] in cui gli elementi sono organizzati in successione e ogni elemento ha due [[campi]]: il campo *key* contiene il dato, il campo *next* contiene il [[puntatore]] all'elemento successivo (il next dell'ultimo elemento della lista conterrà il valore `None`). Si forma quindi una catena di elementi in cui da ogni elemento si può accedere al prossimo.
 
@@ -40,14 +40,17 @@ def Crea(lista): # Crea una linked list partendo da una lista
 	if lista == []:
 		return None
 
-	p = Nodo(lista[0])
-	q = p
-	
-	for i in lista[1:]:
-		q.next = Nodo(i)
-		q = q.next
+	testa = Nodo(lista[0])
+	corrente = testa
 
-	return p
+	for valore in lista[1:]:
+
+		corrente.next = Nodo(valore)
+		corrente = corrente.next
+
+		# non usare corrente = Nodo(valore, corrente) perché concatena al contrario
+
+	return testa
 ```
 
 ### Stampa in $\Theta(n)$

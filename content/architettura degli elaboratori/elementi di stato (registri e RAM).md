@@ -5,7 +5,7 @@ updated_at: 2025-04-15T23:23:55.045+02:00
 
 L'architettura RISC-V ha:
 - 32 [[registri generali dell'architettura RISC-V|registri generali]] (indirizzabili con 5 bit) per gli interi (x0, x1, ..., x31)
-- 32 registri per i numeri in [[rappresentazione o codifica di numeri con la virgola (IEEE 754)|floating point]] (f0, f1, ..., f31)
+- 32 registri per i numeri in [[rappresentazione o codifica di numeri con la virgola|floating point]] (f0, f1, ..., f31)
 - [[PC (Program Counter)]]
 - Control Status Registers
 - [[memoria (RAM)]] centrale

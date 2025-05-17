@@ -8,20 +8,6 @@
   "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "tag:todo",
-      "color": {
-        "a": 1,
-        "rgb": 16711680
-      }
-    },
-    {
-      "query": "path: \"progettazione di sistemi digitali\"  ",
-      "color": {
-        "a": 1,
-        "rgb": 14245495
-      }
-    },
-    {
       "query": "path: \"metodi matematici per l'informatica\"  ",
       "color": {
         "a": 1,
@@ -33,6 +19,20 @@
       "color": {
         "a": 1,
         "rgb": 6080726
+      }
+    },
+    {
+      "query": "tag:todo",
+      "color": {
+        "a": 1,
+        "rgb": 16711680
+      }
+    },
+    {
+      "query": "path: \"progettazione di sistemi digitali\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 14245495
       }
     },
     {
@@ -81,6 +81,6 @@
   "repelStrength": 16.0051282051282,
   "linkStrength": 0.682620759238239,
   "linkDistance": 202,
-  "scale": 0.4428833214259878,
+  "scale": 0.07704637277822832,
   "close": true
 }

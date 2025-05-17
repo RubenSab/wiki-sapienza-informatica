@@ -1,4 +1,7 @@
-Chiamiamo $LP$ la logica proposizionale, cioè l'insieme di tutte le formule rappresentabili in logica proposizionale (una delle interpretazioni dell'[[algebra di Boole]]) e chiamiamo $S$ il suo insieme di simboli (simboli proposizionali).
+---
+updated_at: 2025-05-17T18:49:09.083+02:00
+---
+Chiamiamo $LP$ la logica proposizionale, cioè l'insieme di tutte le formule rappresentabili con la [[sintassi]] della logica proposizionale (una delle interpretazioni dell'[[algebra di Boole]]) e chiamiamo $S$ il suo insieme di simboli (simboli proposizionali).
 
 $X \in S \rightarrow X \in LP$
 $P, Q \in LP$
@@ -45,5 +48,3 @@ $P, Q \in LP$
 
 - [[esempi di formule]]
 - [[esempi con situazioni reali]]
-
-

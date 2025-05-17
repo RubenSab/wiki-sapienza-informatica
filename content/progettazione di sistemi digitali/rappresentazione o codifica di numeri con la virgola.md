@@ -1,7 +1,6 @@
 ---
-updated_at: 2025-03-10T21:18:05.995+01:00
+updated_at: 2025-05-17T12:45:04.430+02:00
 ---
-#todo 
 
 Per codificare in binario i [[numeri razionali]] si usa il seguente procedimento:
 
@@ -49,6 +48,7 @@ Lo standard odierno della rappresentazione dei numeri decimali in virgola mobile
 | 32  | single precision (SP) | 1         | 8             | 23           |
 | 64  | double precision (DP) | 1         | 11            | 53           |
 ## esponente
+
 - Si considera la rappresentazione in [[complemento a 2 (CA2)]]: con $e$ bit rappresento un'intervallo di valori possibili di $[-2^{e-1};2^{e-1}-1]$.
 - Si aggiunge il bias $2^{e-1}-1$ in modo che l'esponente sia positivo.
 >esempio: se $e=5$ il bias è $15$

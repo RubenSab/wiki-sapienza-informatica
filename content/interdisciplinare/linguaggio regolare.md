@@ -1,7 +1,7 @@
 ---
-updated_at: 2025-03-11T09:29:03.646+01:00
+updated_at: 2025-05-17T18:50:42.430+02:00
 ---
-> Un linguaggio regolare è definito dall'insieme di parole che possono essere combinate per generare [[regex (espressioni regolari)]].
+> Un linguaggio regolare è definito dall'insieme di parole che possono essere combinate ([[sintassi]]) per generare [[regex (espressioni regolari)]].
 
 Esempio con lo "Sheep Language": {"baaa", "baaaa", "baaaaa", "baaa...a"}
 

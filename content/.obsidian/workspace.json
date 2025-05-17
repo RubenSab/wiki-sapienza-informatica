@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "introduzione agli algoritmi/equazioni di ricorrenza.md",
+                "file": "progettazione di sistemi digitali/registri.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,20 +28,23 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "equazioni di ricorrenza"
+              "title": "registri"
             }
           },
           {
-            "id": "e578a55b48d07b62",
+            "id": "04c8ac7a15491305",
             "type": "leaf",
+            "pinned": true,
             "state": {
-              "type": "empty",
+              "type": "graph",
               "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "pinned": true,
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -98,7 +101,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "sintassi",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -196,34 +199,34 @@
       "timethings:Activate view": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "04c8ac7a15491305",
   "lastOpenFiles": [
-    "introduzione agli algoritmi/metodo iterativo.md",
-    "introduzione agli algoritmi/equazioni di ricorrenza.md",
-    "introduzione agli algoritmi/master theorem.md",
-    "introduzione agli algoritmi/metodo dell'albero.md",
+    "metodologie di programmazione/java.lang.String.md",
     "architettura degli elaboratori/architettura RISC-V con pipeline.md",
-    "architettura degli elaboratori/assembly RISC-V.md",
-    "architettura degli elaboratori/RISC-V.md",
-    "architettura degli elaboratori/elementi di stato (registri e RAM).md",
-    "architettura degli elaboratori/CPU.md",
-    "architettura degli elaboratori/architettura RISC-V a singolo colpo di clock e senza pipeline.md",
-    "architettura degli elaboratori/hazard.md",
-    "architettura degli elaboratori/modi di indirizzamento.md",
-    "interdisciplinare/memoria (RAM).md",
-    "interdisciplinare/espressioni booleane.md",
-    "progettazione di sistemi digitali/adder.md",
-    "progettazione di sistemi digitali/ripple carry adder per valori in CA2.md",
-    "progettazione di sistemi digitali/addizionatore a propagazione di riporto (ripple carry adder).md",
-    "progettazione di sistemi digitali/full adder (FA).md",
-    "progettazione di sistemi digitali/half adder (HA).md",
-    "architettura degli elaboratori/aggiunta di una nuova istruzione.md",
-    "architettura degli elaboratori/differenze tra CISC e RISC, vantaggi di RISC.md",
-    "index.md",
-    "architettura degli elaboratori/funzioni in RISC-V.md",
-    "architettura degli elaboratori/stringhe in RISC-V.md",
+    "interdisciplinare/funzione.md",
+    "introduzione agli algoritmi/albero di ricerca.md",
     "progettazione di sistemi digitali/registri.md",
-    "progettazione di sistemi digitali/flip-flop.md",
+    "interdisciplinare/struttura dati.md",
+    "progettazione di sistemi digitali/bus.md",
+    "metodi matematici per l'informatica/sintassi.md",
+    "architettura degli elaboratori/elenco di istruzioni RISC-V.md",
+    "metodi matematici per l'informatica/formule logiche.md",
+    "interdisciplinare/regex (espressioni regolari).md",
+    "interdisciplinare/linguaggio regolare.md",
+    "metodi matematici per l'informatica/logica proposizionale.md",
+    "architettura degli elaboratori/fasi dell'esecuzione di un'istruzione.md",
+    "interdisciplinare/memoria (RAM).md",
+    "architettura degli elaboratori/hazard.md",
+    "architettura degli elaboratori/forwarding.md",
+    "architettura degli elaboratori/architettura RISC-V a singolo colpo di clock e senza pipeline.md",
+    "progettazione di sistemi digitali/PC (Program Counter).md",
+    "architettura degli elaboratori/notazione polarizzata.md",
+    "progettazione di sistemi digitali/rappresentazione o codifica di numeri con la virgola.md",
+    "progettazione di sistemi digitali/overflow.md",
+    "progettazione di sistemi digitali/sia x un numero BCD. considerare la codifica y nel codice 2-su-5. scrivere le espressioni minimali per i singoli bit di y.md",
+    "progettazione di sistemi digitali/esercizi/circuito di controllo apertura cancello.md",
+    "interdisciplinare/cardinalità (o potenza).md",
+    "interdisciplinare/albero.md",
     "architettura degli elaboratori/Pasted image 20250513185631.png",
     "architettura degli elaboratori/Pasted image 20250415132516.png",
     "progettazione di sistemi digitali/rete sequenziale generica.canvas",

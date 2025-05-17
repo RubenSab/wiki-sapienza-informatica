@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-05-12T08:36:52.753+02:00
+updated_at: 2025-05-16T13:16:59.152+02:00
 ---
 > Un albero radicato è una [[struttura dati]] composta da nodi organizzati gerarchicamente. Ha un nodo radice che non ha genitori. Ogni altro nodo dell'albero ha esattamente un genitore e può avere $n$ figli. I nodi che non hanno figli sono chiamati foglie.
 
@@ -34,6 +34,8 @@ def stampa(p, h=0):
 
 ## Crea un albero con $n$ nodi e un numero casuale di figli
 
+#todo p is not defined
+
 ``` python
 import random
 
@@ -56,7 +58,9 @@ def crea_albero(n, min_val, max_val):
 
 > La visita dell'albero è l'accesso progressivo a tutti i suoi nodi con un determinato criterio di ordine.
 
-Per gli alberi binari esistono tre possibili visite, ovviamente dallo stesso [[complessità temporale|costo computazionale]]:
+## Visite per profondità
+
+Per gli alberi binari esistono tre possibili visite *in profondità*, ovviamente dallo stesso [[complessità temporale|costo computazionale]]:
 
 - In **preordine**: il nodo è visitato prima di proseguire la visita nei suoi sottoalbero.
 
@@ -91,6 +95,35 @@ def postorder(nodo):
 	print(nodo.key, end=' ')
 ```
 
+## Visita per ampiezza/ livello
+
+Esiste anche un altro tipo di visita, cioè la visita **in ampiezza** (per livello, spesso da sinistra a destra).
+
+L'idea è di sfruttare una [[queue]] per memorizzare i nodi in ogni livello.
+
+### Implementazione naive (shtupida)
+
+Per semplicità implementiamo la coda con una [[lista di Python]].
+
+``` python
+def visita_per_livello(root)
+	
+	if not root:
+		return
+
+	coda = [root]
+	while coda != []:
+		z = coda.pop(0) # costa Theta(n)
+		print(z.key)
+		if z.left:
+			coda.append(z.left)
+		if z.right:
+			coda.append(z.right)
+```
+
+### Implementazione shmart
+
+#todo vedi dai lucidi
 ## Costo computazionale
 
 Chiamiamo $k$ il numero di nodi del sottoalbero destro, l'[[equazioni di ricorrenza|equazione di ricorrenza]] è:
