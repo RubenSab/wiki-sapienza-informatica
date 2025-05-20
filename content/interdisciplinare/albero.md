@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-05-16T13:16:59.152+02:00
+updated_at: 2025-05-19T10:17:24.772+02:00
 ---
 > Un albero radicato è una [[struttura dati]] composta da nodi organizzati gerarchicamente. Ha un nodo radice che non ha genitori. Ogni altro nodo dell'albero ha esattamente un genitore e può avere $n$ figli. I nodi che non hanno figli sono chiamati foglie.
 
@@ -101,7 +101,7 @@ Esiste anche un altro tipo di visita, cioè la visita **in ampiezza** (per livel
 
 L'idea è di sfruttare una [[queue]] per memorizzare i nodi in ogni livello.
 
-### Implementazione naive (shtupida)
+### Implementazione naive
 
 Per semplicità implementiamo la coda con una [[lista di Python]].
 
@@ -121,7 +121,7 @@ def visita_per_livello(root)
 			coda.append(z.right)
 ```
 
-### Implementazione shmart
+### Implementazione smart
 
 #todo vedi dai lucidi
 ## Costo computazionale
@@ -169,4 +169,23 @@ def conta_nodi_al_livello(nodo, livello): # O(2^livello)
 	if k==0: # si è raggiunto il livello
 		return 1
 	return conta_nodi_al_livello(nodo.left, k-1) + conta_nodi_al_livello(nodo.right, k-1)
+```
+
+``` python
+def lvl_min_foglie(nodo): # O(n)
+
+    if not nodo:
+        return -1
+
+    if not nodo.left and not nodo.right:
+        return 0
+
+    elif nodo.left and nodo.right:
+        return min(lvl_min_foglie(nodo.left), lvl_min_foglie(nodo.right)) + 1
+
+    elif nodo.left:
+        return lvl_min_foglie(nodo.left) + 1
+
+    elif nodo.right:
+        return lvl_min_foglie(nodo.right) + 1
 ```

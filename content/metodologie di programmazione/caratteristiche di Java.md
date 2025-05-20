@@ -1,7 +1,7 @@
 ---
-updated_at: 2025-02-27T14:21:32.501+01:00
+updated_at: 2025-05-18T19:13:02.880+02:00
 ---
-- **Indipendenza dalla piattaforma**: *write once, run anywhere*, non viene compilato su una macchina, ma nel [[bytecode]] di una macchina virtuale.
+- **Indipendenza dalla piattaforma**: *write once, run anywhere*, non viene compilato su una macchina, ma nel bytecode di una macchina virtuale.
 - **Sicurezza**: non permette manomissioni, le tecniche di autenticazione sono basate su codifiche con chiavi pubbliche.
 - **Robustezza**: le situazioni tipiche d’errore vengono eliminate il più possibile a tempo di compilazione – Laddove non possibile, gestite a tempo di esecuzione con appositi controlli.
 - **Multithreading**: supporta nativamente programmi che gestiscono attività eseguite in contemporanea (thread) – Facilita la costruzione di applicazioni interattive.

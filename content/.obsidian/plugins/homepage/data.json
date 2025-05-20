@@ -3,7 +3,7 @@
   "homepages": {
     "Main Homepage": {
       "value": "TODO/TODO",
-      "kind": "File",
+      "kind": "Graph view",
       "openOnStartup": true,
       "openMode": "Replace all open notes",
       "manualOpenMode": "Keep open notes",
@@ -11,9 +11,9 @@
       "revertView": true,
       "openWhenEmpty": true,
       "refreshDataview": false,
-      "autoCreate": true,
+      "autoCreate": false,
       "autoScroll": false,
-      "pin": false,
+      "pin": true,
       "commands": [],
       "alwaysApply": true,
       "hideReleaseNotes": false

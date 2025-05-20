@@ -24,7 +24,7 @@ Le istruzioni principali da implementare potranno scrivere e leggere nella memor
 ## 3. Scegliere le unità funzionali necessarie
 
 - Tutti i componenti della [[CPU]];
-- gli [[elementi di stato (registri e RAM)]];
+- gli [[elementi di stato (registri e RAM) dell'architettura RISC-V]];
 - l'unità di [[estensione del segno in CA2]], che serve a trasformare un intero relativo da 12 a 32 bit: serve perché i campi immediati sono lunghi 12 bit, ma l'[[ALU]] e i [[registri]] lavorano su 32 bit. Dovrà necessariamente essere migliorata, diventando l'unità "Genera cost.": essa estende il segno, moltiplica il risultato ottenuto per 2 (in RISC-V le istruzioni vengono indicizzate alla half-word) e la somma al [[PC (Program Counter)]];
 - l'unità di controllo dell'ALU (a 4 bit di input e 2 di selezione): prende in **selezione** il tipo di operazione *ALUOp* (che proviene dalla CU) e in **input** campi funzione (*funz7* e *funz3*) in base alle casistiche, produce *le linee di controllo ALU* e le passa come **linee di selezione** all'ALU.
 

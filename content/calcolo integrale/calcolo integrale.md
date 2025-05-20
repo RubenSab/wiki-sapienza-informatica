@@ -1,13 +1,39 @@
 ---
-updated_at: 2025-04-24T21:14:50.259+02:00
+updated_at: 2025-05-20T15:41:05.006+02:00
 ---
 - [[formulario di calcolo integrale]]
 # Argomenti
+## Serie
 
-#todo
-## Serie numeriche
+### Serie a segno costante
 
 - [[serie]]
+- [[serie di Cauchy]]
+- [[serie geometriche]]
+- [[serie armoniche]]
+- [[serie di Mengoli]]
+- [[criteri di confronto delle serie a segno costante]]
+### Serie a segno variabile
+
+- [[convergenza semplice]]
+- [[convergenza assoluta]]
+- [[criterio di Leibniz]]
+### Serie di potenze
+
+- [[serie di potenze]]
 
 ## Integrali
 
+- [[integrali indefiniti]]
+- [[integrali definiti]]
+- [[tecniche di integrazione]]
+- [[teorema fondamentale del calcolo integrale]]
+- [[integrali impropri]]
+
+## Equazioni differenziali
+
+- [[equazioni differenziali]]
+- [[problemi di Cauchy]]
+- [[EDO lineari del primo ordine]]
+- [[EDO non lineari del primo ordine a variabili separabili]]
+- [[equazioni differenziali del secondo ordine]]

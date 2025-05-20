@@ -1,10 +1,10 @@
 ---
-updated_at: 2025-03-13T14:16:09.018+01:00
+updated_at: 2025-05-18T19:46:23.391+02:00
 ---
 > Un tipo di dati è un'insieme di valori e di operazioni definite su tali valori.
 
 > N.B.: in [[metodologie di programmazione/Java]] sono **statici**, cioè il tipo di una variabile non può mai cambiare finché essa rimane in memoria.
-# tipi di dati di base (o primitivi)
+# Tipi di dati di base (o primitivi)
 
 > Sono **built-in**, cioè predefiniti (di default) nel linguaggio. **NON SONO [[oggetto|OGGETTI]]** *(nemmeno in [[metodologie di programmazione/Java]])*.
 
@@ -25,7 +25,7 @@ In [[metodologie di programmazione/Java]] sono:
 | String*  | sequenze di caratteri unicode                                                  | `+`         | variabile  |
 > N.B.: le stringhe non sono veramente primitive, ma si possono trattare come tali, perché non hanno bisogno dell'operatore `new` per essere inizializzati
 
-# [[oggetto|oggetti]]
+# Tipi derivati: [[oggetto|Oggetti]]
 
 > Al momento della creazione dell’oggetto i campi di una classe sono inizializzati automaticamente.
 
@@ -39,7 +39,11 @@ In [[metodologie di programmazione/Java]] sono:
 
 > N.B.: le inizializzazioni sono automatiche per i campi di una classe, ma NON per le variabili locali dei metodi.
 
-# la parola chiave var
+# [[tipi generici]]
+
+# La parola chiave var
+
+> N.B.: ***NON LA DEVI USARE MAIIII!!! SE LO USI LA GENTE MUORE!!!*** (cit. Faralli)
 
 Esempio:
 
@@ -48,5 +52,3 @@ var k = 10;           // equivale a int k = 10
 var s = "ciao";       // equivale a String s = "ciao"
 var p = new Pippo();  // equivale a Pippo p = new Pippo()
 ```
-
-> N.B.: ***NON LO DEVI USARE MAIIII!!! SE LO USI LA GENTE MUORE!!!***

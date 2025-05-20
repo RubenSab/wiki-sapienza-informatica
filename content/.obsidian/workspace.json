@@ -10,10 +10,22 @@
           {
             "id": "e7a7b303c61786dc",
             "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "graph",
+              "state": {},
+              "pinned": true,
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          },
+          {
+            "id": "2e393eda02621d7e",
+            "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "progettazione di sistemi digitali/registri.md",
+                "file": "calcolo integrale/problemi di Cauchy.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,19 +40,31 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "registri"
+              "title": "problemi di Cauchy"
             }
           },
           {
-            "id": "04c8ac7a15491305",
+            "id": "ecbef8024dfd4796",
             "type": "leaf",
-            "pinned": true,
             "state": {
-              "type": "graph",
-              "state": {},
-              "pinned": true,
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "calcolo integrale/EDO non lineari del primo ordine a variabili separabili.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "EDO non lineari del primo ordine a variabili separabili"
             }
           }
         ],
@@ -101,7 +125,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "sintassi",
+                "query": "rappresentazio",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -199,47 +223,47 @@
       "timethings:Activate view": false
     }
   },
-  "active": "04c8ac7a15491305",
+  "active": "2e393eda02621d7e",
   "lastOpenFiles": [
-    "metodologie di programmazione/java.lang.String.md",
-    "architettura degli elaboratori/architettura RISC-V con pipeline.md",
+    "calcolo integrale/EDO non lineari del primo ordine a variabili separabili.md",
+    "calcolo integrale/equazioni differenziali del primo ordine.md",
+    "calcolo integrale/problemi di Cauchy.md",
+    "calcolo integrale/calcolo integrale.md",
+    "calcolo integrale/equazioni differenziali del secondo ordine.md",
+    "calcolo integrale/equazioni differenziali.md",
+    "calcolo integrale/EDO lineari del primo ordine.md",
+    "calcolo integrale/derivata.md",
+    "interdisciplinare/notazione asintotica.md",
     "interdisciplinare/funzione.md",
+    "calcolo integrale/www.youmath.it.md",
+    "calcolo integrale/youmath.it.md",
+    "calcolo differenziale/derivate.md",
+    "calcolo integrale/successione di Cauchy.md",
+    "metodologie di programmazione/design pattern.md",
+    "metodologie di programmazione/ereditarietà.md",
+    "introduzione agli algoritmi/ricerca binaria.md",
+    "metodologie di programmazione/Java.md",
     "introduzione agli algoritmi/albero di ricerca.md",
-    "progettazione di sistemi digitali/registri.md",
+    "introduzione agli algoritmi/algoritmi di ricerca.md",
+    "calcolo differenziale/concetto di asintotico.md",
+    "introduzione agli algoritmi/notazione Theta.md",
+    "TODO.md",
     "interdisciplinare/struttura dati.md",
-    "progettazione di sistemi digitali/bus.md",
-    "metodi matematici per l'informatica/sintassi.md",
-    "architettura degli elaboratori/elenco di istruzioni RISC-V.md",
-    "metodi matematici per l'informatica/formule logiche.md",
-    "interdisciplinare/regex (espressioni regolari).md",
-    "interdisciplinare/linguaggio regolare.md",
-    "metodi matematici per l'informatica/logica proposizionale.md",
-    "architettura degli elaboratori/fasi dell'esecuzione di un'istruzione.md",
-    "interdisciplinare/memoria (RAM).md",
-    "architettura degli elaboratori/hazard.md",
-    "architettura degli elaboratori/forwarding.md",
-    "architettura degli elaboratori/architettura RISC-V a singolo colpo di clock e senza pipeline.md",
-    "progettazione di sistemi digitali/PC (Program Counter).md",
-    "architettura degli elaboratori/notazione polarizzata.md",
-    "progettazione di sistemi digitali/rappresentazione o codifica di numeri con la virgola.md",
-    "progettazione di sistemi digitali/overflow.md",
-    "progettazione di sistemi digitali/sia x un numero BCD. considerare la codifica y nel codice 2-su-5. scrivere le espressioni minimali per i singoli bit di y.md",
-    "progettazione di sistemi digitali/esercizi/circuito di controllo apertura cancello.md",
-    "interdisciplinare/cardinalità (o potenza).md",
-    "interdisciplinare/albero.md",
+    "calcolo integrale/teorema fondamentale del calcolo integrale.md",
+    "progettazione di sistemi digitali/progettazione di sistemi digitali.md",
+    "architettura degli elaboratori/Pasted image 20250518120936.png",
+    "architettura degli elaboratori/Pasted image 20250518120836.png",
+    "architettura degli elaboratori/Pasted image 20250518120828.png",
+    "architettura degli elaboratori/Pasted image 20250518120717.png",
+    "architettura degli elaboratori/Pasted image 20250518120310.png",
+    "architettura degli elaboratori/Pasted image 20250518115713.png",
+    "architettura degli elaboratori/Pasted image 20250517192141.png",
+    "architettura degli elaboratori/Pasted image 20250517192118.png",
     "architettura degli elaboratori/Pasted image 20250513185631.png",
     "architettura degli elaboratori/Pasted image 20250415132516.png",
     "progettazione di sistemi digitali/rete sequenziale generica.canvas",
-    "architettura degli elaboratori/Pasted image 20250415121550.png",
     "Elementi di stato",
-    "architettura degli elaboratori/Pasted image 20250401124637.png",
-    "architettura degli elaboratori/Pasted image 20250401124406.png",
-    "metodologie di programmazione/Pasted image 20250311113121.png",
-    "metodologie di programmazione/Pasted image 20250311111510.png",
     "todo",
-    "metodologie di programmazione/ereditarietàUML.svg",
-    "ereditarietàUML.svg",
-    "metodologie di programmazione/Pasted image 20250318114121.png",
     "TagsRoutes/logs",
     "TagsRoutes",
     "graph-screenshot",

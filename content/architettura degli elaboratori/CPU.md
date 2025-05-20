@@ -6,7 +6,7 @@ updated_at: 2025-04-15T23:30:46.237+02:00
 È formata da varie unità funzionali:
 
 - **elementi [[algebra delle porte logiche e reti combinatorie|combinatori]]:** [[ALU]],
-- **[[elementi di stato (registri e RAM)|elementi di stato]]**: [[registri]] interni (sensibili al fronte di salita del clock),
+- **[[elementi di stato (registri e RAM) dell'architettura RISC-V|elementi di stato]]**: [[registri]] interni (sensibili al fronte di salita del clock),
 - cache interna,
 - CU (unità di controllo) (Instruction decoder) che coordina essendo la sorgente di tutte le linee di selezione,
 - [[PC (Program Counter)]] che contiene l'indirizzo dell'istruzione in esecuzione,

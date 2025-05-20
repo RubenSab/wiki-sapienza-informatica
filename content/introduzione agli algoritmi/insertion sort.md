@@ -1,8 +1,6 @@
 ---
-updated_at: 2025-04-13T23:16:28.524+02:00
+updated_at: 2025-05-18T12:16:26.609+02:00
 ---
-#AI
-
 > L'Insertion Sort è un algoritmo di ordinamento che funziona come quando ordiniamo carte da gioco in mano:
 
 1. Iniziamo con la parte sinistra dell'array come ordinata (inizialmente 1 elemento)

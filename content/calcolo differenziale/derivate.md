@@ -1,8 +1,9 @@
 ---
-updated_at: 2025-02-22T20:00:03.063+01:00
+updated_at: 2025-05-19T19:16:28.736+02:00
 ---
 $$f'(x)=\lim_{x\rightarrow x_{0}}\frac{f(x)-f(x_{0})}{x-x_{0}}=\lim_{h \rightarrow 0}\frac{f(x_{0}+h)-f(x_{0})}{h}\in\mathbb{R}$$
 # Teorema della derivabilità
+
 Sia $f: \mathbb{R}\rightarrow\mathbb{R}, x_{0}\in\mathbb{R}$
 Sia $f$ derivabile per $x\neq x_{0}$ e continua in $x_{0}$
 Se $\exists\lim_{x\rightarrow x_{0}}f'(x)=L\in\mathbb{R} \implies L$ è derivabile anche in $x_{0}$ e $f'(x_{0})=L$

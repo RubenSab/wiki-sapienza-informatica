@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-04-15T23:23:55.045+02:00
+updated_at: 2025-05-18T12:23:30.737+02:00
 ---
 # [[Registri]]
 
@@ -24,4 +24,4 @@ Abbiamo a disposizione $2^{30}$ word (di 32 bit) a 32 bit di memoria, dalla posi
 
 > N.B.: Il RISC-V non ha il vincolo di [[allineamento]]: le parole (DATI) non devono iniziare ad indirizzi multipli di 4 (ma per motivi di prestazione e atomicità delle istruzioni si preferisce allineare).
 
-> N.B.: Gli indirizzi sono **little-endian** (byte meno significativo è memorizzato per primo, nella locazione di memoria con indirizzo minore).
+> N.B.: Gli indirizzi sono *little-endian* (byte meno significativo è memorizzato per primo, nella locazione di memoria con indirizzo minore).

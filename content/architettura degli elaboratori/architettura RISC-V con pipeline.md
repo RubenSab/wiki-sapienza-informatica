@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-05-17T19:13:36.449+02:00
+updated_at: 2025-05-18T12:09:38.983+02:00
 ---
 > Si può ottimizzare l'[[architettura RISC-V a singolo colpo di clock e senza pipeline]] in quanto in ogni [[fasi dell'esecuzione di un'istruzione|fase dell'esecuzione delle istruzioni]] la [[CPU]] è inutilizzata per l'80%, perché le unità funzionali si attivano una alla volta. L'idea è di far eseguire contemporaneamente fasi diverse di più istruzioni (max 5) in modo che più unità funzionali possibili siano occupate in un determinato momento.
 
@@ -42,4 +42,20 @@ Il calcolo del periodo di clock cambia, non bisogna più vedere la durata totale
 
 Innanzitutto bisogna considerare che ciascuna fase riceve informazioni e segnali di controllo e ne passa altre alla successiva, inoltre i segnali necessari devono restare stabili (quindi memorizzati) durante tutta la fase, cambiando solo al fronte di salita del clock.
 
-La soluzione è separare ciascuna fase dalla successiva con un [[registri|registro]], che riceve e memorizza tutti gli output è i segnali di controllo necessari della fase precedente e li memorizza per quella successiva.
+La soluzione è separare ciascuna fase dalla successiva con un [[registri|registro]], che riceve e memorizza tutti i dati (letti dai registri o dalla parte immediata) e i segnali di controllo (generati dalla Control Unit) della stessa istruzione.
+
+![[Pasted image 20250517192118.png]]
+
+![[Pasted image 20250517192141.png]]
+
+Il problema di questa configurazione è che il dato da scrivere nel registro di scrittura nella fase Write Back è cambiato durante l'esecuzione dell'istruzione, quindi è sbagliato: infatti proviene dal registro IF/ID, che sta già iniziando la fase dell'istruzione che sta 3 cicli dopo quella giusta:
+
+![[Pasted image 20250518115713.png]]
+
+Ciò si può risolvere facendo in modo che tutte le informazioni e i segnali di controllo siano sempre memorizzate nel registro precedente della pipeline, per operare sui dati giusti:
+
+![[Pasted image 20250518120310.png]]
+
+## CPU quasi completa
+
+![[Pasted image 20250518120936.png]]

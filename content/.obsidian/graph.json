@@ -4,7 +4,7 @@
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
-  "showOrphans": true,
+  "showOrphans": false,
   "collapse-color-groups": false,
   "colorGroups": [
     {
@@ -22,17 +22,17 @@
       }
     },
     {
-      "query": "tag:todo",
-      "color": {
-        "a": 1,
-        "rgb": 16711680
-      }
-    },
-    {
       "query": "path: \"progettazione di sistemi digitali\"  ",
       "color": {
         "a": 1,
         "rgb": 14245495
+      }
+    },
+    {
+      "query": "tag:todo",
+      "color": {
+        "a": 1,
+        "rgb": 16711680
       }
     },
     {
@@ -69,6 +69,13 @@
         "a": 1,
         "rgb": 9166930
       }
+    },
+    {
+      "query": "",
+      "color": {
+        "a": 1,
+        "rgb": 14701138
+      }
     }
   ],
   "collapse-display": false,
@@ -81,6 +88,6 @@
   "repelStrength": 16.0051282051282,
   "linkStrength": 0.682620759238239,
   "linkDistance": 202,
-  "scale": 0.07704637277822832,
+  "scale": 0.07523583730817653,
   "close": true
 }

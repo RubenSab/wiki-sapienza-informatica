@@ -3,6 +3,8 @@ updated_at: 2025-02-22T15:24:28.893+01:00
 ---
 > Il calcolo differenziale tratta di [[funzione|funzioni]] reali di variabile [[numeri reali|reale]].
 
+^795d3f
+
 - $f: \mathbb{R}\to\mathbb{R}$
 - $x\to f(x)$
 

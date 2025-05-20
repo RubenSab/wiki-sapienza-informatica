@@ -1,9 +1,9 @@
 ---
-updated_at: 2025-04-10T13:25:48.578+02:00
+updated_at: 2025-05-20T10:30:38.357+02:00
 ---
-# Concetti di base e caratteristiche del linguaggio
-
 - [[caratteristiche di Java]]
+# Elementi del linguaggio
+
 - [[espressione]]
 - [[operatori]]
 - [[modificatori di visibilità]]
@@ -25,18 +25,24 @@ updated_at: 2025-04-10T13:25:48.578+02:00
 - [[java.lang.String]]
 - [[array]]
 - [[enumerazione]]
+- [[hashcode]]
 - [[interfaccia]]
+- [[eccezioni]]
+- [[ricorsione]]
+- [[tipi generici]]
+- [[gestione di input e output]]
+- [[stream]]
 # Concetti e tecniche di progettazione del software
 
 - [[incapsulamento]]
 - [[ereditarietà]]
 - [[polimorfismo]]
-- [[interfaccia]]
 - [[UML (Unified Modeling Language)]]
 - [[memoria (RAM)|anatomia della memoria]]
 - [[analisi dello stato della memoria]]
 - [[Junit]]
+- [[design pattern]]
 
 # [[programmazione funzionale]]
 
-# [[struttura dati|struttura dati]]
+# [[struttura dati|strutture dati]]

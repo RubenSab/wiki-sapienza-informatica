@@ -1,11 +1,11 @@
 ---
-updated_at: 2025-03-20T13:26:09.998+01:00
+updated_at: 2025-05-18T21:43:45.265+02:00
 ---
 > Nella [[programmazione orientata agli oggetti]], un oggetto è un'entità all'interno di un programma in esecuzione. Gli **oggetti** sono tipi caratterizzati da **valori specifici dei membri di classe**, cioè [[metodo|metodi]] e [[campi]] (stati).
 
 # creazione di oggetti
 
-Gli oggetti vengono creati quando il [[main]] viene eseguito, quindi la memoria viene allocata per loro al runtime, cioè durante l’esecuzione del programma.
+Gli oggetti vengono creati quando il main viene eseguito, quindi la memoria viene allocata per loro al runtime, cioè durante l’esecuzione del programma.
 
 1. Dichiarazione: ***Menu menuOpzioni*** = new Menu()
 2. Creazione: Menu menuOpzioni = ***new Menu()***

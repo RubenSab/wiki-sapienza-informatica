@@ -1,7 +1,7 @@
 ---
-updated_at: 2025-03-14T14:09:06.359+01:00
+updated_at: 2025-05-20T09:11:27.632+02:00
 ---
-Avendo una sequenza di elementi ordinata, si può progettare un [[algoritmo]] migliore della [[ricerca lineare]].
+Avendo una sequenza di elementi ordinata, si può progettare un [[albero di ricerca]] migliore della [[ricerca lineare]].
 
 > La ricerca binaria consiste nel prendere l'elemento a metà dello spazio di ricerca, se è minore\* rispetto a quello cercato, allora si cerca nella seconda metà, mentre se è maggiore\* si cerca nella prima metà, invece se corrisponde a quello cercato si finisce.
 
@@ -9,7 +9,8 @@ Avendo una sequenza di elementi ordinata, si può progettare un [[algoritmo]] mi
 
 Rispetto alla ricerca lineare, il numero di elementi da controllare in futuro dimezza a ogni iterazione, quindi ha complessità $O(\log{n})$.
 
-# implementazione in Python
+- [[albero di ricerca#Implementazioni dell'algoritmo di ricerca|implementazione sugli alberi di ricerca]]
+# implementazione (su una lista) in Python
 
 ``` python
 def ricerca_binaria(lista, query):
