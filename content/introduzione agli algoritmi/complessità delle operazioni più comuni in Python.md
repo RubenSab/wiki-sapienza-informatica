@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-04-10T13:17:10.999+02:00
+updated_at: 2025-05-21T19:27:07.999+02:00
 ---
 # funzioni built-in
 ## Il metodo `count` in Python
@@ -20,7 +20,7 @@ def count(self, A):
 	return c
 ```
 
-Osserviamo che il numero di cicli del loop `for` è pari al numero $n$ di elementi nella lista analizzata; quindi `count` ha una [[complessità temporale]] di $O(n)$, cioè impiega un *tempo costante*.
+Osserviamo che il numero di cicli del loop `for` è pari al numero $n$ di elementi nella [[lista di Python|lista]] analizzata; quindi `count` ha una [[complessità temporale]] di $O(n)$, cioè impiega un *tempo costante*.
 
 ## L'operatore `in` in Python
 

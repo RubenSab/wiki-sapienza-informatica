@@ -8,7 +8,7 @@
   "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "path: \"metodi matematici per l'informatica\"  ",
+      "query": "path: \"metodi matematici per l'informatica\"",
       "color": {
         "a": 1,
         "rgb": 9002713
@@ -69,13 +69,6 @@
         "a": 1,
         "rgb": 9166930
       }
-    },
-    {
-      "query": "",
-      "color": {
-        "a": 1,
-        "rgb": 14701138
-      }
     }
   ],
   "collapse-display": false,
@@ -88,6 +81,6 @@
   "repelStrength": 16.0051282051282,
   "linkStrength": 0.682620759238239,
   "linkDistance": 202,
-  "scale": 0.07523583730817653,
-  "close": true
+  "scale": 0.29734913347310604,
+  "close": false
 }

@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-05-20T15:39:44.037+02:00
+updated_at: 2025-05-25T20:24:20.623+02:00
 ---
 > Queste [[equazioni differenziali#EDO lineari|EDO lineari]] contengono solo la [[derivate|derivata]] di primo ordine, per classificarle si fa riferimento ai **coefficienti** della [[funzione]] e della derivata, che possono essere costanti o variabili, e alla loro **omogeneità** o non omogeneità.
 
@@ -22,7 +22,7 @@ Questo è la dimostrazione che risolvendo questo tipo più complesso di EDO line
 
 $$y'(t)+a(t)y(t)=f(t)$$
 
-1. Sia $A(t)$ una primitiva di $a(t)$, moltiplichiamo tutti e due i lati dell'equazione per $e^{A(t)}$
+1. Sia $A(t)$ una **primitiva** di $a(t)$ *(NON $a(t)$ stesso!)*: moltiplichiamo tutti e due i lati dell'equazione per $e^{A(t)}$
 
 $$e^{A(t)}\left( y'(t) + a(t)y(t) \right) = e^{A(t)}f(t)$$
 

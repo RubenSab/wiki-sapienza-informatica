@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-04-08T09:14:37.510+02:00
+updated_at: 2025-05-24T19:51:24.097+02:00
 ---
 > Un **campo**, detto anche [[variabile]] di istanza (perché l'oggetto è un'istanza della sua [[classe]]), costituisce la *memoria privata* di un [[oggetto]].
 
@@ -7,7 +7,7 @@ Ogni campo ha:
 - un [[tipi]] (memoria)
 - un nome fornito dal programmatore
 
-La dichiarazione di un campo avviene come segue
+n [[Java]], la dichiarazione di un campo avviene come segue:
 
 ``` java
 private [static] [final] tipo_di_dati nome;

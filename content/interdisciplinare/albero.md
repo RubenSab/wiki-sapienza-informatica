@@ -1,57 +1,40 @@
 ---
-updated_at: 2025-05-19T10:17:24.772+02:00
+updated_at: 2025-05-25T20:09:24.524+02:00
 ---
 > Un albero radicato è una [[struttura dati]] composta da nodi organizzati gerarchicamente. Ha un nodo radice che non ha genitori. Ogni altro nodo dell'albero ha esattamente un genitore e può avere $n$ figli. I nodi che non hanno figli sono chiamati foglie.
 
 - [[nomenclatura degli alberi]]
-- [[rappresentazione degli alberi binari]]
+- [[implementazioni degli alberi binari]]
+- [[albero di ricerca]]
 
-# Implementazione con puntatori
-
-``` python
-class Nodo
-	def __init__(self, key=None, left=None, right=None):
-		self.key = key
-		self.left = left
-		self.right = right
-
-# esempio di creazione
-radice = Nodo(6)
-radice.left = Nodo(9)
-radice.right = Nodo(4)
-radice.left.right = Nodo(1)
-```
-
+Tutte queste funzioni sono realizzate con [[implementazioni degli alberi binari|l'implementazione degli alberi con i puntatori]].
 ## Stampa
 
 ``` python
-def stampa(p, h=0):
+def stampa(p, livello=0):
 	if p:
-		print('| '*h, p.key)
+		print('| '*livello, p.key)
 		stampa(p.left, h+1)
 		stampa(p.right, h+1)
 ```
 
 ## Crea un albero con $n$ nodi e un numero casuale di figli
 
-#todo p is not defined
-
 ``` python
-import random
+def crea_albero(n):
 
-def crea_albero(n, min_val, max_val):
-	
-	if n == 0:
-		return None
-	
-	nuovo = Nodo(random.randint(min_val, max_val))
-	
-	s = random.randint(0, n-1)
-	
-	nuovo.left = crea_albero(s, min_val, max_val)
-	nuovo.right = crea_albero(n-1-s, min_val, max_val)
-	
-	return p
+    if n == 0:
+        return None
+
+    nodo = Nodo(random.randint(0, 9))
+    # stabilire il numero di figli dei sottoalberi
+    n_left = random.randint(0, n - 1)
+    n_right = n - 1 - n_left
+    # creare i sottoalberi
+    nodo.left = crea_albero(n_left)
+    nodo.right = crea_albero(n_right)
+
+    return nodo
 ```
 
 # Visita dell'albero
@@ -62,7 +45,7 @@ def crea_albero(n, min_val, max_val):
 
 Per gli alberi binari esistono tre possibili visite *in profondità*, ovviamente dallo stesso [[complessità temporale|costo computazionale]]:
 
-- In **preordine**: il nodo è visitato prima di proseguire la visita nei suoi sottoalbero.
+- In **preordine**: il nodo è visitato prima di proseguire la visita nei suoi sottoalberi.
 
 ``` python
 def preorder(nodo):
@@ -88,42 +71,42 @@ def inorder(nodo):
 
 ``` python
 def postorder(nodo):
-	if nodo is None:
+	if nodo is 
+        preordine(nodo.right)
+        print(nodo.key, end = ' ')None:
 		return
 	postorder(nodo.left)
 	postorder(nodo.right)
 	print(nodo.key, end=' ')
 ```
 
-## Visita per ampiezza/ livello
+## Visita per ampiezza/livello (BFS)
 
-Esiste anche un altro tipo di visita, cioè la visita **in ampiezza** (per livello, spesso da sinistra a destra).
+^34c59b
 
-L'idea è di sfruttare una [[queue]] per memorizzare i nodi in ogni livello.
+Esiste anche un altro tipo di visita, cioè la visita **in ampiezza** "Breadth-First Search" (per livello, da sinistra a destra).
 
-### Implementazione naive
-
-Per semplicità implementiamo la coda con una [[lista di Python]].
+L'idea è di sfruttare una [[queue]]  (importata da `collections`) per memorizzare i nodi in ogni livello e man mano estrarre i nodi visitati (da stampare o da inserire in un generatore) in $\Theta(1)$.
 
 ``` python
-def visita_per_livello(root)
-	
-	if not root:
-		return
+from collections import deque
 
-	coda = [root]
-	while coda != []:
-		z = coda.pop(0) # costa Theta(n)
-		print(z.key)
-		if z.left:
-			coda.append(z.left)
-		if z.right:
-			coda.append(z.right)
+def visita_per_livello(nodo) -> List:
+
+    if nodo is not None:
+        coda = deque([nodo])
+
+        while coda: # aggiungiamo i figli destro e sinistro, rimuoviamo l'ultimo nodo dalla coda poi ripetiamo finché la coda si è svuotata
+            nodo = coda.popleft()
+            yield nodo.key # anche print(nodo.key, end=' ') andava bene
+            if nodo.left:
+                coda.append(nodo.left)
+            if nodo.right:
+                coda.append(nodo.right)
+
+print(list(visita_per_livello(nodo)))
 ```
 
-### Implementazione smart
-
-#todo vedi dai lucidi
 ## Costo computazionale
 
 Chiamiamo $k$ il numero di nodi del sottoalbero destro, l'[[equazioni di ricorrenza|equazione di ricorrenza]] è:

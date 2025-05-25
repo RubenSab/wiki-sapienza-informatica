@@ -1,9 +1,9 @@
 ---
-updated_at: 2025-05-12T09:33:06.491+02:00
+updated_at: 2025-05-22T20:06:49.180+02:00
 ---
-> Lo stack (o pila) è una [[struttura dati|struttura dati]] LIFO (*Last In First Out*) che prevede solo due operazioni: **inserimento dopo l'ultimo elemento (push)** e **cancellazione (pop) dell'ultimo elemento**. Non sono previste altre modalità di accesso, inserimento o rimozione.
+> Lo stack (o pila) è una [[struttura dati|struttura dati]] LIFO (*Last In First Out*) che prevede solo due operazioni: **inserimento dopo l'ultimo elemento (push)** e **cancellazione (pop) dell'ultimo elemento**. Non sono previste altre modalità di accesso, visita, inserimento o rimozione.
 
-Si può implementare con una [[lista di Python]], in cui il costo di entrambe le operazioni è $O(1)$.
+Si può implementare con una [[lista di Python]], in cui il costo di entrambe le operazioni è $O(1)$:
 
 ``` python
 class Pila:
@@ -19,7 +19,26 @@ class Pila:
 			return self.elementi.pop()
 ```
 
-Oppure si può implementare con le [[linked list]]
+Oppure si può implementare con le [[linked list]]:
+
+```
+Push:
+
+0. cima dello stack -> ...
+1. (creazione) Nuovo nodo
+2. Nuovo nodo -> cima dello stack -> ...
+3. Nuovo nodo = cima dello stack
+4. risultato: (nuova) cima dello stack -> ...
+
+Pop:
+
+1. cima dello stack -> next -> ...
+2. valore = cima dello stack
+3. next -> ... (bypass della cima dello stack)
+4. garbage collection: la cima viene eliminata perché inaccessibile
+5. return valore
+```
+
 
 ``` python
 class Nodo:
@@ -29,7 +48,7 @@ class Nodo:
 
 class Stack:
     def __init__(self):
-        self.top = None  # cima della pila
+        self.top = None  # cima della pila = testa della lista
 
     def push(self, valore):
         nuovo_nodo = Nodo(valore)

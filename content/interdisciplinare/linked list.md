@@ -1,7 +1,7 @@
 ---
-updated_at: 2025-05-16T12:24:35.590+02:00
+updated_at: 2025-05-22T20:24:00.685+02:00
 ---
-> La linked list è una [[struttura dati]] in cui gli elementi sono organizzati in successione e ogni elemento ha due [[campi]]: il campo *key* contiene il dato, il campo *next* contiene il [[puntatore]] all'elemento successivo (il next dell'ultimo elemento della lista conterrà il valore `None`). Si forma quindi una catena di elementi in cui da ogni elemento si può accedere al prossimo.
+> La linked list, (o lista a puntatori) è una [[struttura dati]] in cui gli elementi sono organizzati in successione e ogni elemento ha due [[campi]]: il campo *key* contiene il dato, il campo *next* contiene il [[puntatore]] all'elemento successivo (il next dell'ultimo elemento della lista conterrà il valore `None`). Si forma quindi una catena di elementi in cui da ogni elemento si può accedere al prossimo.
 
 - L'accesso avviene sempre ad una estremità della lista, della *testa*, per mezzo di un puntatore,
 - è permesso solo un accesso sequenziale agli elementi.
@@ -20,8 +20,8 @@ updated_at: 2025-05-16T12:24:35.590+02:00
 
 ``` python
 class Nodo:
-	def __init__(self, value = None, next = None):
-		self.value = value # il valore contenuto nel Nodo
+	def __init__(self, key = None, next = None):
+		self.key = key # il valore contenuto nel Nodo
 		self.next = next # il riferimento al Nodo successivo
 ```
 
@@ -35,7 +35,7 @@ Per avere una linked list [[lista doppiamente puntata|doppiamente puntata]] (bid
 ### Creazione partendo da una [[lista di Python|lista]] in $\Theta(n)$
 
 ``` python
-def Crea(lista): # Crea una linked list partendo da una lista
+def crea(lista): # Crea una linked list partendo da una lista
 
 	if lista == []:
 		return None
@@ -43,14 +43,17 @@ def Crea(lista): # Crea una linked list partendo da una lista
 	testa = Nodo(lista[0])
 	corrente = testa
 
-	for valore in lista[1:]:
+	for key in lista[1:]:
 
-		corrente.next = Nodo(valore)
+		corrente.next = Nodo(key)
 		corrente = corrente.next
 
-		# non usare corrente = Nodo(valore, corrente) perché concatena al contrario
-
 	return testa
+
+def crea_ricorsiva(lista):
+    if not lista:
+        return None
+    return Nodo(lista[0], crea(lista[1:]))
 ```
 
 ### Stampa in $\Theta(n)$
@@ -58,17 +61,36 @@ def Crea(lista): # Crea una linked list partendo da una lista
 ``` python
 def stampa(p):
 	while p:
-		print(p.value)
+		print(p.key)
 		p = p.next
+
+def stampa_ricorsiva(nodo):
+    if nodo:
+        print(nodo.key)
+        stampa(nodo.next)
 ```
 
 ### Ricerca in $\Theta(n)$
 
 ``` python
-def ricerca(p, query):
-	while p != None and p.key != query:
+def ricerca_puntatore(p, query) -> Nodo:
+	while p is not None and p.key != query:
 		p = p.next
 	return p
+
+def ricerca(nodo, query) -> bool:
+    while nodo:
+        if nodo.key == query:
+            return True
+        nodo = nodo.next
+    return False
+
+def ricerca_ricorsiva(nodo, query) -> bool:
+    if nodo is None:
+        return False
+    if nodo.key == query:
+        return True
+    return ricerca_ricorsiva(nodo.next, query)
 ```
 
 ### Inserimento in testa in $\Theta(1)$
@@ -83,41 +105,26 @@ def inserisci_in_testa(p, valore):
 
 ``` python
 def inserisci(p, da_trovare, da_inserire):
-	q = ricerca(p, da_trovare)
+	q = ricerca_puntatore(p, da_trovare)
 	if q:
 		q.next = Nodo(da_inserire, q.next)
 		# il nuovo q.next diventa il nodo con il valore da inserire e il next uguale al vecchio q.next, così si inserisce un nuovo anello nella catena aprendola, inserendo e infine richiudendola sull'"anello" q.next
+	return p
 ```
 
 ### Eliminazione della prima occorrenza di un valore in $\Theta(n)$
 
 ``` python
-def cancella(p, da_cancellare):
+def elimina_occorrenza(p, da_cancellare):
+    if p.key = da_cancellare:
+        p = p.next
+    q = p
+    while q is not None and q.next.key != da_cancellare:
+        q = q.next
+    q.next = q.next.next
+    return p
 
-	if p != None:
-
-		# caso speciale se l'elemento da calcellare è il primo
-		if p.key == da_cancellare:
-			p = p.next
-
-		else:
-		
-			corrente = p
-			# trova il nodo prima di quello da cancellare
-			while corrente != None and corrente.next != da_cancellare:
-				corrente = corrente.next
-		
-			# riassegna il next con next.next rendendo il nodo da cancellare inaccessibile (quindi eliminabile dal garbage collector)
-			if corrente.next != None:
-				corrente.next = corrente.next.next
-
-	return p
-```
-
-Alternativa ricorsiva
-
-``` python
-def cancella(p, da_cancellare):
+def elimina_occorrenza_ricorsiva(p, da_cancellare):
 
 	# caso base: si è arrivati alla fine di p
 	if p == None:
@@ -128,10 +135,10 @@ def cancella(p, da_cancellare):
 		return p.next # così facendo si restituisce p.next invece che p alla chiamata ricorsiva, saltando l'elemento da cancellare
 
 	# caso ricorsivo, si restituisce p se i casi base non si verificano
-	p.next = cancella(p.next, da_cancellare)
+	p.next = elimina_occorrenza_ricorsiva(p.next, da_cancellare)
 	return p
 ```
-## Come cancellare una struttura dati linkata dalla [[memoria (RAM)]] in Python?
+## Come cancellare una linked list dalla [[memoria (RAM)]] in Python?
 
 Basta cancellare il riferimento alla "testa" (*parent*) della struttura dati, in modo che si cancelli anche il riferimento ai suoi *children*.
 

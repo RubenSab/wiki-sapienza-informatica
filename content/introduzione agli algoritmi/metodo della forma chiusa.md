@@ -1,6 +1,6 @@
 ---
-updated_at: 2025-03-07T11:30:42.959+01:00
+updated_at: 2025-05-22T13:36:20.612+02:00
 ---
-> Si basa sull'esplicitazione della [[serie|somma]] in una forma chiusa.
+> Si basa sull'esplicitazione della [[serie|somma]] in una forma chiusa già nota:
 
-Esempio: $$\sum_{i=1}^{+\infty}i=\frac{n(n+1)}{2}=\Theta(n^{2})$$
+Per esempio, la somma di numeri consecutivi da $1$ a $n$ è già nota, si risolve con la *formula di Gauss*: $$\sum_{i=1}^{+\infty}i=\frac{n(n+1)}{2}=\Theta(n^{2})$$

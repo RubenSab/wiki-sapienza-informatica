@@ -20,13 +20,14 @@
             }
           },
           {
-            "id": "2e393eda02621d7e",
+            "id": "cb3f14a03bf9e389",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "calcolo integrale/problemi di Cauchy.md",
-                "mode": "source",
+                "file": "TODO.md",
+                "mode": "preview",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -39,17 +40,18 @@
                   "unlinkedCollapsed": true
                 }
               },
+              "pinned": true,
               "icon": "lucide-file",
-              "title": "problemi di Cauchy"
+              "title": "TODO"
             }
           },
           {
-            "id": "ecbef8024dfd4796",
+            "id": "a9b967ff69fa67a6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "calcolo integrale/EDO non lineari del primo ordine a variabili separabili.md",
+                "file": "introduzione agli algoritmi/implementazioni degli alberi binari.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -64,11 +66,59 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "EDO non lineari del primo ordine a variabili separabili"
+              "title": "implementazioni degli alberi binari"
+            }
+          },
+          {
+            "id": "75f1205c42b720ad",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "introduzione agli algoritmi/implementazioni degli alberi binari.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "implementazioni degli alberi binari"
+            }
+          },
+          {
+            "id": "06bade4bd82fe94b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "calcolo integrale/EDO lineari del primo ordine.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "EDO lineari del primo ordine"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -125,7 +175,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "rappresentazio",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -220,37 +270,39 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "homepage:Open homepage": false,
-      "timethings:Activate view": false
+      "timethings:Activate view": false,
+      "obsidian42-brat:BRAT": false,
+      "3d-graph-new:Global 3D Graph": false
     }
   },
-  "active": "2e393eda02621d7e",
+  "active": "06bade4bd82fe94b",
   "lastOpenFiles": [
-    "calcolo integrale/EDO non lineari del primo ordine a variabili separabili.md",
-    "calcolo integrale/equazioni differenziali del primo ordine.md",
-    "calcolo integrale/problemi di Cauchy.md",
-    "calcolo integrale/calcolo integrale.md",
-    "calcolo integrale/equazioni differenziali del secondo ordine.md",
-    "calcolo integrale/equazioni differenziali.md",
+    "introduzione agli algoritmi/implementazioni degli alberi binari.md",
     "calcolo integrale/EDO lineari del primo ordine.md",
-    "calcolo integrale/derivata.md",
-    "interdisciplinare/notazione asintotica.md",
-    "interdisciplinare/funzione.md",
-    "calcolo integrale/www.youmath.it.md",
-    "calcolo integrale/youmath.it.md",
-    "calcolo differenziale/derivate.md",
-    "calcolo integrale/successione di Cauchy.md",
-    "metodologie di programmazione/design pattern.md",
-    "metodologie di programmazione/ereditarietà.md",
-    "introduzione agli algoritmi/ricerca binaria.md",
-    "metodologie di programmazione/Java.md",
-    "introduzione agli algoritmi/albero di ricerca.md",
-    "introduzione agli algoritmi/algoritmi di ricerca.md",
-    "calcolo differenziale/concetto di asintotico.md",
-    "introduzione agli algoritmi/notazione Theta.md",
+    "calcolo integrale/equazioni differenziali.md",
+    "interdisciplinare/albero.md",
     "TODO.md",
+    "interdisciplinare/funzione.md",
+    "introduzione agli algoritmi/complessità spaziale.md",
+    "progettazione di sistemi digitali/registri.md",
+    "metodologie di programmazione/campi.md",
+    "metodologie di programmazione/overriding.md",
+    "metodologie di programmazione/ereditarietà.md",
+    "introduzione agli algoritmi/algoritmi di ordinamento.md",
+    "introduzione agli algoritmi/nomenclatura degli alberi.md",
+    "introduzione agli algoritmi/counting sort.md",
+    "introduzione agli algoritmi/bubble sort.md",
+    "introduzione agli algoritmi/insertion sort.md",
+    "introduzione agli algoritmi/selection sort.md",
+    "interdisciplinare/linked list.md",
+    "interdisciplinare/stack.md",
+    "interdisciplinare/hash table.md",
+    "interdisciplinare/dizionario.md",
+    "interdisciplinare/memoria (RAM).md",
+    "introduzione agli algoritmi/lista di Python.md",
+    "introduzione agli algoritmi/albero di ricerca.md",
     "interdisciplinare/struttura dati.md",
-    "calcolo integrale/teorema fondamentale del calcolo integrale.md",
-    "progettazione di sistemi digitali/progettazione di sistemi digitali.md",
+    "interdisciplinare/queue.md",
     "architettura degli elaboratori/Pasted image 20250518120936.png",
     "architettura degli elaboratori/Pasted image 20250518120836.png",
     "architettura degli elaboratori/Pasted image 20250518120828.png",

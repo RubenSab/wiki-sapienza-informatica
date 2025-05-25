@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-05-20T15:41:05.006+02:00
+updated_at: 2025-05-22T13:32:35.685+02:00
 ---
 - [[formulario di calcolo integrale]]
 # Argomenti
@@ -24,6 +24,7 @@ updated_at: 2025-05-20T15:41:05.006+02:00
 
 ## Integrali
 
+- [[integrali]]
 - [[integrali indefiniti]]
 - [[integrali definiti]]
 - [[tecniche di integrazione]]

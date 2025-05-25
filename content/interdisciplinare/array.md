@@ -1,15 +1,15 @@
 ---
-updated_at: 2025-05-10T12:58:21.748+02:00
+updated_at: 2025-05-21T20:07:24.526+02:00
 ---
 > Un array, o vettore, è una [[struttura dati]] statica che memorizza un insieme ordinato di elementi dello stesso [[tipi|tipo]] (per questo si dice che le array sono *omogenee*).
 
 # Vantaggi e svantaggi
 
-| Pros                                                                               | Cons                                     |
-| ---------------------------------------------------------------------------------- | ---------------------------------------- |
-| Si può accedere all'i-esimo elemento direttamente.                                 | Ha lunghezza immutabile.                 |
-| Nel raro caso in cui non siano built-in, sono estremamente facili da implementare. | Rimuovere un elemento costa $\Theta(1)$. |
-|                                                                                    | Sono omogenee.                           |
+| Pros                                              | Cons                    |
+| ------------------------------------------------- | ----------------------- |
+| Si può accedere all'i-esimo elemento direttamente | Ha lunghezza immutabile |
+| Rimuovere un elemento costa $\Theta(1)$           | Sono omogenee           |
+
 # [[complessità temporale|Costo]] delle operazioni
 
 | operazione                                        | array disordinato | array ordinato |

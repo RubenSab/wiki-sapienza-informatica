@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-04-13T22:09:45.777+02:00
+updated_at: 2025-05-23T14:00:28.531+02:00
 ---
 > L'idea è di far crescere a sinistra la parte ordinata dell'array trovando ripetutamente l'elemento minimo della parte non ordinata e spostandolo all'inizio della parte non ordinata.
 
@@ -39,4 +39,5 @@ def selection_sort(A):
 
 		# scambia l'elemento minimo con quello considerato in partenza, facendo crescere di un elemento la parte ordinata
 		A[i], A[indice_min] = A[indice_min], A[i]
+	return a	
 ```

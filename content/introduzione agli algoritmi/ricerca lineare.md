@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-03-14T12:59:37.363+01:00
+updated_at: 2025-05-21T19:30:59.409+02:00
 ---
 > La ricerca lineare consiste nel controllare se ogni elemento dello spazio di ricerca corrisponde all'elemento cercato.
 
@@ -9,7 +9,7 @@ def ricerca(lista, x):
 	for elemento in lista:
 		if elemento == x:
 			return True
-	else return False
+	return False
 ```
 
 - Caso pessimo: $O(n)$, bisogna scorrere su tutta la lista senza successo perché l'elemento non c'è.

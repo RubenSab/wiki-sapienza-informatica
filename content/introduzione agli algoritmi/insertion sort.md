@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-05-18T12:16:26.609+02:00
+updated_at: 2025-05-23T14:12:07.391+02:00
 ---
 > L'Insertion Sort è un algoritmo di ordinamento che funziona come quando ordiniamo carte da gioco in mano:
 
@@ -16,7 +16,7 @@ def insertion_sort(A):
     for i in range(1, len(A)):
 
 		key = A[i] # key è l'elemento da inserire nella parte ordinata
-        j = i - 1
+        j = i - 1 # ultimo indice della parte ordinata
 
 		# sposta a destra gli elementi di A[:i] che sono maggiori di key
         while j >= 0 and A[j] > key:

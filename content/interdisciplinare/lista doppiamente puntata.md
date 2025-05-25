@@ -1,14 +1,14 @@
 ---
-updated_at: 2025-05-10T17:20:21.479+02:00
+updated_at: 2025-05-22T20:37:45.417+02:00
 ---
-> è una modifica della [[linked list]] dove ogni elemento è collegato sia al successivo che al precedente.
+> è una modifica della [[linked list]] dove ogni elemento è collegato, con due [[puntatore|puntatori]] sia al successivo che al precedente.
 
 # Implementazione in Python
 
 ``` python
 class Nodo:
-	def __init__(self, value = None, next = None):
-		self.value = value
+	def __init__(self, value = None, next = None, pre):
+		self.key = key
 		self.next = next
 		self.prev = prev
 ```
@@ -35,7 +35,7 @@ def Crea(lista):
 	return p
 ```
 
-## Rimozione di un nodo intermedio `p`
+## Rimozione di un nodo intermedio `p` (dopo averlo raggiunto)
 
 ``` python
 p.prev.next = p.next

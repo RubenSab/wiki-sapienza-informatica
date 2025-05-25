@@ -1,7 +1,7 @@
 ---
-updated_at: 2025-05-20T09:11:27.632+02:00
+updated_at: 2025-05-21T19:33:01.049+02:00
 ---
-Avendo una sequenza di elementi ordinata, si può progettare un [[albero di ricerca]] migliore della [[ricerca lineare]].
+Avendo una sequenza di elementi **ordinata**, si può progettare un [[albero di ricerca]] migliore della [[ricerca lineare]].
 
 > La ricerca binaria consiste nel prendere l'elemento a metà dello spazio di ricerca, se è minore\* rispetto a quello cercato, allora si cerca nella seconda metà, mentre se è maggiore\* si cerca nella prima metà, invece se corrisponde a quello cercato si finisce.
 

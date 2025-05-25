@@ -1,18 +1,19 @@
 ---
-updated_at: 2025-05-19T18:22:57.040+02:00
+updated_at: 2025-05-24T22:37:00.857+02:00
 ---
 ## Esonero di calcolo integrale 30 maggio
 
 - [ ] Integrali
 - Equazioni differenziali (EDO)
-	- [ ] Lineari del primo ordine a coefficienti costanti omogenee
-	- [ ] Lineari del primo ordine a coefficienti costanti non omogenee
-	- [ ] Lineari del primo ordine a coefficienti variabili omogenee
-	- [ ] Lineari del primo ordine a coefficienti variabili non omogenee
+	- [x] Lineari del primo ordine a coefficienti costanti omogenee
+	- [x] Lineari del primo ordine a coefficienti costanti non omogenee
+	- [x] Lineari del primo ordine a coefficienti variabili omogenee
+	- [x] Lineari del primo ordine a coefficienti variabili non omogenee
 	- [ ] Non lineari del primo ordine a variabili separabili
 
 ## Esonero di algoritmi 29 maggio
 
+- [x] ricerca binaria su liste
 - Algoritmi di sorting:
 	- naive:
 		- [ ] selection
@@ -25,10 +26,38 @@ updated_at: 2025-05-19T18:22:57.040+02:00
 		- [ ] quick
 		- [ ] heap
 - Strutture dati: implementazioni + algoritmi
-	- [ ] array
-	- [ ] liste di python
-	- [ ] linked list
-	- [ ] stack
-	- [ ] queue
+	- [x] array
+	- [x] liste di python
+	- [x] linked list
+		- [x] definizione della classe
+		- [x] creazione partendo dalla lista
+		- [x] stampa
+		- [x] ricerca della prima occorrenza
+		- [x] inserimento in testa
+		- [x] inserimento dopo la prima occorrenza
+		- [x] eliminazione della prima occorrenza
+	- [x] double linked list
+		- [x] inserimento e cancellazione
+	- [x] stack
+		- [x] con liste
+		- [x] con linked list
+	- [x] queue
+		- [x] con liste
+		- [x] con linked listcom
 	- [ ] dizionari
+		- [ ] implementazione con alberi di ricerca
 	- [ ] alberi
+		- [ ] nomenclatura
+		- [x] vettore dei padri
+		- [x] array
+		- [x] implementazione con puntatori
+			- [x] stampa
+			- [x] creazione
+			- [x] visite per profondità
+			- [x] visita per livelli
+			- [x] conta nodi
+			- [x] cerca nodo
+			- [x] altezza
+			- [x] conta nodi a livello
+			- [x] livello minimo foglie
+		- [ ] alberi di ricerca
