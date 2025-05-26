@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-05-25T20:24:20.623+02:00
+updated_at: 2025-05-25T21:40:35.910+02:00
 ---
 > Queste [[equazioni differenziali#EDO lineari|EDO lineari]] contengono solo la [[derivate|derivata]] di primo ordine, per classificarle si fa riferimento ai **coefficienti** della [[funzione]] e della derivata, che possono essere costanti o variabili, e alla loro **omogeneità** o non omogeneità.
 
@@ -32,16 +32,16 @@ $$y'(t)e^{A(t)}+a(t)y(t)e^{A(t)}=e^{A(t)}f(t)$$
 3. Riconosciamo il primo membro dell'equazione come la derivata di $e^{A(t)}y(t)$
 $$\frac{d}{dt}(e^{A(t)}y(t))=e^{A(t)}f(t)$$
 
-4. Integriamo entrambi i lati dell'equazione tra due estremi arbitrari $\bar t$ e $t$
-$$\int_{\bar t}^{t}{\frac{d}{ds}(e^{A(s)}y(s))}\ ds=\int_{\bar t}^{t}{e^{A(t)}f(t)}\ ds + c$$
+4. Integriamo entrambi i lati dell'equazione
+$$\int {\frac{d}{ds}(e^{A(s)}y(s))}\ ds=\int {e^{A(t)}f(t)}\ ds + c$$
 5. Semplifichiamo il primo membro
-$$e^{A(t)}y(t)=\int_{\bar t}^{t}{e^{A(t)}f(t)}\ ds + c$$
+$$e^{A(t)}y(t)=\int {e^{A(t)}f(t)}\ ds + c$$
 
 6. Dividiamo da entrambi i lati per $e^{A(t)}$, trovando la soluzione
-$$y(t)=\frac{\int_{\bar t}^{t}{e^{A(t)}f(t)}\ ds}{e^{A(t)}} + \frac{c}{e^{A(t)}}$$
+$$y(t)=\frac{\int {e^{A(t)}f(t)}\ ds}{e^{A(t)}} + \frac{c}{e^{A(t)}}$$
 
 7. Riscriviamo la soluzione:
-$$y(t)=\int_{\bar t}^{t}{e^{A(t)-A(s)}f(t)}\ ds + c\cdot e^{-A(t)}$$
+$$y(t)=\int {e^{A(t)-A(s)}f(t)}\ ds + c\cdot e^{-A(t)}$$
 
 8. Assumiamo che l'integrale sia calcolato tra due estremi uguali, quindi faccia zero, da qui possiamo trovare la formula inversa per $c$:
 $$c=y_{0}e^{A(t)}$$
@@ -54,7 +54,7 @@ Espandiamo il ragionamento agli altri 3 tipi di equazione:
 
 ### Soluzioni per ogni categoria
 
-|               | omogenee                                          | non omogenee                                                                                    |
-| ------------- | ------------------------------------------------- | ----------------------------------------------------------------------------------------------- |
-| **costanti**  | $$y'(t)+ay(t)=0$$<br>$$y(t)=c\cdot e^{-at}$$      | $$y'(t)+ay(t)=f(t)$$<br>$$y(t)=\int_{\bar t}^{t}{e^{a(t-s)}f(t)}\ ds + c\cdot e^{-at}$$         |
-| **variabili** | $$y'(t)+a(t)y(t)=0$$<br>$$y(t)=c\cdot e^{-A(t)}$$ | $$y'(t)+a(t)y(t)=f(t)$$<br>$$y(t)=\int_{\bar t}^{t}{e^{A(t)-A(s)}f(t)}\ ds + c\cdot e^{-A(t)}$$ |
+|               | omogenee                                          | non omogenee                                                                        |
+| ------------- | ------------------------------------------------- | ----------------------------------------------------------------------------------- |
+| **costanti**  | $$y'(t)+ay(t)=0$$<br>$$y(t)=c\cdot e^{-at}$$      | $$y'(t)+ay(t)=f(t)$$<br>$$y(t)=\int {e^{a(t-s)}f(t)}\ ds + c\cdot e^{-at}$$         |
+| **variabili** | $$y'(t)+a(t)y(t)=0$$<br>$$y(t)=c\cdot e^{-A(t)}$$ | $$y'(t)+a(t)y(t)=f(t)$$<br>$$y(t)=\int {e^{A(t)-A(s)}f(t)}\ ds + c\cdot e^{-A(t)}$$ |

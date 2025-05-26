@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-05-23T14:00:28.531+02:00
+updated_at: 2025-05-25T22:15:26.861+02:00
 ---
 > L'idea è di far crescere a sinistra la parte ordinata dell'array trovando ripetutamente l'elemento minimo della parte non ordinata e spostandolo all'inizio della parte non ordinata.
 
@@ -14,7 +14,7 @@ Una sua particolarità è avere il numero di confronti/scambi fisso.
 
 # Complessità
 
-Ha [[complessità temporale]] $\Theta(n^{2})$ perché itera su una porzione della lista per ogni elemento e il caso ottimo e il caso pessimo coincidono perché il numero di scambi tra elementi è fisso
+Ha [[complessità temporale]] $\Theta(n^{2})$ perché itera su una porzione della lista per ogni elemento e il caso ottimo e il caso pessimo coincidono perché il numero di scambi tra elementi è fisso.
 
 Ha [[complessità spaziale]] $\Theta(1)$ perché opera *in loco*.
 
@@ -22,9 +22,9 @@ Ha [[complessità spaziale]] $\Theta(1)$ perché opera *in loco*.
 
 
 ``` python
-def selection_sort(A):
+def selection_sort(lista):
 
-	n = len(A)
+	n = len(lista)
 	
 	# scorre l'array con indice i da 0 a n-1
 	for i in range(n-1):
@@ -34,10 +34,11 @@ def selection_sort(A):
 
 		# cerca l'indice dell'elemento minimo nella parte non ordinata
 		for j in range(i+1, n):
-			if A[j] < A[indice_min]:
+			if lista[j] < lista[indice_min]:
 				indice_min = j
 
 		# scambia l'elemento minimo con quello considerato in partenza, facendo crescere di un elemento la parte ordinata
-		A[i], A[indice_min] = A[indice_min], A[i]
-	return a	
+		lista[i], lista[indice_min] = lista[indice_min], lista[i]
+
+	return lista
 ```

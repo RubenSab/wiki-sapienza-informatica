@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-05-12T10:05:06.700+02:00
+updated_at: 2025-05-26T10:02:05.300+02:00
 ---
 
 - **altezza**: il nodo **radice** è definito con altezza 0, l'altezza degli altri nodi è definita come la lunghezza del cammino più lungo dalla radice a una foglia. (Un albero di altezza $h$ avrà $h+1$ livelli).
@@ -11,6 +11,7 @@ updated_at: 2025-05-12T10:05:06.700+02:00
 - **foglia**: un nodo senza figli.
 - **albero binario**: un albero in cui ogni nodo ha tra 0 e 2 figli.
 - **albero binario completo**: un albero binario in cui ogni nodo (tranne le foglie) ha esattamente 2 figli.
+- **sbilanciamento**: dato un nodo, il suo sbilanciamento è il modulo della differenza tra i nodi del sottoalbero di destra e i nodi del sottoalbero di sinistra.
 - **albero bilanciato**: è un albero binario completo o quasi completo, nell'ultimo caso tutti i livelli tranne l'ultimo contengono il massimo numero possibile di nodi, mentre l'ultimo  livello è riempito completamente da sinistra verso destra solo fino ad un certo punto.
 - **[[albero di ricerca]]**: è un albero binario in cui per ogni nodo le chiavi del sottoalbero sinistro sono minori della chiave del nodo corrente e quelle del sottoalbero destro sono più grandi. Non possono esserci duplicati.
 ## Osservazione sugli alberi bilanciati

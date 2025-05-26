@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-05-25T20:09:24.524+02:00
+updated_at: 2025-05-26T10:37:31.475+02:00
 ---
 > Un albero radicato è una [[struttura dati]] composta da nodi organizzati gerarchicamente. Ha un nodo radice che non ha genitori. Ogni altro nodo dell'albero ha esattamente un genitore e può avere $n$ figli. I nodi che non hanno figli sono chiamati foglie.
 
@@ -171,4 +171,21 @@ def lvl_min_foglie(nodo): # O(n)
 
     elif nodo.right:
         return lvl_min_foglie(nodo.right) + 1
+```
+
+``` python
+def helper(nodo):
+
+    if not nodo:
+        return 0, 0
+
+    figli_left, sb_left = helper(nodo.left)
+    figli_right, sb_right = helper(nodo.right)
+
+    sb = abs(figli_right-figli_left)
+    
+    return figli_right + figli_left + 1, max(sb, sb_right, sb_left)
+
+def sbilanciamento(nodo):
+    return helper(nodo)[1]
 ```

@@ -1,7 +1,9 @@
 ---
-updated_at: 2025-05-24T22:36:18.712+02:00
+updated_at: 2025-05-26T17:41:15.447+02:00
 ---
 # Con [[array]]
+
+^28a0a1
 
 Dato un nodo all'indice $i$:
 
@@ -70,20 +72,30 @@ Svantaggi:
 ## Implementazione
 
 ``` python
+# Trova la dimensione massima per preallocare il vettore
+def trova_max_key(nodo):
+	if nodo is None:
+		return -1
+	return max(nodo.key,
+		trova_max_key(nodo.left),
+		trova_max_key(nodo.right))
 
-def vettore_padri(nodo, padre_indice=-1, vettore=None):
-    if vettore is None:
-        vettore = []
-    if nodo is None:
-        return vettore
-    
-    # assegniamo l'indice del nodo corrente
-    indice_corrente = len(vettore)
-    vettore.append(padre_indice)
-    
-    # passiamo come padre l'indice corrente ai figli
-    vettore_padri(nodo.left, indice_corrente, vettore)
-    vettore_padri(nodo.right, indice_corrente, vettore)
+def vettore_padri(root):
+
+    # crea un vettore da modificare dopo
+    max_key = trova_max_key(root)
+    vettore = [-1] * (max_key + 1)
+
+    # aggiorna man mano il vettore dei padri
+    def visita(nodo, padre_key=-1):
+        if nodo is None:
+            return
+        vettore[nodo.key] = padre_key
+        visita(nodo.left, padre_key = nodo.key)
+        visita(nodo.right, padre_key = nodo.key)
+
+    visita(root)
+    return vettore
 ```
 
 

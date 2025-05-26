@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-05-21T19:33:01.049+02:00
+updated_at: 2025-05-25T23:19:27.678+02:00
 ---
 Avendo una sequenza di elementi **ordinata**, si può progettare un [[albero di ricerca]] migliore della [[ricerca lineare]].
 
@@ -10,7 +10,7 @@ Avendo una sequenza di elementi **ordinata**, si può progettare un [[albero di 
 Rispetto alla ricerca lineare, il numero di elementi da controllare in futuro dimezza a ogni iterazione, quindi ha complessità $O(\log{n})$.
 
 - [[albero di ricerca#Implementazioni dell'algoritmo di ricerca|implementazione sugli alberi di ricerca]]
-# implementazione (su una lista) in Python
+# implementazione su una [[lista di Python|lista]] in Python
 
 ``` python
 def ricerca_binaria(lista, query):
