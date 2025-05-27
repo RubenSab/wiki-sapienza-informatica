@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-05-22T20:24:00.685+02:00
+updated_at: 2025-05-27T20:42:12.870+02:00
 ---
 > La linked list, (o lista a puntatori) è una [[struttura dati]] in cui gli elementi sono organizzati in successione e ogni elemento ha due [[campi]]: il campo *key* contiene il dato, il campo *next* contiene il [[puntatore]] all'elemento successivo (il next dell'ultimo elemento della lista conterrà il valore `None`). Si forma quindi una catena di elementi in cui da ogni elemento si può accedere al prossimo.
 
@@ -137,6 +137,18 @@ def elimina_occorrenza_ricorsiva(p, da_cancellare):
 	# caso ricorsivo, si restituisce p se i casi base non si verificano
 	p.next = elimina_occorrenza_ricorsiva(p.next, da_cancellare)
 	return p
+```
+
+## Cancellazione di più nodi secondo una condizione
+
+``` python
+def rimuovi(nodo):
+    if not nodo:
+        return None
+    nodo.next = rimuovi(nodo.next)
+    if condizione:
+        return nodo.next
+    return nodo
 ```
 ## Come cancellare una linked list dalla [[memoria (RAM)]] in Python?
 

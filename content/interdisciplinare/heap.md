@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-05-26T18:54:22.794+02:00
+updated_at: 2025-05-27T09:39:06.388+02:00
 ---
 > è un [[albero]] binario [[nomenclatura degli alberi|completo o quasi completo]] che soddisfa la proprietà heap: per ogni nodo, il valore dei figli è maggiore o uguale del valore del nodo (*min heap*), o è minore o uguale del valore del nodo (*max heap*).
 
@@ -13,6 +13,12 @@ Gli heap supportano alcune operazioni di base:
 
 # Implementazione in Python (di un max-heap)
 
+funzionamento di `heapify(List) -> List`:
+1. inizializzazione alla radice,
+2. verifica della violazione + eventuale scambio + aggiornamento col figlio che è stato scambiato,
+3. ripetizione del controllo (tramite iterazione o ricorsione)
+4. termine del processo quando il nodo i è il più piccolo fra i figli o quando i raggiunge una foglia.
+
 ``` python
 # Punti di riferimento
 def parent(i):
@@ -25,40 +31,37 @@ def right(i):
     return 2 * i + 2
 
 # Aggiustamento delle proprietà dell'heap
-def heapify(arr, i=0, n=len(arr)):
-    largest = i
+def heapify(arr, i=0) -> None: # O(log n)
+    length = len(lista)
+    smallest = i
     l = left(i)
     r = right(i)
 
-    if l < n and arr[l] > arr[largest]:
-        largest = l
+    if l < length and arr[l] < arr[largest]:
+        smallest_i = l
+    if r < length and arr[r] < arr[largest]:
+        smallest_i = r
 
-    if r < n and arr[r] > arr[largest]:
-        largest = r
+    if smallest_i != i:
+        arr[i], arr[smallest_i] = arr[smallest_i], arr[i]
+        heapify(arr, smallest_i)
 
-    if largest != i:
-        arr[i], arr[largest] = arr[largest], arr[i]
-        heapify(arr, largest, n)
-
-def build_max_heap(arr):
-    n = len(arr)
-    for i in range(n // 2 - 1, -1, -1):
+def build_min_heap(arr) -> None: # O(n log n)
+    length = len(arr)
+    for i in range(length // 2 - 1, -1, -1): # fino a length//2-1 perchè le foglie sono già heap validi
         heapify(arr, i)
 
-def heap_extract_max(arr):
-    n = len(arr)
-    if n == 0:
-        raise IndexError("extract from empty heap")
-    max_value = arr[0]
-    arr[0] = arr[n - 1]
+def heap_pop_min(arr) -> int:
+    minimum = arr[0]
+    arr[0] = arr[len(arr)-1]
     arr.pop()
-    heapify(arr)
-    return max_value
+    heapify(arr, 0)
+    return minimum
 
-def heap_push(arr, key):
+def heap_push_min(arr, key) -> None:
     arr.append(key)
     i = len(arr) - 1
-    while i > 0 and arr[parent(i)] < arr[i]:
+    while i > 0 and arr[parent(i)] > arr[i]:
         arr[i], arr[parent(i)] = arr[parent(i)], arr[i]
         i = parent(i)
 ```

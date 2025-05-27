@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-05-22T20:06:49.180+02:00
+updated_at: 2025-05-27T09:53:34.563+02:00
 ---
 > Lo stack (o pila) è una [[struttura dati|struttura dati]] LIFO (*Last In First Out*) che prevede solo due operazioni: **inserimento dopo l'ultimo elemento (push)** e **cancellazione (pop) dell'ultimo elemento**. Non sono previste altre modalità di accesso, visita, inserimento o rimozione.
 

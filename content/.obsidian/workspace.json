@@ -20,12 +20,12 @@
             }
           },
           {
-            "id": "e93919268f85bf36",
+            "id": "4f22a057001e5bb6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "introduzione agli algoritmi/implementazioni degli alberi binari.md",
+                "file": "interdisciplinare/albero.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -40,59 +40,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "implementazioni degli alberi binari"
-            }
-          },
-          {
-            "id": "c03315f642d21b8a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "introduzione agli algoritmi/quicksort.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "quicksort"
-            }
-          },
-          {
-            "id": "30db95b9a8f1c0a1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "interdisciplinare/heap.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "heap"
+              "title": "albero"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -249,34 +201,34 @@
       "3d-graph-new:Global 3D Graph": false
     }
   },
-  "active": "30db95b9a8f1c0a1",
+  "active": "4f22a057001e5bb6",
   "lastOpenFiles": [
-    "interdisciplinare/struttura dati.md",
-    "interdisciplinare/heap.md",
-    "TODO.md",
-    "heapsort.md",
-    "introduzione agli algoritmi/albero di ricerca.md",
+    "introduzione agli algoritmi/implementazioni degli alberi binari.md",
+    "interdisciplinare/linked list.md",
+    "progettazione di sistemi digitali/automa a stati finiti (finite state automata).md",
+    "interdisciplinare/notazione asintotica.md",
     "introduzione agli algoritmi/quicksort.md",
+    "interdisciplinare/LinkedList.md",
+    "interdisciplinare/albero.md",
+    "TODO.md",
+    "interdisciplinare/dizionario.md",
+    "introduzione agli algoritmi/albero di ricerca.md",
+    "interdisciplinare/hash table.md",
+    "introduzione agli algoritmi/mergesort.md",
+    "metodologie di programmazione/tipi generici.md",
+    "introduzione agli algoritmi/metodo dell'albero.md",
+    "interdisciplinare/stack.md",
+    "heapsort.md",
+    "interdisciplinare/heap.md",
+    "introduzione agli algoritmi/esercizi dell'esonero di algoritmi.md",
+    "introduzione agli algoritmi/nomenclatura degli alberi.md",
+    "introduzione agli algoritmi/insertion sort.md",
+    "interdisciplinare/struttura dati.md",
     "introduzione agli algoritmi/algoritmi utili sulle strutture dati.md",
     "introduzione agli algoritmi/introduzione agli algoritmi.md",
-    "introduzione agli algoritmi/implementazioni degli alberi binari.md",
-    "introduzione agli algoritmi/mergesort.md",
     "introduzione agli algoritmi/bucket sort.md",
-    "interdisciplinare/albero.md",
-    "introduzione agli algoritmi/nomenclatura degli alberi.md",
     "introduzione agli algoritmi/counting sort.md",
     "introduzione agli algoritmi/selection sort.md",
-    "introduzione agli algoritmi/ricerca binaria.md",
-    "introduzione agli algoritmi/bubble sort.md",
-    "introduzione agli algoritmi/algoritmi di ordinamento.md",
-    "introduzione agli algoritmi/notazione Theta.md",
-    "calcolo integrale/EDO lineari del primo ordine.md",
-    "introduzione agli algoritmi/insertion sort.md",
-    "calcolo integrale/equazioni differenziali.md",
-    "interdisciplinare/funzione.md",
-    "introduzione agli algoritmi/complessità spaziale.md",
-    "progettazione di sistemi digitali/registri.md",
-    "metodologie di programmazione/campi.md",
     "architettura degli elaboratori/Pasted image 20250518120936.png",
     "architettura degli elaboratori/Pasted image 20250518120836.png",
     "architettura degli elaboratori/Pasted image 20250518120828.png",

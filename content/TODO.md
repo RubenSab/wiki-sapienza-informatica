@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-05-26T17:23:10.428+02:00
+updated_at: 2025-05-27T13:05:36.374+02:00
 ---
 ## Esonero di calcolo integrale 30 maggio
 
@@ -14,17 +14,17 @@ updated_at: 2025-05-26T17:23:10.428+02:00
 ## Esonero di algoritmi 29 maggio
 
 - [x] ricerca binaria su liste
-- Algoritmi di sorting:
-	- naive:
+- [x] Algoritmi di sorting:
+	- [x] naive:
 		- [x] selection
 		- [x] insertion
 		- [x] bubble
-	- non naive:
+	- [x] non naive:
 		- [x] counting
 		- [x] bucket
 		- [x] merge
 		- [x] quick
-		- [ ] heap
+		- [x] heap
 - Strutture dati: implementazioni + algoritmi
 	- [x] array
 	- [x] liste di python
@@ -44,10 +44,10 @@ updated_at: 2025-05-26T17:23:10.428+02:00
 	- [x] queue
 		- [x] con liste
 		- [x] con linked list
-	- [ ] dizionari
-		- [ ] implementazione con alberi di ricerca
-		- [ ] implementazione con hash table
-	- [ ] alberi
+	- [x] dizionari
+		- [x] implementazione con alberi di ricerca, left = None
+		- [x] implementazione con hash table
+	- [x] alberi
 		- [x] nomenclatura
 		- [x] vettore dei padri
 		- [x] array
@@ -61,5 +61,5 @@ updated_at: 2025-05-26T17:23:10.428+02:00
 			- [x] altezza
 			- [x] conta nodi a livello
 			- [x] livello minimo foglie
-		- [ ] alberi di ricerca
-	- [ ] heap
+		- [x] alberi di ricerca
+	- [x] heap

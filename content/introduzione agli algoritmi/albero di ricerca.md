@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-05-23T12:01:24.762+02:00
+updated_at: 2025-05-27T10:37:51.497+02:00
 ---
 > È un albero binario in cui per ogni nodo le chiavi del sottoalbero sinistro sono minori della chiave del nodo corrente e quelle del sottoalbero destro sono più grandi. Non possono esserci duplicati.
 
@@ -34,7 +34,25 @@ def ricerca_ricorsiva(nodo, query):
 
 ## Inserimento
 
-#todo
+``` python
+def inserimento(nodo, to_add):
+
+    if nodo is None:
+        return Nodo(to_add)
+
+    if to_add < nodo.key:
+        if nodo.left is None:
+            nodo.left = Nodo(to_add)
+        else:
+            inserimento(nodo.left, to_add)
+    elif to_add > nodo.key:
+        if nodo.right is None:
+            nodo.right = Nodo(to_add)
+        else:
+            inserimento(nodo.right, to_add)
+    # If to_add == nodo.key: non fare niente (no duplicati)
+    return nodo
+```
 
 ## Cancellazione
 
