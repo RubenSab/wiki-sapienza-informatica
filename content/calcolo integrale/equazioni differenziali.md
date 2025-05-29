@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-05-28T20:44:04.163+02:00
+updated_at: 2025-05-29T22:55:21.214+02:00
 ---
 > Sono le equazioni che legano una [[funzione]] incognita alle sue [[derivate]]. Se la funzione ha una **sola variabile indipendente** ($x$) e ha **soltanto derivate ordinarie** (primo, secondo grado etc.) è detta *ordinaria* (**EDO**), se invece la funzione ha più variabili e l'equazione contiene derivate parziali della funzione, è detta *equazione differenziale delle derivate parziali*.
 
@@ -11,6 +11,12 @@ Con $C^{1} = \{f: I\to \mathbb{R} \text{ derivabili, con } f': I\to \mathbb{R} \
 *(^ info da Wikipedia)*
 
 > Un'equazione differenziale si dice *omogenea* **se non ha il termine noto** (omogeneità come proprietà della linearità) e se **non contiene termini che dipendono dalla funzione incognita o dalle sue derivate** (omogeneità come proprietà di linearità).
+
+> In questo corso si parla **solo** di equazioni differenziali ordinarie, in particolare:
+
+- [[EDO lineari del primo ordine]]
+- [[EDO non lineari del primo ordine a variabili separabili]]
+- [[EDO del secondo ordine]]
 
 # Soluzioni delle EDO
 
@@ -33,9 +39,3 @@ Esempio di non omogenea di secondo ordine:
 $$
 e^{x}\cdot f''(x) + 2\cdot f(x) + \tan(x) = 0
 $$
-
-> In questo corso si parla **solo** di equazioni differenziali ordinarie, in particolare:
-
-- [[EDO lineari del primo ordine]]
-- [[EDO non lineari del primo ordine a variabili separabili]]
-- [[EDO del secondo ordine]]

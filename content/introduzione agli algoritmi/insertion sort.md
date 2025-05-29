@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-05-25T22:08:59.685+02:00
+updated_at: 2025-05-29T14:01:01.636+02:00
 ---
 > L'Insertion Sort è un algoritmo di ordinamento che funziona come quando ordiniamo carte da gioco in mano:
 

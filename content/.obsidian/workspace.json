@@ -20,13 +20,13 @@
             }
           },
           {
-            "id": "ab8ad2ca6f23f54c",
+            "id": "47b6e4e9cef4e70f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "introduzione agli algoritmi/bucket sort.md",
-                "mode": "source",
+                "file": "calcolo integrale/EDO del secondo ordine.md",
+                "mode": "preview",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -40,35 +40,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "bucket sort"
+              "title": "EDO del secondo ordine"
             }
           },
           {
-            "id": "5ff2c6d08cf21f2b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "introduzione agli algoritmi/bucket sort.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "bucket sort"
-            }
-          },
-          {
-            "id": "bf4b8f7d8593ad22",
+            "id": "fbc631dcb63ba85b",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -90,33 +66,9 @@
               "icon": "lucide-file",
               "title": "algoritmi di ordinamento"
             }
-          },
-          {
-            "id": "5331f28d6278bcff",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "introduzione agli algoritmi/master theorem.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "master theorem"
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -273,23 +225,26 @@
       "3d-graph-new:Global 3D Graph": false
     }
   },
-  "active": "5331f28d6278bcff",
+  "active": "47b6e4e9cef4e70f",
   "lastOpenFiles": [
-    "introduzione agli algoritmi/counting sort.md",
     "introduzione agli algoritmi/algoritmi di ordinamento.md",
-    "introduzione agli algoritmi/bucket sort.md",
-    "introduzione agli algoritmi/quick sort.md",
-    "interdisciplinare/heap.md",
-    "heap sort.md",
     "introduzione agli algoritmi/merge sort.md",
-    "introduzione agli algoritmi/insertion sort.md",
     "introduzione agli algoritmi/selection sort.md",
     "introduzione agli algoritmi/bubble sort.md",
     "calcolo integrale/EDO del secondo ordine.md",
+    "calcolo integrale/equazioni differenziali.md",
     "calcolo integrale/EDO lineari del primo ordine.md",
+    "interdisciplinare/funzione.md",
+    "introduzione agli algoritmi/bucket sort.md",
+    "progettazione di sistemi digitali/automa a stati finiti (finite state automata).md",
+    "introduzione agli algoritmi/counting sort.md",
+    "heap sort.md",
+    "interdisciplinare/heap.md",
+    "introduzione agli algoritmi/insertion sort.md",
+    "introduzione agli algoritmi/master theorem.md",
+    "introduzione agli algoritmi/quick sort.md",
     "pietronci.md",
     "Untitled.md",
-    "calcolo integrale/equazioni differenziali.md",
     "calcolo integrale/calcolo integrale.md",
     "calcolo integrale/EDO non lineari del primo ordine a variabili separabili.md",
     "www.youtube.com/watch?v=Egbkmof2B1Q&list=PLpkXLf6Zhdx3pIZBHY5dMpqNmWZ_aeB-K&index=3&t=249s.md",
@@ -299,9 +254,6 @@
     "metodologie di programmazione/UML (Unified Modeling Language).md",
     "introduzione agli algoritmi/notazione O-grande.md",
     "interdisciplinare/albero.md",
-    "introduzione agli algoritmi/implementazioni degli alberi binari.md",
-    "interdisciplinare/linked list.md",
-    "progettazione di sistemi digitali/automa a stati finiti (finite state automata).md",
     "architettura degli elaboratori/Pasted image 20250518120936.png",
     "architettura degli elaboratori/Pasted image 20250518120836.png",
     "architettura degli elaboratori/Pasted image 20250518120828.png",

@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-05-29T09:21:09.050+02:00
+updated_at: 2025-05-29T23:19:22.798+02:00
 ---
 # Lista degli algoritmi principali
 
@@ -9,9 +9,9 @@ updated_at: 2025-05-29T09:21:09.050+02:00
 
 | Algoritmo naive    | Caso migliore           | Caso medio | Caso peggiore | Lista già ordinata      | [[Complessità spaziale]] |
 | ------------------ | ----------------------- | ---------- | ------------- | ----------------------- | ------------------------ |
-| [[Bubble sort]]    | $O(n)$ (se ottimizzato) | $O(n^2)$   | $O(n^2)$      | $O(n)$ (se ottimizzato) | $O(1)$                   |
-| [[Selection sort]] | $O(n^2)$                | $O(n^2)$   | $O(n^2)$      | $O(n^2)$                | $O(1)$                   |
-| [[Insertion sort]] | $O(n)$                  | $O(n^2)$   | $O(n^2)$      | $O(n)$                  | $O(1)$                   |
+| [[bubble sort]]    | $O(n)$ (se ottimizzato) | $O(n^2)$   | $O(n^2)$      | $O(n)$ (se ottimizzato) | $O(1)$                   |
+| [[selection sort]] | $O(n^2)$                | $O(n^2)$   | $O(n^2)$      | $O(n^2)$                | $O(1)$                   |
+| [[insertion sort]] | $O(n)$                  | $O(n^2)$   | $O(n^2)$      | $O(n)$                  | $O(1)$                   |
 
 ## Algoritmi non naive
 
@@ -19,11 +19,12 @@ updated_at: 2025-05-29T09:21:09.050+02:00
 
 | Algoritmo         | Caso Migliore | Caso Medio    | Caso Peggiore | Lista Ordinata | Complessità Spaziale |
 | ----------------- | ------------- | ------------- | ------------- | -------------- | -------------------- |
-| [[Merge sort]]    | $O(n \log n)$ | $O(n \log n)$ | $O(n \log n)$ | $O(n \log n)$  | $O(n)$               |
-| [[Quick sort]]    | $O(n \log n)$ | $O(n \log n)$ | $O(n^2)$      | $O(n \log n)$  | $O(\log n)$          |
-| [[Heap sort]]     | $O(n \log n)$ | $O(n \log n)$ | $O(n \log n)$ | $O(n \log n)$  | $O(1)$               |
-| [[Counting sort]] | $O(n + k)$    | $O(n + k)$    | $O(n + k)$    | $O(n + k)$     | $O(k)$               |
-
+| [[merge sort]]    | $O(n \log n)$ | $O(n \log n)$ | $O(n \log n)$ | $O(n \log n)$  | $O(n)$               |
+| [[quick sort]]    | $O(n \log n)$ | $O(n \log n)$ | $O(n^2)$      | $O(n \log n)$  | $O(\log n)$          |
+| [[heap sort]]     | $O(n \log n)$ | $O(n \log n)$ | $O(n \log n)$ | $O(n \log n)$  | $O(n)$               |
+| [[bucket sort]]   | \*            | \*            | \*            | \*             | $O(n + k)$           |
+| [[counting sort]] | $O(n + k)$    | $O(n + k)$    | $O(n + k)$    | $O(n + k)$     | $O(k)$               |
+\* la [[complessità temporale]] del Bucket sort è sempre la somma delle complessità degli ordinamenti dei singoli bucket.
 # *Lower bound* dell'ordinamento
 
 Si può dimostrare che il *lower bound* della [[complessità temporale]] degli [[algoritmo|algoritmi]] di ordinamento (caso pessimo al di sotto del quale nessun algoritmo di ordinamento basato su confronti fra coppie di elementi possa andare) è $\Theta(n \cdot \log{n})$.
