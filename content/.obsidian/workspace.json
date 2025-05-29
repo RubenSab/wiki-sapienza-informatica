@@ -20,13 +20,13 @@
             }
           },
           {
-            "id": "928df1f9dc843ec2",
+            "id": "2ea7f1316e0da4ee",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "calcolo integrale/EDO del secondo ordine.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -200,12 +200,12 @@
       "3d-graph-new:Global 3D Graph": false
     }
   },
-  "active": "928df1f9dc843ec2",
+  "active": "2ea7f1316e0da4ee",
   "lastOpenFiles": [
+    "calcolo integrale/EDO del secondo ordine.md",
     "introduzione agli algoritmi/algoritmi di ordinamento.md",
     "introduzione agli algoritmi/heap sort.md",
     "calcolo integrale/equazioni differenziali.md",
-    "calcolo integrale/EDO del secondo ordine.md",
     "introduzione agli algoritmi/merge sort.md",
     "introduzione agli algoritmi/selection sort.md",
     "introduzione agli algoritmi/bubble sort.md",

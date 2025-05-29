@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-05-29T23:32:12.502+02:00
+updated_at: 2025-05-29T23:34:44.020+02:00
 ---
 > Queste [[equazioni differenziali#EDO lineari|EDO lineari]] contengono la [[derivate|derivata]] di secondo ordine e possono contenere anche quella di primo ordine; per classificarle si fa riferimento ai **coefficienti** della [[funzione]] e della derivata, che possono essere costanti o variabili, e alla loro **omogeneità** o non omogeneità.
 
@@ -16,10 +16,14 @@ e si risolvono in modo diverso in base alla *molteplicità* (numero di soluzioni
 Esistono 3 possibili casi e ad ognuno di questi corrisponde una famiglia di soluzioni diverse dell'[[equazioni differenziali|equazione differenziale]]:
 ## $P$ ha 2 soluzioni reali e distinte
 
-$$\lambda_{1},\ \lambda_{2} \in \mathbb{R},\ \lambda_{1} \neq \lambda_{2} \to \boxed{ y(t) = c_{1}e^{\lambda_{1}t} + c_{1}e^{\lambda_{2}t} }$$
+$$
+\lambda_{1},\ \lambda_{2} \in \mathbb{R},\ \lambda_{1} \neq \lambda_{2} \to \boxed{ y(t) = c_{1}e^{\lambda_{1}t} + c_{1}e^{\lambda_{2}t} }
+$$
 ## $P$ ha 2 soluzioni reali e coincidenti
 
-$$\lambda_{1},\ \lambda_{2} \in \mathbb{R},\ \lambda_{1} = \lambda_{2} = \lambda \to \boxed{ y(t) = c_{1}e^{\lambda t} + t\cdot c_{1}e^{\lambda t} }$$
+$$
+\lambda_{1},\ \lambda_{2} \in \mathbb{R},\ \lambda_{1} = \lambda_{2} = \lambda \to \boxed{ y(t) = c_{1}e^{\lambda t} + t\cdot c_{1}e^{\lambda t} }
+$$
 ## $P$ non ha soluzioni reali, ma solo complesse (e coniugate)
 
 Se il determinante è negativo
