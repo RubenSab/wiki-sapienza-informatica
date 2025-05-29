@@ -20,7 +20,7 @@
             }
           },
           {
-            "id": "47b6e4e9cef4e70f",
+            "id": "928df1f9dc843ec2",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -41,30 +41,6 @@
               },
               "icon": "lucide-file",
               "title": "EDO del secondo ordine"
-            }
-          },
-          {
-            "id": "fbc631dcb63ba85b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "introduzione agli algoritmi/algoritmi di ordinamento.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "algoritmi di ordinamento"
             }
           }
         ],
@@ -108,8 +84,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 229.5094871520996,
-    "collapsed": true
+    "width": 229.5094871520996
   },
   "right": {
     "id": "26b38658cac3fe47",
@@ -225,20 +200,20 @@
       "3d-graph-new:Global 3D Graph": false
     }
   },
-  "active": "47b6e4e9cef4e70f",
+  "active": "928df1f9dc843ec2",
   "lastOpenFiles": [
     "introduzione agli algoritmi/algoritmi di ordinamento.md",
+    "introduzione agli algoritmi/heap sort.md",
+    "calcolo integrale/equazioni differenziali.md",
+    "calcolo integrale/EDO del secondo ordine.md",
     "introduzione agli algoritmi/merge sort.md",
     "introduzione agli algoritmi/selection sort.md",
     "introduzione agli algoritmi/bubble sort.md",
-    "calcolo integrale/EDO del secondo ordine.md",
-    "calcolo integrale/equazioni differenziali.md",
     "calcolo integrale/EDO lineari del primo ordine.md",
     "interdisciplinare/funzione.md",
     "introduzione agli algoritmi/bucket sort.md",
     "progettazione di sistemi digitali/automa a stati finiti (finite state automata).md",
     "introduzione agli algoritmi/counting sort.md",
-    "heap sort.md",
     "interdisciplinare/heap.md",
     "introduzione agli algoritmi/insertion sort.md",
     "introduzione agli algoritmi/master theorem.md",
