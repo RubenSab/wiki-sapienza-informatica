@@ -1,7 +1,7 @@
 ---
-updated_at: 2025-05-25T21:40:35.910+02:00
+updated_at: 2025-05-28T20:45:45.349+02:00
 ---
-> Queste [[equazioni differenziali#EDO lineari|EDO lineari]] contengono solo la [[derivate|derivata]] di primo ordine, per classificarle si fa riferimento ai **coefficienti** della [[funzione]] e della derivata, che possono essere costanti o variabili, e alla loro **omogeneità** o non omogeneità.
+> Queste [[equazioni differenziali#EDO lineari|EDO lineari]] contengono solo la [[derivate|derivata]] di primo ordine; per classificarle si fa riferimento ai **coefficienti** della [[funzione]] e della derivata, che possono essere costanti o variabili, e alla loro **omogeneità** o non omogeneità.
 
 Per questo esistono 4 categorie:
 

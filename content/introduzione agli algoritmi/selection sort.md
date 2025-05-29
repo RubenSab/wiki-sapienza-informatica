@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-05-25T22:15:26.861+02:00
+updated_at: 2025-05-29T09:44:51.841+02:00
 ---
 > L'idea è di far crescere a sinistra la parte ordinata dell'array trovando ripetutamente l'elemento minimo della parte non ordinata e spostandolo all'inizio della parte non ordinata.
 
@@ -8,9 +8,10 @@ Una sua particolarità è avere il numero di confronti/scambi fisso.
 
 1. Divide l'array in due parti, ordinata (inizialmente vuota) e non ordinata.
 2. Ad ogni iterazione:
-	1. trova l'elemento minimo nella parte non ordinata,
-	2. lo scambia con il primo elemento della parte non ordinata,
-	3. espande la parte ordinata includendo il nuovo elemento.
+	1. considera l'elemento alla posizione i come minimo,
+	2. cerca l'elemento minimo nella parte non ordinata,
+	3. lo scambia con il primo elemento della parte non ordinata,
+	4. espande la parte ordinata includendo il nuovo elemento.
 
 # Complessità
 

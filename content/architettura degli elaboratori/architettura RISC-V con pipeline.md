@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-05-18T12:09:38.983+02:00
+updated_at: 2025-05-28T18:32:35.879+02:00
 ---
 > Si può ottimizzare l'[[architettura RISC-V a singolo colpo di clock e senza pipeline]] in quanto in ogni [[fasi dell'esecuzione di un'istruzione|fase dell'esecuzione delle istruzioni]] la [[CPU]] è inutilizzata per l'80%, perché le unità funzionali si attivano una alla volta. L'idea è di far eseguire contemporaneamente fasi diverse di più istruzioni (max 5) in modo che più unità funzionali possibili siano occupate in un determinato momento.
 
@@ -12,6 +12,7 @@ updated_at: 2025-05-18T12:09:38.983+02:00
 | 3          |     |     | IF  | ID  | EXE | MEM | WB  |     |     |
 | 4          |     |     |     | IF  | ID  | EXE | MEM | WB  |     |
 | 5          |     |     |     |     | IF  | ID  | EXE | MEM | WB  |
+
 La fase *Instruction Fetch* si può sovrapporre alla fase *Instruction Decode*, cioè possiamo calcolare il prossimo valore del PC (+=4) senza sapere di che tipo è la prossima istruzione, perché in **[[RISC-V]] tutte le istruzioni hanno la stessa lunghezza**.
 
 > Questa sovrapposizione delle fasi può introdurre delle criticità, dette [[hazard]].

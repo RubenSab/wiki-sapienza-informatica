@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-05-20T15:41:05.017+02:00
+updated_at: 2025-05-28T20:44:04.163+02:00
 ---
 > Sono le equazioni che legano una [[funzione]] incognita alle sue [[derivate]]. Se la funzione ha una **sola variabile indipendente** ($x$) e ha **soltanto derivate ordinarie** (primo, secondo grado etc.) è detta *ordinaria* (**EDO**), se invece la funzione ha più variabili e l'equazione contiene derivate parziali della funzione, è detta *equazione differenziale delle derivate parziali*.
 
@@ -38,3 +38,4 @@ $$
 
 - [[EDO lineari del primo ordine]]
 - [[EDO non lineari del primo ordine a variabili separabili]]
+- [[EDO del secondo ordine]]

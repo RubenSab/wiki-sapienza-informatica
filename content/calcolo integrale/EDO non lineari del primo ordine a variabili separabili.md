@@ -1,22 +1,32 @@
 ---
-updated_at: 2025-05-20T15:46:50.518+02:00
+updated_at: 2025-05-28T18:49:40.583+02:00
 ---
 > Le [[equazioni differenziali]] a variabili separabili sono equazioni differenziali del primo ordine non lineari del tipo
 
-$$y'(t)=a(t)\cdot b(y(t))$$
+$$y'(x)=a(x)\cdot b(y(x))$$
+# Procedimento risolutivo
 
-Se esiste un $y_{0}: b(y_{0})=0$ allora $y(t) = y_{0}$ è la soluzione dell'equazione. Tali soluzioni sono dette **soluzioni stazionarie**.
+*È consigliato usare la notazione compatta $y(x)=y$, $y'(x)=y'$ ed esplicitarla solo alla fine.*
+## 0. Controllare l'esistenza delle soluzioni costanti
 
-Una volta trovate queste bisogna trovare le altre. Per ogni altra soluzione non stazionaria avremo $b(y(t))\neq 0$, quindi possiamo dividere entrambi i membri per $b(y(t))$.
+Se esiste un $y_{0}: b(y_{0})=0$ allora $y(x) = y_{0}$ è la soluzione dell'equazione per annullamento del prodotto. Tali soluzioni sono dette **soluzioni costanti o stazionarie**.
 
-$$\frac{y'(t)}{b(y(t))}=a(t)$$
+$$
+b(y_{0}) = 0 \to y(x) = y_{0}
+$$
+## 1. Separare delle variabili
 
-Avendo assunto che $a(t)$ e $b(y(t))$ sono continue, si può integrare ambo i membri
+Si riscrive $y'$ come $\frac{dy}{dx}$, poi si portano da un lato dell'equazione tutto ciò che è in relazione alla $y$ e dall'altro quello che in relazione con la $x$.
 
-$$\int \frac{y'(t)}{b(y(t))}\ dt = \int a(t)\ dt$$Sapendo che $y'(t)\ dt = dy$ perché per la definizione di [[derivate|derivata]] $y'(t)=\frac{dy}{dt}$, possiamo riscrivere l'integrale come
-$$\int \frac{1}{b(y(t))}\ dy = \int a(t)\ dt$$
-A sinistra della variabile abbiamo la variabile $y(t)$ (o $y$ in base alle notazioni) e a destra abbiamo $t$: per questo queste equazioni si dicono **a variabili separabili**.
+$$
+\frac{dy}{dx} = a(x) \cdot b(y) \to \frac{dy}{b(y)}=a(x)dx
+$$
+## 2. Integrare ciascun membro alla variabile a cui dipende
 
-Arrivati qui basta risolvere i due integrali e scrivere la soluzione.
+Si integra il membro che ha $dy$ rispetto alla $y$ e il membro che ha $dx$ rispetto alla $x$, facendo attenzione ad aggiungere una costante arbitraria $c$ al membro della $x$.
 
-*(^ info prese da [youmath.it](https://www.youmath.it/lezioni/analisi-due/equazioni-differenziali/629-come-risolvere-le-equazioni-differenziali-a-variabili-separabili.html))*
+$$
+\int {\frac{dy}{b(y)}}= \int {a(x)dx} \to \ldots = \ldots + c
+$$
+
+*(^ info prese da [Elia Bombardelli](https://www.youtube.com/watch?v=Egbkmof2B1Q&list=PLpkXLf6Zhdx3pIZBHY5dMpqNmWZ_aeB-K&index=3&t=249s))*

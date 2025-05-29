@@ -37,4 +37,4 @@ updated_at: 2025-05-22T13:32:35.685+02:00
 - [[problemi di Cauchy]]
 - [[EDO lineari del primo ordine]]
 - [[EDO non lineari del primo ordine a variabili separabili]]
-- [[equazioni differenziali del secondo ordine]]
+- [[EDO del secondo ordine]]

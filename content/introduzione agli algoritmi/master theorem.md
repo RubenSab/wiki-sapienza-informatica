@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-04-13T19:32:26.451+02:00
+updated_at: 2025-05-29T11:56:49.191+02:00
 ---
 
 > Il teorema principale delle equazioni ricorrenti, o teorema dell'esperto, fornisce un metodo per determinare la complessità temporale di una famiglia di equazioni di ricorrenza nella forma
@@ -17,11 +17,13 @@ Per il caso $\Omega$ si deve verificare questa condizione$$\exists c < 1\ \text{
 
 ### Esempio di applicazione con la ricerca binaria
 
-$$T(n) =
+$$
+T(n) =
 \begin{cases}
 \Theta(1) & n=1\\
 T\left(\frac{n}{2}\right) + \Theta(1) & \text{altrimenti}
-\end{cases}$$
+\end{cases}
+$$
 - $a = 1$
 - $b=2$
 

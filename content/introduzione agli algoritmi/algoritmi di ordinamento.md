@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-04-14T09:12:15.585+02:00
+updated_at: 2025-05-29T09:21:09.050+02:00
 ---
 # Lista degli algoritmi principali
 
@@ -7,23 +7,23 @@ updated_at: 2025-04-14T09:12:15.585+02:00
 
 > Nonostante siano più i semplici, sia concettualmente sia per l'implementazione, sono anche i più inefficienti su grandi [[struttura dati|struttura dati]].
 
-| algoritmo          | complessità temporale | complessità spaziale |
-| ------------------ | --------------------- | -------------------- |
-| [[selection sort]] | $\Theta(n^{2})$       | $\Theta(1)$          |
-| [[insertion sort]] | $O(n^{2}), \Omega(n)$ | $\Theta(1)$          |
-| [[bubble sort]]    | $O(n^{2}), \Omega(n)$ | $\Theta(1)$          |
+| Algoritmo naive    | Caso migliore           | Caso medio | Caso peggiore | Lista già ordinata      | [[Complessità spaziale]] |
+| ------------------ | ----------------------- | ---------- | ------------- | ----------------------- | ------------------------ |
+| [[Bubble sort]]    | $O(n)$ (se ottimizzato) | $O(n^2)$   | $O(n^2)$      | $O(n)$ (se ottimizzato) | $O(1)$                   |
+| [[Selection sort]] | $O(n^2)$                | $O(n^2)$   | $O(n^2)$      | $O(n^2)$                | $O(1)$                   |
+| [[Insertion sort]] | $O(n)$                  | $O(n^2)$   | $O(n^2)$      | $O(n)$                  | $O(1)$                   |
 
 ## Algoritmi non naive
 
 > Essendo più complessi sono meno intuitivi, ma anche molto più veloci.
 
-| algoritmo         | complessità temporale         | complessità spaziale |
-| ----------------- | ----------------------------- | -------------------- |
-| [[counting sort]] | $O(n+k)$ (ordina solo interi) |                      |
-| [[bucket sort]]   |                               |                      |
-| [[mergesort]]     |                               |                      |
-| [[quicksort]]     |                               |                      |
-| [[heapsort]]      |                               |                      |
+| Algoritmo         | Caso Migliore | Caso Medio    | Caso Peggiore | Lista Ordinata | Complessità Spaziale |
+| ----------------- | ------------- | ------------- | ------------- | -------------- | -------------------- |
+| [[Merge sort]]    | $O(n \log n)$ | $O(n \log n)$ | $O(n \log n)$ | $O(n \log n)$  | $O(n)$               |
+| [[Quick sort]]    | $O(n \log n)$ | $O(n \log n)$ | $O(n^2)$      | $O(n \log n)$  | $O(\log n)$          |
+| [[Heap sort]]     | $O(n \log n)$ | $O(n \log n)$ | $O(n \log n)$ | $O(n \log n)$  | $O(1)$               |
+| [[Counting sort]] | $O(n + k)$    | $O(n + k)$    | $O(n + k)$    | $O(n + k)$     | $O(k)$               |
+
 # *Lower bound* dell'ordinamento
 
 Si può dimostrare che il *lower bound* della [[complessità temporale]] degli [[algoritmo|algoritmi]] di ordinamento (caso pessimo al di sotto del quale nessun algoritmo di ordinamento basato su confronti fra coppie di elementi possa andare) è $\Theta(n \cdot \log{n})$.
