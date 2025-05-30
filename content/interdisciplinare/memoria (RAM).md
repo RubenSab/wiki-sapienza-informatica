@@ -1,37 +1,14 @@
 ---
-updated_at: 2025-05-10T17:24:27.965+02:00
+updated_at: 2025-05-30T11:05:01.665+02:00
 ---
 > La Random Access Memory è il componente del [[architettura di Von Neumann|computer]] che ne costituisce la memoria volatile, cioè quella che immagazzina i dati temporanei (Random Access sta per accesso "istantaneo" a qualsiasi locazione).
 
-È divisa in:
+In [[RISC-V]] È divisa in due sezioni:
 - **memoria istruzioni**:
-	- input: indirizzo a 32 (in [[RISC-V]]) o 64 bit dello slot di cui è richiesta l'istruzione contenuta.
-	- output: istruzione da 32 o 64 bit contenuta nella posizione indicata dall'indirizzo di input.
+	- input: indirizzo a 32 (o 64 bit) dello slot di cui è richiesta l'istruzione contenuta.
+	- output: istruzione da 32 (o 64 bit) contenuta nella posizione indicata dall'indirizzo di input.
 - **memoria dati**:
 	- input:
-		- indirizzo a 32 o 64 bit dello slot di cui è richiesto il dato contenuto. (in caso di lettura)
+		- indirizzo a 32 (o 64 bit) dello slot di cui è richiesto il dato contenuto. (in caso di lettura)
 		- dato da scrivere (in caso di scrittura)
-	- output: dato da 32 o 64 bit contenuto nella posizione indicata dall'indirizzo di input.
-# Anatomia della memoria in Java
-
-Nella Java Virtual Machine, esistono due (+1) tipi di memoria:
-
-- lo **[[stack]]** dove vengono caricate le **[[variabile|variabili]] locali**, i **riferimenti** agli [[oggetto|oggetti]];
-- lo **heap**, dove vanno le aree di memoria allocate per la **creazione dinamica**;
-- la zona speciale di memoria nativa detta **metaspace**, che memorizza i [[campi]] static.
-
-## Cosa succede alla creazione di un oggetto?
-
-1. **Dichiarazione**: l'oggetto viene dichiarato, viene allocata una porzione di memoria nello **stack** che contiene un valore/stato indefinito.
-2. **Creazione**: l'oggetto viene creato a seguito dell'istruzione `new`, viene allocata un porzione di memoria nello **heap** che contiene lo stato di default (non ancora inizializzato) dell'oggetto. Es: `null` nel caso di oggetti, `0` nel caso di interi, `false` nel caso dei booleani, etc.
-3. **Assegnazione**: L'indirizzo di memoria della porzione dello heap viene memorizzata nella porzione di memoria dello stack, creando un **riferimento** (visualizzabile come una freccia) che parte da della cella nello stack e indica quella nello heap.
-
-## Cosa succede alla creazione di una variabile locale?
-
-1. **Dichiarazione**: La variabile viene dichiarata, viene allocata una porzione di memoria nello **stack** che contiene un valore/stato indefinito.
-2. **Inizializzazione**: La variabile viene inizializzata e la porzione dello **stack** allocata memorizza direttamente il valore inizializzato (senza riferimenti allo heap).
-
-## Cosa succede alla creazione di un campo static?
-
-> N.B.: Avviene prima della creazione degli oggetti della classe in cui il campo static è contenuto; inoltre esiste in una **singola** locazione di memoria, a differenza dei campi non static, memorizzati in locazioni diverse per ogni oggetto.
-
+	- output: dato da 32 (o 64 bit) contenuto nella posizione indicata dall'indirizzo di input.

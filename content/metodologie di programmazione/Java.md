@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-05-20T10:30:38.357+02:00
+updated_at: 2025-05-30T10:55:49.906+02:00
 ---
 - [[caratteristiche di Java]]
 # Elementi del linguaggio
@@ -38,7 +38,7 @@ updated_at: 2025-05-20T10:30:38.357+02:00
 - [[ereditarietà]]
 - [[polimorfismo]]
 - [[UML (Unified Modeling Language)]]
-- [[memoria (RAM)|anatomia della memoria]]
+- [[anatomia della memoria della JVM]]
 - [[analisi dello stato della memoria]]
 - [[Junit]]
 - [[design pattern]]
