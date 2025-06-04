@@ -1,8 +1,6 @@
 ---
-updated_at: 2025-05-29T11:54:37.884+02:00
+updated_at: 2025-06-01T15:12:46.270+02:00
 ---
-#todo
-
 ``` python
 def counting(lista):
 
@@ -19,9 +17,3 @@ def counting(lista):
 ```
 
 > N.B.: Può ordinare solo interi.
-
-l'inizializzazione non costa $O(n)$ ma $O(1)$, dipende dal massimo del vettore.
-
-incrementare i contatori costa $O(n)$ in totale.
-
-i due for annidati costano $O(k\cdot n)$, non $\Theta(k \cdot n)$ (in realtà costano $\Theta(k+n)$).

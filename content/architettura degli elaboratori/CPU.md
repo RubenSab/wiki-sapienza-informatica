@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-04-15T23:30:46.237+02:00
+updated_at: 2025-06-03T10:58:11.817+02:00
 ---
 > Secondo l'[[architettura di Von Neumann]], la **Central Processing Unit** è una [[automa a stati finiti (finite state automata)|macchina sequenziale]] che estrae le [[assembly RISC-V|istruzioni]] del programma dalla [[memoria (RAM)]] e le interpreta per mezzo della [[CU (Control Unit)]], la quale dirige gli altri componenti, che a loro volta le eseguono.
 
@@ -8,7 +8,7 @@ updated_at: 2025-04-15T23:30:46.237+02:00
 - **elementi [[algebra delle porte logiche e reti combinatorie|combinatori]]:** [[ALU]],
 - **[[elementi di stato (registri e RAM) dell'architettura RISC-V|elementi di stato]]**: [[registri]] interni (sensibili al fronte di salita del clock),
 - cache interna,
-- CU (unità di controllo) (Instruction decoder) che coordina essendo la sorgente di tutte le linee di selezione,
+- CU (unità di controllo) (Instruction decoder) che coordina l'esecuzione essendo la sorgente di tutte le linee di selezione, le quali attivano le unità funzionali,
 - [[PC (Program Counter)]] che contiene l'indirizzo dell'istruzione in esecuzione,
 - [[adder]] a 32 bit (in input e in output) per calcolare il PC, sia nel caso di un incremento (+4 byte -> +1 istruzione) che nel caso di un salto relativo,
 - [[bus]] di comunicazione tra registri, ALU e periferiche.

@@ -29,6 +29,13 @@
       }
     },
     {
+      "query": "path: \"introduzione agli algoritmi\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 9166930
+      }
+    },
+    {
       "query": "tag:todo",
       "color": {
         "a": 1,
@@ -62,13 +69,6 @@
         "a": 1,
         "rgb": 4294907
       }
-    },
-    {
-      "query": "path: \"introduzione agli algoritmi\"  ",
-      "color": {
-        "a": 1,
-        "rgb": 9166930
-      }
     }
   ],
   "collapse-display": false,
@@ -81,6 +81,6 @@
   "repelStrength": 16.0051282051282,
   "linkStrength": 0.682620759238239,
   "linkDistance": 202,
-  "scale": 0.277124188290012,
+  "scale": 0.03476503819773565,
   "close": true
 }

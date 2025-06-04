@@ -18,129 +18,8 @@
               "icon": "lucide-git-fork",
               "title": "Graph view"
             }
-          },
-          {
-            "id": "18689c60707e73e3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "metodologie di programmazione/eccezioni.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "eccezioni"
-            }
-          },
-          {
-            "id": "7fb203eb75f20f21",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "interdisciplinare/memoria (RAM).md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "memoria (RAM)"
-            }
-          },
-          {
-            "id": "70db989edc00c4de",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "metodologie di programmazione/anatomia della memoria della JVM.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "anatomia della memoria della JVM"
-            }
-          },
-          {
-            "id": "4576e8d92d5d2dea",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "interdisciplinare/memoria (RAM).md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "memoria (RAM)"
-            }
-          },
-          {
-            "id": "963393c19f943061",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "metodologie di programmazione/eccezioni.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "eccezioni"
-            }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "vertical"
@@ -180,8 +59,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 229.5094871520996,
-    "collapsed": true
+    "width": 229.5094871520996
   },
   "right": {
     "id": "26b38658cac3fe47",
@@ -197,7 +75,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "stallo",
+                "query": ".word",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -293,38 +171,38 @@
       "command-palette:Open command palette": false,
       "homepage:Open homepage": false,
       "timethings:Activate view": false,
-      "obsidian42-brat:BRAT": false,
       "3d-graph-new:Global 3D Graph": false
     }
   },
-  "active": "963393c19f943061",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "architettura degli elaboratori/assembly RISC-V.md",
-    "interdisciplinare/memoria (RAM).md",
-    "metodologie di programmazione/anatomia della memoria della JVM.md",
-    "metodologie di programmazione/Java.md",
-    "metodologie di programmazione/eccezioni.md",
-    "architettura degli elaboratori/data hazard.md",
+    "architettura degli elaboratori/architettura RISC-V a singolo colpo di clock e senza pipeline.md",
     "architettura degli elaboratori/RISC-V.md",
-    "architettura degli elaboratori/architettura RISC-V con pipeline.md",
-    "architettura degli elaboratori/control hazard.md",
-    "architettura degli elaboratori/forwarding.md",
-    "architettura degli elaboratori/hazard.md",
-    "progettazione di sistemi digitali/rotazione a destra e a sinistra di registri.md",
-    "interdisciplinare/funzione.md",
-    "architettura degli elaboratori/funzioni in RISC-V.md",
-    "architettura degli elaboratori/riordinamento delle istruzioni.md",
-    "calcolo integrale/EDO del secondo ordine.md",
-    "introduzione agli algoritmi/algoritmi di ordinamento.md",
-    "introduzione agli algoritmi/heap sort.md",
-    "calcolo integrale/equazioni differenziali.md",
-    "introduzione agli algoritmi/merge sort.md",
-    "introduzione agli algoritmi/selection sort.md",
-    "introduzione agli algoritmi/bubble sort.md",
-    "calcolo integrale/EDO lineari del primo ordine.md",
-    "introduzione agli algoritmi/bucket sort.md",
+    "architettura degli elaboratori/formati delle istruzioni.md",
+    "architettura degli elaboratori/fasi dell'esecuzione di un'istruzione.md",
+    "architettura degli elaboratori/CU (Control Unit).md",
+    "architettura degli elaboratori/elementi di stato (registri e RAM) dell'architettura RISC-V.md",
+    "architettura degli elaboratori/CPU.md",
+    "progettazione di sistemi digitali/bus.md",
+    "progettazione di sistemi digitali/algebra delle porte logiche e reti combinatorie.md",
     "progettazione di sistemi digitali/automa a stati finiti (finite state automata).md",
+    "architettura degli elaboratori/registri generali dell'architettura RISC-V.md",
+    "architettura degli elaboratori/differenze tra CISC e RISC, vantaggi di RISC.md",
+    "architettura degli elaboratori/assembly RISC-V.md",
+    "architettura degli elaboratori/modi di indirizzamento.md",
+    "architettura degli elaboratori/architettura di Von Neumann.md",
+    "progettazione di sistemi digitali/registri.md",
+    "progettazione di sistemi digitali/ASCII.md",
+    "progettazione di sistemi digitali/logic gates.png",
+    "architettura degli elaboratori/stringhe in RISC-V.md",
+    "architettura degli elaboratori/funzioni in RISC-V.md",
+    "interdisciplinare/funzione.md",
+    "architettura degli elaboratori/elenco di istruzioni RISC-V.md",
+    "architettura degli elaboratori/cicli in RISC-V.md",
     "introduzione agli algoritmi/counting sort.md",
+    "introduzione agli algoritmi/complessità temporale.md",
+    "introduzione agli algoritmi/esempi di algoritmi con diversa complessità.md",
+    "introduzione agli algoritmi/algoritmi di ordinamento.md",
     "www.youtube.com",
     "architettura degli elaboratori/Pasted image 20250518120936.png",
     "architettura degli elaboratori/Pasted image 20250518120836.png",
@@ -335,7 +213,6 @@
     "architettura degli elaboratori/Pasted image 20250517192141.png",
     "architettura degli elaboratori/Pasted image 20250517192118.png",
     "architettura degli elaboratori/Pasted image 20250513185631.png",
-    "architettura degli elaboratori/Pasted image 20250415132516.png",
     "progettazione di sistemi digitali/rete sequenziale generica.canvas",
     "Elementi di stato",
     "todo",

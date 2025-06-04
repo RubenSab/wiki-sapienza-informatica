@@ -1,7 +1,6 @@
 ---
-updated_at: 2025-05-26T16:18:11.244+02:00
+updated_at: 2025-06-01T15:12:35.049+02:00
 ---
-#todo
 ``` python
 def bucket(lista, n_buckets):
 
@@ -17,6 +16,3 @@ def bucket(lista, n_buckets):
     lista_ordinata = [elem for b in buckets for elem in b]
     return lista_ordinata
 ```
-
-$k=\Theta(n) \to k = c\cdot n$
-$\frac{n}{k} = \frac{n}{c \cdot n} = \frac{1}{c} = \Theta{(1)}$

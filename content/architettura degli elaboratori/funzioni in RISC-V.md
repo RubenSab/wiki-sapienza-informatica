@@ -1,72 +1,55 @@
 ---
-updated_at: 2025-03-20T23:23:53.875+01:00
+updated_at: 2025-06-01T15:33:54.081+02:00
 ---
-#todo 
-
 > Una [[funzione]] di codice è un frammento di codice che riceve degli argomenti e calcola un risultato, è utile per rendere il codice riusabile e modulare. 
 
 Le funzioni hanno:
-- un indirizzo di partenza,
-- più argomenti
-- la porzione di codice che esegue il calcolo
-- un risultato
 
-# chiamata a funzione
+- un indirizzo di partenza delle istruzioni,
+- degli argomenti,
+- la porzione di codice che esegue il calcolo
+- un risultato.
+
+# Cosa succede quando si chiama una funzione
 
 La funzione chiamante (anche il Main) esegue una procedura precisa per chiamare una funzione:
 
-- prepara gli argomenti,
-- chiama la funzione:
-	- salva il RA (Return Address),
-	- salva il FP (Frame pointer),
-	- salva i [[registri]],
-	- corpo della funzione,
-	- salva i risultati,
-	- ripristina RA e FP,
-	- torna al chiamante,
-- recupera i risultati,
-- rimuove gli argomenti.
+- Prepara gli argomenti (a0–a7)
+- Salva i temporanei (t0–t6) se servono dopo
+- Chiama la funzione con `call`
+- Recupera il risultato da a0
 
-# istruzioni necessarie per chiamare una funzione
+La funzione chiamata:
 
-Per chiamare la funzione/procedura:
+- Salva ra (Return Address) (se chiamerà altre funzioni)
+- Salva fp (Frame Pointer) e registra i callee-saved (s0–s11) se usati
+- Alloca lo stack frame se necessario
+- Esegue il corpo
+- Scrive il risultato in a0
+- Ripristina stack, fp, ra, [[registri generali dell'architettura RISC-V|registri]]
+- Ritorna con `ret`
 
-```
-jal etichettaFunzione
-```
+# Come chiamare e gestire una funzione
 
-Per tornare a continuare l'esecuzione della funzione chiamante:
+## Passaggio di argomenti
 
-```
-jalr ra (o la pseudoistruzione ret)
-```
-
-Come passare valori alla funzione: scrivere in \[a0; a7\]
-
-Come passare valori dalla funzione far scrivere alla funzione in \[a0; a1\]
-
-convenzioni:
-- [[registri generali dell'architettura RISC-V|t0, t1, ...]]: possono cambiare tra una chiamata e l'altra (temporary)
-- [[registri generali dell'architettura RISC-V|s0, s1, ...]]: non cambiano tra una chiamata e l'altra (saved)
-
-# esempi di funzione
-
-## aggiungere interi
+Usa le istruzioni di load (in base alla dimensione di dati: word, half word, byte + versioni unsigned, etc...) per caricare gli argomenti in `a0`...`a7`.
+## Chiamata
 
 ```
-.section .text
-.global add_numbers
-
-add_numbers:
-    add a0, a0, a1  # a0 = a0 + a1
-    ret             # Return to caller (equivalent to 'jalr ra, 0(ra)')
+jal etichettaFunzione # Salta alla funzione e salva il PC in ra
 ```
 
-## moltiplicare un intero a una costante
+Al posto di `jal` si può usare anche `call` che è identica.
+
+## Ritorno alla funzione chiamante
 
 ```
-mulint3:
-	li t0, 3
-	mul a0, a0, t0
-	ret
+jalr x0, 0(ra)     # Salta all'indirizzo salvato in ra
+```
+
+Oppure
+
+```
+ret                # Pseudoistruzione per `jalr x0, 0(ra)`
 ```

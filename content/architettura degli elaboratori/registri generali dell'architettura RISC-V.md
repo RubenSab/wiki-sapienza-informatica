@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-03-20T10:46:51.336+01:00
+updated_at: 2025-06-03T10:54:36.338+02:00
 ---
 > Nel set di istruzioni [[RISC-V]], i [[registri]] sono **32** e sono indicati come `x0` fino a `x31`. Ogni registro ha un nome convenzionale per facilitarne l'uso e un ruolo specifico.
 # Registri generali (`x0 - x31`)
@@ -56,9 +56,7 @@ updated_at: 2025-03-20T10:46:51.336+01:00
     - `gp`: puntatore ai dati globali
     - `tp`: usato per la gestione dei thread
 
----
-
-### **Uso nei programmi**
+## Uso nei programmi
 
 Esempio di funzione che somma due numeri:
 
@@ -69,12 +67,3 @@ add_function:
 ```
 
 Qui `a0` e `a1` contengono i parametri della funzione, e il risultato viene restituito in `a0`.
-
----
-
-### **Conclusione**
-
-- **32 registri** a uso generale, con nomi convenzionali per facilitarne l’uso.
-- Alcuni registri sono preservati tra chiamate (`sX`), altri no (`tX`).
-- `aX` per argomenti e valori di ritorno.
-- `sp`, `ra`, `zero`, `gp` e `tp` hanno ruoli speciali.

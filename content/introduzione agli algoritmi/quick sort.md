@@ -1,8 +1,6 @@
 ---
-updated_at: 2025-05-29T09:20:22.173+02:00
+updated_at: 2025-06-01T15:12:17.843+02:00
 ---
-#todo 
-
 # Pivot = primo elemento
 
 ``` python

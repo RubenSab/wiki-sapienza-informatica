@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-03-16T23:13:51.448+01:00
+updated_at: 2025-06-01T15:13:10.116+02:00
 ---
 # es1: complessità lineare "nascosta"
 
@@ -76,27 +76,6 @@ $$n \to \frac{n}{3} \to \frac{n}{3^{2}} \to \frac{n}{3^{3}} \to \ldots \to \frac
 Il programma si fermerà quando $n \approx 3^{i}$ -> $i \approx log_{3}{n}$, quindi la complessità sarà $O(log_{3}{n})$.
 
 ---
-# es5:
-
-``` python
-def es5(n):
-	
-	t = x = 1
-	
-	for i in range(n):
-		t = 3*t
-	
-	while t > x:
-		x += 2
-		t -= 2
-	
-	return x
-```
-
-#todo
-$n^3$ ^tr-t9kvgu4hp
-
----
 # es6:
 
 ``` python
@@ -125,26 +104,6 @@ def es7(n):
 
 La prima volta il for viene eseguito una volta, poi due volte, poi tre etc, perché ad ogni iterazione del while, il for si allunga di 1 iterazione, perché $t$ viene incrementato di uno.
 $$1+2+3+\ldots+n = \sum_{i=1}^{n}{i} = \frac{n(n+1)}{2} \in \Theta(n^{2})$$
----
-# es8:
-
-``` python
-def es8(n):
-	n = abs(n)
-	s = n = t
-	p = 0
-	while s >= 1:
-		s = s // 4
-		p += 1
-	while n - p > 0:
-		n -= p
-		t += 5
-	return t
-```
-
-- Il primo while ha complessità $log_{4}{n}$, perché $s=n$ e $s$ si divide ogni volta per 4.
-- La complessità del secondo while dipende da $p$, che nel while precedente aumenta sempre si uno, risultando quindi $\approx log_{4}{n}$. Adesso la condizione del while si può riscrivere come $n-p>0 \to n>p \to n>\log_{4}{n}$, cioè il ciclo si ferma quando $n \approx \log_{4}{n}$, quindi dura $\log_{4}{n}$ iterazioni. #todo 
-
 ---
 # es9:
 

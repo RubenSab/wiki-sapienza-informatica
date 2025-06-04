@@ -1,8 +1,6 @@
 ---
-updated_at: 2025-05-29T09:20:07.203+02:00
+updated_at: 2025-06-01T15:12:26.675+02:00
 ---
-#todo
-
 ``` python
 def merge(a1, a2):
 

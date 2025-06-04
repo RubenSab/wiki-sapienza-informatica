@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-04-15T12:27:26.905+02:00
+updated_at: 2025-06-03T10:37:22.799+02:00
 ---
 ### R-type (Register type)
 
@@ -10,14 +10,14 @@ updated_at: 2025-04-15T12:27:26.905+02:00
 | **n bit** | 7      | 5   | 5   | 3      | 5   | 7      |
 ### I-type (Immediate type)
 
-> Compiono operazioni immediate, cioè tra un registro e un valore costante codificato nell'espressione stessa (**imm**), operano con 2 [[registri]]. (1 argomento, 1 argomento costante e 1 risultato).
+> Compiono operazioni immediate, cioè tra un registro e un valore costante codificato nell'espressione stessa (**imm**), operano con 2 registri. (1 argomento, 1 argomento immediato e 1 risultato).
 
 | campo     | imm | rs1 | funct3 | rd  | opcode |
 | --------- | --- | --- | ------ | --- | ------ |
 | **n bit** | 12  | 5   | 3      | 5   | 7      |
 ### S-type (Store type)
 
-> Scrivono un registro nella memoria, operano con 3 registri. (2 argomenti, 2 argomenti costanti e 1 risultato)
+> Scrivono un registro nella memoria, operano con 3 registri. (2 argomenti, 1 argomento immediato e 1 risultato)
 
 | campo     | ultimi 7 bit di imm | rs2 | rs1 | funct3 | primi 5 bit di imm | opcode |
 | --------- | ------------------- | --- | --- | ------ | ------------------ | ------ |
@@ -37,7 +37,7 @@ La posizione a cui si deve saltare è codificata [[PC (Program Counter)]] + imme
 Esempio:
 
 ```
-beq s1, s2, c # se 
+beq s1, s2, fineLoop # s1 == s2 -> salta all'etichetta fineLoop
 ```
 
 ### U-type (Upper immediate instructions)

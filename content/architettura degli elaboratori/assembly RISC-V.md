@@ -1,7 +1,7 @@
 ---
-updated_at: 2025-04-15T22:22:10.671+02:00
+updated_at: 2025-06-03T10:40:15.308+02:00
 ---
-# Implementazioni di costrutti ad alto livello in Assembly RISC-V
+	# Implementazioni di costrutti ad alto livello in Assembly RISC-V
 
 - [[array]]
 - [[stringhe in RISC-V]]
@@ -14,18 +14,12 @@ updated_at: 2025-04-15T22:22:10.671+02:00
 - [[elenco di istruzioni RISC-V]]
 ## Com'è fatta un'istruzione?
 
-La codifica di un'istruzione deve indicare:
-
-- L'**OpCode**: quale operazione far svolgere alla [[CPU]] (e se necessario quale sotto-operazione va svolta),
-- Quali **argomenti** sono necessari,
-- Dove mettere il risultato
-
-Più nel dettaglio, ogni istruzione ha una lunghezza totale fissa di 32 bit, e in linea di massima (ma ci sono diversi [[formati delle istruzioni]]) ha come campi:
+Ogni istruzione ha una lunghezza totale fissa di 32 bit, e in linea di massima (ma ci sono diversi formati delle istruzioni) ha come campi:
 
 - **OpCode** (**7 bit**)(operation code): l'"etichetta" che codifica il tipo di operazione da eseguire,
 - **funct3** (**3 bit**): una parte aggiuntiva dell'OpCode nel caso esso non sia sufficiente a specificare l'operazione, non è adiacente all'OpCode,
 - **funct7** (**3 bit**): un'altra parte aggiuntiva dell'OpCode, non è adiacente all'OpCode,
-- **rs1** (**5 bit**): (first register source): l'indirizzo del registro in cui è memorizzato il primo argomento dell'istruzione,
+- **rs1** (**5 bit**): (first register source): l'indirizzo del [[registri|registro]] in cui è memorizzato il primo argomento dell'istruzione,
 - **rs2** (**5 bit**): (second register source): l'indirizzo del registro in cui è memorizzato il secondo argomento dell'istruzione,
 - **rd** (**5 bit**): (register destination): l'indirizzo del registro in cui va scritto il risultato dell'operazione.
 ### Formati delle istruzioni
@@ -36,7 +30,7 @@ Non tutte le istruzioni necessitano degli stessi campi, quindi si usano diversi 
 
 Sono istruzioni non implementate in hardware, ma che possono essere tradotte in istruzioni macchina, un modo compatto ed intuitivo per specificare un insieme di istruzioni o istruzioni ricorrenti.
 
-La traduzione in linguaggio macchina sono effettuate dall'assemblatore.
+La traduzione in linguaggio macchina è effettuata dall'assemblatore.
 
 ```
 mv x10, x11 → addi x10, x11, 0
@@ -45,7 +39,7 @@ li, x9, 123. → addi x9, x0, 123
 
 ### Modi di indirizzamento delle istruzioni
 
-I [[modi di indirizzamento]] sono le tecniche utilizzate dai processori per determinare il dato memorizzato in un indirizzo (in memoria o in un registro), dato un indirizzo e spesso anche un'offset (spiazzamento).
+I [[modi di indirizzamento]] sono le tecniche utilizzate dai processori per determinare il dato da utilizzare (contenuto in memoria o in un registro o immediato), dato un indirizzo e spesso anche un'offset (spiazzamento).
 
 ## Etichette (label)
 
@@ -76,16 +70,15 @@ Esempio: etichetta per dati in memoria
 
 ```
 .data
-message: 
-    .asciz "Hello, RISC-V!\n"
+message: .asciz "Hello, RISC-V!\n"
 
 .text
-    la a0, message  # Carica l'indirizzo di "message" in a0
+    la a0, message  # Carica l'indirizzo base di "message" in a0
 ```
 
 ## Direttive per l'assemblatore
 
-Indicano lo scopo delle varie sezioni del programma (quindi della parte della RAM che contiene le istruzioni del programma da eseguire).
+> Indicano lo scopo delle varie sezioni del programma (quindi della parte della RAM che contiene le istruzioni del programma da eseguire).
 
 | nome    | sezione                      |
 | ------- | ---------------------------- |
@@ -102,4 +95,24 @@ Indicano lo scopo delle varie sezioni del programma (quindi della parte della RA
 
 ^342042
 
-#todo
+> Sono delle richieste che il programma in esecuzione fa al sistema operativo.
+
+ Si preparano:
+ - mettendo nel registro `a7` il numero che identifica la chiamata
+ - Gli eventuali argomenti da mettere in `a0` e `a1`.
+
+Si eseguono con l'istruzione senza argomenti `ecall`: l'eventuale risultato andrà in `a0`.
+
+### Alcune SysCalls importanti
+
+| Syscall (a7) | Descrizione       | Argomenti (a0...)                                         | Risultato |
+| ------------ | ----------------- | --------------------------------------------------------- | --------- |
+| 1            | Stampa intero     | Intero in `a0`                                            | -         |
+| 5            | Leggi intero      | -                                                         | in `a0`   |
+| 4            | Stampa stringa    | Indirizzo base della stringa in `a0`                      | -         |
+| 8            | Leggi stringa     | indirizzo buffer in `a0`<br>e numero di caratteri in `a1` | in `a0`   |
+| 11           | Stampa carattere  | Carattere in `a0`                                         | -         |
+| 12           | Leggi carattere   | -                                                         | in `a0`   |
+| 10           | exit con `code 0` | -                                                         | -         |
+
+

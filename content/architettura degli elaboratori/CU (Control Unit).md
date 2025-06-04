@@ -1,7 +1,7 @@
 ---
-updated_at: 2025-05-13T18:10:17.132+02:00
+updated_at: 2025-06-03T11:11:38.278+02:00
 ---
-> È il componente della [[CPU]] (realizzato semplicemente con un [[decodificatore (DEC)]] non standard) che riceve in input l'*OpCode* delle [[assembly RISC-V|istruzioni]] e ha come output le linee di selezione delle unità funzionali della CPU, dirigendole.
+> È il componente della [[CPU]] (realizzato semplicemente con un [[decodificatore (DEC)]] non standard) che riceve in input l'*OpCode* delle [[assembly RISC-V|istruzioni]] e ha come output le linee di selezione delle varie unità funzionali.
 
 Esempio ([[architettura RISC-V a singolo colpo di clock e senza pipeline]]):
 
