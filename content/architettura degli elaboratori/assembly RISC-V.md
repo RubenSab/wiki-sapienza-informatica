@@ -1,7 +1,7 @@
 ---
-updated_at: 2025-06-03T10:40:15.308+02:00
+updated_at: 2025-06-04T17:02:46.634+02:00
 ---
-	# Implementazioni di costrutti ad alto livello in Assembly RISC-V
+# Implementazioni di costrutti ad alto livello in Assembly RISC-V
 
 - [[array]]
 - [[stringhe in RISC-V]]

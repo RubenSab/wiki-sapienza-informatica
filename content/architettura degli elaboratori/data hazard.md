@@ -1,6 +1,8 @@
 ---
-updated_at: 2025-05-30T09:51:05.049+02:00
+updated_at: 2025-06-04T17:31:18.381+02:00
 ---
+> N.B. I "data hazard" che coinvolgono la scrittura o lettura del [[registri generali dell'architettura RISC-V|registro generale]] `x0` non sono veri data hazard perché `x0` è read-only e immutabile, il suo valore è sempre 0.
+
 Esempio:
 
 ```
@@ -25,5 +27,3 @@ sub t2, s0, t3                  IF  [ID]  EX   MM  WB
 ```
 
 Questa è una possibile soluzione per risolvere il data hazard, ma una migliore usa il [[forwarding]]. Eventualmente si può anche usare il [[riordinamento delle istruzioni]].
-
-#todo aggiungere "scoprire un data hazard in EXE" slide 5 pdf 15

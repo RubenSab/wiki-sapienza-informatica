@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-05-30T10:54:05.152+02:00
+updated_at: 2025-06-04T17:07:15.212+02:00
 ---
 > Nella terminologia [[RISC-V]] un'**eccezione** è qualsiasi **cambiamento non previsto** dal flusso di controllo, mentre un'**interrupt** è un evento con **cause esterne**.
 
@@ -32,7 +32,7 @@ Se si tratta di una ecall bisogna **rispondere all'evento**, se si tratta di un 
 	- interruzione esterna (ID): si cancella l'istruzione in IF,
 	- istruzione non definita (ID): si cancella l'istruzione in IF.
 4. **scrivere la causa** dell’eccezione nel registro dedicato ***SCAUSE*** che controlla tutti i dispositivi associati all'exception code associato all'eccezione asserita. In alternativa si usano le **interruzioni vettorizzate**, in cui l'indirizzo del codice di gestione della risposta è direttamente determinato dal tipo di eccezione
-5. **salvare l’indirizzo** dell’istruzione responsabile,
+5. **salvare l’indirizzo** dell’istruzione responsabile dell'eccezione,
 6. **trasferire il controllo** all'indirizzo pre-assegnato.
 
 ### 2. Eseguire la routine di gestione dell'interruzione e tornare all'esecuzione del codice iniziale
@@ -40,7 +40,7 @@ Se si tratta di una ecall bisogna **rispondere all'evento**, se si tratta di un 
 1. Cambiare PC: occorre aggiungere al [[multiplexer (MUX)|MUX]] del PC un ingresso con l'indirizzo `0x1C090000` scritto nel registro ***STVEC*** (Supervisor Trap Vector). Il PC salterà a `0x1C090000` + 4 \* cause_code (contenuto in **SCAUSE**).
 2. Se possibile, si torna a eseguire il codice iniziale ripristinando lo stato della CPU e ripristinando il PC a **SEPC** (dove avevamo salvato il PC dell'istruzione erronea).
 
-#improve aggiungere gli input vettorizzati a pag 6 del pdf 18, aggiungere differenza tra input vettorizzati e approccio con SCAUSE
+#todo aggiungere gli input vettorizzati a pag 6 del pdf 18, aggiungere differenza tra input vettorizzati e approccio con SCAUSE
 ## Se l'eccezione proviene dal sistema operativo
 
 1. Esaminare la causa dell'eccezione,

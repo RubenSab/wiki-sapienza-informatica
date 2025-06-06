@@ -50,17 +50,17 @@
       }
     },
     {
-      "query": "path: \"metodologie di programmazione\"  ",
-      "color": {
-        "a": 1,
-        "rgb": 14731602
-      }
-    },
-    {
       "query": "path: \"architettura degli elaboratori\"  ",
       "color": {
         "a": 1,
         "rgb": 14713938
+      }
+    },
+    {
+      "query": "path: \"metodologie di programmazione\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 14731602
       }
     },
     {
@@ -81,6 +81,6 @@
   "repelStrength": 16.0051282051282,
   "linkStrength": 0.682620759238239,
   "linkDistance": 202,
-  "scale": 0.03476503819773565,
+  "scale": 0.06407082976243506,
   "close": true
 }

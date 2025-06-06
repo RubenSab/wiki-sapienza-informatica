@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-06-03T10:59:00.094+02:00
+updated_at: 2025-06-04T16:55:38.099+02:00
 ---
 > **Reduced Instruction Set Computers**: RISC-V è un'**A**rchitettura di **S**et di **I**struzioni (ISA) open-source, cioè un set minimo di istruzioni semplici che possiamo far eseguire al computer.
 
@@ -15,4 +15,4 @@ updated_at: 2025-06-03T10:59:00.094+02:00
 - [[aggiunta di una nuova istruzione]]
 - [[architettura RISC-V con pipeline]]
 - [[hazard]]
-- [[gestione delle eccezioni]]
+- [[eccezioni]]
