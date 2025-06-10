@@ -43,13 +43,6 @@
       }
     },
     {
-      "query": "path: \"interdisciplinare\"  ",
-      "color": {
-        "a": 1,
-        "rgb": 16777215
-      }
-    },
-    {
       "query": "path: \"architettura degli elaboratori\"  ",
       "color": {
         "a": 1,
@@ -69,6 +62,13 @@
         "a": 1,
         "rgb": 4294907
       }
+    },
+    {
+      "query": "path: \"interdisciplinare\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 16777215
+      }
     }
   ],
   "collapse-display": false,
@@ -81,6 +81,6 @@
   "repelStrength": 16.0051282051282,
   "linkStrength": 0.682620759238239,
   "linkDistance": 202,
-  "scale": 0.06407082976243506,
-  "close": true
+  "scale": 0.07493695686764121,
+  "close": false
 }

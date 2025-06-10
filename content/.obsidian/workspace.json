@@ -20,13 +20,13 @@
             }
           },
           {
-            "id": "4c7c73d0bcc7f6f6",
+            "id": "70d87c5a63a855c1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "architettura degli elaboratori/cache.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -42,9 +42,33 @@
               "icon": "lucide-file",
               "title": "cache"
             }
+          },
+          {
+            "id": "aa0e703d4c530e81",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "TODO.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "TODO"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -84,8 +108,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 229.5094871520996,
-    "collapsed": true
+    "width": 229.5094871520996
   },
   "right": {
     "id": "26b38658cac3fe47",
@@ -200,10 +223,26 @@
       "3d-graph-new:Global 3D Graph": false
     }
   },
-  "active": "4c7c73d0bcc7f6f6",
+  "active": "aa0e703d4c530e81",
   "lastOpenFiles": [
-    "architettura degli elaboratori/architettura degli elaboratori.md",
     "architettura degli elaboratori/cache.md",
+    "interdisciplinare/memoria (RAM).md",
+    "progettazione di sistemi digitali/registro contatore.md",
+    "metodi matematici per l'informatica/logica predicativa.md",
+    "metodi matematici per l'informatica/metodi matematici per l'informatica.md",
+    "metodologie di programmazione/eccezioni.md",
+    "progettazione di sistemi digitali/bus.md",
+    "progettazione di sistemi digitali/progettazione di sistemi digitali.md",
+    "architettura degli elaboratori/N-ways set associative cache.md",
+    "architettura degli elaboratori/fully associative cache.md",
+    "architettura degli elaboratori/direct mapped cache.md",
+    "metodologie di programmazione/tipi.md",
+    "progettazione di sistemi digitali/codice di Hamming.md",
+    "introduzione agli algoritmi/implementazioni degli alberi binari.md",
+    "progettazione di sistemi digitali/addizionatore a propagazione di riporto (ripple carry adder).md",
+    "progettazione di sistemi digitali/rotazione a destra e a sinistra di registri.md",
+    "architettura degli elaboratori/assembly RISC-V.md",
+    "architettura degli elaboratori/architettura degli elaboratori.md",
     "architettura degli elaboratori/architettura di Von Neumann.md",
     "architettura degli elaboratori/control hazard.md",
     "interdisciplinare/struttura dati.md",
@@ -211,25 +250,9 @@
     "architettura degli elaboratori/forwarding.md",
     "architettura degli elaboratori/hazard.md",
     "architettura degli elaboratori/Pasted image 20250604172652.png",
-    "metodologie di programmazione/eccezioni.md",
-    "architettura degli elaboratori/assembly RISC-V.md",
     "architettura degli elaboratori/RISC-V.md",
     "architettura degli elaboratori/architettura RISC-V a singolo colpo di clock e senza pipeline.md",
-    "architettura degli elaboratori/formati delle istruzioni.md",
-    "architettura degli elaboratori/fasi dell'esecuzione di un'istruzione.md",
-    "architettura degli elaboratori/CU (Control Unit).md",
-    "architettura degli elaboratori/elementi di stato (registri e RAM) dell'architettura RISC-V.md",
-    "architettura degli elaboratori/CPU.md",
-    "progettazione di sistemi digitali/bus.md",
-    "progettazione di sistemi digitali/algebra delle porte logiche e reti combinatorie.md",
-    "progettazione di sistemi digitali/automa a stati finiti (finite state automata).md",
-    "architettura degli elaboratori/registri generali dell'architettura RISC-V.md",
-    "architettura degli elaboratori/differenze tra CISC e RISC, vantaggi di RISC.md",
-    "architettura degli elaboratori/modi di indirizzamento.md",
-    "progettazione di sistemi digitali/registri.md",
-    "progettazione di sistemi digitali/ASCII.md",
     "progettazione di sistemi digitali/logic gates.png",
-    "architettura degli elaboratori/stringhe in RISC-V.md",
     "www.youtube.com",
     "architettura degli elaboratori/Pasted image 20250518120936.png",
     "architettura degli elaboratori/Pasted image 20250518120836.png",

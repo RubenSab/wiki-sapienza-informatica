@@ -1,3 +1,6 @@
+---
+updated_at: 2025-06-10T20:12:01.446+02:00
+---
 > Servono per cadenzare le attività di altri moduli. Non hanno un input perché i [[flip-flop]] reagiscono solo al fronte d'onda del clock.
 
 Possono essere **sincroni** o **asincroni**, non come i [[registri di memorizzazione]] che sono tutti sincroni.
@@ -7,6 +10,7 @@ Possono essere **sincroni** o **asincroni**, non come i [[registri di memorizzaz
 # contatori sincroni
 
 ## caratteristiche
+
 - Tutti i flip-flop ricevono il clock in **modo simultaneo**.
 - Non c'è effetto di propagazione del ritardo tra i flip-flop.
 - Più veloce rispetto al contatore asincrono.

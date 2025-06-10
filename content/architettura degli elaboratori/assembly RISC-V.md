@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-06-04T17:02:46.634+02:00
+updated_at: 2025-06-06T13:44:27.788+02:00
 ---
 # Implementazioni di costrutti ad alto livello in Assembly RISC-V
 
@@ -18,7 +18,7 @@ Ogni istruzione ha una lunghezza totale fissa di 32 bit, e in linea di massima (
 
 - **OpCode** (**7 bit**)(operation code): l'"etichetta" che codifica il tipo di operazione da eseguire,
 - **funct3** (**3 bit**): una parte aggiuntiva dell'OpCode nel caso esso non sia sufficiente a specificare l'operazione, non è adiacente all'OpCode,
-- **funct7** (**3 bit**): un'altra parte aggiuntiva dell'OpCode, non è adiacente all'OpCode,
+- **funct7** (**7 bit**): un'altra parte aggiuntiva dell'OpCode, non è adiacente all'OpCode,
 - **rs1** (**5 bit**): (first register source): l'indirizzo del [[registri|registro]] in cui è memorizzato il primo argomento dell'istruzione,
 - **rs2** (**5 bit**): (second register source): l'indirizzo del registro in cui è memorizzato il secondo argomento dell'istruzione,
 - **rd** (**5 bit**): (register destination): l'indirizzo del registro in cui va scritto il risultato dell'operazione.

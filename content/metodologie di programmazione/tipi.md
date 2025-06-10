@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-05-18T19:46:23.391+02:00
+updated_at: 2025-06-09T21:17:24.378+02:00
 ---
 > Un tipo di dati è un'insieme di valori e di operazioni definite su tali valori.
 
@@ -27,7 +27,7 @@ In [[metodologie di programmazione/Java]] sono:
 
 # Tipi derivati: [[oggetto|Oggetti]]
 
-> Al momento della creazione dell’oggetto i campi di una classe sono inizializzati automaticamente.
+> Al momento della creazione dell’oggetto i [[campi]] di una classe sono inizializzati automaticamente.
 
 | Tipo del campo | Inizializzato implicitamente a |
 | -------------- | ------------------------------ |
@@ -37,7 +37,7 @@ In [[metodologie di programmazione/Java]] sono:
 | boolean        | false                          |
 | classe X       | null                           |
 
-> N.B.: le inizializzazioni sono automatiche per i campi di una classe, ma NON per le variabili locali dei metodi.
+> N.B.: le inizializzazioni sono automatiche per i campi di una [[classe]], ma NON per le [[variabile]] locali dei [[metodo|metodi]].
 
 # [[tipi generici]]
 

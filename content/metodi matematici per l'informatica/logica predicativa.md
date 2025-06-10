@@ -1,2 +1,4 @@
+---
+updated_at: 2025-06-10T12:19:27.010+02:00
+---
 #todo
-- aumento della logica proposizionale (cose in più) ^tr-v213ehabc
