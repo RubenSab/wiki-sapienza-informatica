@@ -20,12 +20,12 @@
             }
           },
           {
-            "id": "70d87c5a63a855c1",
+            "id": "4a9f08d917d0348c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "architettura degli elaboratori/cache.md",
+                "file": "TODO.md",
                 "mode": "preview",
                 "source": false,
                 "backlinks": true,
@@ -40,16 +40,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "cache"
+              "title": "TODO"
             }
           },
           {
-            "id": "aa0e703d4c530e81",
+            "id": "08cf20d8dda36a10",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TODO.md",
+                "file": "calcolo integrale/equazioni differenziali.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -64,7 +64,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "TODO"
+              "title": "equazioni differenziali"
             }
           }
         ],
@@ -223,8 +223,14 @@
       "3d-graph-new:Global 3D Graph": false
     }
   },
-  "active": "aa0e703d4c530e81",
+  "active": "08cf20d8dda36a10",
   "lastOpenFiles": [
+    "calcolo integrale/equazioni differenziali.md",
+    "TODO.md",
+    "calcolo integrale/EDO del secondo ordine.md",
+    "calcolo integrale/calcolo integrale.md",
+    "architettura degli elaboratori/assembly RISC-V.md",
+    "architettura degli elaboratori/RISC-V.md",
     "architettura degli elaboratori/cache.md",
     "interdisciplinare/memoria (RAM).md",
     "progettazione di sistemi digitali/registro contatore.md",
@@ -241,17 +247,11 @@
     "introduzione agli algoritmi/implementazioni degli alberi binari.md",
     "progettazione di sistemi digitali/addizionatore a propagazione di riporto (ripple carry adder).md",
     "progettazione di sistemi digitali/rotazione a destra e a sinistra di registri.md",
-    "architettura degli elaboratori/assembly RISC-V.md",
     "architettura degli elaboratori/architettura degli elaboratori.md",
     "architettura degli elaboratori/architettura di Von Neumann.md",
     "architettura degli elaboratori/control hazard.md",
     "interdisciplinare/struttura dati.md",
-    "architettura degli elaboratori/data hazard.md",
-    "architettura degli elaboratori/forwarding.md",
-    "architettura degli elaboratori/hazard.md",
     "architettura degli elaboratori/Pasted image 20250604172652.png",
-    "architettura degli elaboratori/RISC-V.md",
-    "architettura degli elaboratori/architettura RISC-V a singolo colpo di clock e senza pipeline.md",
     "progettazione di sistemi digitali/logic gates.png",
     "www.youtube.com",
     "architettura degli elaboratori/Pasted image 20250518120936.png",
