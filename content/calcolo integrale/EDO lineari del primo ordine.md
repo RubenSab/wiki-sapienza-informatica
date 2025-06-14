@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-05-28T20:45:45.349+02:00
+updated_at: 2025-06-14T18:53:33.834+02:00
 ---
 > Queste [[equazioni differenziali#EDO lineari|EDO lineari]] contengono solo la [[derivate|derivata]] di primo ordine; per classificarle si fa riferimento ai **coefficienti** della [[funzione]] e della derivata, che possono essere costanti o variabili, e alla loro **omogeneità** o non omogeneità.
 
@@ -22,20 +22,20 @@ Questo è la dimostrazione che risolvendo questo tipo più complesso di EDO line
 
 $$y'(t)+a(t)y(t)=f(t)$$
 
-1. Sia $A(t)$ una **primitiva** di $a(t)$ *(NON $a(t)$ stesso!)*: moltiplichiamo tutti e due i lati dell'equazione per $e^{A(t)}$
+1. Sia $A(t)$ una **primitiva** di $a(t)$ *(NON $a(t)$ stesso!)*: moltiplichiamo tutti e due i lati dell'equazione per $e^{A(t)}$ (detto *fattore integrante*)
 
 $$e^{A(t)}\left( y'(t) + a(t)y(t) \right) = e^{A(t)}f(t)$$
 
 2. Distribuiamo $e^{A(t)}$
 $$y'(t)e^{A(t)}+a(t)y(t)e^{A(t)}=e^{A(t)}f(t)$$
 
-3. Riconosciamo il primo membro dell'equazione come la derivata di $e^{A(t)}y(t)$
+3. Riconosciamo il primo membro dell'equazione come la derivata di $e^{A(t)}y(t)$: **il fattore integrante per la funzione incognita**.
 $$\frac{d}{dt}(e^{A(t)}y(t))=e^{A(t)}f(t)$$
 
 4. Integriamo entrambi i lati dell'equazione
-$$\int {\frac{d}{ds}(e^{A(s)}y(s))}\ ds=\int {e^{A(t)}f(t)}\ ds + c$$
+$$\int {\frac{d}{ds}(e^{A(s)}y(s))}\ ds=\int {e^{A(s)}f(s)}\ ds + c$$
 5. Semplifichiamo il primo membro
-$$e^{A(t)}y(t)=\int {e^{A(t)}f(t)}\ ds + c$$
+$$e^{A(t)}y(t)=\int {e^{A(s)}f(s)}\ ds + c$$
 
 6. Dividiamo da entrambi i lati per $e^{A(t)}$, trovando la soluzione
 $$y(t)=\frac{\int {e^{A(t)}f(t)}\ ds}{e^{A(t)}} + \frac{c}{e^{A(t)}}$$

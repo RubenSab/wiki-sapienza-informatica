@@ -1,6 +1,8 @@
 ---
-updated_at: 2025-05-29T22:55:21.214+02:00
+updated_at: 2025-06-12T20:29:49.021+02:00
 ---
+- [[elenco di equazioni differenziali da risolvere]]
+
 > Sono le equazioni che legano una [[funzione]] incognita alle sue [[derivate]]. Se la funzione ha una **sola variabile indipendente** ($x$) e ha **soltanto derivate ordinarie** (primo, secondo grado etc.) è detta *ordinaria* (**EDO**), se invece la funzione ha più variabili e l'equazione contiene derivate parziali della funzione, è detta *equazione differenziale delle derivate parziali*.
 
 Se $f \in C^{1}(I), I\subseteq \mathbb{R}$ ($I$ è un intervallo e $C^{1}$ è una classe di funzioni)

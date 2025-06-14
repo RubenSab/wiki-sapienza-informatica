@@ -5,7 +5,7 @@
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": false,
-  "collapse-color-groups": false,
+  "collapse-color-groups": true,
   "colorGroups": [
     {
       "query": "path: \"metodi matematici per l'informatica\"",
@@ -71,16 +71,16 @@
       }
     }
   ],
-  "collapse-display": false,
+  "collapse-display": true,
   "showArrow": true,
   "textFadeMultiplier": -1.8,
   "nodeSizeMultiplier": 1.93058974358974,
   "lineSizeMultiplier": 1.4481282051282,
-  "collapse-forces": false,
+  "collapse-forces": true,
   "centerStrength": 0.422820512820513,
   "repelStrength": 16.0051282051282,
   "linkStrength": 0.682620759238239,
   "linkDistance": 202,
-  "scale": 0.2303032861219823,
+  "scale": 0.05335969080567854,
   "close": true
 }

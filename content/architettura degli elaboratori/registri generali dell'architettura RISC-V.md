@@ -1,8 +1,10 @@
 ---
-updated_at: 2025-06-03T10:54:36.338+02:00
+updated_at: 2025-06-13T14:00:48.065+02:00
 ---
 > Nel set di istruzioni [[RISC-V]], i [[registri]] sono **32** e sono indicati come `x0` fino a `x31`. Ogni registro ha un nome convenzionale per facilitarne l'uso e un ruolo specifico.
 # Registri generali (`x0 - x31`)
+
+#ai *(fact-checked)*
 
 | Registro | Nome    | Scopo                                                        |
 | -------- | ------- | ------------------------------------------------------------ |

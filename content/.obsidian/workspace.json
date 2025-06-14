@@ -20,36 +20,12 @@
             }
           },
           {
-            "id": "4a9f08d917d0348c",
+            "id": "6a33fb77d49e8af9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TODO.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "TODO"
-            }
-          },
-          {
-            "id": "08cf20d8dda36a10",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "calcolo integrale/equazioni differenziali.md",
+                "file": "calcolo integrale/elenco di equazioni differenziali da risolvere.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -64,7 +40,31 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "equazioni differenziali"
+              "title": "elenco di equazioni differenziali da risolvere"
+            }
+          },
+          {
+            "id": "8c302b81faa49208",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "calcolo integrale/EDO lineari del primo ordine.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "EDO lineari del primo ordine"
             }
           }
         ],
@@ -108,7 +108,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 229.5094871520996
+    "width": 229.5094871520996,
+    "collapsed": true
   },
   "right": {
     "id": "26b38658cac3fe47",
@@ -223,12 +224,18 @@
       "3d-graph-new:Global 3D Graph": false
     }
   },
-  "active": "08cf20d8dda36a10",
+  "active": "8c302b81faa49208",
   "lastOpenFiles": [
     "calcolo integrale/equazioni differenziali.md",
-    "TODO.md",
     "calcolo integrale/EDO del secondo ordine.md",
+    "calcolo integrale/elenco di equazioni differenziali da risolvere.md",
     "calcolo integrale/calcolo integrale.md",
+    "architettura degli elaboratori/registri generali dell'architettura RISC-V.md",
+    "calcolo differenziale/formulario completo del calcolo differenziale.md",
+    "calcolo integrale/EDO lineari del primo ordine.md",
+    "calcolo integrale/EDO non lineari del primo ordine a variabili separabili.md",
+    "calcolo integrale/formulario di calcolo integrale.md",
+    "TODO.md",
     "architettura degli elaboratori/assembly RISC-V.md",
     "architettura degli elaboratori/RISC-V.md",
     "architettura degli elaboratori/cache.md",
@@ -245,12 +252,6 @@
     "metodologie di programmazione/tipi.md",
     "progettazione di sistemi digitali/codice di Hamming.md",
     "introduzione agli algoritmi/implementazioni degli alberi binari.md",
-    "progettazione di sistemi digitali/addizionatore a propagazione di riporto (ripple carry adder).md",
-    "progettazione di sistemi digitali/rotazione a destra e a sinistra di registri.md",
-    "architettura degli elaboratori/architettura degli elaboratori.md",
-    "architettura degli elaboratori/architettura di Von Neumann.md",
-    "architettura degli elaboratori/control hazard.md",
-    "interdisciplinare/struttura dati.md",
     "architettura degli elaboratori/Pasted image 20250604172652.png",
     "progettazione di sistemi digitali/logic gates.png",
     "www.youtube.com",
