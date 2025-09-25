@@ -171,7 +171,8 @@
       "command-palette:Open command palette": false,
       "homepage:Open homepage": false,
       "timethings:Activate view": false,
-      "3d-graph-new:Global 3D Graph": false
+      "3d-graph-new:Global 3D Graph": false,
+      "github-sync:Sync with Remote": false
     }
   },
   "active": "e7a7b303c61786dc",
