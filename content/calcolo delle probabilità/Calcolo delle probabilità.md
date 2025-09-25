@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-09-24T13:46:04.954+02:00
+updated_at: 2025-09-25T20:52:58.823+02:00
 ---
 > La probabilità è lo studio matematico di esperimenti con diversi possibili esiti (aleatori cioè non deterministici).
 

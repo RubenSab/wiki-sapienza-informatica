@@ -21,6 +21,6 @@ updated_at: 2025-09-25T20:51:47.427+02:00
 # Secondo anno
 
 ## Primo semestre
-test
 
-- [[Calcolo delle probabililtà]]
+- [[Algebra lineare]]
+- [[Calcolo delle probabilità]]

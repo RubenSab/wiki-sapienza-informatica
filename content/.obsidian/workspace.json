@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "calcolo delle probabilità/Calcolo delle probabilità.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -40,7 +40,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "Calcolo delle probabilità"
             }
           }
         ],
@@ -239,8 +239,9 @@
       }
     ]
   },
-  "active": "6b36e9a938a7c537",
+  "active": "eb1df204a1f40295",
   "lastOpenFiles": [
+    "index.md",
     "interdisciplinare/inclusione e sottoinsiemi.md",
     "interdisciplinare/insieme delle parti.md",
     "interdisciplinare/operazioni fra gli insiemi.md",
@@ -263,8 +264,7 @@
     "calcolo delle probabilità/evento.md",
     "interdisciplinare/teoria degli insiemi.md",
     "interdisciplinare/algebra di Boole.md",
-    "calcolo delle probabilità/Calcolo delle probabililtà.md",
-    "index.md",
+    "calcolo delle probabilità/Calcolo delle probabilità.md",
     "calcolo delle probabilità",
     "progettazione di sistemi digitali/ASCII.md",
     "architettura degli elaboratori/elementi di stato (registri e RAM) dell'architettura RISC-V.md",
