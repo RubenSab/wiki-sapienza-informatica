@@ -1,10 +1,14 @@
+---
+updated_at: 2025-09-24T17:28:05.625+02:00
+---
 >L'insieme della parti è l'insieme di tutti i sottoinsiemi possibili di A.
 
 >N.B.: L'insieme delle parti **CONTIENE l'INSIEME CHE CONTIENE L'INSIEME VUOTO**: $\{ \emptyset \}$.
 
 Si scrive come P(A) = {x|x$\subseteq$A} oppure $2^A$.
 
-# dimostrazione della non [[cardinalità (o potenza)|numerabilità]] di $P(\mathbb{N})$
+# Dimostrazione della non [[cardinalità (o potenza)|numerabilità]] di $P(\mathbb{N})$
+
 Tesi: $P(\mathbb{N})$ non è numerabile -> Tesi della dimostrazione per assurdo: $P(\mathbb{N})$ è numerabile
 
 - Sappiamo che ogni insieme (numerabile) è assimilabile a (rappresentato da) una sequenza infinita di 0 e di 1 per mezzo della [[funzione caratteristica di un insieme]] $f(x)$.

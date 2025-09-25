@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-02-22T11:32:15.646+01:00
+updated_at: 2025-09-24T16:54:30.955+02:00
 ---
 $E \subseteq \mathbb{N}$
 
@@ -10,6 +10,7 @@ $E \subseteq \mathbb{N}$
 >$m$ si dice **minorante** di $E$ se $m \geq n\ \ \forall n \in E$
 # Gerarchia degli infiniti
 $$log_{x}\leq x^{a} \leq a^{x} (a<1)\leq x! \leq x^{x}$$
+(quello prima fa *r'cucchiaio* a quello dopo) *cit. Orsina*
 # Forme indeterminate
 $\frac{0}{0}$, $\frac{\infty}{\infty}$, $0\bullet \infty$, $\infty - \infty$, $0^{0}$, $1^{\infty}$, $\infty^{0}$
 # De l'Hopital

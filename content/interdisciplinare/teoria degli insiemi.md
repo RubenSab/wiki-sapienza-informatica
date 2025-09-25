@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-03-21T13:27:03.347+01:00
+updated_at: 2025-09-24T13:45:26.947+02:00
 ---
 # definizione di insieme
 
@@ -16,7 +16,7 @@ Esempio: {0, 1, 2} = {2, 0, 1} = {0, 0, 1, 1, 2, 1}
 
 - [[notazioni degli insiemi]]
 - [[inclusione e sottoinsiemi]]
-- [[insieme delle parti e dimostrazione della sua non numerabilità]]
+- [[insieme delle parti]]
 - [[operazioni fra gli insiemi]]
 - [[proprietà e tipi di relazioni]]
 - [[massimo e minimo]]

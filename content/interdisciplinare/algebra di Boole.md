@@ -1,3 +1,6 @@
+---
+updated_at: 2025-09-24T14:05:40.190+02:00
+---
 Inventata da George Boole, l'algebra di Boole fornisce un modo simbolico per manipolare e rappresentare le informazioni logiche.
 
 L'algebra di Boole può essere interpretata in più modi, ad esempio considerandola come
@@ -7,6 +10,7 @@ L'algebra di Boole può essere interpretata in più modi, ad esempio considerand
 
 ma sempre avendo cura di mantenere la validità e la consistenza degli assiomi.
 # Basi dell'algebra booleana
+
 I postulati che definiscono un'algebra, come quella booleana, sono *consistenti* tra loro, *semplici* e *indipendenti*.
 
 L'algebra di Boole può essere costruita a partire da diversi insiemi di postulati, dei quali uno dei più intuitivi è costituito da questi postulati e definizioni:

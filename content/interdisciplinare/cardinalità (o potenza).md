@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-03-21T15:49:25.667+01:00
+updated_at: 2025-09-24T13:49:01.446+02:00
 ---
 >Indicata con |I| oppure NI, per gli insiemi **finiti** si identifica come il numero di elementi nell'insieme, mentre per gli insiemi **infiniti** vale che due insiemi hanno la stessa cardinalità o potenza quando esiste una [[funzione|corrispondenza biunivoca]] tra di loro, indipendentemente se uno sia o non sia il sottoinsieme dell'altro.
 
@@ -9,7 +9,8 @@ $$\mathbb{P} = \text{insieme dei numeri pari}$$
 $$F=\{(a,b)\in\mathbb{N}\times\mathbb{P}\ |\ b=2a\}$$
 $F$ è una corrispondenza biunivoca tra $\mathbb{N}$ e $\mathbb{P}$, quindi i due insiemi hanno la stessa **quantità** (non numero) di elementi, cioè la stessa **cardinalità**.
 ## insieme numerabile
->Un insieme (infinito) si definisce **numerabile** se si può definire una corrispondenza biunivoca con $\mathbb{N}$, cioè se ha la sua stessa cardinalità.
+
+>Un insieme (infinito) si definisce **numerabile** se si può definire una corrispondenza biunivoca con $\mathbb{N}$ (sta in **biiezione** con $\mathbb{N}$), cioè se ha la sua stessa cardinalità.
 >
 
 >N.B.: Ogni sottoinsieme infinito di $\mathbb{N}$ è numerabile.

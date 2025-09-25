@@ -18,57 +18,8 @@
               "icon": "lucide-git-fork",
               "title": "Graph view"
             }
-          },
-          {
-            "id": "6a33fb77d49e8af9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "calcolo integrale/elenco di equazioni differenziali da risolvere.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "elenco di equazioni differenziali da risolvere"
-            }
-          },
-          {
-            "id": "8c302b81faa49208",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "calcolo integrale/EDO lineari del primo ordine.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "EDO lineari del primo ordine"
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -108,8 +59,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 229.5094871520996,
-    "collapsed": true
+    "width": 229.5094871520996
   },
   "right": {
     "id": "26b38658cac3fe47",
@@ -125,7 +75,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": ".word",
+                "query": "disgiunt",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -200,19 +150,19 @@
             "state": {
               "type": "example-view",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Most edited files"
+              "icon": "lucide-ghost",
+              "title": "example-view"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 354.5,
-    "collapsed": true
+    "width": 354.5
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "graph:Open graph view": false,
       "switcher:Open quick switcher": false,
       "canvas:Create new canvas": false,
@@ -224,34 +174,36 @@
       "3d-graph-new:Global 3D Graph": false
     }
   },
-  "active": "8c302b81faa49208",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "calcolo integrale/equazioni differenziali.md",
-    "calcolo integrale/EDO del secondo ordine.md",
-    "calcolo integrale/elenco di equazioni differenziali da risolvere.md",
-    "calcolo integrale/calcolo integrale.md",
-    "architettura degli elaboratori/registri generali dell'architettura RISC-V.md",
+    "interdisciplinare/inclusione e sottoinsiemi.md",
+    "interdisciplinare/insieme delle parti.md",
+    "interdisciplinare/operazioni fra gli insiemi.md",
+    "metodi matematici per l'informatica/funzione caratteristica di un insieme.md",
+    "interdisciplinare/proprietà e tipi di relazioni.md",
+    "interdisciplinare/relazione.md",
     "calcolo differenziale/formulario completo del calcolo differenziale.md",
-    "calcolo integrale/EDO lineari del primo ordine.md",
-    "calcolo integrale/EDO non lineari del primo ordine a variabili separabili.md",
-    "calcolo integrale/formulario di calcolo integrale.md",
+    "algebra lineare/Algebra lineare.md",
+    "algebra lineare/simboli per questo corso.md",
+    "interdisciplinare/funzione.md",
+    "calcolo differenziale/teorema ponte.md",
+    "interdisciplinare/cardinalità (o potenza).md",
     "TODO.md",
-    "architettura degli elaboratori/assembly RISC-V.md",
-    "architettura degli elaboratori/RISC-V.md",
-    "architettura degli elaboratori/cache.md",
-    "interdisciplinare/memoria (RAM).md",
-    "progettazione di sistemi digitali/registro contatore.md",
-    "metodi matematici per l'informatica/logica predicativa.md",
-    "metodi matematici per l'informatica/metodi matematici per l'informatica.md",
-    "metodologie di programmazione/eccezioni.md",
-    "progettazione di sistemi digitali/bus.md",
-    "progettazione di sistemi digitali/progettazione di sistemi digitali.md",
-    "architettura degli elaboratori/N-ways set associative cache.md",
-    "architettura degli elaboratori/fully associative cache.md",
-    "architettura degli elaboratori/direct mapped cache.md",
-    "metodologie di programmazione/tipi.md",
-    "progettazione di sistemi digitali/codice di Hamming.md",
-    "introduzione agli algoritmi/implementazioni degli alberi binari.md",
+    "algebra lineare",
+    "Untitled 1.md",
+    "Untitled 2.md",
+    "Untitled.md",
+    "calcolo delle probabilità/probabilità.md",
+    "calcolo delle probabilità/spazio campionario.md",
+    "calcolo delle probabilità/evento.md",
+    "interdisciplinare/teoria degli insiemi.md",
+    "interdisciplinare/algebra di Boole.md",
+    "calcolo delle probabilità/Calcolo delle probabililtà.md",
+    "index.md",
+    "calcolo delle probabilità",
+    "progettazione di sistemi digitali/ASCII.md",
+    "architettura degli elaboratori/elementi di stato (registri e RAM) dell'architettura RISC-V.md",
+    "metodologie di programmazione/diagramma delle classi in UML.md",
     "architettura degli elaboratori/Pasted image 20250604172652.png",
     "progettazione di sistemi digitali/logic gates.png",
     "www.youtube.com",
@@ -270,8 +222,6 @@
     "TagsRoutes",
     "graph-screenshot",
     "TagsRoutes/reports",
-    "metodologie di programmazione/lab3/Test.java",
-    "metodologie di programmazione/lab3/Segmento.java",
-    "metodologie di programmazione/lab3/Punto.java"
+    "metodologie di programmazione/lab3/Test.java"
   ]
 }
