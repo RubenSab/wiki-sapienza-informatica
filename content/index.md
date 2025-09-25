@@ -1,6 +1,6 @@
 ---
 title: Wiki Informatica Sapienza primo anno (canale MZ)
-updated_at: 2025-09-24T13:30:06.030+02:00
+updated_at: 2025-09-25T20:51:47.427+02:00
 ---
 # Primo anno
 
@@ -21,5 +21,6 @@ updated_at: 2025-09-24T13:30:06.030+02:00
 # Secondo anno
 
 ## Primo semestre
+test
 
 - [[Calcolo delle probabililtà]]
