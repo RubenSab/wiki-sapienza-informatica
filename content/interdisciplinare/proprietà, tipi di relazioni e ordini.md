@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-09-26T11:26:25.202+02:00
+updated_at: 2025-09-26T11:42:10.435+02:00
 ---
 
 # Proprietà delle relazioni
@@ -49,9 +49,8 @@ Con la notazione R: $\forall x, y \in R\ (x\ \mathcal{R}\ y\ \land y\ \mathcal{R
 
 Con la notazione R: $\forall x, y \in R\ (x\ \mathcal{R}\ y\ \lor y\ \mathcal{R}\ x)$ cioè $\Gamma = X^{2}$ (la relazione corrisponde al prodotto cartesiano dell'insieme su cui è valida)
 
-- [[inclusione e sottoinsiemi#^4345ca|nota sulla relazione di inclusione]]
-
 # Tipi di relazioni
+
 ## Equivalenza
 
 >Una relazione è un'**equivalenza** se è:

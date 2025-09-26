@@ -1,7 +1,14 @@
 ---
 title: Wiki Informatica Sapienza primo anno (canale MZ)
-updated_at: 2025-09-25T20:51:47.427+02:00
+updated_at: 2025-09-26T11:41:08.280+02:00
 ---
+# Secondo anno
+
+## Primo semestre
+
+- [[Algebra lineare]]
+- [[Calcolo delle probabilità]]
+
 # Primo anno
 
 ## Primo semestre
@@ -17,10 +24,3 @@ updated_at: 2025-09-25T20:51:47.427+02:00
 - [[architettura degli elaboratori]]
 - [[calcolo integrale]]
 - [[introduzione agli algoritmi]]
-
-# Secondo anno
-
-## Primo semestre
-
-- [[Algebra lineare]]
-- [[Calcolo delle probabilità]]

@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-09-26T11:35:14.875+02:00
+updated_at: 2025-09-26T11:42:53.234+02:00
 ---
 *(definizione di Adolfo Piperno)*
 
@@ -11,6 +11,7 @@ $$R \subseteq A \times B$$
 > In una relazione $R = (X, \Gamma)$ dove $X \neq \emptyset$ e $\Gamma \subset X \times X, \Gamma \neq \emptyset$ se $(x, y) \in \Gamma$ si dice che $x$ è in relazione con $y$. Con la notazione $\mathcal{R}$ si dice $x\ \mathcal{R}\ y$.
 
 - [[proprietà, tipi di relazioni e ordini]]
+- [[inclusione e sottoinsiemi#^4345ca|nota sulla relazione di inclusione]]
 
 Esempio geometrico di relazione:
 
