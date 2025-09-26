@@ -18,7 +18,7 @@ Esempio: {0, 1, 2} = {2, 0, 1} = {0, 0, 1, 1, 2, 1}
 - [[inclusione e sottoinsiemi]]
 - [[insieme delle parti]]
 - [[operazioni fra gli insiemi]]
-- [[proprietà e tipi di relazioni]]
+- [[proprietà, tipi di relazioni e ordini]]
 - [[massimo e minimo]]
 - [[maggiorante e minorante + teoremi]]
 - [[funzione caratteristica di un insieme]]

@@ -36,6 +36,13 @@
       }
     },
     {
+      "query": "path: \"calcolo integrale\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 4294907
+      }
+    },
+    {
       "query": "tag:todo",
       "color": {
         "a": 1,
@@ -57,20 +64,6 @@
       }
     },
     {
-      "query": "path: \"calcolo integrale\"  ",
-      "color": {
-        "a": 1,
-        "rgb": 4294907
-      }
-    },
-    {
-      "query": "path: \"interdisciplinare\"  ",
-      "color": {
-        "a": 1,
-        "rgb": 16777215
-      }
-    },
-    {
       "query": "path: \"calcolo delle probabilità\"  ",
       "color": {
         "a": 1,
@@ -82,6 +75,13 @@
       "color": {
         "a": 1,
         "rgb": 5431447
+      }
+    },
+    {
+      "query": "path: \"interdisciplinare\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 16777215
       }
     }
   ],
@@ -95,6 +95,6 @@
   "repelStrength": 16.0051282051282,
   "linkStrength": 0.682620759238239,
   "linkDistance": 202,
-  "scale": 0.0619930662459175,
+  "scale": 0.07322847333607167,
   "close": true
 }

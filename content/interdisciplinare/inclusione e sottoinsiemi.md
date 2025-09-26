@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-09-24T17:30:53.064+02:00
+updated_at: 2025-09-26T11:26:25.341+02:00
 ---
 # Sottoinsieme proprio
 

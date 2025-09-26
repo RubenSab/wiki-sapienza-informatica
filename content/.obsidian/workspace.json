@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "f0872d698864fbef",
+        "id": "4509724f8bf84da7",
         "type": "tabs",
         "children": [
           {
-            "id": "2ec04a02c0190d53",
+            "id": "e7a7b303c61786dc",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -20,12 +20,12 @@
             }
           },
           {
-            "id": "eb1df204a1f40295",
+            "id": "c1ef2b09824cea1e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "calcolo delle probabilità/Calcolo delle probabilità.md",
+                "file": "interdisciplinare/relazione.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -40,7 +40,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Calcolo delle probabilità"
+              "title": "relazione"
             }
           }
         ],
@@ -100,7 +100,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "disgiunt",
+                "query": "nota sulla",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -196,61 +196,22 @@
       "command-palette:Open command palette": false,
       "homepage:Open homepage": false,
       "timethings:Activate view": false,
-      "3d-graph-new:Global 3D Graph": false,
-      "github-sync:Sync with Remote": false
+      "3d-graph-new:Global 3D Graph": false
     }
   },
-  "floating": {
-    "id": "fa57facdd1bbf0e9",
-    "type": "floating",
-    "children": [
-      {
-        "id": "5aed9bfd50e40c6d",
-        "type": "window",
-        "children": [
-          {
-            "id": "439bf3075e9560f9",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "562b541c8161b2ff",
-                "type": "leaf",
-                "state": {
-                  "type": "webviewer",
-                  "state": {
-                    "url": "https://github.com/kevinmkchin/Obsidian-GitHub-Sync/blob/main/README.md",
-                    "title": "Obsidian-GitHub-Sync/README.md at main · kevinmkchin/Obsidian-GitHub-Sync · GitHub",
-                    "mode": "webview"
-                  },
-                  "icon": "globe-2",
-                  "title": "Obsidian-GitHub-Sync/README.md at main · kevinmkchin/Obsidian-GitHub-Sync · GitHub"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 316,
-        "y": 65,
-        "width": 1026,
-        "height": 802,
-        "maximize": false,
-        "zoom": 0.5
-      }
-    ]
-  },
-  "active": "eb1df204a1f40295",
+  "active": "c1ef2b09824cea1e",
   "lastOpenFiles": [
-    "index.md",
+    "interdisciplinare/proprietà, tipi di relazioni e ordini.md",
     "interdisciplinare/inclusione e sottoinsiemi.md",
+    "interdisciplinare/relazione.md",
+    "algebra lineare/Algebra lineare.md",
+    "algebra lineare/simboli per questo corso.md",
+    "calcolo delle probabilità/Calcolo delle probabilità.md",
+    "index.md",
     "interdisciplinare/insieme delle parti.md",
     "interdisciplinare/operazioni fra gli insiemi.md",
     "metodi matematici per l'informatica/funzione caratteristica di un insieme.md",
-    "interdisciplinare/proprietà e tipi di relazioni.md",
-    "interdisciplinare/relazione.md",
     "calcolo differenziale/formulario completo del calcolo differenziale.md",
-    "algebra lineare/Algebra lineare.md",
-    "algebra lineare/simboli per questo corso.md",
     "interdisciplinare/funzione.md",
     "calcolo differenziale/teorema ponte.md",
     "interdisciplinare/cardinalità (o potenza).md",
@@ -264,7 +225,6 @@
     "calcolo delle probabilità/evento.md",
     "interdisciplinare/teoria degli insiemi.md",
     "interdisciplinare/algebra di Boole.md",
-    "calcolo delle probabilità/Calcolo delle probabilità.md",
     "calcolo delle probabilità",
     "progettazione di sistemi digitali/ASCII.md",
     "architettura degli elaboratori/elementi di stato (registri e RAM) dell'architettura RISC-V.md",

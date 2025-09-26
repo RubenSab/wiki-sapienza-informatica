@@ -1,38 +1,55 @@
 ---
-updated_at: 2025-09-24T17:30:12.817+02:00
+updated_at: 2025-09-26T11:26:25.202+02:00
 ---
+
+# Proprietà delle relazioni
+
 Definiamo una relazione $R \subseteq A \bigtimes A$
+
+## Riflessiva
 
 >Una relazione è **riflessiva** se $\forall a \in A, (a,a) \in R$
 >Esempio: $\{(a,b) \in \mathbb{N} \times \mathbb{N} \mid a \leq b\}$
 
-Con la notazione R: $\forall x, y \in R\  (x\ R\ x)$
+Con la notazione R: $\forall x, y \in R\  (x\ \mathcal{R}\ x)$
 
->Una relazione è **antiriflessiva** se $\forall a \in A, (a,a) \notin R$
+### Insieme canonico
+
+Dato qualunque insieme $X$, esiste un **sottoinsieme canonico** $\Delta_{x} \subset X^{2}$ (cioè $X \times X$) con $\Delta_{x}=\{(x, x) : x \in X\}$
+
+quindi si può dire che "$R$ è riflessiva $\iff$ $\Delta_{x} \subset \Gamma$"
+
+Esempio: Avendo $X=\{1, 2, 3\}$ e si ha che la diagonale di $X^{2} = X \times X = \{(i, j) : i,j \in X \}$ è $\Delta_{x}= \{(1,1)(2,2)(3,3)\}$, quindi ad esempio la relazione $R = (X, \Gamma),\ \Gamma = \{(1,3),(2,2),(2,3)\}$ non contiene integralmente la diagonale, quindi non è simmetrica.
+
+## Antiriflessiva
+
+>Una relazione è **antiriflessiva** se $\forall a \in A, (a,a) \notin R$ cioè se non è riflessiva.
+
+## Simmetrica
 
 >Una relazione è **simmetrica** se $\forall a,b \in A , (a,b)\in R\implies (b,a) \in R$
 
-Con la notazione R: $\forall x, y \in R\ (x\ R\ y \implies y\ R\ x)$
+Con la notazione R: $\forall x, y \in R\ (x\ \mathcal{R}\ y \implies y\ \mathcal{R}\ x)$
+
+## Antisimmetrica
 
 >Una relazione è **antisimmetrica** se $\forall a,b \in A , (a,b)\in R \land (b,a)\in R\implies a = b$
 
-Con la notazione R: $\forall x, y \in R\ (x\ R\ y\ \land y\ R\ x \implies x = y)$
+Con la notazione R: $\forall x, y \in R\ (x\ \mathcal{R}\ y\ \land y\ \mathcal{R}\ x \implies x = y)$
+
+## Transitiva
 
 >Una relazione è **transitiva** se $\forall a,b,c \in A, (a,b)\in R \land (b,c)\in R \implies (a,c )\in R$
 
-Con la notazione R: $\forall x, y \in R\ (x\ R\ y\ \land y\ R\ x \implies x\ R\ x)$
+Con la notazione R: $\forall x, y \in R\ (x\ \mathcal{R}\ y\ \land y\ \mathcal{R}\ x \implies x\ \mathcal{R}\ x)$
 
-> Una relazione è totale se $\forall x, y \in R\ (x\ R\ y\ \lor y\ R\ x)$
+## Totale
+
+> Una relazione è totale se $\forall a, b \in A, (a, b) \in R \lor (b, a) \in R$
+
+Con la notazione R: $\forall x, y \in R\ (x\ \mathcal{R}\ y\ \lor y\ \mathcal{R}\ x)$ cioè $\Gamma = X^{2}$ (la relazione corrisponde al prodotto cartesiano dell'insieme su cui è valida)
 
 - [[inclusione e sottoinsiemi#^4345ca|nota sulla relazione di inclusione]]
-# Insieme canonico
-
-Dato $X$, c'è un sottoinsieme canonico $\Delta_{x} \subset X^{2}$
-
-$\Delta_{x}=\{(x, x) : x \in X\}$
-$R$ è riflessiva $\iff$ $\Delta_{x} \subset \Gamma$
-
-Esempio: Avendo $X=\{1, 2, 3\}$ e si ha che la diagonale di $X^{2} = X \times X = \{(i, j) : i,j \in X \}$ è $\Delta_{x}= \{(1,1)(2,2)(3,3)\}$, quindi ad esempio la relazione $R = (X, \Gamma),\ \Gamma = \{(1,3),(2,2),(2,3)\}$ non contiene integralmente la diagonale, quindi non è simmetrica.
 
 # Tipi di relazioni
 ## Equivalenza

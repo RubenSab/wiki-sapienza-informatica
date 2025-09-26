@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-09-24T17:01:17.277+02:00
+updated_at: 2025-09-26T11:35:14.875+02:00
 ---
 *(definizione di Adolfo Piperno)*
 
@@ -8,6 +8,15 @@ $$R \subseteq A \times B$$
 
 *(definizione di Federico Pellarin)*
 
-> In una relazione $R = (X, \Gamma)$ dove $X \neq \emptyset$ e $\Gamma \in X \times X, \Gamma \neq \emptyset$ se $(x, y) \in \Gamma$ si dice che $x$ è in relazione con $y$. Con la notazione $R$ si dice $x\ R\ y$.
+> In una relazione $R = (X, \Gamma)$ dove $X \neq \emptyset$ e $\Gamma \subset X \times X, \Gamma \neq \emptyset$ se $(x, y) \in \Gamma$ si dice che $x$ è in relazione con $y$. Con la notazione $\mathcal{R}$ si dice $x\ \mathcal{R}\ y$.
 
-- [[proprietà e tipi di relazioni]]
+- [[proprietà, tipi di relazioni e ordini]]
+
+Esempio geometrico di relazione:
+
+$$
+P, Q \in \mathbb{R}^{2},\ \ \ P\ \mathcal{R}\ Q \iff \text{il segmento}\ PQ \subset Y
+$$
+- Se $Y$ è $\mathbb{R}^{2}$, tutti i segmenti sono in relazione tra loro perché $\Gamma = \mathbb{R}^{2}$.
+- Se $Y$ è un cerchio, solo i segmenti dei quali entrambi gli estremi sono all'interno della circonferenza (inclusa) sono in relazione tra loro perché il cerchio è una figura convessa.
+- Se $Y$ è un triangolo, solo i segmenti dei quali entrambi gli estremi sono all'interno del perimetro (incluso) del triangolo sono in relazione tra loro perché il triangolo è una figura convessa.
