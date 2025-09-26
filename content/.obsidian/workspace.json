@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "interdisciplinare/relazione.md",
+                "file": "algebra lineare/simboli per questo corso.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -40,7 +40,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "relazione"
+              "title": "simboli per questo corso"
             }
           }
         ],
@@ -202,11 +202,11 @@
   "active": "c1ef2b09824cea1e",
   "lastOpenFiles": [
     "algebra lineare/Algebra lineare.md",
+    "algebra lineare/simboli per questo corso.md",
+    "interdisciplinare/relazione.md",
     "index.md",
     "interdisciplinare/proprietà, tipi di relazioni e ordini.md",
-    "interdisciplinare/relazione.md",
     "interdisciplinare/inclusione e sottoinsiemi.md",
-    "algebra lineare/simboli per questo corso.md",
     "calcolo delle probabilità/Calcolo delle probabilità.md",
     "interdisciplinare/insieme delle parti.md",
     "interdisciplinare/operazioni fra gli insiemi.md",
