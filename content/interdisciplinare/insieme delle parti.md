@@ -1,9 +1,9 @@
 ---
-updated_at: 2025-09-24T17:28:05.625+02:00
+updated_at: 2025-09-26T15:01:56.860+02:00
 ---
 >L'insieme della parti è l'insieme di tutti i sottoinsiemi possibili di A.
 
->N.B.: L'insieme delle parti **CONTIENE l'INSIEME CHE CONTIENE L'INSIEME VUOTO**: $\{ \emptyset \}$.
+>N.B.: Ogni insieme delle parti **CONTIENE l'INSIEME CHE CONTIENE L'INSIEME VUOTO**: $\{ \emptyset \}$.
 
 Si scrive come P(A) = {x|x$\subseteq$A} oppure $2^A$.
 

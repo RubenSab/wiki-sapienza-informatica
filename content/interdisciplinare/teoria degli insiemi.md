@@ -15,7 +15,7 @@ Esempio: {0, 1, 2} = {2, 0, 1} = {0, 0, 1, 1, 2, 1}
 > N.B.: L'insieme vuoto è un sottoinsieme improprio di qualunque insieme. $\forall A\  \emptyset \subseteq A$
 
 - [[notazioni degli insiemi]]
-- [[inclusione e sottoinsiemi]]
+- [[sottoinsiemi]]
 - [[insieme delle parti]]
 - [[operazioni fra gli insiemi]]
 - [[proprietà, tipi di relazioni e ordini]]

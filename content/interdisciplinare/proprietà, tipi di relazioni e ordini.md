@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-09-26T11:42:10.435+02:00
+updated_at: 2025-09-28T22:08:47.484+02:00
 ---
 
 # Proprietà delle relazioni
@@ -11,7 +11,7 @@ Definiamo una relazione $R \subseteq A \bigtimes A$
 >Una relazione è **riflessiva** se $\forall a \in A, (a,a) \in R$
 >Esempio: $\{(a,b) \in \mathbb{N} \times \mathbb{N} \mid a \leq b\}$
 
-Con la notazione R: $\forall x, y \in R\  (x\ \mathcal{R}\ x)$
+Con la notazione R: $\forall x \in R\  (x\ \mathcal{R}\ x)$
 
 ### Insieme canonico
 
@@ -58,23 +58,21 @@ Con la notazione R: $\forall x, y \in R\ (x\ \mathcal{R}\ y\ \lor y\ \mathcal{R}
 - simmetrica
 - transitiva
 
-> N.B.: oppure è allo stesso tempo **simmetrica** e **antisimmetrica**.
+> N.B.: è anche l'unica relazione **simmetrica** e **antisimmetrica**.
 
-Esempio: $R\in \mathbb{N} \times \mathbb{N}$   $R={(a,b)|a=b}$ 
+> È sottointeso che l'insieme su cui vale non è vuoto.
+
+Esempio: $R\in \mathbb{N} \times \mathbb{N}$   $R=\{(a,b)|\ a=b\}$ 
 Esempio di equivalenza con $A = \{0,1,2,3\}$:
-$A = {(0,0); (1,1); (2,2); (3,3); (0,1); (1,0); (2,3); (3, 2)}$
+$A = \{(0,0); (1,1); (2,2); (3,3); (0,1); (1,0); (2,3); (3, 2)\}$
 
+> La relazione d'equivalenza su $X$ ha un grafo esattamente $\Delta_{x}$ (la diagonale del quadrato cartesiano).
 
-> La relazione d'uguaglianza (o equivalenza) su $X$ ha un grafo esattamente $\Delta_{x}$.
+- [[classe di equivalenza]]
 
-### Classe di equivalenza
+## Insieme quoziente
 
->La classe di equivalenza di un elemento di A è l'insieme di tutti gli elementi in relazione con l'elemento di A.
-$$[a]=\{x\in A|(a,x)\in R\}$$
-$$a\in [b] \leftrightarrow b \in [a]$$
-### Insieme quoziente
-
->L'insieme di tutte le classi di equivalenza di tutti gli elementi di A.
+>L'insieme di tutte le classi di equivalenza di A.
 
 $$Q=\{[a]|a\in A\}$$
 Ogni elemento di A è in una e una sola classe di A. Le classi sono disgiunte e la loro unione è l'insieme A.
@@ -85,18 +83,23 @@ Ogni elemento di A è in una e una sola classe di A. Le classi sono disgiunte e 
 Esempio: A = {0, 1, 2}  R = {(0,1),(1,2)} $\hat R$={(0,1),(1,2),(2,0)}
 
 ## Ordini
+
 ### Ordine (largo)
 
 >Una relazione riflessiva, antisimmetrica e transitiva è un'**ordine largo**.
+
 ### Ordine stretto
 
 >Una relazione antiriflessiva, antisimmetrica e transitiva è un'**ordine stretto**.
+
 ### Ordine totale
 
 >Una relazione d'ordine (largo o stretto) in cui per ogni coppia di elementi $a$ e $b$ si verifica che $(a,b)\in R$ o $(b,a)\in R$ si dice di **ordine totale**.
+
 ### Ordine parziale
 
 >Una relazione d'ordine (largo o stretto) in cui per ogni coppia di elementi $a$ e $b$ ***non*** si verifica che $(a,b)\in R$ o $(b,a)\in R$ si dice di **ordine totale**.
+
 ### Preordine
 
 >Una relazione di inclusione riflessiva e transitiva è un **preordine**.

@@ -11,7 +11,7 @@ $$R \subseteq A \times B$$
 > In una relazione $R = (X, \Gamma)$ dove $X \neq \emptyset$ e $\Gamma \subset X \times X, \Gamma \neq \emptyset$ se $(x, y) \in \Gamma$ si dice che $x$ è in relazione con $y$. Con la notazione $\mathcal{R}$ si dice $x\ \mathcal{R}\ y$.
 
 - [[proprietà, tipi di relazioni e ordini]]
-- [[inclusione e sottoinsiemi#^4345ca|nota sulla relazione di inclusione]]
+- [[sottoinsiemi#^4345ca|nota sulla relazione di inclusione]]
 
 Esempio geometrico di relazione:
 
