@@ -1,8 +1,17 @@
 ---
-updated_at: 2025-09-26T15:23:19.863+02:00
+updated_at: 2025-09-29T16:57:53.375+02:00
 ---
-- [[simboli per questo corso]]
+
+| Simbolo          | Significato                              |
+| ---------------- | ---------------------------------------- |
+| $x$ \| $y$       | $x$ È un divisore intero di $y$          |
+| $\mathbb{N}^{*}$ | L'insieme dei numeri naturali senza lo 0 |
+| $\mathcal{R}$    | Notazione R delle relazioni              |
+
 - [[relazione]]
 - [[insieme quoziente]]
 - [[partizione]]
+- [[corrispondenza]]
+- [[applicazione]]
+- [[diagramma]]
 - [[(SCR) sistema completo di rappresentanti]]

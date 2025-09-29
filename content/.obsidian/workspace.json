@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "calcolo delle probabilità/Calcolo delle probabilità.md",
-                "mode": "preview",
+                "file": "index.md",
+                "mode": "source",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -28,10 +28,35 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Calcolo delle probabilità"
+              "title": "index"
+            }
+          },
+          {
+            "id": "b589321d382e863e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "algebra lineare/diagramma.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "diagramma"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -41,7 +66,7 @@
     "type": "split",
     "children": [
       {
-        "id": "02fcd87bf8d23f0e",
+        "id": "669783efb69f03cd",
         "type": "tabs",
         "children": [
           {
@@ -56,21 +81,11 @@
               "icon": "lucide-folder-closed",
               "title": "Files"
             }
-          },
-          {
-            "id": "e4e232db8a5f12b5",
-            "type": "leaf",
-            "state": {
-              "type": "bookmarks",
-              "state": {},
-              "icon": "lucide-bookmark",
-              "title": "Bookmarks"
-            }
           }
         ]
       },
       {
-        "id": "fcc174125b446151",
+        "id": "887ede6b4f3cbcbe",
         "type": "tabs",
         "children": [
           {
@@ -205,10 +220,19 @@
       "3d-graph-new:Global 3D Graph": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "b589321d382e863e",
   "lastOpenFiles": [
-    "interdisciplinare/sottoinsiemi.md",
+    "algebra lineare/Algebra lineare.md",
+    "algebra lineare/diagramma.md",
+    "algebra lineare/applicazione.md",
+    "interdisciplinare/notazione asintotica.md",
+    "interdisciplinare/relazione.md",
+    "index.md",
+    "TODO.md",
+    "algebra lineare/simboli per questo corso.md",
+    "algebra lineare/corrispondenza.md",
     "calcolo delle probabilità/Calcolo delle probabilità.md",
+    "interdisciplinare/sottoinsiemi.md",
     "calcolo delle probabilità/permutazioni.md",
     "calcolo delle probabilità/regola della moltiplicazione.md",
     "calcolo delle probabilità/probabilità.md",
@@ -217,22 +241,13 @@
     "calcolo delle probabilità/evento.md",
     "interdisciplinare/classe di equivalenza.md",
     "interdisciplinare/partizione.md",
-    "algebra lineare/Algebra lineare.md",
     "algebra lineare/(SCR) sistema completo di rappresentanti.md",
     "algebra lineare/insieme quoziente.md",
     "interdisciplinare/teoria degli insiemi.md",
-    "interdisciplinare/relazione.md",
     "interdisciplinare/proprietà, tipi di relazioni e ordini.md",
     "interdisciplinare/struttura dati.md",
     "interdisciplinare/funzione.md",
     "interdisciplinare/insieme delle parti.md",
-    "index.md",
-    "interdisciplinare/albero.md",
-    "algebra lineare/simboli per questo corso.md",
-    "interdisciplinare/operazioni fra gli insiemi.md",
-    "metodi matematici per l'informatica/funzione caratteristica di un insieme.md",
-    "calcolo differenziale/formulario completo del calcolo differenziale.md",
-    "calcolo differenziale/teorema ponte.md",
     "algebra lineare",
     "calcolo delle probabilità",
     "architettura degli elaboratori/Pasted image 20250604172652.png",
