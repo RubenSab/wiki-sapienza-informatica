@@ -1,14 +1,13 @@
 ---
-updated_at: 2025-09-28T22:26:17.288+02:00
+updated_at: 2025-10-01T12:02:31.833+02:00
 ---
-#todo riscrivere da capo
 
 > Un sistema completo di rappresentanti o SCR di $\mathcal{R}$ è un sottoinsieme $X' \subset X$ tale che:
 
 1. $\forall x, y \in X'\ \ x=y \iff Cl(x) = Cl(y)$ e $x \neq y \iff Cl(x) \cap Cl(y) = \emptyset$
 2. $\forall x \in X\ \ \exists x' \in X'$ con $x \in Cl(x')$
 
->"è un qualcosa che scorre attraverso le classi di equivalenza/partizioni e prende un elemento di ognuna"
+>"È un qualcosa che scorre attraverso le classi di equivalenza/partizioni e prende un elemento di ognuna".
 
 # Esempio 1
 

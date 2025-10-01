@@ -39,6 +39,8 @@ $$
 
 # Proprietà di caratterizzazione della classe di equivalenza
 
+^517e46
+
 $\mathcal{R}=(X, \Gamma)$ è una relazione di equivalenza
 
 Proposizione:

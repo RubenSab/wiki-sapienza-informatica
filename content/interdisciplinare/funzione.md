@@ -1,11 +1,13 @@
 ---
-updated_at: 2025-03-17T09:11:40.322+01:00
+updated_at: 2025-10-01T11:33:30.872+02:00
 ---
-$f:\mathbb{R}\rightarrow\mathbb{R}, \ \ x\rightarrow f(x)$
+$f:\mathbb{R}\rightarrow\mathbb{R}, \ \ x\mapsto f(x)$
 $f: A \rightarrow B$
-- $f$ è la legge che associa ad ogni elemento di $A$ un'elemento di $B$
-- $A$ è il dominio (insieme degli input)
-- $B$ è il codominio (insieme degli output)
+- $f$ è la legge che associa ogni elemento di $A$ ad un solo elemento di $B$
+- $A$ è il dominio o insieme di partenza (insieme degli input)
+- $B$ è il codominio o immagine di $A$ (insieme degli output)
+
+È un sinonimo di [[applicazione]] e di mappa.
 
 >Una **funzione** è una [[relazione]] ($F\subseteq A\times B$, $\forall a \in A\ \exists !\ b\in B\ |\ (a,b)\in F$) che associa (l'[[teoria degli insiemi|insieme]] A) il dominio e (B) il codominio.
 >Esempio: $f(a)=a^2\rightarrow\{(a,b)\in\mathbb{N}\times\mathbb{N}\ |\ b=a^2\}=(0,0)(1,1)(2,4)(3,9)..(a,a^2)$

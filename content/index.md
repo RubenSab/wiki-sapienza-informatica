@@ -1,6 +1,6 @@
 ---
 title: Wiki Informatica Sapienza primo anno (canale MZ)
-updated_at: 2025-09-26T11:41:08.280+02:00
+updated_at: 2025-09-30T17:12:33.217+02:00
 ---
 # Secondo anno
 
@@ -8,7 +8,10 @@ updated_at: 2025-09-26T11:41:08.280+02:00
 
 - [[Algebra lineare]]
 - [[Calcolo delle probabilità]]
+- [[Sistemi operativi]]
+- [[Basi di dati]]
 
+---
 # Primo anno
 
 ## Primo semestre
