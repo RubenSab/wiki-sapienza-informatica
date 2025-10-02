@@ -1,7 +1,7 @@
 ---
 updated_at: 2025-06-03T10:58:11.817+02:00
 ---
-> Secondo l'[[architettura di Von Neumann]], la **Central Processing Unit** è una [[automa a stati finiti (finite state automata)|macchina sequenziale]] che estrae le [[assembly RISC-V|istruzioni]] del programma dalla [[memoria (RAM)]] e le interpreta per mezzo della [[CU (Control Unit)]], la quale dirige gli altri componenti, che a loro volta le eseguono.
+> Secondo l'[[architettura di Von Neumann]], la **Central Processing Unit** è una [[automa a stati finiti (finite state automata)|macchina sequenziale]] che estrae le [[assembly RISC-V|istruzioni]] del programma dalla [[memoria]] e le interpreta per mezzo della [[CU (Control Unit)]], la quale dirige gli altri componenti, che a loro volta le eseguono.
 
 È formata da varie unità funzionali:
 

@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-09-29T15:00:27.218+02:00
+updated_at: 2025-10-01T14:36:35.336+02:00
 ---
 > La probabilità è lo studio matematico di esperimenti con diversi possibili esiti (aleatori cioè non deterministici).
 
@@ -10,4 +10,4 @@ updated_at: 2025-09-29T15:00:27.218+02:00
 - calcolo combinatorio
 	- [[regola della moltiplicazione]]
 	- [[permutazioni]]
-	- [[sottoinsiemi]]
+	- [[scelta di k elementi da n]]

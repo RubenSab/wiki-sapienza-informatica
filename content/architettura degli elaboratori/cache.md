@@ -1,7 +1,7 @@
 ---
 updated_at: 2025-06-10T16:53:56.483+02:00
 ---
-> La cache è una memoria intermedia tra la [[CPU]] e la [[memoria (RAM)]]. È molto più veloce della RAM e serve per rendere disponibili i dati e le istruzioni utili alla CPU in modo più veloce.
+> La cache è una memoria intermedia tra la [[CPU]] e la [[memoria]]. È molto più veloce della RAM e serve per rendere disponibili i dati e le istruzioni utili alla CPU in modo più veloce.
 
 In questo corso ci siamo concentrati sulla cache dati piuttosto che sulla cache istruzioni.
 

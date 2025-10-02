@@ -7,7 +7,7 @@ updated_at: 2025-09-26T15:01:56.860+02:00
 
 Si scrive come P(A) = {x|x$\subseteq$A} oppure $2^A$.
 
-# Dimostrazione della non [[cardinalità (o potenza)|numerabilità]] di $P(\mathbb{N})$
+# Dimostrazione della non [[cardinalità|numerabilità]] di $P(\mathbb{N})$
 
 Tesi: $P(\mathbb{N})$ non è numerabile -> Tesi della dimostrazione per assurdo: $P(\mathbb{N})$ è numerabile
 

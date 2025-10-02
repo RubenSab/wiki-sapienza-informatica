@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-05-30T11:05:01.665+02:00
+updated_at: 2025-10-02T14:04:19.116+02:00
 ---
 > La Random Access Memory è il componente del [[architettura di Von Neumann|computer]] che ne costituisce la memoria volatile, cioè quella che immagazzina i dati temporanei (Random Access sta per accesso "istantaneo" a qualsiasi locazione).
 

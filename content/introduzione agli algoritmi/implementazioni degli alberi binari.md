@@ -123,5 +123,5 @@ Vantaggi
 
 Svantaggi
 
-- la gestione della [[memoria (RAM)]] richiede l'allocazione dinamica,
+- la gestione della [[memoria]] richiede l'allocazione dinamica,
 - i nodi occupano più spazio in memoria per via dei puntatori.

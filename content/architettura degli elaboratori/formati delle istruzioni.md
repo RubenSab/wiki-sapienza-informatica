@@ -3,7 +3,7 @@ updated_at: 2025-06-03T10:37:22.799+02:00
 ---
 ### R-type (Register type)
 
-> Fanno compiere all'[[ALU|ALU]] un'operazione aritmetico/logica, operano con 2 [[registri]] di input e uno di output, NON hanno accesso alla [[memoria (RAM)]].
+> Fanno compiere all'[[ALU|ALU]] un'operazione aritmetico/logica, operano con 2 [[registri]] di input e uno di output, NON hanno accesso alla [[memoria]].
 
 | campo     | funct7 | rs2 | rs1 | funct3 | rd  | opcode |
 | --------- | ------ | --- | --- | ------ | --- | ------ |

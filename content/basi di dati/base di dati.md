@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-09-30T17:04:29.219+02:00
+updated_at: 2025-10-02T15:50:49.378+02:00
 ---
 È un insieme di file mutualmente connessi
 
@@ -8,7 +8,6 @@ Negli antichi sistemi informativi, la gestione dei dati veniva affidata a un fil
 - La ridondanza
 - L'inconsistenza
 - La dipendenza dei dati
-
 
 #todo management system
 
@@ -22,3 +21,4 @@ Le basi di dati sono utili per esporre un accesso **parziale** dei dati ai vari 
 
 La condivisione comporta la necessità di gestire accessi contemporanei agli stessi dati (controllare la **concorrenza**).
 
+- Un concetto fondamentale delle basi di dati è la [[transazione]].

@@ -9,7 +9,7 @@ Questo limita il numero di informazioni possibili che un registro può codificar
 
 >**ESEMPIO**:
 >Dobbiamo comporre una stringa con solo 3 simboli. Quante stringhe possiamo comporre?
->Dipende dalla [[cardinalità (o potenza)]] dell'alfabeto di [[funzioni di codifica e decodifica|codifica]], ad esempio se abbiamo l'alfabeto binario (Σ = {0, 1}) ne possiamo comporre $2^3$, mentre se usiamo l'alfabeto italiano (Σ = {a, b, ..., z}) ne possiamo comporre $21^3$.
+>Dipende dalla [[cardinalità]] dell'alfabeto di [[funzioni di codifica e decodifica|codifica]], ad esempio se abbiamo l'alfabeto binario (Σ = {0, 1}) ne possiamo comporre $2^3$, mentre se usiamo l'alfabeto italiano (Σ = {a, b, ..., z}) ne possiamo comporre $21^3$.
 >Nel primo caso, dato che il registro usa 3 bit, possiamo rappresentare solo $2^3$ informazioni diverse (in cui dobbiamo comporre/$scomporre tutto il flusso di informazioni).
 
 Il modo naturale di codificare i [[numeri naturali]] in [[sistema binario]], è contando usando l'ordine posizionale, proprio dei [[sistemi numerici posizionali]].

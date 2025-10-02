@@ -1,7 +1,7 @@
 ---
-updated_at: 2025-09-24T13:49:01.446+02:00
+updated_at: 2025-10-02T16:02:56.489+02:00
 ---
->Indicata con |I| oppure NI, per gli insiemi **finiti** si identifica come il numero di elementi nell'insieme, mentre per gli insiemi **infiniti** vale che due insiemi hanno la stessa cardinalità o potenza quando esiste una [[funzione|corrispondenza biunivoca]] tra di loro, indipendentemente se uno sia o non sia il sottoinsieme dell'altro.
+> Indicata con |I| oppure NI, per gli insiemi **finiti** si identifica come il numero di elementi nell'insieme, mentre per gli insiemi **infiniti** vale che due insiemi hanno la stessa cardinalità o potenza quando esiste una [[funzione|corrispondenza biunivoca]] tra di loro, indipendentemente se uno sia o non sia il sottoinsieme dell'altro.
 
 Esempio di insiemi infiniti con la stessa cardinalità:
 $$\mathbb{N} = \text{numeri naturali}$$

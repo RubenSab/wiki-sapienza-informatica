@@ -1,7 +1,7 @@
 ---
 updated_at: 2025-06-03T10:20:10.654+02:00
 ---
-> È un qualsiasi insieme di cavi che consente il trasferimento di dati, indirizzi e segnali di controllo tra le varie componenti di un sistema. Nell'[[architettura di Von Neumann]] i bus connettono [[CPU]], [[memoria (RAM)]] e dispositivi di ingresso e uscita.
+> È un qualsiasi insieme di cavi che consente il trasferimento di dati, indirizzi e segnali di controllo tra le varie componenti di un sistema. Nell'[[architettura di Von Neumann]] i bus connettono [[CPU]], [[memoria]] e dispositivi di ingresso e uscita.
 
 Tipi di bus:
 - *data bus*: trasporta i dati veri e propri.

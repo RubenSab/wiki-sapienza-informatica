@@ -8,7 +8,7 @@ updated_at: 2025-05-13T19:04:40.161+02:00
 	- dai [[registri]] interni,
 	- dalla cache interna
 	- e dalla [[CU (Control Unit)]]
-- la [[memoria (RAM)]]
+- la [[memoria]]
 - e le periferiche, cioè i dispositivi di Input/Output
 
 ![[Pasted image 20250415121550.png]]

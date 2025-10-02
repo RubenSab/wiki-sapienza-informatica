@@ -20,12 +20,12 @@
             }
           },
           {
-            "id": "04ff24657c2822d7",
+            "id": "c4f0271e8e2c29f8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "algebra lineare/applicazione.md",
+                "file": "basi di dati/algebra relazionale dei database.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -40,16 +40,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "applicazione"
+              "title": "algebra relazionale dei database"
             }
           },
           {
-            "id": "9a3f2934c41b86e8",
+            "id": "4f871e3bd66eed4d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "algebra lineare/diagramma.md",
+                "file": "basi di dati/base di dati relazionali.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -64,107 +64,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "diagramma"
-            }
-          },
-          {
-            "id": "336aa0ba15fe6230",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "algebra lineare/diagramma.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "diagramma"
-            }
-          },
-          {
-            "id": "6326b9e456d7bc31",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "interdisciplinare/partizione.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "partizione"
-            }
-          },
-          {
-            "id": "358d5c7b01c2f05f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "interdisciplinare/classe di equivalenza.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "classe di equivalenza"
-            }
-          },
-          {
-            "id": "2e637e4bcbb7691b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "algebra lineare/(SCR) sistema completo di rappresentanti.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "(SCR) sistema completo di rappresentanti"
+              "title": "base di dati relazionali"
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -220,7 +124,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#todo",
+                "query": "istanza",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -320,36 +224,37 @@
       "3d-graph-new:Global 3D Graph": false
     }
   },
-  "active": "2e637e4bcbb7691b",
+  "active": "c4f0271e8e2c29f8",
   "lastOpenFiles": [
-    "interdisciplinare/partizione.md",
-    "interdisciplinare/classe di equivalenza.md",
-    "algebra lineare/applicazione.md",
-    "algebra lineare/(SCR) sistema completo di rappresentanti.md",
-    "algebra lineare/diagramma.md",
-    "introduzione agli algoritmi/complessità temporale.md",
-    "interdisciplinare/funzione.md",
+    "basi di dati/algebra relazionale dei database.md",
+    "basi di dati/base di dati relazionali.md",
+    "basi di dati/chiave.md",
+    "basi di dati/tabella.md",
+    "basi di dati/schema.md",
     "basi di dati/Basi di dati.md",
-    "index.md",
-    "basi di dati/basi di dati relazionali.md",
     "basi di dati/base di dati.md",
-    "basi di dati",
-    "sistemi operativi/Sistemi operativi.md",
-    "progettazione di sistemi digitali/registri di memorizzazione.md",
-    "sistemi operativi/macchina ipotetica.md",
-    "sistemi operativi",
-    "algebra lineare/Algebra lineare.md",
-    "interdisciplinare/notazione asintotica.md",
-    "interdisciplinare/relazione.md",
-    "TODO.md",
-    "algebra lineare/simboli per questo corso.md",
-    "algebra lineare/corrispondenza.md",
-    "calcolo delle probabilità/Calcolo delle probabilità.md",
+    "metodologie di programmazione/Java.md",
+    "interdisciplinare/cardinalità.md",
+    "basi di dati/transazione.md",
     "interdisciplinare/sottoinsiemi.md",
-    "calcolo delle probabilità/permutazioni.md",
-    "calcolo delle probabilità/regola della moltiplicazione.md",
-    "calcolo delle probabilità/probabilità.md",
-    "calcolo delle probabilità/esiti equiprobabili.md",
+    "basi di dati/vista.md",
+    "interdisciplinare/puntatore.md",
+    "sistemi operativi/allocazione dei processi in memoria.md",
+    "sistemi operativi/(PCB) Process Control Block.md",
+    "architettura degli elaboratori/funzioni in RISC-V.md",
+    "sistemi operativi/sistema operativo.md",
+    "sistemi operativi/Sistemi operativi.md",
+    "sistemi operativi/processo.md",
+    "sistemi operativi/attributi di stato di un processo.md",
+    "sistemi operativi/modello a 6 stati dei processi.md",
+    "interdisciplinare/memoria.md",
+    "sistemi operativi/modello a 5 stati dei processi.md",
+    "sistemi operativi/modello a 2 stati dei processi.md",
+    "progettazione di sistemi digitali/automa a stati finiti (finite state automata).md",
+    "algebra lineare/applicazione.md",
+    "calcolo delle probabilità/Untitled",
+    "basi di dati",
+    "sistemi operativi",
     "algebra lineare",
     "calcolo delle probabilità",
     "architettura degli elaboratori/Pasted image 20250604172652.png",
@@ -367,7 +272,6 @@
     "Elementi di stato",
     "todo",
     "TagsRoutes/logs",
-    "TagsRoutes",
-    "graph-screenshot"
+    "TagsRoutes"
   ]
 }

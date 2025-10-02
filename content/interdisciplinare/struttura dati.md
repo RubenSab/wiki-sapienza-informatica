@@ -16,7 +16,7 @@ Le strutture dati di base sono:
 - [[albero]]
 - [[heap]]
 
-> N.B. Per cancellare una struttura dati dalla [[memoria (RAM)]], in Python basta cancellare il riferimento (puntatore) alla "testa" (*parent*) della struttura dati rendendola inaccessibile: a cascata il *garbage collector* eliminerà in automatico tutto ciò che è inacccessibile.
+> N.B. Per cancellare una struttura dati dalla [[memoria]], in Python basta cancellare il riferimento (puntatore) alla "testa" (*parent*) della struttura dati rendendola inaccessibile: a cascata il *garbage collector* eliminerà in automatico tutto ciò che è inacccessibile.
 # In Java
 
 > In [[Java]] una struttura dati è una [[collezione]] di [[oggetto|oggetti]], vengono dette "collezioni notevoli" perché sono già built-in.

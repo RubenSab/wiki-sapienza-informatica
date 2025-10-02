@@ -10,7 +10,7 @@ Nella Java Virtual Machine, esistono due (+1) tipi di memoria:
 ## Cosa succede alla creazione di un [[oggetto]]?
 
 1. **Dichiarazione**
-    Viene dichiarata una variabile di riferimento all'oggetto. In questa fase viene allocata una porzione di [[memoria (RAM)]] nello **stack**, che contiene un valore inizialmente indefinito (o `null` se viene assegnato esplicitamente).
+    Viene dichiarata una variabile di riferimento all'oggetto. In questa fase viene allocata una porzione di [[memoria]] nello **stack**, che contiene un valore inizialmente indefinito (o `null` se viene assegnato esplicitamente).
     
 2. **Creazione (allocazione)**
     L’oggetto vero e proprio viene creato tramite l’istruzione `new`. Questo comporta:

@@ -150,7 +150,7 @@ def rimuovi(nodo):
         return nodo.next
     return nodo
 ```
-## Come cancellare una linked list dalla [[memoria (RAM)]] in Python?
+## Come cancellare una linked list dalla [[memoria]] in Python?
 
 Basta cancellare il riferimento alla "testa" (*parent*) della struttura dati, in modo che si cancelli anche il riferimento ai suoi *children*.
 

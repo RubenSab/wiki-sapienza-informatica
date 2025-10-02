@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-09-26T11:42:53.234+02:00
+updated_at: 2025-10-01T16:15:33.579+02:00
 ---
 *(definizione di Adolfo Piperno)*
 

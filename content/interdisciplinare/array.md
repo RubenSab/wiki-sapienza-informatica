@@ -49,7 +49,7 @@ String[] colonne = new String[100]
 String[][] matrice = new String[righe][colonne]
 ```
 
-Implementiamo un'array come una lista ordinata di elementi contenuti nella [[memoria (RAM)]] a determinati indirizzi, con una distanza costante tra indirizzi di 4 byte (per l'architettura con word a 32 bit).
+Implementiamo un'array come una lista ordinata di elementi contenuti nella [[memoria]] a determinati indirizzi, con una distanza costante tra indirizzi di 4 byte (per l'architettura con word a 32 bit).
 
 # In Assembly [[RISC-V]]
 

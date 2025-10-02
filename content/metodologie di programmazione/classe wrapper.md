@@ -39,4 +39,4 @@ int n = array[j];
 
 # Wrapper vs tipi primitivi
 
-> N.B.: molto spesso conviene usare i tipi primitivi più tosto che i wrapper, perché pesano meno in [[memoria (RAM)]].
+> N.B.: molto spesso conviene usare i tipi primitivi più tosto che i wrapper, perché pesano meno in [[memoria]].

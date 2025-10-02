@@ -43,13 +43,6 @@
       }
     },
     {
-      "query": "tag:todo",
-      "color": {
-        "a": 1,
-        "rgb": 16711680
-      }
-    },
-    {
       "query": "path: \"architettura degli elaboratori\"  ",
       "color": {
         "a": 1,
@@ -64,6 +57,20 @@
       }
     },
     {
+      "query": "tag:todo",
+      "color": {
+        "a": 1,
+        "rgb": 16711680
+      }
+    },
+    {
+      "query": "path: \"interdisciplinare\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 16777215
+      }
+    },
+    {
       "query": "path: \"calcolo delle probabilità\"  ",
       "color": {
         "a": 1,
@@ -75,13 +82,6 @@
       "color": {
         "a": 1,
         "rgb": 5431447
-      }
-    },
-    {
-      "query": "path: \"interdisciplinare\"  ",
-      "color": {
-        "a": 1,
-        "rgb": 16777215
       }
     },
     {
@@ -109,6 +109,6 @@
   "repelStrength": 16.0051282051282,
   "linkStrength": 0.682620759238239,
   "linkDistance": 202,
-  "scale": 0.19509487787530683,
+  "scale": 0.24892700739806822,
   "close": true
 }

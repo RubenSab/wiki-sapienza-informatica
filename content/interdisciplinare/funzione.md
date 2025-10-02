@@ -13,7 +13,7 @@ $f: A \rightarrow B$
 >Esempio: $f(a)=a^2\rightarrow\{(a,b)\in\mathbb{N}\times\mathbb{N}\ |\ b=a^2\}=(0,0)(1,1)(2,4)(3,9)..(a,a^2)$
 >
 
->Per quantificare il numero di elementi di un insieme si usa il concetto di [[cardinalità (o potenza)]].
+>Per quantificare il numero di elementi di un insieme si usa il concetto di [[cardinalità]].
 
 >L'**immagine** di $f(x)$ è $im(A)=\{f(x),x\in A\}$, oppure $im(A)=\{b\ |\ (a,b)\in F\}$, $F\subseteq A\times B$
 

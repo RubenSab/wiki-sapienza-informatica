@@ -8,13 +8,13 @@ L'architettura RISC-V ha:
 - 32 registri per i numeri in [[rappresentazione o codifica di numeri con la virgola|floating point]] (f0, f1, ..., f31)
 - [[PC (Program Counter)]]
 - Control Status Registers
-- [[memoria (RAM)]] centrale
+- [[memoria]] centrale
 
 I registri hanno lunghezza fissa, sono chiamati x0, x1 ... x31, usati per memorizzare (ordini di grandezza più velocemente della memoria) sia dati temporanei che istruzioni. Ogni istruzione è codificata da una [[unità di misura del sistema binario|word]] immagazzinata in un singolo registro.
 
 > N.B.: Il registro x0 contiene sempre il valore 0 (una sequenza di 32 zeri) e non può essere scritto (si può tentare a scriverci sopra ma non avrà alcun effetto).
 
-# [[memoria (RAM)]]
+# [[memoria]]
 
 La memoria consente di memorizzare vettori, altre strutture dati, il contenuto dei registri **e il programma stesso (!!!)** (**ogni riga è indicizzata in un indirizzo di memoria**): vi si accede dai registri solamente attraverso istruzioni di trasferimento dati dai registri (S-type).
 
