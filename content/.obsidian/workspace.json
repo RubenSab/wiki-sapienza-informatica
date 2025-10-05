@@ -20,13 +20,13 @@
             }
           },
           {
-            "id": "c4f0271e8e2c29f8",
+            "id": "6e4f82e5fd3fad31",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "basi di dati/algebra relazionale dei database.md",
-                "mode": "source",
+                "file": "basi di dati/DBMS.md",
+                "mode": "preview",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -40,16 +40,40 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "algebra relazionale dei database"
+              "title": "DBMS"
             }
           },
           {
-            "id": "4f871e3bd66eed4d",
+            "id": "8bb33ee431f086de",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "basi di dati/base di dati relazionali.md",
+                "file": "basi di dati/database.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "database"
+            }
+          },
+          {
+            "id": "2592517b800ca626",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "progettazione di sistemi digitali/segnali a onda quadra.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -64,11 +88,34 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "base di dati relazionali"
+              "title": "segnali a onda quadra"
+            }
+          },
+          {
+            "id": "66f4b6760fded720",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "basi di dati/transazione.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "transazione"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -108,7 +155,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 280.5094909667969
+    "width": 280.5094909667969,
+    "collapsed": true
   },
   "right": {
     "id": "26b38658cac3fe47",
@@ -124,7 +172,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "istanza",
+                "query": "integri",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -224,34 +272,34 @@
       "3d-graph-new:Global 3D Graph": false
     }
   },
-  "active": "c4f0271e8e2c29f8",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "basi di dati/algebra relazionale dei database.md",
-    "basi di dati/base di dati relazionali.md",
-    "basi di dati/chiave.md",
+    "basi di dati/transazione.md",
+    "progettazione di sistemi digitali/segnali a onda quadra.md",
+    "basi di dati/database.md",
+    "metodologie di programmazione/java.lang.String.md",
+    "introduzione agli algoritmi/problemi combinatori.md",
+    "basi di dati/DBMS.md",
     "basi di dati/tabella.md",
-    "basi di dati/schema.md",
+    "basi di dati/SQL.md",
+    "basi di dati/modello ad oggetti (object).md",
+    "basi di dati/database relazionali.md",
+    "basi di dati/chiave.md",
+    "basi di dati/algebra relazionale dei database.md",
+    "basi di dati/vista.md",
+    "metodologie di programmazione/interfaccia.md",
+    "interdisciplinare/albero.md",
+    "basi di dati/modello gerarchico (hierarchical).md",
+    "basi di dati/modello reticolare (network).md",
+    "basi di dati/modello relazionale (relational).md",
+    "interdisciplinare/funzione.md",
     "basi di dati/Basi di dati.md",
-    "basi di dati/base di dati.md",
+    "basi di dati/schema.md",
     "metodologie di programmazione/Java.md",
     "interdisciplinare/cardinalità.md",
-    "basi di dati/transazione.md",
     "interdisciplinare/sottoinsiemi.md",
-    "basi di dati/vista.md",
     "interdisciplinare/puntatore.md",
     "sistemi operativi/allocazione dei processi in memoria.md",
-    "sistemi operativi/(PCB) Process Control Block.md",
-    "architettura degli elaboratori/funzioni in RISC-V.md",
-    "sistemi operativi/sistema operativo.md",
-    "sistemi operativi/Sistemi operativi.md",
-    "sistemi operativi/processo.md",
-    "sistemi operativi/attributi di stato di un processo.md",
-    "sistemi operativi/modello a 6 stati dei processi.md",
-    "interdisciplinare/memoria.md",
-    "sistemi operativi/modello a 5 stati dei processi.md",
-    "sistemi operativi/modello a 2 stati dei processi.md",
-    "progettazione di sistemi digitali/automa a stati finiti (finite state automata).md",
-    "algebra lineare/applicazione.md",
     "calcolo delle probabilità/Untitled",
     "basi di dati",
     "sistemi operativi",

@@ -2,2058 +2,2068 @@
   "nodePositions": [
     {
       "id": "algebra lineare/(SCR) sistema completo di rappresentanti.md",
-      "x": -3862.8466796875,
-      "y": 886.1487426757812
+      "x": 1872.277587890625,
+      "y": 2872.55126953125
     },
     {
       "id": "algebra lineare/Algebra lineare.md",
-      "x": -3449.88525390625,
-      "y": 789.1897583007812
+      "x": 1769.162353515625,
+      "y": 2446.7119140625
     },
     {
       "id": "algebra lineare/applicazione.md",
-      "x": -2871.3974609375,
-      "y": 1352.6904296875
+      "x": 2275.342529296875,
+      "y": 1964.917236328125
     },
     {
       "id": "algebra lineare/corrispondenza.md",
-      "x": -3306.329345703125,
-      "y": 1369.985107421875
+      "x": 2398.775390625,
+      "y": 2373.7646484375
     },
     {
       "id": "algebra lineare/diagramma.md",
-      "x": -3513.108642578125,
-      "y": 1169.7435302734375
+      "x": 2211.57861328125,
+      "y": 2596.493896484375
     },
     {
       "id": "algebra lineare/insieme quoziente.md",
-      "x": -3471.77783203125,
-      "y": 420.2176208496094
+      "x": 1440.7215576171875,
+      "y": 2561.153564453125
     },
     {
       "id": "architettura degli elaboratori/CPU.md",
-      "x": 1808.4398193359375,
-      "y": -2718.20263671875
+      "x": -3363.4296875,
+      "y": -373.4090576171875
     },
     {
       "id": "architettura degli elaboratori/CU (Control Unit).md",
-      "x": 2497.41357421875,
-      "y": -3222.092041015625
+      "x": -4156.80126953125,
+      "y": -766.1831665039062
     },
     {
       "id": "architettura degli elaboratori/RISC-V.md",
-      "x": 2912.8876953125,
-      "y": -2108.293212890625
+      "x": -3261.58984375,
+      "y": -1632.883544921875
     },
     {
       "id": "architettura degli elaboratori/aggiunta di una nuova istruzione.md",
-      "x": 2860.412109375,
-      "y": -2987.22998046875
+      "x": -4057.69970703125,
+      "y": -1218.1126708984375
     },
     {
       "id": "architettura degli elaboratori/allineamento.md",
-      "x": 2449.841552734375,
-      "y": -2047.38525390625
+      "x": -2986.85400390625,
+      "y": -1259.293701171875
     },
     {
       "id": "architettura degli elaboratori/architettura RISC-V a singolo colpo di clock e senza pipeline.md",
-      "x": 2306.706787109375,
-      "y": -2946.9130859375
+      "x": -3827.958740234375,
+      "y": -735.2562255859375
     },
     {
       "id": "architettura degli elaboratori/architettura RISC-V con pipeline.md",
-      "x": 3203.74609375,
-      "y": -3067.110107421875
+      "x": -4272.6630859375,
+      "y": -1520.8421630859375
     },
     {
       "id": "architettura degli elaboratori/architettura degli elaboratori.md",
-      "x": 921.5360717773438,
-      "y": -1837.0347900390625
+      "x": -2227.171630859375,
+      "y": -48.71589279174805
     },
     {
       "id": "architettura degli elaboratori/architettura di Von Neumann.md",
-      "x": 2098.749755859375,
-      "y": -2415.866943359375
+      "x": -3226.113525390625,
+      "y": -736.4796142578125
     },
     {
       "id": "architettura degli elaboratori/assembly RISC-V.md",
-      "x": 3239.178466796875,
-      "y": -1919.570068359375
+      "x": -3240.9130859375,
+      "y": -1998.974365234375
     },
     {
       "id": "architettura degli elaboratori/cache.md",
-      "x": 2061.412353515625,
-      "y": -1800.7099609375
+      "x": -2599.156005859375,
+      "y": -888.9981689453125
     },
     {
       "id": "architettura degli elaboratori/cicli in RISC-V.md",
-      "x": 3650.541259765625,
-      "y": -2079.39404296875
+      "x": -3541.94189453125,
+      "y": -2315.6015625
     },
     {
       "id": "architettura degli elaboratori/control hazard.md",
-      "x": 2760.697265625,
-      "y": -3300.7939453125
+      "x": -4264.1552734375,
+      "y": -1016.416748046875
     },
     {
       "id": "architettura degli elaboratori/data hazard.md",
-      "x": 3459.466796875,
-      "y": -3240.1337890625
+      "x": -4447.27001953125,
+      "y": -1765.329345703125
     },
     {
       "id": "architettura degli elaboratori/differenze tra CISC e RISC, vantaggi di RISC.md",
-      "x": 2763.700439453125,
-      "y": -2346.751708984375
+      "x": -3423.6279296875,
+      "y": -1403.07666015625
     },
     {
       "id": "architettura degli elaboratori/elementi di stato (registri e RAM) dell'architettura RISC-V.md",
-      "x": 1758.40185546875,
-      "y": -2248.029052734375
+      "x": -2847.599365234375,
+      "y": -554.8277587890625
     },
     {
       "id": "architettura degli elaboratori/elenco di istruzioni RISC-V.md",
-      "x": 3803.32763671875,
-      "y": -1928.73486328125
+      "x": -3448.360595703125,
+      "y": -2516.2529296875
     },
     {
       "id": "architettura degli elaboratori/fasi dell'esecuzione di un'istruzione.md",
-      "x": 3120.882080078125,
-      "y": -2703.201171875
+      "x": -3907.82421875,
+      "y": -1546.2789306640625
     },
     {
       "id": "architettura degli elaboratori/formati delle istruzioni.md",
-      "x": 2854.29833984375,
-      "y": -2592.22998046875
+      "x": -3690.673583984375,
+      "y": -1336.8067626953125
     },
     {
       "id": "architettura degli elaboratori/forwarding.md",
-      "x": 3496.562255859375,
-      "y": -2755.1455078125
+      "x": -4049.912353515625,
+      "y": -1951.435546875
     },
     {
       "id": "architettura degli elaboratori/funzioni in RISC-V.md",
-      "x": 1208.0931396484375,
-      "y": -857.4431762695312
+      "x": -1448.7313232421875,
+      "y": -726.5684204101562
     },
     {
       "id": "architettura degli elaboratori/hazard.md",
-      "x": 3708.0732421875,
-      "y": -3002.681884765625
+      "x": -4353.7890625,
+      "y": -2059.553466796875
     },
     {
       "id": "architettura degli elaboratori/matrici in RISC-V.md",
-      "x": 3347.8271484375,
-      "y": -712.6620483398438
+      "x": -2355.015869140625,
+      "y": -2635.3515625
     },
     {
       "id": "architettura degli elaboratori/modi di indirizzamento.md",
-      "x": 3267.619140625,
-      "y": -2363.09912109375
+      "x": -3637.768310546875,
+      "y": -1838.873291015625
     },
     {
       "id": "architettura degli elaboratori/registri generali dell'architettura RISC-V.md",
-      "x": 2414.538818359375,
-      "y": -2322.135498046875
+      "x": -3211.700927734375,
+      "y": -1139.210693359375
     },
     {
       "id": "architettura degli elaboratori/riordinamento delle istruzioni.md",
-      "x": 3927.3525390625,
-      "y": -2611.6962890625
+      "x": -4080.92578125,
+      "y": -2424.919677734375
     },
     {
       "id": "architettura degli elaboratori/stringhe in RISC-V.md",
-      "x": 3637.534423828125,
-      "y": -1764.0352783203125
-    },
-    {
-      "id": "basi di dati/Basi di dati.md",
-      "x": -474.052978515625,
-      "y": -396.1138000488281
-    },
-    {
-      "id": "terza forma normale",
-      "x": -462.4410400390625,
-      "y": -749.811279296875
-    },
-    {
-      "id": "organizzazione fisica dei dati",
-      "x": -221.0643768310547,
-      "y": -655.6539306640625
-    },
-    {
-      "id": "controllo della concorrenza",
-      "x": -707.1581420898438,
-      "y": -654.4013671875
-    },
-    {
-      "id": "basi di dati/base di dati.md",
-      "x": 133.0604248046875,
-      "y": -525.8770141601562
-    },
-    {
-      "id": "modello reticolare (network)",
-      "x": -1083.9766845703125,
-      "y": -198.5587615966797
-    },
-    {
-      "id": "modello gerarchico (hierarchical)",
-      "x": -1014.2898559570312,
-      "y": 57.63628387451172
-    },
-    {
-      "id": "modello relazionale (relational)",
-      "x": -744.10009765625,
-      "y": 257.4548645019531
-    },
-    {
-      "id": "modello ad oggetti (object)",
-      "x": -920.015380859375,
-      "y": -367.9948425292969
-    },
-    {
-      "id": "calcolo delle probabilità/Calcolo delle probabilità.md",
-      "x": -4342.66845703125,
-      "y": 260.75225830078125
-    },
-    {
-      "id": "calcolo delle probabilità/coefficiente binomiale.md",
-      "x": -5111.3828125,
-      "y": 800.5413208007812
-    },
-    {
-      "id": "calcolo delle probabilità/esiti equiprobabili.md",
-      "x": -4744,
-      "y": 152.88043212890625
-    },
-    {
-      "id": "calcolo delle probabilità/evento.md",
-      "x": -4034.1865234375,
-      "y": 431.37451171875
-    },
-    {
-      "id": "calcolo delle probabilità/permutazioni.md",
-      "x": -4587.97998046875,
-      "y": 612.0890502929688
-    },
-    {
-      "id": "calcolo delle probabilità/probabilità.md",
-      "x": -4348.8818359375,
-      "y": -343.6531677246094
-    },
-    {
-      "id": "calcolo delle probabilità/regola della moltiplicazione.md",
-      "x": -4582.07763671875,
-      "y": -114.52172088623047
-    },
-    {
-      "id": "calcolo delle probabilità/scelta di k elementi da n con ripetizione e con ordine.md",
-      "x": -4610.4306640625,
-      "y": 1577.48486328125
-    },
-    {
-      "id": "calcolo delle probabilità/scelta di k elementi da n con ripetizione e senza ordine.md",
-      "x": -4856.38134765625,
-      "y": 1458.4913330078125
-    },
-    {
-      "id": "calcolo delle probabilità/scelta di k elementi da n senza ripetizioni con ordine.md",
-      "x": -4247.80615234375,
-      "y": 1024.3223876953125
-    },
-    {
-      "id": "calcolo delle probabilità/scelta di k elementi da n senza ripetizioni e senza ordine.md",
-      "x": -4870.46630859375,
-      "y": 1002.3660278320312
-    },
-    {
-      "id": "calcolo delle probabilità/scelta di k elementi da n.md",
-      "x": -4632.6533203125,
-      "y": 1188.0616455078125
-    },
-    {
-      "id": "calcolo delle probabilità/spazio campionario.md",
-      "x": -4073.23046875,
-      "y": 12.846570014953613
-    },
-    {
-      "id": "calcolo differenziale/calcolo differenziale.md",
-      "x": -2491.7021484375,
-      "y": 1899.7393798828125
-    },
-    {
-      "id": "calcolo differenziale/derivate.md",
-      "x": -2859.3427734375,
-      "y": 2858.66650390625
-    },
-    {
-      "id": "calcolo differenziale/distanza fra x e y sulla linea numerica.md",
-      "x": -2479.37548828125,
-      "y": 1464.4119873046875
-    },
-    {
-      "id": "calcolo differenziale/esercizi con i teoremi delle funzioni.md",
-      "x": -4039.532470703125,
-      "y": 2412.90576171875
-    },
-    {
-      "id": "calcolo differenziale/esercizi/esercizi di calcolo differenziale.md",
-      "x": -3615.2314453125,
-      "y": 2365.640625
-    },
-    {
-      "id": "calcolo differenziale/esercizi/esercizio con intervalli, min e max.md",
-      "x": -3927.888916015625,
-      "y": 2667.8447265625
-    },
-    {
-      "id": "calcolo differenziale/formula di Stirling.md",
-      "x": -2499.468505859375,
-      "y": 3723.114501953125
-    },
-    {
-      "id": "calcolo differenziale/formulario completo del calcolo differenziale.md",
-      "x": -2851.309814453125,
-      "y": 2042.4046630859375
-    },
-    {
-      "id": "calcolo differenziale/funzione continua e discontinua.md",
-      "x": -2049.056884765625,
-      "y": 1716.85693359375
-    },
-    {
-      "id": "calcolo differenziale/gerarchia degli infiniti.md",
-      "x": -2716.131591796875,
-      "y": 3667.264404296875
-    },
-    {
-      "id": "calcolo differenziale/infiniti e infinitesimi.md",
-      "x": -2393.92431640625,
-      "y": 2909.3466796875
-    },
-    {
-      "id": "calcolo differenziale/intervalli in R.md",
-      "x": -3590.261962890625,
-      "y": 1851.997802734375
-    },
-    {
-      "id": "calcolo differenziale/leggi della monotonia.md",
-      "x": -3217.640869140625,
-      "y": 3000.83935546875
-    },
-    {
-      "id": "calcolo differenziale/limiti di funzioni.md",
-      "x": -2434.24853515625,
-      "y": 2279.389892578125
-    },
-    {
-      "id": "calcolo differenziale/limiti di successioni.md",
-      "x": -1302.567626953125,
-      "y": 3002.3388671875
-    },
-    {
-      "id": "calcolo differenziale/limiti notevoli delle successioni e forme indeterminate.md",
-      "x": -1620.940673828125,
-      "y": 2745.89501953125
-    },
-    {
-      "id": "calcolo differenziale/limiti.md",
-      "x": -2438.92724609375,
-      "y": 3242.88916015625
-    },
-    {
-      "id": "calcolo differenziale/maggiorante e minorante + teoremi.md",
-      "x": -3694.968994140625,
-      "y": 1523.4283447265625
-    },
-    {
-      "id": "calcolo differenziale/massimo e minimo.md",
-      "x": -3284.24755859375,
-      "y": 1902.356201171875
-    },
-    {
-      "id": "calcolo differenziale/miglior polinomio.md",
-      "x": -3476.453125,
-      "y": 3151.615478515625
-    },
-    {
-      "id": "calcolo differenziale/notazione o-piccolo.md",
-      "x": -2039.455810546875,
-      "y": 2698.564208984375
-    },
-    {
-      "id": "calcolo differenziale/numeri interi relativi.md",
-      "x": -2011.12109375,
-      "y": 595.9385375976562
-    },
-    {
-      "id": "calcolo differenziale/numeri naturali.md",
-      "x": -2159.091552734375,
-      "y": 1212.4794921875
-    },
-    {
-      "id": "calcolo differenziale/numeri razionali.md",
-      "x": -1797.061279296875,
-      "y": 848.6405029296875
-    },
-    {
-      "id": "calcolo differenziale/numeri reali.md",
-      "x": -1788.572509765625,
-      "y": 2185.098876953125
-    },
-    {
-      "id": "calcolo differenziale/regole di derivazione.md",
-      "x": -2900.944580078125,
-      "y": 3274.560302734375
-    },
-    {
-      "id": "calcolo differenziale/serie di Taylor.md",
-      "x": -3298.00927734375,
-      "y": 2737.157470703125
-    },
-    {
-      "id": "calcolo differenziale/successione.md",
-      "x": -1495.2431640625,
-      "y": 2454.4287109375
-    },
-    {
-      "id": "calcolo differenziale/tabella delle derivate prime.md",
-      "x": -3106.35400390625,
-      "y": 3219.522216796875
-    },
-    {
-      "id": "calcolo differenziale/teorema de l'hopital.md",
-      "x": -3348.473876953125,
-      "y": 3436.217041015625
-    },
-    {
-      "id": "calcolo differenziale/teorema di unicità del limite.md",
-      "x": -2804.318359375,
-      "y": 2449.370849609375
-    },
-    {
-      "id": "calcolo differenziale/teorema ponte.md",
-      "x": -2052.2392578125,
-      "y": 2227.249267578125
-    },
-    {
-      "id": "calcolo differenziale/teoremi dei limiti sulle successioni.md",
-      "x": -893.5325927734375,
-      "y": 2909.757568359375
+      "x": -3243.407470703125,
+      "y": -2416.88916015625
     },
     {
       "id": "interdisciplinare/array.md",
-      "x": 2894.7646484375,
-      "y": 187.2349853515625
+      "x": -1260.41796875,
+      "y": -2524.826904296875
     },
     {
       "id": "interdisciplinare/classe di equivalenza.md",
-      "x": -3342.037841796875,
-      "y": -89.20486450195312
+      "x": 1019.2244873046875,
+      "y": 2811.247802734375
     },
     {
       "id": "interdisciplinare/funzione.md",
-      "x": -1531.5106201171875,
-      "y": 1064.5711669921875
-    },
-    {
-      "id": "interdisciplinare/operazioni fra gli insiemi.md",
-      "x": -3563.76025390625,
-      "y": -427.5506591796875
-    },
-    {
-      "id": "interdisciplinare/partizione.md",
-      "x": -3636.1474609375,
-      "y": 253.15008544921875
-    },
-    {
-      "id": "interdisciplinare/relazione.md",
-      "x": -2733.159912109375,
-      "y": 525.857421875
-    },
-    {
-      "id": "interdisciplinare/struttura dati.md",
-      "x": 3499.18359375,
-      "y": 404.5228271484375
-    },
-    {
-      "id": "interdisciplinare/teoria degli insiemi.md",
-      "x": -2960.733642578125,
-      "y": 835.009033203125
-    },
-    {
-      "id": "metodologie di programmazione/eccezioni.md",
-      "x": 2394.994384765625,
-      "y": -1603.668701171875
-    },
-    {
-      "id": "progettazione di sistemi digitali/ALU.md",
-      "x": 1419.1331787109375,
-      "y": -2645.094970703125
-    },
-    {
-      "id": "progettazione di sistemi digitali/PC (Program Counter).md",
-      "x": 2563.594970703125,
-      "y": -2728.866455078125
-    },
-    {
-      "id": "progettazione di sistemi digitali/adder.md",
-      "x": 336.9249267578125,
-      "y": -3175.919677734375
-    },
-    {
-      "id": "progettazione di sistemi digitali/algebra delle porte logiche e reti combinatorie.md",
-      "x": -1108.2677001953125,
-      "y": -3011.9931640625
-    },
-    {
-      "id": "progettazione di sistemi digitali/automa a stati finiti (finite state automata).md",
-      "x": -121.52476501464844,
-      "y": -2494.04736328125
-    },
-    {
-      "id": "progettazione di sistemi digitali/bus.md",
-      "x": 2018.9852294921875,
-      "y": -2180.46337890625
-    },
-    {
-      "id": "progettazione di sistemi digitali/decodificatore (DEC).md",
-      "x": 1607.1728515625,
-      "y": -3525.804443359375
-    },
-    {
-      "id": "progettazione di sistemi digitali/estensione del segno in CA2.md",
-      "x": 1115.9036865234375,
-      "y": -2261.549560546875
-    },
-    {
-      "id": "progettazione di sistemi digitali/multiplexer (MUX).md",
-      "x": 1889.114990234375,
-      "y": -3383.627197265625
-    },
-    {
-      "id": "progettazione di sistemi digitali/progettazione di sistemi digitali.md",
-      "x": -670.7059326171875,
-      "y": -2617.03857421875
-    },
-    {
-      "id": "progettazione di sistemi digitali/rappresentazione o codifica di numeri con la virgola.md",
-      "x": -468.466064453125,
-      "y": -1256.428955078125
-    },
-    {
-      "id": "progettazione di sistemi digitali/registri.md",
-      "x": 2067.447265625,
-      "y": -3016.08544921875
-    },
-    {
-      "id": "progettazione di sistemi digitali/unità di misura del sistema binario.md",
-      "x": 849.2680053710938,
-      "y": -2413.8388671875
-    },
-    {
-      "id": "calcolo differenziale/concetto di asintotico.md",
-      "x": -1094.9691162109375,
-      "y": 2177.19873046875
-    },
-    {
-      "id": "calcolo differenziale/limiti notevoli delle funzioni.md",
-      "x": -2299.171875,
-      "y": 2498.41650390625
-    },
-    {
-      "id": "calcolo differenziale/notazioni degli insiemi.md",
-      "x": -3260.774169921875,
-      "y": 997.3746337890625
-    },
-    {
-      "id": "calcolo differenziale/teorema dei valori intermedi.md",
-      "x": -1698.6531982421875,
-      "y": 1491.0301513671875
-    },
-    {
-      "id": "calcolo differenziale/teorema dell'esistenza degli zeri.md",
-      "x": -1820.043701171875,
-      "y": 1158.30517578125
-    },
-    {
-      "id": "calcolo differenziale/teorema di Weierstrass + Valori Intermedi generalizzati.md",
-      "x": -1269.007568359375,
-      "y": 1246.5770263671875
-    },
-    {
-      "id": "calcolo differenziale/teorema di Weierstrass.md",
-      "x": -1432.9552001953125,
-      "y": 1442.333740234375
-    },
-    {
-      "id": "calcolo integrale/EDO del secondo ordine.md",
-      "x": -1952.5994873046875,
-      "y": 3062.0947265625
-    },
-    {
-      "id": "calcolo integrale/EDO lineari del primo ordine.md",
-      "x": -1745.734375,
-      "y": 3041.7099609375
-    },
-    {
-      "id": "calcolo integrale/EDO non lineari del primo ordine a variabili separabili.md",
-      "x": -1759.670654296875,
-      "y": 4050.82275390625
-    },
-    {
-      "id": "calcolo integrale/calcolo integrale.md",
-      "x": -880.1094970703125,
-      "y": 3542.35205078125
-    },
-    {
-      "id": "calcolo integrale/confronto asintotico.md",
-      "x": 261.41888427734375,
-      "y": 3550.341552734375
-    },
-    {
-      "id": "calcolo integrale/convergenza assoluta.md",
-      "x": -1125.7178955078125,
-      "y": 4154.3046875
-    },
-    {
-      "id": "calcolo integrale/convergenza semplice.md",
-      "x": -1172.7969970703125,
-      "y": 3511.021484375
-    },
-    {
-      "id": "calcolo integrale/criteri di confronto delle serie a segno costante.md",
-      "x": -104.38191223144531,
-      "y": 4560.25732421875
-    },
-    {
-      "id": "criterio del confronto",
-      "x": 24.037248611450195,
-      "y": 4909.74365234375
-    },
-    {
-      "id": "criterio del rapporto",
-      "x": 287.1709899902344,
-      "y": 4555.7353515625
-    },
-    {
-      "id": "criterio della radice",
-      "x": -264.6677551269531,
-      "y": 4887.044921875
-    },
-    {
-      "id": "criterio del confronto asintotico",
-      "x": 256.09259033203125,
-      "y": 4793.27978515625
-    },
-    {
-      "id": "calcolo integrale/criterio di Leibniz.md",
-      "x": -1205.33251953125,
-      "y": 3746.790283203125
-    },
-    {
-      "id": "calcolo integrale/elenco di equazioni differenziali da risolvere.md",
-      "x": -2151.6591796875,
-      "y": 3980.718505859375
-    },
-    {
-      "id": "calcolo integrale/equazioni differenziali.md",
-      "x": -1961.793212890625,
-      "y": 3547.181884765625
-    },
-    {
-      "id": "calcolo integrale/formulario di calcolo integrale.md",
-      "x": -1222.071044921875,
-      "y": 3961.392333984375
-    },
-    {
-      "id": "calcolo integrale/integrali definiti.md",
-      "x": -479.8355712890625,
-      "y": 3841.631591796875
-    },
-    {
-      "id": "calcolo integrale/integrali impropri.md",
-      "x": -561.5419311523438,
-      "y": 3613.180908203125
-    },
-    {
-      "id": "calcolo integrale/integrali indefiniti.md",
-      "x": -916.6347045898438,
-      "y": 4203.30859375
-    },
-    {
-      "id": "calcolo integrale/integrali.md",
-      "x": -244.9400177001953,
-      "y": 3404.252685546875
-    },
-    {
-      "id": "calcolo integrale/problemi di Cauchy.md",
-      "x": -1587.3497314453125,
-      "y": 3854.251953125
-    },
-    {
-      "id": "calcolo integrale/serie armoniche.md",
-      "x": -339.0267333984375,
-      "y": 2887.651123046875
-    },
-    {
-      "id": "calcolo integrale/serie di Cauchy.md",
-      "x": -965.0165405273438,
-      "y": 3920.42333984375
-    },
-    {
-      "id": "calcolo integrale/serie di Mengoli.md",
-      "x": -140.4390106201172,
-      "y": 3741.671630859375
-    },
-    {
-      "id": "calcolo integrale/serie di potenze.md",
-      "x": -738.38134765625,
-      "y": 3864.591796875
-    },
-    {
-      "id": "calcolo integrale/serie geometriche.md",
-      "x": -74.750244140625,
-      "y": 2986.48681640625
-    },
-    {
-      "id": "calcolo integrale/serie.md",
-      "x": -72.8946533203125,
-      "y": 3227.337158203125
-    },
-    {
-      "id": "calcolo integrale/successione di Cauchy.md",
-      "x": -593.4302978515625,
-      "y": 3021.23876953125
-    },
-    {
-      "id": "calcolo integrale/tecniche di integrazione.md",
-      "x": -731.23828125,
-      "y": 4130.44873046875
-    },
-    {
-      "id": "calcolo integrale/teorema fondamentale del calcolo integrale.md",
-      "x": -534.977294921875,
-      "y": 4051.600830078125
-    },
-    {
-      "id": "index.md",
-      "x": -1064.656005859375,
-      "y": 430.3070068359375
-    },
-    {
-      "id": "interdisciplinare/albero.md",
-      "x": 3367.9912109375,
-      "y": -42.659751892089844
-    },
-    {
-      "id": "interdisciplinare/algebra di Boole.md",
-      "x": -2059.39453125,
-      "y": -2460.592041015625
-    },
-    {
-      "id": "interdisciplinare/algoritmo.md",
-      "x": 690.5995483398438,
-      "y": 1465.8526611328125
-    },
-    {
-      "id": "interdisciplinare/dizionario.md",
-      "x": 4443.9384765625,
-      "y": -259.3707580566406
-    },
-    {
-      "id": "interdisciplinare/espressioni booleane.md",
-      "x": -1795.3489990234375,
-      "y": -2170.50732421875
-    },
-    {
-      "id": "interdisciplinare/hash table.md",
-      "x": 3656.934814453125,
-      "y": -692.2896118164062
-    },
-    {
-      "id": "interdisciplinare/heap.md",
-      "x": 4018.2939453125,
-      "y": -256.53985595703125
-    },
-    {
-      "id": "interdisciplinare/insieme delle parti.md",
-      "x": -3008.41650390625,
-      "y": -157.9652557373047
-    },
-    {
-      "id": "interdisciplinare/linguaggio regolare.md",
-      "x": -315.1887512207031,
-      "y": -2168.57421875
-    },
-    {
-      "id": "interdisciplinare/linked list.md",
-      "x": 3608.490478515625,
-      "y": -295.9547119140625
-    },
-    {
-      "id": "interdisciplinare/lista doppiamente puntata.md",
-      "x": 3895.70166015625,
-      "y": -881.3504028320312
-    },
-    {
-      "id": "interdisciplinare/notazione asintotica.md",
-      "x": -125.7530517578125,
-      "y": 1967.668212890625
-    },
-    {
-      "id": "interdisciplinare/proprietà, tipi di relazioni e ordini.md",
-      "x": -2486.97265625,
-      "y": 982.4088134765625
-    },
-    {
-      "id": "interdisciplinare/puntatore.md",
-      "x": 3046.64794921875,
-      "y": -653.387451171875
-    },
-    {
-      "id": "interdisciplinare/queue.md",
-      "x": 3288.17578125,
-      "y": -299.2481994628906
-    },
-    {
-      "id": "interdisciplinare/regex (espressioni regolari).md",
-      "x": -99.96408081054688,
-      "y": -1969.312255859375
-    },
-    {
-      "id": "interdisciplinare/sottoinsiemi.md",
-      "x": -3103.9091796875,
-      "y": 364.0455017089844
-    },
-    {
-      "id": "interdisciplinare/stack.md",
-      "x": 3417.000244140625,
-      "y": 657.3541259765625
-    },
-    {
-      "id": "LinkedList",
-      "x": 3896.029541015625,
-      "y": 380.0441589355469
-    },
-    {
-      "id": "HashSet",
-      "x": 3815.19580078125,
-      "y": 639.1015625
-    },
-    {
-      "id": "TreeSet",
-      "x": 4042.7470703125,
-      "y": 604.3964233398438
-    },
-    {
-      "id": "LinkedHashSet",
-      "x": 3731.965576171875,
-      "y": 149.94976806640625
-    },
-    {
-      "id": "HashMap",
-      "x": 3945.593994140625,
-      "y": 118.17364501953125
-    },
-    {
-      "id": "TreeMap",
-      "x": 4133.92236328125,
-      "y": 223.769287109375
-    },
-    {
-      "id": "LinkedHashMap",
-      "x": 4171.15185546875,
-      "y": 435.0960693359375
-    },
-    {
-      "id": "introduzione agli algoritmi/albero di ricerca.md",
-      "x": 4650.0576171875,
-      "y": -674.459228515625
-    },
-    {
-      "id": "introduzione agli algoritmi/algoritmi di ordinamento.md",
-      "x": 1883.955810546875,
-      "y": 234.32949829101562
-    },
-    {
-      "id": "introduzione agli algoritmi/algoritmi di ricerca.md",
-      "x": 2663.26416015625,
-      "y": -359.9292907714844
-    },
-    {
-      "id": "introduzione agli algoritmi/algoritmi ricorsivi.md",
-      "x": 438.4222717285156,
-      "y": 665.3289184570312
-    },
-    {
-      "id": "introduzione agli algoritmi/bubble sort.md",
-      "x": 1724.4361572265625,
-      "y": -38.32492446899414
-    },
-    {
-      "id": "introduzione agli algoritmi/bucket sort.md",
-      "x": 1878.5709228515625,
-      "y": -201.09869384765625
-    },
-    {
-      "id": "introduzione agli algoritmi/complessità delle operazioni più comuni in Python.md",
-      "x": 2114.930419921875,
-      "y": 655.56884765625
-    },
-    {
-      "id": "introduzione agli algoritmi/complessità spaziale.md",
-      "x": 2036.4840087890625,
-      "y": -664.6419677734375
-    },
-    {
-      "id": "introduzione agli algoritmi/complessità temporale.md",
-      "x": 1442.173583984375,
-      "y": 572.8923950195312
-    },
-    {
-      "id": "introduzione agli algoritmi/counting sort.md",
-      "x": 1540.6661376953125,
-      "y": 124.80499267578125
-    },
-    {
-      "id": "introduzione agli algoritmi/efficienza degli algoritmi (costo computazionale).md",
-      "x": 759.3983764648438,
-      "y": 1142.2757568359375
-    },
-    {
-      "id": "introduzione agli algoritmi/equazioni di ricorrenza.md",
-      "x": 371.297119140625,
-      "y": 1017.8700561523438
-    },
-    {
-      "id": "introduzione agli algoritmi/esempi di algoritmi con diversa complessità.md",
-      "x": 1677.8525390625,
-      "y": 735.2425537109375
-    },
-    {
-      "id": "introduzione agli algoritmi/esercizi dell'esonero di algoritmi.md",
-      "x": 816.3888549804688,
-      "y": 563.0386962890625
-    },
-    {
-      "id": "introduzione agli algoritmi/heap sort.md",
-      "x": 2093.35791015625,
-      "y": -171.8070526123047
-    },
-    {
-      "id": "introduzione agli algoritmi/implementazioni degli alberi binari.md",
-      "x": 3015.620361328125,
-      "y": -101.84455871582031
-    },
-    {
-      "id": "introduzione agli algoritmi/insertion sort.md",
-      "x": 2209.69775390625,
-      "y": -3.070502758026123
-    },
-    {
-      "id": "introduzione agli algoritmi/introduzione agli algoritmi.md",
-      "x": 976.4254150390625,
-      "y": 809.5906982421875
-    },
-    {
-      "id": "introduzione agli algoritmi/lista di Python.md",
-      "x": 3024.115234375,
-      "y": 550.3536987304688
-    },
-    {
-      "id": "introduzione agli algoritmi/master theorem.md",
-      "x": 154.6592254638672,
-      "y": 1344.8604736328125
-    },
-    {
-      "id": "introduzione agli algoritmi/merge sort.md",
-      "x": 2159.276611328125,
-      "y": 364.2856140136719
-    },
-    {
-      "id": "introduzione agli algoritmi/metodo dei limiti asintotici delle somme.md",
-      "x": -557.2484741210938,
-      "y": 2175.9208984375
-    },
-    {
-      "id": "introduzione agli algoritmi/metodo dell'albero.md",
-      "x": 50.18362045288086,
-      "y": 1083.1373291015625
-    },
-    {
-      "id": "introduzione agli algoritmi/metodo dell'integrale.md",
-      "x": 96.4964599609375,
-      "y": 2749.94921875
-    },
-    {
-      "id": "introduzione agli algoritmi/metodo della forma chiusa.md",
-      "x": -33.49771499633789,
-      "y": 2509.515380859375
-    },
-    {
-      "id": "introduzione agli algoritmi/metodo di sostituzione.md",
-      "x": -331.1465148925781,
-      "y": 1419.22998046875
-    },
-    {
-      "id": "introduzione agli algoritmi/metodo iterativo.md",
-      "x": 362.4446716308594,
-      "y": 1445.19677734375
-    },
-    {
-      "id": "introduzione agli algoritmi/nomenclatura degli alberi.md",
-      "x": 4359.79931640625,
-      "y": -650.0303955078125
-    },
-    {
-      "id": "introduzione agli algoritmi/notazione O-grande.md",
-      "x": -828.9096069335938,
-      "y": 1651.601318359375
-    },
-    {
-      "id": "introduzione agli algoritmi/notazione Omega.md",
-      "x": -1400.8619384765625,
-      "y": 1798.66064453125
-    },
-    {
-      "id": "introduzione agli algoritmi/notazione Theta.md",
-      "x": -1198.540283203125,
-      "y": 1683.3756103515625
-    },
-    {
-      "id": "introduzione agli algoritmi/problem solving.md",
-      "x": 992.7279663085938,
-      "y": 1337.295654296875
-    },
-    {
-      "id": "introduzione agli algoritmi/problemi combinatori.md",
-      "x": -840.23291015625,
-      "y": 765.7879638671875
-    },
-    {
-      "id": "introduzione agli algoritmi/pseudocodice.md",
-      "x": 1114.3255615234375,
-      "y": 435.22308349609375
-    },
-    {
-      "id": "introduzione agli algoritmi/quick sort.md",
-      "x": 2305.8232421875,
-      "y": 192.82887268066406
-    },
-    {
-      "id": "introduzione agli algoritmi/ricerca binaria.md",
-      "x": 3949.13037109375,
-      "y": -593.3037109375
-    },
-    {
-      "id": "introduzione agli algoritmi/ricerca lineare.md",
-      "x": 3584.123779296875,
-      "y": -1017.4998779296875
-    },
-    {
-      "id": "introduzione agli algoritmi/selection sort.md",
-      "x": 1546.2921142578125,
-      "y": -249.55137634277344
-    },
-    {
-      "id": "metodi matematici per l'informatica/dimostrazione della proprietà commutativa del prodotto cartesiano rispetto all'unione.md",
-      "x": -3906.172119140625,
-      "y": -669.6837768554688
-    },
-    {
-      "id": "metodi matematici per l'informatica/esempi con situazioni reali.md",
-      "x": -2316.427001953125,
-      "y": -1672.080322265625
-    },
-    {
-      "id": "metodi matematici per l'informatica/esempi di formule.md",
-      "x": -1885.994384765625,
-      "y": -1865.504150390625
-    },
-    {
-      "id": "metodi matematici per l'informatica/esempio di formula logica.md",
-      "x": -2186.182861328125,
-      "y": -1485.6322021484375
-    },
-    {
-      "id": "metodi matematici per l'informatica/esercizi/dimostrare che dato un insieme V di n punti li possiamo collegare due a due con n(n-1) diviso 2 segmenti (si assuma n maggiore uguale a 2).md",
-      "x": -4484.45654296875,
-      "y": -1430.789306640625
-    },
-    {
-      "id": "metodi matematici per l'informatica/esercizi/dimostrazione della numerabilità con l'induzione.md",
-      "x": -4138.6103515625,
-      "y": -1584.066162109375
-    },
-    {
-      "id": "metodi matematici per l'informatica/esercizi/esempio di induzione.md",
-      "x": -4372.6162109375,
-      "y": -1626.8614501953125
-    },
-    {
-      "id": "metodi matematici per l'informatica/esercizi/esercizi di metodi matematici per l'informatica.md",
-      "x": -4115.919921875,
-      "y": -1251.388916015625
-    },
-    {
-      "id": "metodi matematici per l'informatica/esercizi/induzione con diagonali dei poligoni.md",
-      "x": -4558.53271484375,
-      "y": -1218.29931640625
-    },
-    {
-      "id": "metodi matematici per l'informatica/formule logiche.md",
-      "x": -1384.5499267578125,
-      "y": -1021.4917602539062
-    },
-    {
-      "id": "metodi matematici per l'informatica/funzione calcolabile.md",
-      "x": -2347.63330078125,
-      "y": 420.0074157714844
-    },
-    {
-      "id": "metodi matematici per l'informatica/funzione caratteristica di un insieme.md",
-      "x": -2405.406005859375,
-      "y": -92.71965026855469
-    },
-    {
-      "id": "metodi matematici per l'informatica/implicazione materiale.md",
-      "x": -2145.78125,
-      "y": -1808.191162109375
-    },
-    {
-      "id": "metodi matematici per l'informatica/induzione completa.md",
-      "x": -1884.345458984375,
-      "y": -629.9500122070312
-    },
-    {
-      "id": "metodi matematici per l'informatica/induzione con definizione di funzione.md",
-      "x": -4395.8291015625,
-      "y": -1044.4888916015625
-    },
-    {
-      "id": "metodi matematici per l'informatica/induzione matematica.md",
-      "x": -856.5363159179688,
-      "y": 1179.6968994140625
-    },
-    {
-      "id": "metodi matematici per l'informatica/induzione sulla struttura del linguaggio.md",
-      "x": -1073.666015625,
-      "y": -942.9181518554688
-    },
-    {
-      "id": "metodi matematici per l'informatica/induzione.md",
-      "x": -1603.50146484375,
-      "y": -422.92327880859375
-    },
-    {
-      "id": "metodi matematici per l'informatica/logica predicativa.md",
-      "x": -3081.3828125,
-      "y": -698.1760864257812
-    },
-    {
-      "id": "metodi matematici per l'informatica/logica proposizionale.md",
-      "x": -1816.1146240234375,
-      "y": -1585.21533203125
-    },
-    {
-      "id": "metodi matematici per l'informatica/metodi matematici per l'informatica.md",
-      "x": -2634.0029296875,
-      "y": -516.8698120117188
-    },
-    {
-      "id": "metodi matematici per l'informatica/sintassi.md",
-      "x": -84.70858764648438,
-      "y": -1179.4912109375
-    },
-    {
-      "id": "metodologie di programmazione/ArrayList.md",
-      "x": 4009.44384765625,
-      "y": 1029.8995361328125
-    },
-    {
-      "id": "metodologie di programmazione/Hello World in Java.md",
-      "x": 2146.823486328125,
-      "y": 3458.146728515625
-    },
-    {
-      "id": "metodologie di programmazione/Java.md",
-      "x": 2558.420166015625,
-      "y": 2209.833740234375
-    },
-    {
-      "id": "metodologie di programmazione/Junit.md",
-      "x": 2526.78271484375,
-      "y": 1740.343505859375
-    },
-    {
-      "id": "metodologie di programmazione/SAM (Single Abstract Method).md",
-      "x": 4579.6298828125,
-      "y": 1866.3560791015625
-    },
-    {
-      "id": "metodologie di programmazione/UML (Unified Modeling Language).md",
-      "x": 1908.984619140625,
-      "y": 3337.095458984375
-    },
-    {
-      "id": "metodologie di programmazione/analisi dello stato della memoria.md",
-      "x": 2322.90283203125,
-      "y": 1816.7366943359375
-    },
-    {
-      "id": "metodologie di programmazione/anatomia della memoria della JVM.md",
-      "x": 2661.927490234375,
-      "y": 1427.1102294921875
-    },
-    {
-      "id": "metodologie di programmazione/binding.md",
-      "x": 2928.96142578125,
-      "y": 2751.517333984375
-    },
-    {
-      "id": "metodologie di programmazione/campi.md",
-      "x": 2039.103271484375,
-      "y": 2291.184814453125
-    },
-    {
-      "id": "metodologie di programmazione/caratteristiche di Java.md",
-      "x": 2938.90185546875,
-      "y": 2040.1822509765625
-    },
-    {
-      "id": "metodologie di programmazione/casting.md",
-      "x": 3148.523681640625,
-      "y": 2607.539306640625
-    },
-    {
-      "id": "metodologie di programmazione/char.md",
-      "x": 3765.041015625,
-      "y": 1389.6761474609375
-    },
-    {
-      "id": "metodologie di programmazione/classe Object.md",
-      "x": 1282.676513671875,
-      "y": 3284.750244140625
-    },
-    {
-      "id": "getClass",
-      "x": 1055.573974609375,
-      "y": 3731.629150390625
-    },
-    {
-      "id": "toString",
-      "x": 1072.7791748046875,
-      "y": 2944.4541015625
-    },
-    {
-      "id": "metodologie di programmazione/classe annidate e interne.md",
-      "x": 1921.0245361328125,
-      "y": 4033.800537109375
-    },
-    {
-      "id": "metodologie di programmazione/classe anonima.md",
-      "x": 3559.047119140625,
-      "y": 3161.46728515625
-    },
-    {
-      "id": "metodologie di programmazione/classe astratta.md",
-      "x": 2132.950927734375,
-      "y": 3698.633544921875
-    },
-    {
-      "id": "metodologie di programmazione/classe final.md",
-      "x": 2628.124755859375,
-      "y": 3869.17236328125
-    },
-    {
-      "id": "metodologie di programmazione/classe wrapper.md",
-      "x": 3194.369140625,
-      "y": 2183.5966796875
-    },
-    {
-      "id": "metodologie di programmazione/classe.md",
-      "x": 2702.72265625,
-      "y": 3348.32470703125
-    },
-    {
-      "id": "metodologie di programmazione/clone.md",
-      "x": 1370.1068115234375,
-      "y": 2743.686767578125
-    },
-    {
-      "id": "metodologie di programmazione/collezione.md",
-      "x": 3604.013916015625,
-      "y": 1659.8800048828125
-    },
-    {
-      "id": "metodologie di programmazione/costruttore.md",
-      "x": 2533.198486328125,
-      "y": 3018.99560546875
-    },
-    {
-      "id": "metodologie di programmazione/design pattern.md",
-      "x": 2740.8955078125,
-      "y": 2451.877197265625
-    },
-    {
-      "id": "metodologie di programmazione/diagramma delle classi in UML.md",
-      "x": 2154.080810546875,
-      "y": 4163.46630859375
-    },
-    {
-      "id": "metodologie di programmazione/differenze tra classi anonime e espressioni lambda.md",
-      "x": 3390.632080078125,
-      "y": 3380.99755859375
-    },
-    {
-      "id": "page fault",
-      "x": 2775.08740234375,
-      "y": -1610.148681640625
-    },
-    {
-      "id": "metodologie di programmazione/enumerazione.md",
-      "x": 1678.6700439453125,
-      "y": 2364.576416015625
-    },
-    {
-      "id": "metodologie di programmazione/equals.md",
-      "x": -360.2203369140625,
-      "y": 2341.03076171875
-    },
-    {
-      "id": "metodologie di programmazione/ereditarietà multipla.md",
-      "x": 3559.30810546875,
-      "y": 3725.347412109375
-    },
-    {
-      "id": "metodologie di programmazione/ereditarietà.md",
-      "x": 2525.355224609375,
-      "y": 3607.9150390625
-    },
-    {
-      "id": "metodologie di programmazione/esempio di progettazione di una classe.md",
-      "x": 2858.830322265625,
-      "y": 3822.54296875
-    },
-    {
-      "id": "metodologie di programmazione/espressione lambda.md",
-      "x": 3757.848876953125,
-      "y": 2199.098876953125
-    },
-    {
-      "id": "metodologie di programmazione/espressione.md",
-      "x": 2348.9521484375,
-      "y": 1094.5999755859375
-    },
-    {
-      "id": "metodologie di programmazione/flussi di controllo.md",
-      "x": 1774.469970703125,
-      "y": 1833.40771484375
-    },
-    {
-      "id": "metodologie di programmazione/gestione di input e output.md",
-      "x": 2260.864501953125,
-      "y": 2174.664794921875
-    },
-    {
-      "id": "metodologie di programmazione/hashcode.md",
-      "x": 1661.9595947265625,
-      "y": 2739.74951171875
-    },
-    {
-      "id": "metodologie di programmazione/incapsulamento.md",
-      "x": 1601.9945068359375,
-      "y": 3151.426025390625
-    },
-    {
-      "id": "metodologie di programmazione/interfacce funzionali.md",
-      "x": 4515.26611328125,
-      "y": 2280.228271484375
-    },
-    {
-      "id": "metodologie di programmazione/interfacce notevoli.md",
-      "x": 3507.843505859375,
-      "y": 2890.99462890625
-    },
-    {
-      "id": "metodologie di programmazione/interfaccia iterabile.md",
-      "x": 3838.241943359375,
-      "y": 1900.6221923828125
-    },
-    {
-      "id": "metodologie di programmazione/interfaccia.md",
-      "x": 3846.2626953125,
-      "y": 2867.75244140625
-    },
-    {
-      "id": "metodologie di programmazione/java.lang.String.md",
-      "x": 1414.3988037109375,
-      "y": 919.9487915039062
-    },
-    {
-      "id": "metodologie di programmazione/javadoc.md",
-      "x": 2647.16455078125,
-      "y": 1917.2513427734375
-    },
-    {
-      "id": "metodologie di programmazione/jolly.md",
-      "x": 3993.721435546875,
-      "y": 2571.632568359375
-    },
-    {
-      "id": "metodologie di programmazione/letterale.md",
-      "x": 3268.48779296875,
-      "y": 1129.84326171875
-    },
-    {
-      "id": "metodologie di programmazione/lettura input da console.md",
-      "x": 2922.30859375,
-      "y": 2273.051513671875
-    },
-    {
-      "id": "metodologie di programmazione/messaggio.md",
-      "x": 1032.3258056640625,
-      "y": 2321.15087890625
-    },
-    {
-      "id": "metodologie di programmazione/metodo.md",
-      "x": 2002.152099609375,
-      "y": 2745.3447265625
-    },
-    {
-      "id": "metodologie di programmazione/metodologie di programmazione.md",
-      "x": 1443.0916748046875,
-      "y": 2077.203125
-    },
-    {
-      "id": "metodologie di programmazione/modificatori di visibilità.md",
-      "x": 1644.247802734375,
-      "y": 3552.2431640625
-    },
-    {
-      "id": "metodologie di programmazione/oggetto.md",
-      "x": 2471.419677734375,
-      "y": 2682.048583984375
-    },
-    {
-      "id": "metodologie di programmazione/operatori.md",
-      "x": 1875.2349853515625,
-      "y": 1283.541015625
-    },
-    {
-      "id": "metodologie di programmazione/overloading.md",
-      "x": 2227.958984375,
-      "y": 2624.048828125
-    },
-    {
-      "id": "metodologie di programmazione/overriding.md",
-      "x": 2179.12255859375,
-      "y": 2990.890380859375
-    },
-    {
-      "id": "metodologie di programmazione/package.md",
-      "x": 2305.59375,
-      "y": 3276.94970703125
-    },
-    {
-      "id": "metodologie di programmazione/polimorfismo.md",
-      "x": 2974.911865234375,
-      "y": 3274.36328125
-    },
-    {
-      "id": "metodologie di programmazione/programmazione funzionale.md",
-      "x": 4023.062744140625,
-      "y": 2268.74755859375
-    },
-    {
-      "id": "metodologie di programmazione/programmazione orientata agli oggetti.md",
-      "x": 1854.8319091796875,
-      "y": 3014.715576171875
-    },
-    {
-      "id": "metodologie di programmazione/relazioni tra oggetti.md",
-      "x": 3068.339111328125,
-      "y": 3671.91845703125
-    },
-    {
-      "id": "metodologie di programmazione/ricorsione.md",
-      "x": 2849.80419921875,
-      "y": 1824.9326171875
-    },
-    {
-      "id": "metodologie di programmazione/stream.md",
-      "x": 2164.3271484375,
-      "y": 1961.6617431640625
-    },
-    {
-      "id": "metodologie di programmazione/this e super.md",
-      "x": 2574.97607421875,
-      "y": 4199.80712890625
-    },
-    {
-      "id": "metodologie di programmazione/tipi generici.md",
-      "x": 3492.68212890625,
-      "y": 2519.8388671875
-    },
-    {
-      "id": "metodologie di programmazione/tipi.md",
-      "x": 3242.55908203125,
-      "y": 1822.8941650390625
-    },
-    {
-      "id": "metodologie di programmazione/upcasting e downcasting.md",
-      "x": 3098.54638671875,
-      "y": 3047.03515625
-    },
-    {
-      "id": "metodologie di programmazione/variabile.md",
-      "x": 3035.080078125,
-      "y": 1535.5233154296875
-    },
-    {
-      "id": "progettazione di sistemi digitali/AND gate con funzione di controllo.md",
-      "x": 1850.15869140625,
-      "y": -4232.484375
-    },
-    {
-      "id": "progettazione di sistemi digitali/ASCII.md",
-      "x": -3473.572021484375,
-      "y": -1673.7315673828125
-    },
-    {
-      "id": "progettazione di sistemi digitali/NAND e NOR.md",
-      "x": -2307.832763671875,
-      "y": -3193.937744140625
-    },
-    {
-      "id": "progettazione di sistemi digitali/XOR.md",
-      "x": -1494.39794921875,
-      "y": -3803.336181640625
-    },
-    {
-      "id": "progettazione di sistemi digitali/addizionatore a propagazione di riporto (ripple carry adder).md",
-      "x": -421.3888244628906,
-      "y": -3485.1279296875
-    },
-    {
-      "id": "progettazione di sistemi digitali/addizionatore sequenziale.md",
-      "x": 119.36771392822266,
-      "y": -3685.393798828125
-    },
-    {
-      "id": "progettazione di sistemi digitali/altri operatori logici.md",
-      "x": -2154.368896484375,
-      "y": -3917.95263671875
-    },
-    {
-      "id": "progettazione di sistemi digitali/analisi di reti sequenziali.md",
-      "x": -616.838623046875,
-      "y": -3951.2431640625
-    },
-    {
-      "id": "progettazione di sistemi digitali/bit di parità.md",
-      "x": -3875.646240234375,
-      "y": -2151.886962890625
-    },
-    {
-      "id": "progettazione di sistemi digitali/caricamento parallelo e seriale di registri + right shift register.md",
-      "x": 1755.939697265625,
-      "y": -4574.67626953125
-    },
-    {
-      "id": "progettazione di sistemi digitali/codice 2-su-5.md",
-      "x": -3209.06787109375,
-      "y": -1659.7344970703125
-    },
-    {
-      "id": "progettazione di sistemi digitali/codice di Hamming.md",
-      "x": -3996.119384765625,
-      "y": -2404.03076171875
-    },
-    {
-      "id": "progettazione di sistemi digitali/codifica BCD (Binary Coded Decimal).md",
-      "x": -2734.777099609375,
-      "y": -1173.3116455078125
-    },
-    {
-      "id": "progettazione di sistemi digitali/codifica dell'informazione (alfa)numerica.md",
-      "x": -2317.824951171875,
-      "y": -1003.6524047851562
-    },
-    {
-      "id": "progettazione di sistemi digitali/codificatore (ENC).md",
-      "x": 1301.971435546875,
-      "y": -3450.84326171875
-    },
-    {
-      "id": "progettazione di sistemi digitali/comparatore (COMP).md",
-      "x": 598.982421875,
-      "y": -2716.366455078125
-    },
-    {
-      "id": "progettazione di sistemi digitali/complementatore.md",
-      "x": 650.1399536132812,
-      "y": -3101.337890625
-    },
-    {
-      "id": "progettazione di sistemi digitali/complementazione.md",
-      "x": -1992.37841796875,
-      "y": -1238.789794921875
-    },
-    {
-      "id": "progettazione di sistemi digitali/complemento a 1 (CA1).md",
-      "x": -1468.05029296875,
-      "y": -1417.713623046875
-    },
-    {
-      "id": "progettazione di sistemi digitali/complemento a 2 (CA2).md",
-      "x": 333.2091979980469,
-      "y": -1786.84423828125
-    },
-    {
-      "id": "progettazione di sistemi digitali/contatore con abilitazione al conteggio.md",
-      "x": 1336.588623046875,
-      "y": -4376.2333984375
-    },
-    {
-      "id": "progettazione di sistemi digitali/contatore di eventi.md",
-      "x": 874.150390625,
-      "y": -4332.2861328125
-    },
-    {
-      "id": "progettazione di sistemi digitali/contatore sincrono con reset.md",
-      "x": 761.1954345703125,
-      "y": -4099.35791015625
-    },
-    {
-      "id": "progettazione di sistemi digitali/contatore sincrono modulo 2 alla n.md",
-      "x": 254.29161071777344,
-      "y": -4127.89306640625
-    },
-    {
-      "id": "progettazione di sistemi digitali/criterio di minimalità.md",
-      "x": -1177.771240234375,
-      "y": -3328.12548828125
-    },
-    {
-      "id": "progettazione di sistemi digitali/demultiplexer (DEMUX).md",
-      "x": 1807.0560302734375,
-      "y": -3758.834228515625
-    },
-    {
-      "id": "progettazione di sistemi digitali/diagramma temporale di reti sequenziali.md",
-      "x": -1177.98095703125,
-      "y": -4429.8447265625
-    },
-    {
-      "id": "progettazione di sistemi digitali/errori di trasmissione.md",
-      "x": -3332.129150390625,
-      "y": -2082.88916015625
-    },
-    {
-      "id": "progettazione di sistemi digitali/esempio di analisi di una rete sequenziale (automa contatore).md",
-      "x": -1040.8931884765625,
-      "y": -4129.40869140625
-    },
-    {
-      "id": "progettazione di sistemi digitali/esempio di analisi di una rete sequenziale (automa riconoscitore).md",
-      "x": -859.5872802734375,
-      "y": -4325.7001953125
-    },
-    {
-      "id": "progettazione di sistemi digitali/esempio di progettazione dell'automa della macchina distributrice.md",
-      "x": -311.65838623046875,
-      "y": -2733.5712890625
-    },
-    {
-      "id": "progettazione di sistemi digitali/esercizi/Scheda di esercizi n. 3.md",
-      "x": -3242.6162109375,
-      "y": -3002.4306640625
-    },
-    {
-      "id": "progettazione di sistemi digitali/esercizi/circuito di controllo apertura cancello.md",
-      "x": -3061.915283203125,
-      "y": -3514.044189453125
-    },
-    {
-      "id": "progettazione di sistemi digitali/esercizi/dato x contenuto nell'intervallo 0, 7 (compresi) rappresentato in 3 bit CA2 stendere la tavola di verità. y = x-2 rappresentato in CA2 con il minimo numero di bit.md",
-      "x": -2532.18701171875,
-      "y": -3817.513916015625
-    },
-    {
-      "id": "progettazione di sistemi digitali/esercizi/esercizi di progettazione di sistemi digitali.md",
-      "x": -2792.66259765625,
-      "y": -3292.055419921875
-    },
-    {
-      "id": "progettazione di sistemi digitali/esercizi/esercizio con conversioni tra forme SOP, POS e canoniche.md",
-      "x": -2463.951904296875,
-      "y": -2787.74169921875
-    },
-    {
-      "id": "progettazione di sistemi digitali/esercizi/si converta in base 4 il numero 231(10), si converta poi in base 16 e si sommi a 34A(16).md",
-      "x": -3048.539794921875,
-      "y": -3725.675537109375
-    },
-    {
-      "id": "progettazione di sistemi digitali/esercizi/si scriva -45 in CA2 a 7 bit e poi si sottragga 21.md",
-      "x": -3289.9765625,
-      "y": -3476.69677734375
-    },
-    {
-      "id": "progettazione di sistemi digitali/esercizi/sommare F7A0 e FB60 che rappresentano valori IEEE 754 HP.md",
-      "x": -3374.1494140625,
-      "y": -3223.683349609375
-    },
-    {
-      "id": "progettazione di sistemi digitali/esercizi/stendere la tavola di verità e trovare le espressioni canoniche SOP e POS.md",
-      "x": -2805.717041015625,
-      "y": -3654.5048828125
-    },
-    {
-      "id": "progettazione di sistemi digitali/esercizi/verificare l'identità.md",
-      "x": -2997.374755859375,
-      "y": -2994.614990234375
-    },
-    {
-      "id": "progettazione di sistemi digitali/flip-flop (JK).md",
-      "x": 690.8712768554688,
-      "y": -4958.45556640625
-    },
-    {
-      "id": "progettazione di sistemi digitali/flip-flop SR master-slave.md",
-      "x": 427.5267028808594,
-      "y": -4870.572265625
-    },
-    {
-      "id": "progettazione di sistemi digitali/flip-flop delay (D).md",
-      "x": 636.9930419921875,
-      "y": -4606.1943359375
-    },
-    {
-      "id": "progettazione di sistemi digitali/flip-flop set-reset (SR).md",
-      "x": 1051.4443359375,
-      "y": -4714.189453125
-    },
-    {
-      "id": "progettazione di sistemi digitali/flip-flop toggle (T).md",
-      "x": -103.26313781738281,
-      "y": -4889.9267578125
-    },
-    {
-      "id": "progettazione di sistemi digitali/flip-flop.md",
-      "x": 108.01752471923828,
-      "y": -4388.6640625
-    },
-    {
-      "id": "progettazione di sistemi digitali/full adder (FA).md",
-      "x": -737.9939575195312,
-      "y": -3233.13134765625
-    },
-    {
-      "id": "progettazione di sistemi digitali/funzioni di codifica e decodifica.md",
-      "x": -2676.947998046875,
-      "y": -125.48780822753906
-    },
-    {
-      "id": "progettazione di sistemi digitali/funzioni non completamente definita o specificata.md",
-      "x": -1856.0706787109375,
-      "y": -3670.93359375
-    },
-    {
-      "id": "progettazione di sistemi digitali/gray code.md",
-      "x": -2579.38037109375,
-      "y": -2473.548828125
-    },
-    {
-      "id": "progettazione di sistemi digitali/half adder (HA).md",
-      "x": -237.9760284423828,
-      "y": -3254.011474609375
-    },
-    {
-      "id": "progettazione di sistemi digitali/latch set-reset (SR).md",
-      "x": 133.06298828125,
-      "y": -4750.013671875
-    },
-    {
-      "id": "progettazione di sistemi digitali/latch.md",
-      "x": -521.4451293945312,
-      "y": -4628.740234375
-    },
-    {
-      "id": "progettazione di sistemi digitali/mappa di Karnaugh.md",
-      "x": -1784.20458984375,
-      "y": -2990.51708984375
-    },
-    {
-      "id": "progettazione di sistemi digitali/moduli standard.md",
-      "x": 992.62353515625,
-      "y": -3265.431640625
-    },
-    {
-      "id": "progettazione di sistemi digitali/ottimizzazione delle reti combinatorie.md",
-      "x": -1645.2891845703125,
-      "y": -3344.32275390625
-    },
-    {
-      "id": "progettazione di sistemi digitali/overflow.md",
-      "x": 333.870361328125,
-      "y": -2202.220458984375
-    },
-    {
-      "id": "progettazione di sistemi digitali/porte logiche.md",
-      "x": -2016.0540771484375,
-      "y": -3347.71875
-    },
-    {
-      "id": "progettazione di sistemi digitali/programmable logic array (PLA).md",
-      "x": 448.935791015625,
-      "y": -3634.30859375
-    },
-    {
-      "id": "progettazione di sistemi digitali/rappresentazione o codifica dei numeri interi relativi.md",
-      "x": -861.2809448242188,
-      "y": -1415.3402099609375
-    },
-    {
-      "id": "progettazione di sistemi digitali/rappresentazione o codifica dei numeri naturali.md",
-      "x": -2813.40234375,
-      "y": -886.2717895507812
-    },
-    {
-      "id": "progettazione di sistemi digitali/read only memory (ROM).md",
-      "x": 827.0263671875,
-      "y": -3667.486083984375
-    },
-    {
-      "id": "progettazione di sistemi digitali/registro contatore.md",
-      "x": 1282.7698974609375,
-      "y": -4009.692138671875
-    },
-    {
-      "id": "progettazione di sistemi digitali/rete sequenziale generica.canvas",
-      "x": -514.228271484375,
-      "y": -4282.61572265625
-    },
-    {
-      "id": "progettazione di sistemi digitali/reti AND-TO-OR.md",
-      "x": -1457.9674072265625,
-      "y": -2781.976318359375
-    },
-    {
-      "id": "progettazione di sistemi digitali/reti OR-TO-AND.md",
-      "x": -1669.8477783203125,
-      "y": -2770.8896484375
-    },
-    {
-      "id": "progettazione di sistemi digitali/ripple carry adder per valori in CA2.md",
-      "x": 172.70755004882812,
-      "y": -2819.71923828125
-    },
-    {
-      "id": "progettazione di sistemi digitali/scorrimento sia a destra che a sinistra di registri (SISO).md",
-      "x": 2227.197998046875,
-      "y": -4539.25341796875
-    },
-    {
-      "id": "progettazione di sistemi digitali/segnali a onda quadra.md",
-      "x": -1531.2293701171875,
-      "y": -4642.958984375
-    },
-    {
-      "id": "progettazione di sistemi digitali/sia x un numero BCD. considerare la codifica y nel codice 2-su-5. scrivere le espressioni minimali per i singoli bit di y.md",
-      "x": -3140.142822265625,
-      "y": -3245.49853515625
-    },
-    {
-      "id": "progettazione di sistemi digitali/sintesi di reti sequenziali.md",
-      "x": -144.08184814453125,
-      "y": -3889.677001953125
-    },
-    {
-      "id": "progettazione di sistemi digitali/sistema binario.md",
-      "x": -1460.028076171875,
-      "y": -2153.360107421875
-    },
-    {
-      "id": "progettazione di sistemi digitali/tabelle inverse dei flip flop.md",
-      "x": 239.56153869628906,
-      "y": -5107.43212890625
-    },
-    {
-      "id": "sistemi operativi/Sistemi operativi.md",
-      "x": 383.141357421875,
-      "y": -902.093994140625
-    },
-    {
-      "id": "progettazione di sistemi digitali/contatore sincrono bidirezionale.md",
-      "x": 1536.4027099609375,
-      "y": -4186.7265625
-    },
-    {
-      "id": "progettazione di sistemi digitali/modulo e segno (MS).md",
-      "x": -1084.9962158203125,
-      "y": -1675.01611328125
-    },
-    {
-      "id": "progettazione di sistemi digitali/moltiplicazioni e divisioni per potenze della base.md",
-      "x": -2785.5244140625,
-      "y": -2254.155517578125
-    },
-    {
-      "id": "progettazione di sistemi digitali/notazione polarizzata.md",
-      "x": -819.0819702148438,
-      "y": -1760.736572265625
-    },
-    {
-      "id": "progettazione di sistemi digitali/operazioni aritmetiche in base 2.md",
-      "x": -1020.802490234375,
-      "y": -2320.5048828125
-    },
-    {
-      "id": "progettazione di sistemi digitali/operazioni con numeri in virgola mobile.md",
-      "x": -378.3641357421875,
-      "y": -1560.67138671875
-    },
-    {
-      "id": "progettazione di sistemi digitali/registri di memorizzazione.md",
-      "x": 2331.127197265625,
-      "y": -4047.75146484375
-    },
-    {
-      "id": "progettazione di sistemi digitali/registro universale.md",
-      "x": 2513.80322265625,
-      "y": -4402
-    },
-    {
-      "id": "progettazione di sistemi digitali/reti sequenziali.md",
-      "x": -914.999755859375,
-      "y": -3867.56591796875
-    },
-    {
-      "id": "progettazione di sistemi digitali/rotazione a destra e a sinistra di registri.md",
-      "x": 2761.462646484375,
-      "y": -4151.8828125
-    },
-    {
-      "id": "progettazione di sistemi digitali/sistemi numerici del calcolatore.md",
-      "x": -2295.048828125,
-      "y": -2223.44384765625
-    },
-    {
-      "id": "progettazione di sistemi digitali/sistemi numerici posizionali.md",
-      "x": -2786.591064453125,
-      "y": -1640.2568359375
-    },
-    {
-      "id": "sistemi operativi/sistema operativo.md",
-      "x": 738.4404296875,
-      "y": -1418.1983642578125
-    },
-    {
-      "id": "sistemi operativi/processo.md",
-      "x": 1285.36669921875,
-      "y": -1299.4873046875
-    },
-    {
-      "id": "sistemi operativi/attributi di stato di un processo.md",
-      "x": 1417.0250244140625,
-      "y": -1663.771728515625
-    },
-    {
-      "id": "sistemi operativi/modello a 2 stati dei processi.md",
-      "x": 2339.403076171875,
-      "y": -961.1988525390625
-    },
-    {
-      "id": "sistemi operativi/modello a 5 stati dei processi.md",
-      "x": 1593.1868896484375,
-      "y": -1174.807861328125
+      "x": 1646.124267578125,
+      "y": 886.012939453125
     },
     {
       "id": "interdisciplinare/memoria.md",
-      "x": 2816.590087890625,
-      "y": -1267.921875
+      "x": -2385.883544921875,
+      "y": -1693.9521484375
     },
     {
-      "id": "sistemi operativi/modello a 6 stati dei processi.md",
-      "x": 1624.25146484375,
-      "y": -1422.7857666015625
+      "id": "interdisciplinare/partizione.md",
+      "x": 1393.213134765625,
+      "y": 2791.02978515625
     },
     {
-      "id": "sistemi operativi/allocazione dei processi in memoria.md",
-      "x": 896.9894409179688,
-      "y": -1177.26904296875
+      "id": "interdisciplinare/relazione.md",
+      "x": 1033.5255126953125,
+      "y": 1592.547119140625
     },
     {
-      "id": "sistemi operativi/(PCB) Process Control Block.md",
-      "x": 1102.5889892578125,
-      "y": -1565.2484130859375
+      "id": "interdisciplinare/struttura dati.md",
+      "x": -1282.6826171875,
+      "y": -2980.284423828125
     },
     {
-      "id": "basi di dati/vista.md",
-      "x": -163.99391174316406,
-      "y": -276.3665466308594
+      "id": "interdisciplinare/teoria degli insiemi.md",
+      "x": 1827.9453125,
+      "y": 2092.918212890625
     },
     {
-      "id": "basi di dati/tabella.md",
-      "x": -106.10823822021484,
-      "y": 45.69528579711914
+      "id": "metodologie di programmazione/eccezioni.md",
+      "x": -2589.68994140625,
+      "y": -1312.2186279296875
     },
     {
-      "id": "sistema informativo",
-      "x": -517.5350952148438,
-      "y": 152.6965789794922
+      "id": "progettazione di sistemi digitali/ALU.md",
+      "x": -3117.005615234375,
+      "y": -78.48506927490234
     },
     {
-      "id": "dipendenza funzionale",
-      "x": 182.016357421875,
-      "y": 212.44671630859375
+      "id": "progettazione di sistemi digitali/PC (Program Counter).md",
+      "x": -3643.64794921875,
+      "y": -1024.7728271484375
     },
     {
-      "id": "basi di dati/base di dati relazionali.md",
-      "x": -725.410888671875,
-      "y": -90.71707153320312
+      "id": "progettazione di sistemi digitali/adder.md",
+      "x": -3023.987548828125,
+      "y": 1128.7186279296875
     },
     {
-      "id": "vincolo di chiave",
-      "x": -98.7487564086914,
-      "y": 386.5979919433594
+      "id": "progettazione di sistemi digitali/algebra delle porte logiche e reti combinatorie.md",
+      "x": -2212.38818359375,
+      "y": 2409.7998046875
     },
     {
-      "id": "vincolo di dominio",
-      "x": 244.45578002929688,
-      "y": -66.57059478759766
+      "id": "progettazione di sistemi digitali/automa a stati finiti (finite state automata).md",
+      "x": -2164.31201171875,
+      "y": 1300.7628173828125
     },
     {
-      "id": "basi di dati/transazione.md",
-      "x": 557.5529174804688,
-      "y": -705.2955322265625
+      "id": "progettazione di sistemi digitali/bus.md",
+      "x": -2990.6044921875,
+      "y": -767.35888671875
+    },
+    {
+      "id": "progettazione di sistemi digitali/decodificatore (DEC).md",
+      "x": -3959.86328125,
+      "y": 190.47653198242188
+    },
+    {
+      "id": "progettazione di sistemi digitali/estensione del segno in CA2.md",
+      "x": -2683.5517578125,
+      "y": 22.318462371826172
+    },
+    {
+      "id": "progettazione di sistemi digitali/multiplexer (MUX).md",
+      "x": -3957.755859375,
+      "y": -135.54957580566406
+    },
+    {
+      "id": "progettazione di sistemi digitali/progettazione di sistemi digitali.md",
+      "x": -2055.20703125,
+      "y": 1829.0467529296875
+    },
+    {
+      "id": "progettazione di sistemi digitali/rappresentazione o codifica di numeri con la virgola.md",
+      "x": -826.8765869140625,
+      "y": 966.195068359375
+    },
+    {
+      "id": "progettazione di sistemi digitali/registri.md",
+      "x": -3691.425048828125,
+      "y": -487.9619140625
+    },
+    {
+      "id": "progettazione di sistemi digitali/unità di misura del sistema binario.md",
+      "x": -2627.10546875,
+      "y": 354.0810241699219
+    },
+    {
+      "id": "basi di dati/Basi di dati.md",
+      "x": 164.31619262695312,
+      "y": 437.5858459472656
+    },
+    {
+      "id": "terza forma normale",
+      "x": 35.94720458984375,
+      "y": 805.62451171875
+    },
+    {
+      "id": "organizzazione fisica dei dati",
+      "x": -153.9095916748047,
+      "y": 635.8391723632812
+    },
+    {
+      "id": "controllo della concorrenza",
+      "x": 291.4400329589844,
+      "y": 721.0252075195312
     },
     {
       "id": "basi di dati/algebra relazionale dei database.md",
-      "x": -1822.995361328125,
-      "y": -69.84158325195312
-    },
-    {
-      "id": "SQL",
-      "x": -2106.21142578125,
-      "y": -262.29339599609375
-    },
-    {
-      "id": "interdisciplinare/cardinalità.md",
-      "x": -2748.76708984375,
-      "y": 130.33924865722656
+      "x": 679.0818481445312,
+      "y": 839.7371826171875
     },
     {
       "id": "basi di dati/chiave.md",
-      "x": -1511.37255859375,
-      "y": 299.5823974609375
+      "x": 624.7444458007812,
+      "y": 1147.46435546875
     },
     {
       "id": "foreign key",
-      "x": -1805.830810546875,
-      "y": 276.8330993652344
+      "x": 540.3824462890625,
+      "y": 1448.498779296875
+    },
+    {
+      "id": "basi di dati/tabella.md",
+      "x": -231.61521911621094,
+      "y": 255.04586791992188
+    },
+    {
+      "id": "basi di dati/transazione.md",
+      "x": -558.416015625,
+      "y": -90.09048461914062
+    },
+    {
+      "id": "basi di dati/vista.md",
+      "x": 31.956090927124023,
+      "y": 64.65705108642578
+    },
+    {
+      "id": "calcolo delle probabilità/Calcolo delle probabilità.md",
+      "x": 2154.789306640625,
+      "y": 3550.979248046875
+    },
+    {
+      "id": "calcolo delle probabilità/coefficiente binomiale.md",
+      "x": 2777.696044921875,
+      "y": 4303.525390625
+    },
+    {
+      "id": "calcolo delle probabilità/esiti equiprobabili.md",
+      "x": 2270.03271484375,
+      "y": 3967.019287109375
+    },
+    {
+      "id": "calcolo delle probabilità/evento.md",
+      "x": 2128.9423828125,
+      "y": 3185.399658203125
+    },
+    {
+      "id": "calcolo delle probabilità/permutazioni.md",
+      "x": 2575.544921875,
+      "y": 3657.5185546875
+    },
+    {
+      "id": "calcolo delle probabilità/probabilità.md",
+      "x": 1670.95556640625,
+      "y": 3843.4326171875
+    },
+    {
+      "id": "calcolo delle probabilità/regola della moltiplicazione.md",
+      "x": 1978.3135986328125,
+      "y": 3933.806396484375
+    },
+    {
+      "id": "calcolo delle probabilità/scelta di k elementi da n con ripetizione e con ordine.md",
+      "x": 3357.20556640625,
+      "y": 3549.157958984375
+    },
+    {
+      "id": "calcolo delle probabilità/scelta di k elementi da n con ripetizione e senza ordine.md",
+      "x": 3293.0009765625,
+      "y": 3836.6416015625
+    },
+    {
+      "id": "calcolo delle probabilità/scelta di k elementi da n senza ripetizioni con ordine.md",
+      "x": 2691.84375,
+      "y": 3243.790771484375
+    },
+    {
+      "id": "calcolo delle probabilità/scelta di k elementi da n senza ripetizioni e senza ordine.md",
+      "x": 2877.92333984375,
+      "y": 3977.72119140625
+    },
+    {
+      "id": "calcolo delle probabilità/scelta di k elementi da n.md",
+      "x": 3005.128173828125,
+      "y": 3651.34716796875
+    },
+    {
+      "id": "calcolo delle probabilità/spazio campionario.md",
+      "x": 1801.69970703125,
+      "y": 3408.28125
+    },
+    {
+      "id": "calcolo differenziale/calcolo differenziale.md",
+      "x": 2815.032958984375,
+      "y": 1538.821044921875
+    },
+    {
+      "id": "calcolo differenziale/concetto di asintotico.md",
+      "x": 2814.054931640625,
+      "y": 306.0526123046875
+    },
+    {
+      "id": "calcolo differenziale/derivate.md",
+      "x": 3759.056884765625,
+      "y": 1564.0902099609375
+    },
+    {
+      "id": "calcolo differenziale/distanza fra x e y sulla linea numerica.md",
+      "x": 2356.68115234375,
+      "y": 1597.167724609375
+    },
+    {
+      "id": "calcolo differenziale/esercizi con i teoremi delle funzioni.md",
+      "x": 3695.608642578125,
+      "y": 2863.48828125
+    },
+    {
+      "id": "calcolo differenziale/esercizi/esercizi di calcolo differenziale.md",
+      "x": 3520.352783203125,
+      "y": 2473.8876953125
+    },
+    {
+      "id": "calcolo differenziale/esercizi/esercizio con intervalli, min e max.md",
+      "x": 3897.10791015625,
+      "y": 2692.0517578125
+    },
+    {
+      "id": "calcolo differenziale/formula di Stirling.md",
+      "x": 4687.7001953125,
+      "y": 832.9920654296875
+    },
+    {
+      "id": "calcolo differenziale/formulario completo del calcolo differenziale.md",
+      "x": 3041.224853515625,
+      "y": 1854.3958740234375
+    },
+    {
+      "id": "calcolo differenziale/funzione continua e discontinua.md",
+      "x": 2476.498046875,
+      "y": 1143.23779296875
+    },
+    {
+      "id": "calcolo differenziale/gerarchia degli infiniti.md",
+      "x": 4715.31640625,
+      "y": 1097.3990478515625
+    },
+    {
+      "id": "calcolo differenziale/infiniti e infinitesimi.md",
+      "x": 3970.16748046875,
+      "y": 1174.9986572265625
+    },
+    {
+      "id": "calcolo differenziale/intervalli in R.md",
+      "x": 2984.289794921875,
+      "y": 2521.5322265625
+    },
+    {
+      "id": "calcolo differenziale/leggi della monotonia.md",
+      "x": 3953.4697265625,
+      "y": 1857.9383544921875
+    },
+    {
+      "id": "calcolo differenziale/limiti di funzioni.md",
+      "x": 3150.3935546875,
+      "y": 1360.6754150390625
+    },
+    {
+      "id": "calcolo differenziale/limiti di successioni.md",
+      "x": 4036.02001953125,
+      "y": 453.8446350097656
+    },
+    {
+      "id": "calcolo differenziale/limiti notevoli delle funzioni.md",
+      "x": 3540.85107421875,
+      "y": 1276.8968505859375
+    },
+    {
+      "id": "calcolo differenziale/limiti notevoli delle successioni e forme indeterminate.md",
+      "x": 3855.0751953125,
+      "y": 741.236328125
+    },
+    {
+      "id": "calcolo differenziale/limiti.md",
+      "x": 4273.0927734375,
+      "y": 1047.4923095703125
+    },
+    {
+      "id": "calcolo differenziale/maggiorante e minorante + teoremi.md",
+      "x": 2663.138427734375,
+      "y": 2635.248291015625
+    },
+    {
+      "id": "calcolo differenziale/massimo e minimo.md",
+      "x": 2945.698974609375,
+      "y": 2196.474609375
+    },
+    {
+      "id": "calcolo differenziale/miglior polinomio.md",
+      "x": 4314.74609375,
+      "y": 2071.8095703125
+    },
+    {
+      "id": "calcolo differenziale/notazione o-piccolo.md",
+      "x": 3597.493896484375,
+      "y": 937.0400390625
+    },
+    {
+      "id": "calcolo differenziale/numeri interi relativi.md",
+      "x": 1344.0009765625,
+      "y": 1451.49755859375
+    },
+    {
+      "id": "calcolo differenziale/numeri naturali.md",
+      "x": 2107.518798828125,
+      "y": 1521.001953125
+    },
+    {
+      "id": "calcolo differenziale/numeri razionali.md",
+      "x": 1700.4635009765625,
+      "y": 1257.507568359375
+    },
+    {
+      "id": "calcolo differenziale/numeri reali.md",
+      "x": 2999.55029296875,
+      "y": 961.9075317382812
+    },
+    {
+      "id": "calcolo differenziale/regole di derivazione.md",
+      "x": 4208.6474609375,
+      "y": 1507.9368896484375
+    },
+    {
+      "id": "calcolo differenziale/serie di Taylor.md",
+      "x": 3899.56298828125,
+      "y": 2099.372802734375
+    },
+    {
+      "id": "calcolo differenziale/successione.md",
+      "x": 3252.90869140625,
+      "y": 665.4609985351562
+    },
+    {
+      "id": "calcolo differenziale/tabella delle derivate prime.md",
+      "x": 4143.69921875,
+      "y": 1724.0821533203125
+    },
+    {
+      "id": "calcolo differenziale/teorema de l'hopital.md",
+      "x": 4478.4892578125,
+      "y": 1814.410400390625
+    },
+    {
+      "id": "calcolo differenziale/teorema dei valori intermedi.md",
+      "x": 2073.46923828125,
+      "y": 745.0375366210938
+    },
+    {
+      "id": "calcolo differenziale/teorema di Weierstrass + Valori Intermedi generalizzati.md",
+      "x": 1973.11279296875,
+      "y": 425.6645812988281
+    },
+    {
+      "id": "calcolo differenziale/teorema di Weierstrass.md",
+      "x": 1748.7730712890625,
+      "y": 576.1074829101562
+    },
+    {
+      "id": "calcolo differenziale/teorema di unicità del limite.md",
+      "x": 3378.525390625,
+      "y": 1710.4715576171875
+    },
+    {
+      "id": "calcolo differenziale/teorema ponte.md",
+      "x": 3224.60302734375,
+      "y": 1079.3330078125
+    },
+    {
+      "id": "calcolo differenziale/teoremi dei limiti sulle successioni.md",
+      "x": 3722.298095703125,
+      "y": 86.63168334960938
+    },
+    {
+      "id": "calcolo integrale/EDO del secondo ordine.md",
+      "x": 3570.250244140625,
+      "y": 411.20526123046875
+    },
+    {
+      "id": "calcolo integrale/EDO lineari del primo ordine.md",
+      "x": 3361.4111328125,
+      "y": 311.84222412109375
+    },
+    {
+      "id": "calcolo integrale/EDO non lineari del primo ordine a variabili separabili.md",
+      "x": 4492.1748046875,
+      "y": -224.62594604492188
+    },
+    {
+      "id": "calcolo integrale/calcolo integrale.md",
+      "x": 3790.14697265625,
+      "y": -792.2852172851562
+    },
+    {
+      "id": "calcolo integrale/confronto asintotico.md",
+      "x": 3383.33642578125,
+      "y": -742.1807250976562
+    },
+    {
+      "id": "calcolo integrale/convergenza assoluta.md",
+      "x": 4124.10546875,
+      "y": -1335.076416015625
+    },
+    {
+      "id": "calcolo integrale/convergenza semplice.md",
+      "x": 4142.21240234375,
+      "y": -624.7298583984375
+    },
+    {
+      "id": "calcolo integrale/criteri di confronto delle serie a segno costante.md",
+      "x": 3951.830322265625,
+      "y": -2058.605712890625
+    },
+    {
+      "id": "criterio del confronto",
+      "x": 4093.2861328125,
+      "y": -2420.6640625
+    },
+    {
+      "id": "criterio del rapporto",
+      "x": 3689.077392578125,
+      "y": -2314.05810546875
+    },
+    {
+      "id": "criterio della radice",
+      "x": 4274.80419921875,
+      "y": -2221.887451171875
+    },
+    {
+      "id": "criterio del confronto asintotico",
+      "x": 3865.022705078125,
+      "y": -2495.3505859375
+    },
+    {
+      "id": "calcolo integrale/criterio di Leibniz.md",
+      "x": 4396.7060546875,
+      "y": -981.1989135742188
+    },
+    {
+      "id": "calcolo integrale/elenco di equazioni differenziali da risolvere.md",
+      "x": 4551.73046875,
+      "y": 159.02146911621094
+    },
+    {
+      "id": "calcolo integrale/equazioni differenziali.md",
+      "x": 4083.021484375,
+      "y": 152.66522216796875
+    },
+    {
+      "id": "calcolo integrale/formulario di calcolo integrale.md",
+      "x": 4305.47509765625,
+      "y": -1186.221923828125
+    },
+    {
+      "id": "calcolo integrale/integrali definiti.md",
+      "x": 3872.91845703125,
+      "y": -1127.9337158203125
+    },
+    {
+      "id": "calcolo integrale/integrali impropri.md",
+      "x": 4093.53466796875,
+      "y": -1082.946044921875
+    },
+    {
+      "id": "calcolo integrale/integrali indefiniti.md",
+      "x": 3912.931884765625,
+      "y": -1382.564208984375
+    },
+    {
+      "id": "calcolo integrale/integrali.md",
+      "x": 3306.248291015625,
+      "y": -1423.273681640625
+    },
+    {
+      "id": "calcolo integrale/problemi di Cauchy.md",
+      "x": 4244.9052734375,
+      "y": -311.89410400390625
+    },
+    {
+      "id": "calcolo integrale/serie armoniche.md",
+      "x": 3034.025390625,
+      "y": -738.7681274414062
+    },
+    {
+      "id": "calcolo integrale/serie di Cauchy.md",
+      "x": 4379.865234375,
+      "y": -744.2127685546875
+    },
+    {
+      "id": "calcolo integrale/serie di Mengoli.md",
+      "x": 3718.03759765625,
+      "y": -495.2748107910156
+    },
+    {
+      "id": "calcolo integrale/serie di potenze.md",
+      "x": 4161.94775390625,
+      "y": -863.197021484375
+    },
+    {
+      "id": "calcolo integrale/serie geometriche.md",
+      "x": 3117.55517578125,
+      "y": -975.24755859375
+    },
+    {
+      "id": "calcolo integrale/serie.md",
+      "x": 3289.24365234375,
+      "y": -450.3779296875
+    },
+    {
+      "id": "calcolo integrale/successione di Cauchy.md",
+      "x": 3357.784912109375,
+      "y": -75.5921401977539
+    },
+    {
+      "id": "calcolo integrale/tecniche di integrazione.md",
+      "x": 3696.06787109375,
+      "y": -1344.9217529296875
+    },
+    {
+      "id": "calcolo integrale/teorema fondamentale del calcolo integrale.md",
+      "x": 3604.220703125,
+      "y": -1129.1351318359375
+    },
+    {
+      "id": "index.md",
+      "x": 821.3678588867188,
+      "y": 613.804931640625
+    },
+    {
+      "id": "interdisciplinare/albero.md",
+      "x": -1623.125732421875,
+      "y": -2157.432861328125
+    },
+    {
+      "id": "interdisciplinare/algebra di Boole.md",
+      "x": -1287.3834228515625,
+      "y": 3012.794677734375
+    },
+    {
+      "id": "interdisciplinare/cardinalità.md",
+      "x": 1263.305419921875,
+      "y": 2268.388427734375
+    },
+    {
+      "id": "interdisciplinare/dizionario.md",
+      "x": -2434.325439453125,
+      "y": -3276.41455078125
+    },
+    {
+      "id": "interdisciplinare/espressioni booleane.md",
+      "x": -1192.7374267578125,
+      "y": 2641.20166015625
+    },
+    {
+      "id": "interdisciplinare/hash table.md",
+      "x": -2198.970947265625,
+      "y": -2354.356689453125
+    },
+    {
+      "id": "interdisciplinare/notazione asintotica.md",
+      "x": 2247.4951171875,
+      "y": -559.3381958007812
+    },
+    {
+      "id": "interdisciplinare/operazioni fra gli insiemi.md",
+      "x": 1164.7921142578125,
+      "y": 3270.93408203125
+    },
+    {
+      "id": "interdisciplinare/puntatore.md",
+      "x": -1517.884765625,
+      "y": -1652.994384765625
+    },
+    {
+      "id": "interdisciplinare/queue.md",
+      "x": -1853.42626953125,
+      "y": -2583.647705078125
+    },
+    {
+      "id": "interdisciplinare/sottoinsiemi.md",
+      "x": 1060.8726806640625,
+      "y": 1952.6761474609375
+    },
+    {
+      "id": "introduzione agli algoritmi/albero di ricerca.md",
+      "x": -2783.49609375,
+      "y": -3428.34375
+    },
+    {
+      "id": "introduzione agli algoritmi/complessità temporale.md",
+      "x": 323.983154296875,
+      "y": -1380.84716796875
+    },
+    {
+      "id": "introduzione agli algoritmi/equazioni di ricorrenza.md",
+      "x": 1123.9595947265625,
+      "y": -526.6410522460938
+    },
+    {
+      "id": "introduzione agli algoritmi/implementazioni degli alberi binari.md",
+      "x": -1357.7479248046875,
+      "y": -2188.315185546875
+    },
+    {
+      "id": "introduzione agli algoritmi/introduzione agli algoritmi.md",
+      "x": 694.3123168945312,
+      "y": -1126.0238037109375
+    },
+    {
+      "id": "introduzione agli algoritmi/nomenclatura degli alberi.md",
+      "x": -2664.74169921875,
+      "y": -2941.362060546875
+    },
+    {
+      "id": "metodi matematici per l'informatica/logica proposizionale.md",
+      "x": -730.7918701171875,
+      "y": 2283.4091796875
+    },
+    {
+      "id": "metodi matematici per l'informatica/metodi matematici per l'informatica.md",
+      "x": 527.5877075195312,
+      "y": 2454.24365234375
+    },
+    {
+      "id": "metodologie di programmazione/metodologie di programmazione.md",
+      "x": 1098.371826171875,
+      "y": -2370.46630859375
+    },
+    {
+      "id": "metodologie di programmazione/tipi.md",
+      "x": -28.963123321533203,
+      "y": -3645.607421875
+    },
+    {
+      "id": "metodologie di programmazione/variabile.md",
+      "x": -110.34649658203125,
+      "y": -3322.0693359375
+    },
+    {
+      "id": "progettazione di sistemi digitali/errori di trasmissione.md",
+      "x": -252.91944885253906,
+      "y": 4001.450927734375
+    },
+    {
+      "id": "progettazione di sistemi digitali/funzioni di codifica e decodifica.md",
+      "x": 892.9609375,
+      "y": 2257.676025390625
+    },
+    {
+      "id": "progettazione di sistemi digitali/porte logiche.md",
+      "x": -2095.415771484375,
+      "y": 3388.771728515625
+    },
+    {
+      "id": "sistemi operativi/Sistemi operativi.md",
+      "x": -877.3850708007812,
+      "y": 270.0754699707031
+    },
+    {
+      "id": "sistemi operativi/processo.md",
+      "x": -1656.4844970703125,
+      "y": -283.6605529785156
+    },
+    {
+      "id": "calcolo differenziale/notazioni degli insiemi.md",
+      "x": 2063.625,
+      "y": 2356.940673828125
+    },
+    {
+      "id": "calcolo differenziale/teorema dell'esistenza degli zeri.md",
+      "x": 1925.396728515625,
+      "y": 1017.390869140625
+    },
+    {
+      "id": "interdisciplinare/algoritmo.md",
+      "x": 1580.795166015625,
+      "y": -1163.5283203125
+    },
+    {
+      "id": "interdisciplinare/heap.md",
+      "x": -2112.82373046875,
+      "y": -2802.73291015625
+    },
+    {
+      "id": "interdisciplinare/insieme delle parti.md",
+      "x": 981.2107543945312,
+      "y": 2516.594970703125
+    },
+    {
+      "id": "interdisciplinare/linguaggio regolare.md",
+      "x": -1792.0054931640625,
+      "y": 1341.0067138671875
+    },
+    {
+      "id": "interdisciplinare/linked list.md",
+      "x": -1626.9462890625,
+      "y": -2500.23095703125
+    },
+    {
+      "id": "interdisciplinare/lista doppiamente puntata.md",
+      "x": -1974.6580810546875,
+      "y": -2102.599853515625
+    },
+    {
+      "id": "interdisciplinare/proprietà, tipi di relazioni e ordini.md",
+      "x": 1657.6968994140625,
+      "y": 1499.9378662109375
+    },
+    {
+      "id": "interdisciplinare/regex (espressioni regolari).md",
+      "x": -1680.14306640625,
+      "y": 1068.6072998046875
+    },
+    {
+      "id": "interdisciplinare/stack.md",
+      "x": -1036.3436279296875,
+      "y": -3200.16796875
+    },
+    {
+      "id": "LinkedList",
+      "x": -1552.7977294921875,
+      "y": -3265.085205078125
+    },
+    {
+      "id": "HashSet",
+      "x": -1343.3203125,
+      "y": -3406.831298828125
+    },
+    {
+      "id": "TreeSet",
+      "x": -1493.64453125,
+      "y": -3585.983154296875
+    },
+    {
+      "id": "LinkedHashSet",
+      "x": -1627.568115234375,
+      "y": -2990.083740234375
+    },
+    {
+      "id": "HashMap",
+      "x": -1809.758056640625,
+      "y": -3102.21826171875
+    },
+    {
+      "id": "TreeMap",
+      "x": -1817.6708984375,
+      "y": -3313.084228515625
+    },
+    {
+      "id": "LinkedHashMap",
+      "x": -1679.3846435546875,
+      "y": -3483.5146484375
+    },
+    {
+      "id": "introduzione agli algoritmi/algoritmi di ordinamento.md",
+      "x": -329.7142028808594,
+      "y": -1710.9725341796875
+    },
+    {
+      "id": "introduzione agli algoritmi/algoritmi di ricerca.md",
+      "x": -1001.2518920898438,
+      "y": -2682.12353515625
+    },
+    {
+      "id": "introduzione agli algoritmi/algoritmi ricorsivi.md",
+      "x": 866.6544189453125,
+      "y": -685.9014282226562
+    },
+    {
+      "id": "introduzione agli algoritmi/bubble sort.md",
+      "x": -229.28488159179688,
+      "y": -1440.5599365234375
+    },
+    {
+      "id": "introduzione agli algoritmi/bucket sort.md",
+      "x": -648.8211059570312,
+      "y": -1477.9556884765625
+    },
+    {
+      "id": "introduzione agli algoritmi/complessità delle operazioni più comuni in Python.md",
+      "x": 58.66754913330078,
+      "y": -2013.53759765625
+    },
+    {
+      "id": "introduzione agli algoritmi/complessità spaziale.md",
+      "x": -1138.3626708984375,
+      "y": -1208.416015625
+    },
+    {
+      "id": "introduzione agli algoritmi/counting sort.md",
+      "x": -265.7558288574219,
+      "y": -2041.7947998046875
+    },
+    {
+      "id": "introduzione agli algoritmi/efficienza degli algoritmi (costo computazionale).md",
+      "x": 1231.24853515625,
+      "y": -1037.5225830078125
+    },
+    {
+      "id": "introduzione agli algoritmi/esempi di algoritmi con diversa complessità.md",
+      "x": 525.7118530273438,
+      "y": -1655.9017333984375
+    },
+    {
+      "id": "introduzione agli algoritmi/esercizi dell'esonero di algoritmi.md",
+      "x": 1023.3888549804688,
+      "y": -1290.2183837890625
+    },
+    {
+      "id": "introduzione agli algoritmi/heap sort.md",
+      "x": -833.3433227539062,
+      "y": -1661.5592041015625
+    },
+    {
+      "id": "introduzione agli algoritmi/insertion sort.md",
+      "x": -634.628173828125,
+      "y": -1764.7545166015625
+    },
+    {
+      "id": "introduzione agli algoritmi/lista di Python.md",
+      "x": -786.7330932617188,
+      "y": -2882.555908203125
+    },
+    {
+      "id": "introduzione agli algoritmi/master theorem.md",
+      "x": 1520.3592529296875,
+      "y": -541.0319213867188
+    },
+    {
+      "id": "introduzione agli algoritmi/merge sort.md",
+      "x": -504.01568603515625,
+      "y": -2077.77880859375
+    },
+    {
+      "id": "introduzione agli algoritmi/metodo dei limiti asintotici delle somme.md",
+      "x": 2604.970458984375,
+      "y": -313.15838623046875
+    },
+    {
+      "id": "introduzione agli algoritmi/metodo dell'albero.md",
+      "x": 1364.34716796875,
+      "y": -286.9854431152344
+    },
+    {
+      "id": "introduzione agli algoritmi/metodo dell'integrale.md",
+      "x": 2803.711181640625,
+      "y": -1117.4913330078125
+    },
+    {
+      "id": "introduzione agli algoritmi/metodo della forma chiusa.md",
+      "x": 2704.573974609375,
+      "y": -704.0394897460938
+    },
+    {
+      "id": "introduzione agli algoritmi/metodo di sostituzione.md",
+      "x": 1837.3477783203125,
+      "y": -228.07334899902344
+    },
+    {
+      "id": "introduzione agli algoritmi/metodo iterativo.md",
+      "x": 1481.6898193359375,
+      "y": -753.026123046875
+    },
+    {
+      "id": "introduzione agli algoritmi/notazione O-grande.md",
+      "x": 2214.328369140625,
+      "y": 90.22612762451172
+    },
+    {
+      "id": "introduzione agli algoritmi/notazione Omega.md",
+      "x": 2407.275634765625,
+      "y": 674.8003540039062
+    },
+    {
+      "id": "introduzione agli algoritmi/notazione Theta.md",
+      "x": 2344.56103515625,
+      "y": 452.45263671875
+    },
+    {
+      "id": "introduzione agli algoritmi/problem solving.md",
+      "x": 1409.558837890625,
+      "y": -1402.9193115234375
+    },
+    {
+      "id": "introduzione agli algoritmi/problemi combinatori.md",
+      "x": 1208.865478515625,
+      "y": 845.1478881835938
+    },
+    {
+      "id": "introduzione agli algoritmi/pseudocodice.md",
+      "x": 739.5016479492188,
+      "y": -1440.91015625
+    },
+    {
+      "id": "introduzione agli algoritmi/quick sort.md",
+      "x": -728.8695678710938,
+      "y": -1964.87451171875
+    },
+    {
+      "id": "introduzione agli algoritmi/ricerca binaria.md",
+      "x": -1989.4183349609375,
+      "y": -3806.0517578125
+    },
+    {
+      "id": "introduzione agli algoritmi/ricerca lineare.md",
+      "x": -2163.2294921875,
+      "y": -3619.42578125
+    },
+    {
+      "id": "introduzione agli algoritmi/selection sort.md",
+      "x": -479.73748779296875,
+      "y": -1235.1429443359375
+    },
+    {
+      "id": "metodi matematici per l'informatica/dimostrazione della proprietà commutativa del prodotto cartesiano rispetto all'unione.md",
+      "x": 1149.1580810546875,
+      "y": 3700.19091796875
+    },
+    {
+      "id": "metodi matematici per l'informatica/esercizi/dimostrare che dato un insieme V di n punti li possiamo collegare due a due con n(n-1) diviso 2 segmenti (si assuma n maggiore uguale a 2).md",
+      "x": 975.49658203125,
+      "y": 4620.79150390625
+    },
+    {
+      "id": "metodi matematici per l'informatica/esercizi/dimostrazione della numerabilità con l'induzione.md",
+      "x": 617.2982177734375,
+      "y": 4424.98876953125
+    },
+    {
+      "id": "metodi matematici per l'informatica/esercizi/esempio di induzione.md",
+      "x": 749.5240478515625,
+      "y": 4628.7265625
+    },
+    {
+      "id": "metodi matematici per l'informatica/esercizi/esercizi di metodi matematici per l'informatica.md",
+      "x": 883.1072998046875,
+      "y": 4221.181640625
+    },
+    {
+      "id": "metodi matematici per l'informatica/esercizi/induzione con diagonali dei poligoni.md",
+      "x": 1198.29296875,
+      "y": 4555.71533203125
+    },
+    {
+      "id": "metodi matematici per l'informatica/formule logiche.md",
+      "x": -369.9806213378906,
+      "y": 1522.5439453125
+    },
+    {
+      "id": "metodi matematici per l'informatica/funzione calcolabile.md",
+      "x": 1326.364501953125,
+      "y": 1816.68115234375
+    },
+    {
+      "id": "metodi matematici per l'informatica/funzione caratteristica di un insieme.md",
+      "x": 714.6587524414062,
+      "y": 2052.05224609375
+    },
+    {
+      "id": "metodi matematici per l'informatica/induzione con definizione di funzione.md",
+      "x": 1221.103759765625,
+      "y": 4325.41552734375
+    },
+    {
+      "id": "metodi matematici per l'informatica/induzione matematica.md",
+      "x": 1584.3707275390625,
+      "y": 317.377685546875
+    },
+    {
+      "id": "metodi matematici per l'informatica/induzione sulla struttura del linguaggio.md",
+      "x": -437.30560302734375,
+      "y": 1218.9769287109375
+    },
+    {
+      "id": "metodi matematici per l'informatica/sintassi.md",
+      "x": -1005.0321044921875,
+      "y": 674.3765258789062
+    },
+    {
+      "id": "metodologie di programmazione/ArrayList.md",
+      "x": -1151.0379638671875,
+      "y": -3830.960693359375
+    },
+    {
+      "id": "metodologie di programmazione/Java.md",
+      "x": 699.65673828125,
+      "y": -3345.258056640625
+    },
+    {
+      "id": "metodologie di programmazione/campi.md",
+      "x": 1049.211181640625,
+      "y": -2772.095703125
+    },
+    {
+      "id": "metodologie di programmazione/collezione.md",
+      "x": -374.609130859375,
+      "y": -3869.476806640625
+    },
+    {
+      "id": "metodologie di programmazione/oggetto.md",
+      "x": 1193.7044677734375,
+      "y": -3105.5869140625
+    },
+    {
+      "id": "progettazione di sistemi digitali/complementazione.md",
+      "x": -299.2920227050781,
+      "y": 2281.741455078125
+    },
+    {
+      "id": "progettazione di sistemi digitali/esercizi/esercizio con conversioni tra forme SOP, POS e canoniche.md",
+      "x": -1355.6988525390625,
+      "y": 3542.294677734375
+    },
+    {
+      "id": "progettazione di sistemi digitali/reti AND-TO-OR.md",
+      "x": -1832.6197509765625,
+      "y": 2628.098876953125
+    },
+    {
+      "id": "progettazione di sistemi digitali/reti OR-TO-AND.md",
+      "x": -1821.6865234375,
+      "y": 2830.072021484375
+    },
+    {
+      "id": "metodi matematici per l'informatica/esempi con situazioni reali.md",
+      "x": -523.1443481445312,
+      "y": 2756.27783203125
+    },
+    {
+      "id": "metodi matematici per l'informatica/esempi di formule.md",
+      "x": -897.4530029296875,
+      "y": 2542.09033203125
+    },
+    {
+      "id": "metodi matematici per l'informatica/esempio di formula logica.md",
+      "x": -483.60919189453125,
+      "y": 2527.074462890625
+    },
+    {
+      "id": "metodi matematici per l'informatica/implicazione materiale.md",
+      "x": -747.4847412109375,
+      "y": 2730.928466796875
+    },
+    {
+      "id": "metodi matematici per l'informatica/induzione completa.md",
+      "x": 128.31292724609375,
+      "y": 1874.8626708984375
+    },
+    {
+      "id": "metodi matematici per l'informatica/induzione.md",
+      "x": 219.2600555419922,
+      "y": 1542.010009765625
+    },
+    {
+      "id": "metodi matematici per l'informatica/logica predicativa.md",
+      "x": 547.1080932617188,
+      "y": 2875.78564453125
+    },
+    {
+      "id": "metodologie di programmazione/Hello World in Java.md",
+      "x": 2046.3555908203125,
+      "y": -3480.85986328125
+    },
+    {
+      "id": "metodologie di programmazione/Junit.md",
+      "x": 385.9187927246094,
+      "y": -3799.804443359375
+    },
+    {
+      "id": "metodologie di programmazione/SAM (Single Abstract Method).md",
+      "x": -888.8875732421875,
+      "y": -4877.146484375
+    },
+    {
+      "id": "metodologie di programmazione/UML (Unified Modeling Language).md",
+      "x": 2037.4168701171875,
+      "y": -3201.400634765625
+    },
+    {
+      "id": "metodologie di programmazione/analisi dello stato della memoria.md",
+      "x": 250.21971130371094,
+      "y": -3605.111572265625
+    },
+    {
+      "id": "metodologie di programmazione/anatomia della memoria della JVM.md",
+      "x": 135.88720703125,
+      "y": -2879.302978515625
+    },
+    {
+      "id": "metodologie di programmazione/binding.md",
+      "x": 1048.538330078125,
+      "y": -3894.167236328125
+    },
+    {
+      "id": "metodologie di programmazione/caratteristiche di Java.md",
+      "x": 990.510498046875,
+      "y": -3478.721435546875
+    },
+    {
+      "id": "metodologie di programmazione/casting.md",
+      "x": 784.8883056640625,
+      "y": -4108.3125
+    },
+    {
+      "id": "metodologie di programmazione/char.md",
+      "x": -754.77587890625,
+      "y": -4092.399169921875
+    },
+    {
+      "id": "metodologie di programmazione/classe Object.md",
+      "x": 2385.416748046875,
+      "y": -2792.22509765625
+    },
+    {
+      "id": "getClass",
+      "x": 2890.81787109375,
+      "y": -2799.847900390625
+    },
+    {
+      "id": "toString",
+      "x": 2316.351806640625,
+      "y": -2414.83056640625
+    },
+    {
+      "id": "metodologie di programmazione/classe annidate e interne.md",
+      "x": 2609.296875,
+      "y": -3687.42724609375
+    },
+    {
+      "id": "metodologie di programmazione/classe anonima.md",
+      "x": 909.4163208007812,
+      "y": -4666.6708984375
+    },
+    {
+      "id": "metodologie di programmazione/classe astratta.md",
+      "x": 2272.92431640625,
+      "y": -3566.6279296875
+    },
+    {
+      "id": "metodologie di programmazione/classe final.md",
+      "x": 2163.246337890625,
+      "y": -4030.802001953125
+    },
+    {
+      "id": "metodologie di programmazione/classe wrapper.md",
+      "x": 578.1329345703125,
+      "y": -3060.659912109375
+    },
+    {
+      "id": "metodologie di programmazione/classe.md",
+      "x": 1650.1065673828125,
+      "y": -3888.92041015625
+    },
+    {
+      "id": "metodologie di programmazione/clone.md",
+      "x": 1844.79052734375,
+      "y": -2502.68896484375
+    },
+    {
+      "id": "metodologie di programmazione/costruttore.md",
+      "x": 1711.6038818359375,
+      "y": -3396.450927734375
+    },
+    {
+      "id": "metodologie di programmazione/design pattern.md",
+      "x": 465.1443176269531,
+      "y": -3534.51611328125
+    },
+    {
+      "id": "metodologie di programmazione/diagramma delle classi in UML.md",
+      "x": 2555.5517578125,
+      "y": -4007.376953125
+    },
+    {
+      "id": "metodologie di programmazione/differenze tra classi anonime e espressioni lambda.md",
+      "x": 1204.0211181640625,
+      "y": -4605.3037109375
+    },
+    {
+      "id": "page fault",
+      "x": -2736.716064453125,
+      "y": -1676.982177734375
+    },
+    {
+      "id": "metodologie di programmazione/enumerazione.md",
+      "x": 1402.569580078125,
+      "y": -2600.03173828125
+    },
+    {
+      "id": "metodologie di programmazione/equals.md",
+      "x": 2222.34228515625,
+      "y": -1068.7081298828125
+    },
+    {
+      "id": "metodologie di programmazione/ereditarietà multipla.md",
+      "x": 1127.3736572265625,
+      "y": -5057.65673828125
+    },
+    {
+      "id": "metodologie di programmazione/ereditarietà.md",
+      "x": 1751.7557373046875,
+      "y": -4224.62548828125
+    },
+    {
+      "id": "metodologie di programmazione/esempio di progettazione di una classe.md",
+      "x": 2025.7523193359375,
+      "y": -4226.24560546875
+    },
+    {
+      "id": "metodologie di programmazione/espressione lambda.md",
+      "x": -273.6726989746094,
+      "y": -4439.361328125
+    },
+    {
+      "id": "metodologie di programmazione/espressione.md",
+      "x": -314.2344055175781,
+      "y": -2794.20263671875
+    },
+    {
+      "id": "metodologie di programmazione/flussi di controllo.md",
+      "x": 738.9314575195312,
+      "y": -2579.185546875
+    },
+    {
+      "id": "metodologie di programmazione/gestione di input e output.md",
+      "x": 361.99395751953125,
+      "y": -3136.357666015625
+    },
+    {
+      "id": "metodologie di programmazione/hashcode.md",
+      "x": 1742.9749755859375,
+      "y": -2868.57861328125
+    },
+    {
+      "id": "metodologie di programmazione/incapsulamento.md",
+      "x": 2012.249755859375,
+      "y": -2734.632568359375
+    },
+    {
+      "id": "metodologie di programmazione/interfacce funzionali.md",
+      "x": -471.7050476074219,
+      "y": -5008.9873046875
+    },
+    {
+      "id": "metodologie di programmazione/interfaccia iterabile.md",
+      "x": -138.6651153564453,
+      "y": -4128.1689453125
+    },
+    {
+      "id": "metodologie di programmazione/interfaccia.md",
+      "x": 472.0329284667969,
+      "y": -4715.25634765625
+    },
+    {
+      "id": "metodologie di programmazione/java.lang.String.md",
+      "x": 61.3869743347168,
+      "y": -1665.251953125
+    },
+    {
+      "id": "metodologie di programmazione/javadoc.md",
+      "x": 612.0265502929688,
+      "y": -3782.27197265625
+    },
+    {
+      "id": "metodologie di programmazione/letterale.md",
+      "x": -727.8840942382812,
+      "y": -3638.150146484375
+    },
+    {
+      "id": "metodologie di programmazione/lettura input da console.md",
+      "x": 825.3744506835938,
+      "y": -3040.474365234375
+    },
+    {
+      "id": "metodologie di programmazione/metodo.md",
+      "x": 1467.0750732421875,
+      "y": -2996.53759765625
+    },
+    {
+      "id": "metodologie di programmazione/modificatori di visibilità.md",
+      "x": 2357.537841796875,
+      "y": -3146.05078125
+    },
+    {
+      "id": "metodologie di programmazione/operatori.md",
+      "x": 141.3651123046875,
+      "y": -2420.60107421875
+    },
+    {
+      "id": "metodologie di programmazione/overloading.md",
+      "x": 1369.4383544921875,
+      "y": -3311.9736328125
+    },
+    {
+      "id": "metodologie di programmazione/overriding.md",
+      "x": 1452.2330322265625,
+      "y": -3577.039794921875
+    },
+    {
+      "id": "metodologie di programmazione/package.md",
+      "x": 1866.4581298828125,
+      "y": -3699.578857421875
+    },
+    {
+      "id": "metodologie di programmazione/polimorfismo.md",
+      "x": 1405.3389892578125,
+      "y": -4141.25732421875
+    },
+    {
+      "id": "metodologie di programmazione/programmazione funzionale.md",
+      "x": -117.18557739257812,
+      "y": -4657.2236328125
+    },
+    {
+      "id": "metodologie di programmazione/programmazione orientata agli oggetti.md",
+      "x": 1748.3023681640625,
+      "y": -3130.446533203125
+    },
+    {
+      "id": "metodologie di programmazione/relazioni tra oggetti.md",
+      "x": 1628.7041015625,
+      "y": -4510.84130859375
+    },
+    {
+      "id": "metodologie di programmazione/ricorsione.md",
+      "x": 813.7653198242188,
+      "y": -3670.54638671875
+    },
+    {
+      "id": "metodologie di programmazione/stream.md",
+      "x": 260.71044921875,
+      "y": -3343.523193359375
+    },
+    {
+      "id": "metodologie di programmazione/this e super.md",
+      "x": 2241.330810546875,
+      "y": -4486.72802734375
+    },
+    {
+      "id": "metodologie di programmazione/tipi generici.md",
+      "x": 410.21612548828125,
+      "y": -4219.556640625
+    },
+    {
+      "id": "metodologie di programmazione/upcasting e downcasting.md",
+      "x": 1137.6856689453125,
+      "y": -4294.3369140625
+    },
+    {
+      "id": "progettazione di sistemi digitali/overflow.md",
+      "x": -2165.14697265625,
+      "y": 800.8309936523438
+    },
+    {
+      "id": "metodologie di programmazione/interfacce notevoli.md",
+      "x": 709.9442749023438,
+      "y": -4479.66259765625
+    },
+    {
+      "id": "metodologie di programmazione/jolly.md",
+      "x": 152.134765625,
+      "y": -4669.759765625
+    },
+    {
+      "id": "metodologie di programmazione/messaggio.md",
+      "x": 1690.990234375,
+      "y": -1936.0997314453125
+    },
+    {
+      "id": "progettazione di sistemi digitali/AND gate con funzione di controllo.md",
+      "x": -4664.59423828125,
+      "y": 370.999755859375
+    },
+    {
+      "id": "progettazione di sistemi digitali/ASCII.md",
+      "x": 155.48681640625,
+      "y": 3895.638427734375
+    },
+    {
+      "id": "progettazione di sistemi digitali/NAND e NOR.md",
+      "x": -1817.3924560546875,
+      "y": 3586.01904296875
+    },
+    {
+      "id": "progettazione di sistemi digitali/XOR.md",
+      "x": -2713.5263671875,
+      "y": 3087.668212890625
+    },
+    {
+      "id": "progettazione di sistemi digitali/addizionatore a propagazione di riporto (ripple carry adder).md",
+      "x": -2913.17236328125,
+      "y": 1958.1331787109375
+    },
+    {
+      "id": "progettazione di sistemi digitali/addizionatore sequenziale.md",
+      "x": -3323.204833984375,
+      "y": 1597.22607421875
+    },
+    {
+      "id": "progettazione di sistemi digitali/altri operatori logici.md",
+      "x": -2535.1005859375,
+      "y": 3743.5556640625
+    },
+    {
+      "id": "progettazione di sistemi digitali/analisi di reti sequenziali.md",
+      "x": -3219.68505859375,
+      "y": 2373.947265625
+    },
+    {
+      "id": "progettazione di sistemi digitali/bit di parità.md",
+      "x": 16.036163330078125,
+      "y": 4488.36962890625
+    },
+    {
+      "id": "progettazione di sistemi digitali/caricamento parallelo e seriale di registri + right shift register.md",
+      "x": -4913.92529296875,
+      "y": 611.6220092773438
+    },
+    {
+      "id": "progettazione di sistemi digitali/codice 2-su-5.md",
+      "x": -0.03675372153520584,
+      "y": 3675.649658203125
+    },
+    {
+      "id": "progettazione di sistemi digitali/codice di Hamming.md",
+      "x": -158.8588104248047,
+      "y": 4705.77294921875
+    },
+    {
+      "id": "progettazione di sistemi digitali/codifica BCD (Binary Coded Decimal).md",
+      "x": 80.26473236083984,
+      "y": 2980.075927734375
+    },
+    {
+      "id": "progettazione di sistemi digitali/codifica dell'informazione (alfa)numerica.md",
+      "x": 63.659019470214844,
+      "y": 2534.65478515625
+    },
+    {
+      "id": "progettazione di sistemi digitali/codificatore (ENC).md",
+      "x": -3738.02880859375,
+      "y": 421.1192321777344
+    },
+    {
+      "id": "progettazione di sistemi digitali/comparatore (COMP).md",
+      "x": -2768.414794921875,
+      "y": 724.5250854492188
+    },
+    {
+      "id": "progettazione di sistemi digitali/complemento a 1 (CA1).md",
+      "x": -623.9942016601562,
+      "y": 1899.77001953125
+    },
+    {
+      "id": "progettazione di sistemi digitali/complemento a 2 (CA2).md",
+      "x": -1870.308349609375,
+      "y": 534.1838989257812
+    },
+    {
+      "id": "progettazione di sistemi digitali/contatore con abilitazione al conteggio.md",
+      "x": -4532.88134765625,
+      "y": 883.7823486328125
+    },
+    {
+      "id": "progettazione di sistemi digitali/contatore di eventi.md",
+      "x": -4271.56005859375,
+      "y": 1248.5283203125
+    },
+    {
+      "id": "progettazione di sistemi digitali/contatore sincrono con reset.md",
+      "x": -4014.888427734375,
+      "y": 1241.9837646484375
+    },
+    {
+      "id": "progettazione di sistemi digitali/contatore sincrono modulo 2 alla n.md",
+      "x": -3786.626953125,
+      "y": 1705.7276611328125
+    },
+    {
+      "id": "progettazione di sistemi digitali/criterio di minimalità.md",
+      "x": -2425.3955078125,
+      "y": 2645.129638671875
+    },
+    {
+      "id": "progettazione di sistemi digitali/demultiplexer (DEMUX).md",
+      "x": -4252.9326171875,
+      "y": 139.34759521484375
+    },
+    {
+      "id": "progettazione di sistemi digitali/diagramma temporale di reti sequenziali.md",
+      "x": -3377.297607421875,
+      "y": 3098.573974609375
+    },
+    {
+      "id": "progettazione di sistemi digitali/esempio di analisi di una rete sequenziale (automa contatore).md",
+      "x": -3183.033447265625,
+      "y": 2813.89892578125
+    },
+    {
+      "id": "progettazione di sistemi digitali/esempio di analisi di una rete sequenziale (automa riconoscitore).md",
+      "x": -3435.24560546875,
+      "y": 2772.6318359375
+    },
+    {
+      "id": "progettazione di sistemi digitali/esempio di progettazione dell'automa della macchina distributrice.md",
+      "x": -2307.8427734375,
+      "y": 1567.5926513671875
+    },
+    {
+      "id": "progettazione di sistemi digitali/flip-flop (JK).md",
+      "x": -4704.0859375,
+      "y": 1760.15087890625
+    },
+    {
+      "id": "progettazione di sistemi digitali/flip-flop delay (D).md",
+      "x": -4373.64794921875,
+      "y": 1607.5501708984375
+    },
+    {
+      "id": "progettazione di sistemi digitali/flip-flop set-reset (SR).md",
+      "x": -4678.84716796875,
+      "y": 1321.648193359375
+    },
+    {
+      "id": "progettazione di sistemi digitali/flip-flop toggle (T).md",
+      "x": -4265.74462890625,
+      "y": 2419.109130859375
+    },
+    {
+      "id": "progettazione di sistemi digitali/flip-flop.md",
+      "x": -3939.283935546875,
+      "y": 1960.8941650390625
+    },
+    {
+      "id": "progettazione di sistemi digitali/full adder (FA).md",
+      "x": -2549.657470703125,
+      "y": 2154.554443359375
+    },
+    {
+      "id": "progettazione di sistemi digitali/funzioni non completamente definita o specificata.md",
+      "x": -2456.926025390625,
+      "y": 3346.458251953125
+    },
+    {
+      "id": "progettazione di sistemi digitali/gray code.md",
+      "x": -962.8451538085938,
+      "y": 3528.67529296875
+    },
+    {
+      "id": "progettazione di sistemi digitali/half adder (HA).md",
+      "x": -2795.78173828125,
+      "y": 1680.0968017578125
+    },
+    {
+      "id": "progettazione di sistemi digitali/ottimizzazione delle reti combinatorie.md",
+      "x": -2212.602294921875,
+      "y": 3056.5224609375
+    },
+    {
+      "id": "progettazione di sistemi digitali/rappresentazione o codifica dei numeri interi relativi.md",
+      "x": -932.3272094726562,
+      "y": 1384.76513671875
+    },
+    {
+      "id": "progettazione di sistemi digitali/rappresentazione o codifica dei numeri naturali.md",
+      "x": 453.3407287597656,
+      "y": 3125.065673828125
+    },
+    {
+      "id": "progettazione di sistemi digitali/registro contatore.md",
+      "x": -4189.9462890625,
+      "y": 733.01611328125
+    },
+    {
+      "id": "progettazione di sistemi digitali/rete sequenziale generica.canvas",
+      "x": -3550.66259765625,
+      "y": 2435.41259765625
+    },
+    {
+      "id": "progettazione di sistemi digitali/ripple carry adder per valori in CA2.md",
+      "x": -2644.631591796875,
+      "y": 1131.3701171875
+    },
+    {
+      "id": "progettazione di sistemi digitali/scorrimento sia a destra che a sinistra di registri (SISO).md",
+      "x": -5106.2939453125,
+      "y": 169.50978088378906
+    },
+    {
+      "id": "progettazione di sistemi digitali/segnali a onda quadra.md",
+      "x": -3396.13916015625,
+      "y": 3525.226806640625
+    },
+    {
+      "id": "progettazione di sistemi digitali/sintesi di reti sequenziali.md",
+      "x": -3403.30615234375,
+      "y": 1928.0694580078125
+    },
+    {
+      "id": "progettazione di sistemi digitali/complementatore.md",
+      "x": -3119.247314453125,
+      "y": 823.5338134765625
+    },
+    {
+      "id": "progettazione di sistemi digitali/contatore sincrono bidirezionale.md",
+      "x": -4484.1025390625,
+      "y": 610.4703369140625
+    },
+    {
+      "id": "progettazione di sistemi digitali/esercizi/Scheda di esercizi n. 3.md",
+      "x": -1203.43359375,
+      "y": 4325.74169921875
+    },
+    {
+      "id": "progettazione di sistemi digitali/esercizi/circuito di controllo apertura cancello.md",
+      "x": -1744.5704345703125,
+      "y": 4504.19775390625
+    },
+    {
+      "id": "progettazione di sistemi digitali/esercizi/dato x contenuto nell'intervallo 0, 7 (compresi) rappresentato in 3 bit CA2 stendere la tavola di verità. y = x-2 rappresentato in CA2 con il minimo numero di bit.md",
+      "x": -2256.495361328125,
+      "y": 4033.849609375
+    },
+    {
+      "id": "progettazione di sistemi digitali/esercizi/esercizi di progettazione di sistemi digitali.md",
+      "x": -1673.4263916015625,
+      "y": 4083.9453125
+    },
+    {
+      "id": "progettazione di sistemi digitali/esercizi/si converta in base 4 il numero 231(10), si converta poi in base 16 e si sommi a 34A(16).md",
+      "x": -1959.5701904296875,
+      "y": 4452.13330078125
+    },
+    {
+      "id": "progettazione di sistemi digitali/esercizi/si scriva -45 in CA2 a 7 bit e poi si sottragga 21.md",
+      "x": -1538.31201171875,
+      "y": 4605.111328125
+    },
+    {
+      "id": "progettazione di sistemi digitali/esercizi/sommare F7A0 e FB60 che rappresentano valori IEEE 754 HP.md",
+      "x": -1305.28662109375,
+      "y": 4524.5556640625
+    },
+    {
+      "id": "progettazione di sistemi digitali/esercizi/stendere la tavola di verità e trovare le espressioni canoniche SOP e POS.md",
+      "x": -1981.9415283203125,
+      "y": 4230.43798828125
+    },
+    {
+      "id": "progettazione di sistemi digitali/esercizi/verificare l'identità.md",
+      "x": -1319.869873046875,
+      "y": 4121.23583984375
+    },
+    {
+      "id": "progettazione di sistemi digitali/flip-flop SR master-slave.md",
+      "x": -4504.4951171875,
+      "y": 1942.045654296875
+    },
+    {
+      "id": "progettazione di sistemi digitali/latch set-reset (SR).md",
+      "x": -4266.763671875,
+      "y": 2132.78271484375
+    },
+    {
+      "id": "progettazione di sistemi digitali/latch.md",
+      "x": -3841.974365234375,
+      "y": 2635.17529296875
+    },
+    {
+      "id": "progettazione di sistemi digitali/mappa di Karnaugh.md",
+      "x": -1800.2373046875,
+      "y": 3065.58984375
+    },
+    {
+      "id": "progettazione di sistemi digitali/moduli standard.md",
+      "x": -3438.857421875,
+      "y": 618.0934448242188
+    },
+    {
+      "id": "progettazione di sistemi digitali/modulo e segno (MS).md",
+      "x": -1004.3790893554688,
+      "y": 1706.1417236328125
+    },
+    {
+      "id": "progettazione di sistemi digitali/moltiplicazioni e divisioni per potenze della base.md",
+      "x": -684.9133911132812,
+      "y": 3632.439208984375
+    },
+    {
+      "id": "progettazione di sistemi digitali/notazione polarizzata.md",
+      "x": -1237.35107421875,
+      "y": 1559.36279296875
+    },
+    {
+      "id": "progettazione di sistemi digitali/operazioni aritmetiche in base 2.md",
+      "x": -1622.7882080078125,
+      "y": 2059.070068359375
+    },
+    {
+      "id": "progettazione di sistemi digitali/operazioni con numeri in virgola mobile.md",
+      "x": -1125.9215087890625,
+      "y": 1058.743408203125
+    },
+    {
+      "id": "progettazione di sistemi digitali/programmable logic array (PLA).md",
+      "x": -3488.193603515625,
+      "y": 1269.436767578125
+    },
+    {
+      "id": "progettazione di sistemi digitali/read only memory (ROM).md",
+      "x": -3704.561767578125,
+      "y": 948.7799682617188
+    },
+    {
+      "id": "progettazione di sistemi digitali/registri di memorizzazione.md",
+      "x": -4733.84033203125,
+      "y": -162.0706329345703
+    },
+    {
+      "id": "progettazione di sistemi digitali/registro universale.md",
+      "x": -5120.79345703125,
+      "y": -163.60989379882812
+    },
+    {
+      "id": "progettazione di sistemi digitali/reti sequenziali.md",
+      "x": -3005.857666015625,
+      "y": 2580.083984375
+    },
+    {
+      "id": "progettazione di sistemi digitali/rotazione a destra e a sinistra di registri.md",
+      "x": -5010.44189453125,
+      "y": -508.49090576171875
+    },
+    {
+      "id": "progettazione di sistemi digitali/sia x un numero BCD. considerare la codifica y nel codice 2-su-5. scrivere le espressioni minimali per i singoli bit di y.md",
+      "x": -1500.476806640625,
+      "y": 4362.33984375
+    },
+    {
+      "id": "progettazione di sistemi digitali/sistema binario.md",
+      "x": -1301.7120361328125,
+      "y": 2360.0439453125
+    },
+    {
+      "id": "progettazione di sistemi digitali/sistemi numerici del calcolatore.md",
+      "x": -902.4483032226562,
+      "y": 3169.941162109375
+    },
+    {
+      "id": "progettazione di sistemi digitali/sistemi numerici posizionali.md",
+      "x": -234.25213623046875,
+      "y": 3341.646728515625
+    },
+    {
+      "id": "progettazione di sistemi digitali/tabelle inverse dei flip flop.md",
+      "x": -4614.65478515625,
+      "y": 2229.789306640625
+    },
+    {
+      "id": "sistemi operativi/(PCB) Process Control Block.md",
+      "x": -1818.892333984375,
+      "y": 101.657470703125
+    },
+    {
+      "id": "sistemi operativi/allocazione dei processi in memoria.md",
+      "x": -1405.4085693359375,
+      "y": 34.310157775878906
+    },
+    {
+      "id": "sistemi operativi/attributi di stato di un processo.md",
+      "x": -1987.054931640625,
+      "y": -174.31861877441406
+    },
+    {
+      "id": "sistemi operativi/modello a 2 stati dei processi.md",
+      "x": -1901.6708984375,
+      "y": -1365.794921875
+    },
+    {
+      "id": "sistemi operativi/modello a 5 stati dei processi.md",
+      "x": -1815.0506591796875,
+      "y": -589.173583984375
+    },
+    {
+      "id": "sistemi operativi/modello a 6 stati dei processi.md",
+      "x": -2010.9896240234375,
+      "y": -450.7665710449219
+    },
+    {
+      "id": "sistemi operativi/sistema operativo.md",
+      "x": -1489.2799072265625,
+      "y": 301.28729248046875
+    },
+    {
+      "id": "basi di dati/DBMS.md",
+      "x": 284.561767578125,
+      "y": -705.8126220703125
+    },
+    {
+      "id": "basi di dati/database.md",
+      "x": 71.41597747802734,
+      "y": -467.256591796875
+    },
+    {
+      "id": "query",
+      "x": 555.9519653320312,
+      "y": -386.2151794433594
+    },
+    {
+      "id": "basi di dati/modello reticolare (network).md",
+      "x": -662.9849853515625,
+      "y": -531.435791015625
+    },
+    {
+      "id": "grafo",
+      "x": -997.5343017578125,
+      "y": -471.24029541015625
+    },
+    {
+      "id": "basi di dati/modello gerarchico (hierarchical).md",
+      "x": -539.82861328125,
+      "y": -798.183349609375
+    },
+    {
+      "id": "basi di dati/modello ad oggetti (object).md",
+      "x": 1163.610107421875,
+      "y": -1875.098388671875
+    },
+    {
+      "id": "basi di dati/SQL.md",
+      "x": 752.5112915039062,
+      "y": -161.08331298828125
+    },
+    {
+      "id": "basi di dati/database relazionali.md",
+      "x": 347.0124816894531,
+      "y": 58.21231460571289
+    },
+    {
+      "id": "dipendenza funzionale",
+      "x": -253.65313720703125,
+      "y": -478.5812072753906
+    },
+    {
+      "id": "vincolo di chiave",
+      "x": 288.0637512207031,
+      "y": -282.13323974609375
+    },
+    {
+      "id": "vincolo di dominio",
+      "x": -151.27125549316406,
+      "y": -229.2838897705078
+    },
+    {
+      "id": "vincolo dinamico",
+      "x": -52.56393814086914,
+      "y": -751.5972290039062
     }
   ],
   "automaticallyRestoreNodePositions": true

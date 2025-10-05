@@ -1,10 +1,10 @@
 ---
-updated_at: 2025-10-02T16:57:49.751+02:00
+updated_at: 2025-10-05T16:06:57.797+02:00
 ---
-> Cerca teaching De Marsico e trova l'elenco dei corsi -> basi di dati -> Homepage -> registra alla mailing list.
+> [Materiale del corso](https://sites.google.com/di.uniroma1.it/basididati-modulo1canalem-z/home-page/materiale-del-corso)
 
-- [[base di dati]]
-- [[base di dati relazionali]]
+- [[database]]
+- [[database relazionali]]
 	- [[tabella]]
 	- [[vista]]
 	- [[transazione]]

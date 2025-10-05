@@ -1,7 +1,7 @@
 ---
-updated_at: 2025-10-02T17:17:47.326+02:00
+updated_at: 2025-10-05T17:22:37.808+02:00
 ---
-> Si fonda sul concetto di [[relazione]] matematica ed è la base della [[base di dati relazionali]].
+> Si fonda sul concetto di [[relazione]] matematica ed è la base dei [[database relazionali]].
 
 > Il numero di domini di cui si fa il prodotto cartesiano è il suo **grado**.
 

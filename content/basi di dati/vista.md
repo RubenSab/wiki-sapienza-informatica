@@ -1,7 +1,7 @@
 ---
 updated_at: 2025-10-02T15:36:15.684+02:00
 ---
-> La vista è una [[tabella]] che funge da visualizzazione di più tabelle fuse in una singola tabella. Ciò permette una maggiore modularità, riusabilità e spesso anche privacy dei singoli componenti della [[base di dati]].
+> La vista è una [[tabella]] che funge da visualizzazione di più tabelle fuse in una singola tabella. Ciò permette una maggiore modularità, riusabilità e spesso anche privacy dei singoli componenti della [[database]].
 
 Esempio:
 
