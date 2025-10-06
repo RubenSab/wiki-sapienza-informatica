@@ -20,12 +20,12 @@
             }
           },
           {
-            "id": "53aad843fb2b4388",
+            "id": "85cf5f8d7e8c3cb7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "algebra lineare/(SCR) sistema completo di rappresentanti.md",
+                "file": "calcolo delle probabilità/combinazioni con ripetizioni consentite.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -40,16 +40,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "(SCR) sistema completo di rappresentanti"
+              "title": "combinazioni con ripetizioni consentite"
             }
           },
           {
-            "id": "cb2036ef574638ff",
+            "id": "0a689c2ab2ffd405",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "algebra lineare/Algebra lineare.md",
+                "file": "calcolo delle probabilità/permutazioni.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -64,83 +64,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Algebra lineare"
-            }
-          },
-          {
-            "id": "5b21f3e2155db377",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "algebra lineare/partizione.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "partizione"
-            }
-          },
-          {
-            "id": "8393bdd5e108b311",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "interdisciplinare/classe di equivalenza.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "classe di equivalenza"
-            }
-          },
-          {
-            "id": "91107dcce912b402",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "algebra lineare/(SCR) sistema completo di rappresentanti.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "(SCR) sistema completo di rappresentanti"
+              "title": "permutazioni"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -197,7 +125,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "partizione",
+                "query": "proprietà caratte",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -280,7 +208,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 354.5
+    "width": 354.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -293,15 +222,25 @@
       "command-palette:Open command palette": false,
       "homepage:Open homepage": false,
       "timethings:Activate view": false,
-      "3d-graph-new:Global 3D Graph": false,
       "new-3d-graph:Open 3d graph": false
     }
   },
-  "active": "91107dcce912b402",
+  "active": "85cf5f8d7e8c3cb7",
   "lastOpenFiles": [
-    "interdisciplinare/classe di equivalenza.md",
+    "calcolo delle probabilità/combinazioni con ripetizioni consentite.md",
+    "calcolo delle probabilità/scelta di k elementi da n.md",
+    "calcolo delle probabilità/disposizioni senza ripetizioni.md",
+    "calcolo delle probabilità/permutazioni.md",
     "algebra lineare/partizione.md",
+    "calcolo delle probabilità/disposizioni con ripetizioni consentite.md",
+    "calcolo delle probabilità/combinazioni senza ripetizioni.md",
+    "calcolo delle probabilità/contare con le biezioni.md",
+    "metodi matematici per l'informatica/funzione caratteristica di un insieme.md",
+    "interdisciplinare/insieme delle parti.md",
+    "calcolo delle probabilità/Calcolo delle probabilità.md",
+    "calcolo delle probabilità/coefficiente binomiale.md",
     "algebra lineare/(SCR) sistema completo di rappresentanti.md",
+    "interdisciplinare/classe di equivalenza.md",
     "algebra lineare/Algebra lineare.md",
     "interdisciplinare/sottoinsiemi.md",
     "metodologie di programmazione/modificatori di visibilità.md",
@@ -314,17 +253,6 @@
     "basi di dati/transazione.md",
     "progettazione di sistemi digitali/segnali a onda quadra.md",
     "metodologie di programmazione/java.lang.String.md",
-    "introduzione agli algoritmi/problemi combinatori.md",
-    "basi di dati/SQL.md",
-    "basi di dati/modello ad oggetti (object).md",
-    "basi di dati/database relazionali.md",
-    "basi di dati/chiave.md",
-    "basi di dati/vista.md",
-    "metodologie di programmazione/interfaccia.md",
-    "interdisciplinare/albero.md",
-    "basi di dati/modello gerarchico (hierarchical).md",
-    "basi di dati/modello reticolare (network).md",
-    "basi di dati/modello relazionale (relational).md",
     "calcolo delle probabilità/Untitled",
     "basi di dati",
     "sistemi operativi",

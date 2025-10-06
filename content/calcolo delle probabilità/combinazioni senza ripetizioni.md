@@ -1,7 +1,7 @@
 ---
-updated_at: 2025-10-01T14:54:00.717+02:00
+updated_at: 2025-10-06T14:35:24.130+02:00
 ---
-> Per scegliere $k$ elementi da $n$ senza ripetizioni, senza ordine, bisogna [[scelta di k elementi da n senza ripetizioni con ordine|scegliere k elementi da n senza ripetizioni e con ordine]], poi bisogna dimenticare l'ordine (rimuovendo i duplicati).
+> Per scegliere $k$ elementi da $n$ senza ripetizioni, senza ordine, bisogna [[disposizioni senza ripetizioni|scegliere k elementi da n senza ripetizioni e con ordine]], poi bisogna dimenticare l'ordine (rimuovendo i duplicati).
 
 Ad esempio:
 
