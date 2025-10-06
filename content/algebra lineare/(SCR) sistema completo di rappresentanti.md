@@ -1,13 +1,19 @@
 ---
-updated_at: 2025-10-01T12:02:31.833+02:00
+updated_at: 2025-10-06T11:22:22.135+02:00
 ---
 
-> Un sistema completo di rappresentanti o SCR di $\mathcal{R}$ è un sottoinsieme $X' \subset X$ tale che:
+> Un sistema completo di rappresentanti o SCR di $\mathcal{R}$ è un [[sottoinsiemi|sottoinsieme]] $X' \subset X$ tale che:
 
 1. $\forall x, y \in X'\ \ x=y \iff Cl(x) = Cl(y)$ e $x \neq y \iff Cl(x) \cap Cl(y) = \emptyset$
 2. $\forall x \in X\ \ \exists x' \in X'$ con $x \in Cl(x')$
 
->"È un qualcosa che scorre attraverso le classi di equivalenza/partizioni e prende un elemento di ognuna".
+>"l'insieme $X'$ scorre attraverso le [[classe di equivalenza|classi di equivalenza]]/[[partizione|partizioni]] di $X$ e prende un elemento di ognuna".
+
+Esempio: possibili sistemi completi di rappresentanti della congruenza modulo 2 su $\mathbb{Z}$ sono $\{1, 2\}$, $\{7, -10\}$ o qualsiasi insieme $\{x : 2 \mid x,\ \ y : 2 \nmid y\}$.
+
+---
+
+#todo completare gli esempi
 
 # Esempio 1
 
@@ -27,11 +33,9 @@ $$
 I=\{0, 1, \ldots, d-1\}\ \text{è un SCR per le}\ \equiv (\mod d)
 $$
 
-Proprietà 2: #todo
+Proprietà 2:
 
-Osservazione:
-
-- $x \equiv r \mod d$
+Osserv
 - $Cl(x) = Cl(r)$
 - $\overline{x}=\overline{r}$ (notazione tipica)
 - $[x]_{d}=[y]_{d}$
@@ -46,5 +50,3 @@ $$
 X = \{\text{rette di}\ \mathbb{R}^{2}\} \subset \mathcal{P}(\mathbb{R}^{2})
 $$
 $r, r' \in X\ \ r\ ||\ r' \iff r \land r'\ \text{sono parallele}$
-
-#todo 

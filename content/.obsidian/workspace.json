@@ -20,60 +20,12 @@
             }
           },
           {
-            "id": "6e4f82e5fd3fad31",
+            "id": "53aad843fb2b4388",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "basi di dati/DBMS.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "DBMS"
-            }
-          },
-          {
-            "id": "8bb33ee431f086de",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "basi di dati/database.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "database"
-            }
-          },
-          {
-            "id": "2592517b800ca626",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "progettazione di sistemi digitali/segnali a onda quadra.md",
+                "file": "algebra lineare/(SCR) sistema completo di rappresentanti.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -88,16 +40,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "segnali a onda quadra"
+              "title": "(SCR) sistema completo di rappresentanti"
             }
           },
           {
-            "id": "66f4b6760fded720",
+            "id": "cb2036ef574638ff",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "basi di dati/transazione.md",
+                "file": "algebra lineare/Algebra lineare.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -112,10 +64,83 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "transazione"
+              "title": "Algebra lineare"
+            }
+          },
+          {
+            "id": "5b21f3e2155db377",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "algebra lineare/partizione.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "partizione"
+            }
+          },
+          {
+            "id": "8393bdd5e108b311",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "interdisciplinare/classe di equivalenza.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "classe di equivalenza"
+            }
+          },
+          {
+            "id": "91107dcce912b402",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "algebra lineare/(SCR) sistema completo di rappresentanti.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "(SCR) sistema completo di rappresentanti"
             }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -172,7 +197,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "integri",
+                "query": "partizione",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -255,8 +280,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 354.5,
-    "collapsed": true
+    "width": 354.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -269,37 +293,38 @@
       "command-palette:Open command palette": false,
       "homepage:Open homepage": false,
       "timethings:Activate view": false,
-      "3d-graph-new:Global 3D Graph": false
+      "3d-graph-new:Global 3D Graph": false,
+      "new-3d-graph:Open 3d graph": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "91107dcce912b402",
   "lastOpenFiles": [
+    "interdisciplinare/classe di equivalenza.md",
+    "algebra lineare/partizione.md",
+    "algebra lineare/(SCR) sistema completo di rappresentanti.md",
+    "algebra lineare/Algebra lineare.md",
+    "interdisciplinare/sottoinsiemi.md",
+    "metodologie di programmazione/modificatori di visibilità.md",
+    "calcolo delle probabilità/probabilità.md",
+    "algebra lineare/applicazione.md",
+    "basi di dati/tabella.md",
+    "basi di dati/DBMS.md",
+    "basi di dati/database.md",
+    "basi di dati/algebra relazionale dei database.md",
     "basi di dati/transazione.md",
     "progettazione di sistemi digitali/segnali a onda quadra.md",
-    "basi di dati/database.md",
     "metodologie di programmazione/java.lang.String.md",
     "introduzione agli algoritmi/problemi combinatori.md",
-    "basi di dati/DBMS.md",
-    "basi di dati/tabella.md",
     "basi di dati/SQL.md",
     "basi di dati/modello ad oggetti (object).md",
     "basi di dati/database relazionali.md",
     "basi di dati/chiave.md",
-    "basi di dati/algebra relazionale dei database.md",
     "basi di dati/vista.md",
     "metodologie di programmazione/interfaccia.md",
     "interdisciplinare/albero.md",
     "basi di dati/modello gerarchico (hierarchical).md",
     "basi di dati/modello reticolare (network).md",
     "basi di dati/modello relazionale (relational).md",
-    "interdisciplinare/funzione.md",
-    "basi di dati/Basi di dati.md",
-    "basi di dati/schema.md",
-    "metodologie di programmazione/Java.md",
-    "interdisciplinare/cardinalità.md",
-    "interdisciplinare/sottoinsiemi.md",
-    "interdisciplinare/puntatore.md",
-    "sistemi operativi/allocazione dei processi in memoria.md",
     "calcolo delle probabilità/Untitled",
     "basi di dati",
     "sistemi operativi",
