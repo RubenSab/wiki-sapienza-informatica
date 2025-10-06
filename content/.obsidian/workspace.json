@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "4509724f8bf84da7",
+        "id": "35f33073c51d3f60",
         "type": "tabs",
         "children": [
           {
@@ -20,12 +20,12 @@
             }
           },
           {
-            "id": "85cf5f8d7e8c3cb7",
+            "id": "742de20abfd76c13",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "calcolo delle probabilità/combinazioni con ripetizioni consentite.md",
+                "file": "algebra lineare/proiezione canonica.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -40,16 +40,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "combinazioni con ripetizioni consentite"
+              "title": "proiezione canonica"
             }
           },
           {
-            "id": "0a689c2ab2ffd405",
+            "id": "d8b59596d2f8d4b1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "calcolo delle probabilità/permutazioni.md",
+                "file": "algebra lineare/diagramma.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -64,7 +64,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "permutazioni"
+              "title": "diagramma"
             }
           }
         ],
@@ -125,7 +125,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "proprietà caratte",
+                "query": "tag:#todo",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -225,8 +225,21 @@
       "new-3d-graph:Open 3d graph": false
     }
   },
-  "active": "85cf5f8d7e8c3cb7",
+  "active": "742de20abfd76c13",
   "lastOpenFiles": [
+    "algebra lineare/diagramma.md",
+    "algebra lineare/proiezione canonica.md",
+    "algebra lineare/teorema di decomponibilità.md",
+    "algebra lineare/applicazione.md",
+    "algebra lineare/applicazione quoziente.md",
+    "algebra lineare/composizione.md",
+    "algebra lineare/insieme quoziente.md",
+    "algebra lineare/relazione di equivalenza associata a un'applicazione.md",
+    "algebra lineare/applicazione biiettiva o biiezione.md",
+    "interdisciplinare/funzione.md",
+    "algebra lineare/applicazione iniettiva.md",
+    "algebra lineare/corrispondenza.md",
+    "basi di dati/Basi di dati.md",
     "calcolo delle probabilità/combinazioni con ripetizioni consentite.md",
     "calcolo delle probabilità/scelta di k elementi da n.md",
     "calcolo delle probabilità/disposizioni senza ripetizioni.md",
@@ -240,19 +253,6 @@
     "calcolo delle probabilità/Calcolo delle probabilità.md",
     "calcolo delle probabilità/coefficiente binomiale.md",
     "algebra lineare/(SCR) sistema completo di rappresentanti.md",
-    "interdisciplinare/classe di equivalenza.md",
-    "algebra lineare/Algebra lineare.md",
-    "interdisciplinare/sottoinsiemi.md",
-    "metodologie di programmazione/modificatori di visibilità.md",
-    "calcolo delle probabilità/probabilità.md",
-    "algebra lineare/applicazione.md",
-    "basi di dati/tabella.md",
-    "basi di dati/DBMS.md",
-    "basi di dati/database.md",
-    "basi di dati/algebra relazionale dei database.md",
-    "basi di dati/transazione.md",
-    "progettazione di sistemi digitali/segnali a onda quadra.md",
-    "metodologie di programmazione/java.lang.String.md",
     "calcolo delle probabilità/Untitled",
     "basi di dati",
     "sistemi operativi",

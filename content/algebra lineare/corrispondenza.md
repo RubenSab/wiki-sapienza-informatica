@@ -1,7 +1,7 @@
 ---
-updated_at: 2025-09-29T16:37:29.009+02:00
+updated_at: 2025-10-06T15:27:58.601+02:00
 ---
-> Una corrispondenza $f=(X, Y, \Gamma)$ ($X$ = dominio, $Y$ = codominio, $\Gamma$ = grafo da $X$ a $Y$) si dice **[[applicazione]]** se $\forall a \in X,\ \exists !\ b \in Y : (a, b) \in \Gamma$ si dice che $b = f(a)$ e si scrive anche $X \xrightarrow{f} Y$ (applicazione $f$ da $X$ a $Y$).
+> Una corrispondenza $f=(X, Y, \Gamma)$ ($X$ = dominio, $Y$ = codominio, $\Gamma$ = [[grafo]] da $X$ a $Y$) si dice **[[applicazione]]** se $\forall a \in X,\ \exists !\ b \in Y : (a, b) \in \Gamma$ si dice che $b = f(a)$ e si scrive anche $X \xrightarrow{f} Y$ (applicazione $f$ da $X$ a $Y$).
 
 Esempio: attraverso i diagrammi di Venn:
 
