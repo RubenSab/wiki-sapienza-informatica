@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-10-06T15:00:32.108+02:00
+updated_at: 2025-10-06T15:02:38.103+02:00
 ---
 *Vedi [[contare con le biezioni]]*
 
@@ -52,11 +52,11 @@ $$
 
 **Esempio 2**: Quante parole di lunghezza 7 ci sono con esattamente 3 A?
 
-Scegliamo dove posizionare le 3 A (combinazione senza ripetizione): $\binom{7}{3}$
+1. Scegliamo dove posizionare le 3 A (combinazione senza ripetizione): $\binom{7}{3}$
 
-Scegliamo come mettere i caratteri rimanenti (disposizioni con ripetizioni): $25^{4}$
+2. Scegliamo come mettere i caratteri rimanenti (disposizioni con ripetizioni): $25^{4}$
 
-Totale = $\binom{7}{3} \cdot 25^{4} = 35 \cdot 25^{4}$
+3. Totale = $\binom{7}{3} \cdot 25^{4} = 35 \cdot 25^{4}$
 
 ---
 
