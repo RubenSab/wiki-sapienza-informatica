@@ -5,7 +5,7 @@ updated_at: 2025-10-05T17:25:18.048+02:00
 
 Ogni tabella, elemento di base della [[database relazionali]], ha:
 
-- uno *schema* (l'insieme dei nomi/intestazioni degli attributi/campi);
+- uno *schema* (l'insieme dei nomi/intestazioni degli attributi/campi); ^ec7c8e
 - un'*istanza* dei *valori* organizzati in *tuple* o *record* di tutti i valori che un oggetto nel database assume.
 
 Esempio di tabella:

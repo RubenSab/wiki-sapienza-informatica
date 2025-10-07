@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "35f33073c51d3f60",
+        "id": "4509724f8bf84da7",
         "type": "tabs",
         "children": [
           {
@@ -20,12 +20,12 @@
             }
           },
           {
-            "id": "742de20abfd76c13",
+            "id": "afebb80c953f5b05",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "algebra lineare/proiezione canonica.md",
+                "file": "interdisciplinare/cardinalità.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -40,16 +40,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "proiezione canonica"
+              "title": "cardinalità"
             }
           },
           {
-            "id": "d8b59596d2f8d4b1",
+            "id": "7d2141290d710160",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "algebra lineare/diagramma.md",
+                "file": "basi di dati/proiezione.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -64,11 +64,32 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "diagramma"
+              "title": "proiezione"
             }
           }
-        ],
-        "currentTab": 1
+        ]
+      },
+      {
+        "id": "c913d1165ca551ac",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8c5fdc5662fce9cf",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "https://drive.google.com/file/d/0B-4exWJj0L7Rd0NJZDhLTjQ2d0k/view?resourcekey=0-5WKl2xsiN2Y2o0OKfJvVCA",
+                "title": "03.Algebra relazionale I.pdf - Google Drive",
+                "mode": "webview"
+              },
+              "pinned": true,
+              "icon": "globe-2",
+              "title": "03.Algebra relazionale I.pdf - Google Drive"
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -125,7 +146,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#todo",
+                "query": "material",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -225,34 +246,34 @@
       "new-3d-graph:Open 3d graph": false
     }
   },
-  "active": "742de20abfd76c13",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "algebra lineare/diagramma.md",
+    "interdisciplinare/cardinalità.md",
+    "algebra lineare/corrispondenza.md",
+    "interdisciplinare/funzione.md",
+    "basi di dati/algebra relazionale dei database.md",
+    "basi di dati/esercizi sull'algebra relazionale.md",
+    "basi di dati/proiezione.md",
+    "basi di dati/selezione.md",
+    "basi di dati/tabella.md",
+    "basi di dati/differenza.md",
+    "basi di dati/intersezione.md",
+    "basi di dati/unione.md",
+    "metodologie di programmazione/java.lang.String.md",
+    "metodologie di programmazione/operatori.md",
+    "progettazione di sistemi digitali/segnali a onda quadra.md",
+    "metodologie di programmazione/ereditarietà multipla.md",
+    "basi di dati/Basi di dati.md",
+    "basi di dati/SQL.md",
+    "basi di dati/dipendenza funzionale.md",
+    "basi di dati/schema.md",
+    "sistemi operativi/Sistemi operativi.md",
     "algebra lineare/proiezione canonica.md",
+    "algebra lineare/diagramma.md",
     "algebra lineare/teorema di decomponibilità.md",
     "algebra lineare/applicazione.md",
     "algebra lineare/applicazione quoziente.md",
     "algebra lineare/composizione.md",
-    "algebra lineare/insieme quoziente.md",
-    "algebra lineare/relazione di equivalenza associata a un'applicazione.md",
-    "algebra lineare/applicazione biiettiva o biiezione.md",
-    "interdisciplinare/funzione.md",
-    "algebra lineare/applicazione iniettiva.md",
-    "algebra lineare/corrispondenza.md",
-    "basi di dati/Basi di dati.md",
-    "calcolo delle probabilità/combinazioni con ripetizioni consentite.md",
-    "calcolo delle probabilità/scelta di k elementi da n.md",
-    "calcolo delle probabilità/disposizioni senza ripetizioni.md",
-    "calcolo delle probabilità/permutazioni.md",
-    "algebra lineare/partizione.md",
-    "calcolo delle probabilità/disposizioni con ripetizioni consentite.md",
-    "calcolo delle probabilità/combinazioni senza ripetizioni.md",
-    "calcolo delle probabilità/contare con le biezioni.md",
-    "metodi matematici per l'informatica/funzione caratteristica di un insieme.md",
-    "interdisciplinare/insieme delle parti.md",
-    "calcolo delle probabilità/Calcolo delle probabilità.md",
-    "calcolo delle probabilità/coefficiente binomiale.md",
-    "algebra lineare/(SCR) sistema completo di rappresentanti.md",
     "calcolo delle probabilità/Untitled",
     "basi di dati",
     "sistemi operativi",
