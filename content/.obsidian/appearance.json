@@ -5,5 +5,6 @@
   "monospaceFontFamily": "JetBrains Mono NL",
   "textFontFamily": "Inter",
   "interfaceFontFamily": "Inter",
-  "baseFontSize": 16
+  "baseFontSize": 16,
+  "nativeMenus": false
 }

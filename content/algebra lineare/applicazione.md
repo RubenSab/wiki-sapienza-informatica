@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-10-06T17:06:27.004+02:00
+updated_at: 2025-10-08T11:06:06.816+02:00
 ---
 > Una [[corrispondenza]] $f=(X, Y, \Gamma)$ ($X$ = dominio, $Y$ = codominio, $\Gamma$ = [[grafo]] da $X$ a $Y$) si dice [[applicazione]] se $\forall a \in X,\ \exists !\ b \in Y : (a, b) \in \Gamma$ si dice che $b = f(a)$ e si scrive anche $X \xrightarrow{f} Y$ (applicazione $f$ da $X$ a $Y$).
 
@@ -16,13 +16,13 @@ Un'applicazione $X \xrightarrow{f} Y$ si dice:
 
 - **iniettiva** se:
 	- $\forall x, x' \in X\ (f(x) = f(x') \implies x = x')$;
-	- alternativamente è iniettiva se e solo se $\forall y \in Y(\ f^{-1}(\{y\})=\emptyset \lor f^{-1}(\{y\})\ )$, cioè se $f^{-1}(\{y\})$ è un singleton; (se ogni elemento del codominio ha una sola "freccia entrante");
+	- alternativamente è iniettiva se e solo se $\forall y \in Y(\ f^{-1}(\{y\})=\emptyset \lor f^{-1}(\{y\}) = \{x, x \in X\})$, cioè se $f^{-1}(\{y\})$ è un singleton o non esiste; (se ogni elemento del codominio ha una sola "freccia entrante" o non ne ha);
 	- alternativamente è iniettiva se $\text{Card}(f^{-1}(\{y\})) \leq 1$.
 
 - **suriettiva** se:
 	- $\forall y \in Y\ \exists x \in X : f(x) = y$ (tutti gli elementi del codominio hanno "frecce entranti");
 	- alternativamente $f$ è suriettiva se $\forall y \in Y, f^{-1}(\{y\}) \neq \emptyset$;
-	- alternativamente $f$ è suriettiva se $f(X) = Y$ (non un sottoinsieme di $Y$).
+	- alternativamente $f$ è suriettiva se $f(X) = Y$ (non $X \subset Y$).
 
 - **[[applicazione biiettiva o biiezione]]** se:
 	- è sia suriettiva che iniettiva;

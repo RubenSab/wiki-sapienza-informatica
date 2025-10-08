@@ -1,6 +1,7 @@
 ---
-updated_at: 2025-09-29T16:57:53.375+02:00
+updated_at: 2025-10-08T11:17:41.616+02:00
 ---
+> [Materiale del corso](https://drive.google.com/drive/folders/1IBBff-5DaA1tpisj7XJSW9FGGEKoE26N)
 
 | Simbolo          | Significato                              |
 | ---------------- | ---------------------------------------- |

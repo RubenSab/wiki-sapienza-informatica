@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-10-06T17:26:51.541+02:00
+updated_at: 2025-10-08T10:55:16.465+02:00
 ---
 > È il [[diagramma]] $X \xtwoheadrightarrow{f} Y,\ X \xtwoheadrightarrow{\pi} \frac{X}{\sim},\ \frac{X}{\sim} \xtwoheadrightarrow{\overline{f}} Y$
 
