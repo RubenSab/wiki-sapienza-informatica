@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-10-08T11:50:58.971+02:00
+updated_at: 2025-10-09T10:25:53.952+02:00
 ---
 #todo pag. 17
 
@@ -50,10 +50,40 @@ Siano $x, x' \in X: f(x) = f(x')$
 
 ---
 
+$X \xrightarrow{f} Y,\ Y \xrightarrow{g} X$
+
 > Si dimostra che $g$ è unica. Si scrive $g=f^{-1}$ e $g$ si chiama l'**inversa** di $f$.
 
-#todo Esercizio 1: se $f$ è biiettiva allora $f^{-1}$ è biiettiva, ovvero $f^{-1}$ è biiettiva e $(f^{-1})^{-1} = f$
+# Esercizio 1: se $f$ è biiettiva allora $f^{-1}$ è biiettiva, ovvero $f^{-1}$ è biiettiva e $(f^{-1})^{-1} = f$
 
+Per dimostrare che $f^{-1}$ è biiettiva, bisogna dimostrare che è iniettiva e suriettiva.
 
-#todo Esercizio 2: $X \xrightarrow{F} Y \xrightarrow{G} Z,\ Z \xrightarrow{G^{-1}} Y \xrightarrow{F^{-1}} X,\ X \xrightarrow{G \circ F} Z,\ Z \xrightarrow{F^{-1} \circ G^{-1}} X$
+$$
+X \xrightarrow{f^{-1}} Y
+$$
+1. È noto che $\forall x \in X$, $f^{-1}(\{x\})$ è un singleton,
+2. Quindi $f^{-1}$ è suriettiva perché $\forall x \in X\ \exists y \in Y : f(y) = x$,
+3. E $f^{-1}$ è iniettiva perché $\forall y, y' \in Y\ (f^{-1}(y) = f^{-1}(y') \implies y = y')$, dato che $f^{-1}(y)$ è un singleton.
+
+Due funzioni $f$ e $g$ sono uguali se $X_{f} = X_{g} \land Y_{f} = Y_{g} \land \Gamma_{f} = \Gamma_{g}$
+# Esercizio 2:
+
+Sapendo $X \xrightarrow{F} Y \xrightarrow{G} Z,\ Z \xrightarrow{G^{-1}} Y \xrightarrow{F^{-1}} X,\ X \xrightarrow{G \circ F} Z$
+
+Dimostra $Z \xrightarrow{F^{-1} \circ G^{-1}} X$ #todo
+
+```
++---f^-1(g^-1)----+
+|                 |
+|   +-f^-1-+      |
+|   |      |      |      
+|   v      |      |
++-> X -f-> Y -g-> Z <-+
+    |      ^      |   |
+    |      |      |   |
+    |      +-g^-1-+   |
+    |                 |
+    +-------g(f)------+
+```
+
 

@@ -1,5 +1,11 @@
-Estensione dei numeri interi
-$$Q = \{\frac{p}{q}, p\in Z, q \in N-\{0\}\}$$
+---
+updated_at: 2025-10-12T15:45:06.571+02:00
+---
+Estensione dei [[numeri interi relativi|numeri interi]]
+
+$$
+Q = \{\frac{p}{q}, p\in Z, q \in N-\{0\}\}
+$$
 # dimostrazione per assurdo dell'irrazionalità della radice di 2
 
 IPOTESI (da contraddire): $\exists x|x^2=2 \wedge x = \frac{p}{q}\in\mathbb{Q}$

@@ -20,12 +20,12 @@
             }
           },
           {
-            "id": "83591267a58b93f4",
+            "id": "28b231d766e11efd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "algebra lineare/applicazione biiettiva o biiezione.md",
+                "file": "algebra lineare/gruppo.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -40,16 +40,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "applicazione biiettiva o biiezione"
+              "title": "gruppo"
             }
           },
           {
-            "id": "f9f8f68076e22741",
+            "id": "aa3a8aff1271afed",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "algebra lineare/applicazione biiettiva o biiezione.md",
+                "file": "algebra lineare/gruppo.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -64,11 +64,34 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "applicazione biiettiva o biiezione"
+              "title": "gruppo"
+            }
+          },
+          {
+            "id": "f5d0cc27bede510a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "interdisciplinare/proprietà, tipi di relazioni e ordini.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": false
+                }
+              },
+              "icon": "lucide-file",
+              "title": "proprietà, tipi di relazioni e ordini"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -228,14 +251,13 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {
-                "file": "algebra lineare/applicazione biiettiva o biiezione.md"
-              },
+              "state": {},
               "icon": "lucide-info",
-              "title": "File properties for applicazione biiettiva o biiezione"
+              "title": "File properties"
             }
           }
-        ]
+        ],
+        "currentTab": 7
       }
     ],
     "direction": "horizontal",
@@ -256,12 +278,23 @@
       "new-3d-graph:Open 3d graph": false
     }
   },
-  "active": "f9f8f68076e22741",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "interdisciplinare/proprietà, tipi di relazioni e ordini.md",
+    "grafo.md",
     "algebra lineare/applicazione.md",
+    "algebra lineare/gruppo.md",
+    "algebra lineare/gruppo abeliano.md",
+    "algebra lineare/anello.md",
     "algebra lineare/Algebra lineare.md",
-    "basi di dati/Basi di dati.md",
+    "calcolo differenziale/numeri interi relativi.md",
+    "algebra lineare/teoria degli anelli.md",
+    "calcolo differenziale/numeri razionali.md",
+    "architettura degli elaboratori/fasi dell'esecuzione di un'istruzione.md",
     "algebra lineare/applicazione biiettiva o biiezione.md",
+    "calcolo delle probabilità/scelta di k elementi da n.md",
+    "calcolo delle probabilità/combinazioni con ripetizioni consentite.md",
+    "basi di dati/Basi di dati.md",
     "index.md",
     "algebra lineare/proiezione canonica.md",
     "algebra lineare/teorema di decomponibilità.md",
@@ -273,17 +306,6 @@
     "basi di dati/algebra relazionale dei database.md",
     "basi di dati/esercizi sull'algebra relazionale.md",
     "basi di dati/proiezione.md",
-    "basi di dati/selezione.md",
-    "basi di dati/tabella.md",
-    "basi di dati/differenza.md",
-    "basi di dati/intersezione.md",
-    "basi di dati/unione.md",
-    "metodologie di programmazione/java.lang.String.md",
-    "metodologie di programmazione/operatori.md",
-    "progettazione di sistemi digitali/segnali a onda quadra.md",
-    "metodologie di programmazione/ereditarietà multipla.md",
-    "basi di dati/SQL.md",
-    "basi di dati/dipendenza funzionale.md",
     "calcolo delle probabilità/Untitled",
     "basi di dati",
     "sistemi operativi",

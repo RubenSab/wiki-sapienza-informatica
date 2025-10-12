@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-09-28T22:08:47.484+02:00
+updated_at: 2025-10-12T17:59:26.074+02:00
 ---
 
 # Proprietà delle relazioni
@@ -66,7 +66,7 @@ Esempio: $R\in \mathbb{N} \times \mathbb{N}$   $R=\{(a,b)|\ a=b\}$
 Esempio di equivalenza con $A = \{0,1,2,3\}$:
 $A = \{(0,0); (1,1); (2,2); (3,3); (0,1); (1,0); (2,3); (3, 2)\}$
 
-> La relazione d'equivalenza su $X$ ha un grafo esattamente $\Delta_{x}$ (la diagonale del quadrato cartesiano).
+> La relazione d'equivalenza su $X$ ha un [[grafo]] esattamente $\Delta_{x}$ (la diagonale del quadrato cartesiano).
 
 - [[classe di equivalenza]]
 
