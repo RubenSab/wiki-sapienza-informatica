@@ -1,7 +1,7 @@
 ---
 updated_at: 2025-10-07T17:14:18.719+02:00
 ---
-> È l'operazione unaria che consiste di selezionare sono le tuple (righe) della [[tabella]] ([[relazione]] in input) che soddisfano una data condizione.
+> È l'operazione unaria che consente di selezionare sono le tuple (righe) della [[tabella]] ([[relazione]] in input) che soddisfano una data condizione.
 
 Si denota con il simbolo $\sigma$ e l'insieme di condizioni $C$ va al pedice. È seguito dal nome dello [[tabella#^ec7c8e|schema]] tra parentesi tonde.
 

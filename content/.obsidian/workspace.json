@@ -6,6 +6,7 @@
       {
         "id": "4509724f8bf84da7",
         "type": "tabs",
+        "dimension": 47.462686567164184,
         "children": [
           {
             "id": "e7a7b303c61786dc",
@@ -20,36 +21,12 @@
             }
           },
           {
-            "id": "5676f31f6f31e68b",
+            "id": "8279ff941e11f85a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "calcolo delle probabilità/indipendenza di due eventi.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "indipendenza di due eventi"
-            }
-          },
-          {
-            "id": "b242a4d392f6ec04",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "calcolo delle probabilità/indipendenza di n eventi.md",
+                "file": "basi di dati/theta join.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -64,11 +41,42 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "indipendenza di n eventi"
+              "title": "theta join"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
+      },
+      {
+        "id": "3c476b3ad10d5101",
+        "type": "tabs",
+        "dimension": 52.537313432835816,
+        "children": [
+          {
+            "id": "38ce6db1585a28ee",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "basi di dati/join naturale.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "join naturale"
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -255,10 +263,19 @@
       "new-3d-graph:Open 3d graph": false
     }
   },
-  "active": "b242a4d392f6ec04",
+  "active": "8279ff941e11f85a",
   "lastOpenFiles": [
-    "calcolo delle probabilità/Calcolo delle probabilità.md",
+    "basi di dati/join naturale.md",
+    "basi di dati/prodotto cartesiano.md",
+    "basi di dati/theta join.md",
+    "basi di dati/algebra relazionale dei database.md",
+    "basi di dati/ridenominazione.md",
+    "basi di dati/unione.md",
+    "interdisciplinare/funzione.md",
+    "basi di dati/selezione.md",
+    "algebra lineare/(SCR) sistema completo di rappresentanti.md",
     "calcolo delle probabilità/indipendenza di tre eventi.md",
+    "calcolo delle probabilità/Calcolo delle probabilità.md",
     "calcolo delle probabilità/indipendenza di n eventi.md",
     "calcolo delle probabilità/indipendenza di due eventi.md",
     "calcolo delle probabilità/regola della moltiplicazione.md",
@@ -274,15 +291,6 @@
     "calcolo differenziale/numeri interi relativi.md",
     "algebra lineare/teoria degli anelli.md",
     "calcolo differenziale/numeri razionali.md",
-    "architettura degli elaboratori/fasi dell'esecuzione di un'istruzione.md",
-    "algebra lineare/applicazione biiettiva o biiezione.md",
-    "calcolo delle probabilità/scelta di k elementi da n.md",
-    "calcolo delle probabilità/combinazioni con ripetizioni consentite.md",
-    "basi di dati/Basi di dati.md",
-    "index.md",
-    "algebra lineare/proiezione canonica.md",
-    "algebra lineare/teorema di decomponibilità.md",
-    "algebra lineare/corrispondenza.md",
     "calcolo delle probabilità/Untitled",
     "basi di dati",
     "sistemi operativi",

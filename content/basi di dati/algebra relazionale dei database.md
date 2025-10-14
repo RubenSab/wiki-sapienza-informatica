@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-10-07T17:20:20.390+02:00
+updated_at: 2025-10-14T17:07:41.213+02:00
 ---
 > È un linguaggio formale completamente procedurale per interrogare una base di dati relazionali. Si fonda sul concetto di [[relazione]] matematica ed è la base dei [[database relazionali]]. Consiste di un insieme di operatori che possono essere applicati a una (operatori unari) o due (operatori binari) istanze di relazione e forniscono come risultato una nuova istanza di relazione.
 
@@ -20,12 +20,18 @@ updated_at: 2025-10-07T17:20:20.390+02:00
 
 - [[proiezione]]
 - [[selezione]]
-
+- [[join naturale]]
 ## Binarie
 
 - [[unione]]
 - [[differenza]]
 - [[intersezione]]
+- [[prodotto cartesiano]]
+- [[theta join]]
+
+## L'unica che agisce (temporaneamente) sullo [[tabella|schema]]
+
+- [[ridenominazione]]
 
 ## Esempio
 
