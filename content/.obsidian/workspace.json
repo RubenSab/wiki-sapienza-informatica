@@ -59,7 +59,7 @@
               "type": "markdown",
               "state": {
                 "file": "basi di dati/join naturale.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -263,11 +263,11 @@
       "new-3d-graph:Open 3d graph": false
     }
   },
-  "active": "8279ff941e11f85a",
+  "active": "38ce6db1585a28ee",
   "lastOpenFiles": [
+    "basi di dati/theta join.md",
     "basi di dati/join naturale.md",
     "basi di dati/prodotto cartesiano.md",
-    "basi di dati/theta join.md",
     "basi di dati/algebra relazionale dei database.md",
     "basi di dati/ridenominazione.md",
     "basi di dati/unione.md",
