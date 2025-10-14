@@ -27,7 +27,7 @@
               "type": "markdown",
               "state": {
                 "file": "basi di dati/theta join.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -58,7 +58,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "basi di dati/join naturale.md",
+                "file": "basi di dati/selezione.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -73,7 +73,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "join naturale"
+              "title": "selezione"
             }
           }
         ]
@@ -263,8 +263,10 @@
       "new-3d-graph:Open 3d graph": false
     }
   },
-  "active": "38ce6db1585a28ee",
+  "active": "8279ff941e11f85a",
   "lastOpenFiles": [
+    "basi di dati/selezione.md",
+    "basi di dati/proiezione.md",
     "basi di dati/theta join.md",
     "basi di dati/join naturale.md",
     "basi di dati/prodotto cartesiano.md",
@@ -272,7 +274,6 @@
     "basi di dati/ridenominazione.md",
     "basi di dati/unione.md",
     "interdisciplinare/funzione.md",
-    "basi di dati/selezione.md",
     "algebra lineare/(SCR) sistema completo di rappresentanti.md",
     "calcolo delle probabilità/indipendenza di tre eventi.md",
     "calcolo delle probabilità/Calcolo delle probabilità.md",
@@ -290,7 +291,6 @@
     "algebra lineare/Algebra lineare.md",
     "calcolo differenziale/numeri interi relativi.md",
     "algebra lineare/teoria degli anelli.md",
-    "calcolo differenziale/numeri razionali.md",
     "calcolo delle probabilità/Untitled",
     "basi di dati",
     "sistemi operativi",
