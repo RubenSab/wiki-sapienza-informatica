@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "calcolo delle probabilità/probabilità condizionata.md",
-                "mode": "preview",
+                "file": "algebra lineare/anello.md",
+                "mode": "source",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "probabilità condizionata"
+              "title": "anello"
             }
           }
         ]
@@ -229,10 +229,10 @@
       "new-3d-graph:Open 3d graph": false
     }
   },
-  "active": "6b36e9a938a7c537",
+  "active": "e08665a71dc2f74e",
   "lastOpenFiles": [
-    "calcolo differenziale/formula di Stirling.md",
     "calcolo delle probabilità/probabilità condizionata.md",
+    "calcolo differenziale/formula di Stirling.md",
     "calcolo delle probabilità/disposizioni senza ripetizione.md",
     "calcolo delle probabilità/legge della probabilità totale.md",
     "basi di dati/theta join.md",
