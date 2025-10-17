@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-10-15T14:44:27.989+02:00
+updated_at: 2025-10-17T14:03:50.022+02:00
 ---
 > Se $A$ e $B$ sono eventi su $\Omega$ tali che $\mathbb{P}(B) > 0$, allora definiamo
 
@@ -9,7 +9,7 @@ $$
 
 > Che si legge $A$ *condizionato a* $B$, e chiamiamo $\mathbb{P}(A \mid B)$ *[[probabilità]] di $A$ condizionata a $B$*.
 
-> N.B.: **Non** è una definizione [[proprietà, tipi di relazioni e ordini|simmetrica]].
+> N.B.: **Non** è una definizione [[proprietà, tipi di relazioni e ordini|simmetrica]] ($\mathbb{P}(A \mid B) \neq \mathbb{P}(B \mid A)$).
 
 Generalizziamo. Sia $A$ un evento in $\Omega$ e siamo $B_{1}, B_{2}, \ldots, B_{n}$ eventi disgiunti tali che $B_{1} \cup B_{2} \cup \ldots \cup B_{n} = \Omega$ (in altre parole $\{B_{1}, B_{2}, \ldots, B_{n}\}$ è una [[partizione]] di $\Omega$).
 
@@ -65,7 +65,7 @@ $$
 
 Siano $B_{1}, B_{2}, \ldots, B_{6}$ gli eventi $B_{k}=\{\text{il lancio da k}\}, 1 \leq k \leq 6$.
 
-Dalla formula delle probabilità totali
+Dalla [[legge della probabilità totale]]
 
 $$
 \mathbb{P}(A) = \sum_{k=1}^{n}\mathbb{P}(A \mid B_{k}) \cdot \mathbb{P}(B_{k})
@@ -79,9 +79,9 @@ $$
 - $\mathbb{P}(A \mid B_{5})=\binom{6}{2} \cdot \frac{1}{2} \cdot \frac{1}{2} \cdot \frac{1}{2} \cdot \frac{1}{2} \cdot \frac{1}{2} \cdot \frac{1}{2}$
 
 $$
-\mathbb{P}(A) = \sum_{k=1}^{6}\mathbb{P}(A \mid B_{k}) \cdot \mathbb{P}(B_{k}) = \sum^{6}_{k=2}\binom{k}{2}(\frac{1}{2})^{k} \cdot \frac{1}{6}
+\mathbb{P}(A) = \sum_{k=1}^{6}\mathbb{P}(A \mid B_{k}) \cdot \mathbb{P}(B_{k}) = \sum^{6}_{k=1}\binom{k}{2}(\frac{1}{2})^{k} \cdot \frac{1}{6}
 $$
-# Intuizione
+# Intuizione sulla formula
 
 Perché abbiamo chiamato $\mathbb{P}(A \mid B)$ probabilità condizionata?
 
@@ -94,3 +94,11 @@ $$
 $$
 
 Ciò ci permette di calcolare le probabilità "come facciamo nella nostra testa" con la [[legge della probabilità totale]].
+
+# Proprietà della probabilità condizionata
+
+1. Per qualsiasi [[evento]] $A$, $\mathbb{P}(A \mid A) = 1$, infatti $\mathbb{P}(A \mid A) = \frac{\mathbb{P}(A \cap A)}{\mathbb{P}(A)} = \frac{\mathbb{P}(A)}{\mathbb{P}(A)}=1$
+2. Se $A \subseteq B$, allora $\mathbb{P}(A \mid B) = \frac{\mathbb{P}(A \cap B)}{\mathbb{P}(A)} = \frac{\mathbb{P}(A)}{\mathbb{P}(B)}$  e $\mathbb{P}(B \mid A) = \frac{\mathbb{P}(B \cap A)}{\mathbb{P}(B)} = \frac{\mathbb{P}(A)}{\mathbb{P}(A)}$. Inoltre, $A \subset B$ allora $\mathbb{P}(A \mid B) < 1$ poiché $\mathbb{P}(A) < \mathbb{P}(B)$
+3. Probabilità condizionata e [[indipendenza di n eventi|indipendenza]]. Se $A$ e $B$ sono eventi indipendenti ($A \perp \!\!\! \perp B$) allora $\mathbb{P}(A \mid B) = \mathbb{P}(A)$ e $\mathbb{P}(B \mid A) = \mathbb{P}(A)$, infatti $\mathbb{P}(A \mid B)=\frac{\mathbb{P}(A \cap B)}{\mathbb{P}(B)} = \frac{\mathbb{P}(A) \cdot \mathbb{P}(B)}{\mathbb{P}(B)} = \mathbb{P}(A)$ (per la definizione stessa di indipendenza). Similmente, $\mathbb{P}(B \mid A) = \mathbb{P}(B)$. (Stiamo supponendo $\mathbb{P}(A) > 0 \land \mathbb{P}(B) > 0$).
+
+> N.B.: vale anche il viceversa. Se $A$ e $B$ sono eventi tali che $\mathbb{P}(A \mid B) = \mathbb{P}(A)$ oppure $\mathbb{P}(B \mid A) = \mathbb{P}(B)$, allora vale che $A \perp \!\!\! \perp B$. Infatti $\mathbb{P}(A\cap B) = \mathbb{P}(A)\cdot \mathbb{P}(B)$.

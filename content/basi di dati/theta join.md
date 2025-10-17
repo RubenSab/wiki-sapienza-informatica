@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-10-14T17:34:15.429+02:00
+updated_at: 2025-10-16T15:46:19.606+02:00
 ---
 > È l'operazione binaria che consente di selezionare le tuple del [[prodotto cartesiano]] dei due operandi he soddisfano una condizione del tipo $A\Theta B$, dove:
 
@@ -9,6 +9,8 @@ updated_at: 2025-10-14T17:34:15.429+02:00
 - $\text{Dom(A)} = \text{Dom}(B)$
 
 Osservazioni: $r1 \triangleright \triangleleft\ r2 = \rho_{A\Theta B}(r1\times r2)$
+
+> N.B.: 
 
 Esercizio: Nomi dei docenti non residenti a Roma che insegnano nel secondo semestre.
 

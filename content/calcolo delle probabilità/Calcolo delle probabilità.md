@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-10-15T14:01:49.368+02:00
+updated_at: 2025-10-17T14:07:28.526+02:00
 ---
 > La probabilità è lo studio matematico di esperimenti con diversi possibili esiti (aleatori cioè non deterministici).
 
@@ -17,3 +17,4 @@ updated_at: 2025-10-15T14:01:49.368+02:00
 	- [[indipendenza di n eventi]]
 - [[probabilità condizionata]]
 - [[legge della probabilità totale]]
+- [[teorema di Bayes]]

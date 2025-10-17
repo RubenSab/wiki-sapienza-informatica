@@ -1,12 +1,12 @@
 ---
-updated_at: 2025-10-13T14:30:08.898+02:00
+updated_at: 2025-10-17T14:16:22.097+02:00
 ---
 > Sia $\Omega$ uno [[spazio campionario]]. Diciamo che due [[evento|eventi]] $A$ e $B$ su $\Omega$ sono indipendenti se
 
 $$
 \mathbb{P}(A\cap B) = \mathbb{P}(A)\cdot \mathbb{P}(B)
 $$
-> N.B.: Se $A$ è indipendente da $B$, $B$ è indipendente da $A$ (la definizione è [[proprietà, tipi di relazioni e ordini|simmetrica]]). In tal caso si scrive $A \perp B$.
+> N.B.: Se $A$ è indipendente da $B$, $B$ è indipendente da $A$ (la definizione è [[proprietà, tipi di relazioni e ordini|simmetrica]]). In tal caso si scrive $A \perp \!\!\! \perp B$.
 
 # Osservazioni
 

@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-10-14T17:07:41.213+02:00
+updated_at: 2025-10-16T17:17:49.534+02:00
 ---
 > È un linguaggio formale completamente procedurale per interrogare una base di dati relazionali. Si fonda sul concetto di [[relazione]] matematica ed è la base dei [[database relazionali]]. Consiste di un insieme di operatori che possono essere applicati a una (operatori unari) o due (operatori binari) istanze di relazione e forniscono come risultato una nuova istanza di relazione.
 
@@ -20,20 +20,20 @@ updated_at: 2025-10-14T17:07:41.213+02:00
 
 - [[proiezione]]
 - [[selezione]]
-- [[join naturale]]
+- [[join naturale]] 
+- [[theta join]]
+
 ## Binarie
 
 - [[unione]]
 - [[differenza]]
 - [[intersezione]]
 - [[prodotto cartesiano]]
-- [[theta join]]
-
 ## L'unica che agisce (temporaneamente) sullo [[tabella|schema]]
 
 - [[ridenominazione]]
 
-## Esempio
+## Esempio 1 (semplice)
 
 Considerando le tabelle:
 
@@ -53,3 +53,31 @@ Procedimento:
 Espressione relazionale:
 
 $\pi_{\text{targa, cilindrata, modello}}({\sigma_{\text{Città = Roma}\ \land\ \text{posti} = 2}(\text{Auto})}) \cup \pi_{\text{targa, cilindrata, modello}}({\sigma_{\text{regione = Lazio}}(\text{Moto})})$
+
+
+## Esempio 2 (il più difficile possibile)
+
+- pittore(id, nome, cognome, data_n, data_m)
+- quadro(id, titolo, data, pittore)
+
+Per ogni pittore in vita, trovare nome, cognome e titolo del primo quadro dipinto
+
+$$
+\text{pittoriInVita} = \sigma_{\text{data\_{m} != 00/00/0000}}(\text{pittore})
+$$
+
+$$
+\text{QP1} = \text{quadri}\ \underset{\text{quadro.pittore = pittore.id}} {\ \triangleright \! \! \triangleleft }\ \text{pittoriInVita} 
+$$
+
+$$
+\text{QP2} := \text{QP1}
+$$
+
+$$
+\quad \text{OP\_NO}= \pi_{\text{QP1.IDQ, QP1.titolo, QP1.data, QP1.IDP}}(\sigma_{\text{QP1.data} > \text{QP2.data}} (\text{QP1}\ \underset{\text{QP1.pittore} = \text{QP2.pittore}}{\ \triangleright \! \! \triangleleft } \text{QP2}))
+$$
+
+$$
+\text{OP\_{SI}} = \text{OP{1}} - \text{OP\_NO} 
+$$
