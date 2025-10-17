@@ -6,7 +6,6 @@
       {
         "id": "4509724f8bf84da7",
         "type": "tabs",
-        "dimension": 30.05219985085757,
         "children": [
           {
             "id": "e7a7b303c61786dc",
@@ -18,37 +17,6 @@
               "pinned": true,
               "icon": "lucide-git-fork",
               "title": "Graph view"
-            }
-          }
-        ]
-      },
-      {
-        "id": "3e747e2a79c3f278",
-        "type": "tabs",
-        "dimension": 69.94780014914244,
-        "children": [
-          {
-            "id": "f1dd6168e86c6587",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "calcolo delle probabilità/teorema di Bayes.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "teorema di Bayes"
             }
           }
         ]
