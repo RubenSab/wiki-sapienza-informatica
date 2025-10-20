@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-09-24T13:45:26.947+02:00
+updated_at: 2025-10-20T16:28:07.158+02:00
 ---
 # definizione di insieme
 
@@ -14,7 +14,6 @@ Esempio: {0, 1, 2} = {2, 0, 1} = {0, 0, 1, 1, 2, 1}
 
 > N.B.: L'insieme vuoto è un sottoinsieme improprio di qualunque insieme. $\forall A\  \emptyset \subseteq A$
 
-- [[notazioni degli insiemi]]
 - [[sottoinsiemi]]
 - [[insieme delle parti]]
 - [[operazioni fra gli insiemi]]

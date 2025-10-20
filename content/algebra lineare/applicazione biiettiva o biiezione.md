@@ -1,8 +1,6 @@
 ---
-updated_at: 2025-10-09T10:25:53.952+02:00
+updated_at: 2025-10-20T21:05:45.664+02:00
 ---
-#todo pag. 17
-
 > Un'[[applicazione]] $X \xrightarrow{f} Y$ si dice biiettiva se:
 
 - è sia suriettiva che iniettiva;
@@ -65,25 +63,4 @@ $$
 2. Quindi $f^{-1}$ è suriettiva perché $\forall x \in X\ \exists y \in Y : f(y) = x$,
 3. E $f^{-1}$ è iniettiva perché $\forall y, y' \in Y\ (f^{-1}(y) = f^{-1}(y') \implies y = y')$, dato che $f^{-1}(y)$ è un singleton.
 
-Due funzioni $f$ e $g$ sono uguali se $X_{f} = X_{g} \land Y_{f} = Y_{g} \land \Gamma_{f} = \Gamma_{g}$
-# Esercizio 2:
-
-Sapendo $X \xrightarrow{F} Y \xrightarrow{G} Z,\ Z \xrightarrow{G^{-1}} Y \xrightarrow{F^{-1}} X,\ X \xrightarrow{G \circ F} Z$
-
-Dimostra $Z \xrightarrow{F^{-1} \circ G^{-1}} X$ #todo
-
-```
-+---f^-1(g^-1)----+
-|                 |
-|   +-f^-1-+      |
-|   |      |      |      
-|   v      |      |
-+-> X -f-> Y -g-> Z <-+
-    |      ^      |   |
-    |      |      |   |
-    |      +-g^-1-+   |
-    |                 |
-    +-------g(f)------+
-```
-
-
+Due funzioni $f$ e $g$ sono uguali se $X_{f} = X_{g} \land Y_{f} = Y_{g} \land \Gamma_{f} = \Gamma_{g}$. Si dimostra che ciò vale per $(f^{-1})^{-1}$ e $f$.

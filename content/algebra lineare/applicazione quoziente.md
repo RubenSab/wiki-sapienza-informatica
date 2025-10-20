@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-10-06T17:02:00.134+02:00
+updated_at: 2025-10-20T23:19:20.281+02:00
 ---
 _Ricordiamo che se $X$ è un'[[teoria degli insiemi|insieme]] $\neq \emptyset$ con relazione d'equivalenza $\sim$ qualsiasi, si definisce l'[[insieme quoziente]] $\frac{X}{\sim} = \{\text{classi d'equivalenza}\} \subset \mathcal{P}(X)$._
 
@@ -26,7 +26,7 @@ $$
 $$
 
 > N.B.: Per **costruzione**, l'applicazione è iniettiva, ed è biiettiva $\iff$ $f$ è suriettiva.
-> 
+
 Esempio di applicazione quoziente:
 
 - $X = \{1, 2, 3, 4, 5\}$

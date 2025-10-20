@@ -18,8 +18,153 @@
               "icon": "lucide-git-fork",
               "title": "Graph view"
             }
+          },
+          {
+            "id": "f3345deccef9dad4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "algebra lineare/campo.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "campo"
+            }
+          },
+          {
+            "id": "186f8f9768c4a435",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "algebra lineare/anello.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "anello"
+            }
+          },
+          {
+            "id": "17a70762d15005e8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "calcolo delle probabilità/Calcolo delle probabilità.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Calcolo delle probabilità"
+            }
+          },
+          {
+            "id": "ff1fdc26000df632",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "algebra lineare/applicazione quoziente.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "applicazione quoziente"
+            }
+          },
+          {
+            "id": "a38d6a5ef18b5837",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "algebra lineare/teorema di decomponibilità.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "teorema di decomponibilità"
+            }
+          },
+          {
+            "id": "4d992af3351b0d8d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "algebra lineare/proiezione canonica.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "proiezione canonica"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -65,13 +210,11 @@
               "title": "Graph view"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 280.5094909667969,
-    "collapsed": true
+    "width": 280.5094909667969
   },
   "right": {
     "id": "26b38658cac3fe47",
@@ -87,7 +230,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "legge delle probabil",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -216,39 +359,39 @@
       "new-3d-graph:Open 3d graph": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "186f8f9768c4a435",
   "lastOpenFiles": [
-    "calcolo delle probabilità/teorema di Bayes.md",
-    "calcolo delle probabilità/indipendenza di due eventi.md",
-    "calcolo delle probabilità/indipendenza di n eventi.md",
-    "calcolo delle probabilità/legge della probabilità totale.md",
     "calcolo delle probabilità/Calcolo delle probabilità.md",
-    "calcolo delle probabilità/probabilità.md",
-    "calcolo delle probabilità/probabilità condizionata.md",
-    "calcolo delle probabilità/evento.md",
-    "basi di dati/algebra relazionale dei database.md",
-    "interdisciplinare/puntatore.md",
-    "basi di dati/theta join.md",
-    "basi di dati/join naturale.md",
-    "basi di dati/ridenominazione.md",
-    "basi di dati/Basi di dati.md",
+    "algebra lineare/Algebra lineare.md",
+    "algebra lineare/anello.md",
+    "algebra lineare/campo.md",
+    "algebra lineare/proiezione canonica.md",
+    "algebra lineare/teorema di decomponibilità.md",
+    "algebra lineare/applicazione quoziente.md",
+    "algebra lineare/piccolo teorema di Fermat.md",
+    "algebra lineare/insieme quoziente.md",
+    "interdisciplinare/relazione.md",
+    "interdisciplinare/classe di equivalenza.md",
     "Untitled.md",
+    "calcolo differenziale/massimo e minimo.md",
+    "algebra lineare/gruppo abeliano.md",
+    "algebra lineare/gruppo.md",
+    "algebra lineare/(SCR) sistema completo di rappresentanti.md",
+    "algebra lineare/applicazione biiettiva o biiezione.md",
+    "algebra lineare/grafo.md",
+    "algebra lineare/orrore.md",
+    "algebra lineare/teoria degli anelli.md",
+    "calcolo delle probabilità/teorema di Bayes.md",
+    "interdisciplinare/teoria degli insiemi.md",
+    "index.md",
+    "calcolo differenziale/notazioni degli insiemi.md",
+    "interdisciplinare/memoria.md",
+    "basi di dati/tabella.md",
     "foto/IMG-20251011-WA0002.jpg",
     "foto/IMG-20251011-WA0001.jpg",
     "foto/IMG-20251011-WA0005.jpg",
     "foto/IMG-20251011-WA0003.jpg",
-    "calcolo delle probabilità/esiti equiprobabili.md",
     "foto",
-    "index.md",
-    "algebra lineare/anello.md",
-    "calcolo differenziale/formula di Stirling.md",
-    "calcolo delle probabilità/disposizioni senza ripetizione.md",
-    "basi di dati/prodotto cartesiano.md",
-    "basi di dati/tabella.md",
-    "interdisciplinare/proprietà, tipi di relazioni e ordini.md",
-    "basi di dati/selezione.md",
-    "basi di dati/proiezione.md",
-    "basi di dati/unione.md",
     "calcolo delle probabilità/Untitled",
     "basi di dati",
     "sistemi operativi",
