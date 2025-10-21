@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-10-21T16:41:22.706+02:00
+updated_at: 2025-10-21T23:56:00.482+02:00
 ---
 > Gli anelli sono un caso specifico dei [[gruppo|gruppi]]. Un *anello commutativo con unità* è una sestupla $(A, +, \cdot, -, 0, 1)$ dove:
 
@@ -49,7 +49,7 @@ Allora:
 
 ^3f551f
 
-> L'*insieme degli invertibili* è definito come la *parte moltiplicativa invertibile, o gruppo moltiplicativo* (${}^{\times}$) dell'[[insieme quoziente]] $\frac{\mathbb{Z}}{n\mathbb{Z}}$, cioè $\left(\frac{\mathbb{Z}}{n\mathbb{Z}}\right)^{\times} = \{\overline{a} : a \in \mathbb{Z} \quad \text{MCD}(a, n)=1\}$, ovvero l'insieme di tutte le classi i cui elementi sono coprimi con $n$.
+> L'*insieme degli invertibili* è definito come la *parte moltiplicativa invertibile, o gruppo moltiplicativo* (${}^{\times}$) dell'[[insieme quoziente]] $\frac{\mathbb{Z}}{n\mathbb{Z}}$, cioè $\left(\frac{\mathbb{Z}}{n\mathbb{Z}}\right)^{\times} = \{\overline{a} : a \in \mathbb{Z} \quad \text{MCD}(a, n)=1\}$, ovvero l'insieme di tutte le classi i cui elementi sono [[primalità|coprimi]] con $n$.
 
 ### Esempio di costruzione
 
@@ -87,7 +87,7 @@ Il fatto che anche i polinomi (che sono un'"astrazione dei numeri") siano un ane
 4. $1_{A} = 0_{A} \implies 0_{A} \notin A^{\times}$
 5. $0_{A} \neq 1_{A} \implies \exists ! 1_{A} \land \exists ! 0_{A}$
 
-# Operazioni fra [[classe di equivalenza|classi]]
+# Operazioni fra [[classe di equivalenza|classi]] #todo
 
 Oltre a fare operazioni sui singoli elementi, si possono fare anche operazioni su intere classi, scritte come rappresentate da un loro elemento.
 
@@ -115,7 +115,6 @@ $$
 
 Abbiamo trovato una [[identità di Bézout]].
 
-#todo
 ## Esercizio/Esempio
 
 $n \in \mathbb{Z}$.
@@ -128,4 +127,3 @@ Per procedere vogliamo dimostrare che se $\overline{a}, \overline{b} \in \mathbb
 - Se $A$ è una classe del [[gruppo]] $\mathbb{F}_{p}$, per $n \geq 1,\ (a+b)^{n} = (a+b)(a+b)^{n-1}$
 - Per [[induzione]], si dimostra che $(a+b)^{n} = a^{n} + \left(\sum_{i=1}^{n-1}\binom{i}{n}a^{i}b^{n-i}\right) + b_{n}$
 - Dal punto sopra, operando sulle classi di equivalenza intere invece che sugli elementi, dovremmo scrivere che $(\overline{a} + \overline{b})^{p} = \overline{a}^{p} + \sum_{i=1}^{p-1}\binom{p}{i} \overline{a}^{i} \cdot \overline{b}^{p-1} + \overline{b}^{p}$, ma il [[coefficiente binomiale]] è definito attraverso una divisione, e le divisioni fra le classi di equivalenza non esistono, quindi i coefficienti binomiali devono risultare in un intero, non una frazione. Calcoliamo $\binom{p}{i} = \frac{p \cdot (p-1) \cdot \ldots \cdot 2}{(i(i-1)\cdot \ldots \cdot 2)((p-i)(p-i-1)\cdot \ldots \cdot 2)} = n \in \mathbb{N}^{\star}$ Claim: $p \mid n$. Per assurdo supponiamo $p \not\mid n$. In tal caso $p \mid (i(i-1)\cdot \ldots \cdot 2)((p-i)(p-i-1)\cdot \ldots \cdot 2)$. In modo tale da cancellare il fattore $p$ che si trova nel numeratore $p \cdot (p-1) \cdot \ldots \cdot 2$. Ma $p$ è primo $\implies p \mid a \ \exists a \in \{2, \ldots, i\} \cup \{2, \ldots, p-1\} \in \{2, \ldots, p-1\}$
-- #todo

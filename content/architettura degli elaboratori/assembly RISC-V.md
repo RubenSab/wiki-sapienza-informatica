@@ -4,7 +4,6 @@ updated_at: 2025-06-06T13:44:27.788+02:00
 # Implementazioni di costrutti ad alto livello in Assembly RISC-V
 
 - [[array]]
-- [[stringhe in RISC-V]]
 - [[matrici in RISC-V]]
 - [[cicli in RISC-V]]
 - [[funzioni in RISC-V]]

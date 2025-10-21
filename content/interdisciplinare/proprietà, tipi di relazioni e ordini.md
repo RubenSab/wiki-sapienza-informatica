@@ -1,10 +1,9 @@
 ---
-updated_at: 2025-10-12T17:59:26.074+02:00
+updated_at: 2025-10-21T22:15:25.240+02:00
 ---
-
 # Proprietà delle relazioni
 
-Definiamo una relazione $R \subseteq A \bigtimes A$
+Definiamo una [[relazione]] $R \subseteq A \times A$
 
 ## Riflessiva
 
@@ -76,6 +75,7 @@ $A = \{(0,0); (1,1); (2,2); (3,3); (0,1); (1,0); (2,3); (3, 2)\}$
 
 $$Q=\{[a]|a\in A\}$$
 Ogni elemento di A è in una e una sola classe di A. Le classi sono disgiunte e la loro unione è l'insieme A.
+
 ## Chiusura transitiva
 
 >Dato un'insieme R, la chiusura transitiva di R è la più piccola relazione transitiva che contiene R.

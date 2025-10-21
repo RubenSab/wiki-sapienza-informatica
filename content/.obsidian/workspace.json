@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "algebra lineare/identità di Bézout.md",
+                "file": "interdisciplinare/relazione.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,17 +28,17 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "identità di Bézout"
+              "title": "relazione"
             }
           },
           {
-            "id": "ca804f8d2d86a404",
+            "id": "ea0ca7eec41121e9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "algebra lineare/(MCD) massimo comun divisore.md",
-                "mode": "preview",
+                "file": "algebra lineare/primalità.md",
+                "mode": "source",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -52,11 +52,105 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "(MCD) massimo comun divisore"
+              "title": "primalità"
+            }
+          },
+          {
+            "id": "e7a7b303c61786dc",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "graph",
+              "state": {},
+              "pinned": true,
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          },
+          {
+            "id": "32a79d2854e30765",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "88e9464b2d40a004",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "algebra lineare/anello.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "anello"
+            }
+          },
+          {
+            "id": "ee17fb57e01e883d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "algebra lineare/lemmi sui sottogruppi additivi di Z (aZ + bZ).md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "lemmi sui sottogruppi additivi di Z (aZ + bZ)"
+            }
+          },
+          {
+            "id": "9f46fbd3d6b27681",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "algebra lineare/lemmi sui sottogruppi additivi di Z (aZ + bZ).md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "lemmi sui sottogruppi additivi di Z (aZ + bZ)"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -93,28 +187,11 @@
             }
           }
         ]
-      },
-      {
-        "id": "afa6e0e4af0f7f09",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "e7a7b303c61786dc",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "graph",
-              "state": {},
-              "pinned": true,
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
-            }
-          }
-        ]
       }
     ],
     "direction": "horizontal",
-    "width": 383.5
+    "width": 332.5094909667969,
+    "collapsed": true
   },
   "right": {
     "id": "26b38658cac3fe47",
@@ -130,7 +207,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "coprimi",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -163,8 +240,8 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true,
-                "showSearch": false,
-                "searchQuery": ""
+                "showSearch": true,
+                "searchQuery": "coprimi"
               },
               "icon": "lucide-tags",
               "title": "Tags"
@@ -176,13 +253,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "index.md",
+                "file": "algebra lineare/lemmi sui sottogruppi additivi di Z (aZ + bZ).md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of index"
+              "title": "Outline of lemmi sui sottogruppi additivi di Z (aZ + bZ)"
             }
           },
           {
@@ -210,8 +287,8 @@
             "state": {
               "type": "example-view",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "example-view"
+              "icon": "lucide-file",
+              "title": "Most edited files"
             }
           },
           {
@@ -234,14 +311,13 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "algebra lineare/(MCD) massimo comun divisore.md"
+                "file": "algebra lineare/lemmi sui sottogruppi additivi di Z (aZ + bZ).md"
               },
               "icon": "lucide-info",
-              "title": "File properties for (MCD) massimo comun divisore"
+              "title": "File properties for lemmi sui sottogruppi additivi di Z (aZ + bZ)"
             }
           }
-        ],
-        "currentTab": 7
+        ]
       }
     ],
     "direction": "horizontal",
@@ -262,16 +338,23 @@
       "new-3d-graph:Open 3d graph": false
     }
   },
-  "active": "ca804f8d2d86a404",
+  "active": "9f46fbd3d6b27681",
   "lastOpenFiles": [
     "algebra lineare/Algebra lineare.md",
+    "algebra lineare/lemmi sui sottogruppi additivi di Z (aZ + bZ).md",
+    "interdisciplinare/relazione.md",
     "algebra lineare/identità di Bézout.md",
-    "algebra lineare/(MCD) massimo comun divisore.md",
     "algebra lineare/anello.md",
+    "progettazione di sistemi digitali/XOR.md",
+    "algebra lineare/primalità.md",
+    "algebra lineare/(MCD) massimo comun divisore.md",
+    "algebra lineare/irriducibilità.md",
+    "interdisciplinare/proprietà, tipi di relazioni e ordini.md",
+    "architettura degli elaboratori/assembly RISC-V.md",
+    "architettura degli elaboratori/stringhe in RISC-V.md",
+    "calcolo integrale/criteri di confronto delle serie a segno costante.md",
     "algebra lineare/(SCR) sistema completo di rappresentanti.md",
-    "algebra lineare/elemento irriducibile.md",
     "algebra lineare/campo.md",
-    "algebra lineare/elemento primo.md",
     "interdisciplinare/funzioni di codifica e decodifica.md",
     "architettura degli elaboratori/riordinamento delle istruzioni.md",
     "progettazione di sistemi digitali/rappresentazione o codifica dei numeri naturali.md",
@@ -283,13 +366,6 @@
     "algebra lineare/proiezione canonica.md",
     "algebra lineare/teorema di decomponibilità.md",
     "algebra lineare/applicazione quoziente.md",
-    "algebra lineare/piccolo teorema di Fermat.md",
-    "algebra lineare/insieme quoziente.md",
-    "interdisciplinare/relazione.md",
-    "interdisciplinare/classe di equivalenza.md",
-    "Untitled.md",
-    "calcolo differenziale/massimo e minimo.md",
-    "algebra lineare/gruppo abeliano.md",
     "foto/IMG-20251011-WA0002.jpg",
     "foto/IMG-20251011-WA0001.jpg",
     "foto/IMG-20251011-WA0005.jpg",
