@@ -10,22 +10,10 @@
           {
             "id": "e7a7b303c61786dc",
             "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "graph",
-              "state": {},
-              "pinned": true,
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
-            }
-          },
-          {
-            "id": "f3345deccef9dad4",
-            "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "algebra lineare/campo.md",
+                "file": "algebra lineare/identità di Bézout.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -40,40 +28,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "campo"
+              "title": "identità di Bézout"
             }
           },
           {
-            "id": "186f8f9768c4a435",
+            "id": "ca804f8d2d86a404",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "algebra lineare/anello.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "anello"
-            }
-          },
-          {
-            "id": "17a70762d15005e8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "calcolo delle probabilità/Calcolo delle probabilità.md",
+                "file": "algebra lineare/(MCD) massimo comun divisore.md",
                 "mode": "preview",
                 "source": false,
                 "backlinks": true,
@@ -88,83 +52,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Calcolo delle probabilità"
-            }
-          },
-          {
-            "id": "ff1fdc26000df632",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "algebra lineare/applicazione quoziente.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "applicazione quoziente"
-            }
-          },
-          {
-            "id": "a38d6a5ef18b5837",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "algebra lineare/teorema di decomponibilità.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "teorema di decomponibilità"
-            }
-          },
-          {
-            "id": "4d992af3351b0d8d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "algebra lineare/proiezione canonica.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "proiezione canonica"
+              "title": "(MCD) massimo comun divisore"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -199,13 +91,21 @@
               "icon": "lucide-bookmark",
               "title": "Bookmarks"
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "afa6e0e4af0f7f09",
+        "type": "tabs",
+        "children": [
           {
             "id": "e7a7b303c61786dc",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "graph",
               "state": {},
+              "pinned": true,
               "icon": "lucide-git-fork",
               "title": "Graph view"
             }
@@ -214,7 +114,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 280.5094909667969
+    "width": 383.5
   },
   "right": {
     "id": "26b38658cac3fe47",
@@ -333,12 +233,15 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {},
+              "state": {
+                "file": "algebra lineare/(MCD) massimo comun divisore.md"
+              },
               "icon": "lucide-info",
-              "title": "File properties"
+              "title": "File properties for (MCD) massimo comun divisore"
             }
           }
-        ]
+        ],
+        "currentTab": 7
       }
     ],
     "direction": "horizontal",
@@ -359,12 +262,24 @@
       "new-3d-graph:Open 3d graph": false
     }
   },
-  "active": "186f8f9768c4a435",
+  "active": "ca804f8d2d86a404",
   "lastOpenFiles": [
-    "calcolo delle probabilità/Calcolo delle probabilità.md",
     "algebra lineare/Algebra lineare.md",
+    "algebra lineare/identità di Bézout.md",
+    "algebra lineare/(MCD) massimo comun divisore.md",
     "algebra lineare/anello.md",
+    "algebra lineare/(SCR) sistema completo di rappresentanti.md",
+    "algebra lineare/elemento irriducibile.md",
     "algebra lineare/campo.md",
+    "algebra lineare/elemento primo.md",
+    "interdisciplinare/funzioni di codifica e decodifica.md",
+    "architettura degli elaboratori/riordinamento delle istruzioni.md",
+    "progettazione di sistemi digitali/rappresentazione o codifica dei numeri naturali.md",
+    "metodologie di programmazione/campi.md",
+    "interdisciplinare/funzione.md",
+    "metodi matematici per l'informatica/dimostrazione della proprietà commutativa del prodotto cartesiano rispetto all'unione.md",
+    "algebra lineare/gruppo.md",
+    "calcolo delle probabilità/Calcolo delle probabilità.md",
     "algebra lineare/proiezione canonica.md",
     "algebra lineare/teorema di decomponibilità.md",
     "algebra lineare/applicazione quoziente.md",
@@ -375,18 +290,6 @@
     "Untitled.md",
     "calcolo differenziale/massimo e minimo.md",
     "algebra lineare/gruppo abeliano.md",
-    "algebra lineare/gruppo.md",
-    "algebra lineare/(SCR) sistema completo di rappresentanti.md",
-    "algebra lineare/applicazione biiettiva o biiezione.md",
-    "algebra lineare/grafo.md",
-    "algebra lineare/orrore.md",
-    "algebra lineare/teoria degli anelli.md",
-    "calcolo delle probabilità/teorema di Bayes.md",
-    "interdisciplinare/teoria degli insiemi.md",
-    "index.md",
-    "calcolo differenziale/notazioni degli insiemi.md",
-    "interdisciplinare/memoria.md",
-    "basi di dati/tabella.md",
     "foto/IMG-20251011-WA0002.jpg",
     "foto/IMG-20251011-WA0001.jpg",
     "foto/IMG-20251011-WA0005.jpg",

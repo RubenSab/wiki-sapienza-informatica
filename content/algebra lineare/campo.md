@@ -1,15 +1,9 @@
 ---
-updated_at: 2025-10-20T21:56:31.391+02:00
+updated_at: 2025-10-21T12:25:15.543+02:00
 ---
-> L'[[teoria degli insiemi|insieme]] $K$ non vuoto dotato di due operazioni binarie $+$ e $\times$ è un campo se valgono le seguenti proprietà:
+> Un gruppo è un [[anello|anello commutativo]] tale che $A^{\times} = A - \{0\}$, cioè tutti gli elementi diversi dal neutro additivo sono invertibili.
 
-- $K$ insieme all'operazione $+$ è un [[gruppo abeliano]] con elemento neutro $0$;
-- $K - \{0\}$ insieme all'operazione $\times$ è un gruppo abeliano con elemento neutro $1$;
-- La moltiplicazione è distributiva rispetto all'addizione
-
-> Definizione equivalente: un [[anello|anello commutativo]] con unità in cui ogni elemento non nullo ha un inverso.
-
-Esempi di campo: $\mathbb{Q}, \mathbb{R}, \mathbb{C}$, ma anche $\mathbb{F}_{p}=\frac{\mathbb{Z}}{p\mathbb{Z}}$.
+$\mathbb{Q}, \mathbb{R}, \mathbb{C}$ (infiniti) sono campi, ma anche tutti gli [[insieme quoziente|insiemi quozienti]] $\mathbb{F}_{p}=\frac{\mathbb{Z}}{p\mathbb{Z}}$ (finiti!) su cui sono definite addizione e moltiplicazione; invece $\mathbb{Z}$ non è un campo, perché $\mathbb{Z}^{\times} = \{-1, 1\}$ è diverso da $\mathbb{Z} - \{0\}$.
 
 I campi finiti possono essere classificati:
 

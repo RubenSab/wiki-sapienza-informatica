@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-10-20T23:13:41.384+02:00
+updated_at: 2025-10-21T16:41:22.706+02:00
 ---
 > Gli anelli sono un caso specifico dei [[gruppo|gruppi]]. Un *anello commutativo con unità* è una sestupla $(A, +, \cdot, -, 0, 1)$ dove:
 
@@ -67,12 +67,25 @@ Gli elementi di $\frac{\mathbb{Z}}{24\mathbb{Z}}$ saranno le [[classe di equival
 - $\ldots$
 - $\overline{23} = \{\ldots, -25, -1, 23, 47, 71, \ldots\}$.
 
-2. Il punto 1 non basta, perché $\frac{\mathbb{Z}}{24\mathbb{Z}} \neq \left( \frac{\mathbb{Z}}{24\mathbb{Z}} \right)^{\times}$, infatti dobbiamo prendere solo gli elementi di $\frac{\mathbb{Z}}{24\mathbb{Z}}$ che hanno un **inverso moltiplicativo**. Sono quelli per cui $\text{MCD}(a, 24)=1$, cioè tutte le classi i cui rappresentanti sono coprimi con 24.
+2. Il punto 1 non basta, perché $\frac{\mathbb{Z}}{24\mathbb{Z}} \neq \left( \frac{\mathbb{Z}}{24\mathbb{Z}} \right)^{\times}$, infatti dobbiamo prendere solo gli elementi di $\frac{\mathbb{Z}}{24\mathbb{Z}}$ che hanno un **inverso moltiplicativo**. Sono quelli per cui $\text{MCD}(a, 24)=1$, cioè tutte le classi i cui rappresentanti sono coprimi con 24. *Vedi [[(MCD) massimo comun divisore]]*.
 
 Alla fine otteniamo $\left(\frac{\mathbb{Z}}{n\mathbb{Z}}\right)^{\times} = \{\overline{1}, \overline{5}, \overline{7}, \overline{11}, \overline{13}, \overline{17}, \overline{19}, \overline{23}\}$
 
 > Osservazione: se $n=p$ è primo, $(\frac{\mathbb{Z}}{p\mathbb{Z}})^{\times}$ contiene solo classi prime. In altri termini $\frac{\mathbb{Z}}{p\mathbb{Z}}$ ha la proprietà che ogni elemento $\neq \overline{0}$ è invertibile; ovvero $\frac{\mathbb{Z}}{p\mathbb{Z}}$ è un [[campo]].
 
+# L'insieme dei polinomi è un anello
+
+> L'insieme dei polinomi a coefficienti in $\mathbb{R}$ in $x$ indeterminata si scrive $\mathbb{R}[x]$ ed è un anello.
+
+Il fatto che anche i polinomi (che sono un'"astrazione dei numeri") siano un anello fa capire quanto sia potente l'astrazione introdotta dagli anelli.
+
+# Altre proprietà generali degli anelli
+
+1. se $a \in A$ è invertibile, allora l'inverso è unico
+2. $\forall a \in A\ (a \cdot 0_{A} = 0_{A})$
+3. $1_{A} = 0_{A} \implies A = {0_{A}}$
+4. $1_{A} = 0_{A} \implies 0_{A} \notin A^{\times}$
+5. $0_{A} \neq 1_{A} \implies \exists ! 1_{A} \land \exists ! 0_{A}$
 
 # Operazioni fra [[classe di equivalenza|classi]]
 
@@ -94,13 +107,13 @@ Ciò funziona in $\mathbb{Z}$ perché è un anello.
 
 Calcoliamo $A^{\times} = (\frac{\mathbb{Z}}{n \mathbb{Z}})^{\times}, n \in \mathbb{N^{\star}} = \{\overline{a} \in  \frac{\mathbb{Z}}{n \mathbb{Z}}: \exists \overline{b}(\overline{a} \cdot \overline{b} = \overline{1})\}$
 
-> Osservazione sul [[MCD]]:
+> Osservazione sul MCD:
 
 $$
 \overline{a} \cdot \overline{b} = \overline{1} \iff a \cdot b \equiv 1 \mod n \iff n \mid ab - 1 \iff \exists k \in \mathbb{Z}\ (ab - 1 = nk) \iff ab-nk = 1 \iff \text{MCD}(a, n) = 1
 $$
 
-Abbiamo trovato una [[relazione di Bézout]].
+Abbiamo trovato una [[identità di Bézout]].
 
 #todo
 ## Esercizio/Esempio
