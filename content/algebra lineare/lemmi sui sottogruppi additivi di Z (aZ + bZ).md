@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-10-22T00:04:14.248+02:00
+updated_at: 2025-10-22T09:57:34.362+02:00
 ---
 
 Studiamo il [[gruppo|sottogruppo]] generico $\mathcal{E} := a \mathbb{Z} + b \mathbb{Z} = \{\alpha a + \beta b: \alpha, \beta \in \mathbb{Z}\},\quad a, b \in \mathbb{Z} \land (a \neq 0 \lor b \neq 0)$
@@ -26,9 +26,7 @@ $\delta = \text{MCD}(a, b)$
 
 ## 4. Lemma di Gauss (co-primalità e divisibilità)
 
-#todo riscrivi
-
-$a, b \in \mathbb{Z} - \{0\} \land c \in \mathbb{Z}\ \text{con MCD}(a, b) = 1 \land a \mid bc \implies a \mid c$
+$a, b, c \in \mathbb{Z} - \{0\} \land \text{MCD}(a, b) = 1 \quad \implies \quad (a \mid bc \implies a \mid c)$
 
 ## 5. Equivalenza tra [[primalità]] e [[irriducibilità]] in $\mathbb{Z}$
 

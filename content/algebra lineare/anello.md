@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-10-21T23:56:00.482+02:00
+updated_at: 2025-10-22T10:49:27.887+02:00
 ---
 > Gli anelli sono un caso specifico dei [[gruppo|gruppi]]. Un *anello commutativo con unità* è una sestupla $(A, +, \cdot, -, 0, 1)$ dove:
 
@@ -45,17 +45,54 @@ Allora:
 2. $a \in A^{\times} \implies a^{-1} \in A^{\times} \land (a^{-1})^{-1} = a$.
 3. $a, b \in A^{x} \implies ab \in A^{x} \land (ab)^{-1} = b^{-1}a^{-1}$ per gli anelli non commutativi ma per gli anelli commutativi vale anche $a, b \in A^{x} \implies ab \in A^{x} \land (ab)^{-1} = a^{-1}b^{-1}$.
 
-## Insieme degli invertibili
+## Anello quoziente
+
+> L'anello quoziente di un anello $A$ per una [[relazione]] $\mathcal{R}$ è l'[[insieme quoziente]] dei suoi elementi, sul quale si mantengono tutte le operazioni già definite in $A$.
+
+La notazione, $\frac{A}{\mathcal{R}}$, è la stessa dell'insieme quoziente.
+
+## Insieme degli invertibili o gruppo moltiplicativo
+
+> L'*insieme degli invertibili* o gruppo moltiplicativo di un'anello $A$ è definito
+
+$$
+A^{\times} = \{a \in A : \exists b \in A\ (a \cdot b = 1)\}
+$$
+Ad esempio $\mathbb{Z}^{\times} = \{-1,1\}$.
+### Insieme degli invertibili dell'anello quoziente
 
 ^3f551f
 
-> L'*insieme degli invertibili* è definito come la *parte moltiplicativa invertibile, o gruppo moltiplicativo* (${}^{\times}$) dell'[[insieme quoziente]] $\frac{\mathbb{Z}}{n\mathbb{Z}}$, cioè $\left(\frac{\mathbb{Z}}{n\mathbb{Z}}\right)^{\times} = \{\overline{a} : a \in \mathbb{Z} \quad \text{MCD}(a, n)=1\}$, ovvero l'insieme di tutte le classi i cui elementi sono [[primalità|coprimi]] con $n$.
+> L'*insieme degli invertibili* è definito come la *parte moltiplicativa invertibile, o gruppo moltiplicativo* (${}^{\times}$) dell'anello quoziente $\frac{\mathbb{Z}}{n\mathbb{Z}}$, cioè $\left(\frac{\mathbb{Z}}{n\mathbb{Z}}\right)^{\times} = \{\overline{a} : a \in \mathbb{Z} \quad \text{MCD}(a, n)=1\}$, ovvero l'insieme di tutte le classi i cui elementi sono [[primalità|coprimi]] con $n$.
 
-### Esempio di costruzione
+#### Quali elementi dell'anello quoziente sono invertibili?
+
+Sia $A = \frac{\mathbb{Z}}{n \mathbb{Z}}, n \in \mathbb{N^{\star}}$ un anello, sia $A^{\times} = \{x \in A : x\ \text{invertibile}\}$
+
+Calcoliamo $(\frac{\mathbb{Z}}{n \mathbb{Z}})^{\times} = \{\overline{a} \in  \frac{\mathbb{Z}}{n \mathbb{Z}}: \exists \overline{b}\ (\overline{a} \cdot \overline{b} = \overline{1})\}$, cioè l'insieme degli invertibili (*o gruppo moltiplicativo*) modulo $n$, di cui ogni elemento è una classe di equivalenza di $\mathbb{Z}$ secondo la relazione $n \mathbb{Z}$.
+
+> N.B: Le classi seguono la notazione: $\overline{\text{rappresentante}}$.
+
+Calcoliamo $A^{\times} = (\frac{\mathbb{Z}}{n \mathbb{Z}})^{\times}, n \in \mathbb{N^{\star}} = \{\overline{a} \in  \frac{\mathbb{Z}}{n \mathbb{Z}}: \exists \overline{b}\ (\overline{a} \cdot \overline{b} = \overline{1})\}$.
+
+> Osservazione sul MCD:
+
+$$
+\overline{a} \cdot \overline{b} = \overline{1} \iff a \cdot b \equiv 1 \mod n \iff n \mid ab - 1 \iff \exists k \in \mathbb{Z}\ (ab - 1 = nk) \iff ab-nk = 1 \iff \text{MCD}(a, n) = 1
+$$
+
+Abbiamo trovato una [[identità di Bézout]] che lega la definizione originale di insieme degli invertibili (o gruppo moltiplicativo) al concetto di minimo comune multiplo, quindi ora possiamo scrivere:
+$$
+\left(\frac{\mathbb{Z}}{n\mathbb{Z}}\right)^{\times} = \{\overline{a} : a \in \mathbb{Z} \quad \text{MCD}(a, n)=1\}
+$$
+
+#### Esempio di costruzione
+
+Si parte trovando l'anello quoziente (1) poi si filtrano solo gli elementi invertibili (2).
 
 Esempio: $\left(\frac{\mathbb{Z}}{24\mathbb{Z}}\right)^{\times}$
 
-1. Troviamo l'insieme quoziente **"di $\mathbb{Z}$ (insieme) per $n\mathbb{Z}$ ([[relazione]])"**. $n\mathbb{Z}$ è un modo compatto di scrivere la relazione $a \mathcal{R} b \iff a - b \in n\mathbb{Z}$ ($a$ e $b$ differiscono di un multiplo di $n$, $n\mathbb{Z}$ in questo contesto è l'insieme dei multipli di $n$ contenuti in $\mathbb{Z}$). Osserviamo che $a - b \in 24\mathbb{Z}$ è la **congruenza modulo 24**, quindi $a \mathcal{R} b \iff a \equiv b \mod 24$.
+1. Troviamo l'insieme quoziente detto **"di $\mathbb{Z}$ (insieme) per $n\mathbb{Z}$ ([[relazione]])"**. $n\mathbb{Z}$ è un modo compatto di scrivere la relazione $a \mathcal{R} b \iff a - b \in n\mathbb{Z}$ ($a$ e $b$ differiscono di un multiplo di $n$, $n\mathbb{Z}$ in questo contesto è l'insieme dei multipli di $n$ contenuti in $\mathbb{Z}$). Osserviamo che $a - b \in 24\mathbb{Z}$ è la **congruenza modulo 24**, quindi $a \mathcal{R} b \iff a \equiv b \mod 24$.
 
 Gli elementi di $\frac{\mathbb{Z}}{24\mathbb{Z}}$ saranno le [[classe di equivalenza|classi di equivalenza]] della relazione $a \mathcal{R} b \iff a \equiv b \mod 24$.
 
@@ -73,12 +110,6 @@ Alla fine otteniamo $\left(\frac{\mathbb{Z}}{n\mathbb{Z}}\right)^{\times} = \{\o
 
 > Osservazione: se $n=p$ è primo, $(\frac{\mathbb{Z}}{p\mathbb{Z}})^{\times}$ contiene solo classi prime. In altri termini $\frac{\mathbb{Z}}{p\mathbb{Z}}$ ha la proprietà che ogni elemento $\neq \overline{0}$ è invertibile; ovvero $\frac{\mathbb{Z}}{p\mathbb{Z}}$ è un [[campo]].
 
-# L'insieme dei polinomi è un anello
-
-> L'insieme dei polinomi a coefficienti in $\mathbb{R}$ in $x$ indeterminata si scrive $\mathbb{R}[x]$ ed è un anello.
-
-Il fatto che anche i polinomi (che sono un'"astrazione dei numeri") siano un anello fa capire quanto sia potente l'astrazione introdotta dagli anelli.
-
 # Altre proprietà generali degli anelli
 
 1. se $a \in A$ è invertibile, allora l'inverso è unico
@@ -87,43 +118,8 @@ Il fatto che anche i polinomi (che sono un'"astrazione dei numeri") siano un ane
 4. $1_{A} = 0_{A} \implies 0_{A} \notin A^{\times}$
 5. $0_{A} \neq 1_{A} \implies \exists ! 1_{A} \land \exists ! 0_{A}$
 
-# Operazioni fra [[classe di equivalenza|classi]] #todo
+# L'insieme dei polinomi è un anello
 
-Oltre a fare operazioni sui singoli elementi, si possono fare anche operazioni su intere classi, scritte come rappresentate da un loro elemento.
+> L'insieme dei polinomi a coefficienti in $\mathbb{R}$ in $x$ indeterminata si scrive $\mathbb{R}[x]$ ed è un anello.
 
-$A$ è un anello, sia $A^{\times} = \{x \in A : x\ \text{invertibile}\}$
-
-Sappiamo che $0_{A} \notin A^{\times}$ e $1_{A} \in A^{\times}$
-
-$A = \frac{\mathbb{Z}}{n \mathbb{Z}}, n \in \mathbb{N^{\star}}$
-
-Ricordiamoci le operazioni tra le classi in A: ($a$ e $b$ sono dei rappresentanti delle classi $\overline{a}$ e $\overline{b}$).
-
-- $- \overline{a} := \overline{-a}$
-- $\overline{a} + \overline{b} := \overline{a+b}$
-- $\overline{a} \cdot \overline{b} := \overline{a \cdot b}$
-
-Ciò funziona in $\mathbb{Z}$ perché è un anello.
-
-Calcoliamo $A^{\times} = (\frac{\mathbb{Z}}{n \mathbb{Z}})^{\times}, n \in \mathbb{N^{\star}} = \{\overline{a} \in  \frac{\mathbb{Z}}{n \mathbb{Z}}: \exists \overline{b}(\overline{a} \cdot \overline{b} = \overline{1})\}$
-
-> Osservazione sul MCD:
-
-$$
-\overline{a} \cdot \overline{b} = \overline{1} \iff a \cdot b \equiv 1 \mod n \iff n \mid ab - 1 \iff \exists k \in \mathbb{Z}\ (ab - 1 = nk) \iff ab-nk = 1 \iff \text{MCD}(a, n) = 1
-$$
-
-Abbiamo trovato una [[identità di Bézout]].
-
-## Esercizio/Esempio
-
-$n \in \mathbb{Z}$.
-
-1. Dimostrare che $n^{p} \equiv n \mod p$
-2. Se $p \not\mid n$ allora $n^{p-1} \equiv 1 \mod p$ ([[piccolo teorema di Fermat]])
-
-Per procedere vogliamo dimostrare che se $\overline{a}, \overline{b} \in \mathbb{F}_{p} \quad (\overline{a} + \overline{b})^{p} = \overline{a}^{p} + \overline{b}^{p}$ (binomio di Newton)
-
-- Se $A$ è una classe del [[gruppo]] $\mathbb{F}_{p}$, per $n \geq 1,\ (a+b)^{n} = (a+b)(a+b)^{n-1}$
-- Per [[induzione]], si dimostra che $(a+b)^{n} = a^{n} + \left(\sum_{i=1}^{n-1}\binom{i}{n}a^{i}b^{n-i}\right) + b_{n}$
-- Dal punto sopra, operando sulle classi di equivalenza intere invece che sugli elementi, dovremmo scrivere che $(\overline{a} + \overline{b})^{p} = \overline{a}^{p} + \sum_{i=1}^{p-1}\binom{p}{i} \overline{a}^{i} \cdot \overline{b}^{p-1} + \overline{b}^{p}$, ma il [[coefficiente binomiale]] è definito attraverso una divisione, e le divisioni fra le classi di equivalenza non esistono, quindi i coefficienti binomiali devono risultare in un intero, non una frazione. Calcoliamo $\binom{p}{i} = \frac{p \cdot (p-1) \cdot \ldots \cdot 2}{(i(i-1)\cdot \ldots \cdot 2)((p-i)(p-i-1)\cdot \ldots \cdot 2)} = n \in \mathbb{N}^{\star}$ Claim: $p \mid n$. Per assurdo supponiamo $p \not\mid n$. In tal caso $p \mid (i(i-1)\cdot \ldots \cdot 2)((p-i)(p-i-1)\cdot \ldots \cdot 2)$. In modo tale da cancellare il fattore $p$ che si trova nel numeratore $p \cdot (p-1) \cdot \ldots \cdot 2$. Ma $p$ è primo $\implies p \mid a \ \exists a \in \{2, \ldots, i\} \cup \{2, \ldots, p-1\} \in \{2, \ldots, p-1\}$
+Il fatto che anche i polinomi (che sono un'"astrazione dei numeri") siano un anello fa capire quanto sia potente l'astrazione introdotta dagli anelli.

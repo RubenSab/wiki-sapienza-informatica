@@ -10,54 +10,6 @@
           {
             "id": "e7a7b303c61786dc",
             "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "interdisciplinare/relazione.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "relazione"
-            }
-          },
-          {
-            "id": "ea0ca7eec41121e9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "algebra lineare/primalità.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "primalità"
-            }
-          },
-          {
-            "id": "e7a7b303c61786dc",
-            "type": "leaf",
             "pinned": true,
             "state": {
               "type": "graph",
@@ -68,22 +20,12 @@
             }
           },
           {
-            "id": "32a79d2854e30765",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
-          },
-          {
-            "id": "88e9464b2d40a004",
+            "id": "cdafa1280f10c5af",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "algebra lineare/anello.md",
+                "file": "algebra lineare/teorema fondamentale dell'aritmetica.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -98,35 +40,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "anello"
+              "title": "teorema fondamentale dell'aritmetica"
             }
           },
           {
-            "id": "ee17fb57e01e883d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "algebra lineare/lemmi sui sottogruppi additivi di Z (aZ + bZ).md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "lemmi sui sottogruppi additivi di Z (aZ + bZ)"
-            }
-          },
-          {
-            "id": "9f46fbd3d6b27681",
+            "id": "0e4064c1407cb629",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -150,7 +68,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -338,34 +256,34 @@
       "new-3d-graph:Open 3d graph": false
     }
   },
-  "active": "9f46fbd3d6b27681",
+  "active": "cdafa1280f10c5af",
   "lastOpenFiles": [
-    "algebra lineare/Algebra lineare.md",
     "algebra lineare/lemmi sui sottogruppi additivi di Z (aZ + bZ).md",
+    "algebra lineare/teorema fondamentale dell'aritmetica.md",
+    "algebra lineare/Algebra lineare.md",
+    "algebra lineare/piccolo teorema di Fermat.md",
+    "algebra lineare/Esercizi su strutture algebriche e divisibilità.md",
+    "algebra lineare/(mcm) minimo comune multiplo.md",
+    "calcolo delle probabilità/probabilità condizionata.md",
+    "calcolo delle probabilità/teorema di Bayes.md",
+    "calcolo delle probabilità/probabilità.md",
+    "calcolo delle probabilità/Calcolo delle probabilità.md",
+    "calcolo delle probabilità/indipendenza di due eventi.md",
+    "calcolo delle probabilità/legge della probabilità totale.md",
+    "algebra lineare/teorema di decomponibilità.md",
+    "basi di dati/algebra relazionale dei database.md",
+    "algebra lineare/anello.md",
+    "algebra lineare/insieme quoziente.md",
+    "interdisciplinare/teoria degli insiemi.md",
+    "calcolo differenziale/numeri interi relativi.md",
     "interdisciplinare/relazione.md",
     "algebra lineare/identità di Bézout.md",
-    "algebra lineare/anello.md",
     "progettazione di sistemi digitali/XOR.md",
     "algebra lineare/primalità.md",
     "algebra lineare/(MCD) massimo comun divisore.md",
     "algebra lineare/irriducibilità.md",
     "interdisciplinare/proprietà, tipi di relazioni e ordini.md",
     "architettura degli elaboratori/assembly RISC-V.md",
-    "architettura degli elaboratori/stringhe in RISC-V.md",
-    "calcolo integrale/criteri di confronto delle serie a segno costante.md",
-    "algebra lineare/(SCR) sistema completo di rappresentanti.md",
-    "algebra lineare/campo.md",
-    "interdisciplinare/funzioni di codifica e decodifica.md",
-    "architettura degli elaboratori/riordinamento delle istruzioni.md",
-    "progettazione di sistemi digitali/rappresentazione o codifica dei numeri naturali.md",
-    "metodologie di programmazione/campi.md",
-    "interdisciplinare/funzione.md",
-    "metodi matematici per l'informatica/dimostrazione della proprietà commutativa del prodotto cartesiano rispetto all'unione.md",
-    "algebra lineare/gruppo.md",
-    "calcolo delle probabilità/Calcolo delle probabilità.md",
-    "algebra lineare/proiezione canonica.md",
-    "algebra lineare/teorema di decomponibilità.md",
-    "algebra lineare/applicazione quoziente.md",
     "foto/IMG-20251011-WA0002.jpg",
     "foto/IMG-20251011-WA0001.jpg",
     "foto/IMG-20251011-WA0005.jpg",
