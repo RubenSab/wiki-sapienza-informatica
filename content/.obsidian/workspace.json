@@ -20,12 +20,12 @@
             }
           },
           {
-            "id": "cdafa1280f10c5af",
+            "id": "7f8bd452fef2fb70",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "algebra lineare/teorema fondamentale dell'aritmetica.md",
+                "file": "algebra lineare/anello.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -40,16 +40,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "teorema fondamentale dell'aritmetica"
+              "title": "anello"
             }
           },
           {
-            "id": "0e4064c1407cb629",
+            "id": "ff51e4fa756c3d0e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "algebra lineare/lemmi sui sottogruppi additivi di Z (aZ + bZ).md",
+                "file": "algebra lineare/Esercizi su strutture algebriche e divisibilità.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -64,11 +64,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "lemmi sui sottogruppi additivi di Z (aZ + bZ)"
+              "title": "Esercizi su strutture algebriche e divisibilità"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -108,8 +108,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 332.5094909667969,
-    "collapsed": true
+    "width": 332.5094909667969
   },
   "right": {
     "id": "26b38658cac3fe47",
@@ -125,7 +124,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "coprimi",
+                "query": "\\text{MCD}",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -256,13 +255,18 @@
       "new-3d-graph:Open 3d graph": false
     }
   },
-  "active": "cdafa1280f10c5af",
+  "active": "ff51e4fa756c3d0e",
   "lastOpenFiles": [
+    "algebra lineare/bozze.md",
+    "algebra lineare/Esercizi su strutture algebriche e divisibilità.md",
     "algebra lineare/lemmi sui sottogruppi additivi di Z (aZ + bZ).md",
+    "algebra lineare/anello.md",
+    "algebra lineare/identità di Bézout.md",
+    "calcolo delle probabilità/contare con le biezioni.md",
+    "algebra lineare/primalità.md",
     "algebra lineare/teorema fondamentale dell'aritmetica.md",
     "algebra lineare/Algebra lineare.md",
     "algebra lineare/piccolo teorema di Fermat.md",
-    "algebra lineare/Esercizi su strutture algebriche e divisibilità.md",
     "algebra lineare/(mcm) minimo comune multiplo.md",
     "calcolo delle probabilità/probabilità condizionata.md",
     "calcolo delle probabilità/teorema di Bayes.md",
@@ -272,18 +276,13 @@
     "calcolo delle probabilità/legge della probabilità totale.md",
     "algebra lineare/teorema di decomponibilità.md",
     "basi di dati/algebra relazionale dei database.md",
-    "algebra lineare/anello.md",
     "algebra lineare/insieme quoziente.md",
     "interdisciplinare/teoria degli insiemi.md",
     "calcolo differenziale/numeri interi relativi.md",
     "interdisciplinare/relazione.md",
-    "algebra lineare/identità di Bézout.md",
     "progettazione di sistemi digitali/XOR.md",
-    "algebra lineare/primalità.md",
     "algebra lineare/(MCD) massimo comun divisore.md",
     "algebra lineare/irriducibilità.md",
-    "interdisciplinare/proprietà, tipi di relazioni e ordini.md",
-    "architettura degli elaboratori/assembly RISC-V.md",
     "foto/IMG-20251011-WA0002.jpg",
     "foto/IMG-20251011-WA0001.jpg",
     "foto/IMG-20251011-WA0005.jpg",
