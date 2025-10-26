@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-10-26T20:55:33.309+01:00
+updated_at: 2025-10-26T21:02:18.469+01:00
 ---
 Può essere definito su un [[anello|anello commutativo]] arbitrario.
 
@@ -72,6 +72,8 @@ $$
 # Esercizio
 
 > Dimostra che $\text{MCD}(ab, c) \mid (\text{MCD}(a, c) \cdot \text{MCD}(b, c))$.
+
+*Questa dimostrazione si basa sul [[teorema fondamentale dell'aritmetica]].*
 
 $a$ e $b$ possono avere tutti o solo alcuni fattori primi in comune, quindi la dimostrazione si biforca in due situazioni.
 

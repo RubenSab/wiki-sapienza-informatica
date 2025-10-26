@@ -39,30 +39,6 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "algebra lineare/teorema fondamentale dell'aritmetica.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "teorema fondamentale dell'aritmetica"
-            }
-          },
-          {
-            "id": "e6790d3017f09310",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
                 "file": "algebra lineare/(MCD) massimo comun divisore.md",
                 "mode": "source",
                 "source": false,
@@ -80,9 +56,33 @@
               "icon": "lucide-file",
               "title": "(MCD) massimo comun divisore"
             }
+          },
+          {
+            "id": "e6790d3017f09310",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "algebra lineare/orrore.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "orrore"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -287,10 +287,15 @@
       "new-3d-graph:Open 3d graph": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "6905d3fb8be2bbb7",
   "lastOpenFiles": [
-    "algebra lineare/(MCD) massimo comun divisore.md",
     "algebra lineare/teorema fondamentale dell'aritmetica.md",
+    "algebra lineare/orrore.md",
+    "Untitled.md",
+    "calcolo integrale/criteri di confronto delle serie a segno costante.md",
+    "algebra lineare/bozze.md",
+    "algebra lineare/proiezione canonica.md",
+    "algebra lineare/(MCD) massimo comun divisore.md",
     "interdisciplinare/algoritmo.md",
     "algebra lineare/crivello di Eratostene.md",
     "algebra lineare/anello.md",
@@ -310,11 +315,6 @@
     "basi di dati/chiusura di Armstrong.md",
     "basi di dati/chiusura di un insieme di attributi.md",
     "basi di dati/dipendenza funzionale.md",
-    "metodi matematici per l'informatica/esercizi/esercizi di metodi matematici per l'informatica.md",
-    "interdisciplinare/notazione asintotica.md",
-    "interdisciplinare/memoria.md",
-    "interdisciplinare/teoria degli insiemi.md",
-    "interdisciplinare/funzione.md",
     "foto/IMG-20251011-WA0002.jpg",
     "foto/IMG-20251011-WA0001.jpg",
     "foto/IMG-20251011-WA0005.jpg",
