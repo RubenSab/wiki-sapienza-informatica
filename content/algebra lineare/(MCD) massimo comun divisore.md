@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-10-26T20:24:05.624+01:00
+updated_at: 2025-10-26T20:55:33.309+01:00
 ---
 Può essere definito su un [[anello|anello commutativo]] arbitrario.
 
@@ -77,7 +77,7 @@ $a$ e $b$ possono avere tutti o solo alcuni fattori primi in comune, quindi la d
 
 1. Se $a$ e $b$ hanno tutti i fattori in comune, per l'unicità della scomposizione, $a = b$; quindi bisogna dimostrare che $\text{MCD}(a^{2}, c) \mid {\text{MCD}(a, c)}^{2}$.
 	1. È evidente che $a^{2}$ ha solo fattori in comune con $a$, pertanto $\text{MCD}(a^{2}, c) = \text{MCD}(a, c)$.
-	2. È evidente che $\text{MCD}(a^{2}, c)$ ha solo fattori in comune con ${\text{MCD}(a, c)}^{2}$, pertanto $\text{MCD}(a^{2}, c) \mid {\text{MCD}(a, c)}^{2}$.
+	2. È evidente che $\text{MCD}(a, c)$ ha solo fattori in comune con ${\text{MCD}(a, c)}^{2}$, pertanto $\text{MCD}(a^{2}, c) \mid {\text{MCD}(a, c)}^{2}$.
 2. Se $a$ e $b$ non hanno tutti i fattori in comune, vuol dire che esistono o più fattori $x_{a}$ di $a$ oppure uno o più fattori $x_{b}$ di $b$ tali che $x_{b} \nmid a$ oppure $x_{a} \nmid b$. Assumiamo senza perdita di generalità che, se esistono, $x_{a} \mid c$ e $x_{b} \mid c$
    (se invece $x_{a} \nmid c$ o $x_{b} \nmid c$,  $\text{MCD}(ab, c)$ sarebbe uguale a $\text{MCD}(a, c)$ o $\text{MCD}(b, c)$: in questo caso la dimostrazione è immediata).
 3. Per definizione, $\text{MCD}(ab, c)$ è composto solo dai fattori comuni tra $ab$ e $c$, cioè da quelli di $a, b, c$, dato che $ab$ è composto solo dai fattori $a$ e $b$. Se $x_{a}$ (come definito nel punto precedente) esistesse, non sarebbe un fattore di $\text{MCD}(ab, c)$. Lo stesso si può dire si $x_{b}$. Invece $\exists x_{a} \implies x_{a} \mid \text{MCD}(a, c) \implies x_{a} \mid \text{MCD}(a, c) \cdot \text{MCD}(b, c)$, analogamente $\exists x_{b} \implies x_{b} \mid \text{MCD}(b, c) \implies x_{b} \mid \text{MCD}(a, c) \cdot \text{MCD}(b, c)$.
