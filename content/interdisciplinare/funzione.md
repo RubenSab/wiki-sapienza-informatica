@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-10-01T11:33:30.872+02:00
+updated_at: 2025-10-23T16:03:24.929+02:00
 ---
 $f:\mathbb{R}\rightarrow\mathbb{R}, \ \ x\mapsto f(x)$
 $f: A \rightarrow B$

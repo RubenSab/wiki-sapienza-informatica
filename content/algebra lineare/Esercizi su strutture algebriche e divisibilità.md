@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-10-22T20:03:48.165+02:00
+updated_at: 2025-10-22T21:58:32.426+02:00
 ---
 # 1.
 
@@ -45,7 +45,7 @@ Intuitivamente si possono vedere come i codomini di due rette, dato che sono des
 1. Per la proprietà di chiusura del prodotto e dell'addizione in $\mathbb{Z}$, $a \mathbb{Z} + b \in \mathbb{Z}$ e $c \mathbb{Z} + d \in \mathbb{Z}$.
 2. Gli elementi di $a \mathbb{Z} + b$ sono descritti da $\{ ax + b, x \subseteq \mathbb{Z}\}$.
 3. Gli elementi di $c \mathbb{Z} + d$ sono descritti da $\{cy + d, y \subseteq \mathbb{Z}\}$.
-4. Se i due anelli hanno un elemento in comune, la proposizione $\exists x, \exists y\ (ax + b = cy + d)$ sarebbe soddisfatta.
+4. Se i due [[anello|anelli]] hanno un elemento in comune, la proposizione $\exists x, \exists y\ (ax + b = cy + d)$ sarebbe soddisfatta.
 5. Riordinando l'equazione, abbiamo $ax + b = cy + d \iff ax-cy = d-b$
 6. Dato che $a$ e $c$ sono coprimi, per la [[lemmi sui sottogruppi additivi di Z (aZ + bZ)#^77bb45|caratterizzazione dei sottogruppi additivi]] di $\mathbb{Z}$ sappiamo che $a \mathbb{Z} + b \mathbb{Z} = \mathbb{Z}$; ciò garantisce che $\exists x', y' \in \mathbb{Z}\ (ax'-cy'=1)$
 7. Moltiplichiamo per $d-b$ entrambi i membri: $(d-b)(ax'-cy') = d-b$

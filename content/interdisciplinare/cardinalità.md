@@ -10,6 +10,8 @@ $$F=\{(a,b)\in\mathbb{N}\times\mathbb{P}\ |\ b=2a\}$$
 $F$ è una corrispondenza biunivoca tra $\mathbb{N}$ e $\mathbb{P}$, quindi i due insiemi hanno la stessa **quantità** (non numero) di elementi, cioè la stessa **cardinalità**.
 ## Insieme numerabile
 
+^05ea02
+
 >Un insieme (infinito) si definisce **numerabile** se si può definire una corrispondenza biunivoca con $\mathbb{N}$ (sta in **biiezione** con $\mathbb{N}$), cioè se ha la sua stessa cardinalità.
 >
 

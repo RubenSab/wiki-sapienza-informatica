@@ -12,20 +12,34 @@
             "type": "leaf",
             "pinned": true,
             "state": {
-              "type": "graph",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "interdisciplinare/algoritmo.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": false
+                }
+              },
               "pinned": true,
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "icon": "lucide-file",
+              "title": "algoritmo"
             }
           },
           {
-            "id": "7f8bd452fef2fb70",
+            "id": "6905d3fb8be2bbb7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "algebra lineare/anello.md",
+                "file": "algebra lineare/teorema fondamentale dell'aritmetica.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -40,16 +54,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "anello"
+              "title": "teorema fondamentale dell'aritmetica"
             }
           },
           {
-            "id": "ff51e4fa756c3d0e",
+            "id": "e6790d3017f09310",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "algebra lineare/Esercizi su strutture algebriche e divisibilità.md",
+                "file": "algebra lineare/(MCD) massimo comun divisore.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -64,7 +78,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Esercizi su strutture algebriche e divisibilità"
+              "title": "(MCD) massimo comun divisore"
             }
           }
         ],
@@ -105,10 +119,28 @@
             }
           }
         ]
+      },
+      {
+        "id": "539314e9b13eaa20",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e7a7b303c61786dc",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "graph",
+              "state": {},
+              "pinned": true,
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 279.5094909667969
+    "width": 321.5
   },
   "right": {
     "id": "26b38658cac3fe47",
@@ -124,7 +156,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\\text{MCD}",
+                "query": "numerab",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -255,34 +287,34 @@
       "new-3d-graph:Open 3d graph": false
     }
   },
-  "active": "ff51e4fa756c3d0e",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "algebra lineare/lemmi sui sottogruppi additivi di Z (aZ + bZ).md",
-    "algebra lineare/Esercizi su strutture algebriche e divisibilità.md",
-    "algebra lineare/bozze.md",
-    "algebra lineare/anello.md",
-    "algebra lineare/identità di Bézout.md",
-    "calcolo delle probabilità/contare con le biezioni.md",
-    "algebra lineare/primalità.md",
-    "algebra lineare/teorema fondamentale dell'aritmetica.md",
-    "algebra lineare/Algebra lineare.md",
-    "algebra lineare/piccolo teorema di Fermat.md",
-    "algebra lineare/(mcm) minimo comune multiplo.md",
-    "calcolo delle probabilità/probabilità condizionata.md",
-    "calcolo delle probabilità/teorema di Bayes.md",
-    "calcolo delle probabilità/probabilità.md",
-    "calcolo delle probabilità/Calcolo delle probabilità.md",
-    "calcolo delle probabilità/indipendenza di due eventi.md",
-    "calcolo delle probabilità/legge della probabilità totale.md",
-    "algebra lineare/teorema di decomponibilità.md",
-    "basi di dati/algebra relazionale dei database.md",
-    "algebra lineare/insieme quoziente.md",
-    "interdisciplinare/teoria degli insiemi.md",
-    "calcolo differenziale/numeri interi relativi.md",
-    "interdisciplinare/relazione.md",
-    "progettazione di sistemi digitali/XOR.md",
     "algebra lineare/(MCD) massimo comun divisore.md",
-    "algebra lineare/irriducibilità.md",
+    "algebra lineare/teorema fondamentale dell'aritmetica.md",
+    "interdisciplinare/algoritmo.md",
+    "algebra lineare/crivello di Eratostene.md",
+    "algebra lineare/anello.md",
+    "algebra lineare/(mcm) minimo comune multiplo.md",
+    "algebra lineare/lemmi sui sottogruppi additivi di Z (aZ + bZ).md",
+    "calcolo delle probabilità/distribuzione di Bernoulli.md",
+    "calcolo delle probabilità/Calcolo delle probabilità.md",
+    "calcolo delle probabilità/coefficiente binomiale.md",
+    "interdisciplinare/relazione.md",
+    "metodologie di programmazione/Java.md",
+    "calcolo delle probabilità/distribuzione binomiale.md",
+    "calcolo delle probabilità/binomiale.md",
+    "calcolo delle probabilità/distribuzioni di probabilità notevoli.md",
+    "calcolo delle probabilità/misure di probabilità generiche.md",
+    "calcolo delle probabilità/probabilità.md",
+    "interdisciplinare/cardinalità.md",
+    "basi di dati/chiusura di Armstrong.md",
+    "basi di dati/chiusura di un insieme di attributi.md",
+    "basi di dati/dipendenza funzionale.md",
+    "metodi matematici per l'informatica/esercizi/esercizi di metodi matematici per l'informatica.md",
+    "interdisciplinare/notazione asintotica.md",
+    "interdisciplinare/memoria.md",
+    "interdisciplinare/teoria degli insiemi.md",
+    "interdisciplinare/funzione.md",
     "foto/IMG-20251011-WA0002.jpg",
     "foto/IMG-20251011-WA0001.jpg",
     "foto/IMG-20251011-WA0005.jpg",

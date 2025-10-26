@@ -3,12 +3,12 @@
   "showNeighboringNodes": true,
   "filters": [],
   "showAttachments": false,
-  "hideOrphans": false,
+  "hideOrphans": true,
   "showTags": false,
   "groups": [
     {
-      "query": "",
-      "color": "#ffffff"
+      "query": "path:\"algebra lineare\"",
+      "color": "#0d7ef8"
     }
   ],
   "useThemeColors": true,
@@ -18,10 +18,10 @@
   "colorLink": "#666666",
   "colorHighlight": "#FFB800",
   "backgroundColor": "#0E0E10",
-  "nodeSize": 3.2,
+  "nodeSize": 5,
   "tagNodeSize": 1,
   "attachmentNodeSize": 1.2,
-  "linkThickness": 1.3,
+  "linkThickness": 3.5,
   "nodeShape": "Sphere",
   "tagShape": "Tetrahedron",
   "attachmentShape": "Cube",
@@ -35,12 +35,12 @@
   "labelBackgroundOpacity": 0.3,
   "labelOcclusion": false,
   "useKeyboardControls": true,
-  "keyboardMoveSpeed": 2,
+  "keyboardMoveSpeed": 10,
   "zoomOnClick": true,
   "rotateSpeed": 1,
   "panSpeed": 1,
   "zoomSpeed": 1,
-  "centerForce": 0.1,
-  "repelForce": 10,
-  "linkForce": 0.01
+  "centerForce": 0,
+  "repelForce": 15.5,
+  "linkForce": 0.1
 }
