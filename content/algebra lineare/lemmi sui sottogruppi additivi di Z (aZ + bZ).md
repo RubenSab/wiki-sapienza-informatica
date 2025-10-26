@@ -1,8 +1,8 @@
 ---
-updated_at: 2025-10-22T09:57:34.362+02:00
+updated_at: 2025-10-26T21:06:09.569+01:00
 ---
 
-Studiamo il [[gruppo|sottogruppo]] generico $\mathcal{E} := a \mathbb{Z} + b \mathbb{Z} = \{\alpha a + \beta b: \alpha, \beta \in \mathbb{Z}\},\quad a, b \in \mathbb{Z} \land (a \neq 0 \lor b \neq 0)$
+Studiamo il [[gruppo|sottogruppo]] generico $\mathcal{E} := a \mathbb{Z} + b \mathbb{Z} = \{\alpha a + \beta b: \alpha, \beta \in \mathbb{Z}\},\quad a, b \in \mathbb{Z} \land (a \neq 0 \lor b \neq 0)$.
 
 # Lemmi
 

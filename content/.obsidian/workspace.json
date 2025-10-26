@@ -39,8 +39,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "algebra lineare/(MCD) massimo comun divisore.md",
-                "mode": "source",
+                "file": "algebra lineare/lemmi sui sottogruppi additivi di Z (aZ + bZ).md",
+                "mode": "preview",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -54,7 +54,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "(MCD) massimo comun divisore"
+              "title": "lemmi sui sottogruppi additivi di Z (aZ + bZ)"
             }
           },
           {
@@ -289,13 +289,14 @@
   },
   "active": "6905d3fb8be2bbb7",
   "lastOpenFiles": [
+    "algebra lineare/identità di Bézout.md",
+    "algebra lineare/(MCD) massimo comun divisore.md",
     "algebra lineare/teorema fondamentale dell'aritmetica.md",
     "algebra lineare/orrore.md",
     "Untitled.md",
     "calcolo integrale/criteri di confronto delle serie a segno costante.md",
     "algebra lineare/bozze.md",
     "algebra lineare/proiezione canonica.md",
-    "algebra lineare/(MCD) massimo comun divisore.md",
     "interdisciplinare/algoritmo.md",
     "algebra lineare/crivello di Eratostene.md",
     "algebra lineare/anello.md",
@@ -314,7 +315,6 @@
     "interdisciplinare/cardinalità.md",
     "basi di dati/chiusura di Armstrong.md",
     "basi di dati/chiusura di un insieme di attributi.md",
-    "basi di dati/dipendenza funzionale.md",
     "foto/IMG-20251011-WA0002.jpg",
     "foto/IMG-20251011-WA0001.jpg",
     "foto/IMG-20251011-WA0005.jpg",
