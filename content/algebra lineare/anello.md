@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-10-22T10:49:27.887+02:00
+updated_at: 2025-10-27T15:51:45.438+01:00
 ---
 > Gli anelli sono un caso specifico dei [[gruppo|gruppi]]. Un *anello commutativo con unità* è una sestupla $(A, +, \cdot, -, 0, 1)$ dove:
 
@@ -28,6 +28,8 @@ e i seguenti assiomi **moltiplicativi**:
 > N.B.: Il neutro additivo e il neutro moltiplicativo sono unici $\implies \forall a \in A$ l'opposto $-a$ di $a$ è unico.
 
 > N.B.: $\mathbb{Z}$ è un gruppo ma $\mathbb{N}$ no.
+
+> Osservazione: Se prendiamo un anello e rimuoviamo la nozione di moltiplicazione e tutti i suoi assiomi, otteniamo un gruppo.
 
 # Unità o elementi invertibili
 

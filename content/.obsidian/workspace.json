@@ -25,8 +25,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "calcolo delle probabilità/distribuzione binomiale.md",
-                "mode": "source",
+                "file": "algebra lineare/gruppo.md",
+                "mode": "preview",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -40,7 +40,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "distribuzione binomiale"
+              "title": "gruppo"
             }
           },
           {
@@ -65,6 +65,102 @@
               },
               "icon": "lucide-file",
               "title": "scelta di k elementi da n"
+            }
+          },
+          {
+            "id": "b6184a4169e3db6b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "interdisciplinare/teoria degli insiemi.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "teoria degli insiemi"
+            }
+          },
+          {
+            "id": "877d1337997d368d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "algebra lineare/omomorfismo.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "omomorfismo"
+            }
+          },
+          {
+            "id": "2f8f61adbded56fe",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "algebra lineare/gruppo.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "gruppo"
+            }
+          },
+          {
+            "id": "eb7ea45730fea36b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "algebra lineare/sottogruppi.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "sottogruppi"
             }
           }
         ],
@@ -276,11 +372,21 @@
   },
   "active": "f9aeadc61e705a82",
   "lastOpenFiles": [
-    "calcolo delle probabilità/coefficiente binomiale.md",
+    "algebra lineare/sottogruppi.md",
+    "algebra lineare/gruppo.md",
+    "algebra lineare/omomorfismo.md",
+    "interdisciplinare/teoria degli insiemi.md",
+    "metodi matematici per l'informatica/logica proposizionale.md",
+    "algebra lineare/Algebra lineare.md",
+    "algebra lineare/campo.md",
+    "calcolo delle probabilità/scelta di k elementi da n.md",
+    "algebra lineare/anello.md",
+    "algebra lineare/gruppo abeliano.md",
+    "metodologie di programmazione/campi.md",
     "calcolo delle probabilità/distribuzione binomiale.md",
+    "calcolo delle probabilità/coefficiente binomiale.md",
     "calcolo delle probabilità/misure di probabilità generiche.md",
     "calcolo delle probabilità/distribuzione di Poisson 🐟.md",
-    "calcolo delle probabilità/scelta di k elementi da n.md",
     "calcolo delle probabilità/disposizioni con ripetizioni consentite.md",
     "calcolo delle probabilità/Calcolo delle probabilità.md",
     "metodi matematici per l'informatica/funzione calcolabile.md",
@@ -292,16 +398,6 @@
     "calcolo differenziale/limiti di funzioni.md",
     "calcolo differenziale/limite.md",
     "calcolo differenziale/formulario completo del calcolo differenziale.md",
-    "calcolo differenziale/derivate.md",
-    "introduzione agli algoritmi/esempi di algoritmi con diversa complessità.md",
-    "calcolo differenziale/limiti di successioni.md",
-    "interdisciplinare/sottoinsiemi.md",
-    "basi di dati/dipendenza funzionale.md",
-    "calcolo integrale/EDO del secondo ordine.md",
-    "calcolo differenziale/formula di Stirling.md",
-    "calcolo delle probabilità/distribuzione geometrica.md",
-    "calcolo integrale/serie geometriche.md",
-    "calcolo delle probabilità/distribuzione di Bernoulli.md",
     "foto/IMG-20251011-WA0002.jpg",
     "foto/IMG-20251011-WA0001.jpg",
     "foto/IMG-20251011-WA0005.jpg",
