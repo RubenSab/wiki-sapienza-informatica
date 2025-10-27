@@ -1,7 +1,11 @@
+---
+updated_at: 2025-10-27T14:32:35.303+01:00
+---
 - [[teorema di unicità del limite]]
 - [[teorema ponte]]
 
-# confronto tra le definizioni di limite di una [[successione]] e una [[funzione]]
+# confronto tra le definizioni di [[limite]] di una [[successione]] e una [[funzione]]
+
 $\lim_{n\rightarrow +\infty}{a_{n}=L}\iff \forall\varepsilon > 0\ \ \ \ \exists n_{\varepsilon}\in\mathbb{N}|\ |a_{n}-L|\leq \varepsilon\ \ \ \ \forall n \geq n_{\varepsilon}$
 $\lim_{n\rightarrow +\infty}{f(x)}=L \iff \forall\varepsilon > 0\ \ \ \ \exists x_{\varepsilon}\in\mathbb{R}|\ |f(x)-L|\leq \varepsilon\ \ \ \ \forall x \geq x_{\varepsilon}$
 # teorema "dell'esistenza del limite"

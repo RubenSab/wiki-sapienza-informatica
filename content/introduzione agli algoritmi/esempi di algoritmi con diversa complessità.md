@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-06-01T15:13:10.116+02:00
+updated_at: 2025-10-27T14:31:56.571+01:00
 ---
 # es1: complessità lineare "nascosta"
 
@@ -15,7 +15,7 @@ def es1(n):
 ```
 
 - `abs` costa $O(1)$
-- quel `for` costerebbe $O(n)$, ma dato che da 100 in poi la funzione esegue `return 1`, che ha complessità $O(1)$, la peggiore [[complessità temporale]] possibile sarebbe $O(100)$, quindi $O(1)$. In sostanza, l'unico caso rilevante in asintotica è il limite che tende a infinito della dimensione dell'input, che in questo caso è costante.
+- quel `for` costerebbe $O(n)$, ma dato che da 100 in poi la funzione esegue `return 1`, che ha complessità $O(1)$, la peggiore [[complessità temporale]] possibile sarebbe $O(100)$, quindi $O(1)$. In sostanza, l'unico caso rilevante in asintotica è il [[limite]] che tende a infinito della dimensione dell'input, che in questo caso è costante.
 
 --- 
 
@@ -31,7 +31,7 @@ def es2(n):
 ```
 
 Se `n` è dispari, la complessità è $O(1)$, mentre se `n` è pari la complessità è $\Theta(n)$.
-Il limite della successione definita su `n` non esiste perché la funzione oscilla, quindi è difficile calcolare la probabilità; ma per fortuna `n` pari e `n` dispari **sono due casi equiprobabili**, cioè abbiamo una probabilità del 50% di avere complessità $\Theta(n)$ o $O(1)$, quindi in questo caso la complessità media corrisponde alla media (media pesata, nel caso più generale) delle complessità $O(\frac{n}{2})$, ovvero $O(n)$ (**NON** $\Theta{(n)}$ perché non ha **sempre** esattamente complessità $n$).
+Il [[limite]] della successione definita su `n` non esiste perché la funzione oscilla, quindi è difficile calcolare la probabilità; ma per fortuna `n` pari e `n` dispari **sono due casi equiprobabili**, cioè abbiamo una probabilità del 50% di avere complessità $\Theta(n)$ o $O(1)$, quindi in questo caso la complessità media corrisponde alla media (media pesata, nel caso più generale) delle complessità $O(\frac{n}{2})$, ovvero $O(n)$ (**NON** $\Theta{(n)}$ perché non ha **sempre** esattamente complessità $n$).
 
 ---
 

@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-10-24T14:27:32.227+02:00
+updated_at: 2025-10-27T14:08:05.158+01:00
 ---
 > Sia $\Omega$ uno [[spazio campionario]] [[cardinalità#^05ea02|discreto]], e chiamiamo i suoi elementi (gli esiti) $\omega_{1}, \omega_{2}, \omega_{3}, \ldots$ Una misura di [[probabilità]] (distribuzione di probabilità su $\Omega$) è univocamente determinata dai valori ($p$) che assume su $\omega_{1}, \omega_{2}, \omega_{3}, \ldots$, che chiamiamo $p_{w_{1}}, p_{w_{2}}, p_{w_{3}}, \ldots$. Quindi $\forall \omega \in \Omega\ (\mathbb{P}({w}) := p_{w})$. Infatti dai pesi $(p_{\omega})_{\omega \in \Omega}$ otteniamo, per ogni evento $A \subseteq \Omega, \quad \mathbb{P}(A) = \sum_{\omega \in A}{p_{w}}$.
 
@@ -16,8 +16,13 @@ Cioè la somma delle probabilità di tutti i singleton $\{\omega\}$.
 # Cosa significa specificare una misura di probabilità
 
 Quindi specificare una misura di probabilità su $\Omega$ equivale a specificare una collezione di "pesetti" $(p_{\omega})_{\omega \in \Omega}$ tale che:
+
 - $\forall \omega \in \Omega\ (p_{\omega} \in [0, 1])$
 - $\sum_{\omega \in \Omega} p_{\omega} = 1$
+
+> Trucco: In realtà basta controllare che tutti i pesetti siano positivi e che $\sum_{k=1}^{+\infty}p_{k} = 1$. In questo modo sicuramente la proprietà $\forall k \in \mathbb{N}^{\star} (p_{k} \in [0, 1])$ sarà valida, perché gli addendi sono minori della somma.
+
+^7cf400
 
 ## Caso particolare: "pesetti" uguali su $\Omega$ finito.
 

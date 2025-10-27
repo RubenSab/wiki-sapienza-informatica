@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-10-26T21:06:09.569+01:00
+updated_at: 2025-10-26T21:27:58.851+01:00
 ---
 
 Studiamo il [[gruppo|sottogruppo]] generico $\mathcal{E} := a \mathbb{Z} + b \mathbb{Z} = \{\alpha a + \beta b: \alpha, \beta \in \mathbb{Z}\},\quad a, b \in \mathbb{Z} \land (a \neq 0 \lor b \neq 0)$.
@@ -22,7 +22,7 @@ $\exists \delta \in \mathbb{N}^{\star}\ (\mathcal{E} = a \mathbb{Z} + b \mathbb{
 
 ## 3. [[identità di Bézout|Identità di Bézout]] e definizione di [[(MCD) massimo comun divisore|MCD]]
 
-*(Prendendo il $\delta$ dal lemma 3)*
+*(Prendendo $\delta$ dal lemma 3)*
 
 $\delta = \text{MCD}(a, b)$
 

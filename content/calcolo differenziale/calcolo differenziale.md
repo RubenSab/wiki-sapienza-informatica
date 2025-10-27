@@ -22,7 +22,7 @@ updated_at: 2025-02-22T15:24:28.893+01:00
 - [[successione]]
 - [[funzione|funzioni e teoremi]]
 - [[teorema ponte]]
-- [[limiti]]
+- [[limite]]
 - [[derivate]]
 - [[notazione o-piccolo]]
 - [[serie di Taylor]]

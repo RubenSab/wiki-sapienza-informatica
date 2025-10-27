@@ -11,5 +11,6 @@
   },
   "propertiesInDocument": "hidden",
   "attachmentFolderPath": "./",
-  "newFileLocation": "current"
+  "newFileLocation": "current",
+  "showUnsupportedFiles": true
 }
