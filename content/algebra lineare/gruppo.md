@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-10-27T16:45:32.632+01:00
+updated_at: 2025-10-27T21:58:48.272+01:00
 ---
 > Un gruppo è una quadrupla $(G, *, e, {}^{-1})$ dove:
 
@@ -44,10 +44,18 @@ Esempi:
 
 > I gruppi $(G, \cdot, 1_{g})$ in notazione moltiplicativa **possono non essere** abeliani.
 
-In notazione moltiplicativa, l'inverso si chiama inverso, e l'inverso di $g \in G$ si scrive $g^{-1}$.
+In notazione moltiplicativa l'inverso di $g \in G$ si scrive $g^{-1}$.
 
 ### Esercizio
 
-Se $A$ è un anello (quindi $\cdot$ è commutativo), dimostra che $(A^{\times}, \cdot, 1_{A})$ è un gruppo in notazione moltiplicativa che è abeliano.
+Se $(A, +, \cdot, -, 0_{A}, 1_{A})$ è un anello commutativo, dimostra che la tripla $(A^{\times}, \cdot, 1_{A})$ è un gruppo in notazione moltiplicativa, in particolare è abeliano.
 
-#todo
+1. $A^{\times}$ non è vuoto perché $1_{A}$ è invertibile per il prodotto.
+2. $a \cdot a^{-1} = 1_{A} \in A^{\times} \land b \cdot b^{-1} = 1_{A} \in A^{\times}$
+   $a \cdot a^{-1} \cdot b \cdot b^{-1} = 1_{A} \implies ab \cdot {ab}^{-1} = {ab}^{-1} \cdot ab = 1_{A}$, quindi ${ab}^{-1}$ è l'inverso di $ab$ e viceversa. Dato che $a \cdot b$ ha un inverso, $\forall a, b \in A^{\times}(a \cdot b \in A^\times)$, cioè il prodotto è chiuso in $A^{\times}$.
+3. Per definizione, la tripla studiata ha un elemento neutro per il prodotto.
+4. È garantito che esista una funzione che associa ogni elemento al suo inverso, infatti per definizione $A^{\times}$ contiene solo elementi invertibili
+
+Dai quattro punti si conclude che $(A^{\times}, \cdot, 1_{A})$ è un gruppo. Inoltre è anche commutativo dato che l'operazione prodotto, essendo ereditata dall'anello commutativo, è commutativa.
+
+$\square$

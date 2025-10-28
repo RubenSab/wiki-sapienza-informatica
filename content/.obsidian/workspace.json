@@ -20,127 +20,7 @@
             }
           },
           {
-            "id": "f9aeadc61e705a82",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "algebra lineare/gruppo.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "gruppo"
-            }
-          },
-          {
-            "id": "ade487386c7eb299",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "calcolo delle probabilità/scelta di k elementi da n.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "scelta di k elementi da n"
-            }
-          },
-          {
-            "id": "b6184a4169e3db6b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "interdisciplinare/teoria degli insiemi.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "teoria degli insiemi"
-            }
-          },
-          {
-            "id": "877d1337997d368d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "algebra lineare/omomorfismo.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "omomorfismo"
-            }
-          },
-          {
-            "id": "2f8f61adbded56fe",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "algebra lineare/gruppo.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "gruppo"
-            }
-          },
-          {
-            "id": "eb7ea45730fea36b",
+            "id": "ec4cb4e76b622a73",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -161,6 +41,54 @@
               },
               "icon": "lucide-file",
               "title": "sottogruppi"
+            }
+          },
+          {
+            "id": "05c9b2b519b46b8a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "algebra lineare/isomorfismo.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "isomorfismo"
+            }
+          },
+          {
+            "id": "5c8bd6911929d646",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "algebra lineare/corrispondenza.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "corrispondenza"
             }
           }
         ],
@@ -342,14 +270,13 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {
-                "file": "algebra lineare/lemmi sui sottogruppi additivi di Z (aZ + bZ).md"
-              },
+              "state": {},
               "icon": "lucide-info",
-              "title": "File properties for lemmi sui sottogruppi additivi di Z (aZ + bZ)"
+              "title": "File properties"
             }
           }
-        ]
+        ],
+        "currentTab": 7
       }
     ],
     "direction": "horizontal",
@@ -370,17 +297,27 @@
       "new-3d-graph:Open 3d graph": false
     }
   },
-  "active": "f9aeadc61e705a82",
+  "active": "ec4cb4e76b622a73",
   "lastOpenFiles": [
+    "algebra lineare/isomorfismo.md",
+    "algebra lineare/corrispondenza.md",
     "algebra lineare/sottogruppi.md",
-    "algebra lineare/gruppo.md",
+    "algebra lineare/teorema fondamentale dell'aritmetica.md",
     "algebra lineare/omomorfismo.md",
+    "algebra lineare/orrore.md",
+    "algebra lineare/applicazione.md",
+    "progettazione di sistemi digitali/addizionatore a propagazione di riporto (ripple carry adder).md",
+    "metodologie di programmazione/equals.md",
+    "interdisciplinare/funzione.md",
+    "metodologie di programmazione/SAM (Single Abstract Method).md",
+    "algebra lineare/gruppo.md",
+    "sistemi operativi/processo.md",
+    "algebra lineare/anello.md",
     "interdisciplinare/teoria degli insiemi.md",
     "metodi matematici per l'informatica/logica proposizionale.md",
     "algebra lineare/Algebra lineare.md",
     "algebra lineare/campo.md",
     "calcolo delle probabilità/scelta di k elementi da n.md",
-    "algebra lineare/anello.md",
     "algebra lineare/gruppo abeliano.md",
     "metodologie di programmazione/campi.md",
     "calcolo delle probabilità/distribuzione binomiale.md",
@@ -388,16 +325,6 @@
     "calcolo delle probabilità/misure di probabilità generiche.md",
     "calcolo delle probabilità/distribuzione di Poisson 🐟.md",
     "calcolo delle probabilità/disposizioni con ripetizioni consentite.md",
-    "calcolo delle probabilità/Calcolo delle probabilità.md",
-    "metodi matematici per l'informatica/funzione calcolabile.md",
-    "calcolo delle probabilità/probabilità.md",
-    "metodologie di programmazione/package.md",
-    "interdisciplinare/funzione.md",
-    "Untitled 1.md",
-    "calcolo integrale/criteri di confronto delle serie a segno costante.md",
-    "calcolo differenziale/limiti di funzioni.md",
-    "calcolo differenziale/limite.md",
-    "calcolo differenziale/formulario completo del calcolo differenziale.md",
     "foto/IMG-20251011-WA0002.jpg",
     "foto/IMG-20251011-WA0001.jpg",
     "foto/IMG-20251011-WA0005.jpg",

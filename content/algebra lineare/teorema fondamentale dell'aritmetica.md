@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-10-26T19:05:21.401+01:00
+updated_at: 2025-10-28T00:10:31.352+01:00
 ---
 > Ogni numero naturale maggiore di 1 o è un numero [[primalità|primo]] oppure si può esprimere come un prodotto **unico** di numeri naturali.
 
@@ -37,6 +37,8 @@ Come può un prodotto essere ben definito se ha infiniti fattori? perché l'insi
 
 # Calcolare MCD e mcm con le fattorizzazioni
 
+#todo
+
 - $a = \prod_{p}^{v_{p}(a)}$
 - $b = \prod_{p}^{v_{p}(b)}$
 
@@ -48,7 +50,3 @@ Esiste un unico $m \in \mathbb{N}^{\star} :$
 2. se $m' \in \mathbb{Z} : a \mid m' \land b \mid m' \to m \mid m'$
 
 Lemma: $a b \in \mathbb{Z} \neq 0$. Si scrive $mcm(a, b) = m$. Si chiama minimo comune multiplo
-
-
-#todo
-
