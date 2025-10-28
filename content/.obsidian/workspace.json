@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "algebra lineare/isomorfismo.md",
+                "file": "basi di dati/terza forma normale.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -40,7 +40,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "isomorfismo"
+              "title": "terza forma normale"
             }
           },
           {
@@ -275,10 +275,13 @@
   },
   "active": "f7c6358b209ec081",
   "lastOpenFiles": [
+    "basi di dati/chiusura di Armstrong.md",
+    "basi di dati/terza forma normale.md",
+    "basi di dati/chiusura di un insieme di attributi.md",
+    "algebra lineare/isomorfismo.md",
     "algebra lineare/omomorfismo.md",
     "algebra lineare/sottogruppi.md",
     "algebra lineare/gruppo.md",
-    "algebra lineare/isomorfismo.md",
     "algebra lineare/corrispondenza.md",
     "algebra lineare/teorema fondamentale dell'aritmetica.md",
     "algebra lineare/orrore.md",
@@ -298,9 +301,6 @@
     "metodologie di programmazione/campi.md",
     "calcolo delle probabilità/distribuzione binomiale.md",
     "calcolo delle probabilità/coefficiente binomiale.md",
-    "calcolo delle probabilità/misure di probabilità generiche.md",
-    "calcolo delle probabilità/distribuzione di Poisson 🐟.md",
-    "calcolo delle probabilità/disposizioni con ripetizioni consentite.md",
     "foto/IMG-20251011-WA0002.jpg",
     "foto/IMG-20251011-WA0001.jpg",
     "foto/IMG-20251011-WA0005.jpg",
