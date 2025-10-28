@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-10-28T11:48:47.041+01:00
+updated_at: 2025-10-28T15:02:24.442+01:00
 ---
 > Dato un [[gruppo]] $G = (G, \cdot, 1)$ in [[gruppo#^b21101|notazione moltiplicativa]] e un [[teoria degli anelli|sottoinsieme]] $H \subseteq G$ non vuoto, con $a, b \in G$ si dice che $H$ è un *sottogruppo* di $G$ se e solo se $\forall a, b \in H\ (a \cdot b^{-1} \in H)$. Si scrive $H < G$. (In [[gruppo#^963e43|notazione additiva]], $H<G \iff \forall a, b \in H,\ a + (-b) \in H$.
 
@@ -18,19 +18,12 @@ Lemma: L'operazione $\cdot$ induce un operazione $H \times H \to H$ e $(H, \cdot
 
 # Esercizi
 
-$G  = (\mathbb{Z}, +, 0)$
+> Dimostrare che $2 \mathbb{Z} < \mathbb{Z}$
 
-Dimostrare che $H = 2 \mathbb{Z} < \mathbb{Z}$
+Devo verificare $\forall a, b \in 2 \mathbb{Z}\ (a - b \in 2 \mathbb{Z})$.
 
-devo verificare $\forall a, b \in H, \quad a - b \in H$.
-
-Ma $a, b \in \mathbb{Z} \in H \iff a = 2\alpha, b = 2\beta \quad \exists \alpha, \beta \in \mathbb{Z}$
-
-$a-b = 2\alpha - 2\beta = 2(\alpha - \beta) \in H$.
-
-è un primo esempio di sottogruppo non banale
-
-#todo
+1. Definizione di $2 \mathbb{Z}$:  $\forall a, b\ (a, b \in 2\mathbb{Z} \iff \exists \alpha, \beta \in \mathbb{Z}\ (a = 2\alpha, b = 2\beta))$
+2. Per il punto 1 vale che $a-b = 2\alpha - 2\beta = 2(\alpha - \beta)$ è contenuto in $2 \mathbb{Z}$.
 
 ---
 
@@ -56,9 +49,20 @@ $$
 
 ---
 
-> Se $A$ è un anello, $A$ è un gruppo, e prendendo $H = \alpha A$ con $\alpha \in A$ si ha che $H < (A, +, 0)$.
+> Dimostrare che se $(A, +, \cdot, -, 0, 1)$ è un anello, $(A, +, 0)$ è un gruppo, e prendendo $H = \alpha A$ (abuso di notazione "insieme = gruppo") con $\alpha \in A$ si ha che $H < (A, +, 0)$.
 
-#todo
+Per definizione di $(A, +, \cdot, -, 0, 1)$:
+
+1. $A$ è un insieme non vuoto perché contiene $0$ e $1$, elementi comuni ad $(A, +, 0)$.
+2. $+$ è definito nell'anello da $A \times A \to A$, quindi ovviamente è definito anche su $(A, +, 0)$.
+3. $0$ è l'elemento neutro contenuto anche in $(A, +, 0)$.
+4. La funzione $-$ associa a ogni elemento di $A$ al suo opposto
+
+Quindi $(A, +, 0)$ (con $A$, $+$ e $0$ come definiti in $(A, +, \cdot, -, 0, 1)$) è un gruppo.
+
+$H = (\alpha A, +, 0)$
+
+$\forall x, y, \alpha \in A\ (\ x - y \in A \implies \alpha(x - y) \in A \implies \alpha x - \alpha y \in \alpha A\ )$ quindi $\forall a, b \in A, \alpha A\ (a + (-b) \in H)$, quindi $H$ è un sottogruppo di $(A, +, \cdot, -, 0, 1)$.
 
 ---
 
