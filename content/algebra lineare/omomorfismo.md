@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-10-29T11:56:32.031+01:00
+updated_at: 2025-10-29T11:57:32.846+01:00
 ---
 > In generale, un *omomorfismo* è un'[[applicazione]] tra due [[Algebra lineare|strutture algebriche]] dello stesso tipo che conserva le operazioni in esse definite.
 
@@ -27,6 +27,8 @@ Ovviamente si può anche scrivere in notazione additiva:
    Dimostrazione: se $f$ è un omomorfismo, allora $f(a+b) = f(a) + f(b)$. Dato che $G_{1}$ e $G_{2}$ sono gruppi, allora sicuramente $\forall b (\exists (-b))$, quindi $f(a + (-b)) = f(a) + -f(b)$. 
 2. Bisogna dimostrare che se vale quella proprietà, $f$ è un isomorfismo.
    Dimostrazione: $f(a + (-b)) = f(a) + (-f(b))$ implica:
-	- (1) che $\forall a\ (f(a + (-a)) = f(a)+(-f(a)) = 0)$, per definizione di elemento neutro
+	- (1) che $\forall a\ (f(a + (-a)) = f(a)+(-f(a)) = 0)$, per la definizione additiva di elemento neutro $x + (-x) = 0$.
 	- (3) che $\forall b\ (\exists c = -b \implies f(a + c) = f(a) + f(c))$; 
 	- (2) che $f(0_{1} + (-c)) = 0_{2} -f(c)$ (sostituendo $a$ con gli elementi neutri di $G_{1}$ e $G_{2}$ nel punto precedente), quindi $f(-a) = -f(a)$;
+
+$\square$
