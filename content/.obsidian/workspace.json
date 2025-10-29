@@ -20,13 +20,13 @@
             }
           },
           {
-            "id": "f7c6358b209ec081",
+            "id": "06668e3e515b6f30",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "basi di dati/terza forma normale.md",
-                "mode": "source",
+                "file": "algebra lineare/lemmi sui sottogruppi additivi di Z (aZ + bZ).md",
+                "mode": "preview",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -40,16 +40,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "terza forma normale"
+              "title": "lemmi sui sottogruppi additivi di Z (aZ + bZ)"
             }
           },
           {
-            "id": "c6baabda75fbf1db",
+            "id": "fcb480342291d729",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "algebra lineare/gruppo.md",
+                "file": "algebra lineare/lemmi sui sottogruppi additivi di Z (aZ + bZ).md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -64,11 +64,35 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "gruppo"
+              "title": "lemmi sui sottogruppi additivi di Z (aZ + bZ)"
+            }
+          },
+          {
+            "id": "c5a8c7978fdbd045",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "algebra lineare/omomorfismo.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "omomorfismo"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -273,15 +297,16 @@
       "new-3d-graph:Open 3d graph": false
     }
   },
-  "active": "f7c6358b209ec081",
+  "active": "c5a8c7978fdbd045",
   "lastOpenFiles": [
-    "basi di dati/chiusura di Armstrong.md",
+    "algebra lineare/gruppo.md",
+    "algebra lineare/omomorfismo.md",
+    "algebra lineare/lemmi sui sottogruppi additivi di Z (aZ + bZ).md",
+    "algebra lineare/sottogruppi.md",
     "basi di dati/terza forma normale.md",
+    "basi di dati/chiusura di Armstrong.md",
     "basi di dati/chiusura di un insieme di attributi.md",
     "algebra lineare/isomorfismo.md",
-    "algebra lineare/omomorfismo.md",
-    "algebra lineare/sottogruppi.md",
-    "algebra lineare/gruppo.md",
     "algebra lineare/corrispondenza.md",
     "algebra lineare/teorema fondamentale dell'aritmetica.md",
     "algebra lineare/orrore.md",
@@ -300,7 +325,6 @@
     "algebra lineare/gruppo abeliano.md",
     "metodologie di programmazione/campi.md",
     "calcolo delle probabilità/distribuzione binomiale.md",
-    "calcolo delle probabilità/coefficiente binomiale.md",
     "foto/IMG-20251011-WA0002.jpg",
     "foto/IMG-20251011-WA0001.jpg",
     "foto/IMG-20251011-WA0005.jpg",

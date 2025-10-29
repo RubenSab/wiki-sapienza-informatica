@@ -22,6 +22,8 @@ $\exists \delta \in \mathbb{N}^{\star}\ (\mathcal{E} = a \mathbb{Z} + b \mathbb{
 
 ## 3. [[identità di Bézout|Identità di Bézout]] e definizione di [[(MCD) massimo comun divisore|MCD]]
 
+^1ee102
+
 *(Prendendo $\delta$ dal lemma 3)*
 
 $\delta = \text{MCD}(a, b)$

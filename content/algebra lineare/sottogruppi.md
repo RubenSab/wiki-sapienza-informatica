@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-10-28T15:02:24.442+01:00
+updated_at: 2025-10-29T11:24:19.585+01:00
 ---
 > Dato un [[gruppo]] $G = (G, \cdot, 1)$ in [[gruppo#^b21101|notazione moltiplicativa]] e un [[teoria degli anelli|sottoinsieme]] $H \subseteq G$ non vuoto, con $a, b \in G$ si dice che $H$ è un *sottogruppo* di $G$ se e solo se $\forall a, b \in H\ (a \cdot b^{-1} \in H)$. Si scrive $H < G$. (In [[gruppo#^963e43|notazione additiva]], $H<G \iff \forall a, b \in H,\ a + (-b) \in H$.
 
@@ -68,4 +68,9 @@ $\forall x, y, \alpha \in A\ (\ x - y \in A \implies \alpha(x - y) \in A \implie
 
 > Dimostrare che $\mathbb{Z} < \mathbb{Q} < \mathbb{R} < \mathbb{C}$.
 
-#todo
+1. $\forall a, b \in \mathbb{Z} \cap \mathbb{Q}\ (\mathbb{Z} < \mathbb{Q} \iff \ a + (-b) \in \mathbb{Z})$
+	- Dimostrazione: per il [[lemmi sui sottogruppi additivi di Z (aZ + bZ)#^1ee102|lemma Bézout nel contesto dei sottogruppi additivi di Z]]
+	  ( $x \mathbb{Z} + y \mathbb{Z} = \text{MCD}(x, y) \mathbb{Z}$,  sostituendo $x=1,\ y=-1$) abbiamo $\mathbb{Z} + (-\mathbb{Z}) = -\mathbb{Z} = \mathbb{Z}$. Ciò dimostra la chiusura in $\mathbb{Z}$ dell'addizione tra un numero e l'inverso di un altro.
+
+2. $\forall a, b \in \mathbb{Q} \cap \mathbb{R}\ (\mathbb{Q} < \mathbb{R} \iff \ a + (-b) \in \mathbb{Q})$
+3. $\forall a, b \in \mathbb{R} \cap \mathbb{C}\ (\mathbb{R} < \mathbb{C} \iff \ a + (-b) \in \mathbb{R})$
