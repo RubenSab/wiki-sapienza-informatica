@@ -1,19 +1,18 @@
 ---
-updated_at: 2025-10-17T14:16:22.097+02:00
+updated_at: 2025-11-03T21:56:04.954+01:00
 ---
 > Sia $\Omega$ uno [[spazio campionario]]. Diciamo che due [[evento|eventi]] $A$ e $B$ su $\Omega$ sono indipendenti se
 
 $$
 \mathbb{P}(A\cap B) = \mathbb{P}(A)\cdot \mathbb{P}(B)
 $$
-> N.B.: Se $A$ è indipendente da $B$, $B$ è indipendente da $A$ (la definizione è [[proprietà, tipi di relazioni e ordini|simmetrica]]). In tal caso si scrive $A \perp \!\!\! \perp B$.
+> N.B.: Se $A$ è indipendente da $B$, $B$ è indipendente da $A$ (la definizione è [[proprietà, tipi di relazioni e ordini|simmetrica]] perché la moltiplicazione è commutativa). In tal caso si scrive $A \perp \!\!\! \perp B$.
 
 # Osservazioni
 
-1. L'evento $\emptyset$ è indipendente da qualsiasi evento, (incluso se stesso). Infatti per ogni evento $A \subseteq \Omega$ si ha che la [[probabilità]] $\mathbb{P}(\emptyset \cup A) = \mathbb{P}(\emptyset) = 0$
-2. $\Omega$ è indipendente da qualsiasi evento, incluso se stesso. Infatti $A \subseteq \Omega \implies (\mathbb{P}(\Omega \cap A) = \mathbb{P}(A))$
-
-> $\Omega$ e $\emptyset$ sono gli unici eventi ad essere indipendenti da se stessi.
+1. L'evento $\emptyset$ è indipendente da qualsiasi evento, (incluso se stesso). Infatti per ogni evento $A \subseteq \Omega$ si ha che la [[probabilità]] $\mathbb{P}(\emptyset \cup A) = \mathbb{P}(\emptyset) = 0$.
+2. $\Omega$ è indipendente da qualsiasi evento, incluso se stesso. Infatti $A \subseteq \Omega \implies (\mathbb{P}(\Omega \cap A) = \mathbb{P}(A))$.
+3. $\Omega$ e $\emptyset$ sono gli unici eventi ad essere indipendenti da se stessi.
 
 Infatti se per assurdo trovassimo un evento $A \neq \Omega \land A \neq \emptyset$ indipendente da se stesso, allora 
 
@@ -25,7 +24,9 @@ $$
 
 > N.B.: $A^{C}$ è il [[teoria degli insiemi|complemento]] di $A$.
 
-Infatti supponiamo $A \perp \!\!\! \perp B$. Allora $\mathbb{P}(A \cap B^{C})\stackrel{?}=\mathbb{P}(A) \cdot \mathbb{P}(B)$. Come ricavarlo?
+Dimostrazione del punto 3:
+
+Supponiamo $A \perp \!\!\! \perp B$. Allora $\mathbb{P}(A \cap B^{C})\stackrel{?}=\mathbb{P}(A) \cdot \mathbb{P}(B)$. Come ricavarlo?
 
 $A = (A \cap B) \cup (A \cap B^{C}) \implies \mathbb{P}(A) = \mathbb{P}(A \cap B) + \mathbb{P}(A \cap B^{C})$
 
@@ -42,16 +43,15 @@ Quindi $\mathbb{P}(A \cap B^{C}) = \mathbb{P}(A)-\mathbb{P}(A \cap B) = \mathbb{
 Determinare se gli eventi $A$ e $B$ sono indipendenti.
 
 - $A = \{\text{il primo numero è pari}\}$
-- $B = \{\text{il secondo numero è}\} \leq 2$
+- $B = \{\text{il secondo numero è} \leq 2 \}$
 
-Qui $\Omega = \{(x, y): 1 \leq  x, y \leq 6\}=\{1,2,3,4,5,6\} \times \{1,2,3,4,5,6\}$ gli esiti sono [[esiti equiprobabili|equiprobabili]].
+Qui $\Omega = \{(x, y): 1 \leq  x \leq 6,\ 1 \leq y \leq 6\}=\{1,2,3,4,5,6\} \times \{1,2,3,4,5,6\}$ gli esiti sono [[esiti equiprobabili|equiprobabili]].
 
-Calcoliamo $\mathbb{P}(A), \mathbb{P}(B), \mathbb{P}(A \cap B)$ per vedere se vale l'indipendenza:
+Calcoliamo $\mathbb{P}(A),\ \mathbb{P}(B),\ \mathbb{P}(A \cap B)$ per vedere se vale l'indipendenza:
 
 $$
 \mathbb{P}(A) = \frac{|A|}{|\Omega|} = \frac{18}{36} = \frac{1}{2}
 $$
-
 
 $$
 \mathbb{P}(B) = \frac{|B|}{|\Omega|} = \frac{12}{36} = \frac{1}{3}

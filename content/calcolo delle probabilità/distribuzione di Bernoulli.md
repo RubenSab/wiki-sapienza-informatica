@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-10-24T14:52:55.855+02:00
+updated_at: 2025-11-03T22:28:35.955+01:00
 ---
 > $\Omega = \{0, 1\}$ con $p_{1} = p$, $p_{0} = 1-p$ per $p \in [0, 1]$. La collezione di pesetti $\{p, 1-p\}$ è detta *distribuzione di Bernoulli di parametro $p$.*
 
@@ -21,5 +21,3 @@ Dimostrazione analitica:
 $$
 \sum_{k=0}^{N}p_{k} = \sum_{n=1}^{N} \binom{N}{K} \cdot p^{K} \cdot (1-p)^{N-K} = (p + (1-p))^{N}= 1^{N} = 1 
 $$
-
-Dimostrazione amichevole: *trust me bro, listen to the voices, this is a valid distribution bro, please trust me bro.*

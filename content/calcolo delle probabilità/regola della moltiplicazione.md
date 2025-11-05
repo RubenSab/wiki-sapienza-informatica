@@ -1,14 +1,13 @@
 ---
-updated_at: 2025-09-29T14:38:03.936+02:00
+updated_at: 2025-11-03T14:05:00.229+01:00
 ---
-
-> È la base del calcolo combinatorio:
+È la base del calcolo combinatorio:
 
 $$
 |A_{1} \times A_{2} \times A_{n}| = |A_{1}| \cdot |A_{1}| \cdot \ldots \cdot |A_{n}|
 $$
 
-Il prodotto cartesiano è la **collezione ordinata** di **n-uple ordinate** tale che $\{(x_{1}, x_{2}, ..., x_{n}) : x_{1} \in A_{1}, x_{2} \in A_{2}, ..., x_{n} \in A_{r}\}$.
+*$\times$ indica il prodotto cartesiano e $\mid \mid$ la cardinalità*
 
 Esempio: [[spazio campionario]] delle combinazioni di lanci di un dado per 3 volte:
 
@@ -21,7 +20,7 @@ $$
 $$
 
 $$
-\Omega = \{(a_{1}, a_{2}, a_{3}, a_{4}, a_{5}, a_{6}, a_{7}) : 0 \leq a_{1}, a_{2}, a_{6}, a_{7} \leq 9\}
+\Omega = \{(a_{1}, a_{2}, a_{3}, a_{4}, a_{5}, a_{6}, a_{7}) : 0 \leq a_{1}, a_{2}, a_{6}, a_{7} \leq 9\ \land \text{A} \leq a_{3}, a_{4}, a_{5} \leq \text{B} \}
 $$
 
 $$

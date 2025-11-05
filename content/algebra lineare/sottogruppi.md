@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-10-29T11:24:19.585+01:00
+updated_at: 2025-10-29T17:24:54.433+01:00
 ---
 > Dato un [[gruppo]] $G = (G, \cdot, 1)$ in [[gruppo#^b21101|notazione moltiplicativa]] e un [[teoria degli anelli|sottoinsieme]] $H \subseteq G$ non vuoto, con $a, b \in G$ si dice che $H$ è un *sottogruppo* di $G$ se e solo se $\forall a, b \in H\ (a \cdot b^{-1} \in H)$. Si scrive $H < G$. (In [[gruppo#^963e43|notazione additiva]], $H<G \iff \forall a, b \in H,\ a + (-b) \in H$.
 
@@ -15,6 +15,26 @@ Lemma: L'operazione $\cdot$ induce un operazione $H \times H \to H$ e $(H, \cdot
 
 1. $G < G$
 2. $(\{1\}, \cdot, 1)$
+
+# Esempi
+
+*(le `\overline` delle [[classe di equivalenza|classi]] possono essere omessi per semplicità)*
+
+I sottogruppi di $\frac{\mathbb{Z}}{4\mathbb{Z}} := \{0, 1, 2, 3\}$ sono solo $\{0\}$, se stesso (banali) e $\{0, 2\}$ (non banale).
+
+#todo dimostrazione
+
+> Osservazione: in $\frac{\mathbb{Z}}{d\mathbb{Z}}$ esiste un sottogruppo di [[cardinalità]] $n$ se $n \mid d$.
+
+---
+
+I sottogruppi del **gruppo di Klein**.
+
+$$
+\frac{\mathbb{Z}}{2\mathbb{Z}} \times \frac{\mathbb{Z}}{2\mathbb{Z}} = \{(\overline{0}, \overline{0}), (\overline{1}, \overline{0}), (\overline{0}, \overline{1}), (\overline{1}, \overline{1})\}
+$$
+
+sono quelli banali insieme a $\{(0, 0), (0, 1)\}$, $\{(0, 0), (1, 0)\}$ e $\{(0, 0), (1, 1)\}$.
 
 # Esercizi
 

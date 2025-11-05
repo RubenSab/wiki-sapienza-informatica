@@ -1,9 +1,9 @@
 ---
-updated_at: 2025-10-20T14:31:22.131+02:00
+updated_at: 2025-11-05T09:31:35.726+01:00
 ---
-A volte è uguale invertire il [[probabilità condizionata|condizionamento]], se ad esempio $\mathbb{P}(A \mid B)$ è difficile da calcolare ma $\mathbb{P}(B \mid A)$ è facile.
+A volte è utile invertire il [[probabilità condizionata|condizionamento]], se ad esempio $\mathbb{P}(A \mid B)$ è difficile da calcolare ma $\mathbb{P}(B \mid A)$ è facile.
 
-> Il teorema dice che per due [[evento|eventi]] $A$ e $B$ si ha che $\mathbb{P}(A \mid B) = \frac{\mathbb{P}(B \mid A) \cdot \mathbb{P}(A)}{\mathbb{P}(B)}$, ora calcolando $\mathbb{P}(B)$ con la [[legge della probabilità totale]] otteniamo che
+> Il teorema dice che per due [[evento|eventi]] $A$ e $B$ si ha che $\mathbb{P}(A \mid B) = \frac{\mathbb{P}(B \mid A) \cdot \mathbb{P}(A)}{\mathbb{P}(B)}$. Poi calcolando $\mathbb{P}(B)$ con la [[legge della probabilità totale]] otteniamo che
 
 $$
 \mathbb{P}(A \mid B) = \frac{\mathbb{P}(B \mid A) \cdot \mathbb{P}(A)}{\mathbb{P}(B \mid A)\cdot \mathbb{P}(A) + \mathbb{P}(B \mid A^{C}) \cdot \mathbb{P}(A^{C})}
@@ -64,8 +64,8 @@ Un test per una mutazione genetica è accurato al $99\%$. Si sa che lo $0.5\%$ d
 	- (A | B) positivo (99/100)
 	- negativo (1/100)
 - (B^C) assenza di mutazione (995/1000)
-	- (B | A) positivo (99/100)
-	- negativo (1/100)
+	- (A | B^C) positivo (1/100)
+	- negativo (99/100)
 ```
 
 > Fate il test, e esce positivo. Calcolare la probabilità che avete la mutazione genetica. $\mathbb{P}(B \mid A)$.

@@ -1,13 +1,10 @@
 ---
-updated_at: 2025-10-17T13:43:40.791+02:00
+updated_at: 2025-11-03T13:28:08.060+01:00
 ---
 > Una misura di probabilità su uno [[spazio campionario]] $\Omega$ è una mappa $\mathbb{P}: F \to [0, 1]$ dove $F$ è l'insieme delle parti di $\Omega$ (cioè la famiglia di tutti gli eventi) tale che:
 
-
 - $\mathbb{P}(\Omega) = 1$
-- Se ${(A_{n})}_{n \geq 1}$ è una collezione di [[evento|eventi]] [[operazioni fra gli insiemi#^0004d7|disgiunti]]
-
-Per ogni collezione di eventi disgiunti $(A_{u})_{n\geq 1}$ vale, sia per unioni finite che infinite, che
+- Per ogni collezione numerabile di eventi disgiunti vale, sia per unioni finite che infinite, che
 
 $$
 \mathbb{P}({U}_{n \geq 1} A_{n}) = \sum_{n \geq 1}{\mathbb{P}(A_{n})}
@@ -53,8 +50,9 @@ $$
 5. $A \leq B \implies P(A) \leq P(B) = P(A) \leq P(B - A)$
 # Sub-additività della misura di probabilità
 
-#todo 
+^4c591d
 
+Se $A$ e $B$ sono eventi **disgiunti**, allora $\mathbb{P}(A \cup B) = \mathbb{P}(A+B)$, ma se non sono disgiunti (hanno un'intersezione non vuota), allora $P(A \cup B) \leq P(A) +  P(B)$, perché con $\mathbb{P}(A+B)$ gli eventi nell'intersezione verrebbero contati due volte.
 
 # Continuità delle misure di probabilità
 
@@ -81,7 +79,3 @@ allora:
 $$
 \mathbb{P}(\cap_{n\geq 1}A_{n})=\lim_{n\to +\infty} (\mathbb{P}(A_{n}))
 $$
-
-Dimostrazione:
-
-#todo

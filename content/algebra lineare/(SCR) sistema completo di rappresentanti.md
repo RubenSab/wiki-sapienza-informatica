@@ -2,7 +2,7 @@
 updated_at: 2025-10-20T21:07:24.350+02:00
 ---
 
-> Un sistema completo di rappresentanti o SCR di $\mathcal{R}$ è un [[sottoinsiemi|sottoinsieme]] $X' \subset X$ tale che:
+> Un sistema completo di rappresentanti o SCR di $\mathcal{R}$ è un [[sottoinsiemi|sottoinsiemi]] $X' \subset X$ tale che:
 
 1. $\forall x, y \in X'\ \ x=y \iff Cl(x) = Cl(y)$ e $x \neq y \iff Cl(x) \cap Cl(y) = \emptyset$
 2. $\forall x \in X\ \ \exists x' \in X'$ con $x \in Cl(x')$

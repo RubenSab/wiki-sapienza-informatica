@@ -1,7 +1,7 @@
 ---
-updated_at: 2025-09-24T13:53:35.446+02:00
+updated_at: 2025-11-03T13:06:53.353+01:00
 ---
-> Sia $\Omega$ lo **spazio campionario** o **spazio degli eventi** l'insieme dei possibili esiti di un esperimento aleatorio.
+> Lo **spazio campionario** o **spazio degli eventi**, denotato $\Omega$, è l'insieme dei possibili esiti di un esperimento aleatorio, cioè con risultati casuali.
 
 > Un [[teoria degli insiemi|sottoinsieme]] di $\Omega$ è detto **[[evento]]**.
 

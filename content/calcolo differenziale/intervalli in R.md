@@ -1,5 +1,10 @@
-# definizione di intervallo limitato
+---
+updated_at: 2025-11-03T12:49:24.806+01:00
+---
+# Definizione di intervallo limitato
+
 >L'insieme $I$ che contiene tutti i numeri in $\mathbb{R}$ tra gli estremi (inclusi o meno) $a$ e $b$ è un intervallo di $\mathbb{R}$, è limitato se entrambi gli estremi $a$ e $b$ sono finiti.
+
 $a,b\in\mathbb{R}\text{ }a<b$
 - $\{a\leq x\leq b\} = [a,b]$
 - $\{a<x<b\} = (a,b)$
@@ -13,10 +18,12 @@ X = intervallo limitato qualsiasi
 >Un'intervallo è considerato **degenere** se contiene un solo elemento.
 
 Es: $[1,1]=\{1\}$  
-# definizione di intervallo illimitato
+# Definizione di intervallo illimitato
+
 >$I$ è un intervallo illimitato in $R$ se almeno un'estremo è infinito.
 - Il superiore di un'intervallo illimitato a destra è $+\infty$ e $-\infty$ se è illimitato a sinistra.
 - Il massimo di un'intervallo illimitato a destra e ili minimo di un'intervallo illimitato a sinistra non esistono.
-# consistenza fra le notazioni
+# Consistenza fra le notazioni
+
 $$(a,b)=(inf(I),sup(I))=\{x\in\mathbb{R}|a<x<b\}=(a,b)$$
 - [[distanza fra x e y sulla linea numerica]]

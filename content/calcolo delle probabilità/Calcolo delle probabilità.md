@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-10-27T14:00:26.082+01:00
+updated_at: 2025-10-29T13:37:38.125+01:00
 ---
 > Il calcolo delle probabilità è lo studio matematico di esperimenti con diversi possibili esiti (aleatori cioè non deterministici).
 
@@ -26,3 +26,4 @@ Fonte di esercizi consigliata: *Sheldon Ross - calcolo delle probabilità*
 	- [[distribuzione binomiale]]
 	- [[distribuzione geometrica]]
 	- [[distribuzione di Poisson 🐟]]
+- [[variabili aleatorie]]

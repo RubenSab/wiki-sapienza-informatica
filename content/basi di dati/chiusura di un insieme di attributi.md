@@ -1,7 +1,7 @@
 ---
 updated_at: 2025-10-23T16:43:15.689+02:00
 ---
-Siano $R$ uno [[tabella|schema]] di [[relazione]], $F$ un [[teoria degli insiemi|insieme]] di dipendenze funzionali su $R$ e $X$ un [[sottoinsiemi|sottoinsieme]] di $R$.
+Siano $R$ uno [[tabella|schema]] di [[relazione]], $F$ un [[teoria degli insiemi|insieme]] di dipendenze funzionali su $R$ e $X$ un [[sottoinsiemi|sottoinsiemi]] di $R$.
 
 >La *chiusura* di $X$ rispetto ad $F$, denotata con $X^{+}_{F}$ è definito nel modo seguente
 

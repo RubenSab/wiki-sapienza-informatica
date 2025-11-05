@@ -1,7 +1,7 @@
 ---
 updated_at: 2025-10-07T17:23:40.223+02:00
 ---
-> Indicata con $|I|$ oppure $\text{Card}(I)$, per gli [[teoria degli insiemi|insiemi]] **finiti** si identifica come il numero di elementi nell'insieme, mentre per gli insiemi **infiniti** vale che due insiemi hanno la stessa cardinalità o potenza quando esiste una [[corrispondenza|corrispondenza biunivoca]] tra di loro, indipendentemente se uno sia o non sia il [[sottoinsiemi|sottoinsieme]] dell'altro.
+> Indicata con $|I|$ oppure $\text{Card}(I)$, per gli [[teoria degli insiemi|insiemi]] **finiti** si identifica come il numero di elementi nell'insieme, mentre per gli insiemi **infiniti** vale che due insiemi hanno la stessa cardinalità o potenza quando esiste una [[corrispondenza|corrispondenza biunivoca]] tra di loro, indipendentemente se uno sia o non sia il [[sottoinsiemi|sottoinsiemi]] dell'altro.
 
 Esempio di insiemi infiniti con la stessa cardinalità:
 $$\mathbb{N} = \text{numeri naturali}$$

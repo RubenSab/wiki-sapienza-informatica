@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-10-17T14:03:50.022+02:00
+updated_at: 2025-11-03T22:09:13.908+01:00
 ---
 > Se $A$ e $B$ sono eventi su $\Omega$ tali che $\mathbb{P}(B) > 0$, allora definiamo
 
@@ -14,7 +14,7 @@ $$
 Generalizziamo. Sia $A$ un evento in $\Omega$ e siamo $B_{1}, B_{2}, \ldots, B_{n}$ eventi disgiunti tali che $B_{1} \cup B_{2} \cup \ldots \cup B_{n} = \Omega$ (in altre parole $\{B_{1}, B_{2}, \ldots, B_{n}\}$ è una [[partizione]] di $\Omega$).
 
 $$
-\mathbb{P}(B_{k})>0 \quad \forall 1 \leq k \leq n \quad \mathbb{P}(A) = \sum_{k=1}^{n}\mathbb{P}(A \mid B_{k}) \cdot \mathbb{P}(B_{k})
+\mathbb{P}(B_{k})>0 \quad \forall\ 1 \leq k \leq n \quad \mathbb{P}(A) = \sum_{k=1}^{n}\mathbb{P}(A \mid B_{k}) \cdot \mathbb{P}(B_{k})
 $$
 Dimostrazione:
 
@@ -42,6 +42,7 @@ Notiamo che:
 - $|A|=24$
 - $|B|=4$
 - $|A \cup B| = 4$   (nota: $B \subset A$)
+
 $$
 \mathbb{P}(A \mid B) = \frac{\mathbb{P}(A \cap B)}{\mathbb{P}(B)} = \frac{\frac{4}{52}}{\frac{4}{52}}=1
 $$

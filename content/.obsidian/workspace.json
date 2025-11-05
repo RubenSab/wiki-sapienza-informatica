@@ -20,36 +20,12 @@
             }
           },
           {
-            "id": "06668e3e515b6f30",
+            "id": "701842641f8f8571",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "algebra lineare/lemmi sui sottogruppi additivi di Z (aZ + bZ).md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "lemmi sui sottogruppi additivi di Z (aZ + bZ)"
-            }
-          },
-          {
-            "id": "fcb480342291d729",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "algebra lineare/lemmi sui sottogruppi additivi di Z (aZ + bZ).md",
+                "file": "calcolo delle probabilità/teorema di Bayes.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -64,58 +40,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "lemmi sui sottogruppi additivi di Z (aZ + bZ)"
-            }
-          },
-          {
-            "id": "c5a8c7978fdbd045",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "algebra lineare/omomorfismo.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "omomorfismo"
-            }
-          },
-          {
-            "id": "473dd9e6a5f879da",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "algebra lineare/isomorfismo.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "isomorfismo"
+              "title": "teorema di Bayes"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -152,24 +81,6 @@
             }
           }
         ]
-      },
-      {
-        "id": "539314e9b13eaa20",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "e7a7b303c61786dc",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "graph",
-              "state": {},
-              "pinned": true,
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
-            }
-          }
-        ]
       }
     ],
     "direction": "horizontal",
@@ -190,7 +101,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "check",
+                "query": "falsi",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -293,18 +204,18 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {},
+              "state": {
+                "file": "calcolo delle probabilità/coefficiente binomiale.md"
+              },
               "icon": "lucide-info",
-              "title": "File properties"
+              "title": "File properties for coefficiente binomiale"
             }
           }
-        ],
-        "currentTab": 7
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 354.5,
-    "collapsed": true
+    "width": 354.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -320,34 +231,34 @@
       "new-3d-graph:Open 3d graph": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "701842641f8f8571",
   "lastOpenFiles": [
-    "algebra lineare/isomorfismo.md",
-    "algebra lineare/omomorfismo.md",
-    "algebra lineare/gruppo.md",
-    "algebra lineare/lemmi sui sottogruppi additivi di Z (aZ + bZ).md",
-    "algebra lineare/sottogruppi.md",
-    "basi di dati/terza forma normale.md",
-    "basi di dati/chiusura di Armstrong.md",
-    "basi di dati/chiusura di un insieme di attributi.md",
-    "algebra lineare/corrispondenza.md",
-    "algebra lineare/teorema fondamentale dell'aritmetica.md",
-    "algebra lineare/orrore.md",
-    "algebra lineare/applicazione.md",
-    "progettazione di sistemi digitali/addizionatore a propagazione di riporto (ripple carry adder).md",
-    "metodologie di programmazione/equals.md",
-    "interdisciplinare/funzione.md",
-    "metodologie di programmazione/SAM (Single Abstract Method).md",
-    "sistemi operativi/processo.md",
-    "algebra lineare/anello.md",
-    "interdisciplinare/teoria degli insiemi.md",
-    "metodi matematici per l'informatica/logica proposizionale.md",
-    "algebra lineare/Algebra lineare.md",
-    "algebra lineare/campo.md",
+    "calcolo delle probabilità/combinazioni con ripetizioni consentite.md",
+    "calcolo delle probabilità/indipendenza di n eventi.md",
+    "calcolo delle probabilità/indipendenza di due eventi.md",
+    "calcolo delle probabilità/probabilità condizionata.md",
+    "metodi matematici per l'informatica/esercizi/dimostrare che dato un insieme V di n punti li possiamo collegare due a due con n(n-1) diviso 2 segmenti (si assuma n maggiore uguale a 2).md",
+    "calcolo delle probabilità/legge della probabilità totale.md",
+    "calcolo delle probabilità/teorema di Bayes.md",
+    "calcolo delle probabilità/combinazioni senza ripetizioni.md",
+    "calcolo delle probabilità/coefficiente binomiale.md",
     "calcolo delle probabilità/scelta di k elementi da n.md",
-    "algebra lineare/gruppo abeliano.md",
-    "metodologie di programmazione/campi.md",
+    "calcolo delle probabilità/Calcolo delle probabilità.md",
+    "calcolo delle probabilità/distribuzione di Poisson 🐟.md",
+    "calcolo delle probabilità/variabili aleatorie.md",
+    "calcolo delle probabilità/variabile aleatoria indicatrice.md",
+    "basi di dati/algebra relazionale dei database.md",
+    "calcolo delle probabilità/misure di probabilità generiche.md",
+    "calcolo delle probabilità/distribuzione geometrica.md",
     "calcolo delle probabilità/distribuzione binomiale.md",
+    "calcolo delle probabilità/distribuzione di Bernoulli.md",
+    "calcolo delle probabilità/indipendenza di tre eventi.md",
+    "interdisciplinare/teoria degli insiemi.md",
+    "interdisciplinare/sottoinsiemi.md",
+    "calcolo delle probabilità/disposizioni con ripetizioni consentite.md",
+    "interdisciplinare/funzioni di codifica e decodifica.md",
+    "calcolo delle probabilità/probabilità.md",
+    "calcolo delle probabilità/regola della moltiplicazione.md",
     "foto/IMG-20251011-WA0002.jpg",
     "foto/IMG-20251011-WA0001.jpg",
     "foto/IMG-20251011-WA0005.jpg",

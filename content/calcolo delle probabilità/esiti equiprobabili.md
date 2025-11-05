@@ -1,13 +1,15 @@
 ---
-updated_at: 2025-09-29T14:16:54.905+02:00
+updated_at: 2025-11-03T13:25:35.309+01:00
 ---
-> Sia $\Omega$ un insieme finito, e decidiamo con $|\Omega|$ il numero degli elementi di $\Omega$. Definiamo, per ogni singleton $\omega \in \Omega$, $\mathbb{P}(\{\omega\})=\frac{1}{|\Omega|}$ (tutti gli esiti sono equiprobabili).
+> Sia $\Omega$ un insieme finito, e sia $|\Omega|$ il numero degli elementi di $\Omega$ ([[cardinalità]]). Definiamo, per ogni singleton $\omega \in \Omega$, $\mathbb{P}(\{\omega\})=\frac{1}{|\Omega|}$ (tutti gli esiti sono equiprobabili).
 
-> Nota: Usando ($\star$) otteniamo che per ogni $A \subseteq \Omega$:
+> Nota: Per ogni $A \subseteq \Omega$:
 
 $$
-\mathbb{P}(A)=\mathbb{P}(\cup_{\omega \in A}\{\omega\})^{(\star)}=\sum_{\omega \in A}{\mathbb{P(\{\omega\})}} = \sum_{\omega \in A}{\frac{1}{|\Omega|}}={\frac{1}{|\Omega|}\cdot |A|} \to \mathbb{P}(A)=\frac{|A|}{|\Omega|}\ \forall A \subseteq \Omega
+\mathbb{P}(A)=\mathbb{P}(\cup_{\omega \in A}\{\omega\})=\sum_{\omega \in A}{\mathbb{P(\{\omega\})}} = \sum_{\omega \in A}{\frac{1}{|\Omega|}}={\frac{1}{|\Omega|}\cdot |A|} \to \mathbb{P}(A)=\frac{|A|}{|\Omega|}\ \forall A \subseteq \Omega
 $$
+
+Cioè considerando un **evento** $A$ composto da **esisti** equiprobabili su $\Omega$, la sua probabilità è il rapporto tra gli esiti di cui è composto e **tutti** gli esiti che compongono $\Omega$.
 
 Esempio: lancio una moneta equa
 
@@ -59,7 +61,6 @@ Notiamo che $\mathbb{P}$ soddisfa:
 - $\mathbb{P}(A^{c}) = \frac{|{A^{c}}|}{|\Omega|} = \frac{|\Omega|-|A|}{|\Omega|} = 1 - \mathbb{P}(A)$
 - $\mathbb{P}(A\cup B) = \mathbb{P}(A) + \mathbb{P}(B) - \mathbb{P}(A\cap B)$ perché $\frac{|A\cup B|}{|\Omega|} = \frac{|A| + |B| - |A \cap B|}{|\Omega|}$
 
-> N.B.: $\mathbb{P}(A\cup B) \leq \mathbb{P}(A) + \mathbb{P}(B)$ perché gli elementi nell'intersezione di $A$ e $B$ vengono contati due volte in $\mathbb{P}(A) + \mathbb{P}(B)$ (subadditività).
-
+> N.B.: $\mathbb{P}(A\cup B) \leq \mathbb{P}(A) + \mathbb{P}(B)$ perché gli elementi nell'intersezione di $A$ e $B$ vengono contati due volte in $\mathbb{P}(A) + \mathbb{P}(B)$ ([[probabilità#^4c591d|sub-additività]]).
 
 > Osserviamo che per lavorare con tale misura di probabilità dobbiamo saper **contare** gli elementi di vari insiemi, ossia dobbiamo saper determinare le **cardinalità** degli insiemi.

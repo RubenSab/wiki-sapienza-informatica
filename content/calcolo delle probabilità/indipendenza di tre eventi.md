@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-10-13T14:43:47.349+02:00
+updated_at: 2025-11-03T22:02:19.168+01:00
 ---
 > Sia $\Omega$ uno [[spazio campionario]]. Diciamo che tre [[evento|eventi]] $A$, $B$ e $C$ su $\Omega$ sono indipendenti se
 
@@ -13,7 +13,7 @@ $$
 
 $A, B, C\ \text{indipendenti} \implies A, B, C\ \text{indipendenti a coppie}$;
 
-però $A, B, C\ \text{indipendenti a coppie} \not\implies A, B, C\ \text{indipendenti}$
+però $A, B, C\ \text{indipendenti a coppie}\ \;\not\!\!\!\!\implies A, B, C\ \text{indipendenti}$
 
 # Esempio
 
@@ -39,4 +39,4 @@ $\Omega = \{(T, T), (T, C), (C, T), (C, C)\}$
 
 $\mathbb{P}(A) \cdot \mathbb{P}(B) = \mathbb{P}(A) \cdot \mathbb{P}(C) = \mathbb{P}(B) \cdot \mathbb{P}(C) = \frac{1}{4}$ cioè i tre eventi sono **indipendenti a coppie**.
 
-Però $A \cap B \cap C = \emptyset \implies \mathbb{P}(\emptyset)=0 \quad \neq \quad \mathbb{P}(A)\cdot \mathbb{P}(B) \cdot \mathbb{P}(C)$, quindi i tre eventi **non sono indipendenti**.
+Però $A \cap B \cap C = \emptyset \implies \mathbb{P}(A \cap B \cap C)=0 \quad \neq \quad \mathbb{P}(A)\cdot \mathbb{P}(B) \cdot \mathbb{P}(C)$, quindi i tre eventi **non sono indipendenti**.

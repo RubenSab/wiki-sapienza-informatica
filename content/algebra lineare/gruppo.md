@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-10-27T21:58:48.272+01:00
+updated_at: 2025-10-29T17:10:03.810+01:00
 ---
 > Un gruppo è una quadrupla $(G, *, e, {}^{-1})$ dove:
 
@@ -59,3 +59,31 @@ Se $(A, +, \cdot, -, 0_{A}, 1_{A})$ è un anello commutativo, dimostra che la tr
 Dai quattro punti si conclude che $(A^{\times}, \cdot, 1_{A})$ è un gruppo. Inoltre è anche commutativo dato che l'operazione prodotto, essendo ereditata dall'anello commutativo, è commutativa.
 
 $\square$
+
+# Creare gruppi a partire da gruppi
+
+## Prodotto cartesiano di gruppi
+
+Abbiamo 2 gruppi
+
+$$
+(G_{1}, *_{1}, e_{1}) \quad (G_{2}, *_{2}, e_{2})
+$$
+
+Definiamo $G_{1} \times G_{2}$ nel modo seguente: $(a_{1}, a_{2}) * (b_{1}, b_{2}) = (a_{1} *_{1} b_{1},\ a_{2} *_{2} b_{2})$
+
+Si osserva che la struttura risultante dal prodotto cartesiano $(G_{1} \times G_{2}, \overset{\text{nuova}}{*}, (e_{1}, e_{2}))$ è un gruppo.
+
+Dimostrazione:
+
+- associatività: $(a_{1}, a_{2}) * ((b_{1}, b_{2}) * (c_{1}, c_{2})) = (a_{1}, a_{2}) * (b_{1} *_{1} c_{1}, b_{2} *_{2} c_{2}) = (a_{1} *_{1} (b_{1} *_{1} c_{1}), a_{2} *_{2} (b_{2} *_{2} c_{2})) = ((a_{1} *_{1} b_{1}) *_{1} c_{1}, (a_{2} *_{2} b_{2}) *_{2} c_{2}) = ((a_{1}, a_{2}) * (b_{1}, b_{2})) * (c_{1}, c_{2})$
+
+Successivamente si dimostrano anche gli altri tre assiomi.
+
+### Esempio
+
+> N.B.: Questi sono gruppi **additivi** con elemento neutro $\overline{0}$.
+
+$$
+\frac{\mathbb{Z}}{2\mathbb{Z}} \times \frac{\mathbb{Z}}{2\mathbb{Z}} = \{(\overline{0}, \overline{0}), (\overline{1}, \overline{0}), (\overline{0}, \overline{1}), (\overline{1}, \overline{1})\}
+$$
