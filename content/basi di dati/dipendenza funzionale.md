@@ -1,9 +1,9 @@
 ---
-updated_at: 2025-10-23T15:38:03.604+02:00
+updated_at: 2025-11-06T15:15:07.407+01:00
 ---
 > Una dipendenza funzionale stabilisce un particolare legame semantico tra due [[teoria degli insiemi|insiemi]] non vuoti di attributi $X$ e $Y$ appartenenti ad uno [[tabella#^ec7c8e|schema]] $R$.
 
-Tale vincolo si scrive $X \to Y$ e si legge $X$ e $Y$.
+Tale vincolo si scrive $X \to Y$ e si legge $X$ *determina* $Y$.
 
 - $X$ si dice *determinante*,
 - $Y$ si dice *determinato*.

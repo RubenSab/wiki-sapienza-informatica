@@ -1,12 +1,14 @@
 ---
-updated_at: 2025-10-05T17:25:18.048+02:00
+updated_at: 2025-11-06T15:41:15.658+01:00
 ---
 > Le tabelle sono insiemi di *record* di tipo omogeneo.
 
 Ogni tabella, elemento di base della [[database relazionali]], ha:
 
-- uno *schema* (l'insieme dei nomi/intestazioni degli attributi/campi); ^ec7c8e
-- un'*istanza* dei *valori* organizzati in *tuple* o *record* di tutti i valori che un oggetto nel database assume.
+- uno ***schema*** (l'insieme dei nomi/intestazioni degli attributi/campi); ^ec7c8e
+- un'***istanza*** dei *valori* organizzati in *tuple* o *record* di tutti i valori che un oggetto nel database assume.
+
+> Un'istanza si dice *legale* se rispetta le [[dipendenza funzionale|dipendenze funzionali]].
 
 Esempio di tabella:
 

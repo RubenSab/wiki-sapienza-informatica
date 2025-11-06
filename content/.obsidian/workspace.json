@@ -20,12 +20,12 @@
             }
           },
           {
-            "id": "701842641f8f8571",
+            "id": "62198d623393ee3f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "calcolo delle probabilità/teorema di Bayes.md",
+                "file": "basi di dati/progettazione di un database relazionale.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -40,11 +40,35 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "teorema di Bayes"
+              "title": "progettazione di un database relazionale"
+            }
+          },
+          {
+            "id": "3ab6f2fb83394623",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "basi di dati/terza forma normale.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "terza forma normale"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -215,7 +239,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 354.5
+    "width": 354.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -231,15 +256,22 @@
       "new-3d-graph:Open 3d graph": false
     }
   },
-  "active": "701842641f8f8571",
+  "active": "3ab6f2fb83394623",
   "lastOpenFiles": [
+    "basi di dati/chiusura di Armstrong.md",
+    "basi di dati/terza forma normale.md",
+    "basi di dati/tabella.md",
+    "basi di dati/progettazione di un database relazionale.md",
+    "basi di dati/chiave.md",
+    "basi di dati/database relazionali.md",
+    "basi di dati/dipendenza funzionale.md",
+    "calcolo delle probabilità/teorema di Bayes.md",
     "calcolo delle probabilità/combinazioni con ripetizioni consentite.md",
     "calcolo delle probabilità/indipendenza di n eventi.md",
     "calcolo delle probabilità/indipendenza di due eventi.md",
     "calcolo delle probabilità/probabilità condizionata.md",
     "metodi matematici per l'informatica/esercizi/dimostrare che dato un insieme V di n punti li possiamo collegare due a due con n(n-1) diviso 2 segmenti (si assuma n maggiore uguale a 2).md",
     "calcolo delle probabilità/legge della probabilità totale.md",
-    "calcolo delle probabilità/teorema di Bayes.md",
     "calcolo delle probabilità/combinazioni senza ripetizioni.md",
     "calcolo delle probabilità/coefficiente binomiale.md",
     "calcolo delle probabilità/scelta di k elementi da n.md",
@@ -252,13 +284,6 @@
     "calcolo delle probabilità/distribuzione geometrica.md",
     "calcolo delle probabilità/distribuzione binomiale.md",
     "calcolo delle probabilità/distribuzione di Bernoulli.md",
-    "calcolo delle probabilità/indipendenza di tre eventi.md",
-    "interdisciplinare/teoria degli insiemi.md",
-    "interdisciplinare/sottoinsiemi.md",
-    "calcolo delle probabilità/disposizioni con ripetizioni consentite.md",
-    "interdisciplinare/funzioni di codifica e decodifica.md",
-    "calcolo delle probabilità/probabilità.md",
-    "calcolo delle probabilità/regola della moltiplicazione.md",
     "foto/IMG-20251011-WA0002.jpg",
     "foto/IMG-20251011-WA0001.jpg",
     "foto/IMG-20251011-WA0005.jpg",
