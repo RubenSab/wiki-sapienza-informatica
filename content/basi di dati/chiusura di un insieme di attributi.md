@@ -1,12 +1,12 @@
 ---
-updated_at: 2025-10-23T16:43:15.689+02:00
+updated_at: 2025-11-06T16:41:41.581+01:00
 ---
 Siano $R$ uno [[tabella|schema]] di [[relazione]], $F$ un [[teoria degli insiemi|insieme]] di dipendenze funzionali su $R$ e $X$ un [[sottoinsiemi|sottoinsiemi]] di $R$.
 
 >La *chiusura* di $X$ rispetto ad $F$, denotata con $X^{+}_{F}$ è definito nel modo seguente
 
 $$
-X^{+}_{F} = \{A \mid X \to A \in F^{A}\}
+X^{+}_{F} = \{A: X \to A \in F^{A}\}
 $$
 
 In pratica fanno parte della chiusura di un insieme di attributi $X$ tutti quelli che sono [[dipendenza funzionale|determinati funzionalmente]] da $X$, eventualmente applicando gli [[chiusura di Armstrong|assiomi di Armstrong]].

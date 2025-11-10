@@ -38,6 +38,8 @@ Con la notazione R: $\forall x, y \in R\ (x\ \mathcal{R}\ y\ \land y\ \mathcal{R
 
 ## Transitiva
 
+^7703c4
+
 >Una relazione è **transitiva** se $\forall a,b,c \in A, (a,b)\in R \land (b,c)\in R \implies (a,c )\in R$
 
 Con la notazione R: $\forall x, y \in R\ (x\ \mathcal{R}\ y\ \land y\ \mathcal{R}\ x \implies x\ \mathcal{R}\ x)$
@@ -51,6 +53,8 @@ Con la notazione R: $\forall x, y \in R\ (x\ \mathcal{R}\ y\ \lor y\ \mathcal{R}
 # Tipi di relazioni
 
 ## Equivalenza
+
+^815a70
 
 >Una relazione è un'**equivalenza** se è:
 - riflessiva

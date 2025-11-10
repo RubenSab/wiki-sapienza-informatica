@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-11-03T22:38:19.612+01:00
+updated_at: 2025-11-10T13:42:49.247+01:00
 ---
 Spesso siamo interessati non all'esito di un esperimento aleatorio, ma di una [[funzione]] dell'esito.
 
@@ -13,11 +13,7 @@ Nell'esempio precedente, $\Omega = \{T, C\}^{100}$, $S = \{0, 1, \ldots, 100\}$ 
 
 # Legge di variabile aleatoria
 
-> Se $\Omega$ è uno spazio campionario e $X:\quad \Omega \to S$ è una variabile aleatoria su $\Omega$ a valori $\in S$, la *legge (o distribuzione) della variabile aleatoria* di $X$ è la [[misure di probabilità generiche|misura di probabilità]] indotta su $S$ data dai pesetti:
-
-$$
-\forall x \in S (\ p_{x}\ \text{con}\ p_{x} = \mathbb{P}(X = x) \ )
-$$
+> Se $\Omega$ è uno spazio campionario e $X:\quad \Omega \to S$ è una variabile aleatoria su $\Omega$ a valori $\in S$, la *legge (o distribuzione) della variabile aleatoria* di $X$ è la [[misure di probabilità generiche|misura di probabilità]] specificata su $S$ dai pesetti $p_{x}\ \text{con}\ p_{x} = \mathbb{P}(X = x)$, per ogni $x \in S$.
 
 # Esempi
 

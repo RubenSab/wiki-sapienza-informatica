@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-11-06T15:41:15.658+01:00
+updated_at: 2025-11-06T16:30:07.842+01:00
 ---
 > Le tabelle sono insiemi di *record* di tipo omogeneo.
 
@@ -23,7 +23,6 @@ Istanza (aspetto *estensionale* del DB = espandibile e variabile):
 | ------ | ------- | ---- |
 | Andrea | Verdi   | 2005 |
 | Luca   | Bianchi | 2010 |
-
 
 > Una [[chiave]] di una relazione è uno o più attributi che permettono di identificare univocamente una tupla nella tabella. Se ci sono più chiavi, una è la **chiave primaria** e le altre sono **alternative**.
 

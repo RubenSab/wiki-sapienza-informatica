@@ -14,7 +14,7 @@
   "addMatrixBlock_parameter": "pmatrix",
   "autoFraction_toggle": true,
   "autoLargeBracket_toggle": true,
-  "autoSumLimit_toggle": true,
+  "autoSumLimit_toggle": false,
   "autoEncloseSup_toggle": true,
   "autoEncloseSub_toggle": true,
   "encloseSelection_toggle": true,

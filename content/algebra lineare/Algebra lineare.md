@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-10-22T17:37:52.794+02:00
+updated_at: 2025-11-10T15:31:22.021+01:00
 ---
 > [Materiale del corso](https://drive.google.com/drive/folders/1IBBff-5DaA1tpisj7XJSW9FGGEKoE26N)
 
@@ -26,6 +26,10 @@ updated_at: 2025-10-22T17:37:52.794+02:00
 	- [[anello]]
 	- [[gruppo]]
 	- [[gruppo abeliano]]
+	- [[isomorfismo]]
+	- [[omomorfismo]]
+	- [[sottogruppi]]
+	- [[gruppo quoziente]]
 	- [[campo]]
 
 - [[lemmi sui sottogruppi additivi di Z (aZ + bZ)]] (preparazione alla teoria della divisibilità)

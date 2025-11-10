@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-10-29T17:10:03.810+01:00
+updated_at: 2025-11-10T15:23:12.917+01:00
 ---
 > Un gruppo è una quadrupla $(G, *, e, {}^{-1})$ dove:
 
@@ -23,6 +23,9 @@ Esempi di gruppo:
 
 - $(\mathbb{Z}, +, 0, -)$ è un gruppo abeliano (l'operazione è l'addizione, l'inverso di $a$ è $-a$).
 - $(\mathbb{R}^*, *, 1, {}^{-1})$ è un gruppo abeliano (l'operazione è la moltiplicazione, l'inverso di $a$ è $1/a$).
+
+
+[[gruppo quoziente]]
 
 # Notazioni
 ## Gruppi in notazione additiva

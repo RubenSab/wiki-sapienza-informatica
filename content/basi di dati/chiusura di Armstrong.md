@@ -1,27 +1,50 @@
 ---
-updated_at: 2025-10-28T17:12:39.459+01:00
+updated_at: 2025-11-10T17:32:14.242+01:00
 ---
-> L'insieme di [[dipendenza funzionale|dipendenze funzionali]] $F^{A}$ è definito nel modo seguente, con gli *assiomi di Armstrong*:
+> L'insieme di [[dipendenza funzionale|dipendenze funzionali]] $F^{A}$ è definito come l'insieme di tutte le dipendenze funzionali definite con gli *assiomi di Armstrong*.
+
+# Assiomi di Armstrong
 
 - se $f \in F$ allora $f \in F^{A}$
-- **assioma della [[proprietà, tipi di relazioni e ordini|riflessività]]**: se $Y \subseteq X \subseteq R$ allora $(X \to Y) \in F^{A}$
-- **assioma dell'aumento**: se $(X \to Y) \in F^{A}$ allora $\forall Z \subseteq R\ ((XZ \to YZ) \in F^{A})$
-- **assioma della transitività**: se $(X \to Y) \in F^{A} \land (Y \to Z \in F^{A})$ allora $(X \to Z) \in F^{A}$
+- **Assioma della [[proprietà, tipi di relazioni e ordini|riflessività]]**: se $Y \subseteq X \subseteq R$ allora $(X \to Y) \in F^{A}$
+  Esempio: `ID` determina `Nome`, quindi `ID` determina `Nome, ID`.
+- **Assioma dell'aumento**: se $(X \to Y) \in F^{A}$ allora $\forall Z \subseteq R\ ((XZ \to YZ) \in F^{A})$
+  Esempio: `ID` determina `Nome`, quindi `ID, Cognome` determina `Nome, Cognome`.
+- **Assioma della [[proprietà, tipi di relazioni e ordini#^7703c4|transitività]]**: se $(X \to Y) \in F^{A} \land (Y \to Z) \in F^{A}$ allora $(X \to Z) \in F^{A}$
+  Esempio: `Specie` determina `Regno` e `Regno` determina `Phylum`, quindi `Specie` determina `Phylum`.
 
 Dimostreremo che $F^{+} = F^{A}$, cioè che la chiusura di un insieme di dipendenze funzionali $F$ può essere ottenuta a partire da $F$ applicando ricorsivamente gli assiomi di Armstrong.
 
-Conseguenze degli assiomi di Armstrong:
+## Conseguenze
+
+Da questi assiomi, derivano tre regole necessarie per derivare nuove dipendenze funzionali in $F^{A}$ da quelle già trovate in $F_{A}$, fino a trovarle tutte.
+
+- **Regola dell'unione**: se $X \to Y \in F^{A}$ e $X \to Z\in F^{A}$ allora $X \to YZ \in F^{A}$
+  Esempio: `ID` determina `Nome` e `ID` determina `Cognome`, quindi `ID` determina `Nome, Cognome`
+- **Della decomposizione**: se $X \to Y \in F^{A}$ e $Z\subseteq Y$ allora $X \to Z\in F^{A}$
+  Esempio: `ID` determina `Nome, Cognome`, quindi `ID` determina `Nome`.
+- **Della pseudotransitività**: se $X \to Y \in F^{A}$ e $WY \to Z\in F^{A}$ allora $WX \to Z\in F^{A}$
+  Esempio: `ID` determina `Nome` e `Cognome, Nome` determina `PosizioneClassifica`, quindi `Cognome, ID` determina `PosizioneClassifica`.
+
+### Dimostrazioni
+
+#### Regola dell'unione
+
+- Se $X \to Y \in F^{A}$ allora $X \to XY \in F^{A}$ per aumento.
+- Se $X \to Z \in F^{A}$ allora $XY \to YZ \in F^{A}$ per aumento.
+- Dato che $X \to XY \to YZ \in F^{A}$, per transitività si ha che $X \to YZ \in F^{A}$.
+
+#### Regola della decomposizione
 
 #todo
 
-- regola dell'unione
-- della decomposizione
-- pseudotransitività
+#### Regola della pseudotransitività
 
+#todo 
 
 - [[chiusura di un insieme di attributi]]
 
-# Dimostrazione $F^{+} = F^{A}$
+# Dimostrazione $F^{+} = F^{A}$ #todo
 
 Per dimostrare che $F^{A} = F^{+}$ bisogna verificare $F^{A} \subseteq F^{+} \land F^{+} \subseteq F^{A}$
 

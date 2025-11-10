@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-11-06T15:15:07.407+01:00
+updated_at: 2025-11-06T17:16:43.668+01:00
 ---
 > Una dipendenza funzionale stabilisce un particolare legame semantico tra due [[teoria degli insiemi|insiemi]] non vuoti di attributi $X$ e $Y$ appartenenti ad uno [[tabella#^ec7c8e|schema]] $R$.
 
@@ -20,7 +20,7 @@ Calcolare $F^{+}$ è molto difficile, invece l'insieme detto *[[chiusura di Arms
 
 Ovviamente $F \subseteq F^{+}$.
 
-# Dipendenza funzionali banali
+# Dipendenze funzionali banali
 
 Dati uno schema di relazione $\mathcal{R}$ e due [[teoria degli insiemi|sottoinsiemi]] non vuoti $X, Y \subseteq \mathcal{R}$, tali che $Y \subseteq X$ si ha che ogni istanza $r$ di $\mathcal{R}$ soddisfa la dipendenza funzionale (detta banale) $X \to Y$.
 
