@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-11-10T17:32:14.242+01:00
+updated_at: 2025-11-10T22:28:32.826+01:00
 ---
 > L'insieme di [[dipendenza funzionale|dipendenze funzionali]] $F^{A}$ è definito come l'insieme di tutte le dipendenze funzionali definite con gli *assiomi di Armstrong*.
 
@@ -24,29 +24,32 @@ Da questi assiomi, derivano tre regole necessarie per derivare nuove dipendenze 
 - **Della decomposizione**: se $X \to Y \in F^{A}$ e $Z\subseteq Y$ allora $X \to Z\in F^{A}$
   Esempio: `ID` determina `Nome, Cognome`, quindi `ID` determina `Nome`.
 - **Della pseudotransitività**: se $X \to Y \in F^{A}$ e $WY \to Z\in F^{A}$ allora $WX \to Z\in F^{A}$
-  Esempio: `ID` determina `Nome` e `Cognome, Nome` determina `PosizioneClassifica`, quindi `Cognome, ID` determina `PosizioneClassifica`.
+  Esempio: Se `Matricola` determina `Facoltà` e `Facoltà, CodiceEsame` determina `Docente` allora `Matricola, CodiceEsame` determina `Docente`.
 
 ### Dimostrazioni
 
 #### Regola dell'unione
 
-- Se $X \to Y \in F^{A}$ allora $X \to XY \in F^{A}$ per aumento.
-- Se $X \to Z \in F^{A}$ allora $XY \to YZ \in F^{A}$ per aumento.
-- Dato che $X \to XY \to YZ \in F^{A}$, per transitività si ha che $X \to YZ \in F^{A}$.
+- Se $X \to Y \in F^{A}$ allora $X \to XY \in F^{A}$ per aumento,
+- se $X \to Z \in F^{A}$ allora $XY \to YZ \in F^{A}$ per aumento,
+- dato che $X \to XY \to YZ \in F^{A}$, per transitività si ha che $X \to YZ \in F^{A}$.
 
 #### Regola della decomposizione
 
-#todo
+- Se $Z\subseteq Y$ allora $Y \to Z\in F^{A}$ per riflessività,
+- se $X \to Y \in F^{A}$ allora $X \to Y \to Z$, quindi $X \to Z$ per transitività.
 
 #### Regola della pseudotransitività
 
-#todo 
+- Se $X \to Y \in F^{A}$ allora $WX \to WY \in F^{A}$ per aumento,
+- se $WY \to Z\in F^{A}$ allora $WX \to WY \to Z$, quindi $WX \to Z$ per transitività.
 
-- [[chiusura di un insieme di attributi]]
+
+[[chiusura di un insieme di attributi]]
 
 # Dimostrazione $F^{+} = F^{A}$ #todo
 
-Per dimostrare che $F^{A} = F^{+}$ bisogna verificare $F^{A} \subseteq F^{+} \land F^{+} \subseteq F^{A}$
+Per dimostrare che $F^{A} = F^{+}$ bisogna verificare sia che $F^{A} \subseteq F^{+}$ che $F^{+} \subseteq F^{A}$.
 
 ## 1. Dimostrazione $F^{A} \subseteq F^{+}$
 

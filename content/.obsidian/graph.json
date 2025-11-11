@@ -5,8 +5,15 @@
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": false,
-  "collapse-color-groups": true,
+  "collapse-color-groups": false,
   "colorGroups": [
+    {
+      "query": "tag:todo",
+      "color": {
+        "a": 1,
+        "rgb": 16711680
+      }
+    },
     {
       "query": "path: \"metodi matematici per l'informatica\"",
       "color": {
@@ -57,13 +64,6 @@
       }
     },
     {
-      "query": "tag:todo",
-      "color": {
-        "a": 1,
-        "rgb": 16711680
-      }
-    },
-    {
       "query": "path: \"interdisciplinare\"  ",
       "color": {
         "a": 1,
@@ -99,16 +99,16 @@
       }
     }
   ],
-  "collapse-display": false,
+  "collapse-display": true,
   "showArrow": true,
   "textFadeMultiplier": -1.8,
   "nodeSizeMultiplier": 1.81909718161619,
   "lineSizeMultiplier": 1.4481282051282,
-  "collapse-forces": false,
+  "collapse-forces": true,
   "centerStrength": 0.259910036547653,
   "repelStrength": 13.3848748945741,
   "linkStrength": 0.732218161371943,
   "linkDistance": 161,
-  "scale": 0.29141065162683877,
+  "scale": 0.07466402479948493,
   "close": true
 }

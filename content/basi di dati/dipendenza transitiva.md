@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-11-06T17:13:39.126+01:00
+updated_at: 2025-11-11T16:14:56.654+01:00
 ---
 Siano $R$ uno [[tabella|schema di relazione]] e $F$ un [[teoria degli insiemi|insieme]] di [[dipendenza funzionale|dipendenze funzionali]] su $R$.
 
