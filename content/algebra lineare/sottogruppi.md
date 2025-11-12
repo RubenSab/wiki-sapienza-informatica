@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-10-29T17:24:54.433+01:00
+updated_at: 2025-11-12T10:01:26.710+01:00
 ---
 > Dato un [[gruppo]] $G = (G, \cdot, 1)$ in [[gruppo#^b21101|notazione moltiplicativa]] e un [[teoria degli anelli|sottoinsieme]] $H \subseteq G$ non vuoto, con $a, b \in G$ si dice che $H$ è un *sottogruppo* di $G$ se e solo se $\forall a, b \in H\ (a \cdot b^{-1} \in H)$. Si scrive $H < G$. (In [[gruppo#^963e43|notazione additiva]], $H<G \iff \forall a, b \in H,\ a + (-b) \in H$.
 
@@ -13,16 +13,48 @@ Lemma: L'operazione $\cdot$ induce un operazione $H \times H \to H$ e $(H, \cdot
 
 > N.B.: Ogni gruppo $(G, \cdot, 1)$ possiede 2 sottogruppi *banali*:
 
-1. $G < G$
-2. $(\{1\}, \cdot, 1)$
+1. $G < G$;
+2. $(\{1\}, \cdot, 1)$ oppure in [[gruppo#^963e43|notazione additiva]] $(\{0\}, +, 0)$.
 
 # Esempi
 
-*(le `\overline` delle [[classe di equivalenza|classi]] possono essere omessi per semplicità)*
+*(le barrette sopra le [[classe di equivalenza|classi]] possono essere omessi per semplicità)*
 
 I sottogruppi di $\frac{\mathbb{Z}}{4\mathbb{Z}} := \{0, 1, 2, 3\}$ sono solo $\{0\}$, se stesso (banali) e $\{0, 2\}$ (non banale).
 
-#todo dimostrazione
+Dimostrazione:
+
+Tabella di operazioni fra le classi:
+
+| $+$   | 0   | 1   | 2   | 3   |
+| ----- | --- | --- | --- | --- |
+| **0** | 0   | 1   | 2   | 3   |
+| **1** | 1   | 2   | 3   | 0   |
+| **2** | 2   | 3   | 0   | 1   |
+| **3** | 3   | 0   | 1   | 2   |
+
+Verifichiamo o confutiamo la chiusura di $+$ e eventualmente la condizione $\forall a, b \in H,\ a +(-b) \in H$ per ogni sottoinsieme di $\{0, 1, 2, 3\}$.
+
+- $\emptyset$: per definizione di gruppo $\emptyset$ non è un gruppo.
+
+- {0}: per definizione (in notazione additiva) è un sottogruppo banale.
+- {0, 1, 2, 3}: è l'insieme di partenza stesso, quindi è un sottogruppo banale per definizione
+
+- {1}: non ha l'elemento neutro, quindi non è un gruppo.
+- {2}: non ha l'elemento neutro, quindi non è un gruppo.
+- {3}: non ha l'elemento neutro, quindi non è un gruppo.
+- {0, 1}: $1+1 = 2 \notin \{0, 1\} \implies$ non è un gruppo.
+- {0, 2}: $\forall x, y \in \{0, 2\}\ (x+y \in \{0, 2\})$ e $-0 = 2 \land -2 = 0$, quindi $\{0, 2\}$ è un gruppo. Si verifica direttamente anche $\forall a, b \in H,\ a +(-b) \in H$, quindi $\{0, 2\} < G$.
+- {0, 3}: $3+3 = 2 \notin \{0, 3\} \implies$ non è un gruppo.
+- {1, 2}: $1+2 = 3 \notin \{1, 2\} \implies$ non è un gruppo.
+- {1, 3}: $1+1 = 2 \notin \{1, 3\} \implies$ non è un gruppo.
+- {2, 3}: $2+2 = 0 \notin \{2, 3\} \implies$ non è un gruppo.
+- {0, 1, 2}: $1+2 = 3 \notin \{0, 1, 2\} \implies$ non è un gruppo.
+- {0, 1, 3}: $1+1 = 2 \notin \{0, 1, 3\} \implies$ non è un gruppo.
+- {0, 2, 3}: $2+3 = 1 \notin \{0, 2, 3\} \implies$ non è un gruppo.
+- {1, 2, 3}: $1+3 = 0 \notin \{1, 2, 3\} \implies$ non è un gruppo.
+
+L'unico sottogruppo non banale di $\{0, 1, 2, 3\}$ è ${0, 2}$.
 
 > Osservazione: in $\frac{\mathbb{Z}}{d\mathbb{Z}}$ esiste un sottogruppo di [[cardinalità]] $n$ se $n \mid d$.
 

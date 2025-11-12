@@ -1,20 +1,58 @@
 ---
-updated_at: 2025-11-10T16:05:02.707+01:00
+updated_at: 2025-11-12T11:40:39.573+01:00
 ---
+> Un *gruppo quoziente* è un [[gruppo]] i cui elementi solo le [[classe di equivalenza|classi di equivalenza]] di un altro gruppo, secondo una [[relazione]] di [[proprietà, tipi di relazioni e ordini|equivalenza]] scelta.
 
-> Sia $G$ un [[gruppo]] in [[gruppo#^b21101|notazione moltiplicativa]]; sia $H < G$. Definiamo una [[relazione]] $\sim$ su $G$.
+> N.B.: Un gruppo quoziente si può costruire **se e solo se le [[classi laterali]] del gruppo originario rispetto a un [[sottogruppi|sottogruppo]] secondo la relazione di equivalenza scelta, coincidono**, cioè se il sottogruppo è [[sottogruppo normale|normale]].
 
-> $x, x' \in G \sim \quad x \sim x'\ :\iff \ x(x')^{-1} \in H$
+Esempio: Il gruppo $\{\overline{0}, \overline{1}\}$ ottenuto dalla selezione delle classi di equivalenza di $\mathbb{Z}$ secondo la relazione di congruenza modulo 2.
 
-# Lemma
+> N.B.: Per una relazione di congruenza generica (come modulo $n$) su un [[gruppo abeliano]], la classe di equivalenza dell'elemento neutro è sempre un sottogruppo normale del gruppo originale.
 
-> $\sim$ è una [[proprietà, tipi di relazioni e ordini#^815a70|relazione d'equivalenza]].
+# Definizione formale e notazione
 
-Dimostrazione: Verifichiamo la proprietà di transitività, lasciando in esercizio simmetria e riflessività.
+Dato che le classi laterali coincidono ($H \triangleleft G$), possiamo definire formalmente il gruppo quoziente come
 
-Siano $x, x', x'' \in G$. Supponiamo che $x \sim x' \land x' \sim x'' \sim x(x')^{-1} \in H \land x'(x'')^{-1} \in H$, quindi $x(x')^{-1}\ x'(x'')^{-1} = x(x'')^{-1} \iff x \sim x''$.
+$$
+G/H = \{\, gH \mid g \in G \,\}
+$$
 
-# Esercizi #todo
+Su $G/H$ possiamo definire un'operazione:
+
+$$
+(gH)(g'H) = (gg')H
+$$
+
+Che è ben definita se e solo se $H \triangleleft G$.
+
+# Esempio con $G = \mathbb{Z},\ H = n \mathbb{Z}$
+
+Scriviamo solo la definizione di equivalenza a sinistra, dato che $\mathbb{Z}$ è abeliano quindi le classi laterali coincidono. Per lo stesso motivo sappiamo a priori che l'insieme quoziente è ben definito.
+
+$$
+x \approx y \iff x - y \in n\mathbb{Z}
+$$
+
+Le classi sono 
+
+$$
+[x] = x + n\mathbb{Z} = \{\, x + kn \mid k \in \mathbb{Z} \,\}
+$$
+
+L’insieme quoziente è 
+
+$$
+\mathbb{Z}/n\mathbb{Z}
+$$
+
+L’operazione definita nel gruppo quoziente è 
+
+$$
+[x] + [y] = [x + y]
+$$
+
+#todo
+# Esercizi
 
 Esercizio: $x \sim x' \iff Hx = Hx'$. (H=nZ)
 
@@ -34,30 +72,3 @@ $[x] = n \mathbb{Z} + x = x + n \mathbb{Z}$
 Esercizio 2: trovare su $G$ una relazione d'equivalenza $\sim$ le cui classi d'equivalenza siano $xH$.
 
 Suggerimento $x \approx x' \iff x^{-1} x' \in H$.
-
-# Domanda
-
-> È possibile costruire $\frac{G}{\sim}$ un'operazione binaria che gli conferisce una struttura di gruppo?
-
-no. 🥀😭
-
-Però in certi casi sì ☺️ $x, x' \in G \quad [x] \cdot [x'] = [x\cdot x']$.
-
-Bisogna innanzitutto che se $x \sim y \iff [x] = [y]$ e $x' \sim y' \iff [x'] = [y']$ allora $[xx'] = [yy']$.
-
-Ma $xx' \sim yy' \iff xx'(yy')^{-1} \in H \iff x\underset{\in H}{\boxed{x'(y')^{-1}}y^{-1}} \in H$.
-
-> Def: si dice che $H$ è un sottogruppo *normale* di $G$ ($H \triangleleft G$) se $\forall x \in G$, si ha che $xH = Hx$.
-
-## Lemma
-
-Le condizioni seguenti sono tra loro equivalenti
-
-1. $H \triangleleft G$
-2. $\forall g \in G$ e $h \in H\ \exists h' \in H : gh=h'g$
-3. $\forall g \in G \quad H^{g} = H$
-4. $\sim = \approx$
-
-Dimostrazione:
-
-$3 \implies 1 \implies 2 \implies 3$.

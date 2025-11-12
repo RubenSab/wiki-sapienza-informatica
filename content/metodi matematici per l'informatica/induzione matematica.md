@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-03-07T11:52:27.385+01:00
+updated_at: 2025-11-11T23:48:15.571+01:00
 ---
 $$[P(0)\wedge(P(n)\implies P(n))]\implies \forall n, P(n)$$
 > Un'importante proprietà dei [[numeri naturali]] è che $n$ o è $0$ o è $n+1$, cioè il successivo di un altro numero, ciò rende possibile l'induzione.
@@ -23,6 +23,7 @@ $$0+...+k = \sum_{i=0}^{k} i=\frac{k(k+1)}{2} = P(k), k \in \mathbb{N}$$
 | --- | --- | --- | --- | --- | --- |
 | 5   | 4   | 3   | 2   | 1   | 0   |
 ## dimostrazione rigorosa dell'intuizione
+
 - Questa è semplicemente un intuizione, dobbiamo dimostrare la proprietà per ogni numero naturale per avere  una dimostrazione rigorosa.
 - Sfruttiamo la proprietà dei numeri naturali che dice che $n$ o è $0$ o è $n+1$, cioè il successivo di un altro numero.
 1. Nel **caso base**, il numero più piccolo per cui la proprietà si può dimostrare, cioè $0$, $P(0)$ vale.

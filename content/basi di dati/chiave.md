@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-11-06T17:16:53.120+01:00
+updated_at: 2025-11-11T23:41:31.367+01:00
 ---
 > Un [[teoria degli insiemi|insieme]] $X$ di attributi o un singolo attributo di una relazione $R$ è una *chiave* in $R$ (lo schema) se soddisfa le seguenti condizioni:
 
@@ -15,4 +15,4 @@ updated_at: 2025-11-06T17:16:53.120+01:00
 - In un [[database relazionali|database]] di persone, nome + codice fiscale è la *superchiave*, mentre solo il codice fiscale è la vera chiave, quindi per definizione la superchiave può essere ridotta.
 - Lo [[tabella|schema]] stesso è una *superchiave*.
 
-> Il valore di default `null` è polimorfico (tutti i tipi degli attributi sono nullable) e non viola l'unicità delle chiavi e il [[foreign key]].
+> Il valore di default `null` è polimorfico (tutti i tipi degli attributi sono nullable) e non viola l'unicità delle chiavi e la [[foreign key]].

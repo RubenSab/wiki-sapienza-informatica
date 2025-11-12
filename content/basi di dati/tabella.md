@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-11-06T16:30:07.842+01:00
+updated_at: 2025-11-11T23:46:58.840+01:00
 ---
 > Le tabelle sono insiemi di *record* di tipo omogeneo.
 
@@ -30,7 +30,7 @@ L'*istanza di relazione* è l'insieme di tutte le tuple. Non ci sono riferimenti
 
 > N.B.: Si accede per valore anche anche ai campi, infatti se voglio il campo "Cognome", non devo sapere la sua posizione nella lista dei campi, ma basterà scrivere "Cognome" per accedervi.
 
-
 > N.B.: Per quanto scritto sopra, **NON ESISTE** nessun tipo di concetto di ordinamento per inserimento, né dei campi, né dei valori.
 
-> #todo definizione di tabella master, slave e foreign key (vincolo inter-relazionale)
+- [[foreign key]]
+- [[relazione master-slave tra tabelle]]

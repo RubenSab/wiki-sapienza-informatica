@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-11-10T22:28:32.826+01:00
+updated_at: 2025-11-11T18:03:03.499+01:00
 ---
 > L'insieme di [[dipendenza funzionale|dipendenze funzionali]] $F^{A}$ è definito come l'insieme di tutte le dipendenze funzionali definite con gli *assiomi di Armstrong*.
 
@@ -43,9 +43,6 @@ Da questi assiomi, derivano tre regole necessarie per derivare nuove dipendenze 
 
 - Se $X \to Y \in F^{A}$ allora $WX \to WY \in F^{A}$ per aumento,
 - se $WY \to Z\in F^{A}$ allora $WX \to WY \to Z$, quindi $WX \to Z$ per transitività.
-
-
-[[chiusura di un insieme di attributi]]
 
 # Dimostrazione $F^{+} = F^{A}$ #todo
 
