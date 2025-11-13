@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-11-11T22:47:00.255+01:00
+updated_at: 2025-11-13T13:46:40.819+01:00
 ---
 Siano $R$ uno [[tabella|schema]] di [[relazione]], $F$ un [[teoria degli insiemi|insieme]] di dipendenze funzionali su $R$ e $X$ un [[sottoinsiemi|sottoinsiemi]] di $R$.
 

@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-11-10T13:42:49.247+01:00
+updated_at: 2025-11-12T13:38:59.379+01:00
 ---
 Spesso siamo interessati non all'esito di un esperimento aleatorio, ma di una [[funzione]] dell'esito.
 
@@ -10,6 +10,7 @@ Esempio: lancio una moneta $\{T, C\}^{100}$ ci interessa contare il numero di te
 Nell'esempio precedente, $\Omega = \{T, C\}^{100}$, $S = \{0, 1, \ldots, 100\}$ e $\forall \omega \in \Omega \ (X(\omega) = \text{numero di T in\ } \omega)$.
 
 - [[variabile aleatoria indicatrice]]
+- [[valore atteso di una variabile aleatoria]]
 
 # Legge di variabile aleatoria
 

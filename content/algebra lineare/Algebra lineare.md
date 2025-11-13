@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-11-12T11:37:52.483+01:00
+updated_at: 2025-11-13T10:13:47.114+01:00
 ---
 > [Materiale del corso](https://drive.google.com/drive/folders/1IBBff-5DaA1tpisj7XJSW9FGGEKoE26N)
 
@@ -12,7 +12,7 @@ updated_at: 2025-11-12T11:37:52.483+01:00
 | $\sim$           | Notazione sim delle relazioni (uguale alla notazione R ma con un altro simbolo) |
 | $n\mathbb{Z}$    | L'insieme di tutti i multipli di $n$ in $\mathbb{Z}$                            |
 
-# Temi
+# Algebra astratta
 
 ## Relazioni, corrispondenze e classi
 
@@ -30,14 +30,18 @@ updated_at: 2025-11-12T11:37:52.483+01:00
 - [[teoria degli anelli]]
 - [[anello]]
 - [[gruppo]]
+	- [[isomorfismo]]
+	- [[omomorfismo]]
+	- [[sottogruppi]]
+	- [[sottogruppo normale]]
+	- [[classi laterali]]
+	- [[gruppo quoziente]]
+	- [[permutazioni]]
+	- [[gruppo di permutazioni]]
 - [[gruppo abeliano]]
-- [[isomorfismo]]
-- [[omomorfismo]]
-- [[sottogruppi]]
-- [[sottogruppo normale]]
-- [[classi laterali]]
-- [[gruppo quoziente]]
 - [[campo]]
+
+
 
 ## Teoria della divisibilità
 

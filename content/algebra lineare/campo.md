@@ -1,7 +1,7 @@
 ---
-updated_at: 2025-10-27T15:46:41.016+01:00
+updated_at: 2025-11-12T20:24:44.468+01:00
 ---
-> Un gruppo è un [[anello|anello commutativo]] tale che $A^{\times} = A - \{0\}$, cioè tutti gli elementi diversi dal neutro additivo sono invertibili.
+> Un campo è un [[anello|anello commutativo]] tale che $A^{\times} = A - \{0\}$, cioè tutti gli elementi diversi dal neutro additivo sono invertibili.
 
 $\mathbb{Q}, \mathbb{R}, \mathbb{C}$ (infiniti) sono campi, ma anche tutti gli [[insieme quoziente|insiemi quozienti]] $\mathbb{F}_{p}=\frac{\mathbb{Z}}{p\mathbb{Z}}$ (finiti!) su cui sono definite addizione e moltiplicazione; invece $\mathbb{Z}$ non è un campo, perché $\mathbb{Z}^{\times} = \{-1, 1\}$ è diverso da $\mathbb{Z} - \{0\}$.
 

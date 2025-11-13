@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "ae1162e9cf4d3d63",
+        "id": "4509724f8bf84da7",
         "type": "tabs",
         "children": [
           {
-            "id": "ada45d330fdf90a5",
+            "id": "e7a7b303c61786dc",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -20,13 +20,13 @@
             }
           },
           {
-            "id": "a870ad205b23165f",
+            "id": "fa68c477c45873aa",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TODO.md",
-                "mode": "source",
+                "file": "basi di dati/chiusura di Armstrong.md",
+                "mode": "preview",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -40,34 +40,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "TODO"
-            }
-          },
-          {
-            "id": "0c1b926bde11ee54",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "algebra lineare/gruppo quoziente.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "gruppo quoziente"
+              "title": "chiusura di Armstrong"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -124,7 +101,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "falsi",
+                "query": "dipendenze banali",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -255,35 +232,35 @@
       "new-3d-graph:Open 3d graph": false
     }
   },
-  "active": "ada45d330fdf90a5",
+  "active": "fa68c477c45873aa",
   "lastOpenFiles": [
-    "TODO.md",
-    "algebra lineare/classi laterali.md",
-    "algebra lineare/gruppo quoziente.md",
-    "algebra lineare/Algebra lineare.md",
-    "interdisciplinare/classe di equivalenza.md",
-    "algebra lineare/lemmi sui sottogruppi additivi di Z (aZ + bZ).md",
-    "algebra lineare/sottogruppo normale.md",
-    "interdisciplinare/funzione.md",
-    "algebra lineare/insieme quoziente.md",
-    "algebra lineare/isomorfismo.md",
-    "basi di dati/tabella.md",
-    "calcolo integrale/calcolo integrale.md",
-    "metodi matematici per l'informatica/induzione matematica.md",
-    "algebra lineare/orrore.md",
     "basi di dati/dipendenza funzionale.md",
     "basi di dati/chiusura di Armstrong.md",
     "basi di dati/chiusura di un insieme di attributi.md",
-    "algebra lineare/sottogruppi.md",
+    "TODO.md",
+    "calcolo integrale/criteri di confronto delle serie a segno costante.md",
+    "algebra lineare/gruppo di permutazioni.md",
+    "basi di dati/Basi di dati.md",
     "algebra lineare/gruppo.md",
+    "interdisciplinare/teoria degli insiemi.md",
+    "interdisciplinare/permutazioni.md",
+    "interdisciplinare/relazione.md",
+    "algebra lineare/Algebra lineare.md",
+    "calcolo delle probabilità/ciclo.md",
+    "interdisciplinare/funzione.md",
     "introduzione agli algoritmi/problemi combinatori.md",
-    "basi di dati/relazione master-slave tra tabelle.md",
-    "metodi matematici per l'informatica/esercizi/esempio di induzione.md",
-    "relazione tra tabelle master/slave.md",
+    "calcolo delle probabilità/valore atteso di una variabile aleatoria.md",
+    "algebra lineare/applicazione biiettiva o biiezione.md",
+    "progettazione di sistemi digitali/errori di trasmissione.md",
+    "algebra lineare/isomorfismo.md",
+    "algebra lineare/sottogruppo normale.md",
+    "algebra lineare/campo.md",
+    "algebra lineare/anello.md",
+    "calcolo delle probabilità/distribuzione di Bernoulli.md",
+    "calcolo delle probabilità/distribuzione geometrica.md",
+    "calcolo differenziale/successione.md",
+    "calcolo integrale/serie.md",
     "relazione tra tabelle master",
-    "basi di dati/chiave.md",
-    "basi di dati/foreign key.md",
-    "basi di dati/3NF (terza forma normale).md",
     "foto/IMG-20251011-WA0002.jpg",
     "foto/IMG-20251011-WA0001.jpg",
     "foto/IMG-20251011-WA0005.jpg",
