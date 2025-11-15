@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-11-11T23:37:55.676+01:00
+updated_at: 2025-11-15T18:48:50.958+01:00
 ---
 # Forma normale di Boyce-Codd (BCNF) (non è una 3NF propria)
 
@@ -11,7 +11,6 @@ updated_at: 2025-11-11T23:37:55.676+01:00
 
 Dati uno [[tabella|schema di relazione]] $R$ e un insieme di dipendenze funzionali $F$ su $R$, $R$ è in 3NF se e solo se per ogni dipendenza funzionale non banale $X \to A \in F^{+}$ si ha che:
 
-- $A \in X$, oppure
 - $A$ è un **attributo primo** (cioè contenuto in una chiave), oppure
 - $X$ è una **superchiave** (si ricorda che anche una singola chiave è una superchiave),
 
@@ -34,7 +33,7 @@ Questa definizione ci evita l'assioma della decomposizione e $F^{+}$, perché sa
 
 > Dati uno schema di relazione $R$ e un insieme $F$ di dipendenze funzionali su $R$, $R$ è in 3NF se $\forall X \to Y \in F$ con $Y \nsubseteq X$ (cioè non banale), vale almeno una di queste condizioni:
 
-- tutti gli attributi di $Y$ sono attributi primi, oppure
+- **tutti** gli attributi di $Y$ sono **attributi primi**, oppure
 - $X$ è una superchiave.
 
 Praticamente, per ogni dipendenza funzionale in $F$, il **determinante** è una **superchiave** o **ogni attributo** del **dipendente** è **primo**.
@@ -43,9 +42,9 @@ Praticamente, per ogni dipendenza funzionale in $F$, il **determinante** è una 
 
 > Dato uno schema $R$ e un insieme di dipendenze funzionali $F$, $R$ è in 3NF se e solo se **non** ci sono attributi che dipendono [[dipendenza parziale|parzialmente]] o [[dipendenza transitiva|transitivamente]] da una chiave.
 
-# Decomposizione di uno schema non in 3NF
+# Decomposizione di uno schema non 3NF in più schemi 3NF
 
-Uno schema non in 3NF può essere decomposto in più modi in diversi schemi che rispettano la 3NF.
+> Uno schema non in 3NF può essere decomposto in più modi in diversi schemi che rispettano la 3NF.
 
 Ad esempio lo schema $R = ABC$ con l'insieme di dipendenze funzionali $F=\{A \to B, B \to C\}$
 non è in forma normale perché c'è la dipendenza transitiva $A \to C$.
@@ -89,7 +88,11 @@ Ma non è un istanza legale di R, perché non soddisfa la dipendenza funzionale 
 
 Invece nel primo caso ($AB,\ BC$) fare il [[join naturale]] tra i due schemi non ricrea perfettamente la struttura dello schema originale, portando una perdita di informazioni.
 
-Per decomporre uno schema non in 3NF in più schemi in 3NF, che uniti in un solo schema rispettano la 3NF, bisogna:
+> Per decomporre uno schema non in 3NF in più schemi in 3NF, che uniti in un solo schema rispettano la 3NF, bisogna:
 
 - preservare **tutte** le dipendenze in $F^{+}$.
-- fare in modo che si possa ricostruire **qualsiasi** istanza legale dello schema originario mediante un join naturale.
+- fare in modo che si possa ricostruire perfettamente **qualsiasi** istanza legale dello schema originario mediante un join naturale.
+
+Il problema è che il calcolo di $F^{+}$ richiede un tempo esponenziale, però fortunatamente per verificare che si siano preservate tutte le dipendenze in $F^{+}$ basta verificare se $X \to Y$ appartiene a $F^{+}$.
+
+Ciò si fa calcolando $X^{+}$. Dopodiché se $Y \subseteq X^{+}$ allora $X \to Y \in F^{A}$ (per il [[chiusura di un insieme di attributi#^aff93b|lemma della chiusura di un insieme di attributi]]).

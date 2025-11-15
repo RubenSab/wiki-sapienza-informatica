@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-11-13T13:17:41.188+01:00
+updated_at: 2025-11-13T19:20:57.845+01:00
 ---
 > È un [[gruppo]] $G$ i cui elementi sono le [[permutazioni]] di un [[teoria degli insiemi|insieme]] $M$ e la cui operazioni è la *composizione* delle permutazioni in $G$.
 
@@ -32,7 +32,7 @@ Però la composizione $\tau \sigma$ è $\begin{pmatrix} 1\ 2\ 3\ 4 \\ 4\ 2\ 3\ 1
 
 ## Ci sono gruppi $S_{n}$ abeliani?
 
-I gruppi $S_{1}, S_{2}$ e $S_{3}$ sono abeliani, invece quelli con $S_{n}, n \geq 4$ non sono abeliani.
+I gruppi $S_{1}$ e $S_{2}$ sono abeliani, invece quelli con $S_{n}, n \geq 3$ non sono abeliani.
 
 Script che lo dimostra per $S_{n \in [1, 7]}$:
 

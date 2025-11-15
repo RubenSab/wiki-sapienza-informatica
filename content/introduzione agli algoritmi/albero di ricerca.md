@@ -1,7 +1,7 @@
 ---
-updated_at: 2025-05-27T10:37:51.497+02:00
+updated_at: 2025-11-15T18:55:01.950+01:00
 ---
-> È un albero binario in cui per ogni nodo le chiavi del sottoalbero sinistro sono minori della chiave del nodo corrente e quelle del sottoalbero destro sono più grandi. Non possono esserci duplicati.
+> È un [[albero]] binario in cui per ogni nodo le chiavi del sottoalbero sinistro sono minori della chiave del nodo corrente e quelle del sottoalbero destro sono più grandi. Non possono esserci duplicati.
 
 Si può utilizzare per implementare i [[dizionario|dizionari]].
 # Implementazioni dell'algoritmo di ricerca

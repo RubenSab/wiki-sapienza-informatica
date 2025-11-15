@@ -20,12 +20,60 @@
             }
           },
           {
-            "id": "fa68c477c45873aa",
+            "id": "618060ea6881e39a",
+            "type": "leaf",
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "https://sites.google.com/di.uniroma1.it/basididati-modulo1canalem-z/home-page/materiale-del-corso",
+                "title": "Basi di Dati - Modulo 1 (canale M-Z) - Materiale del corso",
+                "mode": "webview"
+              },
+              "icon": "globe-2",
+              "title": "Basi di Dati - Modulo 1 (canale M-Z) - Materiale del corso"
+            }
+          },
+          {
+            "id": "05353b5638792e6a",
+            "type": "leaf",
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "https://drive.google.com/file/d/0B-4exWJj0L7RRXNFeE0zdXlQbjg/view?resourcekey=0-mf-d6HWwWgxWijAVQhU7Sw",
+                "title": "16.Decomposizioni che hanno un join senza perdita - Esercizi.ppt - Google Drive",
+                "mode": "webview"
+              },
+              "icon": "globe-2",
+              "title": "16.Decomposizioni che hanno un join senza perdita - Esercizi.ppt - Google Drive"
+            }
+          },
+          {
+            "id": "6bb4f771cb13443e",
+            "type": "leaf",
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "https://drive.google.com/file/d/1J96jLXiLnWsrqYIguIOtt2fMzOq2fPKh/view",
+                "title": "11.Chiusura di un insieme di attributi.pdf - Google Drive",
+                "mode": "webview"
+              },
+              "icon": "globe-2",
+              "title": "11.Chiusura di un insieme di attributi.pdf - Google Drive"
+            }
+          }
+        ]
+      },
+      {
+        "id": "cc5750bf1b3b1912",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8c2e0c0dcf12afca",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "basi di dati/chiusura di Armstrong.md",
+                "file": "basi di dati/chiusura di un insieme di attributi.md",
                 "mode": "preview",
                 "source": false,
                 "backlinks": true,
@@ -40,11 +88,10 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "chiusura di Armstrong"
+              "title": "chiusura di un insieme di attributi"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -84,8 +131,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 321.5,
-    "collapsed": true
+    "width": 321.5
   },
   "right": {
     "id": "26b38658cac3fe47",
@@ -232,21 +278,26 @@
       "new-3d-graph:Open 3d graph": false
     }
   },
-  "active": "fa68c477c45873aa",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "basi di dati/dipendenza funzionale.md",
-    "basi di dati/chiusura di Armstrong.md",
     "basi di dati/chiusura di un insieme di attributi.md",
+    "basi di dati/chiusura di Armstrong.md",
+    "basi di dati/dipendenza funzionale.md",
+    "basi di dati/Basi di dati.md",
+    "interdisciplinare/dizionario.md",
+    "introduzione agli algoritmi/albero di ricerca.md",
     "TODO.md",
+    "calcolo delle probabilità/ciclo.md",
+    "progettazione di sistemi digitali/flip-flop.md",
+    "introduzione agli algoritmi/complessità temporale.md",
+    "basi di dati/3NF (terza forma normale).md",
     "calcolo integrale/criteri di confronto delle serie a segno costante.md",
     "algebra lineare/gruppo di permutazioni.md",
-    "basi di dati/Basi di dati.md",
     "algebra lineare/gruppo.md",
     "interdisciplinare/teoria degli insiemi.md",
     "interdisciplinare/permutazioni.md",
     "interdisciplinare/relazione.md",
     "algebra lineare/Algebra lineare.md",
-    "calcolo delle probabilità/ciclo.md",
     "interdisciplinare/funzione.md",
     "introduzione agli algoritmi/problemi combinatori.md",
     "calcolo delle probabilità/valore atteso di una variabile aleatoria.md",
@@ -255,11 +306,6 @@
     "algebra lineare/isomorfismo.md",
     "algebra lineare/sottogruppo normale.md",
     "algebra lineare/campo.md",
-    "algebra lineare/anello.md",
-    "calcolo delle probabilità/distribuzione di Bernoulli.md",
-    "calcolo delle probabilità/distribuzione geometrica.md",
-    "calcolo differenziale/successione.md",
-    "calcolo integrale/serie.md",
     "relazione tra tabelle master",
     "foto/IMG-20251011-WA0002.jpg",
     "foto/IMG-20251011-WA0001.jpg",

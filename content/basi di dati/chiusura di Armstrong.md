@@ -1,7 +1,7 @@
 ---
-updated_at: 2025-11-13T17:15:18.066+01:00
+updated_at: 2025-11-15T18:30:39.345+01:00
 ---
-> L'insieme di [[dipendenza funzionale|dipendenze funzionali]] $F^{A}$ è definito come l'insieme di tutte le dipendenze funzionali definite con gli *assiomi di Armstrong*.
+> L'insieme di [[dipendenza funzionale|dipendenze funzionali]] $F^{A}$ è definito come l'insieme di tutte le dipendenze funzionali ottenute con gli *assiomi di Armstrong*.
 
 # Assiomi di Armstrong
 
@@ -44,7 +44,9 @@ Da questi assiomi, derivano tre regole necessarie per derivare nuove dipendenze 
 - Se $X \to Y \in F^{A}$ allora $WX \to WY \in F^{A}$ per aumento,
 - se $WY \to Z\in F^{A}$ allora $WX \to WY \to Z$, quindi $WX \to Z$ per transitività.
 
-# Dimostrazione $F^{+} = F^{A}$ #todo
+# Dimostrazione $F^{+} = F^{A}$
+
+^9563ac
 
 Per dimostrare che $F^{A} = F^{+}$ bisogna verificare sia che $F^{A} \subseteq F^{+}$ che $F^{+} \subseteq F^{A}$.
 
@@ -52,45 +54,44 @@ Per dimostrare che $F^{A} = F^{+}$ bisogna verificare sia che $F^{A} \subseteq F
 
 Si può procedere per [[induzione]], incrementando di 1 a ogni passo il numero di applicazioni di assiomi di Armstrong.
 
-- Caso base $i=0$:   $f \in F^{A(0)} \implies f \in F \quad F \subset F^{+}$
-- Ipotesi induttiva $i-1$:   $f \in F^{A(i-1)} \implies f \in F^{+}$ (assumiamo che tutte le dipendenze $f$ prodotte nel passo $i-1$ e nei passi precedenti sono soddisfatte da ogni istanza legale)
-- Passo induttivo: se applichiamo qualsiasi assioma tra i 3, dobbiamo produrre un'istanza legale. Il passo induttivo si triforca, perché dobbiamo applicare a ripetizione gli altri 3 assiomi:
+- **Caso base** $i=0$: $X  \to Y \in F \implies X \to Y \in F^{+}$
+- **Ipotesi induttiva** $i-1$:   $f \in F^{A(i-1)} \implies f \in F^{+}$ (assumiamo che tutte le dipendenze $f$ prodotte nel passo $i-1$ e nei passi precedenti sono soddisfatte da ogni istanza legale)
+- **Passo induttivo**: Per l’ipotesi induttiva ogni dipendenza funzionale ottenuta a partire da $F$ applicando gli assiomi di Armstrong un numero di volte minore o uguale a $i-1$ è in $F^{+}$. Dobbiamo dimostrarlo per un numero di volte uguale a $i$. Si possono presentare tre casi:
 
-	1. $X \to Y$ per **riflessività** $\implies Y \subseteq X \quad \forall r\ \text{legale}\ \forall t_{1}[X]=t_{2}[X] \implies t_{1}[Y] = t_{2}[Y]$
-	2. $X \to Y \in F^{A(i)}$ per **aumento** $\implies \exists V \to W \in F^{A(i-1)} \land Z \subset R \mid X = VZ \land Y = WZ$. $XW \to YW \quad \forall r\ \text{legale} \quad t_{1}[V]=t_{2}[V] \implies t_{1}[XW]=t_{2}[XW] \implies t_{1}[X]t_{1}[W] = t_{2}[X]t_{2}[W]$. $r\ \text{legale} \implies t_{1}[X] = t_{2}[X] \implies t_{1}[Y]=t_{2}[Y]$. $t_{1}[Y]t_{1}[W] = t_{2}[Y]t_{2}[W] \implies t_{1}[YW] = t_{2}[YW] \implies t_{1}[Z] = t_{2}[Z],\ (V \to Z) \in F^{+}$
-	3. $X \to Y \in F^{A(i)}$ per **transitività** $\implies \exists (X \to Z) \in F^{A(i-1)} \land (Z \to Y) \in F^{A(i-1)}$. $\forall r\ \text{legale}\ t_{1}[X]=t_{2}[X] \implies t_{1}[Z]=t_{2}[Z] \implies t_{1}[Y]=t_{2}[Y]$ per ipotesi induttiva.
+	1. Se $X \to Y \in F^{A(i)}$ è stata ottenuta per **riflessività**, allora $Y \subseteq X$. $\forall r\ \text{legale}\ t_{1}[X]=t_{2}[X] \implies t_{1}[Y] = t_{2}[Y]$, quindi $X \to Y \in F^{+}$
+	2. Se $X \to Y \in F^{A(i)}$ è stata ottenuta per **aumento** da una dipendenza funzionale $V \to W \in F^{A(i-1)}$, quindi $X = VZ$ e $Y = WZ$ per qualche insieme di attributi $Z\subseteq R$. $\forall r\ \text{legale}\ t_{1}[X] = t_{2}[X] \implies t_{1}[V] = t_{2}[V] \land t_{1}[Z] = t_{2}[Z]$. Per ipotesi induttiva ($V \to W \in F^{A(i-1)}$) da $t_{1}[V] = t_{2}[V]$ segue $t_{1}[W]=t_{2}[W]$, infine da $t_{1}[W]=t_{2}[W] \land t_{1}[Z] = t_{2}[Z]$ segue $t_{1}[Y] = t_{2}[Y]$. 
+	3. Se $X \to Y \in F^{A(i)}$ è stata ottenuta per **transitività** a due dipendenze funzionali $X \to Z$ e $Z\to Y \in F^{A(i-1)}$. $\forall r\ \text{legale}\ t_{1}[X] = t_{2}[X]$. Per ipotesi induttiva ($X \to Y \in F^{A(i)}$), da $t_{1}[X] = t_{2}[X]$ segue $t_{1}[Z]=t_{2}[Z]$, da $t_{1}[Z] = t_{2}[Z]$ segue $t_{1}[Y] = t_{2}[Y]$.
 
 Abbiamo dimostrato che $F^{A} \subseteq F^{+}$.
 
 ## 2. Dimostrazione $F^{+} \subseteq F^{A}$
 
-$X \to Y \in F^{+} \implies X \to Y \in F^{A}$
+Supponiamo per assurdo che esista una dipendenza funzionale $X \to Y \in F^{+} \land X \to Y \notin F^{A}$.
 
-$X\to Y \in F^{+}$ è soddisfatta da ogni istanza legale.
+Studiamo una particolare istanza $r$ di $R$ (ma senza perdita di generalità) per incontrare una contraddizione, dimostrando che $X \to Y \in F^{+} \implies X \to Y \in F^{A}$.
 
-Scelgo una istanza legale **ad hoc** senza perdita di generalità, perché è la dipendenza $X \to Y \in F^{+}$ a essere generica.
+L'istanza studiata ha solo due tuple, **uguali** sugli attributi $X^{+}$ (la [[chiusura di un insieme di attributi]] $X$) e **diverse** su $R-X^{+}$ cioè tutti i rimanenti.
 
+### Prima parte: $r$ è un'istanza legale
 
-|       | $X^{+}$ (Chiusura di $X$) | $R-X^{+}$ (Attributi rimanenti) |
-| ----- | ------------------------- | ------------------------------- |
-| $t_1$ | 1 1 1 1 1 1 ...           | 1 1 1 1 1 1 ...                 |
-| $t_2$ | 1 1 1 1 1 1 ...           | 0 0 0 0 0 0 ...                 |
-1 = uguali
-0 = diversi
+Sia $V \to W \in F$ una dipendenza funzionale qualsiasi in $r$ e supponiamo per assurdo che non sia soddisfatta da $r$, quindi che $r$ non sia legale.
+Se così fosse, le due tuple di $r$ dovrebbero avere gli stessi valori per $V$ e diversi valori per $W$, in modo che $V$ non determini $W$.
 
-Quest'istanza è legale? Cioè rispetta tutte le dipendenze in $F$?
+Ciò implica che $V \subset X^{+}$ (i valori uguali tra le due tuple) e $W \cap (R-X^{+}) \neq \emptyset$ (almeno qualche attributo nell'insieme $W$ è diverso tra le due tuple).
 
-Se soddisfa qualunque $V \to W \in F$ allora è legale.
+$V \subset X^{+} \implies X \to V \in F^{A}$ per il [[chiusura di un insieme di attributi#^aff93b|lemma della chiusura di un insieme di attributi]].
 
-- $t_{1}[V] = t_{2}[V] \implies$ dipendenza soddisfatta (dimostrazione classica)
-	- Dimostrazione: $t_{1}[V] = t_{2}[V] \implies V \subseteq X^{+} \implies X \to V \in F^{A} \land V \to W \in F^{A} \underset{\text{transitività}}{\implies} X \to W \in F^{A}$
-	  $\underset{\text{lemma 1}}{\implies} W \subseteq X^{+} \implies t_{1}[W]=t_{2}[W]$, quindi la dipendenza è soddisfatta.
-	  Se l'istanza è legale $\land\ X \to Y \in F^{+} \implies X \to Y \in F^{+}$ è soddisfatta.
-	  **Se** $t_{1}[X] = t_{2}[X]$ allora $t_{1}[y] = t_{2}[y]$: ciò è vero per il lemma 1 e per la riflessività, visto che $Y \in X^{+}$: $X \to Y \in F^{A}$.
+Abbiamo $V \to W \in F$ e $X \to V \in F^{A}$, quindi per transitività $X \to W \in F^{A}$.
 
-- $t_{1}[V] \neq t_{2}[V] \implies$ dipendenza soddisfatta (dimostrazione per assurdo)
+Sempre per il lemma della chiusura, stavolta applicato nel senso opposto, $X \to W \in F^{A} \implies W \subseteq X^{+}$, che **contraddice** $W \cap (R-X^{+}) \neq 0$; quindi, tornando alla premessa iniziale, $r$ è legale.
 
-# Implementazione in Python dell'applicazione manuale degli assiomi di Armstrong
+### Seconda parte
+
+inizialmente abbiamo supposto per assurdo che $X \to Y \in F^{+} \land X \to Y \notin F^{A}$, poi abbiamo mostrato che $r$ (come definita) è un'istanza legale, quindi $r$ soddisfa $X \to Y$.
+
+Ricordiamo che per definizione le due tuple sono uguali su $X^{+}$, quindi per il lemma coincidono sugli attributi $X$ e quindi visto che $X \to Y$, allora devono anche coincidere su $Y$. Perciò $Y$ è nella chiusura di $X$ ($Y \subseteq X^{+}$) e per il lemma vale $X \to Y \in F^{A}$, contraddicendo la premessa iniziale. $\square$
+
+# Implementazione in Python del calcolo "manuale" della chiusura di Armstrong
 
 ``` python
 from itertools import chain, combinations
@@ -128,7 +129,7 @@ class Dependency:
             self.determined | attribute
         )
 
-    def reflexivity(self) -> set["Dependency"]:
+    def reflexivity(self) -> set[Dependency]:
         return {
             Dependency(self.determinant, set(subset))
             for subset in powerset(self.determinant) if subset
@@ -148,7 +149,7 @@ class RelationScheme:
     def __repr__(self):
         return '\n'.join({str(d) for d in self.dependencies})
 
-    def apply_augment(self):
+    def apply_augment(self) -> None:
         new_dependencies = {
             d.augment(a)
             for d in self.dependencies
@@ -156,7 +157,7 @@ class RelationScheme:
         }
         self.dependencies |= new_dependencies
 
-    def apply_reflexivity(self):
+    def apply_reflexivity(self) -> None:
         new_dependencies = {
             reflexive_dep 
             for d in self.dependencies 
@@ -164,7 +165,7 @@ class RelationScheme:
         }
         self.dependencies |= new_dependencies
 
-    def apply_transitivity(self):
+    def apply_transitivity(self) -> None:
         new_dependencies = {
             d1.transitivity(d2)
             for d1 in self.dependencies
@@ -172,7 +173,7 @@ class RelationScheme:
         }
         self.dependencies |= new_dependencies
 
-    def armstrong_closure(self):
+    def armstrong_closure(self) -> None:
         prev_n = 0
         while prev_n < len(self.dependencies):
             prev_n = len(self.dependencies)
@@ -180,7 +181,7 @@ class RelationScheme:
             self.apply_augment()
             self.apply_transitivity()
 
-    def filter_non_trivials(self):
+    def filter_non_trivials(self) -> None:
         self.dependencies = {d for d in self.dependencies if not d.is_trivial()}
 ```
 
@@ -190,9 +191,8 @@ Esempio:
 r = RelationScheme(
     {"CodiceFiscale", "Nome", "Cognome", "Città", "Regione"},
     {
-        Dependency({"CodiceFiscale"}, {"Nome", "Cognome"}),
-        Dependency({"Città"}, {"Regione"}),
-        Dependency({"CodiceFiscale"}, {"Città"}),
+        Dependency({"CodiceFiscale"}, {"Nome", "Cognome", "Provincia"}),
+        Dependency({"Provincia"}, {"Regione"}),
     }
 )
 

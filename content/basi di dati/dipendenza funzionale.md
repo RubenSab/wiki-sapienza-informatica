@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-11-06T17:16:43.668+01:00
+updated_at: 2025-11-15T18:32:23.072+01:00
 ---
 > Una dipendenza funzionale stabilisce un particolare legame semantico tra due [[teoria degli insiemi|insiemi]] non vuoti di attributi $X$ e $Y$ appartenenti ad uno [[tabella#^ec7c8e|schema]] $R$.
 
@@ -16,7 +16,7 @@ Ad esempio il modello di macchina "Punto" **determina** la marca "Fiat". L'impor
 
 > Chiamiamo $F^{+}$ la ***chiusura di $F$*** l'insieme di tutte le dipendenze funzionali soddisfatte da un'istanza, **anche** quelle banali o quelle **che emergono implicitamente** dalla struttura stessa dell'istanza.
 
-Calcolare $F^{+}$ è molto difficile, invece l'insieme detto *[[chiusura di Armstrong]]* $F^{A}$ è più facile da calcolare.
+Calcolare $F^{+}$ è molto difficile, però si può [[chiusura di Armstrong#^9563ac|dimostrare]] che questo insieme coincide con la [[chiusura di Armstrong]] ($F^{A}$), più facile da calcolare.
 
 Ovviamente $F \subseteq F^{+}$.
 
