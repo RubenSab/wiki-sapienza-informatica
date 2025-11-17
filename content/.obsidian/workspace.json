@@ -20,61 +20,13 @@
             }
           },
           {
-            "id": "618060ea6881e39a",
-            "type": "leaf",
-            "state": {
-              "type": "webviewer",
-              "state": {
-                "url": "https://sites.google.com/di.uniroma1.it/basididati-modulo1canalem-z/home-page/materiale-del-corso",
-                "title": "Basi di Dati - Modulo 1 (canale M-Z) - Materiale del corso",
-                "mode": "webview"
-              },
-              "icon": "globe-2",
-              "title": "Basi di Dati - Modulo 1 (canale M-Z) - Materiale del corso"
-            }
-          },
-          {
-            "id": "05353b5638792e6a",
-            "type": "leaf",
-            "state": {
-              "type": "webviewer",
-              "state": {
-                "url": "https://drive.google.com/file/d/0B-4exWJj0L7RRXNFeE0zdXlQbjg/view?resourcekey=0-mf-d6HWwWgxWijAVQhU7Sw",
-                "title": "16.Decomposizioni che hanno un join senza perdita - Esercizi.ppt - Google Drive",
-                "mode": "webview"
-              },
-              "icon": "globe-2",
-              "title": "16.Decomposizioni che hanno un join senza perdita - Esercizi.ppt - Google Drive"
-            }
-          },
-          {
-            "id": "6bb4f771cb13443e",
-            "type": "leaf",
-            "state": {
-              "type": "webviewer",
-              "state": {
-                "url": "https://drive.google.com/file/d/1J96jLXiLnWsrqYIguIOtt2fMzOq2fPKh/view",
-                "title": "11.Chiusura di un insieme di attributi.pdf - Google Drive",
-                "mode": "webview"
-              },
-              "icon": "globe-2",
-              "title": "11.Chiusura di un insieme di attributi.pdf - Google Drive"
-            }
-          }
-        ]
-      },
-      {
-        "id": "cc5750bf1b3b1912",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "8c2e0c0dcf12afca",
+            "id": "374ec7e2dbf38e28",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "basi di dati/chiusura di un insieme di attributi.md",
-                "mode": "preview",
+                "file": "calcolo delle probabilità/varianza di una variabile aleatoria.md",
+                "mode": "source",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -88,10 +40,59 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "chiusura di un insieme di attributi"
+              "title": "varianza di una variabile aleatoria"
+            }
+          },
+          {
+            "id": "5cad2deab7f86430",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "calcolo delle probabilità/valore atteso di una variabile aleatoria.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "valore atteso di una variabile aleatoria"
+            }
+          },
+          {
+            "id": "22dec35a19f57859",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "calcolo delle probabilità/varianza di una variabile aleatoria.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "varianza di una variabile aleatoria"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -278,8 +279,13 @@
       "new-3d-graph:Open 3d graph": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "374ec7e2dbf38e28",
   "lastOpenFiles": [
+    "calcolo delle probabilità/Calcolo delle probabilità.md",
+    "calcolo delle probabilità/varianza di una variabile aleatoria.md",
+    "calcolo delle probabilità/misure di probabilità generiche.md",
+    "calcolo delle probabilità/valore atteso di una variabile aleatoria.md",
+    "calcolo delle probabilità/probabilità.md",
     "basi di dati/chiusura di un insieme di attributi.md",
     "basi di dati/chiusura di Armstrong.md",
     "basi di dati/dipendenza funzionale.md",
@@ -300,12 +306,7 @@
     "algebra lineare/Algebra lineare.md",
     "interdisciplinare/funzione.md",
     "introduzione agli algoritmi/problemi combinatori.md",
-    "calcolo delle probabilità/valore atteso di una variabile aleatoria.md",
     "algebra lineare/applicazione biiettiva o biiezione.md",
-    "progettazione di sistemi digitali/errori di trasmissione.md",
-    "algebra lineare/isomorfismo.md",
-    "algebra lineare/sottogruppo normale.md",
-    "algebra lineare/campo.md",
     "relazione tra tabelle master",
     "foto/IMG-20251011-WA0002.jpg",
     "foto/IMG-20251011-WA0001.jpg",
