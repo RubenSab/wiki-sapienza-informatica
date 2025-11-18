@@ -20,12 +20,12 @@
             }
           },
           {
-            "id": "374ec7e2dbf38e28",
+            "id": "c956dddef67d4eac",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "calcolo delle probabilità/varianza di una variabile aleatoria.md",
+                "file": "algebra lineare/sottogruppi.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -40,16 +40,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "varianza di una variabile aleatoria"
+              "title": "sottogruppi"
             }
           },
           {
-            "id": "5cad2deab7f86430",
+            "id": "04e9b956b037edfa",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "calcolo delle probabilità/valore atteso di una variabile aleatoria.md",
+                "file": "algebra lineare/Esercizi su strutture algebriche e divisibilità.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -64,16 +64,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "valore atteso di una variabile aleatoria"
+              "title": "Esercizi su strutture algebriche e divisibilità"
             }
           },
           {
-            "id": "22dec35a19f57859",
+            "id": "19c1637468056a20",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "calcolo delle probabilità/varianza di una variabile aleatoria.md",
+                "file": "interdisciplinare/funzione.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -88,11 +88,34 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "varianza di una variabile aleatoria"
+              "title": "funzione"
+            }
+          },
+          {
+            "id": "bd0edf3b2e2f4758",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "calcolo integrale/criteri di confronto delle serie a segno costante.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "criteri di confronto delle serie a segno costante"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -132,7 +155,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 321.5
+    "width": 321.5,
+    "collapsed": true
   },
   "right": {
     "id": "26b38658cac3fe47",
@@ -148,7 +172,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "dipendenze banali",
+                "query": "coprimi",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -279,13 +303,26 @@
       "new-3d-graph:Open 3d graph": false
     }
   },
-  "active": "374ec7e2dbf38e28",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "calcolo delle probabilità/Calcolo delle probabilità.md",
-    "calcolo delle probabilità/varianza di una variabile aleatoria.md",
-    "calcolo delle probabilità/misure di probabilità generiche.md",
+    "calcolo integrale/criteri di confronto delle serie a segno costante.md",
+    "interdisciplinare/funzione.md",
+    "algebra lineare/sottogruppi.md",
+    "algebra lineare/gruppo di permutazioni.md",
+    "algebra lineare/Esercizi su strutture algebriche e divisibilità.md",
+    "algebra lineare/lemmi sui sottogruppi additivi di Z (aZ + bZ).md",
+    "metodi matematici per l'informatica/dimostrazione della proprietà commutativa del prodotto cartesiano rispetto all'unione.md",
+    "calcolo delle probabilità/covarianza di due variabili aleatorie.md",
     "calcolo delle probabilità/valore atteso di una variabile aleatoria.md",
+    "calcolo delle probabilità/varianza di una variabile aleatoria.md",
+    "calcolo delle probabilità/casi notevoli di varianza e valore atteso.md",
     "calcolo delle probabilità/probabilità.md",
+    "metodologie di programmazione/variabile.md",
+    "calcolo delle probabilità/distribuzione di Poisson 🐟.md",
+    "calcolo delle probabilità/distribuzione binomiale.md",
+    "calcolo delle probabilità/misure di probabilità generiche.md",
+    "calcolo delle probabilità/distribuzione di Bernoulli.md",
+    "calcolo delle probabilità/Calcolo delle probabilità.md",
     "basi di dati/chiusura di un insieme di attributi.md",
     "basi di dati/chiusura di Armstrong.md",
     "basi di dati/dipendenza funzionale.md",
@@ -294,19 +331,6 @@
     "introduzione agli algoritmi/albero di ricerca.md",
     "TODO.md",
     "calcolo delle probabilità/ciclo.md",
-    "progettazione di sistemi digitali/flip-flop.md",
-    "introduzione agli algoritmi/complessità temporale.md",
-    "basi di dati/3NF (terza forma normale).md",
-    "calcolo integrale/criteri di confronto delle serie a segno costante.md",
-    "algebra lineare/gruppo di permutazioni.md",
-    "algebra lineare/gruppo.md",
-    "interdisciplinare/teoria degli insiemi.md",
-    "interdisciplinare/permutazioni.md",
-    "interdisciplinare/relazione.md",
-    "algebra lineare/Algebra lineare.md",
-    "interdisciplinare/funzione.md",
-    "introduzione agli algoritmi/problemi combinatori.md",
-    "algebra lineare/applicazione biiettiva o biiezione.md",
     "relazione tra tabelle master",
     "foto/IMG-20251011-WA0002.jpg",
     "foto/IMG-20251011-WA0001.jpg",

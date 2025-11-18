@@ -1,7 +1,7 @@
 ---
-updated_at: 2025-11-03T13:28:08.060+01:00
+updated_at: 2025-11-18T19:54:46.492+01:00
 ---
-> Una misura di probabilità su uno [[spazio campionario]] $\Omega$ è una mappa $\mathbb{P}: F \to [0, 1]$ dove $F$ è l'insieme delle parti di $\Omega$ (cioè la famiglia di tutti gli eventi) tale che:
+> Una [[misure di probabilità generiche|misura di probabilità]] su uno [[spazio campionario]] $\Omega$ è una mappa $\mathbb{P}: F \to [0, 1]$ dove $F$ è l'insieme delle parti di $\Omega$ (cioè la famiglia di tutti gli eventi) tale che:
 
 - $\mathbb{P}(\Omega) = 1$
 - Per ogni collezione numerabile di eventi disgiunti vale, sia per unioni finite che infinite, che

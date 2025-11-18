@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-11-13T19:20:57.845+01:00
+updated_at: 2025-11-18T22:51:18.417+01:00
 ---
 > È un [[gruppo]] $G$ i cui elementi sono le [[permutazioni]] di un [[teoria degli insiemi|insieme]] $M$ e la cui operazioni è la *composizione* delle permutazioni in $G$.
 

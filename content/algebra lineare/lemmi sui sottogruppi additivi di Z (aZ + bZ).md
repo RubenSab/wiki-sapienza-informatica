@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-10-26T21:27:58.851+01:00
+updated_at: 2025-11-18T23:02:11.740+01:00
 ---
 
 Studiamo il [[gruppo|sottogruppo]] generico $\mathcal{E} := a \mathbb{Z} + b \mathbb{Z} = \{\alpha a + \beta b: \alpha, \beta \in \mathbb{Z}\},\quad a, b \in \mathbb{Z} \land (a \neq 0 \lor b \neq 0)$.
@@ -19,6 +19,8 @@ Studiamo il [[gruppo|sottogruppo]] generico $\mathcal{E} := a \mathbb{Z} + b \ma
 $\exists \delta \in \mathbb{N}^{\star}\ (\mathcal{E} = a \mathbb{Z} + b \mathbb{Z} = \delta \mathbb{Z}),\quad a \neq 0 \lor b \neq 0$
 
 > N.B.: $a \mathbb{Z} + b \mathbb{Z} := \{\alpha a + \beta b: \alpha, \beta \in \mathbb{Z}\}$, cioè l'insieme di tutte somme possibili tra di tutti i multipli di $a$ e di $b$.
+
+> N.B.: In particolare, se $a$ e $b$ sono [[primalità|coprimi]], allora $a \mathbb{Z} + b \mathbb{Z} = \mathbb{Z}$.
 
 ## 3. [[identità di Bézout|Identità di Bézout]] e definizione di [[(MCD) massimo comun divisore|MCD]]
 
