@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-11-13T10:13:47.114+01:00
+updated_at: 2025-11-19T17:25:12.422+01:00
 ---
 > [Materiale del corso](https://drive.google.com/drive/folders/1IBBff-5DaA1tpisj7XJSW9FGGEKoE26N)
 
@@ -41,8 +41,6 @@ updated_at: 2025-11-13T10:13:47.114+01:00
 - [[gruppo abeliano]]
 - [[campo]]
 
-
-
 ## Teoria della divisibilità
 
 - [[lemmi sui sottogruppi additivi di Z (aZ + bZ)]] (preparazione alla teoria della divisibilità)
@@ -57,3 +55,8 @@ updated_at: 2025-11-13T10:13:47.114+01:00
 ## Esercizi a parte
 
 - [[Esercizi su strutture algebriche e divisibilità]]
+
+# Algebra lineare
+
+- [[spazio vettoriale]]
+- [[spazio vettoriale di matrici]]
