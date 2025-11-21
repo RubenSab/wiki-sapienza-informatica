@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-11-18T23:21:51.557+01:00
+updated_at: 2025-11-21T15:23:13.714+01:00
 ---
 > Dato un [[gruppo]] $G = (G, \cdot, 1)$ in [[gruppo#^b21101|notazione moltiplicativa]] e un [[teoria degli anelli|sottoinsieme]] $H \subseteq G$ non vuoto, con $a, b \in G$ si dice che $H$ è un *sottogruppo* di $G$ se e solo se $\forall a, b \in H\ (a \cdot b^{-1} \in H)$. Si scrive $H < G$. (In [[gruppo#^963e43|notazione additiva]], $H<G \iff \forall a, b \in H,\ a + (-b) \in H$.
 
@@ -8,13 +8,15 @@ updated_at: 2025-11-18T23:21:51.557+01:00
 1. Contiene l'identità: $a = b \in H \implies a \cdot b^{-1} = a \cdot a^{-1} = 1 \in H$.
 2. È chiuso per inversi: $1 \cdot b^{-1} = b^{-1} \in H$.
 3. È chiuso per il prodotto: $a \cdot (b^{-1})^{-1} = a \cdot b \in H$.
+4. $H$ è un sottogruppo se e solo se $\forall a, b \in H\ (ab^{-1} \in H)$, ma sappiamo che $\forall x_{i}, y_{i} \in H_{i}\ (x_{i} y_{i}^{-1} \in H_{i})$. Siano quindi $x, y \in H_{1} \cap H_{2}$, allora si ha che $x y^{-1} \in H_{1} \lor x y^{-1} \in H_{2} \implies x y^{-1} \in H_{1 \lor 2} \implies H_{1} \cap H_{2} < G$. **L'intersezione di sottogruppi è un sottogruppo**.
 
 Lemma: L'operazione $\cdot$ induce un operazione $H \times H \to H$ e $(H, \cdot, 1_{G})$ è un gruppo.
 
 > N.B.: Ogni gruppo $(G, \cdot, 1)$ possiede 2 sottogruppi *banali*:
 
-1. $G < G$;
-2. $(\{1\}, \cdot, 1)$ oppure in [[gruppo#^963e43|notazione additiva]] $(\{0\}, +, 0)$.
+5. $G < G$;
+6. $(\{1\}, \cdot, 1)$ oppure in [[gruppo#^963e43|notazione additiva]] $(\{0\}, +, 0)$.
+
 
 # Sottogruppo generato da un sottoinsieme
 
@@ -140,12 +142,6 @@ $\forall x, y, \alpha \in A\ (\ x - y \in A \implies \alpha(x - y) \in A \implie
 
 2. $\forall a, b \in \mathbb{Q} \cap \mathbb{R}\ (\mathbb{Q} < \mathbb{R} \iff \ a + (-b) \in \mathbb{Q})$ #todo
 3. $\forall a, b \in \mathbb{R} \cap \mathbb{C}\ (\mathbb{R} < \mathbb{C} \iff \ a + (-b) \in \mathbb{R})$
-
----
-
-> Dati $H_{1}, H_{2} < G$ e dimostrare che $H_{1} \cap H_{2} < G$.
-
-$H$ è un sottogruppo se e solo se $\forall a, b \in H\ (ab^{-1} \in H)$, ma sappiamo che $\forall x_{i}, y_{i} \in H_{i}\ (x_{i} y_{i}^{-1} \in H_{i})$. Siano quindi $x, y \in H_{1} \cap H_{2}$, allora si ha che $x y^{-1} \in H_{1} \lor x y^{-1} \in H_{2} \implies x y^{-1} \in H_{1 \lor 2} \implies H_{1} \cap H_{2} < G$.
 
 ---
 

@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-11-19T17:25:12.422+01:00
+updated_at: 2025-11-21T15:07:20.315+01:00
 ---
 > [Materiale del corso](https://drive.google.com/drive/folders/1IBBff-5DaA1tpisj7XJSW9FGGEKoE26N)
 
@@ -52,11 +52,13 @@ updated_at: 2025-11-19T17:25:12.422+01:00
 - [[piccolo teorema di Fermat]]
 - [[teorema fondamentale dell'aritmetica]]
 
-## Esercizi a parte
-
-- [[Esercizi su strutture algebriche e divisibilità]]
-
 # Algebra lineare
 
 - [[spazio vettoriale]]
 - [[spazio vettoriale di matrici]]
+
+# Esercizi a parte
+
+- [[Esercizi su strutture algebriche e divisibilità]]
+- [[orrore]]
+- [[Esercizi 21 novembre]]

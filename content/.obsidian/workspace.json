@@ -20,7 +20,7 @@
             }
           },
           {
-            "id": "f4010deb6127e9a7",
+            "id": "50e82912185caf72",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -44,7 +44,7 @@
             }
           },
           {
-            "id": "775792d7ade4a56d",
+            "id": "6c8325a892e4eaab",
             "type": "leaf",
             "state": {
               "type": "webviewer",
@@ -58,54 +58,26 @@
             }
           },
           {
-            "id": "f99a045d4d87e78c",
+            "id": "f64345c9ca52eada",
             "type": "leaf",
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://drive.google.com/file/d/1n4PRcCG0abmxvBYpDyc5pMHGZMtALzIM/view",
-                "title": "13.Decomposizioni che preservano le dipendenze.pdf - Google Drive",
+                "url": "https://drive.google.com/file/d/11eojb3dbB6t7TFWC5CPv14ZYl7-5_ppE/view",
+                "title": "15.Decomposizioni che hanno un join senza perdita.pdf - Google Drive",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "13.Decomposizioni che preservano le dipendenze.pdf - Google Drive"
+              "title": "15.Decomposizioni che hanno un join senza perdita.pdf - Google Drive"
             }
           },
           {
-            "id": "28d1145995a35393",
-            "type": "leaf",
-            "state": {
-              "type": "webviewer",
-              "state": {
-                "url": "https://drive.google.com/file/d/1TW37g8kE5pxkc46Ap79v-GqqlRp2tvQl/view",
-                "title": "12. Identificare le chiavi di uno schema.pdf - Google Drive",
-                "mode": "webview"
-              },
-              "icon": "globe-2",
-              "title": "12. Identificare le chiavi di uno schema.pdf - Google Drive"
-            }
-          },
-          {
-            "id": "86e2783c8ed532cf",
-            "type": "leaf",
-            "state": {
-              "type": "webviewer",
-              "state": {
-                "url": "https://drive.usercontent.google.com/uc?id=1TW37g8kE5pxkc46Ap79v-GqqlRp2tvQl&export=download",
-                "title": "data:text/plain,",
-                "mode": "blank"
-              },
-              "icon": "globe-2",
-              "title": "data:text/plain,"
-            }
-          },
-          {
-            "id": "c9cf85c3796e7b2d",
+            "id": "04e260d3bcfd4c76",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "basi di dati/chiusura di un insieme di attributi.md",
+                "file": "basi di dati/join naturale.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -120,11 +92,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "chiusura di un insieme di attributi"
+              "title": "join naturale"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -164,7 +136,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 275.502254486084
+    "width": 275.502254486084,
+    "collapsed": true
   },
   "right": {
     "id": "26b38658cac3fe47",
@@ -311,34 +284,34 @@
       "new-3d-graph:Open 3d graph": false
     }
   },
-  "active": "f99a045d4d87e78c",
+  "active": "04e260d3bcfd4c76",
   "lastOpenFiles": [
-    "basi di dati/chiusura di un insieme di attributi.md",
+    "Untitled.md",
+    "interdisciplinare/funzione.md",
+    "basi di dati/join naturale.md",
+    "basi di dati/proiezione.md",
     "basi di dati/Basi di dati.md",
-    "algebra lineare/spazio vettoriale R quadro.md",
+    "algebra lineare/Esercizi 21 novembre.md",
+    "algebra lineare/omomorfismo.md",
+    "algebra lineare/sottogruppi.md",
+    "algebra lineare/sottogruppo normale.md",
     "calcolo integrale/criteri di confronto delle serie a segno costante.md",
+    "algebra lineare/Algebra lineare.md",
+    "algebra lineare/Esercizi su strutture algebriche e divisibilità.md",
+    "interdisciplinare/permutazioni.md",
+    "algebra lineare/gruppo di permutazioni.md",
+    "algebra lineare/gruppo abeliano.md",
+    "2A.md",
+    "basi di dati/chiusura di Armstrong.md",
+    "basi di dati/chiusura di un insieme di attributi.md",
+    "algebra lineare/spazio vettoriale R quadro.md",
     "algebra lineare/spazio vettoriale.md",
     "algebra lineare/spazio vettoriale di matrici.md",
-    "algebra lineare/Algebra lineare.md",
-    "interdisciplinare/funzione.md",
-    "algebra lineare/sottogruppi.md",
-    "algebra lineare/gruppo di permutazioni.md",
-    "algebra lineare/Esercizi su strutture algebriche e divisibilità.md",
     "algebra lineare/lemmi sui sottogruppi additivi di Z (aZ + bZ).md",
     "metodi matematici per l'informatica/dimostrazione della proprietà commutativa del prodotto cartesiano rispetto all'unione.md",
     "calcolo delle probabilità/covarianza di due variabili aleatorie.md",
     "calcolo delle probabilità/valore atteso di una variabile aleatoria.md",
     "calcolo delle probabilità/varianza di una variabile aleatoria.md",
-    "calcolo delle probabilità/casi notevoli di varianza e valore atteso.md",
-    "calcolo delle probabilità/probabilità.md",
-    "metodologie di programmazione/variabile.md",
-    "calcolo delle probabilità/distribuzione di Poisson 🐟.md",
-    "calcolo delle probabilità/distribuzione binomiale.md",
-    "calcolo delle probabilità/misure di probabilità generiche.md",
-    "calcolo delle probabilità/distribuzione di Bernoulli.md",
-    "calcolo delle probabilità/Calcolo delle probabilità.md",
-    "basi di dati/chiusura di Armstrong.md",
-    "basi di dati/dipendenza funzionale.md",
     "relazione tra tabelle master",
     "foto/IMG-20251011-WA0002.jpg",
     "foto/IMG-20251011-WA0001.jpg",

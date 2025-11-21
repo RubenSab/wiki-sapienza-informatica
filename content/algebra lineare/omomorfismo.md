@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-10-29T11:57:32.846+01:00
+updated_at: 2025-11-21T15:32:42.616+01:00
 ---
 > In generale, un *omomorfismo* è un'[[applicazione]] tra due [[Algebra lineare|strutture algebriche]] dello stesso tipo che conserva le operazioni in esse definite.
 
@@ -18,6 +18,8 @@ Ovviamente si può anche scrivere in notazione additiva:
 3. $f(a + b) = f(a) + f(b)$
 
 > Sia $G_{1} \overset{f}{\to} G_{2}$ un omomorfismo di gruppi. Se $f$ è [[proprietà, tipi di relazioni e ordini|biettiva]], si dice che $f$ è un *[[isomorfismo]]*.
+
+> Il *kernel* di un omomorfismo $f$ è definito come $\ker(f) = f^{-1} \{1_{G_{2}}\}$, cioè l'immagine inversa dell'elemento neutro di $G_{2}$, cioè tutti gli elementi di $G_{1}$ che puntano al neutro di $G_{2}$. Per definizione è sempre un [[sottogruppo normale]].
 
 # Esercizi
 
