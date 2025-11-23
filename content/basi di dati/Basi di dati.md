@@ -1,20 +1,28 @@
 ---
-updated_at: 2025-11-10T22:20:42.125+01:00
+updated_at: 2025-11-23T11:47:28.299+01:00
 ---
 > [Materiale del corso](https://sites.google.com/di.uniroma1.it/basididati-modulo1canalem-z/home-page/materiale-del-corso)
 
 - [[database]]
 - [[database relazionali]]
-- [[tabella]]
-- [[vista]]
-- [[chiave]]
-- [[algebra relazionale dei database]]
-- dipendenze:
+	- [[tabella]]
+	- [[vista]]
+	- [[chiave]]
+	- [[algebra relazionale dei database]]
+- Dipendenze:
 	- [[dipendenza funzionale]]
 	- [[dipendenza parziale]]
 	- [[dipendenza transitiva]]
-- [[chiusura di Armstrong]]
-- [[chiusura di un insieme di attributi]]
-- [[3NF (terza forma normale)]]
+- Chiusure di attributi:
+	- [[chiusura di Armstrong]]
+	- [[chiusura di un insieme di attributi]]
+	- [[algoritmo per il calcolo della chiusura di un insieme di attributi]]
+	- [[algoritmo per il calcolo delle chiavi]]
+- Terza forma normale e decomposizione
+	- [[3NF (terza forma normale)]]
+	- [[decomposizione in 3NF]]
+
+---
+
 - [[progettazione di un database relazionale]]
 - [[SQL]]

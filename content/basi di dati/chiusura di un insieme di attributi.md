@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-11-15T19:15:35.709+01:00
+updated_at: 2025-11-23T10:52:22.284+01:00
 ---
 Siano $R$ uno [[tabella|schema]] di [[relazione]], $F$ un [[teoria degli insiemi|insieme]] di dipendenze funzionali su $R$ e $X$ un [[sottoinsiemi|sottoinsiemi]] di $R$.
 
@@ -17,6 +17,7 @@ In pratica fanno parte della chiusura di un insieme di attributi $X$ tutti quell
 
 > N.B.: Calcolare la chiusura di un attributo "a mano" con gli assiomi di Armstrong ha [[complessità temporale]] $O(2^{n})$, perché l'assioma della riflessività e dell'aumento possono essere applicati a tutti i sottoinsiemi di $R$, quindi a $2^{n}$ [[sottoinsiemi]] ([[cardinalità]] dell'[[insieme delle parti]]).
 
+- [[algoritmo per il calcolo della chiusura di un insieme di attributi]]
 # Lemma $X \to Y \in F^{A} \iff Y \subseteq X^{+}$
 
 ^aff93b
@@ -40,26 +41,3 @@ Usando l'**assioma della decomposizione**, otteniamo che $X$ determina tutti gli
 Ipotesi: $Y \subseteq X^{+}$, cioè ogni attributo di $Y$ è contenuto nella chiusura di $X$.
 
 Per la definizione di chiusura, se un attributo $A$ contenuto in $Y$ appartiene alla chiusura di $X$, allora $X \to A$; quindi dato che ogni attributo di $Y$ è contenuto nella chiusura di $X$, unendo gli attributi con l'**assioma dell'unione**, si ottiene che $X \to Y$.
-
-# Algoritmo per il calcolo di $X^{+}$
-
-> È migliore dell'applicazione indiscriminata degli assiomi di Armstrong, ha complessità polinomiale.
-
-**Input**: una schema di relazione $R$, un insieme $F$ di dipendenze funzionali su $R$, un sottoinsieme $X$ di $R$.
-
-**Output**: la chiusura di $X$ rispetto ad $F$ (restituita nella variabile $Z$)
-
-1. $Z:=X$
-   Inizialmente assegniamo $X$ stesso all'accumulatore di $X^{+}$ che useremo nel ciclo.
-2. $S:=\{A\ \text{tale che}\ Y \to V \in F \quad \land \quad A \in V \quad \land \quad Y \subseteq Z\}$
-   Scegliamo $A$ in modo che sia determinata da un insieme di attributi appartenenti alla chiusura di $X$ come calcolata fino a questo momento; poi assegniamola a $S$.
-3. `while` $S \not\subset Z$:
-   Fermiamoci quando non si può scegliere un attributo $S$ in modo che non sia già nella chiusura di $X$.
-	1. $Z:= Z\cup S$
-	   Aggiungiamo $S$ alla chiusura di $X$.
-	2. $S := \{A\ \text{tale che}\ Y \to V \in F \quad \land \quad A \in V \quad \land \quad Y \subseteq Z\}$
-4. `return` $Z$
-
-## Dimostrazione che l'algoritmo è corretto
-
-#todo pag. 9 del pdf 11
