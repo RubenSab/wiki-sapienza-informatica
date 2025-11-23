@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-11-15T18:48:50.958+01:00
+updated_at: 2025-11-23T18:07:08.659+01:00
 ---
 # Forma normale di Boyce-Codd (BCNF) (non è una 3NF propria)
 
@@ -42,57 +42,6 @@ Praticamente, per ogni dipendenza funzionale in $F$, il **determinante** è una 
 
 > Dato uno schema $R$ e un insieme di dipendenze funzionali $F$, $R$ è in 3NF se e solo se **non** ci sono attributi che dipendono [[dipendenza parziale|parzialmente]] o [[dipendenza transitiva|transitivamente]] da una chiave.
 
-# Decomposizione di uno schema non 3NF in più schemi 3NF
+---
 
-> Uno schema non in 3NF può essere decomposto in più modi in diversi schemi che rispettano la 3NF.
-
-Ad esempio lo schema $R = ABC$ con l'insieme di dipendenze funzionali $F=\{A \to B, B \to C\}$
-non è in forma normale perché c'è la dipendenza transitiva $A \to C$.
-
-$R$ può essere decomposto in:
-
-- $R_{1} = AB$ con $F = \{A \to B\}$,
-- $R_{2} = BC$ con $\{B \to C\}$,
-
-oppure
-
-- $R_{1} = AB$ con $F = \{A \to B\}$,
-- $R_{2} = AC$ con $\{A \to C\}$,
-
-## Osservazioni
-
-Entrambi gli schemi sono entrambi in 3NF, però nel secondo caso, considerando due istanze dei sotto-schemi ottenuti
-
-### $R_{1}$
-
-| A   | B   |
-| --- | --- |
-| a1  | b1  |
-| a2  | b1  |
-
-### $R_{2}$
-
-| A   | C   |
-| --- | --- |
-| a1  | c1  |
-| a2  | c2  |
-
-L'istanza dello schema originario $R$ che posso ricostruire con un [[join naturale]] tra $R_{1}$ e $R_{2}$, è la seguente:
-
-| A   | B   | C   |
-| --- | --- | --- |
-| a1  | b1  | c1  |
-| a2  | b1  | c2  |
-
-Ma non è un istanza legale di R, perché non soddisfa la dipendenza funzionale $B \to C$.
-
-Invece nel primo caso ($AB,\ BC$) fare il [[join naturale]] tra i due schemi non ricrea perfettamente la struttura dello schema originale, portando una perdita di informazioni.
-
-> Per decomporre uno schema non in 3NF in più schemi in 3NF, che uniti in un solo schema rispettano la 3NF, bisogna:
-
-- preservare **tutte** le dipendenze in $F^{+}$.
-- fare in modo che si possa ricostruire perfettamente **qualsiasi** istanza legale dello schema originario mediante un join naturale.
-
-Il problema è che il calcolo di $F^{+}$ richiede un tempo esponenziale, però fortunatamente per verificare che si siano preservate tutte le dipendenze in $F^{+}$ basta verificare se $X \to Y$ appartiene a $F^{+}$.
-
-Ciò si fa calcolando $X^{+}$. Dopodiché se $Y \subseteq X^{+}$ allora $X \to Y \in F^{A}$ (per il [[chiusura di un insieme di attributi#^aff93b|lemma della chiusura di un insieme di attributi]]).
+[[decomposizione in 3NF]]

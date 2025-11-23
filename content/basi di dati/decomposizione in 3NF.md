@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-11-23T17:43:41.538+01:00
+updated_at: 2025-11-23T18:22:53.508+01:00
 ---
 > Uno [[tabella|schema di relazione]] $R$ si può *decomporre* in più schemi, ognuno un [[sottoinsiemi|sottoinsieme]] degli attributi di $R$ su cui valgono le [[dipendenza funzionale|dipendenze funzionali]] ereditate da $R$, rilevanti per i suoi attributi. Ciò equivale a [[proiezione|proiettare]] ogni tupla dell'istanza originaria sugli attributi dei singoli sottoschemi.
 
@@ -7,7 +7,11 @@ Definizione formale:
 
 > Una *decomposizione* di $R$ è una famiglia $\rho = \{R_{1}, \ldots, R_{K}\}$ di sottoinsiemi di $R$ che [[partizione|ricopre/partiziona]] $R$ ($\bigcup_{i=1}^{k} R_{i} = R$, i sottoinsiemi possono avere intersezione non vuota).
 
-Gli schemi si decompongono o per motivi di performance (efficienza delle operazioni di lettura) o per **ottenere** più schemi in [[3NF (terza forma normale)]] quando lo schema originale non è in 3NF.
+Gli schemi si decompongono
+
+- per motivi di **performance** (le tuple di taglia più piccola aumentano la velocità e la capacità massima delle operazioni di lettura)
+- o per raggruppare attributi semanticamente diversi, usati da **operazioni diverse**
+- o per **ottenere** più schemi in [[3NF (terza forma normale)]] quando lo schema originale non è in 3NF.
 
 Anche se uno schema è stato decomposto in più schemi in 3NF, **non è detto che la decomposizione è soddisfacente**, infatti ad esempio $R = ABC,\ F = \{A\to B, B \to C\}$, decomposto e poi ricomposto tramite il [[join naturale]] tra sue decomposizioni, non conserva $B \to C$.
 
@@ -17,13 +21,17 @@ R1 = A  B     R2 = A  C     R = A  B  C
      a2 b1         a2 c2        a2 b1 c2
 ```
 
-# Criteri per una buona decomposizione
+# Criteri per distinguere una buona decomposizione da una svantaggiosa
 
-- Ogni sottoschema deve **essere in 3NF**.
-- La decomposizione deve **preservare tutte le dipendenze in $F^{+}$**, anche quelle [[dipendenza parziale|parziali]] e [[dipendenza transitiva|transitive]].
-- la decomposizione deve permettere di ricostruire una istanza legale **senza perdita di informazione** (join senza perdita).
+1. Ogni sottoschema deve **essere in 3NF**.
+2. La decomposizione deve **preservare tutte le dipendenze in $F^{+}$**, anche quelle [[dipendenza parziale|parziali]] e [[dipendenza transitiva|transitive]].
+3. la decomposizione deve permettere di ricostruire **ogni** istanza legale **senza perdita di informazione** (ricostruzione mediante join senza perdita), che contro-intuitivamente può anche significare un'**aggiunta** di tuple sbagliate ("tuple Frankenstein" ottenute da pezzi di tuple giuste).
 
-# [[Algoritmo]] per determinare se una decomposizione preserva tutte le dipendenze
+# Criterio 1: determinare se ogni sottoschema è in 3NF
+
+Basta [[algoritmo per il calcolo delle chiavi|calcolare le chiavi]] di ogni sottoschema per controllare che ognuno sia in 3NF.
+
+# Criterio 2: applicare l'[[algoritmo]] per determinare se la decomposizione preserva tutte le dipendenze
 
 Sia $\rho = \{R_{1}, \ldots, R_{k}\}$ una decomposizione dello schema $R$, sul quale valgono le dipendenze funzionali $F$. Diciamo che $\rho$ **preserva** $F$ se
 
@@ -91,3 +99,21 @@ Se volessimo usare l'[[algoritmo per il calcolo della chiusura di un insieme di 
 ### Dimostrazione della validità dell'algoritmo
 
 #todo pag. 22 pdf 13
+
+# Criterio 3: applicare l'algoritmo per determinare se ogni istanza legale è ricostruibile tramite join naturale
+
+Una decomposizione $\rho = \{R_{1}, \ldots, R_{k}\}$ di $R$ ha un *join senza perdita* se $\forall r\ \text{legale}\ (r = \pi_{R1}(r) \ \triangleright \! \! \triangleleft \ \ldots \ \triangleright \! \! \triangleleft \ \pi_{RK}(r))$.
+
+> Per aiutarci nella dimostrazione, definiamo l'operatore unario $m_{\rho}()$ che agisce su un'istanza $r$ di $R$.
+
+$$
+m_{\rho}(r) = \pi_{R1}(r) \ \triangleright \! \! \triangleleft \ \ldots \ \triangleright \! \! \triangleleft \ \pi_{RK}(r)
+$$
+
+Osserviamo che gode delle seguenti proprietà:
+
+1. $r \subseteq m_{\rho}(r)$
+2. $\pi_{Ri}(m_{\rho}(r)) = \pi_{Ri}(r)$
+3. $m_{\rho}(m_{\rho}(r)) = m_{\rho}(r)$
+
+#todo pag 13 pdf 15

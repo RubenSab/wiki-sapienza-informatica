@@ -84,8 +84,8 @@
                   "sortOrder": "alphabetical",
                   "showSearch": false,
                   "searchQuery": "",
-                  "backlinkCollapsed": true,
-                  "unlinkedCollapsed": false
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
                 }
               },
               "icon": "lucide-file",
@@ -96,10 +96,24 @@
             "id": "a5bafa4346a297df",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "basi di dati/3NF (terza forma normale).md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "3NF (terza forma normale)"
             }
           }
         ]
@@ -290,11 +304,12 @@
       "new-3d-graph:Open 3d graph": false
     }
   },
-  "active": "00801315b7ab4d73",
+  "active": "67963cf9157746fc",
   "lastOpenFiles": [
+    "basi di dati/3NF (terza forma normale).md",
     "basi di dati/decomposizione in 3NF.md",
-    "basi di dati/algoritmo per il calcolo della chiusura di un insieme di attributi.md",
     "interdisciplinare/algoritmo.md",
+    "basi di dati/algoritmo per il calcolo della chiusura di un insieme di attributi.md",
     "introduzione agli algoritmi/problem solving.md",
     "calcolo differenziale/numeri naturali.md",
     "introduzione agli algoritmi/insertion sort.md",
@@ -317,7 +332,6 @@
     "basi di dati/dipendenza parziale.md",
     "basi di dati/dipendenza transitiva.md",
     "basi di dati/join naturale.md",
-    "basi di dati/tabella.md",
     "relazione tra tabelle master",
     "foto/IMG-20251011-WA0002.jpg",
     "foto/IMG-20251011-WA0001.jpg",
