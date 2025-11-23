@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-10-26T21:02:18.469+01:00
+updated_at: 2025-11-23T17:13:38.796+01:00
 ---
 Può essere definito su un [[anello|anello commutativo]] arbitrario.
 

@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-11-23T10:53:53.685+01:00
+updated_at: 2025-11-23T17:14:54.090+01:00
 ---
 > È migliore dell'applicazione indiscriminata degli [[chiusura di Armstrong|assiomi di Armstrong]] per calcolare $X^{+}$, ha complessità polinomiale.
 
@@ -18,6 +18,6 @@ updated_at: 2025-11-23T10:53:53.685+01:00
 	2. $S := \{A\ \text{tale che}\ Y \to V \in F \quad \land \quad A \in V \quad \land \quad Y \subseteq Z\}$
 4. `return` $Z$
 
-## Dimostrazione che l'algoritmo è corretto
+## Dimostrazione che l'[[algoritmo]] è corretto
 
 #todo pag. 9 del pdf 11

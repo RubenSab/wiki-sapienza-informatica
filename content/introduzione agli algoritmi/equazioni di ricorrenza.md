@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-04-10T13:17:42.320+02:00
+updated_at: 2025-11-23T17:15:55.412+01:00
 ---
 > Le equazioni di ricorrenza esprimono la [[complessità temporale]] degli [[algoritmi ricorsivi]]. Non si può calcolare normalmente la complessità di questi algoritmi dato che la loro [[funzione]] di costo computazionale è anch'essa ricorsiva.
 
@@ -69,7 +69,7 @@ $$
 Il $\Theta(n)$ è dovuto allo slicing nel passo ricorsivo.
 ### Ottimizzazione
 
-Dato che la complessità del passo ricorsivo $\Theta(n)$ è dovuto allo slicing della lista, per ottimizzare l'algoritmo basta passare sempre la lista originare alla chiamata ricorsiva, ma incrementando l'indice a ogni iterazione.
+Dato che la complessità del passo ricorsivo $\Theta(n)$ è dovuto allo slicing della lista, per ottimizzare l'[[algoritmo]] basta passare sempre la lista originare alla chiamata ricorsiva, ma incrementando l'indice a ogni iterazione.
 
 ``` python
 def somma(A, i=0):

@@ -60,37 +60,9 @@
               "icon": "globe-2",
               "title": "15.Decomposizioni che hanno un join senza perdita.pdf - Google Drive"
             }
-          },
-          {
-            "id": "8974fed65c697067",
-            "type": "leaf",
-            "state": {
-              "type": "webviewer",
-              "state": {
-                "url": "https://drive.google.com/file/d/1Gh7KTIbwyxNDHGdpPGAhFF1sdYfpahdc/view",
-                "title": "14.Decomposizioni che preservano le dipendenze - Esercizi.pdf - Google Drive",
-                "mode": "webview"
-              },
-              "icon": "globe-2",
-              "title": "14.Decomposizioni che preservano le dipendenze - Esercizi.pdf - Google Drive"
-            }
-          },
-          {
-            "id": "e6f4160dd44f6225",
-            "type": "leaf",
-            "state": {
-              "type": "webviewer",
-              "state": {
-                "url": "https://drive.google.com/file/d/1n4PRcCG0abmxvBYpDyc5pMHGZMtALzIM/view",
-                "title": "13.Decomposizioni che preservano le dipendenze.pdf - Google Drive",
-                "mode": "webview"
-              },
-              "icon": "globe-2",
-              "title": "13.Decomposizioni che preservano le dipendenze.pdf - Google Drive"
-            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       },
       {
         "id": "e6bcf28ef35ffd12",
@@ -102,8 +74,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "basi di dati/Basi di dati.md",
-                "mode": "preview",
+                "file": "basi di dati/decomposizione in 3NF.md",
+                "mode": "source",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -112,12 +84,22 @@
                   "sortOrder": "alphabetical",
                   "showSearch": false,
                   "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
+                  "backlinkCollapsed": true,
+                  "unlinkedCollapsed": false
                 }
               },
               "icon": "lucide-file",
-              "title": "Basi di dati"
+              "title": "decomposizione in 3NF"
+            }
+          },
+          {
+            "id": "a5bafa4346a297df",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -177,7 +159,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "coprimi",
+                "query": "lemma chiusu",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -308,34 +290,34 @@
       "new-3d-graph:Open 3d graph": false
     }
   },
-  "active": "67963cf9157746fc",
+  "active": "00801315b7ab4d73",
   "lastOpenFiles": [
-    "basi di dati/3NF (terza forma normale).md",
-    "basi di dati/Basi di dati.md",
-    "basi di dati/SQL.md",
-    "basi di dati/progettazione di un database relazionale.md",
-    "basi di dati/algoritmo per il calcolo delle chiavi.md",
-    "basi di dati/chiusura di un insieme di attributi.md",
-    "basi di dati/dipendenza transitiva.md",
-    "basi di dati/dipendenza parziale.md",
-    "basi di dati/chiave.md",
+    "basi di dati/decomposizione in 3NF.md",
     "basi di dati/algoritmo per il calcolo della chiusura di un insieme di attributi.md",
-    "basi di dati/dipendenze funzionali.md",
-    "basi di dati/database.md",
-    "progettazione di sistemi digitali/codificatore (ENC).md",
-    "basi di dati/join naturale.md",
-    "Untitled.md",
-    "interdisciplinare/funzione.md",
+    "interdisciplinare/algoritmo.md",
+    "introduzione agli algoritmi/problem solving.md",
+    "calcolo differenziale/numeri naturali.md",
+    "introduzione agli algoritmi/insertion sort.md",
+    "interdisciplinare/array.md",
+    "introduzione agli algoritmi/equazioni di ricorrenza.md",
+    "basi di dati/algoritmo per il calcolo delle chiavi.md",
+    "introduzione agli algoritmi/bubble sort.md",
+    "introduzione agli algoritmi/algoritmi ricorsivi.md",
+    "introduzione agli algoritmi/algoritmi di ordinamento.md",
+    "introduzione agli algoritmi/albero di ricerca.md",
+    "algebra lineare/(MCD) massimo comun divisore.md",
+    "interdisciplinare/struttura dati.md",
+    "introduzione agli algoritmi/complessità temporale.md",
+    "interdisciplinare/notazione asintotica.md",
+    "basi di dati/chiusura di un insieme di attributi.md",
+    "basi di dati/dipendenza funzionale.md",
+    "calcolo delle probabilità/probabilità.md",
+    "calcolo delle probabilità/Calcolo delle probabilità.md",
     "basi di dati/proiezione.md",
-    "algebra lineare/Esercizi 21 novembre.md",
-    "algebra lineare/omomorfismo.md",
-    "algebra lineare/sottogruppi.md",
-    "algebra lineare/sottogruppo normale.md",
-    "calcolo integrale/criteri di confronto delle serie a segno costante.md",
-    "algebra lineare/Algebra lineare.md",
-    "algebra lineare/Esercizi su strutture algebriche e divisibilità.md",
-    "interdisciplinare/permutazioni.md",
-    "algebra lineare/gruppo di permutazioni.md",
+    "basi di dati/dipendenza parziale.md",
+    "basi di dati/dipendenza transitiva.md",
+    "basi di dati/join naturale.md",
+    "basi di dati/tabella.md",
     "relazione tra tabelle master",
     "foto/IMG-20251011-WA0002.jpg",
     "foto/IMG-20251011-WA0001.jpg",

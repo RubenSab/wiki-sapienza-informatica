@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-05-29T23:19:22.798+02:00
+updated_at: 2025-11-23T17:14:31.628+01:00
 ---
 # Lista degli algoritmi principali
 
@@ -7,11 +7,11 @@ updated_at: 2025-05-29T23:19:22.798+02:00
 
 > Nonostante siano più i semplici, sia concettualmente sia per l'implementazione, sono anche i più inefficienti su grandi [[struttura dati|struttura dati]].
 
-| Algoritmo naive    | Caso migliore           | Caso medio | Caso peggiore | Lista già ordinata      | [[Complessità spaziale]] |
-| ------------------ | ----------------------- | ---------- | ------------- | ----------------------- | ------------------------ |
-| [[bubble sort]]    | $O(n)$ (se ottimizzato) | $O(n^2)$   | $O(n^2)$      | $O(n)$ (se ottimizzato) | $O(1)$                   |
-| [[selection sort]] | $O(n^2)$                | $O(n^2)$   | $O(n^2)$      | $O(n^2)$                | $O(1)$                   |
-| [[insertion sort]] | $O(n)$                  | $O(n^2)$   | $O(n^2)$      | $O(n)$                  | $O(1)$                   |
+| [[Algoritmo]] naive | Caso migliore           | Caso medio | Caso peggiore | Lista già ordinata      | [[Complessità spaziale]] |
+| ------------------- | ----------------------- | ---------- | ------------- | ----------------------- | ------------------------ |
+| [[bubble sort]]     | $O(n)$ (se ottimizzato) | $O(n^2)$   | $O(n^2)$      | $O(n)$ (se ottimizzato) | $O(1)$                   |
+| [[selection sort]]  | $O(n^2)$                | $O(n^2)$   | $O(n^2)$      | $O(n^2)$                | $O(1)$                   |
+| [[insertion sort]]  | $O(n)$                  | $O(n^2)$   | $O(n^2)$      | $O(n)$                  | $O(1)$                   |
 
 ## Algoritmi non naive
 

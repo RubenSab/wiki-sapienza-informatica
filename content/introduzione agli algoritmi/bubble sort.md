@@ -1,7 +1,7 @@
 ---
-updated_at: 2025-05-25T22:26:55.471+02:00
+updated_at: 2025-11-23T17:15:06.286+01:00
 ---
-> È l'algoritmo di ordinamento naive più semplice dal punto di vista dell'implementazione. Si implementa iterando su tutta la lista `len(lista)` volte e invertendo le coppie di elementi che hanno il primo elemento maggiore del secondo.
+> È l'[[algoritmi di ordinamento|algoritmo di ordinamento]] naive più semplice dal punto di vista dell'implementazione. Si implementa iterando su tutta la [[lista di Python|lista]] `len(lista)` volte e invertendo le coppie di elementi che hanno il primo elemento maggiore del secondo.
 
 ``` python
 def bubble(lista):
