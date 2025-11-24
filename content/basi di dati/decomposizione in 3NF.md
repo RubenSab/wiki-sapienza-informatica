@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-11-24T15:25:13.223+01:00
+updated_at: 2025-11-24T23:24:08.399+01:00
 ---
 > Uno [[tabella|schema di relazione]] $R$ si può *decomporre* in più schemi, ognuno un [[sottoinsiemi|sottoinsieme]] degli attributi di $R$ su cui valgono le [[dipendenza funzionale|dipendenze funzionali]] ereditate da $R$, rilevanti per i suoi attributi. Ciò equivale a [[proiezione|proiettare]] ogni tupla dell'istanza originaria sugli attributi dei singoli sottoschemi.
 
@@ -72,7 +72,7 @@ Sia $f \in F^{+}-F$ ($f \notin F^{+}$).
 1. `successo` := true
 2. for $X \to Y$ in $F$:
 	1. calcola $X^{+}_{G}$
-	2. if $Y \not\subset X^{+}_{G}$: `successo` := false
+	2. if $Y \not\subset X^{+}_{G}$: `successo` := `false`
 3. return `successo`
 
 > Cioè basta verificare che una sola dipendenza non appartiene a $G^{+}$ per dire che $F \not\subseteq G^{+} \implies F \not\equiv G$.
@@ -92,8 +92,8 @@ Se volessimo usare l'[[algoritmo per il calcolo della chiusura di un insieme di 
 	   calcolare questa chiusura $((Z \cap R_{i})^{+}_{F}$ non richiede tempo esponenziale, perché si calcola direttamente sull'insieme delle dipendenze funzionali di $R_{i}$, che è molto più piccolo di $F$ completo.
 	2. while $S \not\subset Z$:
 		1. $Z := Z \cup S$
-		2. for $i := 1$ to $k$
-		3. $S := S \cup ((Z \cap R_{i})^{+}_{F} \cap R_{i})$
+		2. for $i := 1$ to $k$:
+			1. $S := S \cup ((Z \cap R_{i})^{+}_{F} \cap R_{i})$
 4. return $Z$
 
 ### Dimostrazione della validità dell'algoritmo
@@ -102,12 +102,14 @@ Se volessimo usare l'[[algoritmo per il calcolo della chiusura di un insieme di 
 
 # Criterio 3: applicare l'algoritmo per determinare se ogni istanza legale è ricostruibile tramite join naturale
 
-Una decomposizione $\rho = \{R_{1}, \ldots, R_{k}\}$ di $R$ ha un *join senza perdita* se $\forall r\ \text{legale}\ (r = \pi_{R1}(r) \ \triangleright \! \! \triangleleft \ \ldots \ \triangleright \! \! \triangleleft \ \pi_{RK}(r))$.
+## Operatore $m_{\rho}(r)$
+
+Una decomposizione $\rho = \{R_{1}, \ldots, R_{k}\}$ di $R$ ha un *join senza perdita* se $\forall r\ \text{legale}\ (r = \pi_{R_{1}}(r) \ \triangleright \! \! \triangleleft \ \ldots \ \triangleright \! \! \triangleleft \ \pi_{R_{k}}(r))$.
 
 > Per aiutarci nella dimostrazione, definiamo l'operatore unario $m_{\rho}()$ "m rho" che agisce su un'istanza $r$ di $R$.
 
 $$
-m_{\rho}(r) = \pi_{R1}(r) \ \triangleright \! \! \triangleleft \ \ldots \ \triangleright \! \! \triangleleft \ \pi_{RK}(r)
+m_{\rho}(r) = \pi_{R_{1}}(r) \ \triangleright \! \! \triangleleft \ \ldots \ \triangleright \! \! \triangleleft \ \pi_{R_{k}}(r)
 $$
 
 Osserviamo che gode delle seguenti proprietà:
@@ -116,4 +118,53 @@ Osserviamo che gode delle seguenti proprietà:
 2. $\pi_{Ri}(m_{\rho}(r)) = \pi_{Ri}(r)$
 3. $m_{\rho}(m_{\rho}(r)) = m_{\rho}(r)$
 
-#todo pag 13 pdf 15
+**Dimostrazione di 1**: Sia $t$ una tupla di $r$. $\forall i \in [1, k]\quad t[R_{i}] \in \pi_{R_{i}}(r)$, che è un sottoinsieme di $m_{\rho}(r)$, quindi $t \in m_{\rho}(r)$.
+
+**Dimostrazione di 2**: $\pi_{Ri}(m_{\rho}(r)) = \pi_{Ri}(\pi_{R_{1}}(r) \ \triangleright \! \! \triangleleft \ \ldots \ \triangleright \! \! \triangleleft \ \pi_{R_{k}}(r)) = \pi_{Ri}(r)$
+
+**Dimostrazione di 3**: $m_{\rho}(m_{\rho}(r)) = \pi_{R_{1}}(m_{\rho}(r)) \ \triangleright \! \! \triangleleft \ \ldots \ \triangleright \! \! \triangleleft \ \pi_{R_{k}}(m_{\rho}(r))$, ma per la proprietà 2 sappiamo che $\pi_{Ri}(m_{\rho}(r)) = \pi_{Ri}(r)$, quindi $m_{\rho}(m_{\rho}(r)) = \pi_{R_{1}}(r) \ \triangleright \! \! \triangleleft \ \ldots \ \triangleright \! \! \triangleleft \ \pi_{R_{k}}(r) = m_{\rho}(r)$ per definizione.
+
+## Algoritmo per verificare se esiste un join senza perdita (tempo polinomiale)
+
+**Input**: uno schema $R$, un insieme di dipendenze $F$ su $R$, una decomposizione $\rho = \{R_{1}, \ldots, R_{k}\}$ di $R$.
+
+**Output**: Una booleana che indica se esiste o meno un join senza perdita.
+
+1. Costruisci una tabella $r$ nel modo seguente: $r$ ha $|R|$ colonne e $|\rho|$ righe.
+   all'incrocio dell'i-esima riga e della j-esima colonna metti il simbolo $a_{j}$ se l'attributo $A_{j} \in R_{i}$, altrimenti metti il simbolo $b_{ij}$.
+2. (fase iterativa di modifica dell'istanza) for every $X \to Y \in F$:
+	1. if ci sono due tuple $t_{1}$ e $t_{2}$ in $r$ tali che $t_{1}[X] = t_{2}[X]$ e $t_{1}[Y] \neq t_{2}[Y]$:
+		1. for every $A_{j}$ in $Y$:
+			1. if $t_{1}[A_{j}] = a_{j}$ then $t_{2}[A_{j}] := t_{1}[A_{j}]$
+			   else $t_{1}[A_{j}] := t_{2}[A_{j}]$
+			2. if $r$ ha una riga con tutte "a" o $r$ non è cambiato:
+				1. return `true`
+3. return `false`
+
+> N.B.: $a_{j}$ e $b_{ij}$ sono solo etichette, valori particolari contenuti nel dominio dell'attributo $A_{j}$ e possiamo considerare tutti i valori $a_{j}$ uguali fra loro, ma ciò non vale per $b_{ij}$.
+
+> N.B.: Nell'algoritmo diamo precedenza alle $a$, che non diventano **mai** $b$.
+
+### Dimostrazione della validità dell'algoritmo
+
+### Esempio
+
+Si hanno:
+
+- $R = (A, B, C, D, E)$
+- $F = (C \to D, AB \to E, D \to B)$
+- $\rho = \{AC, ADE, CDE, AD, B\}$
+
+Determinare se $R$, così decomposto, ha un join senza perdita.
+
+Costruzione iniziale della tabella:
+
+|     | A   | B   | C   | D   | E   |
+| --- | --- | --- | --- | --- | --- |
+| AC  | a1  | b12 | a3  | b14 | b15 |
+| ADE | a1  | b22 | b23 | a4  | a5  |
+| CDE | b31 | b32 | a3  | a4  | a5  |
+| AD  | a1  | b42 | b43 | a4  | b45 |
+| B   | b51 | a2  | b53 | b54 | b55 |
+
+#todo pag. 9-10 pdf 15
