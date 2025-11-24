@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-11-24T16:38:13.253+01:00
+updated_at: 2025-11-24T17:23:40.183+01:00
 ---
 È una versione arricchita di [[sottogruppi|sottogruppo]].
 
@@ -41,7 +41,7 @@ $W = \mathbb{R}^{3} = \left\{ \begin{pmatrix} x \\ y \\ z \end{pmatrix}: x + 2y 
 
 ## 2.
 
-> Mostrare che $W' := \text{Vett}_{\mathbb{R}}\left(\underset{= W_{1}}{\begin{pmatrix} 1 \\ 1 \\ 1\end{pmatrix}}\right) \subset W$, ma che $W \neq W'_{1}$, trovando $w_{2} \in W - W'$
+> Mostrare che $W' := \text{Vett}_{\mathbb{R}}\left(\underset{= w_{1}}{\begin{pmatrix} 1 \\ 1 \\ 1\end{pmatrix}}\right) \subset W$, ma che $W \neq W'_{1}$, trovando $w_{2} \in W - W'$
 
 ## 3.
 
@@ -50,3 +50,4 @@ $W = \mathbb{R}^{3} = \left\{ \begin{pmatrix} x \\ y \\ z \end{pmatrix}: x + 2y 
 ## 4.
 
 > Mostrare che $W = \text{Vett}_{\mathbb{R}}(\{w_{1}, w_{2}\})$
+

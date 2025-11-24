@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-11-24T16:35:06.624+01:00
+updated_at: 2025-11-24T17:32:53.994+01:00
 ---
 > sia $K$ un [[campo]] e $V = (V, +, 0_{V})$ un [[gruppo abeliano]] in [[gruppo#^963e43|notazione additiva]]. Si dice che $V$ è un *$K$-spazio vettoriale* o uno *spazio vettoriale su $K$* se esiste un'operazione binaria (moltiplicazione per uno scalare) $K \times V \to V$, dove $(\lambda, v) \mapsto \lambda \cdot v$ tale che $\forall \alpha, \beta \in K, \quad v, w \in V$.
 
@@ -15,8 +15,15 @@ updated_at: 2025-11-24T16:35:06.624+01:00
 
 # Terminologia
 
+- scalare
+- vettore
 - *combinazione lineare dei vettori $v, w$ con coefficienti $\alpha, \beta$*: $\alpha v + \beta w$.
 - #todo coordinate
+- origine = neutro
+- due vettori si dicono *linearmente indipendenti* su $K$ se dati gli scalari $\lambda_{1}, \ldots, \lambda_{n} \in K$ se $\lambda_{1} v_{1} + \ldots + \lambda_{n} v_{n} = 0 \implies \lambda_{1} = \ldots = \lambda_{n} = 0$, altrimenti sono *linearmente dipendenti*.
+- $v_{1} = \binom{1}{0},\ v_{2} = \binom{0}{1}$ sono linearmente indipendenti $\lambda_{1} v_{1} + \lambda_{2} v_{2} = \binom{\lambda_{1}}{0} + \binom{0}{\lambda_{2}} = \binom{0}{0}$
+
+
 # Proprietà/Assiomi
 
 1. Legge di distributività di $\alpha \in K$ su $V$: $\alpha \cdot (v \underset{V}{+} w) = \alpha \cdot v \underset{V}{+} \alpha \cdot w$

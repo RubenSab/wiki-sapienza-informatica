@@ -23,8 +23,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "algebra lineare/sottospazio vettoriale.md",
-                "mode": "preview",
+                "file": "algebra lineare/spazio vettoriale.md",
+                "mode": "source",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -38,7 +38,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "sottospazio vettoriale"
+              "title": "spazio vettoriale"
             }
           }
         ],
@@ -232,8 +232,8 @@
   },
   "active": "f9a3d855589c5288",
   "lastOpenFiles": [
-    "algebra lineare/sottospazio vettoriale.md",
     "algebra lineare/Algebra lineare.md",
+    "algebra lineare/sottospazio vettoriale.md",
     "algebra lineare/spazio vettoriale.md",
     "algebra lineare/gruppo.md",
     "algebra lineare/campo.md",
