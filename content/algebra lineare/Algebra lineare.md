@@ -1,6 +1,19 @@
 ---
-updated_at: 2025-11-21T15:07:20.315+01:00
+updated_at: 2025-11-24T15:41:10.508+01:00
 ---
+Opis: D8DIGFF7
+
+| Giorno | Ore   |
+| ------ | ----- |
+| 26-11  | 16-19 |
+| 3-12   | 16-19 |
+| 5-12   | 15-18 |
+| 10-12  | 16-19 |
+| 12-12  | 15-18 |
+| 17-12  | 16-19 |
+| 19-12  | 15-18 |
+
+
 > [Materiale del corso](https://drive.google.com/drive/folders/1IBBff-5DaA1tpisj7XJSW9FGGEKoE26N)
 
 | Simbolo          | Significato                                                                     |
@@ -55,6 +68,8 @@ updated_at: 2025-11-21T15:07:20.315+01:00
 # Algebra lineare
 
 - [[spazio vettoriale]]
+- [[sottospazio vettoriale]]
+- [[vettori linearmente dipendenti/indipendenti]]
 - [[spazio vettoriale di matrici]]
 
 # Esercizi a parte

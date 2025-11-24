@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-11-19T17:29:45.885+01:00
+updated_at: 2025-11-24T16:35:06.624+01:00
 ---
 > sia $K$ un [[campo]] e $V = (V, +, 0_{V})$ un [[gruppo abeliano]] in [[gruppo#^963e43|notazione additiva]]. Si dice che $V$ è un *$K$-spazio vettoriale* o uno *spazio vettoriale su $K$* se esiste un'operazione binaria (moltiplicazione per uno scalare) $K \times V \to V$, dove $(\lambda, v) \mapsto \lambda \cdot v$ tale che $\forall \alpha, \beta \in K, \quad v, w \in V$.
 
@@ -7,16 +7,24 @@ updated_at: 2025-11-19T17:29:45.885+01:00
 
 > N.B.: Non c'è **nessuna** restrizione sulle [[cardinalità]] di $K$ e $V$.
 
+> N.B.: per ogni spazio vettoriale esiste un gruppo associato ad esso, ma non viceversa.
+
+- [[sottospazio vettoriale]]
 - [[spazio vettoriale di matrici]]
 - [[spazio vettoriale R quadro]]
-# Proprietà
+
+# Terminologia
+
+- *combinazione lineare dei vettori $v, w$ con coefficienti $\alpha, \beta$*: $\alpha v + \beta w$.
+- #todo coordinate
+# Proprietà/Assiomi
 
 1. Legge di distributività di $\alpha \in K$ su $V$: $\alpha \cdot (v \underset{V}{+} w) = \alpha \cdot v \underset{V}{+} \alpha \cdot w$
 2. Legge di distributività di $v \in V$ su $K$: $v \cdot (\alpha \underset{K}{+} \beta) = \alpha \cdot v \underset{V}{+} \beta \cdot v$
 3. Compatibilità del prodotto come definito in $K$ e del prodotto definito in $V$: $\alpha \cdot (\beta \cdot v) = (\alpha \cdot \beta ) \cdot v$
 4. Unità: $1_{K} \cdot v = v$
 
-# Esempi per operazioni vettoriali
+# Esempi di operazioni vettoriali
 
 - Gli assiomi (1) e (2) sono inglobati nell'assioma di distributività di $\cdot$ su $+$ di $K$ come anello.
 - (3) + diventa la legge associativa.
@@ -79,7 +87,7 @@ $$
 1 \cdot (v_{1}, \ldots, v_{n}) = (v_{1}, \ldots, v_{n}) = v
 $$
 
-## Spazio vettoriale banale
+# Spazio vettoriale banale
 
 $K^{1} = K$.
 

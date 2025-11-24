@@ -10,22 +10,20 @@
           {
             "id": "e7a7b303c61786dc",
             "type": "leaf",
-            "pinned": true,
             "state": {
               "type": "graph",
               "state": {},
-              "pinned": true,
               "icon": "lucide-git-fork",
               "title": "Graph view"
             }
           },
           {
-            "id": "25a7fe7c9b36ae0d",
+            "id": "f9a3d855589c5288",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "basi di dati/decomposizione in 3NF.md",
+                "file": "algebra lineare/sottospazio vettoriale.md",
                 "mode": "preview",
                 "source": false,
                 "backlinks": true,
@@ -40,7 +38,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "decomposizione in 3NF"
+              "title": "sottospazio vettoriale"
             }
           }
         ],
@@ -232,58 +230,18 @@
       "new-3d-graph:Open 3d graph": false
     }
   },
-  "floating": {
-    "id": "972fa677c3575746",
-    "type": "floating",
-    "children": [
-      {
-        "id": "fa1972010e709a6d",
-        "type": "window",
-        "children": [
-          {
-            "id": "50b2e9f5abceaf26",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "a204224feec93651",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "calcolo delle probabilità/legge congiunta e leggi marginali di variabili aleatorie.md",
-                    "mode": "preview",
-                    "source": false,
-                    "backlinks": true,
-                    "backlinkOpts": {
-                      "collapseAll": false,
-                      "extraContext": false,
-                      "sortOrder": "alphabetical",
-                      "showSearch": false,
-                      "searchQuery": "",
-                      "backlinkCollapsed": false,
-                      "unlinkedCollapsed": true
-                    }
-                  },
-                  "icon": "lucide-file",
-                  "title": "legge congiunta e leggi marginali di variabili aleatorie"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 443,
-        "y": 32,
-        "width": 718,
-        "height": 817,
-        "maximize": true,
-        "zoom": 0.5
-      }
-    ]
-  },
-  "active": "a204224feec93651",
+  "active": "f9a3d855589c5288",
   "lastOpenFiles": [
+    "algebra lineare/sottospazio vettoriale.md",
+    "algebra lineare/Algebra lineare.md",
+    "algebra lineare/spazio vettoriale.md",
+    "algebra lineare/gruppo.md",
+    "algebra lineare/campo.md",
+    "algebra lineare/spazio vettoriale di matrici.md",
+    "algebra lineare/spazio vettoriale R quadro.md",
+    "interdisciplinare/algoritmo.md",
     "basi di dati/decomposizione in 3NF.md",
+    "algebra lineare/gruppo quoziente.md",
     "calcolo delle probabilità/legge congiunta e leggi marginali di variabili aleatorie.md",
     "calcolo delle probabilità/Calcolo delle probabilità.md",
     "calcolo delle probabilità/probabilità condizionata.md",
@@ -291,7 +249,6 @@
     "calcolo delle probabilità/distribuzione di Poisson 🐟.md",
     "calcolo delle probabilità/probabilità.md",
     "basi di dati/3NF (terza forma normale).md",
-    "interdisciplinare/algoritmo.md",
     "basi di dati/algoritmo per il calcolo della chiusura di un insieme di attributi.md",
     "introduzione agli algoritmi/problem solving.md",
     "calcolo differenziale/numeri naturali.md",
@@ -301,14 +258,6 @@
     "basi di dati/algoritmo per il calcolo delle chiavi.md",
     "introduzione agli algoritmi/bubble sort.md",
     "introduzione agli algoritmi/algoritmi ricorsivi.md",
-    "introduzione agli algoritmi/algoritmi di ordinamento.md",
-    "introduzione agli algoritmi/albero di ricerca.md",
-    "algebra lineare/(MCD) massimo comun divisore.md",
-    "interdisciplinare/struttura dati.md",
-    "introduzione agli algoritmi/complessità temporale.md",
-    "interdisciplinare/notazione asintotica.md",
-    "basi di dati/chiusura di un insieme di attributi.md",
-    "basi di dati/dipendenza funzionale.md",
     "relazione tra tabelle master",
     "foto/IMG-20251011-WA0002.jpg",
     "foto/IMG-20251011-WA0001.jpg",
