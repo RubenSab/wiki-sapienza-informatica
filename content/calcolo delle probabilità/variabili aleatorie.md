@@ -14,7 +14,7 @@ Nell'esempio precedente, $\Omega = \{T, C\}^{100}$, $S = \{0, 1, \ldots, 100\}$ 
 
 # Legge di variabile aleatoria
 
-> Se $\Omega$ è uno spazio campionario e $X:\quad \Omega \to S$ è una variabile aleatoria su $\Omega$ a valori $\in S$, la *legge (o distribuzione) della variabile aleatoria* di $X$ è la [[misure di probabilità generiche|misura di probabilità]] specificata su $S$ dai pesetti $p_{x}\ \text{con}\ p_{x} = \mathbb{P}(X = x)$, per ogni $x \in S$.
+> Se $\Omega$ è uno spazio campionario e $X:\quad \Omega \to S$ è una variabile aleatoria su $\Omega$ a valori $\in S$, la *legge (o distribuzione) della variabile aleatoria* di $X$ è la [[misura di probabilità|misura di probabilità]] specificata su $S$ dai pesetti $p_{x}\ \text{con}\ p_{x} = \mathbb{P}(X = x)$, per ogni $x \in S$.
 
 # Esempi
 

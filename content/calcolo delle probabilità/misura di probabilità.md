@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-10-27T14:08:05.158+01:00
+updated_at: 2025-11-24T14:04:01.375+01:00
 ---
 > Sia $\Omega$ uno [[spazio campionario]] [[cardinalità#^05ea02|discreto]], e chiamiamo i suoi elementi (gli esiti) $\omega_{1}, \omega_{2}, \omega_{3}, \ldots$ Una misura di [[probabilità]] (distribuzione di probabilità su $\Omega$) è univocamente determinata dai valori ($p$) che assume su $\omega_{1}, \omega_{2}, \omega_{3}, \ldots$, che chiamiamo $p_{w_{1}}, p_{w_{2}}, p_{w_{3}}, \ldots$. Quindi $\forall \omega \in \Omega\ (\mathbb{P}({w}) := p_{w})$. Infatti dai pesi $(p_{\omega})_{\omega \in \Omega}$ otteniamo, per ogni evento $A \subseteq \Omega, \quad \mathbb{P}(A) = \sum_{\omega \in A}{p_{w}}$.
 

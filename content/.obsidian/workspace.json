@@ -20,62 +20,13 @@
             }
           },
           {
-            "id": "4824f832edf7f9b8",
-            "type": "leaf",
-            "state": {
-              "type": "webviewer",
-              "state": {
-                "url": "https://sites.google.com/di.uniroma1.it/basididati-modulo1canalem-z/home-page/materiale-del-corso",
-                "title": "Basi di Dati - Modulo 1 (canale M-Z) - Materiale del corso",
-                "mode": "webview"
-              },
-              "icon": "globe-2",
-              "title": "Basi di Dati - Modulo 1 (canale M-Z) - Materiale del corso"
-            }
-          },
-          {
-            "id": "a238c2773369fe83",
-            "type": "leaf",
-            "state": {
-              "type": "webviewer",
-              "state": {
-                "url": "https://drive.google.com/file/d/1dcRxuFMrZ1O31_ZpN6cdpklRewpG4hO9/view",
-                "title": "16.Decomposizioni che hanno un join senza perdita - Esercizi.pdf - Google Drive",
-                "mode": "webview"
-              },
-              "icon": "globe-2",
-              "title": "16.Decomposizioni che hanno un join senza perdita - Esercizi.pdf - Google Drive"
-            }
-          },
-          {
-            "id": "00801315b7ab4d73",
-            "type": "leaf",
-            "state": {
-              "type": "webviewer",
-              "state": {
-                "url": "https://drive.google.com/file/d/11eojb3dbB6t7TFWC5CPv14ZYl7-5_ppE/view",
-                "title": "15.Decomposizioni che hanno un join senza perdita.pdf - Google Drive",
-                "mode": "webview"
-              },
-              "icon": "globe-2",
-              "title": "15.Decomposizioni che hanno un join senza perdita.pdf - Google Drive"
-            }
-          }
-        ],
-        "currentTab": 3
-      },
-      {
-        "id": "e6bcf28ef35ffd12",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "67963cf9157746fc",
+            "id": "25a7fe7c9b36ae0d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "basi di dati/decomposizione in 3NF.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -91,32 +42,9 @@
               "icon": "lucide-file",
               "title": "decomposizione in 3NF"
             }
-          },
-          {
-            "id": "a5bafa4346a297df",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "basi di dati/3NF (terza forma normale).md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "3NF (terza forma normale)"
-            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -304,10 +232,65 @@
       "new-3d-graph:Open 3d graph": false
     }
   },
-  "active": "67963cf9157746fc",
+  "floating": {
+    "id": "972fa677c3575746",
+    "type": "floating",
+    "children": [
+      {
+        "id": "fa1972010e709a6d",
+        "type": "window",
+        "children": [
+          {
+            "id": "50b2e9f5abceaf26",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "a204224feec93651",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "calcolo delle probabilità/legge congiunta e leggi marginali di variabili aleatorie.md",
+                    "mode": "preview",
+                    "source": false,
+                    "backlinks": true,
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
+                  },
+                  "icon": "lucide-file",
+                  "title": "legge congiunta e leggi marginali di variabili aleatorie"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 443,
+        "y": 32,
+        "width": 718,
+        "height": 817,
+        "maximize": true,
+        "zoom": 0.5
+      }
+    ]
+  },
+  "active": "a204224feec93651",
   "lastOpenFiles": [
-    "basi di dati/3NF (terza forma normale).md",
     "basi di dati/decomposizione in 3NF.md",
+    "calcolo delle probabilità/legge congiunta e leggi marginali di variabili aleatorie.md",
+    "calcolo delle probabilità/Calcolo delle probabilità.md",
+    "calcolo delle probabilità/probabilità condizionata.md",
+    "calcolo delle probabilità/misura di probabilità.md",
+    "calcolo delle probabilità/distribuzione di Poisson 🐟.md",
+    "calcolo delle probabilità/probabilità.md",
+    "basi di dati/3NF (terza forma normale).md",
     "interdisciplinare/algoritmo.md",
     "basi di dati/algoritmo per il calcolo della chiusura di un insieme di attributi.md",
     "introduzione agli algoritmi/problem solving.md",
@@ -326,12 +309,6 @@
     "interdisciplinare/notazione asintotica.md",
     "basi di dati/chiusura di un insieme di attributi.md",
     "basi di dati/dipendenza funzionale.md",
-    "calcolo delle probabilità/probabilità.md",
-    "calcolo delle probabilità/Calcolo delle probabilità.md",
-    "basi di dati/proiezione.md",
-    "basi di dati/dipendenza parziale.md",
-    "basi di dati/dipendenza transitiva.md",
-    "basi di dati/join naturale.md",
     "relazione tra tabelle master",
     "foto/IMG-20251011-WA0002.jpg",
     "foto/IMG-20251011-WA0001.jpg",

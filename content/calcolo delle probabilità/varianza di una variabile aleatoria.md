@@ -38,7 +38,7 @@ $\text{Var}(X) = \mathbb{E}(X^{2} + \mathbb{E}(X)^{2} - 2X\mathbb{E}(X)) = E(X^{
 
 ## 1.
 
-Consideriamo la [[misure di probabilità generiche|distribuzione di probabilità]] a valori $X \in S_{X} = \{0, 1, 2\}$ con pesetti $p_{0}=\frac{1}{2}, p_{1}=\frac{1}{6}, p_{2}=\frac{1}{3}$
+Consideriamo la [[misura di probabilità|distribuzione di probabilità]] a valori $X \in S_{X} = \{0, 1, 2\}$ con pesetti $p_{0}=\frac{1}{2}, p_{1}=\frac{1}{6}, p_{2}=\frac{1}{3}$
 
 - $\mathbb{E}(X) = 0\cdot p_{0} + 1\cdot p_{1} + 2 \cdot p_{2} = \frac{5}{6}$
 - $\mathbb{E}(X^{2}) = 0 \cdot p_{0} + 1 \cdot p_{1} + 4 \cdot p_{2} = \frac{3}{2}$

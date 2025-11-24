@@ -9,7 +9,7 @@ $$
 
 Verifichiamo che $\forall k \in \mathbb{N}^{\star} (p_{k} \in [0, 1]) \land \sum_{k=1}^{+\infty}p_{k} = 1$:
 
-1. La prima probabilità è [[misure di probabilità generiche#^7cf400|verificata immediatamente]]
+1. La prima probabilità è [[misura di probabilità#^7cf400|verificata immediatamente]]
 2. $\sum_{k=0}^{+\infty}p_{k} = \sum_{k=0}^{+\infty} \frac{e^{-\lambda}\lambda^{k}}{k!} = e^{-\lambda} \sum_{k=0}^{+\infty} \frac{\lambda^{k}}{k!} \underset{\text{Taylor}}{=}e^{-\lambda}e^{\lambda} = 1 \quad \checkmark$
 
 # Intuizione

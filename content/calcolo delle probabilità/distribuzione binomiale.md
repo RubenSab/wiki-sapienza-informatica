@@ -1,7 +1,7 @@
 ---
 updated_at: 2025-11-18T19:39:56.485+01:00
 ---
-> Per $\mathbb{N} \geq 1$, sia $\Omega = \{0, 1, 2, \ldots, N\}$. La distribuzione [[coefficiente binomiale|binomiale]] di parametri $N \in \mathbb{N}$ e $p \in [0, 1]$ è la [[misure di probabilità generiche|misura di probabilità]] su $\Omega$ specificata dai pesetti $p_{k}$ definiti sotto.
+> Per $\mathbb{N} \geq 1$, sia $\Omega = \{0, 1, 2, \ldots, N\}$. La distribuzione [[coefficiente binomiale|binomiale]] di parametri $N \in \mathbb{N}$ e $p \in [0, 1]$ è la [[misura di probabilità|misura di probabilità]] su $\Omega$ specificata dai pesetti $p_{k}$ definiti sotto.
 
 $p_{k}$ è "la probabilità di vedere $k$ teste in $N$ lanci di moneta"
 

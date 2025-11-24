@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-11-23T18:22:53.508+01:00
+updated_at: 2025-11-24T14:39:24.925+01:00
 ---
 > Uno [[tabella|schema di relazione]] $R$ si può *decomporre* in più schemi, ognuno un [[sottoinsiemi|sottoinsieme]] degli attributi di $R$ su cui valgono le [[dipendenza funzionale|dipendenze funzionali]] ereditate da $R$, rilevanti per i suoi attributi. Ciò equivale a [[proiezione|proiettare]] ogni tupla dell'istanza originaria sugli attributi dei singoli sottoschemi.
 
@@ -104,7 +104,7 @@ Se volessimo usare l'[[algoritmo per il calcolo della chiusura di un insieme di 
 
 Una decomposizione $\rho = \{R_{1}, \ldots, R_{k}\}$ di $R$ ha un *join senza perdita* se $\forall r\ \text{legale}\ (r = \pi_{R1}(r) \ \triangleright \! \! \triangleleft \ \ldots \ \triangleright \! \! \triangleleft \ \pi_{RK}(r))$.
 
-> Per aiutarci nella dimostrazione, definiamo l'operatore unario $m_{\rho}()$ che agisce su un'istanza $r$ di $R$.
+> Per aiutarci nella dimostrazione, definiamo l'operatore unario $m_{\rho}()$ "m rho" che agisce su un'istanza $r$ di $R$.
 
 $$
 m_{\rho}(r) = \pi_{R1}(r) \ \triangleright \! \! \triangleleft \ \ldots \ \triangleright \! \! \triangleleft \ \pi_{RK}(r)
