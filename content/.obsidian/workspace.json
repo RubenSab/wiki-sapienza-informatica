@@ -10,15 +10,17 @@
           {
             "id": "e7a7b303c61786dc",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "graph",
               "state": {},
+              "pinned": true,
               "icon": "lucide-git-fork",
               "title": "Graph view"
             }
           },
           {
-            "id": "6f36fd421efb0b43",
+            "id": "b1afc22abdf38a6d",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -39,30 +41,6 @@
               },
               "icon": "lucide-file",
               "title": "decomposizione in 3NF"
-            }
-          },
-          {
-            "id": "0d8457dffba49229",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "basi di dati/proiezione.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "proiezione"
             }
           }
         ],
@@ -254,10 +232,10 @@
       "new-3d-graph:Open 3d graph": false
     }
   },
-  "active": "6f36fd421efb0b43",
+  "active": "b1afc22abdf38a6d",
   "lastOpenFiles": [
-    "basi di dati/proiezione.md",
     "basi di dati/decomposizione in 3NF.md",
+    "basi di dati/proiezione.md",
     "basi di dati/join naturale.md",
     "algebra lineare/spazio vettoriale di matrici.md",
     "algebra lineare/spazio vettoriale.md",

@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-11-24T23:24:08.399+01:00
+updated_at: 2025-11-25T13:30:24.622+01:00
 ---
 > Uno [[tabella|schema di relazione]] $R$ si può *decomporre* in più schemi, ognuno un [[sottoinsiemi|sottoinsieme]] degli attributi di $R$ su cui valgono le [[dipendenza funzionale|dipendenze funzionali]] ereditate da $R$, rilevanti per i suoi attributi. Ciò equivale a [[proiezione|proiettare]] ogni tupla dell'istanza originaria sugli attributi dei singoli sottoschemi.
 
@@ -147,6 +147,8 @@ Osserviamo che gode delle seguenti proprietà:
 
 ### Dimostrazione della validità dell'algoritmo
 
+#todo pag 25 pdf 15
+ 
 ### Esempio
 
 Si hanno:
@@ -159,12 +161,47 @@ Determinare se $R$, così decomposto, ha un join senza perdita.
 
 Costruzione iniziale della tabella:
 
-|     | A   | B   | C   | D   | E   |
-| --- | --- | --- | --- | --- | --- |
-| AC  | a1  | b12 | a3  | b14 | b15 |
-| ADE | a1  | b22 | b23 | a4  | a5  |
-| CDE | b31 | b32 | a3  | a4  | a5  |
-| AD  | a1  | b42 | b43 | a4  | b45 |
-| B   | b51 | a2  | b53 | b54 | b55 |
+|     | A      | B      | C      | D      | E      |
+| --- | ------ | ------ | ------ | ------ | ------ |
+| AC  | **a1** | b12    | **a3** | b14    | b15    |
+| ADE | **a1** | b22    | b23    | **a4** | **a5** |
+| CDE | b31    | b32    | **a3** | **a4** | **a5** |
+| AD  | **a1** | b42    | b43    | **a4** | b45    |
+| B   | b51    | **a2** | b53    | b54    | b55    |
 
-#todo pag. 9-10 pdf 15
+#### Prima iterazione
+
+ - $C \to D$: la prima e la terza riga coincidono sull'attributo a3, quindi cambiano b14 in a4 in modo che $C \to D$ sia soddisfatta (si cambiano sempre le b in a, **mai** il contrario).
+
+|     | A      | B          | C      | D             | E      |
+| --- | ------ | ---------- | ------ | ------------- | ------ |
+| AC  | **a1** | b12        | **a3** | b14 -> **a4** | b15    |
+| ADE | **a1** | b22 -> b12 | b23    | **a4**        | **a5** |
+| CDE | b31    | b32 -> b12 | **a3** | **a4**        | **a5** |
+| AD  | **a1** | b42 -> b12 | b43    | **a4**        | b45    |
+| B   | b51    | **a2**     | b53    | b54           | b55    |
+ - $AB \to E$: la dipendenza funzionale è già soddisfatta, in quanto non ci sono (ancora) tuple uguali su AB e diverse su E.
+ - $D \to B$: nelle prime quattro righe D=a4, quindi cambiamo b22 in b12, b32 in b12,
+b42 in b12 (potevano scegliere una diversa sostituzione delle b, purché le rendesse
+tutte uguali)
+
+#### Seconda iterazione
+
+- $C \to D$ è già soddisfatta.
+- $AB \to E$: sostituiamo b15 e b45 con a5
+
+|     | A      | B          | C      | D             | E             |
+| --- | ------ | ---------- | ------ | ------------- | ------------- |
+| AC  | **a1** | b12        | **a3** | b14 -> **a4** | b15 -> **a5** |
+| ADE | **a1** | b22 -> b12 | b23    | **a4**        | **a5**        |
+| CDE | b31    | b32 -> b12 | **a3** | **a4**        | **a5**        |
+| AD  | **a1** | b42 -> b12 | b43    | **a4**        | b45 -> **a5** |
+| B   | b51    | **a2**     | b53    | b54           | b55           |
+
+#### Terza iterazione
+
+- $C \to D$ è già soddisfatta
+- $AB \to E$ è già soddisfatta
+- $D \to B$ è già soddisfatta
+
+Non c'è una riga con tutte a, il join **non** è senza perdita.
