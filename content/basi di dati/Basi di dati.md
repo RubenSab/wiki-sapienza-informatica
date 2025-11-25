@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-11-23T11:47:28.299+01:00
+updated_at: 2025-11-25T16:19:15.839+01:00
 ---
 > [Materiale del corso](https://sites.google.com/di.uniroma1.it/basididati-modulo1canalem-z/home-page/materiale-del-corso)
 
@@ -21,6 +21,7 @@ updated_at: 2025-11-23T11:47:28.299+01:00
 - Terza forma normale e decomposizione
 	- [[3NF (terza forma normale)]]
 	- [[decomposizione in 3NF]]
+	- [[copertura minimale di un insieme di dipendenze]]
 
 ---
 

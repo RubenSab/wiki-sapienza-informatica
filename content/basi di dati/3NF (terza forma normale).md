@@ -3,6 +3,8 @@ updated_at: 2025-11-23T18:07:08.659+01:00
 ---
 # Forma normale di Boyce-Codd (BCNF) (non è una 3NF propria)
 
+^2d0ddd
+
 > Lo [[tabella|schema di relazione]]  è in BCNF se **[[dipendenza funzionale|dipendenze funzionali]]** non banali che devono essere soddisfatte da ogni istanza legale hanno come determinante una [[chiave|superchiave]] di $R$.
 
 # Definizioni di 3NF

@@ -32,4 +32,6 @@ Comunque esse entrano in $F^{+}$.
 
 # Equivalenza di insiemi di dipendenze funzionali
 
+^c57118
+
 > Siano $F$ e $G$ due insiemi di dipendenze funzionali. $F \equiv G$ se $F^{+} = G^{+}$. Cioè $F$ e $G$ potrebbero non contenere le stesse dipendenze, ma le loro [[chiusura di un insieme di attributi|chiusure]] sì.

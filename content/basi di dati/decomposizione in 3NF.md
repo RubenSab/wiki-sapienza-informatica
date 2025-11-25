@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-11-25T13:30:24.622+01:00
+updated_at: 2025-11-25T16:25:01.733+01:00
 ---
 > Uno [[tabella|schema di relazione]] $R$ si può *decomporre* in più schemi, ognuno un [[sottoinsiemi|sottoinsieme]] degli attributi di $R$ su cui valgono le [[dipendenza funzionale|dipendenze funzionali]] ereditate da $R$, rilevanti per i suoi attributi. Ciò equivale a [[proiezione|proiettare]] ogni tupla dell'istanza originaria sugli attributi dei singoli sottoschemi.
 
@@ -12,6 +12,8 @@ Gli schemi si decompongono
 - per motivi di **performance** (le tuple di taglia più piccola aumentano la velocità e la capacità massima delle operazioni di lettura)
 - o per raggruppare attributi semanticamente diversi, usati da **operazioni diverse**
 - o per **ottenere** più schemi in [[3NF (terza forma normale)]] quando lo schema originale non è in 3NF.
+
+> N.B.: È sempre possibile trovare una decomposizione in 3NF valida, ma non vale lo stesso per la forma normale di [[3NF (terza forma normale)#^2d0ddd|Boyce-Codd]].
 
 Anche se uno schema è stato decomposto in più schemi in 3NF, **non è detto che la decomposizione è soddisfacente**, infatti ad esempio $R = ABC,\ F = \{A\to B, B \to C\}$, decomposto e poi ricomposto tramite il [[join naturale]] tra sue decomposizioni, non conserva $B \to C$.
 

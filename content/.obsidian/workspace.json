@@ -4,6 +4,103 @@
     "type": "split",
     "children": [
       {
+        "id": "e0be9f5b03aa9169",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "000f62e4bc7d931f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "calcolo integrale/criteri di confronto delle serie a segno costante.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "criteri di confronto delle serie a segno costante"
+            }
+          },
+          {
+            "id": "fe1977c0f5661964",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "basi di dati/Basi di dati.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Basi di dati"
+            }
+          },
+          {
+            "id": "915e71854196b61b",
+            "type": "leaf",
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "https://sites.google.com/di.uniroma1.it/basididati-modulo1canalem-z/home-page/materiale-del-corso",
+                "title": "Basi di Dati - Modulo 1 (canale M-Z) - Materiale del corso",
+                "mode": "webview"
+              },
+              "icon": "globe-2",
+              "title": "Basi di Dati - Modulo 1 (canale M-Z) - Materiale del corso"
+            }
+          },
+          {
+            "id": "aa53ed4df5f27410",
+            "type": "leaf",
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "https://drive.google.com/file/d/1ZDvHm1MxQ0HLX2OJ4O6VA6_DeWmidYdy/view",
+                "title": "18. Copertura minimale di un insieme di dipendenze - Esercizi.pdf - Google Drive",
+                "mode": "webview"
+              },
+              "icon": "globe-2",
+              "title": "18. Copertura minimale di un insieme di dipendenze - Esercizi.pdf - Google Drive"
+            }
+          },
+          {
+            "id": "4f284b4cae4cf245",
+            "type": "leaf",
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "https://drive.google.com/file/d/0B-4exWJj0L7Renl0c1FnTkNaSms/view?resourcekey=0-CPOgdPw9HWKVemyMM0L-wg",
+                "title": "17. Copertura minimale di un insieme di dipendenze.pdf - Google Drive",
+                "mode": "webview"
+              },
+              "icon": "globe-2",
+              "title": "17. Copertura minimale di un insieme di dipendenze.pdf - Google Drive"
+            }
+          }
+        ],
+        "currentTab": 3
+      },
+      {
         "id": "4509724f8bf84da7",
         "type": "tabs",
         "children": [
@@ -49,8 +146,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "algebra lineare/spazio vettoriale.md",
-                "mode": "preview",
+                "file": "basi di dati/copertura minimale di un insieme di dipendenze.md",
+                "mode": "source",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -64,7 +161,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "spazio vettoriale"
+              "title": "copertura minimale di un insieme di dipendenze"
             }
           }
         ],
@@ -125,7 +222,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "lemma chiusu",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -258,9 +355,20 @@
   },
   "active": "ffa9ce30e72afbba",
   "lastOpenFiles": [
+    "basi di dati/copertura minimale di un insieme di dipendenze.md",
+    "basi di dati/Basi di dati.md",
+    "algebra lineare/spazio vettoriale R quadro.md",
     "basi di dati/decomposizione in 3NF.md",
+    "calcolo integrale/criteri di confronto delle serie a segno costante.md",
+    "basi di dati/dipendenza funzionale.md",
+    "basi di dati/chiusura di Armstrong.md",
+    "basi di dati/chiusura di un insieme di attributi.md",
+    "basi di dati/3NF (terza forma normale).md",
     "algebra lineare/spazio vettoriale.md",
     "algebra lineare/sottospazio vettoriale.md",
+    "algebra lineare/isomorfismo.md",
+    "discarica.md",
+    "2A.md",
     "algebra lineare/spazio vettoriale di matrici.md",
     "algebra lineare/campo.md",
     "algebra lineare/anello.md",
@@ -271,19 +379,8 @@
     "basi di dati/proiezione.md",
     "basi di dati/join naturale.md",
     "algebra lineare/Algebra lineare.md",
-    "algebra lineare/spazio vettoriale R quadro.md",
     "algebra lineare/gruppo quoziente.md",
     "calcolo delle probabilità/legge congiunta e leggi marginali di variabili aleatorie.md",
-    "calcolo delle probabilità/Calcolo delle probabilità.md",
-    "calcolo delle probabilità/probabilità condizionata.md",
-    "calcolo delle probabilità/misura di probabilità.md",
-    "calcolo delle probabilità/distribuzione di Poisson 🐟.md",
-    "calcolo delle probabilità/probabilità.md",
-    "basi di dati/3NF (terza forma normale).md",
-    "introduzione agli algoritmi/problem solving.md",
-    "calcolo differenziale/numeri naturali.md",
-    "introduzione agli algoritmi/insertion sort.md",
-    "interdisciplinare/array.md",
     "relazione tra tabelle master",
     "foto/IMG-20251011-WA0002.jpg",
     "foto/IMG-20251011-WA0001.jpg",
