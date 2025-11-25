@@ -1,7 +1,7 @@
 ---
-updated_at: 2025-11-24T17:32:53.994+01:00
+updated_at: 2025-11-25T14:13:50.436+01:00
 ---
-> sia $K$ un [[campo]] e $V = (V, +, 0_{V})$ un [[gruppo abeliano]] in [[gruppo#^963e43|notazione additiva]]. Si dice che $V$ è un *$K$-spazio vettoriale* o uno *spazio vettoriale su $K$* se esiste un'operazione binaria (moltiplicazione per uno scalare) $K \times V \to V$, dove $(\lambda, v) \mapsto \lambda \cdot v$ tale che $\forall \alpha, \beta \in K, \quad v, w \in V$.
+> sia $K$ un [[campo]] (contiene gli *scalari*) e $V = (V, +, 0_{V})$ un [[gruppo abeliano]] (contiene i *vettori*) in [[gruppo#^963e43|notazione additiva]]. Si dice che $V$ è un *$K$-spazio vettoriale* o uno *spazio vettoriale su $K$* se esiste un'operazione binaria (moltiplicazione per uno scalare) $K \times V \to V$, dove $(\lambda, v) \mapsto \lambda \cdot v$ tale che $\forall \alpha, \beta \in K, \quad v, w \in V$.
 
 > Gli elementi di $K$ si chiamano *scalari*, mentre quelli di $V$ si chiamano vettori.
 
@@ -9,28 +9,31 @@ updated_at: 2025-11-24T17:32:53.994+01:00
 
 > N.B.: per ogni spazio vettoriale esiste un gruppo associato ad esso, ma non viceversa.
 
-- [[sottospazio vettoriale]]
 - [[spazio vettoriale di matrici]]
 - [[spazio vettoriale R quadro]]
 
-# Terminologia
-
-- scalare
-- vettore
-- *combinazione lineare dei vettori $v, w$ con coefficienti $\alpha, \beta$*: $\alpha v + \beta w$.
-- #todo coordinate
-- origine = neutro
-- due vettori si dicono *linearmente indipendenti* su $K$ se dati gli scalari $\lambda_{1}, \ldots, \lambda_{n} \in K$ se $\lambda_{1} v_{1} + \ldots + \lambda_{n} v_{n} = 0 \implies \lambda_{1} = \ldots = \lambda_{n} = 0$, altrimenti sono *linearmente dipendenti*.
-- $v_{1} = \binom{1}{0},\ v_{2} = \binom{0}{1}$ sono linearmente indipendenti $\lambda_{1} v_{1} + \lambda_{2} v_{2} = \binom{\lambda_{1}}{0} + \binom{0}{\lambda_{2}} = \binom{0}{0}$
-
-
-# Proprietà/Assiomi
+# Proprietà
 
 1. Legge di distributività di $\alpha \in K$ su $V$: $\alpha \cdot (v \underset{V}{+} w) = \alpha \cdot v \underset{V}{+} \alpha \cdot w$
 2. Legge di distributività di $v \in V$ su $K$: $v \cdot (\alpha \underset{K}{+} \beta) = \alpha \cdot v \underset{V}{+} \beta \cdot v$
 3. Compatibilità del prodotto come definito in $K$ e del prodotto definito in $V$: $\alpha \cdot (\beta \cdot v) = (\alpha \cdot \beta ) \cdot v$
-4. Unità: $1_{K} \cdot v = v$
+4. Esistenza dell'*unità* (scalare neutro): $1_{K} \cdot v = v$
 
+# Glossario
+
+- ***Scalare***: è un elemento del campo $K$, il quale gode di due operazioni binarie commutative $+$ e $*$ tra scalari.
+- ***Vettore***: è un elemento del gruppo abeliano $V$, il quale gode di un operazione binaria commutativa $+$ tra vettori.
+- ***Spazio vettoriale banale***: $K^{1} = K$, cioè i campi, o $K^{0} := \{0\}$, lo spazio con solo l'elemento neutro.
+- ***Combinazione lineare** dei vettori $v, w$ con coefficienti $\alpha, \beta$*: $\alpha v + \beta w$.
+- ***Coordinate***: I coefficienti di una combinazione lineare sono chiamati coordinate del vettore rispetto alle basi/vettori generatori. Ad esempio le coordinate di $\mathbb{R}^{2}$, cioè il piano cartesiano, esistono rispetto ai vettori generatori $\binom{1}{0}$ e $\binom{0}{1}$.
+- ***Origine***: l'elemento/vettore neutro dello spazio vettoriale. Ad esempio in $\mathbb{R}^{2}$ è il "centro" del piano.
+- ***Unità***: lo scalare neutro $\in K$.
+- ***(In)dipendenza lineare***: due vettori si dicono *linearmente indipendenti* su $K$ se dati gli scalari $\lambda_{1}, \ldots, \lambda_{n} \in K$ se $\lambda_{1} v_{1} + \ldots + \lambda_{n} v_{n} = 0 \implies \lambda_{1} = \ldots = \lambda_{n} = 0$, altrimenti sono *linearmente dipendenti*. Ad esempio $v_{1} = \binom{1}{0},\ v_{2} = \binom{0}{1}$ sono linearmente indipendenti: $\lambda_{1} v_{1} + \lambda_{2} v_{2} = \binom{\lambda_{1}}{0} + \binom{0}{\lambda_{2}} = \binom{0}{0}$
+- ***Span***: dato lo spazio vettoriale $V$ e un insieme $I$ di vettori $\in V$, detti *basi* o *vettori generatori*, lo span è l'intersezione di tutti i [[sottospazio vettoriale|sottospazi vettoriali]] di $V$ che contengono $I$.
+  Si chiama anche *il più piccolo sottospazio di $V$ generato da $I$*, *copertura lineare* di $I$ o $\text{Vett}(I)$.
+  Una definizione più utile è "l'insieme costituito da tutte le possibili combinazioni lineari finite di un insieme di vettori di uno spazio vettoriale, (chiamato sottospazio vettoriale *generato* da essi)".
+
+#todo
 # Esempi di operazioni vettoriali
 
 - Gli assiomi (1) e (2) sono inglobati nell'assioma di distributività di $\cdot$ su $+$ di $K$ come anello.
@@ -93,9 +96,3 @@ $$
 $$
 1 \cdot (v_{1}, \ldots, v_{n}) = (v_{1}, \ldots, v_{n}) = v
 $$
-
-# Spazio vettoriale banale
-
-$K^{1} = K$.
-
-> Si scrive anche $K^{0} := \{0\}$

@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-10-27T15:51:45.438+01:00
+updated_at: 2025-11-25T13:45:15.045+01:00
 ---
 > Gli anelli sono un caso specifico dei [[gruppo|gruppi]]. Un *anello commutativo con unità* è una sestupla $(A, +, \cdot, -, 0, 1)$ dove:
 
@@ -10,7 +10,7 @@ updated_at: 2025-10-27T15:51:45.438+01:00
 - $0\ (\in A)$ è il *neutro additivo*,
 - $1\ (\in A)$ è il *neutro moltiplicativo.
 
-Su cui gli valgono i seguenti assiomi **additivi**:
+Su di esso valgono i seguenti assiomi **additivi**:
 
 1. Commutatività
 2. Associatività
