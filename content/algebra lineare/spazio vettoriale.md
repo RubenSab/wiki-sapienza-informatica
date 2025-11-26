@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-11-25T14:39:00.650+01:00
+updated_at: 2025-11-26T16:55:26.973+01:00
 ---
 > sia $K$ un [[campo]] (contiene gli *scalari*) e $V = (V, +, 0_{V})$ un [[gruppo abeliano]] (contiene i *vettori*) in [[gruppo#^963e43|notazione additiva]]. Si dice che $V$ è un *$K$-spazio vettoriale* o uno *spazio vettoriale su $K$* se esiste un'operazione binaria (moltiplicazione per uno scalare) $K \times V \to V$, dove $(\lambda, v) \mapsto \lambda \cdot v$ tale che $\forall \alpha, \beta \in K, \quad v, w \in V$.
 
@@ -13,7 +13,7 @@ updated_at: 2025-11-25T14:39:00.650+01:00
 
 - [[spazio vettoriale di matrici]]
 - [[spazio vettoriale R quadro]]
-
+- [[sottospazio vettoriale]]
 # Proprietà
 
 1. Legge di distributività di $\alpha \in K$ su $V$: $\alpha \cdot (v \underset{V}{+} w) = \alpha \cdot v \underset{V}{+} \alpha \cdot w$
@@ -23,14 +23,16 @@ updated_at: 2025-11-25T14:39:00.650+01:00
 
 # Glossario
 
+^ea5605
+
 - ***Scalare***: è un elemento del campo $K$, il quale gode di due operazioni binarie commutative $+$ e $*$ tra scalari.
 - ***Vettore***: è un elemento del gruppo abeliano $V$, il quale gode di un operazione binaria commutativa $+$ tra vettori.
 - ***Spazio vettoriale banale***: $K^{1} = K$, cioè i campi, o $K^{0} := \{0\}$, lo spazio con solo l'elemento neutro.
-- ***Combinazione lineare** dei vettori $v, w$ con coefficienti $\alpha, \beta$*: $\alpha v + \beta w$.
+- ***Combinazione lineare*** dei vettori $v, w$ con coefficienti $\alpha, \beta$*: $\alpha v + \beta w$. Esiste una combinazione lineare banale $0 \cdot v_{1} + \ldots + 0 \cdot v_{n} = 0_{V}$ ^a51465
 - ***Coordinate***: I coefficienti di una combinazione lineare sono chiamati coordinate del vettore rispetto alle basi/vettori generatori. Ad esempio le coordinate di $\mathbb{R}^{2}$, cioè il piano cartesiano, esistono rispetto ai vettori generatori $\binom{1}{0}$ e $\binom{0}{1}$.
 - ***Origine***: l'elemento/vettore neutro dello spazio vettoriale. Ad esempio in $\mathbb{R}^{2}$ è il "centro" del piano.
 - ***Unità***: lo scalare neutro $\in K$.
-- ***(In)dipendenza lineare***: due vettori si dicono *linearmente indipendenti* su $K$ se dati gli scalari $\lambda_{1}, \ldots, \lambda_{n} \in K$ se $\lambda_{1} v_{1} + \ldots + \lambda_{n} v_{n} = 0 \implies \lambda_{1} = \ldots = \lambda_{n} = 0$, altrimenti sono *linearmente dipendenti*. Ad esempio $v_{1} = \binom{1}{0},\ v_{2} = \binom{0}{1}$ sono linearmente indipendenti: $\lambda_{1} v_{1} + \lambda_{2} v_{2} = \binom{\lambda_{1}}{0} + \binom{0}{\lambda_{2}} = \binom{0}{0}$
+- [[vettori linearmente indipendenti]]
 - ***Span***: dato lo spazio vettoriale $V$ e un insieme $I$ di vettori $\in V$, detti *basi* o *vettori generatori*, lo span è l'intersezione di tutti i [[sottospazio vettoriale|sottospazi vettoriali]] di $V$ che contengono $I$.
   Si chiama anche *il più piccolo sottospazio di $V$ generato da $I$*, *copertura lineare* di $I$ o $\text{Vett}(I)$.
   Una definizione più utile è "l'insieme costituito da tutte le possibili combinazioni lineari finite dell'insieme dei generatori, a coefficienti in $K$ (chiamato sottospazio vettoriale *generato* da essi)". ^f86ebb

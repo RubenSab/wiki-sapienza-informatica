@@ -10,11 +10,9 @@
           {
             "id": "e7a7b303c61786dc",
             "type": "leaf",
-            "pinned": true,
             "state": {
               "type": "graph",
               "state": {},
-              "pinned": true,
               "icon": "lucide-git-fork",
               "title": "Graph view"
             }
@@ -25,7 +23,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "calcolo delle probabilità/varianza di una variabile aleatoria.md",
+                "file": "algebra lineare/spazio vettoriale di matrici.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -40,7 +38,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "varianza di una variabile aleatoria"
+              "title": "spazio vettoriale di matrici"
             }
           }
         ],
@@ -101,7 +99,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "\\",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -215,8 +213,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 354.5,
-    "collapsed": true
+    "width": 354.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -234,8 +231,16 @@
   },
   "active": "bc417d9592a1210b",
   "lastOpenFiles": [
-    "metodologie di programmazione/variabile.md",
+    "algebra lineare/spazio vettoriale di matrici.md",
+    "architettura degli elaboratori/registri generali dell'architettura RISC-V.md",
+    "calcolo integrale/EDO del secondo ordine.md",
+    "algebra lineare/spazio vettoriale.md",
     "calcolo delle probabilità/legge congiunta e leggi marginali di variabili aleatorie.md",
+    "metodologie di programmazione/variabile.md",
+    "algebra lineare/vettori linearmente indipendenti.md",
+    "calcolo delle probabilità/varianza di una variabile aleatoria.md",
+    "algebra lineare/Algebra lineare.md",
+    "algebra lineare/sottospazio vettoriale.md",
     "calcolo delle probabilità/Calcolo delle probabilità.md",
     "calcolo delle probabilità/legge condizionata.md",
     "algebra lineare/partizione.md",
@@ -248,18 +253,10 @@
     "basi di dati/chiusura di Armstrong.md",
     "basi di dati/chiusura di un insieme di attributi.md",
     "basi di dati/3NF (terza forma normale).md",
-    "algebra lineare/spazio vettoriale.md",
-    "algebra lineare/sottospazio vettoriale.md",
     "algebra lineare/isomorfismo.md",
     "discarica.md",
     "2A.md",
-    "algebra lineare/spazio vettoriale di matrici.md",
     "algebra lineare/campo.md",
-    "algebra lineare/anello.md",
-    "algebra lineare/gruppo abeliano.md",
-    "algebra lineare/gruppo.md",
-    "basi di dati/algoritmo per il calcolo della chiusura di un insieme di attributi.md",
-    "interdisciplinare/algoritmo.md",
     "relazione tra tabelle master",
     "foto/IMG-20251011-WA0002.jpg",
     "foto/IMG-20251011-WA0001.jpg",
