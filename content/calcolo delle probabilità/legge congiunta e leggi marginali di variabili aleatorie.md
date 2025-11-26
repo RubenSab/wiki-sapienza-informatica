@@ -1,6 +1,8 @@
 ---
-updated_at: 2025-11-24T15:01:44.826+01:00
+updated_at: 2025-11-26T14:23:24.112+01:00
 ---
+# Legge congiunta
+
 > Siano $X$ e $Y$ due [[variabili aleatorie]] sullo [[spazio campionario]] $\Omega$ a valori in $S_{X}$ e $S_{Y}$ rispettivamente. La *legge congiunta* di $X$ e $Y$ è la [[misura di probabilità|misura di probabilità]] su $S_{X} \times S_{Y} = \{(x, y): x \in S_{X}, y \in S_{Y}\}$ data dai pesetti $p_{x,y} = \mathbb{P}\underset{\{X = x\} \cap \{Y=y\}}{(X = x, Y = y)}\ \forall (x, y) \in S_{X} \times S_{Y}$.
 
 > N.B.: Questa è una legge di probabilità, quindi necessariamente
@@ -37,7 +39,7 @@ $$
 \sum_{x \in S_{X}} x \cdot \mathbb{P}(X = x) \cdot \sum_{y \in S_{Y}} y \cdot \mathbb{P}(Y = y) = \mathbb{E}(X) \cdot \mathbb{E}(Y)
 $$
 
-# Esempio: lanciamo due dadi
+## Esempio: lanciamo due dadi
 
 Sia $X$ il risultato del primo lancio, contenuto in $S_{X} = \{1, 2, 3, 4, 5, 6\}$ e sia $Y$ il massimo dei due lanci, contenuto in $S_{Y} = S_{X}$.
 
@@ -90,7 +92,7 @@ $$
 $$
 p_{y}  =\mathbb{P}(Y = y) = \sum_{y \in S_{Y}} \mathbb{P}(X = x, Y = \underset{\text{fissata}}{y}) \quad \forall y \in S_{Y}
 $$
-In generale, dalla legge congiunta di $X$ e $Y$ possiamo ricavare le marginali, ma dalle  marginali non si può, senza informazioni aggiuntive, scrivere la legge congiunta.
+In generale, dalla legge congiunta di $X$ e $Y$ possiamo ricavare le marginali; ma dalle  marginali non si può, senza informazioni aggiuntive, scrivere la legge congiunta.
 
 > N.B.: Se $X$ e $Y$ sono [[indipendenza di due eventi|indipendenti]], la loro legge congiunta è il "prodotto" delle leggi marginali, ossia
 
@@ -103,3 +105,38 @@ $$
 $$
 \forall (x, y) \in S_{X} \times S_{Y} \quad p_{xy} = \mathbb{P}(X = x, Y=y) > 0
 $$
+
+## Esempio
+
+Siano $X$ e $Y$ due variabili aleatorie con legge congiunta data dai pesetti
+
+
+| $S_{Y}/S_{X}$ | 1    | 2    | 3    |
+| ------------- | ---- | ---- | ---- |
+| **1**         | 0    | 1/12 | 1/12 |
+| **2**         | 2/12 | 3/12 | 0    |
+| **3**         | 0    | 1/12 | 0    |
+| **4**         | 1/12 | 1/12 | 2/12 |
+
+su
+
+$S_{X} = \{1, 2, 3\}$
+$S_{Y} = \{1, 2, 3, 4\}$
+
+Leggi marginali:
+
+- $\mathbb{P}(X)$:
+	- $\mathbb{P}(X = 1) = p_{1,1} + p_{1,2} + p_{1,3} + p_{1,4} = \frac{3}{12}$
+	- $\mathbb{P}(X = 2) = p_{2,1} + p_{2,2} + p_{2,3} + p_{2,4} = \frac{6}{12}$
+	- $\mathbb{P}(X = 3) = p_{3,1} + p_{3,2} + p_{3,3} + p_{3,4} = \frac{3}{12}$
+
+- $\mathbb{P}(Y)$:
+	- $\mathbb{P}(Y = 1) = p_{1,1} + p_{2,1} + p_{3, 1} = \frac{2}{12}$
+	- $\mathbb{P}(Y = 2) = p_{1,2} + p_{2,2} + p_{3, 2} = \frac{5}{12}$
+	- $\mathbb{P}(Y = 3) = p_{1,3} + p_{2,3} + p_{3, 3} = \frac{1}{12}$
+	- $\mathbb{P}(Y = 4) = p_{1,4} + p_{2,4} + p_{3, 4} = \frac{4}{12}$
+
+Esempi di [[evento|eventi]] di natura "geometrica" calcolati nel "piano discreto" della la legge congiunta dei pesetti:
+
+- $\mathbb{P}(X+Y=4) = \mathbb{P}(\{(x, y): x+y\}) = \mathbb{P}(\{(1, 3), (2, 2), (3, 1)\}) = 0 + \frac{3}{12} + \frac{1}{12} = \frac{1}{3}$ (retta)
+- $\mathbb{P}((X-2)^{2}+(Y-1)^{2} \leq 1) = p_{1, 1} + p_{2,1} + p_{3,1} + p_{2,2} = \frac{5}{12}$ (cerchio)

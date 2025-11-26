@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-10-01T12:01:35.198+02:00
+updated_at: 2025-11-26T13:41:59.549+01:00
 ---
 > Una partizione di un [[teoria degli insiemi|insieme]] $X$ è una famiglia $\mathcal{P}$ di [[sottoinsiemi|sottoinsiemi]] di $X$ tale che:
 
@@ -28,10 +28,10 @@ $$
 Viceversa, sia $\mathcal{P}$ una partizione di $X$. Definiamo una relazione $\mathcal{R}$ su $X$ nel modo seguente:
 
 $$
-x, y \in X\ \ \ x\ \mathcal{R}\ y \iff \exists\ p \in \mathcal{P} : x, y \in P
+x, y \in X\ \ \ x\ \mathcal{R}\ y \iff \exists\ p \in \mathcal{P} : x, y \in p
 $$
 
-"Due elementi $x$ e $y$ di $X$ sono in relazione $\mathcal{R}$ se e solo se esiste un insieme $P$ nella famiglia $\mathcal{P}$ tale che sia $x$ che $y$ appartengono a $P$."
+"Due elementi $x$ e $y$ di $X$ sono in relazione $\mathcal{R}$ se e solo se esiste un insieme $p$ nella famiglia $\mathcal{P}$ tale che sia $x$ che $y$ appartengono a $p$."
 
 ---
 
