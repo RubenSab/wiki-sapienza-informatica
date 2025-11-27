@@ -1,7 +1,7 @@
 ---
 updated_at: 2025-09-28T21:52:41.341+02:00
 ---
-> La classe di equivalenza di un elemento di A è l'[[teoria degli insiemi|insieme]] di tutti gli elementi in [[relazione]] con l'elemento di A.
+> La classe di equivalenza di un elemento di A è l'[[insieme|insieme]] di tutti gli elementi in [[relazione]] con l'elemento di A.
 
 $$
 [a]=\{x\in A|(a,x)\in R\}

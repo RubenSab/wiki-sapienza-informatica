@@ -1,7 +1,7 @@
 ---
 updated_at: 2025-11-26T13:41:59.549+01:00
 ---
-> Una partizione di un [[teoria degli insiemi|insieme]] $X$ è una famiglia $\mathcal{P}$ di [[sottoinsiemi|sottoinsiemi]] di $X$ tale che:
+> Una partizione di un [[insieme|insieme]] $X$ è una famiglia $\mathcal{P}$ di [[sottoinsiemi|sottoinsiemi]] di $X$ tale che:
 
 1. Gli insiemi della partizione non contengono l'insieme vuoto: $\forall P \in \mathcal{P}\ (P\neq \emptyset)$;
 2. Gli insiemi della partizione sono due a due **disgiunti** $\forall P, Q \in \mathcal{P}\ (P\neq Q \implies P \cap Q = \emptyset)$;

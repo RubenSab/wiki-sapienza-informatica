@@ -5,7 +5,7 @@ updated_at: 2025-03-06T22:37:32.919+01:00
 
 $$a: \mathbb{N} \rightarrow \mathbb{R}$$
 $$n \mapsto a_n$$
-Una successione (considerandola come [[teoria degli insiemi|insieme]] di valori) si indica così:
+Una successione (considerandola come [[insieme|insieme]] di valori) si indica così:
 
 $${(a_{n})}_{n \in \mathbb{N}} \subseteq \mathbb{R}$$
 - $a$ è il suo nome

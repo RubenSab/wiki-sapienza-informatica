@@ -1,7 +1,7 @@
 ---
 updated_at: 2025-11-23T16:10:37.938+01:00
 ---
-> Una dipendenza funzionale stabilisce un particolare legame semantico tra due [[teoria degli insiemi|insiemi]] non vuoti di attributi $X$ e $Y$ appartenenti ad uno [[tabella#^ec7c8e|schema]] $R$.
+> Una dipendenza funzionale stabilisce un particolare legame semantico tra due [[insieme|insiemi]] non vuoti di attributi $X$ e $Y$ appartenenti ad uno [[tabella#^ec7c8e|schema]] $R$.
 
 Tale vincolo si scrive $X \to Y$ e si legge $X$ *determina* $Y$.
 
@@ -22,7 +22,7 @@ Ovviamente $F \subseteq F^{+}$.
 
 # Dipendenze funzionali banali
 
-Dati uno schema di relazione $\mathcal{R}$ e due [[teoria degli insiemi|sottoinsiemi]] non vuoti $X, Y \subseteq \mathcal{R}$, tali che $Y \subseteq X$ si ha che ogni istanza $r$ di $\mathcal{R}$ soddisfa la dipendenza funzionale (detta banale) $X \to Y$.
+Dati uno schema di relazione $\mathcal{R}$ e due [[insieme|sottoinsiemi]] non vuoti $X, Y \subseteq \mathcal{R}$, tali che $Y \subseteq X$ si ha che ogni istanza $r$ di $\mathcal{R}$ soddisfa la dipendenza funzionale (detta banale) $X \to Y$.
 
 > N.B.: è matematicamente impossibile violare una dipendenza funzionale banale, perché ad esempio $(a_{1}, b_{1}, c_{1}) = (a_{2}, b_{2}, c_{2}) \implies (a_{1}, b_{1}) = (a_{2}, b_{2})$.
 

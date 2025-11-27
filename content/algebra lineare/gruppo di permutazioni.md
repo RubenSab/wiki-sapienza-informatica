@@ -1,7 +1,7 @@
 ---
 updated_at: 2025-11-18T22:51:18.417+01:00
 ---
-> È un [[gruppo]] $G$ i cui elementi sono le [[permutazioni]] di un [[teoria degli insiemi|insieme]] $M$ e la cui operazioni è la *composizione* delle permutazioni in $G$.
+> È un [[gruppo]] $G$ i cui elementi sono le [[permutazioni]] di un [[insieme|insieme]] $M$ e la cui operazioni è la *composizione* delle permutazioni in $G$.
 
 > In particolare, il gruppo di tutte le permutazioni di un insieme $M$ si chiama ***gruppo simmetrico*** di $M$, scritto come $\text{Sym(M)}$ o $S_{n}$, dove $n$ è la [[cardinalità]] di $M$.
 

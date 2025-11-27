@@ -1,7 +1,7 @@
 ---
 updated_at: 2025-09-29T13:39:20.871+02:00
 ---
-> Un [[teoria degli insiemi|sottoinsieme]] $A \subseteq \Omega$ dello [[spazio campionario]] è detto evento, o esito.
+> Un [[insieme|sottoinsieme]] $A \subseteq \Omega$ dello [[spazio campionario]] è detto evento, o esito.
 
 Esempio: lancio un dado a 6 facce.
 $$\Omega =  \{1, 2, 3, 4, 5, 6\}$$

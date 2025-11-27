@@ -74,7 +74,7 @@ I cicli possono essere prefissati dalla loro lunghezza, in questo caso $\rho$ è
 
 > Gli 1-cicli sono evidentemente invarianti.
 
-# Quante sono le permutazioni di un [[teoria degli insiemi|insieme]] con [[cardinalità]] $n$?
+# Quante sono le permutazioni di un [[insieme|insieme]] con [[cardinalità]] $n$?
 
 $$
 n \cdot(n-1) \cdot(n-2) \cdot \ldots \cdot 2 \cdot 1 = n!

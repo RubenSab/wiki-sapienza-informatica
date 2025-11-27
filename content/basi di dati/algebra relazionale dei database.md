@@ -3,7 +3,7 @@ updated_at: 2025-10-16T17:17:49.534+02:00
 ---
 > È un linguaggio formale completamente procedurale per interrogare una base di dati relazionali. Si fonda sul concetto di [[relazione]] matematica ed è la base dei [[database relazionali]]. Consiste di un insieme di operatori che possono essere applicati a una (operatori unari) o due (operatori binari) istanze di relazione e forniscono come risultato una nuova istanza di relazione.
 
-> N.B.: Bisogna sempre ricordare che le operazioni di [[SQL]] possono creare duplicati, quelle dell'algebra relazionale lavorano su [[teoria degli insiemi|insiemi]], rimuovendo/non ammettendo duplicati. 
+> N.B.: Bisogna sempre ricordare che le operazioni di [[SQL]] possono creare duplicati, quelle dell'algebra relazionale lavorano su [[insieme|insiemi]], rimuovendo/non ammettendo duplicati. 
 
 > In una relazione, il numero di domini di cui si fa il prodotto cartesiano è il suo **grado**.
 

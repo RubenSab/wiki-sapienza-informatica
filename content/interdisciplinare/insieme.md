@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-11-03T21:53:37.189+01:00
+updated_at: 2025-11-27T15:15:11.747+01:00
 ---
 # Definizione di insieme
 

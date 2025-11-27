@@ -22,7 +22,7 @@ $$
 
 3. $A \perp \!\!\! \perp B \implies A \perp \!\!\! \perp B^{C}, A^{C} \perp \!\!\! \perp B^{C}, A^{C} \perp \!\!\! \perp B$
 
-> N.B.: $A^{C}$ è il [[teoria degli insiemi|complemento]] di $A$.
+> N.B.: $A^{C}$ è il [[insieme|complemento]] di $A$.
 
 Dimostrazione del punto 3:
 

@@ -5,7 +5,7 @@ updated_at: 2025-02-22T15:24:12.004+01:00
 
 ## prima parte
 
-- [[teoria degli insiemi]]
+- [[insieme]]
 - [[induzione]]
 ## seconda parte
 

@@ -3,7 +3,7 @@ updated_at: 2025-11-13T10:13:38.941+01:00
 ---
 > Un gruppo è una quadrupla $(G, *, e, {}^{-1})$ dove:
 
-1. **$G$** è un [[teoria degli insiemi|insieme]] non vuoto.
+1. **$G$** è un [[insieme|insieme]] non vuoto.
 2. **$*$** è un'operazione binaria **non necessariamente commutativa** $G \times G \to G$ ("prodotto" o "legge di composizione").
 3. **$e \in G$** è l'elemento neutro.
 4. **${g}^{-1}$** è una funzione $G \to G$ che associa a ***ogni*** elemento $a \in G$ il suo inverso $a^{-1} \in G$.

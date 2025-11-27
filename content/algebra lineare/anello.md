@@ -3,7 +3,7 @@ updated_at: 2025-11-25T13:45:15.045+01:00
 ---
 > Gli anelli sono un caso specifico dei [[gruppo|gruppi]]. Un *anello commutativo con unità* è una sestupla $(A, +, \cdot, -, 0, 1)$ dove:
 
-- $A$ è un [[teoria degli insiemi|insieme]] non vuoto che contiene gli elementi dell'anello su cui agiscono le operazioni,
+- $A$ è un [[insieme|insieme]] non vuoto che contiene gli elementi dell'anello su cui agiscono le operazioni,
 - $+$ è un'operazione binaria $A \times A \to A$,
 - $\cdot$ è un'operazione binaria $A \times A \to A$,
 - $-$ è un'operazione unaria $A \to A$,

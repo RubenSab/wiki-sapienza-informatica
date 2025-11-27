@@ -18,7 +18,7 @@ Questa non è una corrispondenza perché $1$ è mappato a più di un elemento.
 
 Terminologia:
 
-> Il codominio si chiama anche **[[teoria degli insiemi|insieme]] immagine**
+> Il codominio si chiama anche **[[insieme|insieme]] immagine**
 
 > Il dominio si chiama anche **insieme di partenza**
 

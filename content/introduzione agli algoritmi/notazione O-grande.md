@@ -1,7 +1,7 @@
 ---
 updated_at: 2025-03-10T18:27:16.385+01:00
 ---
-> Secondo questa notazione, $O(g(n))$ è un [[teoria degli insiemi|insieme]] di [[funzione|funzioni]] che rappresenta l'ordine di grandezza **[[concetto di asintotico|asintotico]] superiore** ("più grande") rispetto a quello di $f(n)$, cioè , cioè $f(n)$ **cresce più lentamente** di $g(n)$.
+> Secondo questa notazione, $O(g(n))$ è un [[insieme|insieme]] di [[funzione|funzioni]] che rappresenta l'ordine di grandezza **[[concetto di asintotico|asintotico]] superiore** ("più grande") rispetto a quello di $f(n)$, cioè , cioè $f(n)$ **cresce più lentamente** di $g(n)$.
 $$\lim_{n\to +\infty}{\frac{f(n)}{g(x)}}=0 \to f(x) \in O(g(x))$$
 
 Esempio di confronto asintotico tra $\log{n}$ e $n$: $$\lim_{n\to\infty}{\frac{\log{n}}{n}}=0 \to log(n)\in O(n)$$

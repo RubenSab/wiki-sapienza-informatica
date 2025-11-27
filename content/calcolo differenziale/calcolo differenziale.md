@@ -11,7 +11,7 @@ updated_at: 2025-02-22T15:24:28.893+01:00
 # argomenti
 ## teoria degli insiemi e insiemi numerici
 
-- [[teoria degli insiemi]]
+- [[insieme]]
 - [[numeri naturali]]
 - [[numeri interi relativi]]
 - [[numeri razionali]]

@@ -1,7 +1,7 @@
 ---
 updated_at: 2025-10-12T17:03:25.528+02:00
 ---
-> La teoria degli anelli è l'**astrazione** delle proprietà delle operazioni sull'[[teoria degli insiemi|insieme]] dei [[numeri interi relativi]], le quali vengono definite su un sull'insieme generico detto [[anello]].
+> La teoria degli anelli è l'**astrazione** delle proprietà delle operazioni sull'[[insieme|insieme]] dei [[numeri interi relativi]], le quali vengono definite su un sull'insieme generico detto [[anello]].
 
 # Operazioni in $\mathbb{Z}$
 

@@ -27,7 +27,7 @@ con:
 - condizione A: $f \circ g = Id_{y}$
 - condizione B: $g \circ f = Id_{x}$
 
-> Ricordiamo che $Id_{x} = (X, X, \{(x, x),\ x \in X \})$, cioè l'applicazione biiettiva che mappa ogni elemento di un [[teoria degli insiemi|insieme]] a se stesso.
+> Ricordiamo che $Id_{x} = (X, X, \{(x, x),\ x \in X \})$, cioè l'applicazione biiettiva che mappa ogni elemento di un [[insieme|insieme]] a se stesso.
 
 ## Dimostriamo che $f$ è suriettiva.
 

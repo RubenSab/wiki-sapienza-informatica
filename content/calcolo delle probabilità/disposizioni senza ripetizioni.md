@@ -1,7 +1,7 @@
 ---
 updated_at: 2025-11-03T20:07:40.096+01:00
 ---
-Se ho un [[teoria degli insiemi|insieme]] di $n$ elementi e $k$ elementi da scegliere, scelgo uno degli $n!$ ordinamenti, devo dimenticare l'ordine dei restanti $n-k$ elementi (cioè quelli da non scegliere) dividendo per $(n-k)!$
+Se ho un [[insieme|insieme]] di $n$ elementi e $k$ elementi da scegliere, scelgo uno degli $n!$ ordinamenti, devo dimenticare l'ordine dei restanti $n-k$ elementi (cioè quelli da non scegliere) dividendo per $(n-k)!$
 
 $$
 \frac{n!}{(n-k)!}

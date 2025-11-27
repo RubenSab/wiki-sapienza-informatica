@@ -1,7 +1,7 @@
 ---
 updated_at: 2025-10-07T17:23:40.223+02:00
 ---
-> Indicata con $|I|$ oppure $\text{Card}(I)$, per gli [[teoria degli insiemi|insiemi]] **finiti** si identifica come il numero di elementi nell'insieme, mentre per gli insiemi **infiniti** vale che due insiemi hanno la stessa cardinalità o potenza quando esiste una [[corrispondenza|corrispondenza biunivoca]] tra di loro, indipendentemente se uno sia o non sia il [[sottoinsiemi|sottoinsiemi]] dell'altro.
+> Indicata con $|I|$ oppure $\text{Card}(I)$, per gli [[insieme|insiemi]] **finiti** si identifica come il numero di elementi nell'insieme, mentre per gli insiemi **infiniti** vale che due insiemi hanno la stessa cardinalità o potenza quando esiste una [[corrispondenza|corrispondenza biunivoca]] tra di loro, indipendentemente se uno sia o non sia il [[sottoinsiemi|sottoinsiemi]] dell'altro.
 
 Esempio di insiemi infiniti con la stessa cardinalità:
 $$\mathbb{N} = \text{numeri naturali}$$
@@ -21,7 +21,7 @@ $F$ è una corrispondenza biunivoca tra $\mathbb{N}$ e $\mathbb{P}$, quindi i du
 
 # Concetto di cardinalità nelle codifiche di informazioni
 
-- NI = NC codifica non ambigua e non ridondante: gli [[teoria degli insiemi|insiemi]] I e C hanno lo stesso numero di "parole" per codificare ogni tipo di informazioni presenti.
+- NI = NC codifica non ambigua e non ridondante: gli [[insieme|insiemi]] I e C hanno lo stesso numero di "parole" per codificare ogni tipo di informazioni presenti.
 - NI > NC codifica ambigua: non ci sono abbastanza "parole" per codificare ogni tipo di informazioni presenti.
 - NI < NC codifica ridondante: ci sono più "parole" di quante sono necessarie per codificare le informazioni presenti. Di per se non è negativa, anzi si usa per la correzione degli [[errori di trasmissione]] e per altri scopi, ma riduce l'efficienza.
 

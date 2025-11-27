@@ -5,7 +5,7 @@ Spesso siamo interessati non all'esito di un esperimento aleatorio, ma di una [[
 
 Esempio: lancio una moneta $\{T, C\}^{100}$ ci interessa contare il numero di teste, che è una funzione $X: \Omega \to \{0, 1, \ldots, 100\},\quad \omega \in \Omega  \mapsto X(\omega) = \text{numero di teste nella stringa\ } \Omega$.
 
-> Una *variabile aleatoria* su uno [[spazio campionario]] su uno spazio campionario $\Omega$ a valori in un [[teoria degli insiemi|insieme]] $S \subseteq \mathbb{R}$ è una funzione $X: \Omega \to S, \quad \omega \in \Omega \mapsto X(\omega) \in S$.
+> Una *variabile aleatoria* su uno [[spazio campionario]] su uno spazio campionario $\Omega$ a valori in un [[insieme|insieme]] $S \subseteq \mathbb{R}$ è una funzione $X: \Omega \to S, \quad \omega \in \Omega \mapsto X(\omega) \in S$.
 
 Nell'esempio precedente, $\Omega = \{T, C\}^{100}$, $S = \{0, 1, \ldots, 100\}$ e $\forall \omega \in \Omega \ (X(\omega) = \text{numero di T in\ } \omega)$.
 

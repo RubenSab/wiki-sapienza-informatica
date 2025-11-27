@@ -1,7 +1,7 @@
 ---
 updated_at: 2025-11-03T20:47:33.374+01:00
 ---
-> Le [[funzione|funzioni]] di codifica e decodifica sono funzioni che associano l'[[teoria degli insiemi|insieme]] delle informazioni da rappresentare alla loro rappresentazione e viceversa.
+> Le [[funzione|funzioni]] di codifica e decodifica sono funzioni che associano l'[[insieme|insieme]] delle informazioni da rappresentare alla loro rappresentazione e viceversa.
 
 $c: I \to C$
 

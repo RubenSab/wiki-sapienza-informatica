@@ -1,7 +1,7 @@
 ---
 updated_at: 2025-03-10T18:30:29.853+01:00
 ---
-> Secondo questa notazione, è un [[teoria degli insiemi|insieme]] di [[funzione|funzioni]] che rappresenta l'ordine di grandezza **[[concetto di asintotico|asintotico]] stretto** ("uguale ordine di grandezza") rispetto a quello del tempo impiegato dal processo, cioè $f(n)$ **cresce allo stesso ritmo** di $g(n)$.
+> Secondo questa notazione, è un [[insieme|insieme]] di [[funzione|funzioni]] che rappresenta l'ordine di grandezza **[[concetto di asintotico|asintotico]] stretto** ("uguale ordine di grandezza") rispetto a quello del tempo impiegato dal processo, cioè $f(n)$ **cresce allo stesso ritmo** di $g(n)$.
 
 $$\lim_{n\to\infty}{\frac{f(n)}{g(n)}}=k \in \mathbb{R} \to f(n) \in \Theta(g(n))$$
 

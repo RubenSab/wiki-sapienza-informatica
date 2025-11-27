@@ -1,7 +1,7 @@
 ---
-updated_at: 2025-11-25T18:12:24.603+01:00
+updated_at: 2025-11-27T15:43:59.970+01:00
 ---
-> Una *copertura minimale* di un [[teoria degli insiemi|insieme]] di $F$ è un insieme $G$ di [[dipendenza funzionale|dipendenze funzionali]] **[[dipendenza funzionale#^c57118|equivalente]]** a $F$ tale che:
+> Una *copertura minimale* di un [[insieme|insieme]] di $F$ è un insieme $G$ di [[dipendenza funzionale|dipendenze funzionali]] **[[dipendenza funzionale#^c57118|equivalente]]** a $F$ tale che:
 
 1. per ogni dipendenza funzionale in $G$, il determinato è un singleton. (non ci sono determinati ridondanti);
 2. per nessuna dipendenza funzionale $X \to A \in G$ esiste $X' \subset X$ tale che $G \equiv (G - \{X \to A\}) \cup \{X' \to A\}$ (non ci sono determinanti ridondanti);
@@ -49,3 +49,26 @@ La copertura minimale è
 $$
 F = \{AB \to C, AB \to D, C \to E\}
 $$
+
+# Secondo esempio
+
+$$
+F = \{BC \to DE, C \to D, B \to D, E \to L, D \to A, BC \to AL\}
+$$
+
+1. Ridurre i determinati a singleton:
+   $$
+   F = \{BC \to D, BC \to E, C \to D, B \to D, E \to L, D \to A, BC \to A, BC \to L\}
+   $$
+2. Ridondanze nei determinanti: $B^{+}_{F} = \{B, D, A\}$, $C_{F}^{+} = \{C, D, A\}$
+   $$
+   F = \{B \to D, BC \to E, C \to D, E \to L, D \to A, B \to A, BC \to L\}
+   $$
+   A $B$ non serve $C$ per determinare $D$. Quindi $BC \to D$ diventa $B \to D$.
+3. Dipendenze ridondanti:
+   
+   $$
+   F = \{B \to D, BC \to E, C \to D, E \to L, D \to A\}
+   $$
+   $B \to A$ è stata tolta perché ottenuta per transitività ($B \to D \land D \to A$)
+   $BC \to L$ è stata tolta perché ottenuta per transitività ($BC \to E \land E \to L$)

@@ -10,21 +10,23 @@
           {
             "id": "e7a7b303c61786dc",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "graph",
               "state": {},
+              "pinned": true,
               "icon": "lucide-git-fork",
               "title": "Graph view"
             }
           },
           {
-            "id": "bc417d9592a1210b",
+            "id": "f52302be5e4d2334",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "algebra lineare/spazio vettoriale di matrici.md",
-                "mode": "source",
+                "file": "basi di dati/copertura minimale di un insieme di dipendenze.md",
+                "mode": "preview",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -38,7 +40,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "spazio vettoriale di matrici"
+              "title": "copertura minimale di un insieme di dipendenze"
             }
           }
         ],
@@ -213,7 +215,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 354.5
+    "width": 354.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -229,8 +232,14 @@
       "new-3d-graph:Open 3d graph": false
     }
   },
-  "active": "bc417d9592a1210b",
+  "active": "f52302be5e4d2334",
   "lastOpenFiles": [
+    "progettazione di sistemi digitali/XOR.md",
+    "basi di dati/copertura minimale di un insieme di dipendenze.md",
+    "interdisciplinare/insieme.md",
+    "basi di dati/Basi di dati.md",
+    "basi di dati/decomposizione in 3NF.md",
+    "basi di dati/chiusura di Armstrong.md",
     "algebra lineare/spazio vettoriale di matrici.md",
     "architettura degli elaboratori/registri generali dell'architettura RISC-V.md",
     "calcolo integrale/EDO del secondo ordine.md",
@@ -244,19 +253,13 @@
     "calcolo delle probabilità/Calcolo delle probabilità.md",
     "calcolo delle probabilità/legge condizionata.md",
     "algebra lineare/partizione.md",
-    "basi di dati/copertura minimale di un insieme di dipendenze.md",
-    "basi di dati/decomposizione in 3NF.md",
-    "basi di dati/Basi di dati.md",
     "algebra lineare/spazio vettoriale R quadro.md",
     "calcolo integrale/criteri di confronto delle serie a segno costante.md",
     "basi di dati/dipendenza funzionale.md",
-    "basi di dati/chiusura di Armstrong.md",
     "basi di dati/chiusura di un insieme di attributi.md",
     "basi di dati/3NF (terza forma normale).md",
     "algebra lineare/isomorfismo.md",
     "discarica.md",
-    "2A.md",
-    "algebra lineare/campo.md",
     "relazione tra tabelle master",
     "foto/IMG-20251011-WA0002.jpg",
     "foto/IMG-20251011-WA0001.jpg",

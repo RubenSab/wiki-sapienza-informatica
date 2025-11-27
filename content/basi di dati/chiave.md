@@ -1,7 +1,7 @@
 ---
 updated_at: 2025-11-23T11:32:28.572+01:00
 ---
-> Un [[teoria degli insiemi|insieme]] $X$ di attributi o un singolo attributo di una relazione $R$ è una *chiave* in $R$ (lo schema) se soddisfa le seguenti condizioni:
+> Un [[insieme|insieme]] $X$ di attributi o un singolo attributo di una relazione $R$ è una *chiave* in $R$ (lo schema) se soddisfa le seguenti condizioni:
 
 1. Per ogni istanza di $R$, non esistono due tuple distinte $t_{1}$ e $t_{2}$ che hanno gli stessi valori per tutti gli attributi di $X$ ($t_{1}[x]\neq t_{2}[x]$); cioè $X \to R \in F^{+}$, $X$ [[dipendenza funzionale|determina]] tutto $R$.
 2. Nessun **[[sottoinsiemi|sottoinsieme proprio]]** di $X$ soddisfa la condizione (ovviamente è verificata se l'attributo è un singleton).

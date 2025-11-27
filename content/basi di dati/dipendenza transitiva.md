@@ -1,7 +1,7 @@
 ---
 updated_at: 2025-11-23T12:08:47.312+01:00
 ---
-Siano $R$ uno [[tabella|schema di relazione]] e $F$ un [[teoria degli insiemi|insieme]] di [[dipendenza funzionale|dipendenze funzionali]] su $R$.
+Siano $R$ uno [[tabella|schema di relazione]] e $F$ un [[insieme|insieme]] di [[dipendenza funzionale|dipendenze funzionali]] su $R$.
 
 Le dipendenze transitive sono casi specifici delle dipendenze funzionali, così definite:
 

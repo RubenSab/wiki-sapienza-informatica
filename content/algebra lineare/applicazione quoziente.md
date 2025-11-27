@@ -1,7 +1,7 @@
 ---
 updated_at: 2025-10-20T23:19:20.281+02:00
 ---
-_Ricordiamo che se $X$ è un'[[teoria degli insiemi|insieme]] $\neq \emptyset$ con relazione d'equivalenza $\sim$ qualsiasi, si definisce l'[[insieme quoziente]] $\frac{X}{\sim} = \{\text{classi d'equivalenza}\} \subset \mathcal{P}(X)$._
+_Ricordiamo che se $X$ è un'[[insieme|insieme]] $\neq \emptyset$ con relazione d'equivalenza $\sim$ qualsiasi, si definisce l'[[insieme quoziente]] $\frac{X}{\sim} = \{\text{classi d'equivalenza}\} \subset \mathcal{P}(X)$._
 
 Consideriamo $X \xrightarrow{f} Y$: sia $\sim$ la [[relazione]] d'equivalenza associata $x, x' \in X,\ x \sim x' \implies f(x) = f(x')$.
 

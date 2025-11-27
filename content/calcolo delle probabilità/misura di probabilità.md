@@ -26,7 +26,7 @@ Quindi specificare una misura di probabilità su $\Omega$ equivale a specificare
 
 ## Caso particolare: "pesetti" uguali su $\Omega$ finito.
 
-Se $\Omega$ è un'[[teoria degli insiemi|insieme]] finito e poniamo $\forall \omega \in \Omega\ (p_{\omega} = p)$ per qualche $p \in [0, 1]$.
+Se $\Omega$ è un'[[insieme|insieme]] finito e poniamo $\forall \omega \in \Omega\ (p_{\omega} = p)$ per qualche $p \in [0, 1]$.
 
 Allora necessariamente $p=\frac{1}{|\Omega|}$.
 
