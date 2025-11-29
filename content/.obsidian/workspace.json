@@ -20,13 +20,13 @@
             }
           },
           {
-            "id": "f52302be5e4d2334",
+            "id": "f66c612c6c61c86b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "basi di dati/copertura minimale di un insieme di dipendenze.md",
-                "mode": "preview",
+                "file": "algebra lineare/sottospazio vettoriale.md",
+                "mode": "source",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -40,7 +40,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "copertura minimale di un insieme di dipendenze"
+              "title": "sottospazio vettoriale"
             }
           }
         ],
@@ -232,13 +232,16 @@
       "new-3d-graph:Open 3d graph": false
     }
   },
-  "active": "f52302be5e4d2334",
+  "active": "f66c612c6c61c86b",
   "lastOpenFiles": [
-    "progettazione di sistemi digitali/XOR.md",
+    "basi di dati/algoritmo di decomposizione in 3NF.md",
     "basi di dati/copertura minimale di un insieme di dipendenze.md",
-    "interdisciplinare/insieme.md",
+    "basi di dati/3NF (terza forma normale).md",
+    "basi di dati/dipendenza parziale.md",
     "basi di dati/Basi di dati.md",
-    "basi di dati/decomposizione in 3NF.md",
+    "basi di dati/verifica di una buona decomposizione in 3NF.md",
+    "progettazione di sistemi digitali/XOR.md",
+    "interdisciplinare/insieme.md",
     "basi di dati/chiusura di Armstrong.md",
     "algebra lineare/spazio vettoriale di matrici.md",
     "architettura degli elaboratori/registri generali dell'architettura RISC-V.md",
@@ -257,9 +260,6 @@
     "calcolo integrale/criteri di confronto delle serie a segno costante.md",
     "basi di dati/dipendenza funzionale.md",
     "basi di dati/chiusura di un insieme di attributi.md",
-    "basi di dati/3NF (terza forma normale).md",
-    "algebra lineare/isomorfismo.md",
-    "discarica.md",
     "relazione tra tabelle master",
     "foto/IMG-20251011-WA0002.jpg",
     "foto/IMG-20251011-WA0001.jpg",

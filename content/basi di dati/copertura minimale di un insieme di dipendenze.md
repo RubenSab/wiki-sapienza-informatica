@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-11-27T15:43:59.970+01:00
+updated_at: 2025-11-28T14:54:42.658+01:00
 ---
 > Una *copertura minimale* di un [[insieme|insieme]] di $F$ è un insieme $G$ di [[dipendenza funzionale|dipendenze funzionali]] **[[dipendenza funzionale#^c57118|equivalente]]** a $F$ tale che:
 
@@ -15,7 +15,7 @@ Si applica il primo passo, poi il secondo a oltranza finché è possibile, poi i
 
 > N.B.: L'ordine di questi 3 passi è importante, perché ad esempio applicando per primo il terzo passo (la condizione più severa), avremmo potuto eliminare delle dipendenze che sebbene ridondanti ci avrebbero potuto aiutare a trovare altri elementi ridondanti.
 
-# Esempio
+# Esempio di applicazione dell'algoritmo
 
 Copertura minimale di $F = \{AB \to CD, C \to E, AB \to E, ABC \to D\}$
 

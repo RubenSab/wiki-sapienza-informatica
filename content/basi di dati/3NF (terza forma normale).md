@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-11-23T18:07:08.659+01:00
+updated_at: 2025-11-28T14:51:13.763+01:00
 ---
 # Forma normale di Boyce-Codd (BCNF) (non è una 3NF propria)
 
@@ -43,7 +43,3 @@ Praticamente, per ogni dipendenza funzionale in $F$, il **determinante** è una 
 ## Definizione alternativa con le dipendenze
 
 > Dato uno schema $R$ e un insieme di dipendenze funzionali $F$, $R$ è in 3NF se e solo se **non** ci sono attributi che dipendono [[dipendenza parziale|parzialmente]] o [[dipendenza transitiva|transitivamente]] da una chiave.
-
----
-
-[[decomposizione in 3NF]]
