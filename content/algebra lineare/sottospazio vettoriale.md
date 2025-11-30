@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-11-29T20:07:18.133+01:00
+updated_at: 2025-11-30T11:27:23.556+01:00
 ---
 È una "versione arricchita" del concetto di [[sottogruppi|sottogruppo]].
 
@@ -56,11 +56,15 @@ Quindi dobbiamo verificare che:
 Verificando la chiusura in $W'$ dell'addizione tra vettori e il prodotto tra un vettore e uno scalare $\in K = \mathbb{R}$, usando la condizione di appartenenza in $W$, si dimostra che $W'$ è un sottospazio di $W$.
 
 Tuttavia $W \neq W'$, perché $\exists w_{2} = \begin{pmatrix} 2 \\ 0.5 \\ 1 \end{pmatrix},\quad w_{2} \in W \land w_{2} \notin W'$.
-## 3. #todo
+## 3.
 
-> Mostrare che $\text{Vett}_{\mathbb{R}}(\{w_{1}, w_{2}\}) \subseteq W$
+> Mostrare che $\text{Vett}_{\mathbb{R}}(\{w_{1}, w_{2}\}) \subseteq W$, mostrare che $W = \text{Vett}_{\mathbb{R}}(\{w_{1}, w_{2}\})$.
 
-## 4.
+$$
+\text{Vett}_{\mathbb{R}}(\{w_{1}, w_{2}\}) = \alpha w_{1} + \beta w_{2} = \left\{ \begin{pmatrix} \alpha + 2 \beta \\ \alpha + 0.5 \beta \\ \alpha + \beta \end{pmatrix}: \alpha, \beta \in \mathbb{R} \right\}
+$$
 
-> Mostrare che $W = \text{Vett}_{\mathbb{R}}(\{w_{1}, w_{2}\})$
+Troviamo la forma chiusa:
+- sia $v = \begin{pmatrix} x \\ y \\ z \end{pmatrix}$,
+- risolviamo il sistema $\begin{cases} x = \alpha + 2 \beta \\ y = \alpha + 0.5 \beta \\ z = \alpha + \beta \end{cases}$ , ottenendo $x + 2y - 3z = 0 \equiv W$.
 

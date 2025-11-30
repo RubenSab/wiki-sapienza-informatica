@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-11-26T17:13:16.254+01:00
+updated_at: 2025-11-30T18:38:39.075+01:00
 ---
 > Due vettori si dicono *linearmente indipendenti* su $K$, dati gli scalari $\lambda_{1}, \ldots, \lambda_{n} \in K$, se non esistono combinazioni lineari non [[spazio vettoriale#^a51465|banali]] $\lambda_{1} v_{1} + \ldots + \lambda_{n} v_{n}$ uguali a $0_{V}$ (origine/vettore nullo), altrimenti sono *linearmente indipendenti*.
 
@@ -15,10 +15,9 @@ Esempio in $\mathbb{R}^{3}$: $v_{1} = \begin{pmatrix} 2 \\ 2 \\ 2 \end{pmatrix},
 
 Nello [[spazio vettoriale]] $K^{n}$ consideriamo i vettori
 
-- $e_{1} = \begin{pmatrix} 1 \\ 0 \\ \vdots \\ 0 \end{pmatrix}$
-- $e_{2} = \begin{pmatrix} 0 \\ 1 \\ \vdots \\ 0 \end{pmatrix}$
-- $e_{j} = \begin{pmatrix} 0 \\ \vdots \\ 0 \\ 1 \\ 0 \\ \vdots \\ 0 \end{pmatrix}$
-- $e_{n} = \begin{pmatrix} 0 \\ \vdots \\ 0 \\ 1 \end{pmatrix}$
+$$
+e_{1} = \begin{pmatrix} 1 \\ 0 \\ \vdots \\ 0 \end{pmatrix} \quad e_{2} = \begin{pmatrix} 0 \\ 1 \\ \vdots \\ 0 \end{pmatrix} \quad e_{j} = \begin{pmatrix} 0 \\ \vdots \\ 0 \\ 1 \\ 0 \\ \vdots \\ 0 \end{pmatrix} \quad e_{n} = \begin{pmatrix} 0 \\ \vdots \\ 0 \\ 1 \end{pmatrix}
+$$
 
 > Dimostrare che $e_{1}, \ldots, e_{n}$ sono linearmente indipendenti.
 
