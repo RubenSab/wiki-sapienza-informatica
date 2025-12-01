@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-11-24T15:41:10.508+01:00
+updated_at: 2025-12-01T10:44:54.135+01:00
 ---
 Opis: D8DIGFF7
 
@@ -71,7 +71,7 @@ Opis: D8DIGFF7
 - [[sottospazio vettoriale]]
 - [[vettori linearmente dipendenti/indipendenti]]
 - [[spazio vettoriale di matrici]]
-
+- [[sistemi di equazioni lineari]]
 # Esercizi a parte
 
 - [[Esercizi su strutture algebriche e divisibilità]]

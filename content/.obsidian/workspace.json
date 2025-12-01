@@ -20,36 +20,12 @@
             }
           },
           {
-            "id": "3176c51dd4028ab2",
+            "id": "3172f5f7de6d37a0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "algebra lineare/spazio vettoriale di matrici.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "spazio vettoriale di matrici"
-            }
-          },
-          {
-            "id": "26e9d719c07f8e32",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "algebra lineare/spazio vettoriale.md",
+                "file": "algebra lineare/sottogruppo normale.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -64,16 +40,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "spazio vettoriale"
+              "title": "sottogruppo normale"
             }
           },
           {
-            "id": "6c641c9fcd396a72",
+            "id": "417c554e4bbafa47",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "algebra lineare/sottospazio vettoriale.md",
+                "file": "algebra lineare/sistemi di equazioni lineari.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -88,59 +64,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "sottospazio vettoriale"
-            }
-          },
-          {
-            "id": "55abf82c2373d553",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "algebra lineare/spazio vettoriale.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "spazio vettoriale"
-            }
-          },
-          {
-            "id": "7799a6df40cc30c7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "algebra lineare/vettori linearmente indipendenti.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "vettori linearmente indipendenti"
+              "title": "sistemi di equazioni lineari"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -328,10 +256,13 @@
       "new-3d-graph:Open 3d graph": false
     }
   },
-  "active": "7799a6df40cc30c7",
+  "active": "417c554e4bbafa47",
   "lastOpenFiles": [
-    "algebra lineare/spazio vettoriale.md",
+    "algebra lineare/Algebra lineare.md",
+    "algebra lineare/sistemi di equazioni lineari.md",
+    "algebra lineare/sottogruppo normale.md",
     "algebra lineare/vettori linearmente indipendenti.md",
+    "algebra lineare/spazio vettoriale.md",
     "algebra lineare/spazio vettoriale di matrici.md",
     "algebra lineare/sottospazio vettoriale.md",
     "algebra lineare/applicazione.md",
@@ -349,13 +280,10 @@
     "calcolo delle probabilità/legge congiunta e leggi marginali di variabili aleatorie.md",
     "metodologie di programmazione/variabile.md",
     "calcolo delle probabilità/varianza di una variabile aleatoria.md",
-    "algebra lineare/Algebra lineare.md",
     "calcolo delle probabilità/Calcolo delle probabilità.md",
     "calcolo delle probabilità/legge condizionata.md",
     "algebra lineare/partizione.md",
     "algebra lineare/spazio vettoriale R quadro.md",
-    "calcolo integrale/criteri di confronto delle serie a segno costante.md",
-    "basi di dati/dipendenza funzionale.md",
     "relazione tra tabelle master",
     "foto/IMG-20251011-WA0002.jpg",
     "foto/IMG-20251011-WA0001.jpg",
