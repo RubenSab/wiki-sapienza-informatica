@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-11-18T22:51:18.417+01:00
+updated_at: 2025-12-01T16:08:03.130+01:00
 ---
 > È un [[gruppo]] $G$ i cui elementi sono le [[permutazioni]] di un [[insieme|insieme]] $M$ e la cui operazioni è la *composizione* delle permutazioni in $G$.
 
@@ -26,9 +26,13 @@ Però la composizione $\tau \sigma$ è $\begin{pmatrix} 1\ 2\ 3\ 4 \\ 4\ 2\ 3\ 1
 
 > La [[gruppo di permutazioni|composizione]] di cicli a supporti disgiunti è commutativa.
 
-> Teorema: ogni permutazione si decompone in modo unico come prodotto di cicli disgiunti.
+> Teorema: ogni permutazione si *decompone* in modo unico come prodotto di cicli disgiunti.
 
 > Teorema: ogni permutazione è prodotto di trasposizioni ("basta" vedere la proprietà sui cicli, infatti se ogni ciclo è prodotto di trasposizioni, allora ogni prodotto di cicli è prodotto di trasposizioni, ma ogni trasposizione è prodotto di cicli).
+
+## Segnatura
+
+> $\varepsilon (\sigma)$ si dice *segnatura* di una permutazione: è una [[funzione]] che restituisce $1$ se la permutazione può essere scomposta in un numero pari di cicli, non necessariamente a supporto disgiunto e $-1$ in caso contrario.
 
 ## Ci sono gruppi $S_{n}$ abeliani?
 

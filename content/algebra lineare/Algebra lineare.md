@@ -71,7 +71,7 @@ Opis: D8DIGFF7
 - [[sottospazio vettoriale]]
 - [[vettori linearmente dipendenti/indipendenti]]
 - [[spazio vettoriale di matrici]]
-- [[sistemi di equazioni lineari]]
+- [[sistema di equazioni lineari]]
 # Esercizi a parte
 
 - [[Esercizi su strutture algebriche e divisibilità]]

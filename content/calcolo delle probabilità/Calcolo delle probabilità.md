@@ -1,6 +1,7 @@
 ---
-updated_at: 2025-11-26T14:24:26.139+01:00
+updated_at: 2025-12-01T15:04:01.224+01:00
 ---
+
 > Il calcolo delle probabilità è lo studio matematico di esperimenti con diversi possibili esiti (aleatori cioè non deterministici).
 
 Fonte di esercizi consigliata: *Sheldon Ross - calcolo delle probabilità*
@@ -36,3 +37,9 @@ Fonte di esercizi consigliata: *Sheldon Ross - calcolo delle probabilità*
 	- [[covarianza di due variabili aleatorie]]
 	- [[legge congiunta e leggi marginali di variabili aleatorie]]
 	- [[legge condizionata]]
+- Disuguaglianze e teoremi limite
+	- [[disuguaglianza di Markov]]
+	- [[disuguaglianza di Ghebyshev]]
+	- [[stima della p-value]]
+	- [[disuguaglianza di Cauchy-Schwarz]]
+	- [[legge dei grandi numeri]]

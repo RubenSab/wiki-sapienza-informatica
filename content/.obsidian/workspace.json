@@ -20,13 +20,13 @@
             }
           },
           {
-            "id": "3172f5f7de6d37a0",
+            "id": "ba1c280a3ab1ca88",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "algebra lineare/sottogruppo normale.md",
-                "mode": "source",
+                "file": "algebra lineare/sistema di equazioni lineari.md",
+                "mode": "preview",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -40,35 +40,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "sottogruppo normale"
-            }
-          },
-          {
-            "id": "417c554e4bbafa47",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "algebra lineare/sistemi di equazioni lineari.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "sistemi di equazioni lineari"
+              "title": "sistema di equazioni lineari"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -125,7 +101,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "asintot",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -256,34 +232,34 @@
       "new-3d-graph:Open 3d graph": false
     }
   },
-  "active": "417c554e4bbafa47",
+  "active": "ba1c280a3ab1ca88",
   "lastOpenFiles": [
     "algebra lineare/Algebra lineare.md",
-    "algebra lineare/sistemi di equazioni lineari.md",
+    "algebra lineare/sistema di equazioni lineari.md",
+    "algebra lineare/spazio vettoriale di matrici.md",
+    "interdisciplinare/permutazioni.md",
+    "algebra lineare/gruppo di permutazioni.md",
+    "sistemi operativi/processo.md",
+    "calcolo differenziale/calcolo differenziale.md",
+    "calcolo delle probabilità/Calcolo delle probabilità.md",
+    "calcolo delle probabilità/disuguaglianza di Cauchy-Schwarz.md",
+    "calcolo delle probabilità/legge dei grandi numeri.md",
+    "calcolo integrale/criteri di confronto delle serie a segno costante.md",
+    "interdisciplinare/insieme.md",
+    "calcolo delle probabilità/covarianza di due variabili aleatorie.md",
+    "calcolo delle probabilità/stima della p-value.md",
+    "introduzione agli algoritmi/notazione Theta.md",
+    "calcolo differenziale/concetto di asintotico.md",
+    "introduzione agli algoritmi/algoritmi di ordinamento.md",
+    "calcolo delle probabilità/disuguaglianza di Ghebyshev.md",
+    "calcolo delle probabilità/disuguaglianza di Markov.md",
     "algebra lineare/sottogruppo normale.md",
     "algebra lineare/vettori linearmente indipendenti.md",
     "algebra lineare/spazio vettoriale.md",
-    "algebra lineare/spazio vettoriale di matrici.md",
     "algebra lineare/sottospazio vettoriale.md",
     "algebra lineare/applicazione.md",
     "basi di dati/algoritmo di decomposizione in 3NF.md",
     "basi di dati/copertura minimale di un insieme di dipendenze.md",
-    "basi di dati/3NF (terza forma normale).md",
-    "basi di dati/dipendenza parziale.md",
-    "basi di dati/Basi di dati.md",
-    "basi di dati/verifica di una buona decomposizione in 3NF.md",
-    "progettazione di sistemi digitali/XOR.md",
-    "interdisciplinare/insieme.md",
-    "basi di dati/chiusura di Armstrong.md",
-    "architettura degli elaboratori/registri generali dell'architettura RISC-V.md",
-    "calcolo integrale/EDO del secondo ordine.md",
-    "calcolo delle probabilità/legge congiunta e leggi marginali di variabili aleatorie.md",
-    "metodologie di programmazione/variabile.md",
-    "calcolo delle probabilità/varianza di una variabile aleatoria.md",
-    "calcolo delle probabilità/Calcolo delle probabilità.md",
-    "calcolo delle probabilità/legge condizionata.md",
-    "algebra lineare/partizione.md",
-    "algebra lineare/spazio vettoriale R quadro.md",
     "relazione tra tabelle master",
     "foto/IMG-20251011-WA0002.jpg",
     "foto/IMG-20251011-WA0001.jpg",

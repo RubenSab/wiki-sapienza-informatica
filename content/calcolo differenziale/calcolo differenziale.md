@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-02-22T15:24:28.893+01:00
+updated_at: 2025-12-01T15:27:38.873+01:00
 ---
 > Il calcolo differenziale tratta di [[funzione|funzioni]] reali di variabile [[numeri reali|reale]].
 
@@ -28,5 +28,6 @@ updated_at: 2025-02-22T15:24:28.893+01:00
 - [[serie di Taylor]]
 
 ## altro
+
 - [[formulario completo del calcolo differenziale]]
 - [[esercizi di calcolo differenziale]]
