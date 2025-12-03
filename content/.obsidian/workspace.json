@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "algebra lineare/sistema di equazioni lineari.md",
+                "file": "algebra lineare/teorema di Rouché-Capelli.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -64,7 +64,31 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "sistema di equazioni lineari"
+              "title": "teorema di Rouché-Capelli"
+            }
+          },
+          {
+            "id": "8e5ec4f5d1b3524f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "algebra lineare/rango.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "rango"
             }
           }
         ],
@@ -259,15 +283,21 @@
   "active": "b885b4d53be5a813",
   "lastOpenFiles": [
     "calcolo delle probabilità/covarianza di due variabili aleatorie.md",
+    "algebra lineare/teorema di Rouché-Capelli.md",
+    "algebra lineare/rango.md",
+    "algebra lineare/sistema di equazioni lineari.md",
+    "algebra lineare/Algebra lineare.md",
+    "interdisciplinare/struttura dati.md",
+    "progettazione di sistemi digitali/sistema binario.md",
+    "algebra lineare/spazio vettoriale di matrici.md",
+    "algebra lineare/determinante.md",
     "calcolo delle probabilità/legge congiunta e leggi marginali di variabili aleatorie.md",
     "calcolo delle probabilità/Calcolo delle probabilità.md",
     "calcolo delle probabilità/funzione generatrice dei momenti.md",
     "calcolo delle probabilità/misura di probabilità.md",
     "calcolo integrale/serie geometriche.md",
     "calcolo delle probabilità/casi notevoli di varianza e valore atteso.md",
-    "algebra lineare/sistema di equazioni lineari.md",
     "calcolo delle probabilità/distribuzione di Poisson 🐟.md",
-    "algebra lineare/Algebra lineare.md",
     "calcolo delle probabilità/variabili aleatorie.md",
     "calcolo delle probabilità/variabile aleatoria indicatrice.md",
     "metodologie di programmazione/variabile.md",
@@ -278,12 +308,6 @@
     "basi di dati/organizzazione fisica di un database relazionale.md",
     "basi di dati/algebra relazionale dei database.md",
     "basi di dati/Basi di dati.md",
-    "basi di dati/selezione.md",
-    "basi di dati/ridenominazione.md",
-    "esercizio.md",
-    "basi di dati/theta join.md",
-    "basi di dati/proiezione.md",
-    "progettazione di sistemi digitali/unità di misura del sistema binario.md",
     "relazione tra tabelle master",
     "foto/IMG-20251011-WA0002.jpg",
     "foto/IMG-20251011-WA0001.jpg",

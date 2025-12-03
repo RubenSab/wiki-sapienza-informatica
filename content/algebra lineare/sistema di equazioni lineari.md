@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-12-02T15:46:18.002+01:00
+updated_at: 2025-12-03T17:54:41.327+01:00
 ---
 > Dato un [[campo]] $K$, un *sistema lineare* di $M$ equazioni e $n$ indeterminate a coefficienti in $K$, è un sistema di equazioni del tipo:
 
@@ -98,6 +98,8 @@ Ricordiamo che risolvere $*$ equivale a trovare tutti gli $X \in \mathcal{M}_{n,
 
 > Osservazione: ${\smile \atop \frown}$ è una [[proprietà, tipi di relazioni e ordini|relazione d'equivalenza]].
 
+> Osservazione: $A {\smile \atop \frown} B \implies \text{rg}(A) = \text{rg}(B)$.
+
 > Una matrice completa è detta *a gradini* o *a scalini* se è come questa
 
 $$
@@ -114,6 +116,8 @@ oppure è composta **solo** da zeri.
 
 > Una matrice a gradini si dice *ridotta* se sopra a tutti gli $1$ ci sono zeri, ad esempio:
 
+^dc0740
+
 $$
 \begin{pmatrix}
 0 & 0 & 0 & 1 & * & 0 & 0 & * & * & * & 0 & 0 & * \\
@@ -127,6 +131,8 @@ $$
 In entrambi i casi, sotto ci possono essere più righe composte solo da zeri; inoltre la prima riga può anche avere un $1$ a sinistra senza alcuno zero.
 
 > Gli $1$ che definiscono i gradini vengono chiamati *pivot*.
+
+^3294b5
 
 #### Teorema di Gauss
 
@@ -175,4 +181,3 @@ $$
 $$
 
 dove $x_{0}$ è la *soluzione particolare* del sistema lineare $(A \mid B)$ e $\text{Sol}(A \mid 0)$ è il [[sottospazio vettoriale]] delle soluzioni del sistema $(A \mid B)$.
-

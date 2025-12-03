@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-12-02T18:09:15.669+01:00
+updated_at: 2025-12-03T17:54:03.575+01:00
 ---
 Opis: D8DIGFF7
 
@@ -71,6 +71,7 @@ Opis: D8DIGFF7
 - [[sottospazio vettoriale]]
 - [[spazio vettoriale di matrici]]
 - [[sistema di equazioni lineari]]
+- [[teorema di Rouché-Capelli]]
 # Esercizi a parte
 
 - [[Esercizi su strutture algebriche e divisibilità]]
