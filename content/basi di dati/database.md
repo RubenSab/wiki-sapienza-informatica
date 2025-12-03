@@ -3,7 +3,7 @@ updated_at: 2025-10-05T17:26:30.388+02:00
 ---
 > Una base di dati o database è un insieme di file (aggregati di informazioni omogenee, accoppiate a file di *indici*) in formati *proprietari* mutualmente connessi che serve per gestire, memorizzare, processare e comunicare dei dati utili per l'organizzazione che ne fa uso. I dati sono organizzati, secondo le loro [[relazione|relazioni]], in [[struttura dati|strutture dati]] **omogenee** progettate per facilitarne la creazione, gestione e accesso, ottimizzando [[complessità spaziale]] e [[complessità temporale|temporale]].
 
-> Dati: fatti grezzi che devono essere **interpretati** e **correlati** dal [[DBMS]] per fornire informazione. Nelle basi di dati abbiamo dati **strutturati** (in composizione quelli non strutturati del linguaggio naturale): gli oggetti sono rappresentati da brevi simboli o numeri.
+> Dati: fatti grezzi che devono essere **interpretati** e **correlati** dal [[DBMS (Database Management System)]] per fornire informazione. Nelle basi di dati abbiamo dati **strutturati** (in composizione quelli non strutturati del linguaggio naturale): gli oggetti sono rappresentati da brevi simboli o numeri.
 
 La struttura dell'informazione dipende dal suo utilizzo e può essere modificata nel tempo; le assunzioni fatte in partenza possono non continuare a essere vere.
 
@@ -55,7 +55,7 @@ I dati devono soddisfare dei **vincoli** che esistono nella realtà di interesse
 # Componenti di un sistema informativo informatizzato
 
 - Database
-- [[DBMS]]
+- [[DBMS (Database Management System)]]
 - Software applicativo
 - Hardware del computer
 - Personale che sviluppa, gestisce o usa il sistema.

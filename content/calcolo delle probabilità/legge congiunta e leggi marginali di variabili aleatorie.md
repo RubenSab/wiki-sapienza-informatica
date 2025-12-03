@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-11-26T14:23:24.112+01:00
+updated_at: 2025-12-03T15:24:49.387+01:00
 ---
 # Legge congiunta
 
@@ -15,13 +15,7 @@ p_{x,y} \in [0, 1]\quad \forall (x, y) \in S_{X} \times S_{Y}
 \end{cases}
 $$
 
-> N.B.: Date due variabili aleatorie $X$ e $Y$ a valori in $S_{X} \times S_{Y}$ rispettivamente, se
-
-$$
-f: S_{X} \times S_{Y} \to R
-$$
-
-definiamo la media pesata ([[valore atteso di una variabile aleatoria|valore atteso]]) dei valori di $f$ rispetto alla legge congiunta
+> N.B.: Date due variabili aleatorie $X$ e $Y$ a valori in $S_{X} \times S_{Y}$ rispettivamente, se $f: S_{X} \times S_{Y} \to \mathbb{R}$ definiamo la media pesata ([[valore atteso di una variabile aleatoria|valore atteso]]) dei valori di $f$ rispetto alla legge congiunta
 
 $$
 \mathbb{E}(f(X, Y)) = \sum_{(x, y) \in S_{X} \times S_{Y}} f(x, y) \cdot \mathbb{P}(X = x, Y = y)

@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-11-27T22:35:28.396+01:00
+updated_at: 2025-12-02T16:15:36.114+01:00
 ---
 > [Materiale del corso](https://sites.google.com/di.uniroma1.it/basididati-modulo1canalem-z/home-page/materiale-del-corso)
 
@@ -23,6 +23,8 @@ updated_at: 2025-11-27T22:35:28.396+01:00
 	- [[verifica di una buona decomposizione in 3NF]]
 	- [[algoritmo di decomposizione in 3NF]]
 	- [[copertura minimale di un insieme di dipendenze]]
+- Organizzazione fisica dei database:
+	- [[organizzazione fisica di un database relazionale]]
 
 ---
 
