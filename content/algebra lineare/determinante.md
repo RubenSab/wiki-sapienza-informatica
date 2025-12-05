@@ -1,9 +1,9 @@
 ---
-updated_at: 2025-12-03T17:20:40.927+01:00
+updated_at: 2025-12-05T16:15:42.177+01:00
 ---
 # Determinante
 
-> Il determinante di una [[spazio vettoriale di matrici|matrice]] $\begin{pmatrix} a & b \\ c & d \end{pmatrix} \in \mathcal{M}_{2, 2}(K)$ è definito come $\det\begin{pmatrix} a & b \\ c & d \end{pmatrix} = ad-bc \in K$
+> Il *determinante* di una [[spazio vettoriale di matrici|matrice]] $\begin{pmatrix} a & b \\ c & d \end{pmatrix} \in \mathcal{M}_{2, 2}(K)$ è definito come $\det\begin{pmatrix} a & b \\ c & d \end{pmatrix} = ad-bc \in K$
 
 ## Lemma 1
 
@@ -15,13 +15,13 @@ updated_at: 2025-12-03T17:20:40.927+01:00
 
 ## Formula universale del determinante
 
-Per $n > 0$ esiste una nozione di determinante su $\mathcal{M}_{n}(K)$. Data una matrice $A \in \mathcal{M}_{n}(K) \quad A=(a_{ij})_{1 \leq i \leq m,\ 1 \leq j \leq n}$:
+> Per $n > 0$ esiste una nozione di *determinante* su $\mathcal{M}_{n}(K)$. Data una matrice $A \in \mathcal{M}_{n}(K) \quad A=(a_{ij})_{1 \leq i \leq m,\ 1 \leq j \leq n}$:
 
 $$
 \det(A) = \sum_{\sigma \in S_{n}} \varepsilon(\sigma)\ \prod^{n}_{i = 1} a_{i, \sigma(i)}
 $$
 
-> $\varepsilon (\sigma)$ è la [[permutazioni|segnatura]] della permutazione $\sigma$ considerata a ogni iterazione della sommatoria.
+Dove $\varepsilon (\sigma)$ è la [[permutazioni#^5473be|segnatura]] della permutazione $\sigma$ considerata a ogni iterazione della sommatoria.
 
 > Curiosità: da questa formula si ricavano le *regole di Sarrus*.
 

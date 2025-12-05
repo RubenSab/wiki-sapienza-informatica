@@ -20,37 +20,23 @@
             }
           },
           {
-            "id": "71407a5ccffbbd56",
+            "id": "0a978471076a3fd5",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "calcolo delle probabilità/covarianza di due variabili aleatorie.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "covarianza di due variabili aleatorie"
+              "title": "New tab"
             }
           },
           {
-            "id": "b885b4d53be5a813",
+            "id": "474aa1c05d68f84f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "algebra lineare/teorema di Rouché-Capelli.md",
-                "mode": "source",
+                "file": "algebra lineare/spazio vettoriale.md",
+                "mode": "preview",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -64,31 +50,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "teorema di Rouché-Capelli"
-            }
-          },
-          {
-            "id": "8e5ec4f5d1b3524f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "algebra lineare/rango.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "rango"
+              "title": "spazio vettoriale"
             }
           }
         ],
@@ -149,7 +111,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "poisson",
+                "query": "segnatura",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -263,8 +225,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 354.5,
-    "collapsed": true
+    "width": 354.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -280,34 +241,34 @@
       "new-3d-graph:Open 3d graph": false
     }
   },
-  "active": "b885b4d53be5a813",
+  "active": "474aa1c05d68f84f",
   "lastOpenFiles": [
-    "calcolo delle probabilità/covarianza di due variabili aleatorie.md",
+    "algebra lineare/sistema di equazioni lineari.md",
     "algebra lineare/teorema di Rouché-Capelli.md",
     "algebra lineare/rango.md",
-    "algebra lineare/sistema di equazioni lineari.md",
-    "algebra lineare/Algebra lineare.md",
-    "interdisciplinare/struttura dati.md",
-    "progettazione di sistemi digitali/sistema binario.md",
+    "algebra lineare/applicazione biiettiva o biiezione.md",
+    "algebra lineare/spazio vettoriale.md",
     "algebra lineare/spazio vettoriale di matrici.md",
     "algebra lineare/determinante.md",
-    "calcolo delle probabilità/legge congiunta e leggi marginali di variabili aleatorie.md",
+    "interdisciplinare/permutazioni.md",
+    "algebra lineare/gruppo di permutazioni.md",
+    "introduzione agli algoritmi/complessità temporale.md",
+    "introduzione agli algoritmi/introduzione agli algoritmi.md",
+    "calcolo integrale/criteri di confronto delle serie a segno costante.md",
+    "esercizio.md",
+    "discarica.md",
+    "calcolo delle probabilità/distribuzioni notevoli di probabilità continua.md",
+    "algebra lineare/vettori linearmente indipendenti.md",
+    "algebra lineare/Algebra lineare.md",
+    "algebra lineare/sottospazio vettoriale.md",
+    "calcolo delle probabilità/legge Gaussiana generica.md",
+    "algebra lineare/formule di Grassmann.md",
     "calcolo delle probabilità/Calcolo delle probabilità.md",
-    "calcolo delle probabilità/funzione generatrice dei momenti.md",
-    "calcolo delle probabilità/misura di probabilità.md",
-    "calcolo integrale/serie geometriche.md",
-    "calcolo delle probabilità/casi notevoli di varianza e valore atteso.md",
-    "calcolo delle probabilità/distribuzione di Poisson 🐟.md",
-    "calcolo delle probabilità/variabili aleatorie.md",
-    "calcolo delle probabilità/variabile aleatoria indicatrice.md",
-    "metodologie di programmazione/variabile.md",
-    "calcolo delle probabilità/varianza di una variabile aleatoria.md",
-    "calcolo delle probabilità/valore atteso di una variabile aleatoria.md",
-    "calcolo delle probabilità/disuguaglianza di Cauchy-Schwarz.md",
-    "calcolo delle probabilità/legge dei grandi numeri.md",
-    "basi di dati/organizzazione fisica di un database relazionale.md",
-    "basi di dati/algebra relazionale dei database.md",
-    "basi di dati/Basi di dati.md",
+    "calcolo delle probabilità/legge Gaussiana standard.md",
+    "calcolo delle probabilità/legge esponenziale.md",
+    "calcolo delle probabilità/probabilità continua.md",
+    "calcolo delle probabilità/distribuzione geometrica.md",
+    "calcolo delle probabilità/legge di Cauchy.md",
     "relazione tra tabelle master",
     "foto/IMG-20251011-WA0002.jpg",
     "foto/IMG-20251011-WA0001.jpg",

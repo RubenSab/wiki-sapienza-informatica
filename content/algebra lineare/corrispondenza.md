@@ -1,16 +1,16 @@
 ---
-updated_at: 2025-10-06T15:27:58.601+02:00
+updated_at: 2025-12-04T11:14:48.066+01:00
 ---
-> Una corrispondenza $f=(X, Y, \Gamma)$ ($X$ = dominio, $Y$ = codominio, $\Gamma$ = [[grafo]] da $X$ a $Y$) si dice **[[applicazione]]** se $\forall a \in X,\ \exists !\ b \in Y : (a, b) \in \Gamma$ si dice che $b = f(a)$ e si scrive anche $X \xrightarrow{f} Y$ (applicazione $f$ da $X$ a $Y$).
+> Una corrispondenza è una tripla $f=(X, Y, \Gamma)$ ($X$ = dominio, $Y$ = codominio, $\Gamma$ = [[grafo]] da $X$ a $Y$ dove ogni elemento di $X$ **può essere mappato a un solo elemento** di $Y$. È un sinonimo di [[funzione]].
 
-Esempio: attraverso i diagrammi di Venn:
+Esempio:
 
 - $X=\{1, 2, 3\}$
 - $Y=\{x, y\}$
 - $f=(X, Y, \Gamma)$
 - $\Gamma = \{(1, x)\}$
 
-Questa corrispondenza non può essere un'applicazione perché non ha tutti gli elementi di $X$.
+Questa corrispondenza non può essere un'[[applicazione]] perché non ha tutti gli elementi di $X$.
 
 - $\Gamma = \{(1, x),(2, y),(3, y),(1, y)\}$
 

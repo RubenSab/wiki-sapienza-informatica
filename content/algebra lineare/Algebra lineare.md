@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-12-03T17:54:03.575+01:00
+updated_at: 2025-12-05T15:26:00.104+01:00
 ---
 Opis: D8DIGFF7
 
@@ -12,7 +12,6 @@ Opis: D8DIGFF7
 | 12-12  | 15-18 |
 | 17-12  | 16-19 |
 | 19-12  | 15-18 |
-
 
 > [Materiale del corso](https://drive.google.com/drive/folders/1IBBff-5DaA1tpisj7XJSW9FGGEKoE26N)
 
@@ -72,6 +71,8 @@ Opis: D8DIGFF7
 - [[spazio vettoriale di matrici]]
 - [[sistema di equazioni lineari]]
 - [[teorema di Rouché-Capelli]]
+- [[formule di Grassmann]]
+
 # Esercizi a parte
 
 - [[Esercizi su strutture algebriche e divisibilità]]

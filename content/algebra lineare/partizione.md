@@ -1,11 +1,11 @@
 ---
-updated_at: 2025-11-26T13:41:59.549+01:00
+updated_at: 2025-12-04T11:05:03.139+01:00
 ---
 > Una partizione di un [[insieme|insieme]] $X$ è una famiglia $\mathcal{P}$ di [[sottoinsiemi|sottoinsiemi]] di $X$ tale che:
 
 1. Gli insiemi della partizione non contengono l'insieme vuoto: $\forall P \in \mathcal{P}\ (P\neq \emptyset)$;
 2. Gli insiemi della partizione sono due a due **disgiunti** $\forall P, Q \in \mathcal{P}\ (P\neq Q \implies P \cap Q = \emptyset)$;
-3. Ogni elemento di $X$ appartiene a un insieme della partizione: $\forall x \in X\ (\exists P : x \in P)$.
+3. Ogni elemento di $X$ appartiene a un insieme della partizione: $\forall x \in X\ (\exists P \in \mathcal{P}: x \in P)$.
 
 Esempio: L'insieme i cui elementi sono le [[classe di equivalenza|classi di equivalenza]] secondo la [[relazione]] di congruenza modulo 2 è una partizione di $\mathbb{Z}$.
 
@@ -31,7 +31,7 @@ $$
 x, y \in X\ \ \ x\ \mathcal{R}\ y \iff \exists\ p \in \mathcal{P} : x, y \in p
 $$
 
-"Due elementi $x$ e $y$ di $X$ sono in relazione $\mathcal{R}$ se e solo se esiste un insieme $p$ nella famiglia $\mathcal{P}$ tale che sia $x$ che $y$ appartengono a $p$."
+"Due elementi $x$ e $y$ di $X$ sono in relazione $\mathcal{R}$ se e solo se esiste un insieme $P$ nella famiglia $\mathcal{P}$ tale che sia $x$ che $y$ appartengono a $P$."
 
 ---
 

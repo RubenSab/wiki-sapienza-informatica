@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-11-13T11:02:46.862+01:00
+updated_at: 2025-12-05T16:15:19.379+01:00
 ---
 
 > Formalmente, una *permutazione* può essere vista come una mappa [[applicazione biiettiva o biiezione|mappa biiettiva]] tra due collezioni ordinate che contengono gli stessi elementi in ordine diverso o uguale (permutazione banale).
@@ -73,6 +73,12 @@ I cicli possono essere prefissati dalla loro lunghezza, in questo caso $\rho$ è
 > I 2-cicli si chiamano anche *trasposizioni*.
 
 > Gli 1-cicli sono evidentemente invarianti.
+
+# Segnatura
+
+^5473be
+
+> $\varepsilon (\sigma)$ si dice *segnatura* di una permutazione: è una [[funzione]] che restituisce $1$ se la permutazione può essere scomposta in un numero pari di cicli, non necessariamente a supporto disgiunto e $-1$ in caso contrario.
 
 # Quante sono le permutazioni di un [[insieme|insieme]] con [[cardinalità]] $n$?
 

@@ -1,13 +1,13 @@
 ---
-updated_at: 2025-10-12T17:03:25.528+02:00
+updated_at: 2025-12-04T11:20:09.701+01:00
 ---
-> La teoria degli anelli è l'**astrazione** delle proprietà delle operazioni sull'[[insieme|insieme]] dei [[numeri interi relativi]], le quali vengono definite su un sull'insieme generico detto [[anello]].
+> La teoria degli anelli si fonda sull'**astrazione** delle proprietà delle operazioni sull'[[insieme|insieme]] dei [[numeri interi relativi]] $\mathbb{Z}$, le quali vengono definite su un sull'insieme generico detto [[anello]].
 
 # Operazioni in $\mathbb{Z}$
 
 ## Assiomi
 
- è dotato di due operazioni **binarie** (addizione e moltiplicazione) più una **unaria**, (l'opposto). Esse sono definite attraverso questi assiomi:
+$\mathbb{Z}$ è dotato di due operazioni **binarie** (addizione e moltiplicazione) più una **unaria**, (l'opposto). Esse sono definite attraverso questi assiomi:
 
 - L'addizione $+$ è **commutativa** ($a+b=b+a$) e **associativa** ($a+(b+c)=(a+b)+c$).
 - Anche la moltiplicazione $\cdot$ è **commutativa** ($ab=ba$) e **associativa** ($(ab)c=a(bc)$).
@@ -19,9 +19,9 @@ updated_at: 2025-10-12T17:03:25.528+02:00
 
 La moltiplicazione $a \cdot b$ in $\mathbb{Z}$ si può definire:
 
-- $b>0\to a \cdot b= \sum_{k = 0}^{b}{a_{k}}$, cioè ripetendo l'addizione di $a$ ad $a$ per $b$ volte.
-- $b<0 \to a \cdot b = -(a \cdot (-b))$, cioè usando la definizione di prodotto per $b > 0$ e l'opposto.
-- $b \cdot 0 = 0$ per definizione di neutro moltiplicativo.
+- per $b>0\to a \cdot b= \sum_{k = 0}^{b}{a_{k}}$, cioè ripetendo l'addizione di $a$ ad $a$ per $b$ volte.
+- per $b<0 \to a \cdot b = -(a \cdot (-b))$, cioè usando la definizione di prodotto per $b > 0$ e l'opposto.
+- per $b \cdot 0 = 0$ per definizione di neutro moltiplicativo.
 
 ### Definizione di sottrazione $-$
 
@@ -31,7 +31,7 @@ Usando l'addizione e l'opposto: $a-b = a+(-b)$.
 
 Definiamo $\geq$ come segue: $a\geq b \iff a-b\in\mathbb{N}$.
 
-> In $\mathbb{Z}$ vale la *tricotomia*, cioè $a, b \in \mathbb{Z},\quad (a \geq b) \implies (a<b) \land (a=b) \land (a>b)$
+> In $\mathbb{Z}$ vale la *tricotomia*, cioè $\forall a, b \in \mathbb{Z},\quad (a \geq b) \implies (a<b) \land (a=b) \land (a>b)$
 
 > N.B.: $\exists n \in \mathbb{N}\ \forall x \in \mathbb{N}\ (n \leq x)$ ma $\nexists z \in \mathbb{Z}\ \forall x \in \mathbb{Z}\ (z \leq x)$, cioè $\mathbb{N}$ soddisfa il principio del minimo (o buon ordinamento), ma $\mathbb{Z}$ no. Ciò si dimostra con $\forall z \in \mathbb{Z}\ (z-1 \in \mathbb{Z} \land z-1<z) \implies \nexists z \in \mathbb{Z}\ \forall x \in \mathbb{Z}\ (z \leq x)$.
 

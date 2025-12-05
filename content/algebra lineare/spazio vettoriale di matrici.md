@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-12-03T17:53:47.015+01:00
+updated_at: 2025-12-05T16:16:06.625+01:00
 ---
 > In uno [[spazio vettoriale]] di matrici su un [[campo]] $K$ gli elementi sono **matrici a $m$ righe e $n$ colonne** a coefficienti ($a_{ij}$) in $K$, esprimibili come tabelle nella forma:
 
@@ -11,9 +11,12 @@ $$
 
 # Glossario
 
-- $\mathcal{M}_{m,n}(K)$ è lo spazio vettoriale di tutte le matrici con $m$ righe e $n$ colonne,
-- $GL_{n}(K)$ è lo spazio vettoriale di tutte le matrici invertibili, che sono tutte quadrate di dimensioni $n \times n$ (ma non è detto che tutte le quadrate sono invertibili)
+- $\mathcal{M}_{m,n}(K)$ è lo spazio vettoriale di tutte le matrici con $m$ righe e $n$ colonne.
+- La dimensione ($\text{dim}$) di uno spazio vettoriale di matrici $\mathcal{M}_{m,n}(K)$ è $m \cdot n$.
+- $GL_{n}(K)$ è lo spazio vettoriale di tutte le matrici invertibili, che sono tutte quadrate di dimensioni $n \times n$ (ma non è detto che tutte le quadrate sono invertibili).
 - Una matrice si dice *invertibile* se e solo se $\exists A' \in \mathcal{M}_{n}(\mathbb{R}):\ A'A = AA' = I_{n}$.
+- [[rango]].
+- [[determinante]].
 
 # Notazioni
 
@@ -86,8 +89,3 @@ I_n = \begin{pmatrix} 1 & 0 & \ldots & 0 \\ 0 & 1 & \ldots & 0 \\ \vdots & \vdot
 $$
 - Per le matrici identità vale che se $A \in \mathcal{M}_{n, m}$ allora $I_{n} A = A I_{m} = A$, cioè sono elementi neutri **commutativi** di un'operazione non commutativa.
 - Il prodotto scalare è un caso particolare di quello tra matrici.
-
-# Concetti sulle matrici
-
-- [[determinante]]
-- [[rango]]

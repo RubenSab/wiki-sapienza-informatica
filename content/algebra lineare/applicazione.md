@@ -1,7 +1,7 @@
 ---
-updated_at: 2025-10-12T17:59:17.736+02:00
+updated_at: 2025-12-04T11:10:39.433+01:00
 ---
-> Una [[corrispondenza]] $f=(X, Y, \Gamma)$ ($X$ = dominio, $Y$ = codominio, $\Gamma$ = [[grafo]] da $X$ a $Y$) si dice [[applicazione]] se $\forall a \in X,\ \exists !\ b \in Y : (a, b) \in \Gamma$ si dice che $b = f(a)$ e si scrive anche $X \xrightarrow{f} Y$ (applicazione $f$ da $X$ a $Y$).
+> Una [[corrispondenza]] si dice [[applicazione]] se $\forall a \in X,\ \exists !\ b \in Y : (a, b) \in \Gamma$. In questo caso si dice che $b = f(a)$ e si scrive anche $X \xrightarrow{f} Y$ (applicazione $f$ da $X$ a $Y$).
 
 È un sinonimo di [[funzione]] e di mappa.
 

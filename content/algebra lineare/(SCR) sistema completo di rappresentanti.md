@@ -1,8 +1,8 @@
 ---
-updated_at: 2025-10-20T21:07:24.350+02:00
+updated_at: 2025-12-04T11:17:22.682+01:00
 ---
 
-> Un sistema completo di rappresentanti o SCR di $\mathcal{R}$ è un [[sottoinsiemi|sottoinsiemi]] $X' \subset X$ tale che:
+> Un sistema completo di rappresentanti o SCR di una [[relazione]] $\mathcal{R}$ è un insieme di [[sottoinsiemi|sottoinsiemi]] $X' \subset X$ (l'insieme sul cui prodotto cartesiano con se stesso è definita la relazione) tale che:
 
 1. $\forall x, y \in X'\ \ x=y \iff Cl(x) = Cl(y)$ e $x \neq y \iff Cl(x) \cap Cl(y) = \emptyset$
 2. $\forall x \in X\ \ \exists x' \in X'$ con $x \in Cl(x')$

@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-12-03T17:54:41.327+01:00
+updated_at: 2025-12-05T16:31:21.097+01:00
 ---
 > Dato un [[campo]] $K$, un *sistema lineare* di $M$ equazioni e $n$ indeterminate a coefficienti in $K$, è un sistema di equazioni del tipo:
 
@@ -112,7 +112,7 @@ $$
 \end{pmatrix}
 $$
 
-oppure è composta **solo** da zeri.
+oppure con una o più righe composte solo da zeri sia sopra che sotto; inoltre riga del primo gradino può anche avere un $1$ a sinistra senza alcuno zero. Una matrice a gradini banale contiene **solo** zeri.
 
 > Una matrice a gradini si dice *ridotta* se sopra a tutti gli $1$ ci sono zeri, ad esempio:
 
@@ -127,8 +127,6 @@ $$
 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 1 & * \\ 
 \end{pmatrix}
 $$
-
-In entrambi i casi, sotto ci possono essere più righe composte solo da zeri; inoltre la prima riga può anche avere un $1$ a sinistra senza alcuno zero.
 
 > Gli $1$ che definiscono i gradini vengono chiamati *pivot*.
 

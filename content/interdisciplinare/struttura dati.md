@@ -1,11 +1,11 @@
 ---
-updated_at: 2025-11-03T12:50:55.611+01:00
+updated_at: 2025-12-04T15:57:25.907+01:00
 ---
 > È un'insieme di dati in cui si possono individuare un **modo sistematico si organizzazione** e un **insieme di operatori/operazioni** che permettono di manipolarlo. Può essere *omogenea* o *disomogenea* rispetto ai [[tipi]] dei dati contenuti, *statica* (dimensione specificata al momento della creazione) o *dinamica* (dimensione variabile nel tempo).
 
 > N.B.: Le operazioni su una struttura dati possono essere di *interrogazione* (non modificano la struttura dell'insieme, sono la ricerca, il minimo e il massimo) o di *manipolazione* (modificano la struttura dell'insieme, le principali sono l'inserimento e la rimozione in base all'indice o in base al valore).
 
-Le strutture dati di base sono:
+Le strutture dati più comuni sono:
 
 - [[array]]
 - [[lista di Python]]

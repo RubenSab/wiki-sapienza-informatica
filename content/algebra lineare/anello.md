@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-11-25T13:45:15.045+01:00
+updated_at: 2025-12-04T11:21:46.939+01:00
 ---
 > Gli anelli sono un caso specifico dei [[gruppo|gruppi]]. Un *anello commutativo con unità* è una sestupla $(A, +, \cdot, -, 0, 1)$ dove:
 
