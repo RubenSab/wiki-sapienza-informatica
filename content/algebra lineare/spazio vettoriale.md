@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-12-05T16:43:10.469+01:00
+updated_at: 2025-12-05T16:52:14.719+01:00
 ---
 > sia $K$ un [[campo]] (contiene gli *scalari*) e $V = (V, +, 0_{V})$ un [[gruppo abeliano]] (contiene i *vettori*) in [[gruppo#^963e43|notazione additiva]]. Si dice che $V$ è un *$K$-spazio vettoriale* o uno *spazio vettoriale su $K$* se, oltre all'operazione binaria commutativa in $V$, esiste anche un'operazione binaria (moltiplicazione per uno scalare) $K \times V \to V$, dove $(\lambda, v) \mapsto \lambda \cdot v$ tale che $\forall \alpha, \beta \in K, \quad v, w \in V$, indicata con $\langle v, w\rangle$.
 

@@ -1,9 +1,11 @@
 ---
-updated_at: 2025-12-05T16:15:42.177+01:00
+updated_at: 2025-12-05T17:38:02.302+01:00
 ---
 # Determinante
 
 > Il *determinante* di una [[spazio vettoriale di matrici|matrice]] $\begin{pmatrix} a & b \\ c & d \end{pmatrix} \in \mathcal{M}_{2, 2}(K)$ è definito come $\det\begin{pmatrix} a & b \\ c & d \end{pmatrix} = ad-bc \in K$
+
+Il determinante delle matrici $3 \times 3$ si può applicare la [[regola di Sarrus]].
 
 ## Lemma 1
 
@@ -13,7 +15,7 @@ updated_at: 2025-12-05T16:15:42.177+01:00
 
 > $A = \begin{pmatrix} a & b \\ c & d \end{pmatrix} \in \mathcal{M}_{2,2}(K)$ è *invertibile* $\iff \det(A) \neq 0$, ovvero $\exists A': A'A = AA' = I_{2} = \begin{pmatrix} 1 & 0 \\ 0 & 1 \end{pmatrix}$.
 
-## Formula universale del determinante
+# Formula universale del determinante
 
 > Per $n > 0$ esiste una nozione di *determinante* su $\mathcal{M}_{n}(K)$. Data una matrice $A \in \mathcal{M}_{n}(K) \quad A=(a_{ij})_{1 \leq i \leq m,\ 1 \leq j \leq n}$:
 
@@ -23,9 +25,9 @@ $$
 
 Dove $\varepsilon (\sigma)$ è la [[permutazioni#^5473be|segnatura]] della permutazione $\sigma$ considerata a ogni iterazione della sommatoria.
 
-> Curiosità: da questa formula si ricavano le *regole di Sarrus*.
+> Curiosità: da questa formula si ricava la regola di Sarrus.
 
-### Esempio con $n = 2$
+## Esempio con $n = 2$
 
 $$
 S_{2} = \left\{\begin{pmatrix} 1 & 2 \\ 1 & 2 \end{pmatrix}, \begin{pmatrix} 1 & 2 \\ 2 & 1 \end{pmatrix}\right\} \equiv \mathbb{Z}/2\mathbb{Z}

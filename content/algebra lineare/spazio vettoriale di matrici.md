@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-12-05T16:16:06.625+01:00
+updated_at: 2025-12-05T17:23:50.556+01:00
 ---
 > In uno [[spazio vettoriale]] di matrici su un [[campo]] $K$ gli elementi sono **matrici a $m$ righe e $n$ colonne** a coefficienti ($a_{ij}$) in $K$, esprimibili come tabelle nella forma:
 
@@ -14,7 +14,7 @@ $$
 - $\mathcal{M}_{m,n}(K)$ è lo spazio vettoriale di tutte le matrici con $m$ righe e $n$ colonne.
 - La dimensione ($\text{dim}$) di uno spazio vettoriale di matrici $\mathcal{M}_{m,n}(K)$ è $m \cdot n$.
 - $GL_{n}(K)$ è lo spazio vettoriale di tutte le matrici invertibili, che sono tutte quadrate di dimensioni $n \times n$ (ma non è detto che tutte le quadrate sono invertibili).
-- Una matrice si dice *invertibile* se e solo se $\exists A' \in \mathcal{M}_{n}(\mathbb{R}):\ A'A = AA' = I_{n}$.
+- Una matrice si dice ***invertibile*** se e solo se $\exists A' \in \mathcal{M}_{n}(K):\ A'A = AA' = I_{n}$.
 - [[rango]].
 - [[determinante]].
 
@@ -89,3 +89,22 @@ I_n = \begin{pmatrix} 1 & 0 & \ldots & 0 \\ 0 & 1 & \ldots & 0 \\ \vdots & \vdot
 $$
 - Per le matrici identità vale che se $A \in \mathcal{M}_{n, m}$ allora $I_{n} A = A I_{m} = A$, cioè sono elementi neutri **commutativi** di un'operazione non commutativa.
 - Il prodotto scalare è un caso particolare di quello tra matrici.
+
+# Osservazioni utili
+
+Con i metodi utilizzati, si può dimostrare, dato un insieme finito $I \subset W, \ \text{dim}(W) = n$
+
+1. Se $I$ è libero, allora $|I| \leq n$.
+2. Se $I$ è generatore, allora $|I| \geq n$. (Quindi se $I$ è base, allora $|I| = n$.)
+3. Se $\text{Vett}_\mathbb{R}(I) \subset W$ allora $\text{dim}(\text{Vett}_\mathbb{R}) \leq \text{dim}(W)$.
+4. Se $W' \subset W$ è un inclusione di spazio vettoriale allora $\text{dim}(W') \leq \text{dim}(W)$.
+5. Se $W' \subset W$ e $\text{dim}(W') = \text{dim}(W)$ allora $W' = W$.
+6. Se $I$ è generatore e $I \subseteq I'$ allora $I$ è generatore di $W$.
+7. Se $I$ è libero e $I' \subset I$ allora $I'$ è libero.
+8. (dal [[teorema di Rouché-Capelli]]) $A \in \mathcal{M}_{n}(K)$ allora le proprietà seguenti sono equivalenti:
+	- $A \in GL_{n}(K)$;
+	- $\text{dim}(A) \neq 0$;
+	- $\text{dim}(A) = n$;
+	- le righe di $A$ sono linearmente indipendenti e la forma a gradini ridotta di $A$ è $I_{n}$;
+	- le righe di $A$ sono una base di $K^{n}$;
+	- le colonne di $A$ sono linearmente indipendenti (si studia la matrice trasposta).

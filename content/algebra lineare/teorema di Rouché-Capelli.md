@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-12-05T16:35:31.311+01:00
+updated_at: 2025-12-05T17:19:53.649+01:00
 ---
 Si consideri il [[sistema di equazioni lineari]] $(*)\ AX = B,\ A \in \mathcal{M}_{m,n}(K),\ B=\begin{pmatrix} b_{1} \\ \vdots \\ b_{m} \end{pmatrix} \in \mathcal{M}_{m,n}(K)$.
 
