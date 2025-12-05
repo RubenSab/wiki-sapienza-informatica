@@ -71,7 +71,7 @@ Opis: D8DIGFF7
 - [[spazio vettoriale di matrici]]
 - [[sistema di equazioni lineari]]
 - [[teorema di Rouché-Capelli]]
-- [[formule di Grassmann]]
+- [[formula di Grassmann]]
 
 # Esercizi a parte
 

@@ -20,22 +20,12 @@
             }
           },
           {
-            "id": "0a978471076a3fd5",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
-          },
-          {
-            "id": "474aa1c05d68f84f",
+            "id": "ebab5ef229e92c20",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "algebra lineare/regola di Sarrus.md",
+                "file": "algebra lineare/formula di Grassmann.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -50,59 +40,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "regola di Sarrus"
-            }
-          },
-          {
-            "id": "3457cfcc4c81bdb3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "algebra lineare/regola di Sarrus.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "regola di Sarrus"
-            }
-          },
-          {
-            "id": "b47f0f6452b7d935",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "algebra lineare/sistema di equazioni lineari.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "sistema di equazioni lineari"
+              "title": "formula di Grassmann"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -273,7 +215,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 354.5
+    "width": 354.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -289,13 +232,13 @@
       "new-3d-graph:Open 3d graph": false
     }
   },
-  "active": "b47f0f6452b7d935",
+  "active": "ebab5ef229e92c20",
   "lastOpenFiles": [
+    "algebra lineare/Algebra lineare.md",
+    "algebra lineare/sistema di equazioni lineari.md",
     "algebra lineare/regola di Sarrus.md",
     "algebra lineare/determinante.md",
     "algebra lineare/algoritmo di Gauss.md",
-    "algebra lineare/sistema di equazioni lineari.md",
-    "algebra lineare/Algebra lineare.md",
     "algebra lineare/teorema di Rouché-Capelli.md",
     "algebra lineare/spazio vettoriale di matrici.md",
     "algebra lineare/spazio vettoriale.md",
@@ -313,7 +256,7 @@
     "algebra lineare/vettori linearmente indipendenti.md",
     "algebra lineare/sottospazio vettoriale.md",
     "calcolo delle probabilità/legge Gaussiana generica.md",
-    "algebra lineare/formule di Grassmann.md",
+    "algebra lineare/formula di Grassmann.md",
     "calcolo delle probabilità/Calcolo delle probabilità.md",
     "calcolo delle probabilità/legge Gaussiana standard.md",
     "calcolo delle probabilità/legge esponenziale.md",
