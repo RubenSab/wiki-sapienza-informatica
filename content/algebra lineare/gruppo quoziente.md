@@ -1,11 +1,11 @@
 ---
-updated_at: 2025-11-12T11:40:39.573+01:00
+updated_at: 2025-12-07T17:16:26.315+01:00
 ---
 > Un *gruppo quoziente* è un [[gruppo]] i cui elementi solo le [[classe di equivalenza|classi di equivalenza]] di un altro gruppo, secondo una [[relazione]] di [[proprietà, tipi di relazioni e ordini|equivalenza]] scelta.
 
 > N.B.: Un gruppo quoziente si può costruire **se e solo se le [[classi laterali]] del gruppo originario rispetto a un [[sottogruppi|sottogruppo]] secondo la relazione di equivalenza scelta, coincidono**, cioè se il sottogruppo è [[sottogruppo normale|normale]].
 
-Esempio: Il gruppo $\{\overline{0}, \overline{1}\}$ ottenuto dalla selezione delle classi di equivalenza di $\mathbb{Z}$ secondo la relazione di congruenza modulo 2.
+Esempio: Il gruppo $\{\overline{0}, \overline{1}\}$ ottenuto dalla selezione delle classi di equivalenza di $\mathbb{Z}$ secondo la relazione di congruenza modulo 2, cioè $\mathbb{Z}/2\mathbb{Z}$
 
 > N.B.: Per una relazione di congruenza generica (come modulo $n$) su un [[gruppo abeliano]], la classe di equivalenza dell'elemento neutro è sempre un sottogruppo normale del gruppo originale.
 

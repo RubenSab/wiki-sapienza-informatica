@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-12-05T14:42:05.153+01:00
+updated_at: 2025-12-10T14:08:26.174+01:00
 ---
 > La *legge esponenziale di parametro $\lambda$ di [[probabilità continua]]* è definita tramite la [[variabile aleatoria indicatrice]]:
 

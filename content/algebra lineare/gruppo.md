@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-11-13T10:13:38.941+01:00
+updated_at: 2025-12-10T10:05:07.184+01:00
 ---
 > Un gruppo è una quadrupla $(G, *, e, {}^{-1})$ dove:
 
@@ -34,7 +34,7 @@ Esempi di gruppo:
 - [[gruppo quoziente]]
 - [[permutazioni]]
 - [[gruppo di permutazioni]]
-
+- [[ordine]]
 # Notazioni
 ## Gruppi in notazione additiva
 
@@ -93,7 +93,7 @@ Successivamente si dimostrano anche gli altri tre assiomi.
 
 ### Esempio
 
-> N.B.: Questi sono gruppi **additivi** con elemento neutro $\overline{0}$.
+> N.B.: Questo è un gruppo **additivo** con elemento neutro $\overline{0}$.
 
 $$
 \frac{\mathbb{Z}}{2\mathbb{Z}} \times \frac{\mathbb{Z}}{2\mathbb{Z}} = \{(\overline{0}, \overline{0}), (\overline{1}, \overline{0}), (\overline{0}, \overline{1}), (\overline{1}, \overline{1})\}

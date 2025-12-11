@@ -1,7 +1,7 @@
 ---
-updated_at: 2025-12-05T14:48:32.965+01:00
+updated_at: 2025-12-10T13:38:20.094+01:00
 ---
-> La *legge Gaussiana standard di [[probabilità continua]]* è definita:
+> La *legge Gaussiana standard $N(0, 1)$ di [[probabilità continua]]* è definita:
 
 $$
 f(x) = \frac{e^{-x^{2}/2}}{\sqrt{2 \pi}}

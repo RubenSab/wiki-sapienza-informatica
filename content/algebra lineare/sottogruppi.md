@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-11-21T15:23:13.714+01:00
+updated_at: 2025-12-07T17:08:54.532+01:00
 ---
 > Dato un [[gruppo]] $G = (G, \cdot, 1)$ in [[gruppo#^b21101|notazione moltiplicativa]] e un [[teoria degli anelli|sottoinsieme]] $H \subseteq G$ non vuoto, con $a, b \in G$ si dice che $H$ è un *sottogruppo* di $G$ se e solo se $\forall a, b \in H\ (a \cdot b^{-1} \in H)$. Si scrive $H < G$. (In [[gruppo#^963e43|notazione additiva]], $H<G \iff \forall a, b \in H,\ a + (-b) \in H$.
 
@@ -153,6 +153,6 @@ $G = S_{3}$ ([[gruppo di permutazioni]])
 
 - $H_{1} = \{\text{Id}, (1, 2)\}$
 - $H_{2} = \{\text{Id}, (1, 3)\}$
-- $H_{1} \cup H_{2} = \{\text{Id}, (1, 3), (1, 3)\} \not < G$
+- $H_{1} \cup H_{2} = \{\text{Id}, (1, 2), (1, 3)\} \not < G$
 
 > Curiosità: $3\mathbb{Z} + 4\mathbb{Z} < \mathbb{Z}$

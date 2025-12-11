@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-11-12T11:10:51.442+01:00
+updated_at: 2025-12-07T17:20:17.998+01:00
 ---
 > Ci sono quattro definizioni **equivalenti** di *sottogruppo normale*, quindi un [[sottogruppi|sottogruppo]] $H$ di un [[gruppo]] $G$ si può dire normale (scrivendo $H \triangleleft G$) anche se se ne dimostra una sola:
 
@@ -12,3 +12,4 @@ Dimostrazione: #todo
 
 $3 \implies 1 \implies 2 \implies 3$.
 
+> N.B.: In un gruppo abeliano tutti i [[sottogruppi]] sono normali.

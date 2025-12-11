@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-11-12T14:35:29.200+01:00
+updated_at: 2025-12-10T14:15:01.907+01:00
 ---
 > Il *valore atteso*, o media di una [[variabili aleatorie|variabile aleatoria]] $X$ è dato da
 
@@ -19,6 +19,8 @@ Questa somma, a seconda dell'ordine in cui sommiamo gli addendi, può assumere r
 
 Questo problema potrebbe sorgere nel calcolare il valore atteso di una variabile aleatoria a valori in $\mathbb{Z}$ (o per [[sottoinsiemi]] infiniti di $\mathbb{Z}$).
 
+*Vedi anche: [[casi notevoli di varianza e valore atteso]]*
+
 Esempio: Sia $X$ una variabile aleatoria a valori in $\mathbb{Z}$ con legge data dai pesetti $(p_{k})_{k \in \mathbb{Z}}$ con
 
 $$
@@ -31,18 +33,27 @@ $$
 
 Nota, questa variabile aleatoria ha una legge simmetrica, ossia $\forall k \neq 0\ (\mathbb{P}(X=k)= \mathbb{P}(X = -k) = \frac{3}{\pi} \cdot \frac{1}{k^{2}})$
 
-# Proprietà del valore atteso di una variabile aleatoria
+# Valore atteso di una variabile aletoria *continua*
+
+^101d3a
+
+Invece, nella [[probabilità continua]], data una variabile aleatoria $X$ con [[probabilità continua#^634651|funzione di densità]] $f$ definiamo il valore atteso:
+
+$$
+\mathbb{E}(X) = \int_{-\infty}^{\infty} x \cdot f(x)\ dx
+$$
+
+# Proprietà del valore atteso di una variabile aleatoria 
 
 $S_{x} \subseteq [0, \infty)$
 
- > N.B.: $\forall \lambda \in \mathbb{R}\ (\mathbb{E}(\lambda) = \lambda)$
- 
 1. Se $X \geq 0$ allora $\mathbb{E}(X) \geq 0$.
-2. Se $\lambda \in \mathbb{R}$, allora $\mathbb{E}(\lambda X) = \lambda \cdot \mathbb{E}(X)$.
+2. Se $X = c$ allora $\mathbb{E}(c) = c$.
 3. Se $\mathbb{E}(X+Y)= \mathbb{E}(X) + \mathbb{E}(Y)$.
-4. *2* e *3* ci dicono che il valore atteso è **lineare**, ossia $\mathbb{E}(aX + bY) = a \mathbb{E}(X) + b \mathbb{E}(Y)\ \forall a, b \in \mathbb{R}$.
-5. Valore atteso di un [[funzione]] di $X$:
-   Se $X$ è una variabile aleatoria a valori in $S_{x}$, e $g: S_{X} \to \mathbb{R}$ è una funzione, allora vale che $\mathbb{E}(g(x))=\sum_{x \in S_{X}}g(x) \cdot \mathbb{P}(X = x)$.
+4. Se $\lambda \in \mathbb{R}$, allora $\mathbb{E}(\lambda X) = \lambda \cdot \mathbb{E}(X)$.
+5. *2* e *3* ci dicono che il valore atteso è **lineare**, ossia $\mathbb{E}(aX + bY) = a \mathbb{E}(X) + b \mathbb{E}(Y)\ \forall a, b \in \mathbb{R}$.
+6. Valore atteso di un [[funzione]] di $X$:
+   Se $X$ è una variabile aleatoria **discreta** a valori in $S_{x}$, e $g: S_{X} \to \mathbb{R}$ è una funzione, allora vale che $\mathbb{E}(g(X))=\sum_{x \in S_{X}}g(x) \cdot \mathbb{P}(X = x)$. Se la variabile aleatoria è **continua**, allora $\mathbb{E}(g(X)) = \int_{-\infty}^{+\infty}g(x) \cdot f(x)\ dx$.
 
 ## Perché la proprietà 4 è utile?
 

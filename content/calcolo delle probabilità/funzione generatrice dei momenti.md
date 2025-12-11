@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-12-03T14:25:26.162+01:00
+updated_at: 2025-12-10T14:50:51.534+01:00
 ---
 *Vedere prima [[valore atteso di una variabile aleatoria]]*.
 
@@ -9,12 +9,23 @@ $$
 G_{X}(t) := \mathbb{E}(t^{X})\ \text{per}\ t \in (0,1] = \sum_{x \in S_{X}} t^{x} \mathbb{P}(X = x)
 $$
 
+
 > Il nome funzione generatrice dei momenti deriva dal fatto che da $G_{X}(t)$ possiamo ricavare, derivando, $\mathbb{E}(X^{k}), \forall k \geq 1$,  cioè gli momenti $k$-esimi di $X$*.
 
 Osservazioni:
 
 - per $t=1, \quad G_{X}(1) = \mathbb{E}(1^{X}) = 1$
 - per $t < 1$, la somma che definisce $G_{X}(t)$ è convergente.
+
+Nel *[[probabilità continua|continuo]]*, abbiamo
+
+$$
+M_{X}(\theta) := \mathbb{E}(e^{\vartheta X}) = \int_{-\infty}^{+\infty} e^{\vartheta x} f(x)\ dx
+$$
+
+La funzione generatrice dei momenti specifica univocamente la legge di $X$.
+
+Inoltre $M_{X}(0) = 1,\ M'_{X}(0) = \mathbb{E}(X),\ M''_{X}(0) = \mathbb{E}(X^{2})$
 
 # Applicazione utili di $G_{X}(1)$
 

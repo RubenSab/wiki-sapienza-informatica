@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-12-02T16:15:36.114+01:00
+updated_at: 2025-12-11T16:32:39.567+01:00
 ---
 > [Materiale del corso](https://sites.google.com/di.uniroma1.it/basididati-modulo1canalem-z/home-page/materiale-del-corso)
 
@@ -25,6 +25,8 @@ updated_at: 2025-12-02T16:15:36.114+01:00
 	- [[copertura minimale di un insieme di dipendenze]]
 - Organizzazione fisica dei database:
 	- [[organizzazione fisica di un database relazionale]]
+- Controllo della concorrenza:
+	- [[controllo della concorrenza in una base di dati]]
 
 ---
 

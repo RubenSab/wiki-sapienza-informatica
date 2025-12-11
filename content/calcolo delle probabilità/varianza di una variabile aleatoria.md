@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-11-18T22:13:03.648+01:00
+updated_at: 2025-12-10T14:33:34.735+01:00
 ---
 Sia $X$ una [[variabili aleatorie|variabile aleatoria]] a valori in $S_{X}$ con pesetti $(p_{x})_{x \in S_{X}}\ (p_{x} = \mathbb{P}(X=x))$. ricordiamo che il [[valore atteso di una variabile aleatoria|valore atteso]] (media) di $X$ è definito da
 
@@ -13,7 +13,7 @@ $$
 \text{Var}(X) = \mathbb{E}\left[(X-\mathbb{E}(X))^{2}\right]
  = \sum_{x \in S_{X}} (X-\mathbb{E}(X))^{2} \cdot p_{x}
 $$
-ma c'è una formula più semplice:
+o equivalentemente:
 
 > $\text{Var}(X) = \mathbb{E}(X^{2})-(\mathbb{E}(X))^{2}$
 
@@ -25,13 +25,25 @@ $\text{Var}(X) = \mathbb{E}(X^{2} + \mathbb{E}(X)^{2} - 2X\mathbb{E}(X)) = E(X^{
 
 *Vedi anche: [[casi notevoli di varianza e valore atteso]]*
 
-# Proprietà
+# Varianza di una variabile aleatoria *continua*
+
+> La varianza di una variabile aleatoria $X$ [[probabilità continua|continua]] è data da
+
+$$
+\text{Var}(X) = \mathbb{E}\left[(X-\mathbb{E}(X))^{2}\right]
+ = \int_{-\infty}^{+\infty} (X-\mathbb{E}(X))^{2} \cdot f(x)\ dx
+$$
+
+o equivalentemente:
+
+> $\text{Var}(X) = \mathbb{E}(X^{2})-(\mathbb{E}(X))^{2} = \int_{-\infty}^{+\infty} x^{2} f(x)\ dx - (\int_{-\infty}^{+\infty} x f(x)\ dx)^{2}$
+
+# Proprietà, tutte valide sia nel *discreto* che nel *[[probabilità continua|continuo]]*
 
 - è sempre $\geq 0$ per qualsiasi variabile aleatoria.
 - la varianza di una variabile aleatoria è 0 **se e solo se** la variabile aleatoria è **degenere**, cioè $X = \mathbb{E}(X)$.
-- $\mathbb{E}(X^{2}) \geq (\mathbb{E}(X))^{2}$
 - $\text{Var}(cX) = c^{2} \cdot \text{Var}(X)$
-- $\text{Var}(c + X)=\mathbb{E}((X - \mathbb{E}(X))^{2})$
+- $\text{Var}(c + X)=\text{Var}(X)$
 - $\text{Var}(X + Y) = \text{Var}(X) + \text{Var}(Y) + 2\text{Cov}(X, Y)$ ([[covarianza di due variabili aleatorie|covarianza]])
 
 # Esempi

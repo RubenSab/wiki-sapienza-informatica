@@ -1,9 +1,9 @@
 ---
-updated_at: 2025-12-03T15:24:49.387+01:00
+updated_at: 2025-12-10T14:36:07.836+01:00
 ---
 # Legge congiunta
 
-> Siano $X$ e $Y$ due [[variabili aleatorie]] sullo [[spazio campionario]] $\Omega$ a valori in $S_{X}$ e $S_{Y}$ rispettivamente. La *legge congiunta* di $X$ e $Y$ è la [[misura di probabilità|misura di probabilità]] su $S_{X} \times S_{Y} = \{(x, y): x \in S_{X}, y \in S_{Y}\}$ data dai pesetti $p_{x,y} = \mathbb{P}\underset{\{X = x\} \cap \{Y=y\}}{(X = x, Y = y)}\ \forall (x, y) \in S_{X} \times S_{Y}$.
+> Siano $X$ e $Y$ due [[variabili aleatorie]] sullo [[spazio campionario]] $\Omega$ a valori in $S_{X}$ e $S_{Y}$ rispettivamente. La *legge congiunta* di $X$ e $Y$ è la [[misura di probabilità|misura di probabilità]] sul prodotto cartesiano $S_{X} \times S_{Y} = \{(x, y): x \in S_{X}, y \in S_{Y}\}$ data dai pesetti $p_{x,y} = \mathbb{P}\underset{\{X = x\} \cap \{Y=y\}}{(X = x, Y = y)}\ \forall (x, y) \in S_{X} \times S_{Y}$.
 
 > N.B.: Questa è una legge di probabilità, quindi necessariamente
 

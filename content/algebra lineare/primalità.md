@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-10-21T23:54:32.897+02:00
+updated_at: 2025-12-09T19:12:17.724+01:00
 ---
 Dato un [[anello]] $A$, definiamo $a \in A - A^{\times}$, cioè $a$ è un elemento non invertibile di $A$.
 
@@ -9,4 +9,4 @@ Dato un [[anello]] $A$, definiamo $a \in A - A^{\times}$, cioè $a$ è un elemen
 
 > N.B.: In $\mathbb{Z}$, primo $=$ [[irriducibilità|irriducibile]]; in generale primo $\implies$ irriducibile ma irriducibile $\not\implies$ primo.
 
-> N.B.: Dalla definizione di $a$ si capisce che 1 e -1 non possono essere numeri primi in $\mathbb{Z}$, in quanto sono gli elementi invertibili (o unità) di $\mathbb{Z}$.
+> N.B.: Dalla definizione di $a$ si capisce che $1$ e $-1$ non possono essere numeri primi in $\mathbb{Z}$, in quanto sono gli elementi invertibili (o unità) di $\mathbb{Z}$.

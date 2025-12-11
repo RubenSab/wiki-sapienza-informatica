@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-12-05T16:15:19.379+01:00
+updated_at: 2025-12-10T10:39:47.469+01:00
 ---
 
 > Formalmente, una *permutazione* può essere vista come una mappa [[applicazione biiettiva o biiezione|mappa biiettiva]] tra due collezioni ordinate che contengono gli stessi elementi in ordine diverso o uguale (permutazione banale).
@@ -56,6 +56,8 @@ $$
 
 > N.B.: **PIÙ PERMUTAZIONI SUCCESSIVE SI APPLICANO DA DESTRA A SINISTRA**.
 
+> N.B.: Ogni trasposizione può essere scomposta unicamente in più cicli **disgiunti**, ma anche non unicamente in più 2-cicli **non necessariamente disgiunti**, anche detti *trasposizioni*.
+
 # Permutazione ciclica
 
 > È una permutazione che consiste in un **singolo** ciclo; tutti gli altri elementi permutati rimangono invariati.
@@ -74,11 +76,26 @@ I cicli possono essere prefissati dalla loro lunghezza, in questo caso $\rho$ è
 
 > Gli 1-cicli sono evidentemente invarianti.
 
-# Segnatura
+# Glossario
+## Parità
+
+> Si dice *parità* di una permutazione la parità del numero di **cicli disgiunti** in cui può essere scomposta (0 = numero pari di cicli disgiunti, 1 = numero dispari).
+
+La parità può anche essere dedotta "disegnando" la permutazione.
+
+![[Pasted image 20251210103843.png]]
+
+In questo caso le "trasposizioni" si incrociano in 18 punti: 18 è un numero pari quindi la parità è 0 e la segnatura è 1.
+
+## Segnatura
 
 ^5473be
 
-> $\varepsilon (\sigma)$ si dice *segnatura* di una permutazione: è una [[funzione]] che restituisce $1$ se la permutazione può essere scomposta in un numero pari di cicli, non necessariamente a supporto disgiunto e $-1$ in caso contrario.
+> $\varepsilon (\sigma)$ si dice *segnatura* di una permutazione: è una [[funzione]] che restituisce $1$ se la permutazione può essere scomposta in un numero pari di cicli (parità 0), non necessariamente a supporto disgiunto e $-1$ in caso contrario (parità 1).
+
+## Ordine
+
+> Dato $\sigma \in S_{n}$ l'*ordine* di $\sigma$ è il più piccolo $m\geq 0$ tale che $\sigma^{m} = \text{Id}_{S_{n}}$. Se $\sigma$ è il prodotto di **cicli disgiunti** allora $m$ è il [[(mcm) minimo comune multiplo]] delle lunghezze dei cicli.
 
 # Quante sono le permutazioni di un [[insieme|insieme]] con [[cardinalità]] $n$?
 

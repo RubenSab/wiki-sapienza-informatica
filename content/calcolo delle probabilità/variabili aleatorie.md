@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-11-12T13:38:59.379+01:00
+updated_at: 2025-12-10T13:43:49.828+01:00
 ---
 Spesso siamo interessati non all'esito di un esperimento aleatorio, ma di una [[funzione]] dell'esito.
 

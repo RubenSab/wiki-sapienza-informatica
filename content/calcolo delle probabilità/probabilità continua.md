@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-12-05T14:28:08.415+01:00
+updated_at: 2025-12-10T13:33:08.854+01:00
 ---
 > Volendo parlare di [[probabilità]] continua, non si possono generalizzare le proprietà viste finora su [[spazio campionario|spazi campionari]] discreti. Ad esempio, sull'intervallo continuo $[0, 1]$, non si può definire una [[misura di probabilità]] uniforme, perché ci sarebbero infiniti pesetti.
 
@@ -7,7 +7,9 @@ Per ottenere una *misura di probabilità continua*, invece di definire i pesetti
 
 # Funzione di densità
 
-Una [[funzione]] $f: \mathbb{R} \to \mathbb{R}$ è detta *funzione di densità* o *funzione di densità di probabilità* se:
+^634651
+
+> Una [[funzione]] $f: \mathbb{R} \to \mathbb{R}$ è detta *funzione di densità* o *funzione di densità di probabilità* se:
 
 - $\forall x \in \mathbb{R} \quad f(x) \geq 0$
 - $\int_{-\infty}^{+\infty}f(x)\ dx = 1$
@@ -20,7 +22,9 @@ $$
 \mathbb{P}(\underset{A \subseteq \mathbb{R}}{A}) = \underset{A}{\int} f(x)\ dx
 $$
 
-> La probabilità di un sottoinsieme di $\mathbb{R}$ si dice la sua *lunghezza*.
+Una legge di probabilità continua è **univocamente** specificata da una funzione di densità.
+
+> La probabilità di un sottoinsieme di $\mathbb{R}$ (intervallo numerico) si dice la sua *lunghezza*.
 
 Osservazioni:
 

@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-12-04T11:10:39.433+01:00
+updated_at: 2025-12-09T21:36:49.960+01:00
 ---
 > Una [[corrispondenza]] si dice [[applicazione]] se $\forall a \in X,\ \exists !\ b \in Y : (a, b) \in \Gamma$. In questo caso si dice che $b = f(a)$ e si scrive anche $X \xrightarrow{f} Y$ (applicazione $f$ da $X$ a $Y$).
 
@@ -16,7 +16,7 @@ Un'applicazione $X \xrightarrow{f} Y$ si dice:
 
 - **iniettiva** se:
 	- $\forall x, x' \in X\ (f(x) = f(x') \implies x = x')$;
-	- alternativamente è iniettiva se e solo se $\forall y \in Y(\ f^{-1}(\{y\})=\emptyset \lor f^{-1}(\{y\}) = \{x, x \in X\})$, cioè se $f^{-1}(\{y\})$ è un singleton o non esiste; (se ogni elemento del codominio ha una sola "freccia entrante" o non ne ha);
+	- alternativamente è iniettiva se e solo se $\forall y \in Y(\ f^{-1}(\{y\})=\emptyset \lor f^{-1}(\{y\}) = \{x,\ x \in X\})$, cioè se $f^{-1}(\{y\})$ è un singleton o non esiste; (se ogni elemento del codominio ha una sola "freccia entrante" o non ne ha);
 	- alternativamente è iniettiva se $\text{Card}(f^{-1}(\{y\})) \leq 1$.
 
 - **suriettiva** se:
@@ -27,6 +27,6 @@ Un'applicazione $X \xrightarrow{f} Y$ si dice:
 - **[[applicazione biiettiva o biiezione]]** se:
 	- è sia suriettiva che iniettiva;
 	- alternativamente se e solo se $\forall y \in Y$, $f^{-1}(\{y\})$ è un singleton;
-	- è l'applicazione che ha $\Delta_{x}$ come [[grafo]] (definizione quasi inutile, solo per curiosità).
+	- è l'applicazione che ha $\Delta_{x}$ (la diagonale della tabella con dominio e codominio) come [[grafo]] (definizione quasi inutile, solo per curiosità).
 
 > Se $f$ è **iniettiva**, scrivo $X \rightarrowtail Y$, se $f$ è **suriettiva**, scrivo $X \twoheadrightarrow Y$.

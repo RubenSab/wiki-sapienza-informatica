@@ -1,7 +1,7 @@
 ---
-updated_at: 2025-12-04T11:21:46.939+01:00
+updated_at: 2025-12-07T16:39:09.779+01:00
 ---
-> Gli anelli sono un caso specifico dei [[gruppo|gruppi]]. Un *anello commutativo con unità* è una sestupla $(A, +, \cdot, -, 0, 1)$ dove:
++> Gli anelli sono un caso specifico dei [[gruppo|gruppi]]. Un *anello commutativo con unità* è una sestupla $(A, +, \cdot, -, 0, 1)$ dove:
 
 - $A$ è un [[insieme|insieme]] non vuoto che contiene gli elementi dell'anello su cui agiscono le operazioni,
 - $+$ è un'operazione binaria $A \times A \to A$,
@@ -37,7 +37,7 @@ e i seguenti assiomi **moltiplicativi**:
 
 > Definiamo il *sottoinsieme delle unità o elementi invertibili* di $A$ come $A^{\times} = \{a \in A : \exists b \in A (ab = ba = 1)\}$.
 
-> Per definizione, $A^{\times}$ si dice *chiuso* per **prodotto** e per **inverso**, cioè il prodotto di due elementi di $A^{\times}$ e l'inverso di un elemento di $A^{\times}$ danno come risultato un elemento di $A^{\times}$.
+> Per definizione, $A^{\times}$ si dice *chiuso* per **prodotto** e per **inverso**, cioè il prodotto di due elementi di $A^{\times}$, e l'inverso di un elemento di $A^{\times}$ danno come risultato un elemento di $A^{\times}$.
 
 > N.B.: Nell'anello $\mathbb{Z}$, l'insieme $\mathbb{Z}^{\times}=\{1,-1\}$, perché sono gli unici elementi che soddisfano $ab=ba=1$.
 

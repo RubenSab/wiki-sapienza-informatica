@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-12-05T15:26:00.104+01:00
+updated_at: 2025-12-07T17:36:48.943+01:00
 ---
 Opis: D8DIGFF7
 
@@ -42,15 +42,15 @@ Opis: D8DIGFF7
 - [[teoria degli anelli]]
 - [[anello]]
 - [[gruppo]]
-	- [[isomorfismo]]
+	- [[gruppo abeliano]]
 	- [[omomorfismo]]
+	- [[isomorfismo]]
 	- [[sottogruppi]]
 	- [[sottogruppo normale]]
 	- [[classi laterali]]
 	- [[gruppo quoziente]]
 	- [[permutazioni]]
 	- [[gruppo di permutazioni]]
-- [[gruppo abeliano]]
 - [[campo]]
 
 ## Teoria della divisibilità

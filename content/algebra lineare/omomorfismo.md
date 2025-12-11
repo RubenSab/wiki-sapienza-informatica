@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-11-21T15:32:42.616+01:00
+updated_at: 2025-12-07T16:53:52.986+01:00
 ---
 > In generale, un *omomorfismo* è un'[[applicazione]] tra due [[Algebra lineare|strutture algebriche]] dello stesso tipo che conserva le operazioni in esse definite.
 
@@ -8,7 +8,7 @@ Siano $G_{1} = (G_{1}, \cdot_{1}, 1_{1}),\ G_{2} = (G_{2}, \cdot_{2}, 1_{2})$ du
 > L'[[applicazione]] $f$ è un *omomorfismo* di gruppi se:
 
 1. $f(1_{1})=1_{2}$
-2. $\forall a \in G_{1}\ (f(a^{-1})=f(a))$
+2. $\forall a \in G_{1}\ (f(a^{-1})=f^{-1}(a))$
 3. $\forall a, b \in G_{1}\ (f(a \cdot b) = f(a) \cdot f(b))$
 
 Ovviamente si può anche scrivere in notazione additiva:
