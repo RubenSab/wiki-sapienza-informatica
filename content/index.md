@@ -1,29 +1,43 @@
 ---
 title: Wiki Informatica Sapienza (canale MZ)
-updated_at: 2025-10-08T11:02:43.481+02:00
+updated_at: 2025-12-14T17:23:54.848+01:00
 ---
+Scala di **qualità** degli appunti dei corsi:
+
+- 3/3 - Contiene **tutte** le informazioni del corso, spiegate in modo completamente esaustivo.
+- 2/3 - Coprono una buona parte delle informazioni del corso, ma non tutte spiegate in modo esaustivo.
+- 1/3 - Appunti iniziati ma lasciati incompleti quasi subito.
+- 0/3 - Appunti iniziati e abbandonati subito dopo.
+
 # Secondo anno
 
 ## Primo semestre
 
-- [[Algebra lineare]]
-- [[Calcolo delle probabilità]]
-- [[Sistemi operativi]]
-- [[Basi di dati]]
+| Corso                         | Qualità |
+| ----------------------------- | ------- |
+| [[Algebra lineare]]           | 3/3     |
+| [[Calcolo delle probabilità]] | 3/3     |
+| [[Sistemi operativi]]         | 0/3     |
+| [[Basi di dati]]              | 3/3     |
+
 
 ---
 # Primo anno
 
 ## Secondo semestre
 
-- [[metodologie di programmazione]]
-- [[architettura degli elaboratori]]
-- [[calcolo integrale]]
-- [[introduzione agli algoritmi]]
+| Corso                              | Qualità |
+| ---------------------------------- | ------- |
+| [[metodologie di programmazione]]  | 1/3     |
+| [[architettura degli elaboratori]] | 3/3     |
+| [[calcolo integrale]]              | 0/3     |
+| [[introduzione agli algoritmi]]    | 2.5/3   |
 
 ## Primo semestre
 
-- [[calcolo differenziale]]
-- [[progettazione di sistemi digitali]]
-- [[metodi matematici per l'informatica]]
-- (niente appunti per fondamenti di programmazione)
+| Corso                                           | Qualità |
+| ----------------------------------------------- | ------- |
+| [[calcolo differenziale]]                       | 2/3     |
+| [[progettazione di sistemi digitali]]           | 3/3     |
+| [[metodi matematici per l'informatica]]         | 1/3     |
+| niente appunti per fondamenti di programmazione | -       |

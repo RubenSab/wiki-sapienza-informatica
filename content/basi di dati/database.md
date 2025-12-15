@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-10-05T17:26:30.388+02:00
+updated_at: 2025-12-14T17:49:22.715+01:00
 ---
 > Una base di dati o database è un insieme di file (aggregati di informazioni omogenee, accoppiate a file di *indici*) in formati *proprietari* mutualmente connessi che serve per gestire, memorizzare, processare e comunicare dei dati utili per l'organizzazione che ne fa uso. I dati sono organizzati, secondo le loro [[relazione|relazioni]], in [[struttura dati|strutture dati]] **omogenee** progettate per facilitarne la creazione, gestione e accesso, ottimizzando [[complessità spaziale]] e [[complessità temporale|temporale]].
 
@@ -7,7 +7,7 @@ updated_at: 2025-10-05T17:26:30.388+02:00
 
 La struttura dell'informazione dipende dal suo utilizzo e può essere modificata nel tempo; le assunzioni fatte in partenza possono non continuare a essere vere.
 
-Il vantaggio di avere dati strutturati e in relazione fra loro è poter accedere singolarmente ai dati contenuti nel *sistema informativo* tramite delle "interrogazioni" dette [[query]] che fanno uso dell'[[algebra relazionale dei database]].
+>Il vantaggio di avere dati strutturati e in relazione fra loro è poter accedere singolarmente ai dati contenuti nel *sistema informativo* tramite delle "interrogazioni" dette ***query*** che fanno uso dell'[[algebra relazionale dei database]].
 
 > Un componente fondamentale dei database sono i *costruttori di tipo*: ad esempio i [[database relazionali]] organizzano i dati come insiemi di *record* (tipi) omogenei.
 
@@ -22,9 +22,9 @@ La condivisione comporta la necessità di gestire accessi contemporanei agli ste
 I dati devono soddisfare dei **vincoli** che esistono nella realtà di interesse; ad esempio:
 
 - uno studente può risiedere in una sola città ([[dipendenza funzionale]]);
-- la matricola identifica univocamente uno studente ([[vincolo di chiave]]);
-- un voto è un intero positivo compreso tra 18 e 30 ([[vincolo di dominio]]);
-- la data di un evento giornaliero non può diminuire ([[vincolo dinamico]]).
+- la matricola identifica univocamente uno studente (vincolo di chiave);
+- un voto è un intero positivo compreso tra 18 e 30 (vincolo di dominio);
+- la data di un evento giornaliero non può diminuire (vincolo dinamico).
 
 # Modelli di DB
 

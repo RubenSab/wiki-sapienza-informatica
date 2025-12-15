@@ -1,6 +1,7 @@
 ---
-updated_at: 2025-12-10T14:43:53.214+01:00
+updated_at: 2025-12-15T14:18:57.129+01:00
 ---
+#todo  metti varianza e valore atteso nelle distribuzioni di probabilità continue
 
 > Il calcolo delle probabilità è lo studio matematico di esperimenti con diversi possibili esiti (aleatori cioè non deterministici).
 

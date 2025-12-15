@@ -20,12 +20,38 @@
             }
           },
           {
-            "id": "af1e82a3d8dbc621",
+            "id": "76ffe5f8fead0111",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "calcolo delle probabilità/casi notevoli di varianza e valore atteso.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "casi notevoli di varianza e valore atteso"
+            }
+          },
+          {
+            "id": "af41079e15ce80b6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "basi di dati/controllo della concorrenza in una base di dati.md",
+                "file": "algebra lineare/Algebra lineare.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -40,11 +66,83 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "controllo della concorrenza in una base di dati"
+              "title": "Algebra lineare"
+            }
+          },
+          {
+            "id": "a37c9be09c20448d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "calcolo delle probabilità/legge esponenziale.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "legge esponenziale"
+            }
+          },
+          {
+            "id": "d18ffa4ad43a558a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "calcolo delle probabilità/legge uniforme.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "legge uniforme"
+            }
+          },
+          {
+            "id": "26ab1f123f74c2bc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "calcolo delle probabilità/funzione generatrice dei momenti.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "funzione generatrice dei momenti"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -101,7 +199,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "congiunt",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -232,34 +330,34 @@
       "new-3d-graph:Open 3d graph": false
     }
   },
-  "active": "af1e82a3d8dbc621",
+  "active": "a37c9be09c20448d",
   "lastOpenFiles": [
-    "basi di dati/Basi di dati.md",
-    "basi di dati/controllo della concorrenza in una base di dati.md",
-    "Esercizio.md",
-    "calcolo integrale/criteri di confronto delle serie a segno costante.md",
-    "calcolo delle probabilità/funzione generatrice dei momenti.md",
-    "calcolo delle probabilità/probabilità continua.md",
-    "calcolo delle probabilità/legge congiunta e leggi marginali di variabili aleatorie.md",
-    "calcolo delle probabilità/Calcolo delle probabilità.md",
-    "interdisciplinare/funzione.md",
-    "calcolo delle probabilità/indipendenza di due variabili aleatorie continue.md",
-    "calcolo delle probabilità/indipendenza di due eventi.md",
-    "calcolo delle probabilità/variabili aleatorie.md",
+    "algebra lineare/Untitled.md",
+    "algebra lineare/Algebra lineare.md",
+    "calcolo delle probabilità/Untitled.md",
     "calcolo delle probabilità/casi notevoli di varianza e valore atteso.md",
-    "calcolo delle probabilità/stima della p-value.md",
-    "calcolo delle probabilità/disuguaglianza di Ghebyshev.md",
-    "calcolo delle probabilità/disuguaglianza di Markov.md",
-    "calcolo delle probabilità/varianza di una variabile aleatoria.md",
-    "calcolo delle probabilità/legge Gaussiana generica.md",
-    "interdisciplinare/struttura dati.md",
-    "calcolo delle probabilità/legge esponenziale.md",
-    "calcolo delle probabilità/legge uniforme.md",
+    "calcolo delle probabilità/funzione generatrice dei momenti.md",
+    "calcolo delle probabilità/Calcolo delle probabilità.md",
     "calcolo delle probabilità/valore atteso di una variabile aleatoria.md",
-    "calcolo delle probabilità/variabili aleatorie continue.md",
-    "calcolo delle probabilità/legge di Cauchy.md",
-    "calcolo delle probabilità/legge Gaussiana standard.md",
-    "algebra lineare/applicazione.md",
+    "calcolo delle probabilità/probabilità.md",
+    "calcolo delle probabilità/legge uniforme.md",
+    "calcolo delle probabilità/legge esponenziale.md",
+    "calcolo delle probabilità/varianza di una variabile aleatoria.md",
+    "calcolo delle probabilità/indipendenza di due variabili aleatorie continue.md",
+    "basi di dati/SQL.md",
+    "variabili aleatorie continue.md",
+    "basi di dati/database.md",
+    "basi di dati/organizzazione fisica di un database relazionale.md",
+    "basi di dati/B-tree.md",
+    "basi di dati/file con indice.md",
+    "basi di dati/file hash.md",
+    "basi di dati/file heap.md",
+    "introduzione agli algoritmi/ricerca lineare.md",
+    "basi di dati/Basi di dati.md",
+    "interdisciplinare/struttura dati.md",
+    "interdisciplinare/dizionario.md",
+    "index.md",
+    "calcolo differenziale/limiti di funzioni.md",
     "interdisciplinare/Pasted image 20251210103843.png",
     "relazione tra tabelle master",
     "foto/IMG-20251011-WA0002.jpg",

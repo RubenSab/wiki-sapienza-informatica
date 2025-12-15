@@ -1,7 +1,10 @@
 ---
-updated_at: 2025-12-10T14:50:51.534+01:00
+updated_at: 2025-12-15T14:45:26.331+01:00
 ---
 *Vedere prima [[valore atteso di una variabile aleatoria]]*.
+
+# Definizione
+## Nel discreto
 
 > La *funzione generatrice dei momenti* di una [[variabili aleatorie|variabile aleatoria]] $X$ a valori in $S_{X} \subseteq \mathbb{N}$ è definita come la [[funzione]]:
 
@@ -17,17 +20,29 @@ Osservazioni:
 - per $t=1, \quad G_{X}(1) = \mathbb{E}(1^{X}) = 1$
 - per $t < 1$, la somma che definisce $G_{X}(t)$ è convergente.
 
+## Nel continuo
+
 Nel *[[probabilità continua|continuo]]*, abbiamo
 
 $$
 M_{X}(\theta) := \mathbb{E}(e^{\vartheta X}) = \int_{-\infty}^{+\infty} e^{\vartheta x} f(x)\ dx
 $$
 
-La funzione generatrice dei momenti specifica univocamente la legge di $X$.
-
 Inoltre $M_{X}(0) = 1,\ M'_{X}(0) = \mathbb{E}(X),\ M''_{X}(0) = \mathbb{E}(X^{2})$
 
-# Applicazione utili di $G_{X}(1)$
+> N.B.: $M_{X}(0) = \mathbb{E}(e^{0X}) = \mathbb{E}(1) = 1$
+
+# Teorema di univocità
+
+> La funzione generatrice dei momenti specifica univocamente la legge di una variabile  aleatoria.
+
+## Corollario con la [[legge Gaussiana generica]] e la [[legge Gaussiana standard]]
+
+> Se $X \sim N(\mu, \sigma^{2})$ allora $Y = \frac{X - \mu}{\sigma} \sim N(0, 1)$ (cioè $Y$ è una Gaussiana standard)
+
+Dimostrazione: Calcoliamo $M_{Y}(\vartheta)$, la funzione generatrice dei momenti di $Y$, e mostriamo che $M_{Y}(\vartheta) = e^{\frac{\vartheta^{2}}{2}}$. Poiché questa è la funzione generatrice dei momenti di una Gaussiana standard, $Y$ è una Gaussiana standard.
+
+# Applicazione utili di $G_{X}(1)$, completamente analoghe sia nel discreto che nel continuo
 
 ## 1. Calcolo del valore atteso
 
@@ -55,12 +70,14 @@ $$
 
 ## 2. Calcolo dei momenti $k$-esimi di $X$
 
+Nel discreto abbiamo
+
 $$
 G_{X}(t) = \mathbb{E}(t^{X}) \to G'_{X}(1) = \mathbb{E}(X)
 $$
 
 $$
-G'_{X}(t) = \mathbb{E}(X \cdot t^{X-1}) \to G''_{X}(1) = \mathbb{E}(X^{2}) - \mathbb{E}(X)
+G'_{X}(t) = \mathbb{E}(X \cdot t^{X-1}) \to G'_{X}(1) = \mathbb{E}(X^{2}) - \mathbb{E}(X)
 $$
 
 $$
@@ -71,6 +88,13 @@ $$
 G'''_{X(t)}= \mathbb{E}(X \cdot (X-1) \cdot (X-2) \cdot t^{x-3}) \to G'''_{X}(1) = \mathbb{E}(X^{3}) - 3\mathbb{E}(X^{2}) + 2\mathbb{E}(X)
 $$
 
+Analogamente, nel continuo, abbiamo
+
+$$
+\frac{d^{k}}{d \vartheta^{k}} M_{X}(\vartheta) \mid_{\vartheta = 0} = \mathbb{E}(X^{k})
+$$
+
+
 ## 3. Teorema dell'univocità delle [[misura di probabilità|leggi]] delle variabili aleatorie corrispondenti
 
 > La legge generatrice dei momenti determina univocamente la legge della variabile aleatoria corrispondente.
@@ -78,6 +102,8 @@ $$
 Esempio: Se $G_{X}(t) = tp + 1 - p$, allora $X \sim \text{Bernoulli}(p)$. *([[distribuzione di Bernoulli]])*
 
 ## 4. Somme di variabili **indipendenti**
+
+### Nel discreto
 
 Siano X e Y due variabili aleatorie con legge di Poisson, di parametri $\lambda_{X}$ e $\lambda_{Y}$, [[indipendenza di due eventi|indipendenti]] tra loro.
 
@@ -102,3 +128,17 @@ G_{X + Y}(t) = \mathbb{E}(t^{X + Y}) = G_{X}(t) \cdot G_{Y}(t)
 $$
 
 Ciò vale anche con un numero maggiore di variabili indipendenti.
+
+### Nel continuo
+
+Se $X$ e $Y$ sono variabili aleatorie **indipendenti**, la funzione generatrice dei momenti di $X + Y$ è il prodotto delle funzioni generatrici di $X$ e $Y$.
+
+$$
+M_{X+Y}(\vartheta) = \mathbb{E}(e^{\vartheta(X+Y)}) = \mathbb{E}(e^{\vartheta X}) \cdot \mathbb{E}(e^{\vartheta Y})
+$$
+
+# Esercizio #todo 
+
+Trova la funzione generatrice dei momenti $N(\mu, \sigma^{2})$
+
+Suggerimento: per il calcolo dell'integrale applicare il cambio di variabile $y=\frac{x-\mu}{\lambda}$. Applicare il calcolo di variabile $y=\frac{x-\mu}{\sigma}$ prima di completare il quadrato ($M_{X}(\vartheta) = e^{\frac{\vartheta^{2} \sigma^{2}}{2} + \mu \vartheta}$).
