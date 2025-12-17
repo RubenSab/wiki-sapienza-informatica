@@ -1,7 +1,7 @@
 ---
 updated_at: 2025-12-07T16:53:52.986+01:00
 ---
-> In generale, un *omomorfismo* è un'[[applicazione]] tra due [[Algebra lineare|strutture algebriche]] dello stesso tipo che conserva le operazioni in esse definite.
+> In generale, un *omomorfismo* è un'[[applicazione]] tra due [[Algebra|strutture algebriche]] dello stesso tipo che conserva le operazioni in esse definite.
 
 Siano $G_{1} = (G_{1}, \cdot_{1}, 1_{1}),\ G_{2} = (G_{2}, \cdot_{2}, 1_{2})$ due [[gruppo|gruppi]] (in [[gruppo#^b21101|notazione moltiplicativa]]).
 

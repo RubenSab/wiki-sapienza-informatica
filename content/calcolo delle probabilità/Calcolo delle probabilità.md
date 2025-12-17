@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-12-15T14:18:57.129+01:00
+updated_at: 2025-12-17T15:24:16.407+01:00
 ---
 #todo  metti varianza e valore atteso nelle distribuzioni di probabilità continue
 
@@ -51,6 +51,7 @@ Fonte di esercizi consigliata: *Sheldon Ross - calcolo delle probabilità*
 - Probabilità continua
 	- [[probabilità continua]]
 	- [[variabili aleatorie]]
+	- [[trasformazione di variabili aleatorie]]
 	- [[valore atteso di una variabile aleatoria#^101d3a|valore atteso di una variabile aleatoria continua]]
 	- [[varianza di una variabile aleatoria]]
 	- Distribuzioni notevoli di probabilità discreta
@@ -62,3 +63,5 @@ Fonte di esercizi consigliata: *Sheldon Ross - calcolo delle probabilità*
 	- [[casi notevoli di varianza e valore atteso]]
 	- [[indipendenza di due variabili aleatorie continue]]
 	- [[funzione generatrice dei momenti]]
+	- [[teorema del limite centrale]]
+	  

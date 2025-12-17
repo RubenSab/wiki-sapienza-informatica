@@ -15,7 +15,7 @@ Scala di **qualità** degli appunti dei corsi:
 
 | Corso                         | Qualità |
 | ----------------------------- | ------- |
-| [[Algebra lineare]]           | 3/3     |
+| [[Algebra]]           | 3/3     |
 | [[Calcolo delle probabilità]] | 3/3     |
 | [[Sistemi operativi]]         | 0/3     |
 | [[Basi di dati]]              | 3/3     |

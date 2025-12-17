@@ -1,9 +1,9 @@
 ---
 updated_at: 2025-10-29T17:04:42.280+01:00
 ---
-Quando due [[Algebra lineare|strutture algebriche]] sono isomorfe, sono indistinguibili dalla teoria dei gruppi, alla quale appaiono come se fossero la stessa struttura.
+Quando due [[Algebra|strutture algebriche]] sono isomorfe, sono indistinguibili dalla teoria dei gruppi, alla quale appaiono come se fossero la stessa struttura.
 
-> In generale, un *isomorfismo* è un'[[applicazione]] biettiva tra due [[Algebra lineare|strutture algebriche]] dello stesso tipo tale che essa e la sua inversa siano [[omomorfismo|omomorfismi]].
+> In generale, un *isomorfismo* è un'[[applicazione]] biettiva tra due [[Algebra|strutture algebriche]] dello stesso tipo tale che essa e la sua inversa siano [[omomorfismo|omomorfismi]].
 
 > Sia $G_{1} \overset{f}{\to} G_{2}$ un omomorfismo di [[gruppo|gruppi]]. Se l'applicazione $f$ è biettiva, si dice che $f$ è un *isomorfismo*.
 

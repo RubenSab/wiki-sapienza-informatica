@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-12-10T13:33:08.854+01:00
+updated_at: 2025-12-17T14:18:35.020+01:00
 ---
 > Volendo parlare di [[probabilità]] continua, non si possono generalizzare le proprietà viste finora su [[spazio campionario|spazi campionari]] discreti. Ad esempio, sull'intervallo continuo $[0, 1]$, non si può definire una [[misura di probabilità]] uniforme, perché ci sarebbero infiniti pesetti.
 
@@ -14,12 +14,14 @@ Per ottenere una *misura di probabilità continua*, invece di definire i pesetti
 - $\forall x \in \mathbb{R} \quad f(x) \geq 0$
 - $\int_{-\infty}^{+\infty}f(x)\ dx = 1$
 
-# Misura di probabilità continua
+# Misura/legge/distribuzione di probabilità continua
 
-> Data una funzione di densità $f: \mathbb{R} \to \mathbb{R}$, la misura di probabilità associata a un [[sottoinsiemi|sottoinsieme]] $A$ di $\mathbb{R}$ è data dall'integrale:
+^ab835c
+
+> Data una funzione di densità $f: \mathbb{R} \to \mathbb{R}$, la misura di probabilità associata a un [[sottoinsiemi|sottoinsieme]] $A$ di $\mathbb{R}$ è la ***funzione di distribuzione*** $F_{X}(x)$ data dall'integrale:
 
 $$
-\mathbb{P}(\underset{A \subseteq \mathbb{R}}{A}) = \underset{A}{\int} f(x)\ dx
+F_{X}(x) = \mathbb{P}(X \leq x) = \mathbb{P}(\underset{A \subseteq \mathbb{R}}{A}) = \underset{A}{\int} f(x)\ dx
 $$
 
 Una legge di probabilità continua è **univocamente** specificata da una funzione di densità.
@@ -44,4 +46,4 @@ $$
 
 Questa è una funzione di densità? Sì, perché è sempre positiva e integra sempre a $1$. Abbiamo modificato la funzione dell'esempio 1. per fare in modo che integrasse sempre a $1$. Nell'esempio ciò non serviva perché $b-a = 1-0 = 1$.
 
-2. La funzione $f(x) = \frac{e^{-|x|}}{2}$ è una funzione di densità, perché ha tutti valori positivi e integra a $1$. Curiosità: per questa distribuzione di probabilità si ha la stessa probabilità che scegliendo un numero a caso da $R$, si prenda un numero negativo o uno positivo, perché $f(x)$ è **pari**, quindi l'area sottesa a $f(x),\ x \geq 0$ è la stessa sottesa a $f(x),\ x < 0$.
+2. La funzione $f(x) = \frac{e^{-|x|}}{2}$ è una funzione di densità, perché ha tutti valori positivi e integra a $1$. Curiosità: per questa distribuzione di probabilità si ha la stessa probabilità che scegliendo un numero a caso da $\mathbb{R}$, si prenda un numero negativo o uno positivo, perché $f(x)$ è **pari**, quindi l'area sottesa a $f(x),\ x \geq 0$ è la stessa sottesa a $f(x),\ x < 0$.
