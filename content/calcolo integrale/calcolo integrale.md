@@ -1,35 +1,37 @@
 ---
-updated_at: 2025-05-22T13:32:35.685+02:00
+updated_at: 2025-12-18T17:01:17.334+01:00
 ---
 - [[formulario di calcolo integrale]]
 # Argomenti
-## Serie
+## Serie #mancante
 
 ### Serie a segno costante
 
 - [[serie]]
-- [[serie di Cauchy]]
+- serie di Cauchy
 - [[serie geometriche]]
 - [[serie armoniche]]
-- [[serie di Mengoli]]
-- [[criteri di confronto delle serie a segno costante]]
+- serie di Mengoli
+- criteri di confronto delle serie a segno costante
+
 ### Serie a segno variabile
 
-- [[convergenza semplice]]
-- [[convergenza assoluta]]
-- [[criterio di Leibniz]]
+- convergenza semplice
+- convergenza assoluta
+- criterio di Leibniz
+
 ### Serie di potenze
 
-- [[serie di potenze]]
+- serie di potenze
 
-## Integrali
+## Integrali #mancante
 
-- [[integrali]]
-- [[integrali indefiniti]]
-- [[integrali definiti]]
-- [[tecniche di integrazione]]
-- [[teorema fondamentale del calcolo integrale]]
-- [[integrali impropri]]
+- integrali
+- integrali indefiniti
+- integrali definiti
+- tecniche di integrazione
+- teorema fondamentale del calcolo integrale
+- integrali impropri
 
 ## Equazioni differenziali
 

@@ -1,9 +1,8 @@
 ---
-updated_at: 2025-10-27T14:31:34.921+01:00
+updated_at: 2025-12-18T17:03:54.119+01:00
 ---
 - [[limiti di successioni]]
 - [[limiti di funzioni]]
-- [[gerarchia degli infiniti]]
 - [[formula di Stirling]]
 
 

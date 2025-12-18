@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-02-22T15:24:12.004+01:00
+updated_at: 2025-12-18T17:04:35.005+01:00
 ---
 # argomenti
 
@@ -10,8 +10,4 @@ updated_at: 2025-02-22T15:24:12.004+01:00
 ## seconda parte
 
 - [[logica proposizionale]]
-- [[logica predicativa]]
-
-## altro
-
-- [[esercizi di metodi matematici per l'informatica]]
+- logica predicativa #mancante

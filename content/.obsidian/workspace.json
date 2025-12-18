@@ -20,37 +20,29 @@
             }
           },
           {
-            "id": "98891f3b83466cce",
+            "id": "638c1d0d228a65a4",
             "type": "leaf",
+            "pinned": true,
             "state": {
-              "type": "markdown",
+              "type": "webviewer",
               "state": {
-                "file": "algebra lineare/applicazione lineare.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "url": "https://drive.google.com/file/d/11RlECBPN3GQNNS9wBau_lNiIrceADR-O/view",
+                "title": "30. Time-stamp.pdf - Google Drive",
+                "mode": "webview"
               },
-              "icon": "lucide-file",
-              "title": "applicazione lineare"
+              "pinned": true,
+              "icon": "globe-2",
+              "title": "30. Time-stamp.pdf - Google Drive"
             }
           },
           {
-            "id": "aa35493f284d377d",
+            "id": "7e572fd6b99c953d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "algebra lineare/spazio vettoriale quoziente.md",
-                "mode": "source",
+                "file": "basi di dati/chiusura di Armstrong.md",
+                "mode": "preview",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -64,7 +56,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "spazio vettoriale quoziente"
+              "title": "chiusura di Armstrong"
             }
           }
         ],
@@ -125,7 +117,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "lemma delle chiusu",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -256,37 +248,37 @@
       "new-3d-graph:Open 3d graph": false
     }
   },
-  "active": "aa35493f284d377d",
+  "active": "7e572fd6b99c953d",
   "lastOpenFiles": [
-    "algebra lineare/applicazione quoziente.md",
-    "algebra lineare/spazio vettoriale quoziente.md",
-    "algebra lineare/insieme quoziente.md",
-    "algebra lineare/Algebra.md",
-    "algebra lineare/applicazione lineare.md",
-    "progettazione di sistemi digitali/bit di parità.md",
-    "algebra lineare/spazio vettoriale.md",
-    "algebra lineare/omomorfismo.md",
+    "basi di dati/chiusura di Armstrong.md",
+    "basi di dati/chiusura di un insieme di attributi.md",
+    "basi di dati/verifica di una buona decomposizione in 3NF.md",
+    "metodi matematici per l'informatica/metodi matematici per l'informatica.md",
+    "introduzione agli algoritmi/metodo dell'integrale.md",
+    "calcolo differenziale/teorema di unicità del limite.md",
+    "calcolo differenziale/limiti di funzioni.md",
+    "calcolo differenziale/limite.md",
+    "calcolo differenziale/teorema ponte.md",
+    "calcolo integrale/serie.md",
+    "metodi matematici per l'informatica/logica predicativa.md",
+    "calcolo differenziale/gerarchia degli infiniti.md",
+    "calcolo differenziale/limiti notevoli delle funzioni.md",
+    "calcolo differenziale/teoremi dei limiti sulle successioni.md",
+    "calcolo integrale/confronto asintotico.md",
+    "calcolo integrale/calcolo integrale.md",
+    "calcolo differenziale/teorema de l'hopital.md",
+    "calcolo integrale/serie di Cauchy.md",
+    "calcolo differenziale/miglior polinomio.md",
+    "calcolo differenziale/serie di Taylor.md",
+    "calcolo integrale/serie geometriche.md",
+    "calcolo integrale/serie armoniche.md",
+    "calcolo integrale/serie di Mengoli.md",
+    "calcolo integrale/criteri di confronto delle serie a segno costante.md",
+    "calcolo integrale/criterio di Leibniz.md",
+    "calcolo integrale/convergenza assoluta.md",
     "algebra lineare/Pasted image 20251218113905.png",
     "algebra lineare/Screenshot From 2025-12-18 11-29-56.png",
     "algebra lineare/Pasted image 20251218113513.png",
-    "algebra lineare/vettori linearmente indipendenti.md",
-    "algebra lineare/applicazione.md",
-    "calcolo delle probabilità/trasformazione di variabili aleatorie.md",
-    "calcolo delle probabilità/legge dei grandi numeri.md",
-    "calcolo delle probabilità/Calcolo delle probabilità.md",
-    "calcolo delle probabilità/teorema del limite centrale.md",
-    "calcolo delle probabilità/indipendenza di due variabili aleatorie continue.md",
-    "calcolo delle probabilità/teoremi limite.md",
-    "calcolo delle probabilità/probabilità.md",
-    "calcolo delle probabilità/probabilità continua.md",
-    "calcolo delle probabilità/variabili aleatorie.md",
-    "calcolo delle probabilità/legge di Cauchy.md",
-    "calcolo integrale/serie di Cauchy.md",
-    "calcolo delle probabilità/legge esponenziale.md",
-    "calcolo delle probabilità/funzione di distribuzione.md",
-    "calcolo delle probabilità/legge Gaussiana generica.md",
-    "algebra lineare/teorema di Rouché-Capelli.md",
-    "algebra lineare/formula di Grassmann.md",
     "interdisciplinare/Pasted image 20251210103843.png",
     "relazione tra tabelle master",
     "foto/IMG-20251011-WA0002.jpg",

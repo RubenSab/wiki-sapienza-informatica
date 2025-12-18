@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-03-16T23:36:37.474+01:00
+updated_at: 2025-12-18T17:02:34.463+01:00
 ---
 > Una serie numerica $a_{n}$ è la [[successione]] delle somme (somme parziali) dei primi $n$ termini di una successione $a_{n}$.
 
@@ -23,7 +23,7 @@ $S_{n}$ oscilla tra $0$ e $1$, quindi non converge.
 
 - [[successione di Cauchy]]
 - [[teoremi dei limiti sulle successioni|teorema dei carabinieri]]
-- [[confronto asintotico]]
+- confronto asintotico #mancante
 # estensione della definizione a ogni indice
 
 > N.B.: La definizione di serie fornita sopra è incompleta, infatti l'indice di partenza della sommatoria può essere un numero qualsiasi\*.
@@ -33,8 +33,8 @@ Sostituendo $S$ e $S_{n}$ con le loro definizioni, otteniamo $$\lim_{n\to +\inft
 \sum_{k=n+1}^{+\infty}a_{n}\ \ \ \to\ \ \ S_{n}-S = \sum_{k=n+1}^{+\infty}a_{n}$$
 Quindi $n$ può essere un numero arbitrario.
 
-# serie più comuni
+# serie più comuni #mancante 
 
 - [[serie geometriche]]
 - [[serie armoniche]]
-- [[serie di Mengoli]]
+- serie di Mengoli
