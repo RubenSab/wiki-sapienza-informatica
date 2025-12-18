@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-11-15T18:30:39.345+01:00
+updated_at: 2025-12-18T17:18:03.807+01:00
 ---
 > L'insieme di [[dipendenza funzionale|dipendenze funzionali]] $F^{A}$ è definito come l'insieme di tutte le dipendenze funzionali ottenute con gli *assiomi di Armstrong*.
 
@@ -189,17 +189,25 @@ Esempio:
 
 ``` python
 r = RelationScheme(
-    {"CodiceFiscale", "Nome", "Cognome", "Città", "Regione"},
-    {
-        Dependency({"CodiceFiscale"}, {"Nome", "Cognome", "Provincia"}),
-        Dependency({"Provincia"}, {"Regione"}),
-    }
+	{"CodiceFiscale", "Nome", "Cognome", "Città", "Regione"},
+	{
+		Dependency({"CodiceFiscale"}, {"Nome", "Cognome", "Provincia"}),
+		Dependency({"Provincia"}, {"Regione"}),
+	}
 )
 
 r.armstrong_closure()
+total = len(r.dependencies)
 r.filter_non_trivials()
-print(r)
-print(len(r.dependencies))
+non_trivials = len(r.dependencies)
+print(*r.dependencies, sep='\n')
+print(f'dipendenze non banali: {non_trivials}')
+print(f'dipendenze banali: {total-non_trivials}')
 ```
 
 Produce 560 dipendenze funzionali, di cui 192 banali.
+
+```
+dipendenze non banali: 1077
+dipendenze banali: 600
+```

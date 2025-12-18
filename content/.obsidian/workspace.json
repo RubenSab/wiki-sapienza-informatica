@@ -34,33 +34,9 @@
               "icon": "globe-2",
               "title": "30. Time-stamp.pdf - Google Drive"
             }
-          },
-          {
-            "id": "7e572fd6b99c953d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "basi di dati/chiusura di Armstrong.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "chiusura di Armstrong"
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -248,7 +224,7 @@
       "new-3d-graph:Open 3d graph": false
     }
   },
-  "active": "7e572fd6b99c953d",
+  "active": "638c1d0d228a65a4",
   "lastOpenFiles": [
     "basi di dati/chiusura di Armstrong.md",
     "basi di dati/chiusura di un insieme di attributi.md",
