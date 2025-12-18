@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-12-16T16:17:27.328+01:00
+updated_at: 2025-12-18T12:33:49.941+01:00
 ---
 Opis: D8DIGFF7
 
@@ -68,10 +68,12 @@ Opis: D8DIGFF7
 
 - [[spazio vettoriale]]
 - [[sottospazio vettoriale]]
+- [[spazio vettoriale quoziente]]
 - [[spazio vettoriale di matrici]]
 - [[sistema di equazioni lineari]]
 - [[teorema di Rouché-Capelli]]
 - [[formula di Grassmann]]
+- [[applicazione lineare]]
 
 # Esercizi a parte
 

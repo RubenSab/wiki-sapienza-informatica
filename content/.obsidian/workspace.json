@@ -18,8 +18,57 @@
               "icon": "lucide-git-fork",
               "title": "Graph view"
             }
+          },
+          {
+            "id": "98891f3b83466cce",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "algebra lineare/applicazione lineare.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "applicazione lineare"
+            }
+          },
+          {
+            "id": "aa35493f284d377d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "algebra lineare/spazio vettoriale quoziente.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "spazio vettoriale quoziente"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -76,7 +125,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "metodo ",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -190,7 +239,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 354.5
+    "width": 354.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -206,8 +256,21 @@
       "new-3d-graph:Open 3d graph": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "aa35493f284d377d",
   "lastOpenFiles": [
+    "algebra lineare/applicazione quoziente.md",
+    "algebra lineare/spazio vettoriale quoziente.md",
+    "algebra lineare/insieme quoziente.md",
+    "algebra lineare/Algebra.md",
+    "algebra lineare/applicazione lineare.md",
+    "progettazione di sistemi digitali/bit di parità.md",
+    "algebra lineare/spazio vettoriale.md",
+    "algebra lineare/omomorfismo.md",
+    "algebra lineare/Pasted image 20251218113905.png",
+    "algebra lineare/Screenshot From 2025-12-18 11-29-56.png",
+    "algebra lineare/Pasted image 20251218113513.png",
+    "algebra lineare/vettori linearmente indipendenti.md",
+    "algebra lineare/applicazione.md",
     "calcolo delle probabilità/trasformazione di variabili aleatorie.md",
     "calcolo delle probabilità/legge dei grandi numeri.md",
     "calcolo delle probabilità/Calcolo delle probabilità.md",
@@ -222,18 +285,8 @@
     "calcolo delle probabilità/legge esponenziale.md",
     "calcolo delle probabilità/funzione di distribuzione.md",
     "calcolo delle probabilità/legge Gaussiana generica.md",
-    "algebra lineare/Algebra.md",
     "algebra lineare/teorema di Rouché-Capelli.md",
     "algebra lineare/formula di Grassmann.md",
-    "algebra lineare/spazio vettoriale.md",
-    "interdisciplinare/memoria.md",
-    "basi di dati/Basi di dati.md",
-    "basi di dati/Untitled.md",
-    "algebra lineare/Untitled.md",
-    "calcolo delle probabilità/Untitled.md",
-    "calcolo delle probabilità/casi notevoli di varianza e valore atteso.md",
-    "calcolo delle probabilità/funzione generatrice dei momenti.md",
-    "calcolo delle probabilità/valore atteso di una variabile aleatoria.md",
     "interdisciplinare/Pasted image 20251210103843.png",
     "relazione tra tabelle master",
     "foto/IMG-20251011-WA0002.jpg",
@@ -249,9 +302,6 @@
     "architettura degli elaboratori/Pasted image 20250604172652.png",
     "progettazione di sistemi digitali/logic gates.png",
     "www.youtube.com",
-    "architettura degli elaboratori/Pasted image 20250518120936.png",
-    "architettura degli elaboratori/Pasted image 20250518120836.png",
-    "architettura degli elaboratori/Pasted image 20250518120828.png",
     "progettazione di sistemi digitali/rete sequenziale generica.canvas",
     "Elementi di stato",
     "todo"

@@ -1,11 +1,11 @@
 ---
-updated_at: 2025-12-09T22:09:55.311+01:00
+updated_at: 2025-12-18T12:40:51.994+01:00
 ---
 _Ricordiamo che se $X$ è un'[[insieme|insieme]] $\neq \emptyset$ con relazione d'equivalenza $\sim$ qualsiasi, si definisce l'[[insieme quoziente]] $\frac{X}{\sim} = \{\text{classi d'equivalenza di} \sim \text{su}\ X\}$_
-s
+
 Consideriamo $X \xrightarrow{f} Y$: sia $\sim$ la [[relazione]] d'equivalenza associata $x, x' \in X,\ x \sim x' \implies f(x) = f(x')$.
 
-Definiamo su $\frac{X}{\sim}\times Y$ la corrispondenza $\Gamma = \{(Cl(x),\ f(x)): x \in X\}$
+Definiamo su $\frac{X}{\sim}\times Y$ la corrispondenza $\Gamma = \{(Cl(x),\ f(x)): x \in X\}$.
 
 > **Lemma**: $\Gamma$ è il [[grafo]] di un'[[applicazione]] $\frac{X}{\sim} \xrightarrow{\overline{f}} Y$ detta **applicazione quoziente**.
 
