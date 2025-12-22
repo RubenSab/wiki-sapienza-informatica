@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "4509724f8bf84da7",
+        "id": "b61740716891b8ad",
         "type": "tabs",
         "children": [
           {
@@ -20,23 +20,87 @@
             }
           },
           {
-            "id": "638c1d0d228a65a4",
+            "id": "817631708d8f9e29",
             "type": "leaf",
-            "pinned": true,
             "state": {
-              "type": "webviewer",
+              "type": "markdown",
               "state": {
-                "url": "https://drive.google.com/file/d/11RlECBPN3GQNNS9wBau_lNiIrceADR-O/view",
-                "title": "30. Time-stamp.pdf - Google Drive",
-                "mode": "webview"
+                "file": "algebra lineare/teorema di decomponibilità.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "pinned": true,
-              "icon": "globe-2",
-              "title": "30. Time-stamp.pdf - Google Drive"
+              "icon": "lucide-file",
+              "title": "teorema di decomponibilità"
             }
           }
         ],
         "currentTab": 1
+      },
+      {
+        "id": "7f8f4ec12266c06f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fe174b529109c352",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "algebra lineare/Algebra.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "Algebra"
+            }
+          },
+          {
+            "id": "13fa6981bdaefdd1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "algebra lineare/(MCD) massimo comun divisore.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "(MCD) massimo comun divisore"
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -93,7 +157,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "lemma delle chiusu",
+                "query": "rangle",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -207,8 +271,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 354.5,
-    "collapsed": true
+    "width": 354.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -224,8 +287,19 @@
       "new-3d-graph:Open 3d graph": false
     }
   },
-  "active": "638c1d0d228a65a4",
+  "active": "817631708d8f9e29",
   "lastOpenFiles": [
+    "algebra lineare/teorema di decomponibilità.md",
+    "algebra lineare/Algebra.md",
+    "algebra lineare/(MCD) massimo comun divisore.md",
+    "algebra lineare/(mcm) minimo comune multiplo.md",
+    "algebra lineare/spazio vettoriale.md",
+    "algebra lineare/sottogruppi.md",
+    "algebra lineare/procedimenti da imparare.md",
+    "algebra lineare/Esercizi 21 novembre.md",
+    "basi di dati/Basi di dati.md",
+    "metodologie di programmazione/diagramma delle classi in UML.md",
+    "metodologie di programmazione/UML (Unified Modeling Language).md",
     "basi di dati/chiusura di Armstrong.md",
     "basi di dati/chiusura di un insieme di attributi.md",
     "basi di dati/verifica di una buona decomposizione in 3NF.md",
@@ -241,17 +315,6 @@
     "calcolo differenziale/limiti notevoli delle funzioni.md",
     "calcolo differenziale/teoremi dei limiti sulle successioni.md",
     "calcolo integrale/confronto asintotico.md",
-    "calcolo integrale/calcolo integrale.md",
-    "calcolo differenziale/teorema de l'hopital.md",
-    "calcolo integrale/serie di Cauchy.md",
-    "calcolo differenziale/miglior polinomio.md",
-    "calcolo differenziale/serie di Taylor.md",
-    "calcolo integrale/serie geometriche.md",
-    "calcolo integrale/serie armoniche.md",
-    "calcolo integrale/serie di Mengoli.md",
-    "calcolo integrale/criteri di confronto delle serie a segno costante.md",
-    "calcolo integrale/criterio di Leibniz.md",
-    "calcolo integrale/convergenza assoluta.md",
     "algebra lineare/Pasted image 20251218113905.png",
     "algebra lineare/Screenshot From 2025-12-18 11-29-56.png",
     "algebra lineare/Pasted image 20251218113513.png",
