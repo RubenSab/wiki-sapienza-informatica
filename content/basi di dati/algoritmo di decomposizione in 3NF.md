@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-11-28T15:45:20.528+01:00
+updated_at: 2026-01-04T17:44:08.526+01:00
 ---
 Dato uno [[tabella|schema di relazione]] e un insieme di [[dipendenza funzionale|dipendenze funzionali]] $G$ su $R$ esiste **sempre** una decomposizione $\rho = \{R_{1}, \ldots, R_{k}\}$ di $R$ che rispetta i criteri di una [[verifica di una buona decomposizione in 3NF|buona decomposizione in 3NF]], cioè:
 
@@ -19,12 +19,12 @@ Tale decomposizione può essere calcolata in [[complessità temporale|tempo poli
 		1. $S := S \cup \{A\}$
 3. if $S \neq \emptyset$: (questa parte rimuove tutti gli attributi di $S$ da $R$, inizializzando la decomposizione $\rho$ a $S$)
 	1. $R := R-S$
-	2. $\rho := \rho \cap \{S\}$
+	2. $\rho := \rho \cup \{S\}$
 4. if esiste $f \in F$ che coinvolge tutti gli attributi in $R$:
 	1. $\rho := \rho \cap \{R\}$
 5. else:
 	1. for $X \to A$ in $F$:
-		1. $\rho := \rho \cap \{XA\}$
+		1. $\rho := \rho \cup \{XA\}$
 
 # Esempio
 
@@ -79,8 +79,6 @@ Iniziamo l'algoritmo: per prima cosa $H \notin G \implies \rho = \{H\}, R = \{A,
 > Trova una decomposizione $\sigma$ di $R$ tale che preserva $G$ e ogni schema in $\sigma$ è in 3NF.
 
 per avere una decomposizione con join senza perdita, aggiungiamo alla decomposizione precedente un sottoschema che contenga la chiave $ABH$ (che non è già contenuta in alcuno degli schemi ottenuti)
-
-$$
 
 # Dimostrazione della correttezza dell'algoritmo
 

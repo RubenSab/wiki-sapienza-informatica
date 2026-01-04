@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "b61740716891b8ad",
+        "id": "4509724f8bf84da7",
         "type": "tabs",
         "children": [
           {
@@ -20,12 +20,12 @@
             }
           },
           {
-            "id": "817631708d8f9e29",
+            "id": "824f5a3d8ad29480",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "algebra lineare/teorema di decomponibilità.md",
+                "file": "basi di dati/algoritmo di decomposizione in 3NF.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -40,67 +40,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "teorema di decomponibilità"
+              "title": "algoritmo di decomposizione in 3NF"
             }
           }
         ],
         "currentTab": 1
-      },
-      {
-        "id": "7f8f4ec12266c06f",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "fe174b529109c352",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "algebra lineare/Algebra.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "Algebra"
-            }
-          },
-          {
-            "id": "13fa6981bdaefdd1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "algebra lineare/(MCD) massimo comun divisore.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "(MCD) massimo comun divisore"
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
@@ -140,8 +84,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 283.5,
-    "collapsed": true
+    "width": 283.5
   },
   "right": {
     "id": "26b38658cac3fe47",
@@ -157,7 +100,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "rangle",
+                "query": "\"\\rho :\"",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -271,8 +214,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 354.5,
-    "collapsed": true
+    "width": 354.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -288,8 +230,9 @@
       "new-3d-graph:Open 3d graph": false
     }
   },
-  "active": "817631708d8f9e29",
+  "active": "824f5a3d8ad29480",
   "lastOpenFiles": [
+    "Untitled.md",
     "algebra lineare/teorema di decomponibilità.md",
     "algebra lineare/Algebra.md",
     "algebra lineare/(MCD) massimo comun divisore.md",
@@ -315,7 +258,6 @@
     "calcolo differenziale/gerarchia degli infiniti.md",
     "calcolo differenziale/limiti notevoli delle funzioni.md",
     "calcolo differenziale/teoremi dei limiti sulle successioni.md",
-    "calcolo integrale/confronto asintotico.md",
     "algebra lineare/Pasted image 20251218113905.png",
     "algebra lineare/Screenshot From 2025-12-18 11-29-56.png",
     "algebra lineare/Pasted image 20251218113513.png",
