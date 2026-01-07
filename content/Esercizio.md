@@ -1,7 +1,7 @@
 ---
 updated_at: 2025-12-11T16:00:07.608+01:00
 ---
-- il file contiene 16500000 record.
+ il file contiene 16500000 record.
 - ogni record occupa 240 byte, di cui 25 chiave.
 - ogni blocco contiene 2048 byte.
 - Un puntatore a blocco occupa 5 byte.

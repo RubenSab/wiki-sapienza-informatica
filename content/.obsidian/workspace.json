@@ -6,26 +6,48 @@
       {
         "id": "4509724f8bf84da7",
         "type": "tabs",
+        "dimension": 45.055624227441285,
         "children": [
           {
-            "id": "e7a7b303c61786dc",
+            "id": "7d4e14d0c8595291",
             "type": "leaf",
             "pinned": true,
             "state": {
-              "type": "graph",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "algebra lineare/Algebra.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
               "pinned": true,
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "icon": "lucide-file",
+              "title": "Algebra"
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "ad4fb486af3d4797",
+        "type": "tabs",
+        "dimension": 54.944375772558715,
+        "children": [
           {
-            "id": "824f5a3d8ad29480",
+            "id": "e81c87e67cadb40b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "basi di dati/algoritmo di decomposizione in 3NF.md",
+                "file": "algebra lineare/Algebra.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -40,11 +62,49 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "algoritmo di decomposizione in 3NF"
+              "title": "Algebra"
+            }
+          },
+          {
+            "id": "07487bdae151b72e",
+            "type": "leaf",
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "https://drive.google.com/drive/folders/1zuj00AfMoOdPG8ewddxTf1ArbF_XZqxn",
+                "title": "Fogli di esercizi, raccolta di testi d'esame con soluzioni - Google Drive",
+                "mode": "webview"
+              },
+              "icon": "globe-2",
+              "title": "Fogli di esercizi, raccolta di testi d'esame con soluzioni - Google Drive"
+            }
+          },
+          {
+            "id": "3106226f555da622",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "interdisciplinare/permutazioni.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "permutazioni"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -84,7 +144,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 283.5
+    "width": 283.5,
+    "collapsed": true
   },
   "right": {
     "id": "26b38658cac3fe47",
@@ -100,7 +161,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"\\rho :\"",
+                "query": "overrid",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -214,7 +275,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 354.5
+    "width": 354.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -230,12 +292,26 @@
       "new-3d-graph:Open 3d graph": false
     }
   },
-  "active": "824f5a3d8ad29480",
+  "active": "3106226f555da622",
   "lastOpenFiles": [
-    "Untitled.md",
-    "algebra lineare/teorema di decomponibilità.md",
     "algebra lineare/Algebra.md",
+    "interdisciplinare/permutazioni.md",
+    "algebra lineare/lemmi sui sottogruppi additivi di Z (aZ + bZ).md",
+    "algebra lineare/identità di Bézout.md",
     "algebra lineare/(MCD) massimo comun divisore.md",
+    "algebra lineare/teorema fondamentale dell'aritmetica.md",
+    "interdisciplinare/insieme.md",
+    "foto/IMG-20251011-WA0005.jpg",
+    "foto/IMG-20251011-WA0002.jpg",
+    "foto/IMG-20251011-WA0001.jpg",
+    "Esercizio.md",
+    "index.md",
+    "Untitled.md",
+    "metodologie di programmazione/overloading.md",
+    "metodologie di programmazione/Java.md",
+    "metodologie di programmazione/overriding.md",
+    "basi di dati/algoritmo di decomposizione in 3NF.md",
+    "algebra lineare/teorema di decomponibilità.md",
     "algebra lineare/(mcm) minimo comune multiplo.md",
     "algebra lineare/spazio vettoriale.md",
     "algebra lineare/sottogruppi.md",
@@ -247,25 +323,11 @@
     "basi di dati/chiusura di Armstrong.md",
     "basi di dati/chiusura di un insieme di attributi.md",
     "basi di dati/verifica di una buona decomposizione in 3NF.md",
-    "metodi matematici per l'informatica/metodi matematici per l'informatica.md",
-    "introduzione agli algoritmi/metodo dell'integrale.md",
-    "calcolo differenziale/teorema di unicità del limite.md",
-    "calcolo differenziale/limiti di funzioni.md",
-    "calcolo differenziale/limite.md",
-    "calcolo differenziale/teorema ponte.md",
-    "calcolo integrale/serie.md",
-    "metodi matematici per l'informatica/logica predicativa.md",
-    "calcolo differenziale/gerarchia degli infiniti.md",
-    "calcolo differenziale/limiti notevoli delle funzioni.md",
-    "calcolo differenziale/teoremi dei limiti sulle successioni.md",
     "algebra lineare/Pasted image 20251218113905.png",
     "algebra lineare/Screenshot From 2025-12-18 11-29-56.png",
     "algebra lineare/Pasted image 20251218113513.png",
     "interdisciplinare/Pasted image 20251210103843.png",
     "relazione tra tabelle master",
-    "foto/IMG-20251011-WA0002.jpg",
-    "foto/IMG-20251011-WA0001.jpg",
-    "foto/IMG-20251011-WA0005.jpg",
     "foto/IMG-20251011-WA0003.jpg",
     "foto",
     "calcolo delle probabilità/Untitled",

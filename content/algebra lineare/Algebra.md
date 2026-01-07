@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-12-22T16:38:21.884+01:00
+updated_at: 2026-01-07T18:27:56.477+01:00
 ---
 Opis: D8DIGFF7
 
@@ -77,20 +77,25 @@ Opis: D8DIGFF7
 
 ## Procedimenti utili da imparare
 
-- Calcolare il massimo comun divisore con l'algoritmo della divisione euclidea;
-- Risolvere le equazioni e sistemi congruenziali anche con potenze enormi;
-- Decomporre le permutazioni e calcolarne ordine, parità e segnatura;
-- Trovare isomorfismi e isomorfismi suriettivi tra gruppi;
-- Trovare il sottogruppo generato da un insieme;
-- Dimostrare che un gruppo è un sottogruppo di un altro gruppo;
-- Dimostrare se un sottogruppo è normale o no;
-- Dimostrare l'indipendenza o meno di vettori;
-- Metodo di Gauss per trovare il rango, anche di matrici parametriche;
-- Capire se una matrice è invertibile;
-- Invertire le matrici;
-- Calcolare il determinante delle matrici;
-- Trovare il kernel delle applicazioni lineari partendo dalla matrice associata;
-- Determinare la span e la dimensione di uno spazio vettoriale, passare da un insieme di basi alla forma chiusa.
+### Algebra astatta
+
+- [x] Calcolare il massimo comun divisore con l'algoritmo della divisione euclidea;
+- [ ] Risolvere le equazioni e sistemi congruenziali anche con potenze enormi;
+- [x] Decomporre le permutazioni e calcolarne ordine, parità e segnatura;
+- [ ] Trovare isomorfismi suriettivi e non tra gruppi;
+- [ ] Trovare il sottogruppo generato da un insieme;
+- [ ] Dimostrare che un gruppo è un sottogruppo di un altro gruppo;
+- [ ] Dimostrare se un sottogruppo è normale o no;
+
+### Algebra lineare
+
+- [ ] Dimostrare l'indipendenza o meno di vettori;
+- [ ] Metodo di Gauss per trovare il rango, anche di matrici parametriche;
+- [ ] Capire se una matrice è invertibile;
+- [ ] Invertire le matrici;
+- [ ] Calcolare il determinante delle matrici;
+- [ ] Trovare il kernel delle applicazioni lineari partendo dalla matrice associata;
+- [ ] Determinare la span e la dimensione di uno spazio vettoriale, passare da un insieme di basi alla forma chiusa.
 
 # Altro
 

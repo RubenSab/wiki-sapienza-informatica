@@ -1,7 +1,6 @@
 ---
-updated_at: 2025-12-09T12:55:31.224+01:00
+updated_at: 2026-01-07T17:38:25.833+01:00
 ---
-
 Studiamo il [[sottogruppi|sottogruppo]] generico $\mathcal{E} := a \mathbb{Z} + b \mathbb{Z} = \{\alpha a + \beta b: \alpha, \beta \in \mathbb{Z}\},\quad a, b \in \mathbb{Z} \land (a \neq 0 \lor b \neq 0)$.
 
 # Lemmi
