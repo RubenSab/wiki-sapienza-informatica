@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-01-08T11:31:10.198+01:00
+updated_at: 2026-01-08T13:15:58.761+01:00
 ---
 
 > Formalmente, una *permutazione* può essere vista come una mappa [[applicazione biiettiva o biiezione|mappa biiettiva]] tra due collezioni ordinate che contengono gli stessi elementi in ordine diverso o uguale (permutazione banale).
@@ -94,7 +94,7 @@ In questo caso le "trasposizioni" si incrociano in 18 punti: 18 è un numero par
 > $\varepsilon (\sigma)$ si dice *segnatura* di una permutazione: è una [[funzione]] che restituisce:
 
 - $-1$, se $\sigma$ è un $n-$ciclo con $n$ **pari**;
-- $1$, se $\sigma$ è un $n-$ciclo con $n$ **dispari**;
+- $gr1$, se $\sigma$ è un $n-$ciclo con $n$ **dispari**;
 - il prodotto delle segnature dei cicli a supporti disgiunti in cui si può scomporre $\sigma$, se $\sigma$ non è un $n-$ciclo.
 
 ## Ordine

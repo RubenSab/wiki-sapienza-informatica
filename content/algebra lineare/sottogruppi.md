@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-12-07T17:08:54.532+01:00
+updated_at: 2026-01-08T12:43:38.459+01:00
 ---
 > Dato un [[gruppo]] $G = (G, \cdot, 1)$ in [[gruppo#^b21101|notazione moltiplicativa]] e un [[teoria degli anelli|sottoinsieme]] $H \subseteq G$ non vuoto, con $a, b \in G$ si dice che $H$ è un *sottogruppo* di $G$ se e solo se $\forall a, b \in H\ (a \cdot b^{-1} \in H)$. Si scrive $H < G$. (In [[gruppo#^963e43|notazione additiva]], $H<G \iff \forall a, b \in H,\ a + (-b) \in H$.
 
@@ -20,6 +20,8 @@ Lemma: L'operazione $\cdot$ induce un operazione $H \times H \to H$ e $(H, \cdot
 
 # Sottogruppo generato da un sottoinsieme
 
+^2d81e6
+
 Sia $I$ un [[sottoinsiemi|sottoinsieme]] non vuoto di un gruppo $G$.
 
 > Definiamo
@@ -30,7 +32,7 @@ $$
 
 Sappiamo che l'intersezione di sottogruppi è un sottogruppo (vedi [[sottogruppi#^d197bd|esercizi]] sotto). Questo oggetto è detto *"sottogruppo $<I>$ generato da $I$"*, ed è **il più piccolo sottogruppo di $G$ che contiene $I$.**
 
-# Esempi
+# Esempi di sottogruppi
 
 *(le barrette sopra le [[classe di equivalenza|classi]] possono essere omessi per semplicità)*
 
