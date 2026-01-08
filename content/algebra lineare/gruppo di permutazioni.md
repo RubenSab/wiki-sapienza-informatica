@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-01-08T13:46:32.585+01:00
+updated_at: 2026-01-08T13:54:42.748+01:00
 ---
 > È un [[gruppo]] $G$ i cui elementi sono le [[permutazioni]] di un [[insieme|insieme]] $M$ e la cui operazioni è la *composizione* delle permutazioni in $G$.
 
@@ -55,10 +55,10 @@ $$
 $$
 
 $$
-\phi(\mu^{k}) = \overline{k} = k + 10\mathbb{Z}
+\phi(\mu^{k}) = [k] = k + 10\mathbb{Z}
 $$
 
-Intuitivamente, l'ordine di $\mu$ è il numero composizioni di $\mu$ con se stessa necessario per **ritrovare** $\mu$.
+Intuitivamente, l'ordine di $\mu$ è il numero composizioni di $\mu$ con se stessa necessario per **ritrovare la permutazione identitaria** (quella banale che non scambia gli elementi)
 
 $$
 \mu^{10} = \mu \circ \mu \circ \mu \circ \mu \circ \mu \circ \mu \circ \mu \circ \mu \circ \mu \circ \mu \circ \mu\ = \mu \quad \implies \quad \text{ord}(\mu) = 10

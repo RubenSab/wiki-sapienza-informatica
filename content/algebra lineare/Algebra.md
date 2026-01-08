@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-01-07T18:27:56.477+01:00
+updated_at: 2026-01-08T13:52:20.069+01:00
 ---
 Opis: D8DIGFF7
 
@@ -82,8 +82,8 @@ Opis: D8DIGFF7
 - [x] Calcolare il massimo comun divisore con l'algoritmo della divisione euclidea;
 - [ ] Risolvere le equazioni e sistemi congruenziali anche con potenze enormi;
 - [x] Decomporre le permutazioni e calcolarne ordine, parità e segnatura;
-- [ ] Trovare isomorfismi suriettivi e non tra gruppi;
-- [ ] Trovare il sottogruppo generato da un insieme;
+- [x] Trovare isomorfismi suriettivi e non tra gruppi;
+- [x] Trovare il sottogruppo generato da un insieme;
 - [ ] Dimostrare che un gruppo è un sottogruppo di un altro gruppo;
 - [ ] Dimostrare se un sottogruppo è normale o no;
 
