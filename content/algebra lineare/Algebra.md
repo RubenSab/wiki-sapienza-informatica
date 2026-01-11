@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-01-08T13:52:20.069+01:00
+updated_at: 2026-01-08T19:53:15.638+01:00
 ---
 Opis: D8DIGFF7
 
@@ -84,13 +84,13 @@ Opis: D8DIGFF7
 - [x] Decomporre le permutazioni e calcolarne ordine, parità e segnatura;
 - [x] Trovare isomorfismi suriettivi e non tra gruppi;
 - [x] Trovare il sottogruppo generato da un insieme;
-- [ ] Dimostrare che un gruppo è un sottogruppo di un altro gruppo;
-- [ ] Dimostrare se un sottogruppo è normale o no;
+- [x] Dimostrare che un gruppo è un sottogruppo di un altro gruppo;
+- [x] Dimostrare se un sottogruppo è normale o no;
 
 ### Algebra lineare
 
-- [ ] Dimostrare l'indipendenza o meno di vettori;
-- [ ] Metodo di Gauss per trovare il rango, anche di matrici parametriche;
+- [x] Dimostrare l'indipendenza o meno di vettori;
+- [ ] Metodo di Gauss per risolvere sistemi, per trovare il rango, anche di matrici parametriche;
 - [ ] Capire se una matrice è invertibile;
 - [ ] Invertire le matrici;
 - [ ] Calcolare il determinante delle matrici;

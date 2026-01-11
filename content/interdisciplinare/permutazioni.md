@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-01-08T13:15:58.761+01:00
+updated_at: 2026-01-08T13:56:12.115+01:00
 ---
 
 > Formalmente, una *permutazione* può essere vista come una mappa [[applicazione biiettiva o biiezione|mappa biiettiva]] tra due collezioni ordinate che contengono gli stessi elementi in ordine diverso o uguale (permutazione banale).
@@ -99,7 +99,8 @@ In questo caso le "trasposizioni" si incrociano in 18 punti: 18 è un numero par
 
 ## Ordine
 
-> Dato $\sigma \in S_{n}$ l'*ordine* di $\sigma$ è il più piccolo $m\geq 0$ tale che $\sigma^{m} = \text{Id}_{S_{n}}$. Se $\sigma$ è il prodotto di **cicli disgiunti** allora $m$ è il [[(mcm) minimo comune multiplo]] delle lunghezze dei cicli.
+> *Vedi la definizione di [[ordine]] per i gruppi.*
+> Nei gruppi permutativi, $\sigma$ è il prodotto di **cicli disgiunti** allora $m$ è il [[(mcm) minimo comune multiplo]] delle lunghezze dei cicli.
 
 # Quante sono le permutazioni di un [[insieme|insieme]] con [[cardinalità]] $n$?
 

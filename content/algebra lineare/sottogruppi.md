@@ -1,9 +1,9 @@
 ---
-updated_at: 2026-01-08T12:43:38.459+01:00
+updated_at: 2026-01-08T14:23:22.548+01:00
 ---
 > Dato un [[gruppo]] $G = (G, \cdot, 1)$ in [[gruppo#^b21101|notazione moltiplicativa]] e un [[teoria degli anelli|sottoinsieme]] $H \subseteq G$ non vuoto, con $a, b \in G$ si dice che $H$ è un *sottogruppo* di $G$ se e solo se $\forall a, b \in H\ (a \cdot b^{-1} \in H)$. Si scrive $H < G$. (In [[gruppo#^963e43|notazione additiva]], $H<G \iff \forall a, b \in H,\ a + (-b) \in H$.
 
-# Osservazioni
+# Osservazioni (in [[gruppo#^b21101|notazione moltiplicativa]])
 
 1. Contiene l'identità: $a = b \in H \implies a \cdot b^{-1} = a \cdot a^{-1} = 1 \in H$.
 2. È chiuso per inversi: $1 \cdot b^{-1} = b^{-1} \in H$.

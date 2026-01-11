@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-11-03T21:56:04.954+01:00
+updated_at: 2026-01-11T11:16:07.965+01:00
 ---
 > Sia $\Omega$ uno [[spazio campionario]]. Diciamo che due [[evento|eventi]] $A$ e $B$ su $\Omega$ sono indipendenti se
 
@@ -10,7 +10,7 @@ $$
 
 # Osservazioni
 
-1. L'evento $\emptyset$ è indipendente da qualsiasi evento, (incluso se stesso). Infatti per ogni evento $A \subseteq \Omega$ si ha che la [[probabilità]] $\mathbb{P}(\emptyset \cup A) = \mathbb{P}(\emptyset) = 0$.
+1. L'evento $\emptyset$ è indipendente da qualsiasi evento, (incluso se stesso). Infatti per ogni evento $A \subseteq \Omega$ si ha che la [[probabilità]] $\mathbb{P}(\emptyset \cap A) = \mathbb{P}(\emptyset) = 0$.
 2. $\Omega$ è indipendente da qualsiasi evento, incluso se stesso. Infatti $A \subseteq \Omega \implies (\mathbb{P}(\Omega \cap A) = \mathbb{P}(A))$.
 3. $\Omega$ e $\emptyset$ sono gli unici eventi ad essere indipendenti da se stessi.
 

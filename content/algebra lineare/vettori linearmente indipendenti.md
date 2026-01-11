@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-11-30T18:38:39.075+01:00
+updated_at: 2026-01-08T19:52:23.359+01:00
 ---
 > Due vettori si dicono *linearmente indipendenti* su $K$, dati gli scalari $\lambda_{1}, \ldots, \lambda_{n} \in K$, se non esistono combinazioni lineari non [[spazio vettoriale#^a51465|banali]] $\lambda_{1} v_{1} + \ldots + \lambda_{n} v_{n}$ uguali a $0_{V}$ (origine/vettore nullo), altrimenti sono *linearmente indipendenti*.
 
@@ -10,6 +10,8 @@ Ad esempio $v_{1} = \binom{1}{0},\ v_{2} = \binom{0}{1}$ sono linearmente indipe
 > Osservazione: $v_{1}, v_{2} \in K^{n} - \{0\}$ allora $v_{1}, v_{2}$ sono linearmente dipendenti $\iff$ sono **collineari**, ovvero l'uno proporzionale all'altro ($\exists \lambda \in K:\ v_{2} = \lambda v_{1}$).
 
 Esempio in $\mathbb{R}^{3}$: $v_{1} = \begin{pmatrix} 2 \\ 2 \\ 2 \end{pmatrix},\ v_{2} = \begin{pmatrix} -3 \\ -3 \\ -3 \end{pmatrix}$. Si nota che $v_{2} = -\frac{3}{2} v_{1}$.
+
+> Teorema: dei vettori (colonna) formano una matrice il cui [[determinante]] è **0** se se solo se sono **dipendenti**.
 
 # Esempi
 

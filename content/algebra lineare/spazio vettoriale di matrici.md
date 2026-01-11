@@ -16,7 +16,7 @@ $$
 - $GL_{n}(K)$ è lo spazio vettoriale di tutte le matrici invertibili, che sono tutte quadrate di dimensioni $n \times n$ (ma non è detto che tutte le quadrate sono invertibili).
 - Una matrice si dice ***invertibile*** se e solo se $\exists A' \in \mathcal{M}_{n}(K):\ A'A = AA' = I_{n}$.
 - [[rango]].
-- [[determinante]].
+- [[determinante]]. ^e90c39
 
 # Notazioni
 

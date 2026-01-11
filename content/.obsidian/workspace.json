@@ -6,7 +6,6 @@
       {
         "id": "4509724f8bf84da7",
         "type": "tabs",
-        "dimension": 99.99999999999999,
         "children": [
           {
             "id": "e7a7b303c61786dc",
@@ -21,48 +20,12 @@
             }
           },
           {
-            "id": "fe8a56adb2cf86d9",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "algebra lineare/Algebra.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "Algebra"
-            }
-          },
-          {
-            "id": "78fffd5f71cf20f4",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
-          },
-          {
-            "id": "fd01eac98165a51e",
+            "id": "127fecd71c1ecb4b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "algebra lineare/gruppo di permutazioni.md",
+                "file": "calcolo delle probabilità/indipendenza di due eventi.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -77,11 +40,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "gruppo di permutazioni"
+              "title": "indipendenza di due eventi"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -121,8 +84,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 283.5,
-    "collapsed": true
+    "width": 283.5
   },
   "right": {
     "id": "26b38658cac3fe47",
@@ -138,7 +100,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "rangle",
+                "query": "osservazioni",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -252,8 +214,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 354.5,
-    "collapsed": true
+    "width": 354.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -269,15 +230,24 @@
       "new-3d-graph:Open 3d graph": false
     }
   },
-  "active": "fd01eac98165a51e",
+  "active": "127fecd71c1ecb4b",
   "lastOpenFiles": [
+    "calcolo delle probabilità/probabilità continua.md",
+    "Esercizio.md",
+    "Untitle.md",
     "algebra lineare/Algebra.md",
-    "algebra lineare/gruppo di permutazioni.md",
-    "algebra lineare/lemmi sui sottogruppi additivi di Z (aZ + bZ).md",
-    "algebra lineare/sottogruppi.md",
-    "algebra lineare/spazio vettoriale.md",
-    "interdisciplinare/permutazioni.md",
+    "algebra lineare/vettori linearmente indipendenti.md",
     "algebra lineare/spazio vettoriale di matrici.md",
+    "algebra lineare/determinante.md",
+    "algebra lineare/spazio vettoriale.md",
+    "algebra lineare/gruppo di permutazioni.md",
+    "algebra lineare/sottogruppo normale.md",
+    "algebra lineare/ordine.md",
+    "algebra lineare/sottogruppi.md",
+    "introduzione agli algoritmi/metodo iterativo.md",
+    "algebra lineare/gruppo.md",
+    "interdisciplinare/permutazioni.md",
+    "algebra lineare/lemmi sui sottogruppi additivi di Z (aZ + bZ).md",
     "algebra lineare/identità di Bézout.md",
     "algebra lineare/(MCD) massimo comun divisore.md",
     "algebra lineare/teorema fondamentale dell'aritmetica.md",
@@ -285,21 +255,12 @@
     "foto/IMG-20251011-WA0005.jpg",
     "foto/IMG-20251011-WA0002.jpg",
     "foto/IMG-20251011-WA0001.jpg",
-    "Esercizio.md",
     "index.md",
-    "Untitled.md",
     "metodologie di programmazione/overloading.md",
     "metodologie di programmazione/Java.md",
     "metodologie di programmazione/overriding.md",
     "basi di dati/algoritmo di decomposizione in 3NF.md",
     "algebra lineare/teorema di decomponibilità.md",
-    "algebra lineare/(mcm) minimo comune multiplo.md",
-    "algebra lineare/procedimenti da imparare.md",
-    "algebra lineare/Esercizi 21 novembre.md",
-    "basi di dati/Basi di dati.md",
-    "metodologie di programmazione/diagramma delle classi in UML.md",
-    "metodologie di programmazione/UML (Unified Modeling Language).md",
-    "basi di dati/chiusura di Armstrong.md",
     "algebra lineare/Pasted image 20251218113905.png",
     "algebra lineare/Screenshot From 2025-12-18 11-29-56.png",
     "algebra lineare/Pasted image 20251218113513.png",

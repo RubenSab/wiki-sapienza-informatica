@@ -1,4 +1,3 @@
-{
-font-family: 'SFUIText-Regular', !important;
+html {
+  font-family: "Roboto";  !important
 }
-body { zoom: 100% }

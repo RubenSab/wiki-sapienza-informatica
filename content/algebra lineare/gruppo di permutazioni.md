@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-01-08T13:54:42.748+01:00
+updated_at: 2026-01-08T18:25:26.804+01:00
 ---
 > È un [[gruppo]] $G$ i cui elementi sono le [[permutazioni]] di un [[insieme|insieme]] $M$ e la cui operazioni è la *composizione* delle permutazioni in $G$.
 
@@ -55,24 +55,33 @@ $$
 $$
 
 $$
-\phi(\mu^{k}) = [k] = k + 10\mathbb{Z}
+\phi(\mu^{k}) = \overline{k} = k + 10\mathbb{Z}
 $$
 
-Intuitivamente, l'ordine di $\mu$ è il numero composizioni di $\mu$ con se stessa necessario per **ritrovare la permutazione identitaria** (quella banale che non scambia gli elementi)
+Intuitivamente, l'[[ordine]] di $\mu$ è il numero composizioni di $\mu$ con se stessa necessario per **ritrovare la permutazione identitaria** (quella banale che non scambia gli elementi)
 
 $$
 \mu^{10} = \mu \circ \mu \circ \mu \circ \mu \circ \mu \circ \mu \circ \mu \circ \mu \circ \mu \circ \mu \circ \mu\ = \mu \quad \implies \quad \text{ord}(\mu) = 10
 $$
 
-Dato che $\mu^{10} = \mu$, allora $\mu^{n} = \mu^{10 + k}$. È evidente che questa uguaglianza genera 10 [[classe di equivalenza|classi di equivalenza]], ognuna corrispondente a un $n \in [0, 9]$, dove la classe $[a] = [a \mod 10]$.
+Dato che $\mu^{10} = \mu$, allora $\mu^{n} = \mu^{10 + k}$. È evidente che questa uguaglianza genera 10 [[classe di equivalenza|classi di equivalenza]], ognuna corrispondente a un $n \in [0, 9]$, dove la classe $\overline{a} = a \mod 10$.
 
 Ciò corrisponde esattamente a $\mathbb{Z} / 10\mathbb{Z}$.
 
 # Esistono sono gruppi $S_{n}$ abeliani?
 
-I gruppi $S_{1}$ e $S_{2}$ sono abeliani, invece quelli con $S_{n}, n \geq 3$ non sono abeliani.
+I gruppi $S_{1}$ e $S_{2}$ sono abeliani (per dimostrazione diretta), invece i gruppi simmetrici $S_{n}$ con $n \geq 3$ non sono abeliani; la dimostrazione per [[induzione]] è triviale:
 
-Script che lo dimostra per $S_{n \in [1, 7]}$:
+Infatti, prendendo $\mu, \sigma \in S_{3}$ in modo che $\mu \sigma \neq \sigma \mu$, ad esempio
+$\mu = \begin{pmatrix} 1 & 2 & 3 \\ 2 & 3 & 1 \end{pmatrix}$ e $\sigma = \begin{pmatrix} 1 & 2 & 3 \\ 2 & 1 & 3 \end{pmatrix}$, allora scegliendo $\mu_{1} = \begin{pmatrix} 1 & 2 & 3 & 4 \\ 2 & 3 & 1 & 4 \end{pmatrix}$ e $\sigma_{1} = \begin{pmatrix} 1 & 2 & 3 & 4 \\ 2 & 1 & 3 & 4 \end{pmatrix} \in S_{4}$, si verifica che $\mu_{1} \sigma_{1} \neq \sigma_{1} \mu_{1}$.
+
+In generale, $\forall \mu_{n}, \sigma_{n} \in S_{n} \quad \mu_{n} \sigma_{n} \neq \sigma_{n} \mu_{n}$, quindi $S_{n}, n > 3$ non sono abeliani.
+
+Una dimostrazione ancora più banale è che $S_{n}$ è  un sottogruppo di $S_{n+1}$, e dato che $S_{3}$ non è abeliano, allora $S_{4}$ non può essere abeliano. Per estensione, $S_{n}, n > 3$ non sono abeliani.
+
+---
+
+Script che lo dimostra con il brute-force per $S_{n \in [1, 7]}$:
 
 ``` python
 from itertools import permutations, product
