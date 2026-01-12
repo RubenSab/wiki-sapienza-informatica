@@ -20,12 +20,12 @@
             }
           },
           {
-            "id": "127fecd71c1ecb4b",
+            "id": "db5309a41dbbcc09",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "calcolo delle probabilità/indipendenza di due eventi.md",
+                "file": "algebra lineare/Algebra.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -40,7 +40,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "indipendenza di due eventi"
+              "title": "Algebra"
             }
           }
         ],
@@ -214,7 +214,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 354.5
+    "width": 354.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -230,8 +231,9 @@
       "new-3d-graph:Open 3d graph": false
     }
   },
-  "active": "127fecd71c1ecb4b",
+  "active": "db5309a41dbbcc09",
   "lastOpenFiles": [
+    "calcolo delle probabilità/indipendenza di due eventi.md",
     "calcolo delle probabilità/probabilità continua.md",
     "Esercizio.md",
     "Untitle.md",
@@ -260,7 +262,6 @@
     "metodologie di programmazione/Java.md",
     "metodologie di programmazione/overriding.md",
     "basi di dati/algoritmo di decomposizione in 3NF.md",
-    "algebra lineare/teorema di decomponibilità.md",
     "algebra lineare/Pasted image 20251218113905.png",
     "algebra lineare/Screenshot From 2025-12-18 11-29-56.png",
     "algebra lineare/Pasted image 20251218113513.png",
