@@ -1,18 +1,6 @@
 ---
-updated_at: 2026-01-14T13:32:56.930+01:00
+updated_at: 2026-01-14T13:37:09.176+01:00
 ---
-Opis: D8DIGFF7
-
-| Giorno | Ore   |
-| ------ | ----- |
-| 26-11  | 16-19 |
-| 3-12   | 16-19 |
-| 5-12   | 15-18 |
-| 10-12  | 16-19 |
-| 12-12  | 15-18 |
-| 17-12  | 16-19 |
-| 19-12  | 15-18 |
-
 > [Materiale del corso](https://drive.google.com/drive/folders/1IBBff-5DaA1tpisj7XJSW9FGGEKoE26N)
 
 | Simbolo          | Significato                                                                     |

@@ -20,12 +20,12 @@
             }
           },
           {
-            "id": "958e660be7bbfea8",
+            "id": "4b958bbd8c708459",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "algebra lineare/Algebra.md",
+                "file": "basi di dati/Basi di dati.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -40,31 +40,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Algebra"
-            }
-          },
-          {
-            "id": "c7680cf8ac7c5d42",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "algebra lineare/regola di Sarrus.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "regola di Sarrus"
+              "title": "Basi di dati"
             }
           }
         ],
@@ -125,7 +101,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "ridotta completa",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -256,11 +232,11 @@
       "new-3d-graph:Open 3d graph": false
     }
   },
-  "active": "958e660be7bbfea8",
+  "active": "4b958bbd8c708459",
   "lastOpenFiles": [
+    "algebra lineare/Algebra.md",
     "algebra lineare/regola di Sarrus.md",
     "algebra lineare/Pasted image 20260114133410.png",
-    "algebra lineare/Algebra.md",
     "progettazione di sistemi digitali/sistema binario.md",
     "algebra lineare/Pasted image 20260114133204.png",
     "algebra lineare/Pasted image 20260114133112.png",
