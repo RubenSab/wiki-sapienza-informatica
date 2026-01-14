@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-01-14T10:54:26.201+01:00
+updated_at: 2026-01-14T11:23:43.985+01:00
 ---
 > In uno *[[spazio vettoriale]] di matrici* su un [[campo]] $K$ gli elementi sono **matrici a $m$ righe e $n$ colonne** a coefficienti ($a_{ij}$) in $K$, esprimibili come tabelle nella forma:
 
@@ -13,7 +13,7 @@ $$
 
 - $\mathcal{M}_{m,n}(K)$ è lo spazio vettoriale di tutte le matrici con $m$ righe e $n$ colonne.
 - La dimensione ($\text{dim}$) di uno spazio vettoriale di matrici $\mathcal{M}_{m,n}(K)$ è $m \cdot n$.
-- $GL_{n}(K)$ è lo spazio vettoriale di tutte le matrici invertibili, che sono tutte quadrate di dimensioni $n \times n$ (ma non è detto che tutte le quadrate sono invertibili).
+- $GL_{n}(K)$ è lo spazio vettoriale di tutte le matrici invertibili, che sono tutte quadrate di dimensioni $n \times n$ (**ma non è detto che tutte le matrici quadrate sono invertibili**).
 - Una matrice si dice ***invertibile*** se e solo se $\exists A' \in \mathcal{M}_{n}(K):\ A'A = AA' = I_{n}$. Invertire una matrice quindi vuol dire trovare un'inversa.
 - [[rango]].
 - [[determinante]]. ^e90c39

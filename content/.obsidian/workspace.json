@@ -4,8 +4,30 @@
     "type": "split",
     "children": [
       {
+        "id": "26c3faaf516e35f5",
+        "type": "tabs",
+        "dimension": 44.497282608695656,
+        "children": [
+          {
+            "id": "42d288e393b4ce82",
+            "type": "leaf",
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "https://en.wikipedia.org/wiki/Matrix_(mathematics)#cite_note-FOOTNOTELang1986[httpbooksgooglecombooksidc_NEBAAAQBAJpgPA71_71]-31",
+                "title": "Matrix (mathematics) - Wikipedia",
+                "mode": "blank"
+              },
+              "icon": "globe-2",
+              "title": "Matrix (mathematics) - Wikipedia"
+            }
+          }
+        ]
+      },
+      {
         "id": "4509724f8bf84da7",
         "type": "tabs",
+        "dimension": 55.502717391304344,
         "children": [
           {
             "id": "e7a7b303c61786dc",
@@ -25,7 +47,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "algebra lineare/spazio vettoriale di matrici.md",
+                "file": "algebra lineare/metodo di Gauss.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -40,7 +62,31 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "spazio vettoriale di matrici"
+              "title": "metodo di Gauss"
+            }
+          },
+          {
+            "id": "c5671e9cf5c8c91d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "algebra lineare/sistema di equazioni lineari.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "sistema di equazioni lineari"
             }
           }
         ],
@@ -234,9 +280,11 @@
   },
   "active": "d63a2575946bc914",
   "lastOpenFiles": [
-    "algebra lineare/Algebra.md",
     "algebra lineare/sistema di equazioni lineari.md",
     "algebra lineare/spazio vettoriale di matrici.md",
+    "algebra lineare/metodo di Gauss.md",
+    "progettazione di sistemi digitali/sistema binario.md",
+    "algebra lineare/Algebra.md",
     "algebra lineare/primo teorema dell'omomorfismo.md",
     "algebra lineare/isomorfismo.md",
     "algebra lineare/spazio vettoriale.md",
@@ -258,8 +306,6 @@
     "algebra lineare/sottogruppi.md",
     "introduzione agli algoritmi/metodo iterativo.md",
     "algebra lineare/gruppo.md",
-    "interdisciplinare/permutazioni.md",
-    "algebra lineare/lemmi sui sottogruppi additivi di Z (aZ + bZ).md",
     "foto/IMG-20251011-WA0005.jpg",
     "foto/IMG-20251011-WA0002.jpg",
     "foto/IMG-20251011-WA0001.jpg",
