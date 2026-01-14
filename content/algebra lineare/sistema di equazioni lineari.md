@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-12-05T16:31:21.097+01:00
+updated_at: 2026-01-13T23:52:02.526+01:00
 ---
 > Dato un [[campo]] $K$, un *sistema lineare* di $M$ equazioni e $n$ indeterminate a coefficienti in $K$, è un sistema di equazioni del tipo:
 
@@ -76,6 +76,7 @@ $$
 
 > Se $\text{Sol}(*) = \emptyset$ allora si dice che il sistema è *incompatibile* o impossibile; in caso contrario si dice *compatibile*. Ad esempio $\begin{cases} x_{1} = 0 \\ x_{1} = 1 \end{cases}$ è incompatibile.
 
+#todo separa in due note differenti
 ## Metodo di Gauss
 
 Consideriamo un sistema lineare $(*) \quad AX = B$.
@@ -85,6 +86,8 @@ Consideriamo un sistema lineare $(*) \quad AX = B$.
 Ricordiamo che risolvere $*$ equivale a trovare tutti gli $X \in \mathcal{M}_{n,1}(K)$ con $AX = B$.
 
 ### Definizioni preliminari all'algoritmo
+
+#todo rispiega da [wikipedia](https://en.wikipedia.org/wiki/Matrix_(mathematics)#cite_note-FOOTNOTELang1986[httpbooksgooglecombooksidc_NEBAAAQBAJpgPA71_71]-31)
 #### Operazioni elementari lecite sulle righe della matrice completa ($A \mid B$)
 
 - Permutare righe;

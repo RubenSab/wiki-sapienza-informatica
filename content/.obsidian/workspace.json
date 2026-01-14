@@ -20,12 +20,12 @@
             }
           },
           {
-            "id": "db5309a41dbbcc09",
+            "id": "d63a2575946bc914",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "algebra lineare/Algebra.md",
+                "file": "algebra lineare/spazio vettoriale di matrici.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -40,7 +40,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Algebra"
+              "title": "spazio vettoriale di matrici"
             }
           }
         ],
@@ -84,7 +84,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 283.5
+    "width": 283.5,
+    "collapsed": true
   },
   "right": {
     "id": "26b38658cac3fe47",
@@ -100,7 +101,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "osservazioni",
+                "query": "prodotto scalare",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -231,17 +232,26 @@
       "new-3d-graph:Open 3d graph": false
     }
   },
-  "active": "db5309a41dbbcc09",
+  "active": "d63a2575946bc914",
   "lastOpenFiles": [
+    "algebra lineare/Algebra.md",
+    "algebra lineare/sistema di equazioni lineari.md",
+    "algebra lineare/spazio vettoriale di matrici.md",
+    "algebra lineare/primo teorema dell'omomorfismo.md",
+    "algebra lineare/isomorfismo.md",
+    "algebra lineare/spazio vettoriale.md",
+    "interdisciplinare/funzione.md",
+    "algebra lineare/determinante.md",
+    "architettura degli elaboratori/matrici in RISC-V.md",
+    "algebra lineare/regola di Sarrus.md",
+    "algebra lineare/rango.md",
+    "algebra lineare/teorema di Rouché-Capelli.md",
+    "basi di dati/Basi di dati.md",
     "calcolo delle probabilità/indipendenza di due eventi.md",
     "calcolo delle probabilità/probabilità continua.md",
     "Esercizio.md",
     "Untitle.md",
-    "algebra lineare/Algebra.md",
     "algebra lineare/vettori linearmente indipendenti.md",
-    "algebra lineare/spazio vettoriale di matrici.md",
-    "algebra lineare/determinante.md",
-    "algebra lineare/spazio vettoriale.md",
     "algebra lineare/gruppo di permutazioni.md",
     "algebra lineare/sottogruppo normale.md",
     "algebra lineare/ordine.md",
@@ -250,18 +260,9 @@
     "algebra lineare/gruppo.md",
     "interdisciplinare/permutazioni.md",
     "algebra lineare/lemmi sui sottogruppi additivi di Z (aZ + bZ).md",
-    "algebra lineare/identità di Bézout.md",
-    "algebra lineare/(MCD) massimo comun divisore.md",
-    "algebra lineare/teorema fondamentale dell'aritmetica.md",
-    "interdisciplinare/insieme.md",
     "foto/IMG-20251011-WA0005.jpg",
     "foto/IMG-20251011-WA0002.jpg",
     "foto/IMG-20251011-WA0001.jpg",
-    "index.md",
-    "metodologie di programmazione/overloading.md",
-    "metodologie di programmazione/Java.md",
-    "metodologie di programmazione/overriding.md",
-    "basi di dati/algoritmo di decomposizione in 3NF.md",
     "algebra lineare/Pasted image 20251218113905.png",
     "algebra lineare/Screenshot From 2025-12-18 11-29-56.png",
     "algebra lineare/Pasted image 20251218113513.png",

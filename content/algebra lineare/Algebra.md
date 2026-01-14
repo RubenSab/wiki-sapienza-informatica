@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-01-12T23:09:20.775+01:00
+updated_at: 2026-01-13T23:45:55.094+01:00
 ---
 Opis: D8DIGFF7
 
@@ -70,6 +70,8 @@ Opis: D8DIGFF7
 - [[sottospazio vettoriale]]
 - [[spazio vettoriale quoziente]]
 - [[spazio vettoriale di matrici]]
+- [[determinante]]
+- [[rango]]
 - [[sistema di equazioni lineari]]
 - [[teorema di Rouché-Capelli]]
 - [[formula di Grassmann]]
@@ -93,7 +95,7 @@ Opis: D8DIGFF7
 - [ ] Metodo di Gauss per risolvere sistemi, per trovare il rango, anche di matrici parametriche;
 - [ ] Capire se una matrice è invertibile;
 - [ ] Invertire le matrici;
-- [ ] Calcolare il determinante delle matrici;
+- [ ] Calcolare il determinante delle matrici: 2x2 e regola di Sarrus per le 3x3;
 - [ ] Trovare il kernel delle applicazioni lineari partendo dalla matrice associata;
 - [ ] Determinare la span e la dimensione di uno spazio vettoriale, passare da un insieme di basi alla forma chiusa.
 

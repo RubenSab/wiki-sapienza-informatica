@@ -1,7 +1,7 @@
 ---
-updated_at: 2025-12-22T16:39:28.699+01:00
+updated_at: 2026-01-13T23:44:00.413+01:00
 ---
-#todo spiega e rinomina in "primo teorema dell'omomorfismo".
+#todo spiega
 
 > Proposizione: Data l'[[applicazione]] $X \xrightarrow{f} Y$, la relazione $\sim$ definita da $x \sim x' \iff f(x) = f(x')$
 

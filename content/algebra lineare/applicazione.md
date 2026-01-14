@@ -10,7 +10,7 @@ updated_at: 2025-12-09T21:36:49.960+01:00
 - [[diagramma]]
 - [[composizione]]
 - [[proiezione canonica]]
-- [[teorema di decomponibilità]]
+- [[primo teorema dell'omomorfismo]]
 
 Un'applicazione $X \xrightarrow{f} Y$ si dice:
 

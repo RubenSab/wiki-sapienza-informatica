@@ -1,17 +1,15 @@
 ---
-updated_at: 2025-12-05T17:38:02.302+01:00
+updated_at: 2026-01-13T23:20:09.848+01:00
 ---
-# Determinante
-
 > Il *determinante* di una [[spazio vettoriale di matrici|matrice]] $\begin{pmatrix} a & b \\ c & d \end{pmatrix} \in \mathcal{M}_{2, 2}(K)$ è definito come $\det\begin{pmatrix} a & b \\ c & d \end{pmatrix} = ad-bc \in K$
 
 Il determinante delle matrici $3 \times 3$ si può applicare la [[regola di Sarrus]].
 
-## Lemma 1
+# Lemma 1
 
 > Siano $A, B \in \mathcal{M}_{2,2}(K)$ allora $\det(A B) = \det(A) \det(B)$. Inoltre, se $A$ è invertibile ($\in GL_{2}(K)$) allora $\det(A^{-1}) \in K^{2} := \det(A)^{-1}$.
 
-## Lemma 2
+# Lemma 2
 
 > $A = \begin{pmatrix} a & b \\ c & d \end{pmatrix} \in \mathcal{M}_{2,2}(K)$ è *invertibile* $\iff \det(A) \neq 0$, ovvero $\exists A': A'A = AA' = I_{2} = \begin{pmatrix} 1 & 0 \\ 0 & 1 \end{pmatrix}$.
 
@@ -37,9 +35,9 @@ $$
 \det(A) = \varepsilon \left(\begin{pmatrix} 1 & 2 \\ 1 & 2 \end{pmatrix}\right) a_{11}a_{22} + \varepsilon \left(\begin{pmatrix} 1 & 2 \\ 2 & 1 \end{pmatrix}\right) a_{12} a_{21} = a_{11} a_{22} - a_{12} a_{21}
 $$
 
-## Lemma
+# Ricapitolando
 
-Consideriamo l'[[applicazione]] $\det: \mathcal{M}_{n, n}(K) \to K$ con $\det$ definito dalla formula universale.
+Consideriamo l'[[applicazione]] $\det: \mathcal{M}_{n, n}(K) \to K$ con $\det$ definito dalla formula universale del determinnte.
 
 1. $\det(AB) = \det(A) \det(B)$.
 2. $A \in GL_{n}(K) \iff \det(A) \neq 0$.

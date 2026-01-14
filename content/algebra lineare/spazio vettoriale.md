@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-12-18T12:28:54.259+01:00
+updated_at: 2026-01-13T23:18:09.190+01:00
 ---
 > sia $K$ un [[campo]] (contiene gli *scalari*) e $V = (V, +, 0_{V})$ un [[gruppo abeliano]] (contiene i *vettori*) in [[gruppo#^963e43|notazione additiva]]. Si dice che $V$ è un *$K$-spazio vettoriale* o uno *spazio vettoriale su $K$* se, oltre all'operazione binaria commutativa in $V$, esiste anche un'operazione binaria (moltiplicazione per uno scalare) $K \times V \to V$, dove $(\lambda, v) \mapsto \lambda \cdot v$ tale che $\forall \alpha, \beta \in K, \quad v, w \in V$, indicata con $\langle v, w\rangle$.
 
@@ -21,6 +21,36 @@ updated_at: 2025-12-18T12:28:54.259+01:00
 2. Legge di distributività di $v \in V$ su $K$: $v \cdot (\alpha \underset{K}{+} \beta) = \alpha \cdot v \underset{V}{+} \beta \cdot v$
 3. Compatibilità del prodotto come definito in $K$ e del prodotto definito in $V$: $\alpha \cdot (\beta \cdot v) = (\alpha \cdot \beta ) \cdot v$
 4. Esistenza dell'*unità* (scalare neutro): $1_{K} \cdot v = v$
+
+# Operazioni
+
+## Prodotto scalare per vettore
+
+^3d90cf
+
+> Siano $s \in K,\ \begin{pmatrix} x_{1} \\ \vdots \\ x_{n} \end{pmatrix} \in V$. Il *prodotto scalare per vettore* $s \cdot x$ è definito come:
+
+$$
+s \cdot \begin{pmatrix} x_{1} \\ \vdots \\ x_{n} \end{pmatrix} = \begin{pmatrix} s \cdot x_{1} \\ \vdots \\ s \cdot x_{n} \end{pmatrix}
+$$
+
+Esempio con $V = \mathbb{R}^{2}, K = \mathbb{R}$:
+
+## Prodotto tra vettori
+
+^839926
+
+> Siano $\begin{pmatrix} x_{1} \\ \vdots \\ x_{n} \end{pmatrix},\ \begin{pmatrix} y_{1} \\ \vdots \\ y_{n} \end{pmatrix} \in V$. Il *prodotto tra vettori* $x$ e $y$ $\langle x, y\rangle$ è definito come:
+
+$$
+\langle x, y \rangle := \sum_{i=1}^{n} x_{i} y_{i} \in K
+$$
+
+Esempio con $V = \mathbb{R}^{3},\ K = \mathbb{R}$:
+
+$$
+x = (2, -1, 3) \quad y = \begin{pmatrix} 4 \\ 0 \\ 5 \end{pmatrix} \quad \langle x, y \rangle = (2)(4) + (-1)(0) + (3)(5) = 8 + 0 + 15 = 23
+$$
 
 # Glossario
 
