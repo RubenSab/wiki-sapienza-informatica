@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-01-14T11:26:36.828+01:00
+updated_at: 2026-01-14T12:06:17.410+01:00
 ---
 > Dato un [[campo]] $K$, un *sistema lineare* di $M$ equazioni e $n$ indeterminate a coefficienti in $K$, è un sistema di equazioni del tipo:
 
@@ -31,12 +31,12 @@ $$
 Siano le matrici:
 
 $$
-A = (a_{ij})_{1 \leq j \leq m,\ 1 \leq j \leq n} \in \mathcal{M}_{m, n}(K) \quad X := ( x_{1} \ \dots \ x_{n} ) \in \mathcal{M}_{m, n}(K) \quad B := \begin{pmatrix} b_{1} \\ \vdots \\ b_{m} \end{pmatrix} \in \mathcal{M}_{m, n}(K)
+A = (a_{ij})_{1 \leq i \leq m,\ 1 \leq j \leq n} \in \mathcal{M}_{m, n}(K) \quad X := \begin{pmatrix} x_{1} \\ \vdots \\ x_{n} \end{pmatrix} \in \mathcal{M}_{n, 1}(K) \quad B := \begin{pmatrix} b_{1} \\ \vdots \\ b_{m} \end{pmatrix} \in \mathcal{M}_{m, 1}(K)
 $$
 
 - $A$ = matrice dei coefficienti delle indeterminate
-- $X$ = vettore riga (cioè matrice $n \times 1$) delle indeterminate
-- $B$ = vettore colonna (cioè matrice $1 \times m$) delle costanti a destra dell'uguale
+- $X$ = vettore colonna (cioè matrice $n \times 1$) delle indeterminate
+- $B$ = vettore colonna (cioè matrice $m \times 1$) delle costanti a destra dell'uguale
 
 Il sistema $*$ si scrive:
 

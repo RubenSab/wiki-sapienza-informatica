@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-01-14T11:33:34.692+01:00
+updated_at: 2026-01-14T12:07:50.723+01:00
 ---
 Consideriamo il [[sistema di equazioni lineari]] $AX = B$.
 
@@ -15,17 +15,20 @@ Ricordiamo che risolvere $AX = B$ equivale a trovare tutti gli $X = \begin{pmatr
 
 # Definizioni preliminari all'algoritmo
 
-#todo rispiega da [wikipedia](https://en.wikipedia.org/wiki/Matrix_(mathematics)#cite_note-FOOTNOTELang1986[httpbooksgooglecombooksidc_NEBAAAQBAJpgPA71_71]-31)
-## Operazioni elementari lecite sulle righe della matrice completa ($A \mid B$)
+## Operazioni elementari lecite sulle righe della matrice completa
 
-- Permutare righe;
-- Sostituire una riga con un suo multiplo scalare non nullo $r \mapsto \lambda r$ con $\lambda \in K^{X}$;
-- Sostituire una riga con la stessa più un multiplo scalare di un altra $r \mapsto r + \lambda r'$;
+- Sostituire una riga con la somma tra se stessa e un'altra riga;
+- moltiplicare una riga per uno scalare non nullo;
+- scambiare due righe.
 
-## Convenzioni di notazione
+> Applicare una singola o una qualsiasi sequenza di queste operazioni **mantiene invariato** in [[rango]] della matrice completa.
 
-- Scriviamo $(A \mid B) \sim (A' \mid B') \iff \text{Sol}(A \mid B) = \text{Sol}(A' \mid B')$;
-- Scriviamo inoltre $(A \mid B)\ {\smile \atop \frown}\ (A' \mid B')$ se posso ottenere la seconda dalla prima applicando un minimo finito di operazioni elementari lecite sulle righe ("la matrice a destra è costruibile lecitamente da quella a sinistra");
+## Relazioni $\sim$ e $\smile \atop \frown$
+
+- Definiamo la [[relazione]] $\sim$ tra matrici complete come segue:
+  $(A \mid B) \sim (A' \mid B') \iff \text{Sol}(A \mid B) = \text{Sol}(A' \mid B')$;
+- Definiamo la relazione $\smile \atop \frown$ come segue:
+  $(A \mid B)\ {\smile \atop \frown}\ (A' \mid B')$ se posso ottenere la seconda dalla prima applicando un numero finito di operazioni elementari lecite sulle righe (o "la matrice a destra è costruibile lecitamente da quella a sinistra");
 
 > Osservazione: ${\smile \atop \frown}$ è una [[proprietà, tipi di relazioni e ordini|relazione d'equivalenza]].
 
@@ -43,7 +46,7 @@ $$
 \end{pmatrix}
 $$
 
-oppure con una o più righe composte solo da zeri sia sopra che sotto; inoltre riga del primo gradino può anche avere un $1$ a sinistra senza alcuno zero. Una matrice a gradini banale contiene **solo** zeri.
+oppure con una o più righe composte solo da zeri sia sopra che sotto; inoltre la riga del primo gradino può anche avere un $1$ a sinistra senza alcuno zero. Una matrice a gradini banale contiene **solo** zeri.
 
 > Una matrice a gradini si dice *ridotta* se sopra a tutti gli $1$ ci sono zeri, ad esempio:
 
@@ -59,20 +62,18 @@ $$
 \end{pmatrix}
 $$
 
-> Gli $1$ che definiscono i gradini vengono chiamati *pivot*.
+> Gli $1$ che definiscono i gradini vengono chiamati ***pivot***.
 
 ^3294b5
 
 ## Teorema di Gauss
 
-- In ogni classe di $\smile \atop \frown$ di matrici complete $(A \mid B)$ esiste un'unica matrice a gradini ridotta.
+- In ogni [[classe di equivalenza]] della $\smile \atop \frown$ di matrici complete $(A \mid B)$ esiste un'unica matrice a gradini ridotta.
 - $(A \mid B)\ {\smile \atop \frown}\ (A' \mid B') \implies (A \mid B) \sim (A' \mid B')$.
 
 >N.B.: Contro-intuitivamente, l'[[algoritmo]] di Gauss è la dimostrazione di questo teorema, non il contrario.
 
-# Esercizi
-
-## 1.
+# Esercizio (con $V = \mathbb{R^{4}},\ K = \mathbb{R}$)
 
 $$
 (A \mid B) = \begin{pmatrix} 1 & 1 & -1 & -2 & 4 \\ 1 & 0 & -1 & 0 & 0 \\ 0 & 1 & 0 & 1 & -2 \end{pmatrix} = \begin{cases} x + y - z - 3t = 4 \\ x - z = 0 \\ y + t = -2 \end{cases}
@@ -95,12 +96,14 @@ $$
 Il sistema associato è
 
 $$
-\begin{cases} x - z = 0 \\ y = 0 \\ t = -2 \end{cases} = \begin{cases} \begin{pmatrix} x \\ 0 \\ x \\ -2 \end{pmatrix}: x \in \mathbb{R} \end{cases}
+\begin{cases} 1x + 0y -1z + 0t = 0 \\ 0x -1y + 0z + 0t = 0 \\ 0x + 0y + 0z + 1t = -2 \end{cases} = \begin{cases} x - z = 0 \\ y = 0 \\ t = -2 \end{cases} = \left\{ \begin{pmatrix} x \\ 0 \\ x \\ -2 \end{pmatrix}: x \in \mathbb{R} \right\}
 $$
+#todo capire
+
 Che si può anche vedere come
 
 $$
-\begin{pmatrix} 0 \\ 0 \\ 0 \\ -2 \end{pmatrix} + \mathbb{R} \begin{pmatrix} 1 \\ 0 \\ 1 \\ 0 \end{pmatrix} = \begin{Bmatrix} \begin{pmatrix} 0 \\ 0 \\ 0 \\ -2 \end{pmatrix} + x \begin{pmatrix} 1 \\ 0 \\ 1 \\ 0 \end{pmatrix}: x \in \mathbb{R} \end{Bmatrix}
+\begin{pmatrix} 0 \\ 0 \\ 0 \\ -2 \end{pmatrix} + \mathbb{R} \begin{pmatrix} 1 \\ 0 \\ 1 \\ 0 \end{pmatrix} = \left\{ \begin{pmatrix} 0 \\ 0 \\ 0 \\ -2 \end{pmatrix} + x \begin{pmatrix} 1 \\ 0 \\ 1 \\ 0 \end{pmatrix}: x \in \mathbb{R} \right\}
 $$
 
 Questo tra l'altro ci porta al teorema
