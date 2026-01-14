@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-01-14T12:07:50.723+01:00
+updated_at: 2026-01-14T12:31:53.630+01:00
 ---
 Consideriamo il [[sistema di equazioni lineari]] $AX = B$.
 
@@ -34,6 +34,8 @@ Ricordiamo che risolvere $AX = B$ equivale a trovare tutti gli $X = \begin{pmatr
 
 > Osservazione: $A {\smile \atop \frown} B \implies \text{rg}(A) = \text{rg}(B)$.
 
+## Matrice a gradini o scalini
+
 > Una matrice completa è detta *a gradini* o *a scalini* se è come questa
 
 $$
@@ -47,6 +49,10 @@ $$
 $$
 
 oppure con una o più righe composte solo da zeri sia sopra che sotto; inoltre la riga del primo gradino può anche avere un $1$ a sinistra senza alcuno zero. Una matrice a gradini banale contiene **solo** zeri.
+
+## Matrice in forma ridotta
+
+^5fdd04
 
 > Una matrice a gradini si dice *ridotta* se sopra a tutti gli $1$ ci sono zeri, ad esempio:
 
@@ -71,7 +77,7 @@ $$
 - In ogni [[classe di equivalenza]] della $\smile \atop \frown$ di matrici complete $(A \mid B)$ esiste un'unica matrice a gradini ridotta.
 - $(A \mid B)\ {\smile \atop \frown}\ (A' \mid B') \implies (A \mid B) \sim (A' \mid B')$.
 
->N.B.: Contro-intuitivamente, l'[[algoritmo]] di Gauss è la dimostrazione di questo teorema, non il contrario.
+>N.B.: Contro-intuitivamente, l'[[algoritmo di Gauss per trovare la matrice inversa]] è la dimostrazione di questo teorema, non il contrario.
 
 # Esercizio (con $V = \mathbb{R^{4}},\ K = \mathbb{R}$)
 
@@ -79,7 +85,7 @@ $$
 (A \mid B) = \begin{pmatrix} 1 & 1 & -1 & -2 & 4 \\ 1 & 0 & -1 & 0 & 0 \\ 0 & 1 & 0 & 1 & -2 \end{pmatrix} = \begin{cases} x + y - z - 3t = 4 \\ x - z = 0 \\ y + t = -2 \end{cases}
 $$
 
-Applichiamo a catena le operazioni elementari lecite sulle righe, annotando quella usata sotto il simbolo "di costruzione di matrici" $\smile \atop \frown$, fino a raggiungere una matrice **completa** e **ridotta**.
+Applichiamo a catena le operazioni elementari lecite sulle righe, annotando quella usata sotto il simbolo "di costruzione di matrici" $\smile \atop \frown$, fino a raggiungere una matrice **ridotta**.
 
 $$
 \begin{pmatrix} 1 & 1 & -1 & -2 & 4 \\ 1 & 0 & -1 & 0 & 0 \\ 0 & 1 & 0 & 1 & -2 \end{pmatrix} \underset{R_{2} \to R_{2} - R_{1}}{\smile \atop \frown} \begin{pmatrix} 1 & 1 & -1 & -2 & 4 \\ 0 & -1 & 0 & 2 & -4 \\ 0 & 1 & 0 & 1 & -2 \end{pmatrix} \underset{R_{3} \to R_{3} + R_{2}}{\smile \atop \frown} \dots
@@ -93,17 +99,16 @@ $$
 \dots \ \underset{R_{1} \to R_{1} - R_{2}}{\smile \atop \frown} \begin{pmatrix} 1 & 0 & -1 & 0 & 0 \\ 0 & -1 & 0 & 0 & 0 \\ 0 & 0 & 0 & 1 & -2 \end{pmatrix}
 $$
 
-Il sistema associato è
+Il sistema associato ha infinite soluzioni su una retta vettoriale, in quanto le soluzioni si differenziano solo per il parametro $x$.
 
 $$
 \begin{cases} 1x + 0y -1z + 0t = 0 \\ 0x -1y + 0z + 0t = 0 \\ 0x + 0y + 0z + 1t = -2 \end{cases} = \begin{cases} x - z = 0 \\ y = 0 \\ t = -2 \end{cases} = \left\{ \begin{pmatrix} x \\ 0 \\ x \\ -2 \end{pmatrix}: x \in \mathbb{R} \right\}
 $$
-#todo capire
 
 Che si può anche vedere come
 
 $$
-\begin{pmatrix} 0 \\ 0 \\ 0 \\ -2 \end{pmatrix} + \mathbb{R} \begin{pmatrix} 1 \\ 0 \\ 1 \\ 0 \end{pmatrix} = \left\{ \begin{pmatrix} 0 \\ 0 \\ 0 \\ -2 \end{pmatrix} + x \begin{pmatrix} 1 \\ 0 \\ 1 \\ 0 \end{pmatrix}: x \in \mathbb{R} \right\}
+\begin{pmatrix} 0 \\ 0 \\ 0 \\ -2 \end{pmatrix} + \mathbb{R} \begin{pmatrix} 1 \\ 0 \\ 1 \\ 0 \end{pmatrix} = \left\{ \begin{pmatrix} 0 \\ 0 \\ 0 \\ -2 \end{pmatrix} + x \cdot \begin{pmatrix} 1 \\ 0 \\ 1 \\ 0 \end{pmatrix}: x \in \mathbb{R} \right\}
 $$
 
 Questo tra l'altro ci porta al teorema

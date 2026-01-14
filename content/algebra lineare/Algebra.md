@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-01-13T23:45:55.094+01:00
+updated_at: 2026-01-14T12:25:35.509+01:00
 ---
 Opis: D8DIGFF7
 
@@ -72,7 +72,9 @@ Opis: D8DIGFF7
 - [[spazio vettoriale di matrici]]
 - [[determinante]]
 - [[rango]]
+- [[algoritmo di Gauss per trovare la matrice inversa]]
 - [[sistema di equazioni lineari]]
+- [[metodo di Gauss]]
 - [[teorema di Rouché-Capelli]]
 - [[formula di Grassmann]]
 - [[applicazione lineare]]
