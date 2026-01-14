@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-01-14T12:31:53.630+01:00
+updated_at: 2026-01-14T19:30:05.323+01:00
 ---
 Consideriamo il [[sistema di equazioni lineari]] $AX = B$.
 
@@ -69,6 +69,8 @@ $$
 $$
 
 > Gli $1$ che definiscono i gradini vengono chiamati ***pivot***.
+
+> Il [[rango]] è il numero di righe non nulle della matrice portata in forma ridotta.
 
 ^3294b5
 

@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-01-14T13:37:09.176+01:00
+updated_at: 2026-01-14T17:37:02.017+01:00
 ---
 > [Materiale del corso](https://drive.google.com/drive/folders/1IBBff-5DaA1tpisj7XJSW9FGGEKoE26N)
 
@@ -32,7 +32,9 @@ updated_at: 2026-01-14T13:37:09.176+01:00
 - [[gruppo]]
 	- [[gruppo abeliano]]
 	- [[omomorfismo]]
+	- [[primo teorema dell'omomorfismo]]
 	- [[isomorfismo]]
+	- [[proiezione canonica]]
 	- [[sottogruppi]]
 	- [[sottogruppo normale]]
 	- [[classi laterali]]
@@ -69,7 +71,7 @@ updated_at: 2026-01-14T13:37:09.176+01:00
 
 ## Procedimenti utili da imparare
 
-### Algebra astatta
+### Algebra astratta
 
 - [x] Calcolare il massimo comun divisore con l'algoritmo della divisione euclidea;
 - [ ] Risolvere le equazioni e sistemi congruenziali anche con potenze enormi;
