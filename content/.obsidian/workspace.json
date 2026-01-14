@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "progettazione di sistemi digitali/sistema binario.md",
+                "file": "algebra lineare/Algebra.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -40,7 +40,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "sistema binario"
+              "title": "Algebra"
             }
           },
           {
@@ -49,8 +49,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "algebra lineare/algoritmo di Gauss per trovare la matrice inversa.md",
-                "mode": "source",
+                "file": "algebra lineare/regola di Sarrus.md",
+                "mode": "preview",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -64,11 +64,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "algoritmo di Gauss per trovare la matrice inversa"
+              "title": "regola di Sarrus"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -256,22 +256,25 @@
       "new-3d-graph:Open 3d graph": false
     }
   },
-  "active": "c7680cf8ac7c5d42",
+  "active": "958e660be7bbfea8",
   "lastOpenFiles": [
+    "algebra lineare/regola di Sarrus.md",
+    "algebra lineare/Pasted image 20260114133410.png",
+    "algebra lineare/Algebra.md",
     "progettazione di sistemi digitali/sistema binario.md",
-    "algebra lineare/spazio vettoriale di matrici.md",
+    "algebra lineare/Pasted image 20260114133204.png",
+    "algebra lineare/Pasted image 20260114133112.png",
     "algebra lineare/algoritmo di Gauss per trovare la matrice inversa.md",
+    "algebra lineare/spazio vettoriale di matrici.md",
     "algebra lineare/metodo di Gauss.md",
     "algebra lineare/sistema di equazioni lineari.md",
     "interdisciplinare/algoritmo.md",
-    "algebra lineare/Algebra.md",
     "algebra lineare/primo teorema dell'omomorfismo.md",
     "algebra lineare/isomorfismo.md",
     "algebra lineare/spazio vettoriale.md",
     "interdisciplinare/funzione.md",
     "algebra lineare/determinante.md",
     "architettura degli elaboratori/matrici in RISC-V.md",
-    "algebra lineare/regola di Sarrus.md",
     "algebra lineare/rango.md",
     "algebra lineare/teorema di Rouché-Capelli.md",
     "basi di dati/Basi di dati.md",
@@ -283,7 +286,6 @@
     "algebra lineare/gruppo di permutazioni.md",
     "algebra lineare/sottogruppo normale.md",
     "algebra lineare/ordine.md",
-    "algebra lineare/sottogruppi.md",
     "foto/IMG-20251011-WA0005.jpg",
     "foto/IMG-20251011-WA0002.jpg",
     "foto/IMG-20251011-WA0001.jpg",
@@ -292,15 +294,12 @@
     "algebra lineare/Pasted image 20251218113513.png",
     "interdisciplinare/Pasted image 20251210103843.png",
     "relazione tra tabelle master",
-    "foto/IMG-20251011-WA0003.jpg",
     "foto",
     "calcolo delle probabilità/Untitled",
     "basi di dati",
     "sistemi operativi",
     "algebra lineare",
     "calcolo delle probabilità",
-    "architettura degli elaboratori/Pasted image 20250604172652.png",
-    "progettazione di sistemi digitali/logic gates.png",
     "www.youtube.com",
     "progettazione di sistemi digitali/rete sequenziale generica.canvas",
     "Elementi di stato",

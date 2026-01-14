@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-01-14T12:25:35.509+01:00
+updated_at: 2026-01-14T13:32:56.930+01:00
 ---
 Opis: D8DIGFF7
 
@@ -94,10 +94,10 @@ Opis: D8DIGFF7
 ### Algebra lineare
 
 - [x] Dimostrare l'indipendenza o meno di vettori;
-- [ ] Metodo di Gauss per risolvere sistemi, per trovare il rango, anche di matrici parametriche;
-- [ ] Capire se una matrice è invertibile;
-- [ ] Invertire le matrici;
-- [ ] Calcolare il determinante delle matrici: 2x2 e regola di Sarrus per le 3x3;
+- [x] Metodo di Gauss per risolvere sistemi, per trovare il rango, anche di matrici parametriche;
+- [x] Capire se una matrice è invertibile;
+- [x] Invertire le matrici;
+- [x] Calcolare il determinante delle matrici: 2x2 e regola di Sarrus per le 3x3;
 - [ ] Trovare il kernel delle applicazioni lineari partendo dalla matrice associata;
 - [ ] Determinare la span e la dimensione di uno spazio vettoriale, passare da un insieme di basi alla forma chiusa.
 
