@@ -39,12 +39,12 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://drive.google.com/drive/folders/1IBBff-5DaA1tpisj7XJSW9FGGEKoE26N",
-                "title": "Algebra 2025-2026 (Informatica) - Google Drive",
+                "url": "https://drive.google.com/drive/folders/1zuj00AfMoOdPG8ewddxTf1ArbF_XZqxn",
+                "title": "Fogli di esercizi, raccolta di testi d'esame con soluzioni - Google Drive",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "Algebra 2025-2026 (Informatica) - Google Drive"
+              "title": "Fogli di esercizi, raccolta di testi d'esame con soluzioni - Google Drive"
             }
           },
           {
@@ -79,8 +79,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "algebra lineare/applicazione lineare.md",
-                "mode": "preview",
+                "file": "algebra lineare/vettori linearmente indipendenti.md",
+                "mode": "source",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -94,7 +94,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "applicazione lineare"
+              "title": "vettori linearmente indipendenti"
             }
           }
         ],
@@ -288,13 +288,14 @@
   },
   "active": "ea785150b054ce66",
   "lastOpenFiles": [
-    "algebra lineare/algoritmo di Gauss per trovare la matrice inversa.md",
+    "algebra lineare/spazio vettoriale.md",
+    "algebra lineare/determinante.md",
     "algebra lineare/applicazione lineare.md",
+    "algebra lineare/algoritmo di Gauss per trovare la matrice inversa.md",
     "algebra lineare/Algebra.md",
     "algebra lineare/Pasted image 20260115114517.png",
     "algebra lineare/omomorfismo.md",
     "algebra lineare/isomorfismo.md",
-    "algebra lineare/spazio vettoriale.md",
     "algebra lineare/formula di Grassmann.md",
     "algebra lineare/teorema di Rouché-Capelli.md",
     "algebra lineare/vettori linearmente indipendenti.md",
@@ -316,7 +317,6 @@
     "algebra lineare/spazio vettoriale di matrici.md",
     "interdisciplinare/algoritmo.md",
     "interdisciplinare/funzione.md",
-    "algebra lineare/determinante.md",
     "foto/IMG-20251011-WA0005.jpg",
     "foto/IMG-20251011-WA0002.jpg",
     "foto/IMG-20251011-WA0001.jpg",
