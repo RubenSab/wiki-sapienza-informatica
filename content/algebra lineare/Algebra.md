@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-01-14T17:37:02.017+01:00
+updated_at: 2026-01-14T19:30:36.620+01:00
 ---
 > [Materiale del corso](https://drive.google.com/drive/folders/1IBBff-5DaA1tpisj7XJSW9FGGEKoE26N)
 
@@ -79,7 +79,7 @@ updated_at: 2026-01-14T17:37:02.017+01:00
 - [x] Trovare isomorfismi tra gruppi;
 - [x] Trovare il sottogruppo generato da un insieme;
 - [x] Dimostrare che un gruppo è un sottogruppo di un altro gruppo;
-- [x] Dimostrare se un sottogruppo è normale o no;
+- [ ] Dimostrare se un sottogruppo è normale o no;
 
 ### Algebra lineare
 

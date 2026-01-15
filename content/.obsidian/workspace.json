@@ -8,24 +8,38 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e7a7b303c61786dc",
+            "id": "6870aae0466e85f4",
             "type": "leaf",
             "pinned": true,
             "state": {
-              "type": "graph",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "algebra lineare/Algebra.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
               "pinned": true,
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "icon": "lucide-file",
+              "title": "Algebra"
             }
           },
           {
-            "id": "86282f288106a902",
+            "id": "80de24dd5bf40051",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "algebra lineare/metodo di Gauss.md",
+                "file": "algebra lineare/spazio vettoriale.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -40,45 +54,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "metodo di Gauss"
-            }
-          },
-          {
-            "id": "692a61806e9ed60f",
-            "type": "leaf",
-            "state": {
-              "type": "webviewer",
-              "state": {
-                "url": "https://drive.google.com/drive/folders/1zuj00AfMoOdPG8ewddxTf1ArbF_XZqxn",
-                "title": "Fogli di esercizi, raccolta di testi d'esame con soluzioni - Google Drive",
-                "mode": "webview"
-              },
-              "icon": "globe-2",
-              "title": "Fogli di esercizi, raccolta di testi d'esame con soluzioni - Google Drive"
-            }
-          },
-          {
-            "id": "4b4dd86fe2714539",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "algebra lineare/metodo di Gauss.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "metodo di Gauss"
+              "title": "spazio vettoriale"
             }
           }
         ],
@@ -139,7 +115,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "span",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -253,8 +229,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 354.5,
-    "collapsed": true
+    "width": 354.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -270,13 +245,16 @@
       "new-3d-graph:Open 3d graph": false
     }
   },
-  "active": "86282f288106a902",
+  "active": "80de24dd5bf40051",
   "lastOpenFiles": [
-    "algebra lineare/rango.md",
-    "algebra lineare/metodo di Gauss.md",
-    "algebra lineare/Algebra.md",
-    "algebra lineare/sistema di equazioni lineari.md",
     "algebra lineare/formula di Grassmann.md",
+    "algebra lineare/spazio vettoriale.md",
+    "algebra lineare/teorema di Rouché-Capelli.md",
+    "algebra lineare/vettori linearmente indipendenti.md",
+    "algebra lineare/Algebra.md",
+    "algebra lineare/metodo di Gauss.md",
+    "algebra lineare/rango.md",
+    "algebra lineare/sistema di equazioni lineari.md",
     "algebra lineare/piccolo teorema di Fermat.md",
     "algebra lineare/algoritmo di Gauss per trovare la matrice inversa.md",
     "algebra lineare/gruppo quoziente.md",
@@ -294,13 +272,10 @@
     "algebra lineare/spazio vettoriale di matrici.md",
     "interdisciplinare/algoritmo.md",
     "algebra lineare/isomorfismo.md",
-    "algebra lineare/spazio vettoriale.md",
     "interdisciplinare/funzione.md",
     "algebra lineare/determinante.md",
     "architettura degli elaboratori/matrici in RISC-V.md",
-    "algebra lineare/teorema di Rouché-Capelli.md",
     "calcolo delle probabilità/indipendenza di due eventi.md",
-    "calcolo delle probabilità/probabilità continua.md",
     "foto/IMG-20251011-WA0005.jpg",
     "foto/IMG-20251011-WA0002.jpg",
     "foto/IMG-20251011-WA0001.jpg",

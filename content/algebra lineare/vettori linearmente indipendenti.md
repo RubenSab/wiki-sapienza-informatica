@@ -1,17 +1,24 @@
 ---
-updated_at: 2026-01-08T19:52:23.359+01:00
+updated_at: 2026-01-15T11:02:17.598+01:00
 ---
-> Due vettori si dicono *linearmente indipendenti* su $K$, dati gli scalari $\lambda_{1}, \ldots, \lambda_{n} \in K$, se non esistono combinazioni lineari non [[spazio vettoriale#^a51465|banali]] $\lambda_{1} v_{1} + \ldots + \lambda_{n} v_{n}$ uguali a $0_{V}$ (origine/vettore nullo), altrimenti sono *linearmente indipendenti*.
+> Due [[spazio vettoriale|vettori]] si dicono *linearmente indipendenti* su $K$, dati gli scalari $\lambda_{1}, \ldots, \lambda_{n} \in K$, se non esistono combinazioni lineari non [[spazio vettoriale#^a51465|banali]] $\lambda_{1} v_{1} + \ldots + \lambda_{n} v_{n}$ uguali a $0_{V}$ (origine/vettore nullo), altrimenti sono *linearmente indipendenti*.
 
 Ad esempio $v_{1} = \binom{1}{0},\ v_{2} = \binom{0}{1}$ sono linearmente indipendenti: $\lambda_{1} v_{1} + \lambda_{2} v_{2} = \binom{\lambda_{1}}{0} + \binom{0}{\lambda_{2}} = \binom{\lambda_{1}}{\lambda_{2}}$. 
 
-> In altri termini, l'unica combinazione lineare di $v_{1}, \ldots, v_{n}$ che è nulla è la combinazione lineare banale.
+> In altri termini, due vettori sono indipendenti se l'unica combinazione lineare di $v_{1}, \ldots, v_{n} = 0$ è la combinazione dove $\lambda_{1} = 0, \dots, \lambda_{n} = 0$.
+
+> N.B.: **Se un insieme di $n$ vettori $\in K^{n}$ sono linearmente indipendenti, la loro [[spazio vettoriale#^f86ebb|span]] è $K^{n}$**.
 
 > Osservazione: $v_{1}, v_{2} \in K^{n} - \{0\}$ allora $v_{1}, v_{2}$ sono linearmente dipendenti $\iff$ sono **collineari**, ovvero l'uno proporzionale all'altro ($\exists \lambda \in K:\ v_{2} = \lambda v_{1}$).
 
 Esempio in $\mathbb{R}^{3}$: $v_{1} = \begin{pmatrix} 2 \\ 2 \\ 2 \end{pmatrix},\ v_{2} = \begin{pmatrix} -3 \\ -3 \\ -3 \end{pmatrix}$. Si nota che $v_{2} = -\frac{3}{2} v_{1}$.
 
-> Teorema: dei vettori (colonna) formano una matrice il cui [[determinante]] è **0** se se solo se sono **dipendenti**.
+> Teorema: dei vettori (colonna) formano una [[spazio vettoriale di matrici|matrice]] il cui [[determinante]] è **0** se se solo se sono **dipendenti**.
+
+Intuitivamente, dato che il determinante può essere visto come il **fattore di scala** di quanto una [[applicazione lineare]] **deforma** l'area/volume/iper-volume etc. del quadrilatero/parallelepipedo/iper-parallelepipedo etc. definito dai vettori unitari della base canonica di $K^{n}$, è evidente che se almeno due vettori dell'insieme studiato sono con-lineari allora l'applicazione lineare proietta lo spazio vettoriale di dimensione $n$ in uno di dimensione $n-1$, appiattendo l'area/volume/iper-volume etc, cioè rendendola **nulla**.
+
+Ad esempio, i vettori colonna della matrice $\begin{pmatrix} 1 & 2 & 0 \\ 1 & 2 & -1 \\ 0 & 0 & 1 \end{pmatrix}$ sono linearmente dipendenti perché descrivono lo spazio vettoriale $\begin{cases} \begin{pmatrix} x \\ y \\ z \end{pmatrix} :\ x = -2y,\ c = 0\end{cases}$, [[isomorfismo|isomorfo]] a $\mathbb{R}^{2}$.
+Quindi si può dire che la trasformazione lineare ha determinante 0 perché **proietta il cubo** definito in $\mathbb{R}^{3}$ da $\begin{pmatrix} 1 \\ 0 \\ 0 \end{pmatrix}, \begin{pmatrix} 0 \\ 1 \\ 0 \end{pmatrix}, \begin{pmatrix} 0 \\ 0 \\ 1 \end{pmatrix}$ in un parallelogramma in $\mathbb{R}^{2}$, **scalando il suo volume a 0**.
 
 # Esempi
 
