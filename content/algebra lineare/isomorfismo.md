@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-10-29T17:04:42.280+01:00
+updated_at: 2026-01-15T11:33:52.675+01:00
 ---
 Quando due [[Algebra|strutture algebriche]] sono isomorfe, sono indistinguibili dalla teoria dei gruppi, alla quale appaiono come se fossero la stessa struttura.
 
@@ -7,7 +7,7 @@ Quando due [[Algebra|strutture algebriche]] sono isomorfe, sono indistinguibili 
 
 > Sia $G_{1} \overset{f}{\to} G_{2}$ un omomorfismo di [[gruppo|gruppi]]. Se l'applicazione $f$ è biettiva, si dice che $f$ è un *isomorfismo*.
 
-> N.B.: Due gruppi finiti con cardinalità distinte non possono essere isomorfi. Ad esempio $\frac{\mathbb{Z}}{3\mathbb{Z}}$ e $\frac{\mathbb{Z}}{4\mathbb{Z}}$. Invece c'è sempre un isomorfismo tra gruppi con la stessa cardinalità.
+> N.B.: Due gruppi finiti con **cardinalità distinte non possono essere isomorfi**. Ad esempio $\frac{\mathbb{Z}}{3\mathbb{Z}}$ e $\frac{\mathbb{Z}}{4\mathbb{Z}}$. Invece **c'è sempre** un isomorfismo tra gruppi con la **stessa cardinalità**.
 
 > N.B.: Due gruppi isomorfi hanno lo stesso numero di [[sottogruppi]]; in più per ogni sottogruppo $H$ di $G_{1}$, esiste un sottogruppo $H'$ di $G_{2}$ con la stessa cardinalità: $\forall H < G_{1} (f(H) < G_{2})$, inoltre $\forall n \geq 1 (|\{H < G_{1} : |H| = n \}| = |\{H < G_{2} := |H'| = n\}|)$
 

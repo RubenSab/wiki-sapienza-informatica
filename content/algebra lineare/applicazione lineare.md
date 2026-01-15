@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-12-18T12:29:54.071+01:00
+updated_at: 2026-01-15T12:14:16.944+01:00
 ---
 > Un'*[[applicazione]] lineare*, anche detta *trasformazione lineare*, è un [[omomorfismo]] tra [[spazio vettoriale|spazi vettoriali]] (definiti sullo stesso [[campo]]) che preserva le combinazioni lineari.
 
@@ -16,10 +16,14 @@ $$
 \forall x_{i} \in V, \forall \lambda_{i} \in K \quad f(\lambda_{1} x_{1}  + \dots + \lambda_{n} x_{n}) = \lambda_{1} f(x_{1}) + \dots + a_{n} f(x_{n})
 $$
 
-> $V \xrightarrow{f} V$ è detta *endomorfismo* di $V$. Se è biiettiva ($V \xleftrightarrow[f^{-1}]{f} V$), viene chiamata *automorfismo* di $V$.
+> L'applicazione $V \xrightarrow{f} V$ è detta *endomorfismo* di $V$;
+> se è biiettiva ($V \xleftrightarrow[f^{-1}]{f} V$), viene chiamata *automorfismo* di $V$.
 
 > Osservazione: un'applicazione lineare iniettiva manda [[sottoinsiemi]] del dominio di [[vettori linearmente indipendenti]] in sottoinsiemi del codominio linearmente indipendenti.
 
+Esempi di applicazioni/trasformazioni lineari in $\mathbb{R}^{2}$:
+
+![[Pasted image 20260115114517.png]]
 # Matrice associata
 
 Dato che la trasformazione lineare $f$ trasforma allo stesso modo tutti i vettori, è utile descriverla come **"azione" sui vettori di una base** qualsiasi del dominio, in particolare della sua [[spazio vettoriale#^9fd07c|base canonica]].
@@ -48,7 +52,17 @@ $$
 
 # Kernel
 
-> Il *Kernel*, o *nucleo* di $f$ è l'insieme $\ker(f) = \{v \in V: f(v) = 0_{V'}\}$, cioè l'insieme di vettori di $V$ che, se trasformati da $f$, puntano all'origine di $V'$. Per definizione $\text{ker}(f)$ è un sottospazio vettoriale di $V$.
+> Il *Kernel*, o *nucleo* di $f$ è l'insieme $\ker(f) = \{v \in V: f(v) = 0_{V'}\}$, cioè **l'insieme di vettori di $V$ che, se trasformati da $f$, puntano all'origine di $V'$**. Per definizione $\text{ker}(f)$ è un sottospazio vettoriale di $V$.
+
+Per trovare il kernel di un'applicazione lineare, basta trovare i vettori che puntano allo zero di $V'$ risolvendo il [[sistema di equazioni lineari]] $v \cdot M = 0_{V'}$, dove $v \in V$ e $M$ è la matrice associata.
+
+Ad esempio, in $\mathbb{R}^{2}$ con $M = \begin{pmatrix} 2 & 0 \\ 1 & 3 \end{pmatrix}$:
+
+$$
+\begin{pmatrix} x \\ y \end{pmatrix} \begin{pmatrix} 2 & 0 \\ 1 & 3 \end{pmatrix} = \begin{pmatrix} 0 \\ 0 \end{pmatrix} \quad \to \quad x \begin{pmatrix} 2 \\ 1 \end{pmatrix} + y \begin{pmatrix} 0 \\ 3 \end{pmatrix} = \begin{pmatrix} 0 \\ 0 \end{pmatrix} \quad \to \quad \begin{cases} 2x + y = 0 \\ x + 3y = 0 \end{cases} \quad \to \quad \begin{pmatrix} x \\ y \end{pmatrix} = \begin{pmatrix} 0 \\ 0 \end{pmatrix}
+$$
+
+Quindi $\ker\left(\begin{pmatrix} 2 & 0 \\ 1 & 3 \end{pmatrix} \right) = \left\{ \begin{pmatrix} 0 \\ 0 \end{pmatrix} \right\}$ (il sottospazio vettoriale triviale): solo $\begin{pmatrix} 0 \\ 0 \end{pmatrix}$ punta all'origine di $V'$.
 
 # Teorema della dimensione
 

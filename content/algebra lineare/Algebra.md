@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-01-14T19:30:36.620+01:00
+updated_at: 2026-01-15T11:58:46.603+01:00
 ---
 > [Materiale del corso](https://drive.google.com/drive/folders/1IBBff-5DaA1tpisj7XJSW9FGGEKoE26N)
 
@@ -88,8 +88,9 @@ updated_at: 2026-01-14T19:30:36.620+01:00
 - [x] Capire se una matrice è invertibile;
 - [x] Invertire le matrici;
 - [x] Calcolare il determinante delle matrici: 2x2 e regola di Sarrus per le 3x3;
+- [x] Conversione di coordinate, matrice associata
 - [ ] Trovare il kernel delle applicazioni lineari partendo dalla matrice associata;
-- [ ] Determinare la span e la dimensione di uno spazio vettoriale, passare da un insieme di basi alla forma chiusa.
+- [x] Determinare la span e la dimensione di uno spazio vettoriale, passare da un insieme di basi alla forma chiusa.
 
 # Altro
 

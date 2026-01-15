@@ -34,12 +34,27 @@
             }
           },
           {
-            "id": "80de24dd5bf40051",
+            "id": "404c9eb146cef8ea",
             "type": "leaf",
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "https://drive.google.com/drive/folders/1IBBff-5DaA1tpisj7XJSW9FGGEKoE26N",
+                "title": "Algebra 2025-2026 (Informatica) - Google Drive",
+                "mode": "webview"
+              },
+              "icon": "globe-2",
+              "title": "Algebra 2025-2026 (Informatica) - Google Drive"
+            }
+          },
+          {
+            "id": "3887ae5bebc521f1",
+            "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "algebra lineare/spazio vettoriale.md",
+                "file": "algebra lineare/applicazione lineare.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -53,12 +68,37 @@
                   "unlinkedCollapsed": true
                 }
               },
+              "pinned": true,
               "icon": "lucide-file",
-              "title": "spazio vettoriale"
+              "title": "applicazione lineare"
+            }
+          },
+          {
+            "id": "ea785150b054ce66",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "algebra lineare/applicazione lineare.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "applicazione lineare"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -115,7 +155,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "span",
+                "query": "\"matrice associata\"",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -229,7 +269,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 354.5
+    "width": 354.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -245,22 +286,25 @@
       "new-3d-graph:Open 3d graph": false
     }
   },
-  "active": "80de24dd5bf40051",
+  "active": "ea785150b054ce66",
   "lastOpenFiles": [
-    "algebra lineare/formula di Grassmann.md",
+    "algebra lineare/algoritmo di Gauss per trovare la matrice inversa.md",
+    "algebra lineare/applicazione lineare.md",
+    "algebra lineare/Algebra.md",
+    "algebra lineare/Pasted image 20260115114517.png",
+    "algebra lineare/omomorfismo.md",
+    "algebra lineare/isomorfismo.md",
     "algebra lineare/spazio vettoriale.md",
+    "algebra lineare/formula di Grassmann.md",
     "algebra lineare/teorema di Rouché-Capelli.md",
     "algebra lineare/vettori linearmente indipendenti.md",
-    "algebra lineare/Algebra.md",
     "algebra lineare/metodo di Gauss.md",
     "algebra lineare/rango.md",
     "algebra lineare/sistema di equazioni lineari.md",
     "algebra lineare/piccolo teorema di Fermat.md",
-    "algebra lineare/algoritmo di Gauss per trovare la matrice inversa.md",
     "algebra lineare/gruppo quoziente.md",
     "algebra lineare/anello.md",
     "algebra lineare/proiezione canonica.md",
-    "algebra lineare/applicazione lineare.md",
     "algebra lineare/primo teorema dell'omomorfismo.md",
     "algebra lineare/diagramma.md",
     "basi di dati/Basi di dati.md",
@@ -271,18 +315,14 @@
     "algebra lineare/Pasted image 20260114133112.png",
     "algebra lineare/spazio vettoriale di matrici.md",
     "interdisciplinare/algoritmo.md",
-    "algebra lineare/isomorfismo.md",
     "interdisciplinare/funzione.md",
     "algebra lineare/determinante.md",
-    "architettura degli elaboratori/matrici in RISC-V.md",
-    "calcolo delle probabilità/indipendenza di due eventi.md",
     "foto/IMG-20251011-WA0005.jpg",
     "foto/IMG-20251011-WA0002.jpg",
     "foto/IMG-20251011-WA0001.jpg",
     "algebra lineare/Pasted image 20251218113905.png",
     "algebra lineare/Screenshot From 2025-12-18 11-29-56.png",
     "algebra lineare/Pasted image 20251218113513.png",
-    "interdisciplinare/Pasted image 20251210103843.png",
     "relazione tra tabelle master",
     "foto",
     "calcolo delle probabilità/Untitled",

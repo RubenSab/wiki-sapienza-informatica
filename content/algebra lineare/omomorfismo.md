@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-12-07T16:53:52.986+01:00
+updated_at: 2026-01-15T11:31:57.878+01:00
 ---
 > In generale, un *omomorfismo* è un'[[applicazione]] tra due [[Algebra|strutture algebriche]] dello stesso tipo che conserva le operazioni in esse definite.
 
@@ -16,6 +16,8 @@ Ovviamente si può anche scrivere in notazione additiva:
 1. $f(0_{1}) = 0_{2}$
 2. $f(-a) = -f(a)$
 3. $f(a + b) = f(a) + f(b)$
+
+*Vedi [[applicazione lineare]]*.
 
 > Sia $G_{1} \overset{f}{\to} G_{2}$ un omomorfismo di gruppi. Se $f$ è [[proprietà, tipi di relazioni e ordini|biettiva]], si dice che $f$ è un *[[isomorfismo]]*.
 

@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-01-15T11:13:03.554+01:00
+updated_at: 2026-01-15T11:18:07.608+01:00
 ---
 > sia $K$ un [[campo]] (contiene gli *scalari*) e $V = (V, +, 0_{V})$ un [[gruppo abeliano]] (contiene i *vettori*) in [[gruppo#^963e43|notazione additiva]]. Si dice che $V$ è un *$K$-spazio vettoriale* o uno *spazio vettoriale su $K$* se, oltre all'operazione binaria commutativa in $V$, esiste anche un'operazione binaria (moltiplicazione per uno scalare) $K \times V \to V$, dove $(\lambda, v) \mapsto \lambda \cdot v$ tale che $\forall \alpha, \beta \in K, \quad v, w \in V$, indicata con $\langle v, w\rangle$.
 
@@ -79,7 +79,7 @@ $$
 
 - ***Coordinate***: L'insieme delle coordinate di un vettore rispetto a una base di uno spazio vettoriale è la sua rappresentazione come vettore, il quale ha come componenti i coefficienti della combinazione lineare dei vettori della base. Se non si specifica la base, si intende sempre che le coordinate del vettore sono espresse sulla la base canonica.
   Ad esempio il vettore su $\mathbb{R}^{2}$ che punta a $(2, 1)$ (nel sistema di coordinate definito dalla base canonica) si scrive $\begin{pmatrix} 2 \\ 1 \end{pmatrix}$ in base canonica $\left\{\begin{pmatrix} 1 \\ 0 \end{pmatrix}, \begin{pmatrix} 0 \\ 1 \end{pmatrix}\right\}$, però si scrive $\begin{pmatrix} 1 \\ 3 \end{pmatrix}$ se convertito nel sistema di coordinate definito dalla base $\left\{\begin{pmatrix} 2 \\ 0 \end{pmatrix}, \begin{pmatrix} 0 \\ \frac{1}{3} \end{pmatrix}\right\}$. ^7c0bd0
-- ***Dimensione***: $\text{dim}(V)$ è il numero di vettori generatori liberi di $V$ (cioè la cardinalità della sua base): intuitivamente corrisponde al numero di "gradi di libertà" di $V$. Ad esempio $\text{dim}(\mathbb{R}^{2}) = 2$, perché il piano cartesiano è bidimensionale. ^9b5e71
+- ***Dimensione***: $\text{dim}(V)$ è il numero di vettori generatori liberi di $V$ (cioè la [[cardinalità]] della sua **base**): intuitivamente corrisponde al numero di "gradi di libertà" di $V$. Ad esempio $\text{dim}(\mathbb{R}^{2}) = 2$, perché il piano cartesiano è bidimensionale. ^9b5e71
   È il concetto alla base della [[formula di Grassmann]].
 - ***Codimensione***: $\text{cod}(S) = \dim(E) - \dim(S)$ è la differenza tra la dimensione dello spazio vettoriale $E$ (di cui $S$ è sottospazio) e quella di $S$. Intuitivamente è il numero di "gradi di libertà in meno" di $S$ rispetto ad $E$ che lo contiene. ^7d93b7
 - ***Iperpiano***: è uno sottospazio vettoriale con $\text{cod} = 1$.
