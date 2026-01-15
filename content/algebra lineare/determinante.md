@@ -1,11 +1,13 @@
 ---
-updated_at: 2026-01-15T12:32:24.141+01:00
+updated_at: 2026-01-15T17:02:22.067+01:00
 ---
 > Il *determinante* di una [[spazio vettoriale di matrici|matrice]] $\begin{pmatrix} a & b \\ c & d \end{pmatrix} \in \mathcal{M}_{2, 2}(K)$ è definito come $\det\begin{pmatrix} a & b \\ c & d \end{pmatrix} = ad-bc \in K$
 
 - Il determinante delle matrici $3 \times 3$ si può applicare la [[regola di Sarrus]].
 
 > N.B.: Se la matrice ha **più colonne che righe**, il determinante **non è definito**.
+
+> N.B: Se ci sono righe o colonne [[vettori linearmente indipendenti|dipendenti]] fra loro, il determinante è 0.
 
 # Lemma 1
 

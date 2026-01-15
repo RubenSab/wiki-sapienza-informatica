@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-01-15T12:36:41.429+01:00
+updated_at: 2026-01-15T17:03:12.951+01:00
 ---
 > Due [[spazio vettoriale|vettori]] si dicono *linearmente indipendenti* su $K$, dati gli scalari $\lambda_{1}, \ldots, \lambda_{n} \in K$, se non esistono combinazioni lineari non [[spazio vettoriale#^a51465|banali]] $\lambda_{1} v_{1} + \ldots + \lambda_{n} v_{n}$ uguali a $0_{V}$ (origine/vettore nullo), altrimenti sono *linearmente indipendenti*.
 
@@ -19,7 +19,7 @@ Esempio in $\mathbb{R}^{3}$: $v_{1} = \begin{pmatrix} 2 \\ 2 \\ 2 \end{pmatrix},
 
 Intuitivamente, dato che il determinante può essere visto come il **fattore di scala** di quanto una [[applicazione lineare]] **deforma** l'area/volume/iper-volume etc. del quadrilatero/parallelepipedo/iper-parallelepipedo etc. definito dai vettori unitari della base canonica di $K^{n}$, è evidente che se almeno due vettori dell'insieme studiato sono con-lineari allora l'applicazione lineare proietta lo spazio vettoriale di dimensione $n$ in uno di dimensione $n-1$, appiattendo l'area/volume/iper-volume etc, cioè rendendola **nulla**.
 
-Ad esempio, i vettori colonna della matrice $\begin{pmatrix} 1 & 2 & 0 \\ 1 & 2 & -1 \\ 0 & 0 & 1 \end{pmatrix}$ sono linearmente dipendenti perché descrivono lo spazio vettoriale $\begin{cases} \begin{pmatrix} x \\ y \\ z \end{pmatrix} :\ x = -2y,\ c = 0\end{cases}$, [[isomorfismo|isomorfo]] a $\mathbb{R}^{2}$.
+Ad esempio, i vettori colonna della matrice $\begin{pmatrix} 1 & 2 & 0 \\ 1 & 2 & -1 \\ 0 & 0 & 1 \end{pmatrix}$ sono linearmente dipendenti perché descrivono lo spazio vettoriale $\begin{cases} \begin{pmatrix} x \\ y \\ z \end{pmatrix} :\ x = -2y,\ z = 0\end{cases}$, [[isomorfismo|isomorfo]] a $\mathbb{R}^{2}$.
 Quindi si può dire che la trasformazione lineare ha determinante 0 perché **proietta il cubo** definito in $\mathbb{R}^{3}$ da $\begin{pmatrix} 1 \\ 0 \\ 0 \end{pmatrix}, \begin{pmatrix} 0 \\ 1 \\ 0 \end{pmatrix}, \begin{pmatrix} 0 \\ 0 \\ 1 \end{pmatrix}$ in un parallelogramma in $\mathbb{R}^{2}$, **scalando il suo volume a 0**.
 
 # Esempi

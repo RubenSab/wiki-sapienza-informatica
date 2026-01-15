@@ -79,6 +79,30 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "algebra lineare/spazio vettoriale quoziente.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "spazio vettoriale quoziente"
+            }
+          },
+          {
+            "id": "25408144d856a85a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "algebra lineare/vettori linearmente indipendenti.md",
                 "mode": "source",
                 "source": false,
@@ -98,7 +122,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -155,7 +179,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"matrice associata\"",
+                "query": "iper-vol",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -269,8 +293,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 354.5,
-    "collapsed": true
+    "width": 354.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -286,19 +309,21 @@
       "new-3d-graph:Open 3d graph": false
     }
   },
-  "active": "ea785150b054ce66",
+  "active": "25408144d856a85a",
   "lastOpenFiles": [
-    "algebra lineare/spazio vettoriale.md",
-    "algebra lineare/determinante.md",
     "algebra lineare/applicazione lineare.md",
-    "algebra lineare/algoritmo di Gauss per trovare la matrice inversa.md",
+    "algebra lineare/determinante.md",
+    "algebra lineare/sottogruppi.md",
+    "algebra lineare/spazio vettoriale quoziente.md",
     "algebra lineare/Algebra.md",
+    "algebra lineare/vettori linearmente indipendenti.md",
+    "algebra lineare/spazio vettoriale.md",
+    "algebra lineare/algoritmo di Gauss per trovare la matrice inversa.md",
     "algebra lineare/Pasted image 20260115114517.png",
     "algebra lineare/omomorfismo.md",
     "algebra lineare/isomorfismo.md",
     "algebra lineare/formula di Grassmann.md",
     "algebra lineare/teorema di Rouché-Capelli.md",
-    "algebra lineare/vettori linearmente indipendenti.md",
     "algebra lineare/metodo di Gauss.md",
     "algebra lineare/rango.md",
     "algebra lineare/sistema di equazioni lineari.md",
@@ -316,7 +341,6 @@
     "algebra lineare/Pasted image 20260114133112.png",
     "algebra lineare/spazio vettoriale di matrici.md",
     "interdisciplinare/algoritmo.md",
-    "interdisciplinare/funzione.md",
     "foto/IMG-20251011-WA0005.jpg",
     "foto/IMG-20251011-WA0002.jpg",
     "foto/IMG-20251011-WA0001.jpg",
