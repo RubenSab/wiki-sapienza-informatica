@@ -1,4 +1,0 @@
-- [ ] An app to use LLMs less and more mindfully
-- [ ] App dizionario con i pesi dello spazio vettoriale delle parole, si possono impostare dinamicamente due assi per trovare parole simili a quelle sugli assi con la similarità dei coseni
-- [ ] "The two dynasties of polyhedrons"
-- [ ] Trova l'eigen-insulto con i pesi di una rete neurale
