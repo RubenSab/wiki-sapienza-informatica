@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-01-15T11:33:52.675+01:00
+updated_at: 2026-01-17T14:29:21.704+01:00
 ---
 Quando due [[Algebra|strutture algebriche]] sono isomorfe, sono indistinguibili dalla teoria dei gruppi, alla quale appaiono come se fossero la stessa struttura.
 

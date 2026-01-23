@@ -1,9 +1,9 @@
 ---
-updated_at: 2025-12-14T17:49:22.715+01:00
+updated_at: 2026-01-23T13:15:03.401+01:00
 ---
-> Una base di dati o database è un insieme di file (aggregati di informazioni omogenee, accoppiate a file di *indici*) in formati *proprietari* mutualmente connessi che serve per gestire, memorizzare, processare e comunicare dei dati utili per l'organizzazione che ne fa uso. I dati sono organizzati, secondo le loro [[relazione|relazioni]], in [[struttura dati|strutture dati]] **omogenee** progettate per facilitarne la creazione, gestione e accesso, ottimizzando [[complessità spaziale]] e [[complessità temporale|temporale]].
+> Una base di dati o database è un insieme di file mutualmente connessi (aggregati di informazioni omogenee, accoppiate a file di *indici*) in formati proprietari che serve per **gestire**, **memorizzare**, **processare** e comunicare dei dati utili per l'organizzazione che ne fa uso. I dati sono [[organizzazione fisica di un database relazionale|organizzati]], secondo le loro [[relazione|relazioni]], in [[struttura dati|strutture dati]] **omogenee** progettate per facilitarne la creazione, gestione e accesso, ottimizzando [[complessità spaziale]] e [[complessità temporale|temporale]].
 
-> Dati: fatti grezzi che devono essere **interpretati** e **correlati** dal [[DBMS (Database Management System)]] per fornire informazione. Nelle basi di dati abbiamo dati **strutturati** (in composizione quelli non strutturati del linguaggio naturale): gli oggetti sono rappresentati da brevi simboli o numeri.
+> Dati: fatti grezzi che devono essere **interpretati** e **correlati** dal [[DBMS (Database Management System)]] per fornire informazione. Nelle basi di dati abbiamo dati **strutturati** (in composizione con quelli non strutturati del linguaggio naturale): gli oggetti sono rappresentati da brevi simboli o numeri.
 
 La struttura dell'informazione dipende dal suo utilizzo e può essere modificata nel tempo; le assunzioni fatte in partenza possono non continuare a essere vere.
 
@@ -13,7 +13,7 @@ La struttura dell'informazione dipende dal suo utilizzo e può essere modificata
 
 Le basi di dati sono utili per esporre un accesso **parziale** dei dati ai vari utenti/componenti dell'organizzazione regolando gli accessi per garantire la **privacy**.
 
-La condivisione comporta la necessità di gestire accessi contemporanei agli stessi dati (controllare la **concorrenza**).
+La condivisione comporta la necessità di gestire accessi contemporanei agli stessi dati ([[controllo della concorrenza in una base di dati]]).
 
 - Un concetto fondamentale delle basi di dati è la [[transazione]].
 
@@ -22,33 +22,33 @@ La condivisione comporta la necessità di gestire accessi contemporanei agli ste
 I dati devono soddisfare dei **vincoli** che esistono nella realtà di interesse; ad esempio:
 
 - uno studente può risiedere in una sola città ([[dipendenza funzionale]]);
-- la matricola identifica univocamente uno studente (vincolo di chiave);
+- la matricola identifica univocamente uno studente (vincolo di [[chiave]]);
 - un voto è un intero positivo compreso tra 18 e 30 (vincolo di dominio);
 - la data di un evento giornaliero non può diminuire (vincolo dinamico).
 
 # Modelli di DB
 
-> **Modello logico**: è indipendente dalle **strutture fisiche** ma disponibili nei DBMS.
+> **Modello concettuale (*COSA si vuole realizzare*)**: è indipendente dalle **modalità di realizzazione**. Ha lo scopo di rappresentare le entità del mondo reale e le loro relazioni nelle prime fasi della progettazione (es: entità-relazioni).
+
+> **Modello logico (*COME lo si vuole realizzare*)**: è indipendente dalle **strutture fisiche**, ma disponibile nei DBMS.
 
 - [[modello reticolare (network)]]
 - [[modello gerarchico (hierarchical)]]
 - [[database relazionali|modello relazionale]]
 - [[modello ad oggetti (object)]]
 
-> **Modello concettuale**: è indipendente dalle **modalità di realizzazione**. Hanno lo scopo di rappresentare le entità del mondo reale e le loro relazioni nelle prime fasi della progettazione (es: entità-relazioni).
-
 # 3 livelli di astrazione dei DB
 
-1. Schema fisico: l'insieme dei file
-2. Schema logico: la struttura "principale" che descrive la relazione tra i dati, ad esempio le tabelle per i DB relazionali. Questo livello e il successivo sono completamente indipendenti da quello fisico.
-3. Schema esterno esposto agli utenti: la descrizione **parziale** della base di dati in [[vista|viste]] (indipendenti dallo schema logico) che possono prevedere organizzazioni dei dati diverse rispetto a quelle utilizzate nello schema logico secondo l'esigenza e il **privilegio di accesso** delle tipologie di utenti. **Tutti gli accessi al DB avvengono attraverso questo livello**.
+1. Schema **fisico**: l'insieme dei file
+2. Schema **logico**: la struttura "principale" che descrive la relazione tra i dati, ad esempio le [[tabella|tabelle]] per i DB relazionali. Questo livello e il successivo sono **completamente indipendenti** da quello fisico.
+3. Schema **esterno** esposto agli utenti: la descrizione **parziale** della base di dati in [[vista|viste]] (indipendenti dallo schema logico) che possono prevedere organizzazioni dei dati diverse rispetto a quelle utilizzate nello schema logico secondo l'esigenza e il **privilegio di accesso** delle tipologie di utenti. **Tutti gli accessi al DB avvengono attraverso questo livello**.
 
-## Linguaggi per i DB
+## Linguaggi per i DB: Definizione e Manipolazione di dati
 
 ^0fa783
 
-- DDL: *Data Definition Language* per la definizione di schemi logici, esterni, fisici e altro.
-- DML: *Data Manipulation Language* per l'interrogazione e l'aggiornamento di istanze di basi di dati.
+- DDL: ***Data Definition Language*** per la definizione di schemi logici, esterni, fisici e altro.
+- DML: ***Data Manipulation Language*** per l'interrogazione e l'aggiornamento di istanze di basi di dati.
 
 [[SQL]]: *Structured Query Language* lo standard universale di linguaggio per i database relazionali. È sia DDL che DML.
 
@@ -60,7 +60,7 @@ I dati devono soddisfare dei **vincoli** che esistono nella realtà di interesse
 - Hardware del computer
 - Personale che sviluppa, gestisce o usa il sistema.
 
-# Storia dei DB
+# Antenati dei DB
 
 Negli antichi sistemi informativi, la gestione dei dati veniva affidata a un file system. I file venivano manipolati da linguaggi orientati alla gestione dei file come COBOL.
 

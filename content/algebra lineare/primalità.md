@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-12-09T19:12:17.724+01:00
+updated_at: 2026-01-17T14:06:11.952+01:00
 ---
 Dato un [[anello]] $A$, definiamo $a \in A - A^{\times}$, cioè $a$ è un elemento non invertibile di $A$.
 

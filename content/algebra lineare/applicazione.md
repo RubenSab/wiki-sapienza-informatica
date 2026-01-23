@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-12-09T21:36:49.960+01:00
+updated_at: 2026-01-17T14:00:34.978+01:00
 ---
 > Una [[corrispondenza]] si dice [[applicazione]] se $\forall a \in X,\ \exists !\ b \in Y : (a, b) \in \Gamma$. In questo caso si dice che $b = f(a)$ e si scrive anche $X \xrightarrow{f} Y$ (applicazione $f$ da $X$ a $Y$).
 

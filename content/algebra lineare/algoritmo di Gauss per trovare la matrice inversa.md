@@ -1,11 +1,14 @@
 ---
-updated_at: 2026-01-14T13:24:58.606+01:00
+updated_at: 2026-01-15T17:07:29.237+01:00
 ---
 > L'algoritmo di Gauss permette di trovare l'inversa di una [[spazio vettoriale di matrici|matrice]] $A \in \mathcal{M}_{n,n}$:
 
 1. prima si verifica con il calcolo del [[determinante]] se è invertibile.
 2. Se sì, si usa il [[metodo di Gauss]] per mettere $(A \mid I_{n})$ [[metodo di Gauss#^5fdd04|in forma ridotta]].
 3. Si troverà la matrice $(I_{n} \mid A^{-1})$, da cui isolare graficamente $A^{-1}$.
+
+> N.B.: se il [[rango]] della matrice non è massimale, la matrice non è invertibile.
+
 
 Partiamo da un esempio:
 

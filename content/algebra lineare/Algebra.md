@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-01-15T15:54:24.357+01:00
+updated_at: 2026-01-22T10:39:30.089+01:00
 ---
 > [Materiale del corso](https://drive.google.com/drive/folders/1IBBff-5DaA1tpisj7XJSW9FGGEKoE26N)
 
@@ -74,7 +74,6 @@ updated_at: 2026-01-15T15:54:24.357+01:00
 ### Algebra astratta
 
 - [x] Calcolare il massimo comun divisore con l'algoritmo della divisione euclidea;
-- [ ] Risolvere le equazioni e sistemi congruenziali anche con potenze enormi;
 - [x] Decomporre le permutazioni e calcolarne ordine, parità e segnatura;
 - [x] Trovare isomorfismi tra gruppi;
 - [x] Trovare il sottogruppo generato da un insieme;
@@ -96,4 +95,4 @@ updated_at: 2026-01-15T15:54:24.357+01:00
 
 - [[Esercizi su strutture algebriche e divisibilità]]
 - [[orrore]]
-- [[Esercizi 21 novembre]]
+- [[Esercizi 21 novembre 2025]]

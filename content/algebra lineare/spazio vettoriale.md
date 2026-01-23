@@ -1,7 +1,7 @@
 ---
-updated_at: 2026-01-15T11:18:07.608+01:00
+updated_at: 2026-01-17T14:42:17.528+01:00
 ---
-> sia $K$ un [[campo]] (contiene gli *scalari*) e $V = (V, +, 0_{V})$ un [[gruppo abeliano]] (contiene i *vettori*) in [[gruppo#^963e43|notazione additiva]]. Si dice che $V$ è un *$K$-spazio vettoriale* o uno *spazio vettoriale su $K$* se, oltre all'operazione binaria commutativa in $V$, esiste anche un'operazione binaria (moltiplicazione per uno scalare) $K \times V \to V$, dove $(\lambda, v) \mapsto \lambda \cdot v$ tale che $\forall \alpha, \beta \in K, \quad v, w \in V$, indicata con $\langle v, w\rangle$.
+> sia $K$ un [[campo]] (contiene gli *scalari*) e $V = (V, +, 0_{V})$ un [[gruppo abeliano]] (contiene i *vettori*) in [[gruppo#^963e43|notazione additiva]]. Si dice che $V$ è un *$K$-spazio vettoriale* o uno *spazio vettoriale su $K$* se, oltre alla somma tra vettori (operazione binaria commutativa in $V$) esiste anche la moltiplicazione tra un vettore e uno scalare $K \times V \to V$, dove $(\lambda, v) \mapsto \lambda \cdot v$.
 
 > Gli elementi di $K$ si chiamano *scalari*, mentre quelli di $V$ si chiamano vettori.
 
@@ -36,7 +36,7 @@ $$
 
 Esempio con $V = \mathbb{R}^{2}, K = \mathbb{R}$:
 
-## Prodotto tra vettori
+## Prodotto scalare ($V, V \to K$) (operazione aggiuntiva)
 
 ^839926
 

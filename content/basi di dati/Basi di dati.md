@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-12-16T16:17:27.684+01:00
+updated_at: 2026-01-23T13:52:15.810+01:00
 ---
 > [Materiale del corso](https://sites.google.com/di.uniroma1.it/basididati-modulo1canalem-z/home-page/materiale-del-corso)
 
@@ -13,9 +13,10 @@ updated_at: 2025-12-16T16:17:27.684+01:00
 	- [[dipendenza funzionale]]
 	- [[dipendenza parziale]]
 	- [[dipendenza transitiva]]
-- Chiusure di attributi:
+- Chiusure:
+	- [[dipendenza funzionale#^68cd7e|chiusura di un insieme di dipendenze]]
+		- [[chiusura di un insieme di attributi]]
 	- [[chiusura di Armstrong]]
-	- [[chiusura di un insieme di attributi]]
 	- [[algoritmo per il calcolo della chiusura di un insieme di attributi]]
 	- [[algoritmo per il calcolo delle chiavi]]
 - Terza forma normale e decomposizione

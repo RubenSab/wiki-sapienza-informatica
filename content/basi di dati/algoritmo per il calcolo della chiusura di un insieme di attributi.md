@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-11-23T17:14:54.090+01:00
+updated_at: 2026-01-23T14:10:35.229+01:00
 ---
 > È migliore dell'applicazione indiscriminata degli [[chiusura di Armstrong|assiomi di Armstrong]] per calcolare $X^{+}$, ha complessità polinomiale.
 

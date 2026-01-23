@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-11-30T11:27:23.556+01:00
+updated_at: 2026-01-17T14:44:26.058+01:00
 ---
 È una "versione arricchita" del concetto di [[sottogruppi|sottogruppo]].
 
@@ -9,7 +9,7 @@ updated_at: 2025-11-30T11:27:23.556+01:00
 Criteri equivalenti:
 
 1. $W$ è un sottospazio vettoriale di $V$ se e solo se $\forall w, w' \in W,\ \forall \lambda \in K\ (w + \lambda w' \in W)$.
-2. $\forall \alpha, \alpha' \in K,\ \forall w, w' \in W\ (\alpha w + \alpha' w' \in W)$.
+2. $\forall \alpha, \alpha' \in K,\ \forall w, w' \in W\ (\alpha w + \alpha' w' \in W)$ (chiusura per combinazione lineare).
    La proposizione (2) è un caso generale della proposizione (1), ma in realtà $1 \implies 2$.
 
 > Si noti che se $W$ è un sottospazio vettoriale di $V$, allora con le operazioni di $V$, $W$ è esso stesso uno spazio vettoriale. $W$ è esso stesso un sottospazio vettoriale di $K$.

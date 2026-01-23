@@ -1,7 +1,7 @@
 ---
-updated_at: 2025-12-10T10:05:07.184+01:00
+updated_at: 2026-01-17T14:13:52.109+01:00
 ---
-> Un gruppo è una quadrupla $(G, *, e, {}^{-1})$ dove:
+> Un gruppo è una quadrupla $(G, *, e, {g}^{-1})$ dove:
 
 1. **$G$** è un [[insieme|insieme]] non vuoto.
 2. **$*$** è un'operazione binaria **non necessariamente commutativa** $G \times G \to G$ ("prodotto" o "legge di composizione").

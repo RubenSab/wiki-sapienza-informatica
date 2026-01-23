@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-12-18T12:52:45.582+01:00
+updated_at: 2026-01-17T14:51:37.525+01:00
 ---
 > Dato uno [[spazio vettoriale]] $V$ e un suo [[sottospazio vettoriale]] $U$, lo *spazio quoziente* $V/U$ è l'[[insieme quoziente]] di $V$ per $\sim$, la relazione d'equivalenza
 
