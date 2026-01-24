@@ -1,7 +1,7 @@
 ---
-updated_at: 2025-10-05T17:32:36.259+02:00
+updated_at: 2026-01-23T19:55:11.570+01:00
 ---
-> È una sequenza di operazioni (concretamente un [[processo]]) che costituiscono un'unica operazione logica che agisce sulla [[database]].
+> È una sequenza di operazioni (concretamente un processo) che costituiscono un'unica operazione logica che agisce sulla [[database]].
 
 Deve essere:
 

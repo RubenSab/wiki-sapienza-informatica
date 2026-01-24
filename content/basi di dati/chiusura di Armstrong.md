@@ -1,8 +1,9 @@
 ---
-updated_at: 2025-12-18T17:18:03.807+01:00
+updated_at: 2026-01-24T16:21:35.633+01:00
 ---
-> L'insieme di [[dipendenza funzionale|dipendenze funzionali]] $F^{A}$ è definito come l'insieme di tutte le dipendenze funzionali ottenute con gli *assiomi di Armstrong*.
+> L'insieme di [[dipendenza funzionale|dipendenze funzionali]] $F^{A}$ è definito come l'[[insieme]] di tutte le dipendenze funzionali ottenute con gli *assiomi di Armstrong* dall'insieme $F$ di uno schema $R$.
 
+Si dimostra che $F^{A} = F^{+}$ ([[chiusura di un insieme di dipendenze funzionali]]).
 # Assiomi di Armstrong
 
 - se $f \in F$ allora $f \in F^{A}$

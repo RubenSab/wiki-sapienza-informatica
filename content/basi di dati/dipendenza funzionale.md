@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-01-23T13:51:59.716+01:00
+updated_at: 2026-01-24T16:20:48.650+01:00
 ---
 > Una dipendenza funzionale stabilisce un particolare legame semantico tra due [[insieme|insiemi]] non vuoti di attributi $X$ e $Y$ appartenenti ad uno [[tabella#^ec7c8e|schema]] $R$.
 
@@ -14,14 +14,7 @@ Ad esempio il modello di macchina "Punto" **determina** la marca "Fiat". L'impor
 
 > Chiamiamo $F$ l'insieme di tutte le dipendenze funzionali **definite esplicitamente** di uno schema di [[relazione]] soddisfatte da un'[[tabella|istanza]] per essere definita **legale**.
 
-> Chiamiamo $F^{+}$ la ***chiusura di $F$*** l'insieme di tutte le dipendenze funzionali **soddisfatte** da un'istanza, anche quelle banali o quelle **che emergono implicitamente** dalle dipendenze funzionali definite esplicitamente.
-
-^68cd7e
-
-Ovviamente $F \subseteq F^{+}$.
-
-Calcolare $F^{+}$ è molto difficile, però si può [[chiusura di Armstrong#^9563ac|dimostrare]] che questo insieme coincide con la [[chiusura di Armstrong]] ($F^{A}$), più facile da calcolare.
-
+- [[chiusura di un insieme di dipendenze funzionali]]
 
 # Dipendenze funzionali banali
 

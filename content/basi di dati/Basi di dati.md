@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-01-23T13:52:15.810+01:00
+updated_at: 2026-01-24T16:21:49.514+01:00
 ---
 > [Materiale del corso](https://sites.google.com/di.uniroma1.it/basididati-modulo1canalem-z/home-page/materiale-del-corso)
 
@@ -15,7 +15,8 @@ updated_at: 2026-01-23T13:52:15.810+01:00
 	- [[dipendenza transitiva]]
 - Chiusure:
 	- [[dipendenza funzionale#^68cd7e|chiusura di un insieme di dipendenze]]
-		- [[chiusura di un insieme di attributi]]
+	- [[chiusura di un insieme di attributi]]
+	- [[chiusura di un insieme di dipendenze funzionali]]
 	- [[chiusura di Armstrong]]
 	- [[algoritmo per il calcolo della chiusura di un insieme di attributi]]
 	- [[algoritmo per il calcolo delle chiavi]]
