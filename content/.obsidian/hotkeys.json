@@ -20,7 +20,13 @@
   "app:go-back": [
     {
       "modifiers": [
-        "Mod"
+        "Alt"
+      ],
+      "key": "ArrowLeft"
+    },
+    {
+      "modifiers": [
+        "Alt"
       ],
       "key": "ArrowUp"
     }
@@ -28,7 +34,14 @@
   "app:go-forward": [
     {
       "modifiers": [
-        "Mod"
+        "Mod",
+        "Alt"
+      ],
+      "key": "ArrowRight"
+    },
+    {
+      "modifiers": [
+        "Alt"
       ],
       "key": "ArrowDown"
     }
