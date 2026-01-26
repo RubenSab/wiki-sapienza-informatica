@@ -46,12 +46,12 @@
             }
           },
           {
-            "id": "525d14f0738ca1a6",
+            "id": "8d39a28fcab22c0a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "calcolo delle probabilità/legge della probabilità totale.md",
+                "file": "calcolo delle probabilità/distribuzione di Bernoulli.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -66,16 +66,26 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "legge della probabilità totale"
+              "title": "distribuzione di Bernoulli"
             }
           },
           {
-            "id": "8557ddeef55d56cd",
+            "id": "809aed71efb972eb",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "f23e84700260624a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "calcolo delle probabilità/Calcolo delle probabilità.md",
+                "file": "calcolo delle probabilità/distribuzione binomiale.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -90,11 +100,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Calcolo delle probabilità"
+              "title": "distribuzione binomiale"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -134,7 +144,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 283.5
+    "width": 283.5,
+    "collapsed": true
   },
   "right": {
     "id": "26b38658cac3fe47",
@@ -281,14 +292,14 @@
       "new-3d-graph:Open 3d graph": false
     }
   },
-  "active": "8557ddeef55d56cd",
+  "active": "8d39a28fcab22c0a",
   "lastOpenFiles": [
-    "calcolo delle probabilità/distribuzione geometrica.md",
-    "calcolo delle probabilità/Calcolo delle probabilità.md",
     "calcolo delle probabilità/distribuzione binomiale.md",
     "calcolo delle probabilità/distribuzione di Bernoulli.md",
-    "calcolo delle probabilità/distribuzione di Poisson 🐟.md",
+    "calcolo delle probabilità/Calcolo delle probabilità.md",
     "calcolo delle probabilità/legge della probabilità totale.md",
+    "calcolo delle probabilità/distribuzione geometrica.md",
+    "calcolo delle probabilità/distribuzione di Poisson 🐟.md",
     "calcolo delle probabilità/teorema di Bayes.md",
     "calcolo delle probabilità/misura di probabilità.md",
     "calcolo delle probabilità/probabilità condizionata.md",
