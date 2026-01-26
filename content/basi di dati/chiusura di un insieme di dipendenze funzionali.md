@@ -1,7 +1,7 @@
 ---
-updated_at: 2026-01-24T16:21:02.562+01:00
+updated_at: 2026-01-24T16:25:30.824+01:00
 ---
-> Chiamiamo $F^{+}$ la ***chiusura di $F$*** l'[[insieme]] di tutte le [[dipendenza funzionale|dipendenze funzionali]] **soddisfatte** da un'istanza, anche quelle banali o quelle **che emergono implicitamente** dalle dipendenze funzionali definite esplicitamente.
+> Chiamiamo $F^{+}$ la ***chiusura di $F$*** l'[[insieme]] di tutte le [[dipendenza funzionale|dipendenze funzionali]] **soddisfatte** da un'[[tabella|istanza]], anche quelle banali o quelle **che emergono implicitamente** dalle dipendenze funzionali definite esplicitamente.
 
 Ovviamente $F \subseteq F^{+}$.
 

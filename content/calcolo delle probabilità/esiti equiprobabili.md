@@ -1,7 +1,7 @@
 ---
-updated_at: 2025-11-03T13:25:35.309+01:00
+updated_at: 2026-01-25T19:49:29.614+01:00
 ---
-> Sia $\Omega$ un insieme finito, e sia $|\Omega|$ il numero degli elementi di $\Omega$ ([[cardinalità]]). Definiamo, per ogni singleton $\omega \in \Omega$, $\mathbb{P}(\{\omega\})=\frac{1}{|\Omega|}$ (tutti gli esiti sono equiprobabili).
+> Sia lo [[spazio campionario]] $\Omega$ un [[insieme]] finito, e sia $|\Omega|$ il numero degli elementi di $\Omega$ ([[cardinalità]]). Definiamo, per ogni singleton $\omega \in \Omega$, $\mathbb{P}(\{\omega\})=\frac{1}{|\Omega|}$ (tutti gli esiti sono equiprobabili).
 
 > Nota: Per ogni $A \subseteq \Omega$:
 
@@ -9,7 +9,7 @@ $$
 \mathbb{P}(A)=\mathbb{P}(\cup_{\omega \in A}\{\omega\})=\sum_{\omega \in A}{\mathbb{P(\{\omega\})}} = \sum_{\omega \in A}{\frac{1}{|\Omega|}}={\frac{1}{|\Omega|}\cdot |A|} \to \mathbb{P}(A)=\frac{|A|}{|\Omega|}\ \forall A \subseteq \Omega
 $$
 
-Cioè considerando un **evento** $A$ composto da **esisti** equiprobabili su $\Omega$, la sua probabilità è il rapporto tra gli esiti di cui è composto e **tutti** gli esiti che compongono $\Omega$.
+Cioè considerando un **evento** $A$ composto da **esisti** equiprobabili su $\Omega$, la sua [[probabilità]] è il rapporto tra ***gli esiti di cui è composto*** e ***tutti gli esiti che compongono $\Omega$.***
 
 Esempio: lancio una moneta equa
 
@@ -18,11 +18,7 @@ $$
 $$
 
 $$
-\mathbb{P}(\{T\})=\mathbb{P}(\{c\})=\frac{1}{2}
-$$
-
-$$
-F=\{\emptyset, \Omega, \{T\}, \{C\}\}
+\mathbb{P}(\{T\})=\mathbb{P}(\{C\})=\frac{1}{2}
 $$
 
 Esempio: lancio 2 monete eque
@@ -47,7 +43,7 @@ $$
 > Sia $\Omega$ un insieme finito con esiti equiprobabili. La probabilità che un evento $A$ si verifichi è
 
 $$
-\mathbb{P}=\frac{|A|}{|\Omega|}\ \forall A \subseteq \Omega
+\mathbb{P}=\frac{|A|}{|\Omega|} \quad \forall A \subseteq \Omega
 $$
 
 Notiamo che $\mathbb{P}$ soddisfa:

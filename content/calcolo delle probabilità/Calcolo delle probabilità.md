@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-12-17T15:24:16.407+01:00
+updated_at: 2026-01-25T19:35:54.147+01:00
 ---
 #todo  metti varianza e valore atteso nelle distribuzioni di probabilità continue
 
@@ -16,6 +16,7 @@ Fonte di esercizi consigliata: *Sheldon Ross - calcolo delle probabilità*
 		- [[regola della moltiplicazione]]
 		- [[permutazioni]]
 		- [[scelta di k elementi da n]]
+		- esercizi su http://www.labella.altervista.org/Maths_Problems/Permutations&Combinatios/Perm&Comb_a.html
 	- Indipendenza:
 		- [[indipendenza di due eventi]]
 		- [[indipendenza di tre eventi]]

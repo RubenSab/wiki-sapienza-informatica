@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-12-01T15:27:38.873+01:00
+updated_at: 2026-01-25T18:28:29.148+01:00
 ---
 > Il calcolo differenziale tratta di [[funzione|funzioni]] reali di variabile [[numeri reali|reale]].
 
@@ -30,4 +30,5 @@ updated_at: 2025-12-01T15:27:38.873+01:00
 ## altro
 
 - [[formulario completo del calcolo differenziale]]
-- [[esercizi di calcolo differenziale]]
+- [[esercizio con intervalli, min e max]]
+- [[esercizi con i teoremi delle funzioni]]

@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-01-23T19:29:08.089+01:00
+updated_at: 2026-01-24T17:29:58.147+01:00
 ---
 Siano $R$ uno [[tabella|schema]] di [[relazione]], $F$ un [[insieme|insieme]] di dipendenze funzionali su $R$ e $X$ un [[sottoinsiemi|sottoinsieme]] di $R$.
 
@@ -18,7 +18,7 @@ In pratica fanno parte della chiusura di un insieme di attributi $X$ **tutti que
 > N.B.: Calcolare la chiusura di un attributo "a mano" con gli assiomi di Armstrong ha [[complessità temporale]] $O(2^{n})$, perché l'assioma della riflessività e dell'aumento possono essere applicati a tutti i sottoinsiemi di $R$, quindi a $2^{n}$ [[sottoinsiemi]] ([[cardinalità]] dell'[[insieme delle parti]]).
 
 - [[algoritmo per il calcolo della chiusura di un insieme di attributi]]
-# "Lemma 1"
+# Il "Lemma 1"
 
 ^1d8ddf
 

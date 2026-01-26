@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-11-18T19:54:46.492+01:00
+updated_at: 2026-01-25T19:55:28.799+01:00
 ---
 > Una [[misura di probabilità|misura di probabilità]] su uno [[spazio campionario]] $\Omega$ è una mappa $\mathbb{P}: F \to [0, 1]$ dove $F$ è l'insieme delle parti di $\Omega$ (cioè la famiglia di tutti gli eventi) tale che:
 
@@ -7,12 +7,12 @@ updated_at: 2025-11-18T19:54:46.492+01:00
 - Per ogni collezione numerabile di eventi disgiunti vale, sia per unioni finite che infinite, che
 
 $$
-\mathbb{P}({U}_{n \geq 1} A_{n}) = \sum_{n \geq 1}{\mathbb{P}(A_{n})}
+\mathbb{P}\left(\bigcup_{n \geq 1} A_{n}\right) = \sum_{n \geq 1}{\mathbb{P}(A_{n})}
 $$
 
 *(additività della misura di probabilità)*
 
-> N.B.: In particolare, se $A \subseteq \Omega$, $A$ e $A^{c}$ (il complemento di A) sono eventi disgiunti, quindi la somma delle probabilità è la probabilità della somma.
+> N.B.: In particolare, per $A \subseteq \Omega$, $A$ e $A^{c}$ (il complemento di A) sono eventi disgiunti, quindi la somma delle probabilità è la probabilità della somma.
 
 $$
 1 = \mathbb{P}(A\cup A^{c}) = \mathbb{P}(A) + \mathbb{P}(A^{c}) \to \mathbb{P}(A^{c})=1-\mathbb{P}(a)
@@ -48,6 +48,7 @@ $$
 3. $P(A \cup B) = P(A) + P(B) - P(A \cap B)$
 4. $P(A \cup B) \leq P(A) +  P(B)$
 5. $A \leq B \implies P(A) \leq P(B) = P(A) \leq P(B - A)$
+
 # Sub-additività della misura di probabilità
 
 ^4c591d
@@ -59,7 +60,7 @@ Se $A$ e $B$ sono eventi **disgiunti**, allora $\mathbb{P}(A \cup B) = \mathbb{P
 Sia $\Omega$ è uno spazio campionario, e sia $(A_{n})_{n \geq 1}$ una collezione **crescente** di eventi, cioè
 
 $$
-A_{1} \subseteq A_{2} \subseteq A_{3} \subseteq \ldots \subseteq A_{n}
+A_{1} \subseteq A_{2} \subseteq A_{3} \subseteq \ldots \subseteq A_{n} \subseteq \dots
 $$
 
 allora:
@@ -71,7 +72,7 @@ $$
 Viceversa, se $(A_{n})_{n\geq 1}$ è una collezione **decrescente** di eventi, cioè
 
 $$
-A_{n} \subseteq \ldots \subseteq A_{3} \subseteq A_{2} \subseteq A_{1}
+A_{n} \subseteq \ldots \subseteq A_{3} \subseteq A_{2} \subseteq A_{1} \subseteq \dots
 $$
 
 allora:

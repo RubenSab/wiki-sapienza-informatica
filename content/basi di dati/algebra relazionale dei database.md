@@ -1,37 +1,35 @@
 ---
-updated_at: 2025-10-16T17:17:49.534+02:00
+updated_at: 2026-01-26T12:14:29.562+01:00
 ---
 > È un linguaggio formale completamente procedurale per interrogare una base di dati relazionali. Si fonda sul concetto di [[relazione]] matematica ed è la base dei [[database relazionali]]. Consiste di un insieme di operatori che possono essere applicati a una (operatori unari) o due (operatori binari) istanze di relazione e forniscono come risultato una nuova istanza di relazione.
 
-> N.B.: Bisogna sempre ricordare che le operazioni di [[SQL]] possono creare duplicati, quelle dell'algebra relazionale lavorano su [[insieme|insiemi]], rimuovendo/non ammettendo duplicati. 
+> N.B.: Bisogna sempre ricordare che le operazioni di [[SQL]] possono creare duplicati, mentre quelle dell'algebra relazionale lavorano su [[insieme|insiemi]], rimuovendo/non ammettendo duplicati. 
 
-> In una relazione, il numero di domini di cui si fa il prodotto cartesiano è il suo **grado**.
+> Il ***grado*** di una relazione è il numero di attributi che la compongono.
 
-> In una relazione, Il numero di tuple di una relazione è la sua **[[cardinalità]]**.
+> La ***[[cardinalità]]*** è il numero di tuple di una relazione.
 
-- In [[SQL]] il concetto di dominio si traduce concretamente nel **tipo** degli attributi.
-- Le tuple di una relazione sono tutte distinte.
-
-- [[dipendenza funzionale]]
+In [[SQL]] il concetto di **dominio** si traduce concretamente nel **tipo** degli attributi.
 
 # Operazioni
 
 ## Unarie
 
-- [[proiezione]]
-- [[selezione]]
-- [[join naturale]] 
-- [[theta join]]
+- $\pi$ [[proiezione]]
+- $\sigma$ [[selezione]]
 
 ## Binarie
 
-- [[unione]]
-- [[differenza]]
-- [[intersezione]]
-- [[prodotto cartesiano]]
+- $\bowtie$ [[join naturale]] 
+- $\bowtie_{a \theta B}$ [[theta join]]
+- $\cup$ [[unione]]
+- $-$ [[differenza]]
+- $\cap$ [[intersezione]]
+- $\times$ [[prodotto cartesiano]]
+
 ## L'unica che agisce (temporaneamente) sullo [[tabella|schema]]
 
-- [[ridenominazione]]
+- $\rho$ [[ridenominazione]]
 
 ## Esempio 1 (semplice)
 

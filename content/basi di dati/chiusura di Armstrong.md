@@ -1,9 +1,8 @@
 ---
-updated_at: 2026-01-24T16:21:35.633+01:00
+updated_at: 2026-01-24T17:29:11.495+01:00
 ---
 > L'insieme di [[dipendenza funzionale|dipendenze funzionali]] $F^{A}$ è definito come l'[[insieme]] di tutte le dipendenze funzionali ottenute con gli *assiomi di Armstrong* dall'insieme $F$ di uno schema $R$.
 
-Si dimostra che $F^{A} = F^{+}$ ([[chiusura di un insieme di dipendenze funzionali]]).
 # Assiomi di Armstrong
 
 - se $f \in F$ allora $f \in F^{A}$
@@ -14,7 +13,7 @@ Si dimostra che $F^{A} = F^{+}$ ([[chiusura di un insieme di dipendenze funziona
 - **Assioma della [[proprietà, tipi di relazioni e ordini#^7703c4|transitività]]**: se $(X \to Y) \in F^{A} \land (Y \to Z) \in F^{A}$ allora $(X \to Z) \in F^{A}$
   Esempio: `Specie` determina `Regno` e `Regno` determina `Phylum`, quindi `Specie` determina `Phylum`.
 
-Dimostreremo che $F^{+} = F^{A}$, cioè che la chiusura di un insieme di dipendenze funzionali $F$ può essere ottenuta a partire da $F$ applicando ricorsivamente gli assiomi di Armstrong.
+Dimostreremo che $F^{+} = F^{A}$, cioè che la [[chiusura di un insieme di dipendenze funzionali]] $F$ può essere ottenuta a partire da $F$ applicando ricorsivamente gli assiomi di Armstrong.
 
 ## Conseguenze
 
@@ -90,7 +89,7 @@ Sempre per il lemma della chiusura, stavolta applicato nel senso opposto, $X \to
 
 inizialmente abbiamo supposto per assurdo che $X \to Y \in F^{+} \land X \to Y \notin F^{A}$, poi abbiamo mostrato che $r$ (come definita) è un'istanza legale, quindi $r$ soddisfa $X \to Y$.
 
-Ricordiamo che per definizione le due tuple sono uguali su $X^{+}$, quindi per il lemma coincidono sugli attributi $X$ e quindi visto che $X \to Y$, allora devono anche coincidere su $Y$. Perciò $Y$ è nella chiusura di $X$ ($Y \subseteq X^{+}$) e per il lemma vale $X \to Y \in F^{A}$, contraddicendo la premessa iniziale. $\square$
+Ricordiamo che per definizione le due tuple sono uguali su $X^{+}$, quindi per il Lemma coincidono sugli attributi $X$ e quindi visto che $X \to Y$, allora devono anche coincidere su $Y$. Perciò $Y$ è nella chiusura di $X$ ($Y \subseteq X^{+}$) e per il Lemma vale $X \to Y \in F^{A}$, contraddicendo la premessa iniziale. $\square$
 
 # Implementazione in Python del calcolo "manuale" della chiusura di Armstrong
 

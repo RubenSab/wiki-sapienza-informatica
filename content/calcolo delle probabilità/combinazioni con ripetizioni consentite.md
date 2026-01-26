@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-11-03T21:09:38.348+01:00
+updated_at: 2026-01-24T18:33:54.794+01:00
 ---
 *Vedi [[contare con le biezioni]]*
 
@@ -39,7 +39,7 @@ $$
 
 ---
 
-Quante funzioni ci sono $f : \{1, 2, \ldots, n\} \mapsto \{1, 2, \ldots, k\}$ e  strettamente crescenti?
+Quante funzioni ci sono $f : \{1, 2, \ldots, n\} \mapsto \{1, 2, \ldots, k\}$ e  quante strettamente crescenti?
 
 - Numero di funzioni ([[permutazioni]]): $k^{n}$
 
@@ -48,5 +48,3 @@ Per avere funzioni strettamente crescenti assumiamo $k \geq n$.
 Una funzione strettamente crescente è codificata univocamente (quindi anche in maniera invertibile) dal suo codominio e il suo dominio (che in questo caso è sempre lo stesso per le varie funzioni).
 
 - Per ottenere tutti i codominii, quindi tutte le funzioni strettamente crescenti, bisogna scegliere $n$ elementi da $k$. Quindi $\binom{k}{n}$.
-
-#todo funzioni crescenti in generale

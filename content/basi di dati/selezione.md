@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-10-07T17:14:18.719+02:00
+updated_at: 2026-01-26T11:58:51.455+01:00
 ---
 > È l'operazione unaria che consente di selezionare sono le tuple (righe) della [[tabella]] ([[relazione]] in input) che soddisfano una data condizione.
 
@@ -19,7 +19,7 @@ Dove $\Theta$ è un operatore di confronto, $A$ e $B$ sono due attributi dello s
 Esempio: selezionare sono i clienti residenti a Roma nati dopo il 2000.
 
 $$
-\Theta_{\text{Città='Roma'}\ \land\ \text{Nascita>2000}}(\text{Cliente})
+\sigma_{\text{Città='Roma'}\ \land\ \text{Nascita>2000}}(\text{Cliente})
 $$
 
-> N.B.: La selezione non comporta la perdita di duplicati come la [[proiezione]].
+> N.B.: La selezione non elimina i duplicati, al contrario della [[proiezione]].
