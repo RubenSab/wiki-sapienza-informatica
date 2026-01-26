@@ -1,15 +1,17 @@
 ---
-updated_at: 2026-01-26T16:33:41.384+01:00
+updated_at: 2026-01-26T17:24:44.995+01:00
 ---
-> La distribuzione di Poisson con parametro $\lambda \in \mathbb{R}_{+}$ è la misura di [[probabilità]] sullo [[spazio campionario]] $\Omega = \mathbb{N}$ definita dai pesetti 
+> La distribuzione di Poisson con parametro $\lambda \in \mathbb{R}_{+}$ esprime la probabilità che avvengano $k$ di eventi in un intervallo di tempo se il [[valore atteso di una variabile aleatoria|valore atteso]] del numero di eventi ([[indipendenza di n eventi|indipendenti]]) che normalmente accadono nello stesso intervallo di tempo è $\lambda$.
+
+ È la misura di [[probabilità]] sullo [[spazio campionario]] $\Omega = \mathbb{N}$ definita dai pesetti 
 
 $$
-p_{k} = \frac{e^{-\lambda}\lambda^{k}}{k!},\ k \in \mathbb{N}, \lambda\in \mathbb{R}_{+}
+p_{k} = \frac{\lambda^{k}}{k!} \cdot e^{-\lambda}\quad k \in \mathbb{N}, \lambda\in \mathbb{R}_{+}
 $$
 
 Verifichiamo che $\forall k \in \mathbb{N}^{\star} (p_{k} \in [0, 1]) \land \sum_{k=1}^{+\infty}p_{k} = 1$:
 
-1. La prima probabilità è [[misura di probabilità#^7cf400|verificata immediatamente]]
+1. La prima proprietà ($\forall p,\ p > 0$) è [[misura di probabilità#^7cf400|verificata immediatamente]].
 2. $\sum_{k=0}^{+\infty}p_{k} = \sum_{k=0}^{+\infty} \frac{e^{-\lambda}\lambda^{k}}{k!} = e^{-\lambda} \sum_{k=0}^{+\infty} \frac{\lambda^{k}}{k!} \underset{\text{Taylor}}{=}e^{-\lambda}e^{\lambda} = 1 \quad \checkmark$
 
 # Intuizione

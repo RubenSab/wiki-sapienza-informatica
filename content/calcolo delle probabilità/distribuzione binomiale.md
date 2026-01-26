@@ -1,13 +1,26 @@
 ---
-updated_at: 2026-01-26T16:42:27.059+01:00
+updated_at: 2026-01-26T17:07:38.409+01:00
 ---
 > Per $\mathbb{N} \geq 1$, sia $\Omega = \{0, 1, 2, \ldots, N\}$. La distribuzione [[coefficiente binomiale|binomiale]] di parametri $N \in \mathbb{N}$ e $p \in [0, 1]$ è la [[misura di probabilità|misura di probabilità]] su $\Omega$ specificata dai pesetti $p_{k}$ definiti sotto.
 
 $p_{k}$ è "la [[probabilità]] di vedere esattamente $k$ teste in $N$ lanci di moneta"
 
 $$
-p_{k} = \binom{N}{k} \cdot p^{k} \cdot (1-p)^{N-k},\quad k \leq N,\ N \in \mathbb{N}
+p_{k} = \underset{\text{numero "stringhe" favorevoli}}{\underbrace{\binom{N}{k}}} \cdot \underset{\text{probabilità TESTE}}{\underbrace{p^{k}}} \cdot \underset{\text{probabilità CROCI}}{\underbrace{(1-p)^{N-k}}},\quad k \leq N,\ N \in \mathbb{N}
 $$
+
+---
+
+**Esempio**: calcoliamo la probabilità di vedere esattamente 3 teste in 5 lanci di una moneta truccata con $p=0.3$.
+
+Stiamo cercando delle stringhe che abbiamo 3 $T$, ad esempio: $\left(\underset{p = 0.3}{\underbrace{T}}\ \underset{p = 0.7}{\underbrace{C}}\  \underset{p = 0.7}{\underbrace{C}}\ \underset{p = 0.3}{\underbrace{T}}\ \underset{p = 0.3}{\underbrace{T}}\right)$, la cui probabilità di uscire è $0.3^{3} \cdot 0.7^{2}$.
+
+Quante stringhe di 3 teste come $TCCTT$ esistono? $\binom{5}{3} = 10$ ([[combinazioni senza ripetizioni]]). Quindi la probabilità di vedere esattamente 3 teste in 5 lanci di una moneta truccata con $p=0.3$ è
+
+$$
+\text{numero stringhe} \cdot \text{probabilità stringa} = \binom{5}{3} \cdot 0.3^{3} \cdot 0.7^{2}
+$$
+---
 
 Verifichiamo che questa è una valida distribuzione di probabilità:
 

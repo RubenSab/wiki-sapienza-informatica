@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-01-25T19:55:28.799+01:00
+updated_at: 2026-01-26T17:09:18.622+01:00
 ---
 > Una [[misura di probabilità|misura di probabilità]] su uno [[spazio campionario]] $\Omega$ è una mappa $\mathbb{P}: F \to [0, 1]$ dove $F$ è l'insieme delle parti di $\Omega$ (cioè la famiglia di tutti gli eventi) tale che:
 

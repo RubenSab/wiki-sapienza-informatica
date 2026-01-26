@@ -1,7 +1,7 @@
 ---
-updated_at: 2026-01-26T16:40:01.602+01:00
+updated_at: 2026-01-26T17:09:18.436+01:00
 ---
-Lanciando una moneta **truccata** infinite volte, mi posso chiedere la [[probabilità]] di vedere la prima testa al lancio $k$.
+Lanciando una moneta **truccata** infinite volte, mi posso chiedere la [[probabilità]] di vedere **la prima testa al lancio $k$.**
 
 Sia lo [[spazio campionario]] $\Omega = \{1, 2, 3, 4, \ldots \} = \mathbb{N}^{\star}$
 
