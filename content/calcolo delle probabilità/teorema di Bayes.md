@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-11-05T09:31:35.726+01:00
+updated_at: 2026-01-26T13:23:46.139+01:00
 ---
 A volte è utile invertire il [[probabilità condizionata|condizionamento]], se ad esempio $\mathbb{P}(A \mid B)$ è difficile da calcolare ma $\mathbb{P}(B \mid A)$ è facile.
 
@@ -40,7 +40,7 @@ Osservazioni:
 - "Alice prende l'ombrello" nel caso $B^{C}$ è $\mathbb{P}(A \mid B^{C})$ perché sono eventi condizionati
 
 $$
-\mathbb{P}(A) = \underset{0.8}{\mathbb{P}(A \mid B)} \cdot \underset{0.3}{\mathbb{P}(B)} + \underset{0.25}{\mathbb{P}(A \mid B^{C})} \cdot \underset{0.7}{\mathbb{P}(B^{C})}
+\mathbb{P}(A) = \underset{0.8}{\mathbb{P}(A \mid B)} \cdot \underset{0.3}{\mathbb{P}(B)} + \underset{0.25}{\mathbb{P}(A \mid B^{C})} \cdot \underset{0.7}{\mathbb{P}(B^{C})} = 0.415
 $$
 Se invece avessimo chiesto:
 
@@ -49,7 +49,7 @@ Se invece avessimo chiesto:
 Basta riusare i dati precedenti e applicare il teorema di Bayes.
 
 $$
-\mathbb{P}(B^{C} \mid A) \underset{\text{Bayes}}{=} \frac{\mathbb{P}(B^{C} \cap A)}{\mathbb{P}(A)} = \frac{\mathbb{P}(A \mid B^{C}) \cdot \mathbb{P}(B^{C})}{\mathbb{P}(A)} = \frac{0.25 \cdot 0.7}{\underset{0.8}{\mathbb{P}(A \mid B)} \cdot \underset{0.3}{\mathbb{P}(B)} + \underset{0.25}{\mathbb{P}(A \mid B^{C})} \cdot \underset{0.7}{\mathbb{P}(B^{C})}} \approx 0.415
+\mathbb{P}(B^{C} \mid A) \underset{\text{Bayes}}{=} \frac{\mathbb{P}(B^{C} \cap A)}{\mathbb{P}(A)} = \frac{\mathbb{P}(A \mid B^{C}) \cdot \mathbb{P}(B^{C})}{\mathbb{P}(A)} = \frac{0.25 \cdot 0.7}{\underset{0.8}{\mathbb{P}(A \mid B)} \cdot \underset{0.3}{\mathbb{P}(B)} + \underset{0.25}{\mathbb{P}(A \mid B^{C})} \cdot \underset{0.7}{\mathbb{P}(B^{C})}} \approx 0.422
 $$
 
 ---

@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-11-03T22:09:13.908+01:00
+updated_at: 2026-01-26T13:02:27.725+01:00
 ---
 > Se $A$ e $B$ sono eventi su $\Omega$ tali che $\mathbb{P}(B) > 0$, allora definiamo
 
@@ -100,6 +100,6 @@ Ciò ci permette di calcolare le probabilità "come facciamo nella nostra testa"
 
 1. Per qualsiasi [[evento]] $A$, $\mathbb{P}(A \mid A) = 1$, infatti $\mathbb{P}(A \mid A) = \frac{\mathbb{P}(A \cap A)}{\mathbb{P}(A)} = \frac{\mathbb{P}(A)}{\mathbb{P}(A)}=1$
 2. Se $A \subseteq B$, allora $\mathbb{P}(A \mid B) = \frac{\mathbb{P}(A \cap B)}{\mathbb{P}(A)} = \frac{\mathbb{P}(A)}{\mathbb{P}(B)}$  e $\mathbb{P}(B \mid A) = \frac{\mathbb{P}(B \cap A)}{\mathbb{P}(B)} = \frac{\mathbb{P}(A)}{\mathbb{P}(A)}$. Inoltre, $A \subset B$ allora $\mathbb{P}(A \mid B) < 1$ poiché $\mathbb{P}(A) < \mathbb{P}(B)$
-3. Probabilità condizionata e [[indipendenza di n eventi|indipendenza]]. Se $A$ e $B$ sono eventi indipendenti ($A \perp \!\!\! \perp B$) allora $\mathbb{P}(A \mid B) = \mathbb{P}(A)$ e $\mathbb{P}(B \mid A) = \mathbb{P}(A)$, infatti $\mathbb{P}(A \mid B)=\frac{\mathbb{P}(A \cap B)}{\mathbb{P}(B)} = \frac{\mathbb{P}(A) \cdot \mathbb{P}(B)}{\mathbb{P}(B)} = \mathbb{P}(A)$ (per la definizione stessa di indipendenza). Similmente, $\mathbb{P}(B \mid A) = \mathbb{P}(B)$. (Stiamo supponendo $\mathbb{P}(A) > 0 \land \mathbb{P}(B) > 0$).
+3. Probabilità condizionata e [[indipendenza di n eventi|indipendenza]]. Se $A$ e $B$ sono eventi indipendenti ($A \perp \!\!\! \perp B$) allora $\mathbb{P}(A \mid B) = \mathbb{P}(A)$ e $\mathbb{P}(B \mid A) = \mathbb{P}(B)$, infatti $\mathbb{P}(A \mid B)=\frac{\mathbb{P}(A \cap B)}{\mathbb{P}(B)} = \frac{\mathbb{P}(A) \cdot \mathbb{P}(B)}{\mathbb{P}(B)} = \mathbb{P}(A)$ (per la definizione stessa di indipendenza). Similmente, $\mathbb{P}(B \mid A) = \mathbb{P}(B)$. (Stiamo supponendo $\mathbb{P}(A) > 0 \land \mathbb{P}(B) > 0$).
 
-> N.B.: vale anche il viceversa. Se $A$ e $B$ sono eventi tali che $\mathbb{P}(A \mid B) = \mathbb{P}(A)$ oppure $\mathbb{P}(B \mid A) = \mathbb{P}(B)$, allora vale che $A \perp \!\!\! \perp B$. Infatti $\mathbb{P}(A\cap B) = \mathbb{P}(A)\cdot \mathbb{P}(B)$.
+> N.B.: vale anche il viceversa. Se $A$ e $B$ sono eventi tali che $\mathbb{P}(A \mid B) = \mathbb{P}(A)$ oppure $\mathbb{P}(B \mid A) = \mathbb{P}(B)$, allora $A \perp \!\!\! \perp B$. Infatti $\mathbb{P}(A\cap B) = \mathbb{P}(A)\cdot \mathbb{P}(B)$.

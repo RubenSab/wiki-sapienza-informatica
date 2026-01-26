@@ -22,10 +22,11 @@
           {
             "id": "591f25a9ec8f53ce",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "basi di dati/algebra relazionale dei database.md",
+                "file": "calcolo delle probabilità/Calcolo delle probabilità.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -39,17 +40,18 @@
                   "unlinkedCollapsed": true
                 }
               },
+              "pinned": true,
               "icon": "lucide-file",
-              "title": "algebra relazionale dei database"
+              "title": "Calcolo delle probabilità"
             }
           },
           {
-            "id": "9c526145eae8210e",
+            "id": "525d14f0738ca1a6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "basi di dati/theta join.md",
+                "file": "calcolo delle probabilità/legge della probabilità totale.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -64,11 +66,35 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "theta join"
+              "title": "legge della probabilità totale"
+            }
+          },
+          {
+            "id": "8557ddeef55d56cd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "calcolo delle probabilità/Calcolo delle probabilità.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Calcolo delle probabilità"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -255,35 +281,35 @@
       "new-3d-graph:Open 3d graph": false
     }
   },
-  "active": "591f25a9ec8f53ce",
+  "active": "8557ddeef55d56cd",
   "lastOpenFiles": [
-    "basi di dati/ridenominazione.md",
+    "calcolo delle probabilità/distribuzione geometrica.md",
+    "calcolo delle probabilità/Calcolo delle probabilità.md",
+    "calcolo delle probabilità/distribuzione binomiale.md",
+    "calcolo delle probabilità/distribuzione di Bernoulli.md",
+    "calcolo delle probabilità/distribuzione di Poisson 🐟.md",
+    "calcolo delle probabilità/legge della probabilità totale.md",
+    "calcolo delle probabilità/teorema di Bayes.md",
+    "calcolo delle probabilità/misura di probabilità.md",
+    "calcolo delle probabilità/probabilità condizionata.md",
+    "basi di dati/unione.md",
     "basi di dati/algebra relazionale dei database.md",
+    "basi di dati/ridenominazione.md",
     "basi di dati/join naturale.md",
     "basi di dati/theta join.md",
     "basi di dati/differenza.md",
-    "basi di dati/unione.md",
     "basi di dati/selezione.md",
     "basi di dati/proiezione.md",
     "basi di dati/Pasted image 20260126120602.png",
     "calcolo delle probabilità/indipendenza di n eventi.md",
-    "calcolo delle probabilità/Calcolo delle probabilità.md",
     "calcolo delle probabilità/probabilità.md",
     "calcolo delle probabilità/indipendenza di tre eventi.md",
     "calcolo delle probabilità/indipendenza di due eventi.md",
     "calcolo delle probabilità/esiti equiprobabili.md",
-    "calcolo delle probabilità/misura di probabilità.md",
     "calcolo delle probabilità/evento.md",
     "calcolo delle probabilità/spazio campionario.md",
     "calcolo differenziale/calcolo differenziale.md",
     "interdisciplinare/cardinalità.md",
-    "Esercizio.md",
-    "esercizi di calcolo differenziale.md",
-    "calcolo differenziale/esercizi/esercizi di calcolo differenziale.md",
-    "interdisciplinare/contare con le biezioni.md",
-    "calcolo differenziale/maggiorante e minorante + teoremi.md",
-    "calcolo delle probabilità/combinazioni con ripetizioni consentite.md",
-    "calcolo delle probabilità/combinazioni senza ripetizioni.md",
     "Untitled.canvas",
     "algebra lineare/Pasted image 20260115114517.png",
     "algebra lineare/Pasted image 20260114133410.png",

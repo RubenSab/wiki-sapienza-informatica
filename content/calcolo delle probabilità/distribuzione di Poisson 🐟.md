@@ -1,10 +1,10 @@
 ---
-updated_at: 2025-10-27T14:57:42.766+01:00
+updated_at: 2026-01-26T16:33:41.384+01:00
 ---
 > La distribuzione di Poisson con parametro $\lambda \in \mathbb{R}_{+}$ è la misura di [[probabilità]] sullo [[spazio campionario]] $\Omega = \mathbb{N}$ definita dai pesetti 
 
 $$
-p_{k} = \frac{e^{-\lambda}\lambda^{k}}{k!},\ k \in \mathbb{N}
+p_{k} = \frac{e^{-\lambda}\lambda^{k}}{k!},\ k \in \mathbb{N}, \lambda\in \mathbb{R}_{+}
 $$
 
 Verifichiamo che $\forall k \in \mathbb{N}^{\star} (p_{k} \in [0, 1]) \land \sum_{k=1}^{+\infty}p_{k} = 1$:

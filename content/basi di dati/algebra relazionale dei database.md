@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-01-26T12:14:29.562+01:00
+updated_at: 2026-01-26T12:16:49.535+01:00
 ---
 > È un linguaggio formale completamente procedurale per interrogare una base di dati relazionali. Si fonda sul concetto di [[relazione]] matematica ed è la base dei [[database relazionali]]. Consiste di un insieme di operatori che possono essere applicati a una (operatori unari) o due (operatori binari) istanze di relazione e forniscono come risultato una nuova istanza di relazione.
 
@@ -31,6 +31,7 @@ In [[SQL]] il concetto di **dominio** si traduce concretamente nel **tipo** degl
 
 - $\rho$ [[ridenominazione]]
 
+# Esempi
 ## Esempio 1 (semplice)
 
 Considerando le tabelle:

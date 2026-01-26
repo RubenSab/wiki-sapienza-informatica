@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-10-27T14:05:44.001+01:00
+updated_at: 2026-01-26T16:40:01.602+01:00
 ---
 Lanciando una moneta **truccata** infinite volte, mi posso chiedere la [[probabilità]] di vedere la prima testa al lancio $k$.
 
@@ -8,7 +8,7 @@ Sia lo [[spazio campionario]] $\Omega = \{1, 2, 3, 4, \ldots \} = \mathbb{N}^{\s
 La probabilità di vedere la prima $T$ al lancio $k$ è
 
 $$
-p_{k} = (1-p)^{k-1}\cdot p
+p_{k} = (1-p)^{k-1}\cdot p \quad p \in \mathbb{R},\ k \in \mathbb{N}
 $$
 
 Questa corrisponde alla probabilità della sequenza

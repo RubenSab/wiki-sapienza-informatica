@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-01-25T19:35:54.147+01:00
+updated_at: 2026-01-26T16:40:30.877+01:00
 ---
 #todo  metti varianza e valore atteso nelle distribuzioni di probabilità continue
 
@@ -27,10 +27,10 @@ Fonte di esercizi consigliata: *Sheldon Ross - calcolo delle probabilità*
 		- [[teorema di Bayes]]
 	- [[misura di probabilità]]
 	- Distribuzioni notevoli di probabilità discreta
-		- [[distribuzione di Bernoulli]]
-		- [[distribuzione binomiale]]
-		- [[distribuzione geometrica]]
-		- [[distribuzione di Poisson 🐟]]
+		- [[distribuzione di Bernoulli]] $\{p, 1-p\}$
+		- [[distribuzione binomiale]] $p_{k} = \binom{N}{k} \cdot p^{k} \cdot (1-p)^{N-k},\quad k \leq N,\ N \in \mathbb{N}$
+		- [[distribuzione geometrica]] $p_{k} = (1-p)^{k-1}\cdot p \quad p \in \mathbb{R},\ k \in \mathbb{N}$
+		- [[distribuzione di Poisson 🐟]] $p_{k} = \frac{e^{-\lambda}\lambda^{k}}{k!},\ k \in \mathbb{N}, \lambda\in \mathbb{R}_{+}$
 		- [[casi notevoli di varianza e valore atteso]]
 	- Variabili aleatorie
 		- [[variabili aleatorie]]

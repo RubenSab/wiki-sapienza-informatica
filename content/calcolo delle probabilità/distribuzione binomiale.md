@@ -1,12 +1,12 @@
 ---
-updated_at: 2025-11-18T19:39:56.485+01:00
+updated_at: 2026-01-26T16:38:52.738+01:00
 ---
 > Per $\mathbb{N} \geq 1$, sia $\Omega = \{0, 1, 2, \ldots, N\}$. La distribuzione [[coefficiente binomiale|binomiale]] di parametri $N \in \mathbb{N}$ e $p \in [0, 1]$ è la [[misura di probabilità|misura di probabilità]] su $\Omega$ specificata dai pesetti $p_{k}$ definiti sotto.
 
 $p_{k}$ è "la probabilità di vedere $k$ teste in $N$ lanci di moneta"
 
 $$
-p_{k} = \binom{N}{k} \cdot p^{k} \cdot (1-p)^{N-k},\quad k \leq N
+p_{k} = \binom{N}{k} \cdot p^{k} \cdot (1-p)^{N-k},\quad k \leq N,\ N \in \mathbb{N}
 $$
 
 # Teorema della scimmia
