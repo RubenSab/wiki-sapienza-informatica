@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-05-27T20:42:12.870+02:00
+updated_at: 2026-01-28T16:59:07.259+01:00
 ---
 > La linked list, (o lista a puntatori) è una [[struttura dati]] in cui gli elementi sono organizzati in successione e ogni elemento ha due [[campi]]: il campo *key* contiene il dato, il campo *next* contiene il [[puntatore]] all'elemento successivo (il next dell'ultimo elemento della lista conterrà il valore `None`). Si forma quindi una catena di elementi in cui da ogni elemento si può accedere al prossimo.
 

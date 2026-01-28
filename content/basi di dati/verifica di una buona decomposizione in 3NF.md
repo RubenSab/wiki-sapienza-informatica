@@ -1,11 +1,11 @@
 ---
-updated_at: 2025-11-27T22:35:28.346+01:00
+updated_at: 2026-01-27T10:23:29.370+01:00
 ---
 > Uno [[tabella|schema di relazione]] $R$ si può *decomporre* in più schemi, ognuno un [[sottoinsiemi|sottoinsieme]] degli attributi di $R$ su cui valgono le [[dipendenza funzionale|dipendenze funzionali]] ereditate da $R$, rilevanti per i suoi attributi. Ciò equivale a [[proiezione|proiettare]] ogni tupla dell'istanza originaria sugli attributi dei singoli sottoschemi.
 
 Definizione formale:
 
-> Una *decomposizione* di $R$ è una famiglia $\rho = \{R_{1}, \ldots, R_{K}\}$ di sottoinsiemi di $R$ che [[partizione|ricopre/partiziona]] $R$ ($\bigcup_{i=1}^{k} R_{i} = R$, i sottoinsiemi possono avere intersezione non vuota).
+> Una *decomposizione* di $R$ è una famiglia $\rho = \{R_{1}, \ldots, R_{K}\}$ di sottoinsiemi di $R$ che [[partizione|ricopre/partiziona]] $R$ ($\bigcup_{i=1}^{k} R_{i} = R$, ma i sottoinsiemi possono avere intersezione non vuota).
 
 Gli schemi si decompongono
 
@@ -31,7 +31,7 @@ R1 = A  B     R2 = A  C     R = A  B  C
 
 # Criterio 1: determinare se ogni sottoschema è in 3NF
 
-Basta [[algoritmo per il calcolo delle chiavi|calcolare le chiavi]] di ogni sottoschema per controllare che ognuno sia in 3NF.
+Basta [[algoritmo per il calcolo delle chiavi|calcolare le chiavi]] di ogni sottoschema e vedere se **tutte** le dipendenze funzionali definite su di esso sono compatibili con la definizione di 3NF per controllare che ogni sottoschema sia in 3NF.
 
 # Criterio 2: applicare l'[[algoritmo]] per determinare se la decomposizione preserva tutte le dipendenze
 
@@ -43,11 +43,13 @@ $$
 
 Dove $\pi_{R_{i}}(F) = \{X \to Y: X \to Y \in F^{+} \land XY \subseteq R_{i}\}$, cioè l'insieme delle dipendenze funzionali, anche quelle calcolate con gli [[chiusura di Armstrong|assiomi di Armstrong]], che valgono nello schema $R_{i}$ (che è il risultato della proiezione di $F$ su $R_{i}$).
 
+> Praticamente, $G$ è una [[partizione]] di $F$.
+
 Chiamiamo $G$ il risultato di $\bigcup_{i = 1}^{k} \pi_{R_{i}}(F)$. Per verificare $F \equiv G$, dobbiamo dimostrare che $F^{+} = G^{+}$, quindi $F^{+} \subseteq G^{+} \land G^{+} \subseteq F^{+}$.
 
-Per **come abbiamo definito** $G$, sicuramente varrà **sempre** $G \subseteq F^{+}$, quindi per il *lemma delle chiusure* (vedi sotto) varrà $G^{+} \subseteq F^{+}$.
+> N.B.: Per **come abbiamo definito** $G$, sicuramente varrà **sempre** $G \subseteq F^{+}$, quindi per il *lemma delle chiusure* (vedi sotto) varrà $G^{+} \subseteq F^{+}$.
 
-> Manca solo di verificare se nel caso specifico considerato vale $F^{+} \subseteq G^{+}$, quindi se $F \subseteq G^{+}$ (lemma delle chiusure): l'algoritmo controlla solo questo.
+Manca solo di verificare se nel caso specifico considerato vale $F^{+} \subseteq G^{+}$, quindi se $F \subseteq G^{+}$ (lemma delle chiusure): l'algoritmo controlla solo questo.
 
 ## Lemma delle chiusure: $X \subseteq Y^{+} \implies X^{+} \subseteq Y^{+}$
 
@@ -79,7 +81,7 @@ Sia $f \in F^{+}-F$ ($f \notin F^{+}$).
 
 > Cioè basta verificare che una sola dipendenza non appartiene a $G^{+}$ per dire che $F \not\subseteq G^{+} \implies F \not\equiv G$.
 
-## Come calcolare $X_{G}^{+}$ nello step 2.1 dell'algoritmo sopra?
+## Come calcolare $X_{G}^{+}$ dell'algoritmo sopra?
 
 Se volessimo usare l'[[algoritmo per il calcolo della chiusura di un insieme di attributi]], dovremmo prima calcolare $G$, che per definizione richiede il calcolo di $F^{+}$, ma ciò richiede tempo esponenziale; però esiste un altro algoritmo per il calcolo di $X^{+}_{G}$ da $F$.
 
@@ -94,9 +96,10 @@ Se volessimo usare l'[[algoritmo per il calcolo della chiusura di un insieme di 
 	   calcolare questa chiusura $((Z \cap R_{i})^{+}_{F}$ non richiede tempo esponenziale, perché si calcola direttamente sull'insieme delle dipendenze funzionali di $R_{i}$, che è molto più piccolo di $F$ completo.
 	2. while $S \not\subset Z$:
 		1. $Z := Z \cup S$
-		2. for $i := 1$ to $k$:
-			1. $S := S \cup ((Z \cap R_{i})^{+}_{F} \cap R_{i})$
+		2. for $j := 1$ to $k$:
+			1. $S := S \cup ((Z \cap R_{j})^{+}_{F} \cap R_{j})$
 4. return $Z$
+
 
 ### Dimostrazione della validità dell'algoritmo
 

@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-01-24T16:20:48.650+01:00
+updated_at: 2026-01-27T22:45:28.977+01:00
 ---
 > Una dipendenza funzionale stabilisce un particolare legame semantico tra due [[insieme|insiemi]] non vuoti di attributi $X$ e $Y$ appartenenti ad uno [[tabella#^ec7c8e|schema]] $R$.
 
@@ -28,4 +28,4 @@ Osservazione: $X \to Y \in F^{+} \iff \forall A \in Y\ (X \to A \in F^{+})$
 
 ^c57118
 
-> Siano $F$ e $G$ due insiemi di dipendenze funzionali. $F \equiv G$ se $F^{+} = G^{+}$. Cioè $F$ e $G$ **potrebbero non contenere** le stesse dipendenze, ma le loro chiusure sì.
+> Siano $F$ e $G$ due insiemi di dipendenze funzionali. $F \equiv G$ se $F^{+} = G^{+}$. Cioè $F$ e $G$ **potrebbero non contenere** le stesse dipendenze, ma le loro chiusure sì. Ciò significa che da $G$ si può costruire $F$, passando per $G^{+}$.

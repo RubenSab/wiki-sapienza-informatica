@@ -1,9 +1,9 @@
 ---
-updated_at: 2025-12-17T13:36:20.372+01:00
+updated_at: 2026-01-27T21:35:32.599+01:00
 ---
 Spesso siamo interessati non all'esito di un esperimento aleatorio, ma di una [[funzione]] dell'esito.
 
-Esempio: lancio una moneta $\{T, C\}^{100}$ ci interessa contare il numero di teste, che è una funzione $X: \Omega \to \{0, 1, \ldots, 100\},\quad \omega \in \Omega  \mapsto X(\omega) = \text{numero di teste nella stringa\ } \Omega$.
+Esempio: lancio una moneta 100 volte ($\{T, C\}^{100}$): ci interessa contare il numero di teste, che è una funzione $X: \Omega \to \{0, 1, \ldots, 100\},\quad \omega \in \Omega  \mapsto X(\omega) = \text{numero di teste nella stringa\ } \Omega$.
 
 > Una *variabile aleatoria* su uno [[spazio campionario]] su uno spazio campionario $\Omega$ a valori in un [[insieme|insieme]] $S \subseteq \mathbb{R}$ è una funzione $X: \Omega \to S, \quad \omega \in \Omega \mapsto X(\omega) \in S$.
 
@@ -24,7 +24,7 @@ Lancio una moneta truccata 2 volte. La [[probabilità]] di avere testa è $p$.
 
 $\Omega = \{T, C\} \times \{T, C\} = \{(T, T), (T, C), (C, T), (C, C)\}$
 
-Esiti possibili:
+Probabilità degli possibili:
 
 - $p_{TT} = p^{2}$
 - $p_{TT} = p(1-p)$

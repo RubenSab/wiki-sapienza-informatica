@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-12-10T14:33:34.735+01:00
+updated_at: 2026-01-27T22:13:16.987+01:00
 ---
 Sia $X$ una [[variabili aleatorie|variabile aleatoria]] a valori in $S_{X}$ con pesetti $(p_{x})_{x \in S_{X}}\ (p_{x} = \mathbb{P}(X=x))$. ricordiamo che il [[valore atteso di una variabile aleatoria|valore atteso]] (media) di $X$ è definito da
 
@@ -63,8 +63,8 @@ La varianza ($\text{Var}$) è $\frac{3}{2} - (\frac{5}{6})^{2} = \frac{29}{36}$.
 
 Sia $Y$ una variabile aleatoria a valori in $S_{Y} = \{-a, 0, a\}$ per $a > 0$.
 
-Con pesetti $p_{-a} = \frac{1}{4}, p_{0} = \frac{1}{2}, p_{2} = \frac{1}{4}$
+Con pesetti $p_{-a} = \frac{1}{4}, p_{0} = \frac{1}{2}, p_{a} = \frac{1}{4}$
 
-Come nel primo esempio, $\mathbb{E}(Y) = \frac{-a}{4} + \frac{a}{4} = 0$, ma $\mathbb{E}(Y^{2}) = (-a)^{2}\cdot \frac{1}{4} + (0)^{2} \cdot \frac{1}{2} + (a^{2}) \cdot \frac{1}{4} = \frac{a^{2}}{2}$, quindi $\text{Var} = \frac{a^{2}}{2}$.
+Come nel primo esempio, $\mathbb{E}(Y) = \frac{-a}{4} + \frac{a}{4} = 0$, $\mathbb{E}(Y^{2}) = (-a)^{2}\cdot \frac{1}{4} + (0)^{2} \cdot \frac{1}{2} + (a^{2}) \cdot \frac{1}{4} = \frac{a^{2}}{2}$, quindi $\text{Var} = \frac{a^{2}}{2}$.
 
 > Osservazione: più grande è $a$, più è grande la varianza.

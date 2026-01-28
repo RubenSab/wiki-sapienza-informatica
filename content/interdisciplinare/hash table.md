@@ -1,7 +1,7 @@
 ---
-updated_at: 2025-12-14T17:06:31.803+01:00
+updated_at: 2026-01-28T17:09:03.362+01:00
 ---
-L'hash table nasce per risolvere problemi che coinvolgano un'insieme in cui ogni elemento ha una chiave distinta necessaria per l'accesso, un numero intero contenuto nell'**insieme universo** $U = \{0, 1, \ldots, m-1\}$.
+L'hash table nasce per risolvere problemi che coinvolgono un'insieme in cui ogni elemento ha una chiave distinta necessaria per l'accesso, un numero intero contenuto nell'**insieme universo** $U = \{0, 1, \ldots, m-1\}$.
 
 Per questi problemi si potrebbe usare un'[[array]] con accesso diretto, ma definendo la grandezza *fattore di carico*, ci si rende conto che questi sistemi sono molto inefficienti per la [[complessità spaziale]].
 
@@ -12,6 +12,10 @@ $$\text{fattore di carico} = \frac{\text{numero di chiavi non vuote (quindi vera
 ``` python
 hash_table_key = key%500 # abbiamo fissato a 500 il numero di chiavi possibili
 ```
+
+# Funzione hash
+
+^575716
 
 > Esistono due tipi di **funzioni hash** per mappare la chiave di partenza alla posizione nella tabella hash (risolvendo i conflitti):
 

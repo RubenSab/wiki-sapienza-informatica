@@ -1,13 +1,13 @@
 ---
-updated_at: 2025-12-10T14:15:01.907+01:00
+updated_at: 2026-01-27T21:49:50.341+01:00
 ---
-> Il *valore atteso*, o media di una [[variabili aleatorie|variabile aleatoria]] $X$ è dato da
+> Il *valore atteso*, o ***media*** di una [[variabili aleatorie|variabile aleatoria]] $X$ è dato da
 
 $$
 \mathbb{E}(X) := \sum_{x \in S_{X}} x \cdot p_{x} \underset{p_{x} = \mathbb{P}(X = x)}{=} \sum_{x \in S_{X}}x \cdot \mathbb{P}(X=x)
 $$
 
-> N.B.: Se la domma che definisce $\mathbb{E}(x)$ è data da un numero infinito di termini (quindi non è un somma, è una [[serie]]), ci vuole un po' di cautela bisogna controllare che la somma sia ben definita.
+> N.B.: Se la somma che definisce $\mathbb{E}(x)$ è data da un numero infinito di termini (quindi non è un somma, è una [[serie]]), ci vuole un po' di cautela perché bisogna controllare che la somma sia ben definita.
 
 Esempio:
 
@@ -33,7 +33,7 @@ $$
 
 Nota, questa variabile aleatoria ha una legge simmetrica, ossia $\forall k \neq 0\ (\mathbb{P}(X=k)= \mathbb{P}(X = -k) = \frac{3}{\pi} \cdot \frac{1}{k^{2}})$
 
-# Valore atteso di una variabile aletoria *continua*
+# Valore atteso di una variabile aleatoria *continua*
 
 ^101d3a
 
@@ -48,7 +48,7 @@ $$
 $S_{x} \subseteq [0, \infty)$
 
 1. Se $X \geq 0$ allora $\mathbb{E}(X) \geq 0$.
-2. Se $X = c$ allora $\mathbb{E}(c) = c$.
+2. Se $X = c$ allora $\mathbb{E}(X) = c$.
 3. Se $\mathbb{E}(X+Y)= \mathbb{E}(X) + \mathbb{E}(Y)$.
 4. Se $\lambda \in \mathbb{R}$, allora $\mathbb{E}(\lambda X) = \lambda \cdot \mathbb{E}(X)$.
 5. *2* e *3* ci dicono che il valore atteso è **lineare**, ossia $\mathbb{E}(aX + bY) = a \mathbb{E}(X) + b \mathbb{E}(Y)\ \forall a, b \in \mathbb{R}$.
@@ -92,7 +92,7 @@ $$
 
 Esempio: lancio due dadi, e siano $X$ e $Y$ due variabili aleatorie che registrano il risultato dei due lanci. Voglio calcolare il prodotto atteso dei risultati.
 
-Osserviamo che $X$ e $Y$ sono variabili aleatorie indipendenti, poiché
+Osserviamo che $X$ e $Y$ sono variabili aleatorie ***indipendenti***, poiché
 
 $$
 \forall i, j \in \{1, 2, 3, 4, 5, 6\}\ (\ \mathbb{P}(X = i,\ Y = j) = \mathbb{P}(X=1) \cdot \mathbb{P}(Y = j)\ )
@@ -120,7 +120,7 @@ Quindi con $p_{1} = p$ e con $p_{0} = 1-p$.
 
 Quindi $\mathbb{E}(X) = \sum_{x \in S_{X}} x \cdot p_{x}= 0 \cdot p_{n} + 1 \cdot p_{1} = p$.
 
-> Osservazione: se tutti i valori assunti sono [[esiti equiprobabili|equiprobabili]], ossia $\forall x \in S_{x}(p_{x} = p)$, allora $\mathbb{E}(X)=p \cdot \sum_{x \in S_{X}} x$.
+> Osservazione: se tutti i valori assunti sono [[esiti equiprobabili|equiprobabili]], ossia $\forall x \in S_{x}(p_{x} = p)$, allora $\mathbb{E}(X)=p \cdot \sum_{x \in S_{X}} x$
 
 ## 2. [[distribuzione binomiale]]
 

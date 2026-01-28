@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-11-26T14:53:59.971+01:00
+updated_at: 2026-01-27T22:41:11.638+01:00
 ---
 Siano $X$ e $Y$ due [[variabili aleatorie]] a valori in $S_{X}$ e $S_{Y}$ rispettivamente. Sia $y \in S_{Y}$ tale che $\mathbb{P}(Y-y)=p_{y}^{Y} > 0$.
 
@@ -57,6 +57,6 @@ Questa è una legge di probabilità su $S_{X} = \{1, 2, 3, 4, 5, 6\}$ con pesett
 - $\mathbb{P}(X = 5 \mid Y = 4) = 0$
 - $\mathbb{P}(X = 6 \mid Y = 4) = 0$
 
-> N.B.: Gli eventi $\{X = 5\}$ e $\{X = 6\}$ sono incompatibili con l'evento $\{Y = 4\}$.
+> N.B.: Gli eventi $\{X = 5\}$ e $\{X = 6\}$ sono ***incompatibili*** con l'evento $\{Y = 4\}$.
 
 Valore atteso: $\mathbb{E}(X \mid Y = y) = \sum_{X = 1}^{6} x \cdot \mathbb{P}(X = x \mid Y = 4) = 1 \cdot \frac{1}{7} + 2 \cdot \frac{1}{7} + 3 \cdot 4 \cdot \frac{4}{7} + 0 + 0 = \frac{22}{7}$

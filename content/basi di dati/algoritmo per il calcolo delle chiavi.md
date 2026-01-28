@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-11-23T17:15:35.557+01:00
+updated_at: 2026-01-26T19:02:03.827+01:00
 ---
 > Si può usare l'[[algoritmo per il calcolo della chiusura di un insieme di attributi]] per determinare le [[chiave|chiavi]] di uno [[tabella|schema]] $R$ su cui è definito un [[insieme|insieme]] di [[dipendenza funzionale|dipendenze funzionali]] $F$.
 
@@ -7,7 +7,7 @@ Si parte da un insieme di attributi $X$ che si sospetta essere una chiave e si c
 
 La condizione **necessaria** per cui $X$ è una chiave è che esso determini tutto $R$. Quindi se il risultato dell'algoritmo non è $R$, esso non può essere una chiave.
 
-Poi va controllato (sempre con l'algoritmo della chiusura) anche che non esiste **nessun** sottoinsieme proprio di $X$ che determina tutto $R$.
+> **IMPORTANTE**: Poi va controllato (sempre con l'algoritmo della chiusura) anche che non esiste **nessun** sottoinsieme proprio di $X$ che determina tutto $R$.
 
 Osservazioni:
 

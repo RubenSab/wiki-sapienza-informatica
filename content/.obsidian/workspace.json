@@ -4,29 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "4509724f8bf84da7",
+        "id": "a93a4c294a97a060",
         "type": "tabs",
+        "dimension": 41.10054347826087,
         "children": [
           {
-            "id": "e7a7b303c61786dc",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "graph",
-              "state": {},
-              "pinned": true,
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
-            }
-          },
-          {
-            "id": "591f25a9ec8f53ce",
+            "id": "90c1a438dae3000b",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "calcolo delle probabilità/Calcolo delle probabilità.md",
+                "file": "basi di dati/organizzazione fisica di un database relazionale.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -42,16 +31,16 @@
               },
               "pinned": true,
               "icon": "lucide-file",
-              "title": "Calcolo delle probabilità"
+              "title": "organizzazione fisica di un database relazionale"
             }
           },
           {
-            "id": "f23e84700260624a",
+            "id": "4d2e4f372813a4f4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "basi di dati/algebra relazionale dei database.md",
+                "file": "basi di dati/file hash.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -66,16 +55,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "algebra relazionale dei database"
+              "title": "file hash"
             }
           },
           {
-            "id": "bfd1fc91979e07de",
+            "id": "a5e87fe7aafa90eb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "calcolo delle probabilità/distribuzione geometrica.md",
+                "file": "basi di dati/Basi di dati.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -90,11 +79,46 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "distribuzione geometrica"
+              "title": "Basi di dati"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
+      },
+      {
+        "id": "4509724f8bf84da7",
+        "type": "tabs",
+        "dimension": 58.89945652173913,
+        "children": [
+          {
+            "id": "351be2d03d22755b",
+            "type": "leaf",
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "https://drive.google.com/file/d/0B-4exWJj0L7RRWtBZzBTN1hWUjA/view?resourcekey=0-DjGO-65n9U_KUfXyUfcYTg",
+                "title": "22. File hash - caratteristiche ed esercizi.pdf - Google Drive",
+                "mode": "blank"
+              },
+              "icon": "globe-2",
+              "title": "22. File hash - caratteristiche ed esercizi.pdf - Google Drive"
+            }
+          },
+          {
+            "id": "3fb8374803125be7",
+            "type": "leaf",
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "https://drive.google.com/file/d/1Ssu_8JbC1UK9VVGtVLLD69GXzfmDZbJp/view",
+                "title": "23. File con indice - caratteristihe ed esercizi.pdf - Google Drive",
+                "mode": "webview"
+              },
+              "icon": "globe-2",
+              "title": "23. File con indice - caratteristihe ed esercizi.pdf - Google Drive"
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -151,7 +175,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "multinomi",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -282,35 +306,35 @@
       "new-3d-graph:Open 3d graph": false
     }
   },
-  "active": "bfd1fc91979e07de",
+  "active": "4d2e4f372813a4f4",
   "lastOpenFiles": [
-    "basi di dati/differenza.md",
-    "basi di dati/trovare la tupla con l'attributo massimo in un'istanza.md",
-    "basi di dati/3NF (terza forma normale).md",
-    "basi di dati/proiezione.md",
-    "calcolo delle probabilità/distribuzione di Poisson 🐟.md",
-    "basi di dati/algebra relazionale dei database.md",
-    "calcolo delle probabilità/Calcolo delle probabilità.md",
-    "calcolo delle probabilità/distribuzione binomiale.md",
-    "basi di dati/verifica di una buona decomposizione in 3NF.md",
-    "calcolo delle probabilità/misura di probabilità.md",
-    "calcolo delle probabilità/distribuzione geometrica.md",
-    "calcolo delle probabilità/probabilità.md",
-    "calcolo delle probabilità/combinazioni senza ripetizioni.md",
-    "calcolo delle probabilità/disposizioni con ripetizioni consentite.md",
-    "calcolo delle probabilità/combinazioni con ripetizioni consentite.md",
+    "basi di dati/organizzazione fisica di un database relazionale.md",
+    "basi di dati/file hash.md",
+    "interdisciplinare/puntatore.md",
+    "interdisciplinare/hash table.md",
+    "interdisciplinare/linked list.md",
+    "interdisciplinare/dizionario.md",
+    "basi di dati/Basi di dati.md",
+    "basi di dati/file heap.md",
+    "interdisciplinare/insieme.md",
+    "basi di dati/copertura minimale di un insieme di dipendenze.md",
+    "basi di dati/chiusura di un insieme di dipendenze funzionali.md",
+    "basi di dati/dipendenza funzionale.md",
+    "calcolo delle probabilità/indipendenza di due eventi.md",
     "calcolo delle probabilità/distribuzione di Bernoulli.md",
-    "calcolo delle probabilità/legge della probabilità totale.md",
-    "calcolo delle probabilità/teorema di Bayes.md",
-    "calcolo delle probabilità/probabilità condizionata.md",
-    "basi di dati/unione.md",
-    "basi di dati/ridenominazione.md",
-    "basi di dati/join naturale.md",
-    "basi di dati/theta join.md",
-    "basi di dati/selezione.md",
+    "calcolo delle probabilità/legge condizionata.md",
+    "calcolo delle probabilità/Calcolo delle probabilità.md",
+    "calcolo delle probabilità/legge congiunta e leggi marginali di variabili aleatorie.md",
+    "calcolo delle probabilità/varianza di una variabile aleatoria.md",
+    "calcolo delle probabilità/valore atteso di una variabile aleatoria.md",
+    "calcolo delle probabilità/trasformazione di variabili aleatorie.md",
+    "calcolo delle probabilità/casi notevoli di varianza e valore atteso.md",
+    "calcolo delle probabilità/variabili aleatorie.md",
+    "calcolo delle probabilità/variabile aleatoria indicatrice.md",
+    "calcolo delle probabilità/probabilità.md",
+    "basi di dati/verifica di una buona decomposizione in 3NF.md",
+    "progettazione di sistemi digitali/programmable logic array (PLA).md",
     "basi di dati/Pasted image 20260126120602.png",
-    "calcolo delle probabilità/indipendenza di n eventi.md",
-    "calcolo delle probabilità/indipendenza di tre eventi.md",
     "Untitled.canvas",
     "algebra lineare/Pasted image 20260115114517.png",
     "algebra lineare/Pasted image 20260114133410.png",

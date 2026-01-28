@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-12-10T14:36:07.836+01:00
+updated_at: 2026-01-27T22:38:14.414+01:00
 ---
 # Legge congiunta
 
@@ -71,7 +71,7 @@ $$
 \mathbb{P}(Y = 1) = \frac{1}{36}
 $$
 
-$$\mathbb{P}(Y = 2) = \mathbb{P}(Y = 2, X = 1) + \mathbb{P}(Y = 2, X = 1) = \frac{3}{36}$$
+$$\mathbb{P}(Y = 2) = \mathbb{P}(Y = 2, X = 1) + \mathbb{P}(Y = 2, X = 2) = \frac{3}{36}$$
 
 $$
 \mathbb{P}(Y = 3) = \frac{5}{36}, \quad \mathbb{P}(Y = 4) = \frac{7}{36}, \quad \mathbb{P}(Y = 5) = \frac{9}{36}, \quad \mathbb{P}(Y = 6) = \frac{11}{36} 
@@ -88,6 +88,8 @@ p_{y}  =\mathbb{P}(Y = y) = \sum_{y \in S_{Y}} \mathbb{P}(X = x, Y = \underset{\
 $$
 In generale, dalla legge congiunta di $X$ e $Y$ possiamo ricavare le marginali; ma dalle  marginali non si può, senza informazioni aggiuntive, scrivere la legge congiunta.
 
+## Osservazioni importanti
+
 > N.B.: Se $X$ e $Y$ sono [[indipendenza di due eventi|indipendenti]], la loro legge congiunta è il "prodotto" delle leggi marginali, ossia
 
 $$
@@ -103,7 +105,6 @@ $$
 ## Esempio
 
 Siano $X$ e $Y$ due variabili aleatorie con legge congiunta data dai pesetti
-
 
 | $S_{Y}/S_{X}$ | 1    | 2    | 3    |
 | ------------- | ---- | ---- | ---- |
@@ -130,7 +131,7 @@ Leggi marginali:
 	- $\mathbb{P}(Y = 3) = p_{1,3} + p_{2,3} + p_{3, 3} = \frac{1}{12}$
 	- $\mathbb{P}(Y = 4) = p_{1,4} + p_{2,4} + p_{3, 4} = \frac{4}{12}$
 
-Esempi di [[evento|eventi]] di natura "geometrica" calcolati nel "piano discreto" della la legge congiunta dei pesetti:
+Esempi di [[evento|eventi]] di natura "geometrica" calcolati nel "piano discreto" della legge congiunta dei pesetti:
 
-- $\mathbb{P}(X+Y=4) = \mathbb{P}(\{(x, y): x+y\}) = \mathbb{P}(\{(1, 3), (2, 2), (3, 1)\}) = 0 + \frac{3}{12} + \frac{1}{12} = \frac{1}{3}$ (retta)
-- $\mathbb{P}((X-2)^{2}+(Y-1)^{2} \leq 1) = p_{1, 1} + p_{2,1} + p_{3,1} + p_{2,2} = \frac{5}{12}$ (cerchio)
+- $\mathbb{P}(X+Y=4) = \mathbb{P}(\{(x, y): x+y = 4\}) = \mathbb{P}(\{(1, 3), (2, 2), (3, 1)\}) = 0 + \frac{3}{12} + \frac{1}{12} = \frac{1}{3}$ (retta)
+- $\mathbb{P}((X-2)^{2}+(Y-1)^{2} \leq 1) = p_{1, 1} + p_{2,1} + p_{3,1} + p_{2,2} = \frac{5}{12}$ ("cerchio")

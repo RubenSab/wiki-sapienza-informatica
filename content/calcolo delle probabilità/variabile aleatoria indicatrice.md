@@ -1,10 +1,10 @@
 ---
-updated_at: 2025-10-29T14:06:38.461+01:00
+updated_at: 2026-01-27T19:26:36.716+01:00
 ---
-> Sia $\Omega$ uno [[spazio campionario]] e sia $A$ un [[evento]] su $\Omega$. La [[variabili aleatorie]] associata all'evento $A$ è la funzione $\mathbb{1}_{A}$ definita come il verificarsi (1) o meno (0) dell'evento $A$.
+> Sia $\Omega$ uno [[spazio campionario]] e sia $A$ un [[evento]] su $\Omega$. La [[variabili aleatorie|variabile aleatoria]] associata all'evento $A$ è la [[funzione]] $\mathbb{1}_{A}$ definita come il verificarsi (1) o meno (0) dell'evento $A$.
 
 $$
-\mathbb{1}_{A}: \qquad \Omega \to \{0, 1\} = S
+\mathbb{1}_{A}: \qquad \Omega \to \{0, 1\}
 $$
 
 $$
