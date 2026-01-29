@@ -6,7 +6,6 @@
       {
         "id": "a93a4c294a97a060",
         "type": "tabs",
-        "dimension": 56.997282608695656,
         "children": [
           {
             "id": "90c1a438dae3000b",
@@ -35,34 +34,12 @@
             }
           },
           {
-            "id": "3fb8374803125be7",
-            "type": "leaf",
-            "state": {
-              "type": "webviewer",
-              "state": {
-                "url": "https://drive.google.com/file/d/1Ssu_8JbC1UK9VVGtVLLD69GXzfmDZbJp/view",
-                "title": "23. File con indice - caratteristihe ed esercizi.pdf - Google Drive",
-                "mode": "webview"
-              },
-              "icon": "globe-2",
-              "title": "23. File con indice - caratteristihe ed esercizi.pdf - Google Drive"
-            }
-          }
-        ],
-        "currentTab": 1
-      },
-      {
-        "id": "4509724f8bf84da7",
-        "type": "tabs",
-        "dimension": 43.002717391304344,
-        "children": [
-          {
-            "id": "351be2d03d22755b",
+            "id": "04e259f07dae8f6d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "basi di dati/file con indice (ISAM).md",
+                "file": "basi di dati/Basi di dati.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -77,10 +54,39 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "file con indice (ISAM)"
+              "title": "Basi di dati"
+            }
+          },
+          {
+            "id": "671231a455aae2ea",
+            "type": "leaf",
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "https://sites.google.com/di.uniroma1.it/basididati-modulo1canalem-z/home-page/materiale-del-corso",
+                "title": "Basi di Dati - Modulo 1 (canale M-Z) - Materiale del corso",
+                "mode": "webview"
+              },
+              "icon": "globe-2",
+              "title": "Basi di Dati - Modulo 1 (canale M-Z) - Materiale del corso"
+            }
+          },
+          {
+            "id": "fff6be41ab11078e",
+            "type": "leaf",
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "https://drive.google.com/file/d/1o0ll3ggvw3ZPiSbinTy6JWSKvZR6tgLs/view",
+                "title": "24. B-tree - caratteristiche ed esercizi.pdf - Google Drive",
+                "mode": "webview"
+              },
+              "icon": "globe-2",
+              "title": "24. B-tree - caratteristiche ed esercizi.pdf - Google Drive"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -120,8 +126,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 283.5,
-    "collapsed": true
+    "width": 283.5
   },
   "right": {
     "id": "26b38658cac3fe47",
@@ -268,17 +273,19 @@
       "new-3d-graph:Open 3d graph": false
     }
   },
-  "active": "351be2d03d22755b",
+  "active": "fff6be41ab11078e",
   "lastOpenFiles": [
+    "basi di dati/Basi di dati.md",
     "basi di dati/organizzazione fisica di un database relazionale.md",
     "basi di dati/file con indice (ISAM).md",
+    "introduzione agli algoritmi/heap sort.md",
+    "basi di dati/modello ad oggetti (object).md",
+    "basi di dati/file heap.md",
     "basi di dati/file hash.md",
     "interdisciplinare/puntatore.md",
     "interdisciplinare/hash table.md",
     "interdisciplinare/linked list.md",
     "interdisciplinare/dizionario.md",
-    "basi di dati/Basi di dati.md",
-    "basi di dati/file heap.md",
     "interdisciplinare/insieme.md",
     "basi di dati/copertura minimale di un insieme di dipendenze.md",
     "basi di dati/chiusura di un insieme di dipendenze funzionali.md",
@@ -294,8 +301,6 @@
     "calcolo delle probabilità/casi notevoli di varianza e valore atteso.md",
     "calcolo delle probabilità/variabili aleatorie.md",
     "calcolo delle probabilità/variabile aleatoria indicatrice.md",
-    "calcolo delle probabilità/probabilità.md",
-    "basi di dati/verifica di una buona decomposizione in 3NF.md",
     "basi di dati/Pasted image 20260126120602.png",
     "Untitled.canvas",
     "algebra lineare/Pasted image 20260115114517.png",
