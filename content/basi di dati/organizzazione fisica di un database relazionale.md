@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-01-28T16:29:53.920+01:00
+updated_at: 2026-01-29T23:51:58.360+01:00
 ---
 > In un [[DBMS (Database Management System)]], il [[efficienza degli algoritmi (costo computazionale)|costo]] di un'operazione è definito in termini del **numero di accessi** alla [[memoria]] secondaria.
 

@@ -1,6 +1,6 @@
 ---
 title: Wiki Informatica Sapienza (canale MZ)
-updated_at: 2026-01-23T19:55:27.157+01:00
+updated_at: 2026-01-29T23:57:34.658+01:00
 ---
 Scala di **qualità** degli appunti dei corsi:
 
@@ -16,9 +16,10 @@ Scala di **qualità** degli appunti dei corsi:
 | ------------------------------------ | ------- |
 | [[Algebra]]                          | 3/3     |
 | [[Calcolo delle probabilità]]        | 3/3     |
-| [[Basi di dati]]                     | 3/3     |
+| [[Basi di dati]]                     | 3-/3 \* |
 | niente appunti per Sistemi operativi | -       |
 
+\* Manca l'ultimo argomento (controllo della concorrenza)
 
 ---
 # Primo anno
@@ -30,7 +31,7 @@ Scala di **qualità** degli appunti dei corsi:
 | [[metodologie di programmazione]]  | 1/3     |
 | [[architettura degli elaboratori]] | 3/3     |
 | [[calcolo integrale]]              | 1/3     |
-| [[introduzione agli algoritmi]]    | 2.5/3   |
+| [[introduzione agli algoritmi]]    | 2/3     |
 
 ## Primo semestre
 
