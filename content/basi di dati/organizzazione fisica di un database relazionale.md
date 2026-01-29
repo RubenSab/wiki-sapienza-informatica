@@ -55,5 +55,5 @@ In base alla frequenza dei tipi di operazioni che corrispondono alle **esigenze 
 
 - [[file heap]]
 - [[file hash]]
-- [[file con indice]]
+- [[file con indice (ISAM)]]
 - [[B-tree]]

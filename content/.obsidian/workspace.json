@@ -6,7 +6,7 @@
       {
         "id": "a93a4c294a97a060",
         "type": "tabs",
-        "dimension": 41.10054347826087,
+        "dimension": 56.997282608695656,
         "children": [
           {
             "id": "90c1a438dae3000b",
@@ -35,76 +35,6 @@
             }
           },
           {
-            "id": "4d2e4f372813a4f4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "basi di dati/file hash.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "file hash"
-            }
-          },
-          {
-            "id": "a5e87fe7aafa90eb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "basi di dati/Basi di dati.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Basi di dati"
-            }
-          }
-        ],
-        "currentTab": 1
-      },
-      {
-        "id": "4509724f8bf84da7",
-        "type": "tabs",
-        "dimension": 58.89945652173913,
-        "children": [
-          {
-            "id": "351be2d03d22755b",
-            "type": "leaf",
-            "state": {
-              "type": "webviewer",
-              "state": {
-                "url": "https://drive.google.com/file/d/0B-4exWJj0L7RRWtBZzBTN1hWUjA/view?resourcekey=0-DjGO-65n9U_KUfXyUfcYTg",
-                "title": "22. File hash - caratteristiche ed esercizi.pdf - Google Drive",
-                "mode": "blank"
-              },
-              "icon": "globe-2",
-              "title": "22. File hash - caratteristiche ed esercizi.pdf - Google Drive"
-            }
-          },
-          {
             "id": "3fb8374803125be7",
             "type": "leaf",
             "state": {
@@ -116,6 +46,38 @@
               },
               "icon": "globe-2",
               "title": "23. File con indice - caratteristihe ed esercizi.pdf - Google Drive"
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "4509724f8bf84da7",
+        "type": "tabs",
+        "dimension": 43.002717391304344,
+        "children": [
+          {
+            "id": "351be2d03d22755b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "basi di dati/file con indice (ISAM).md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "file con indice (ISAM)"
             }
           }
         ]
@@ -306,9 +268,10 @@
       "new-3d-graph:Open 3d graph": false
     }
   },
-  "active": "4d2e4f372813a4f4",
+  "active": "351be2d03d22755b",
   "lastOpenFiles": [
     "basi di dati/organizzazione fisica di un database relazionale.md",
+    "basi di dati/file con indice (ISAM).md",
     "basi di dati/file hash.md",
     "interdisciplinare/puntatore.md",
     "interdisciplinare/hash table.md",
@@ -333,7 +296,6 @@
     "calcolo delle probabilità/variabile aleatoria indicatrice.md",
     "calcolo delle probabilità/probabilità.md",
     "basi di dati/verifica di una buona decomposizione in 3NF.md",
-    "progettazione di sistemi digitali/programmable logic array (PLA).md",
     "basi di dati/Pasted image 20260126120602.png",
     "Untitled.canvas",
     "algebra lineare/Pasted image 20260115114517.png",
