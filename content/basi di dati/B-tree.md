@@ -1,7 +1,6 @@
 ---
-updated_at: 2026-01-29T23:46:49.619+01:00
+updated_at: 2026-01-30T13:02:31.694+01:00
 ---
-
 # Cosa risolve il B-tree
 
 - Il B-tree generalizza la struttura di indice dell'[[file con indice (ISAM)|ISAM]], ottimizzando le performance della ricerca.
@@ -19,7 +18,7 @@ Ogni blocco del **file indice** contiene:
 	1. il **valore** della chiave del primo record della porzione del file accessibile attraverso il puntatore,
 	2. il [[puntatore]] a un blocco al livello più basso, oppure a una **foglia**, cioè ad un blocco del **file principale**, il quale non contiene puntatori.
 
-> N.B.: Per scelta progettuale, ogni blocco del B-tree è sempre pieno **almeno per metà dei byte**, garantendo che il B-tree sia **bilanciato**.
+> N.B.: Per scelta progettuale, ogni blocco del B-tree è sempre pieno **almeno per metà dei BYTE (anche contando i puntatori)**, garantendo che il B-tree sia **bilanciato**.
 
 # Operazioni
 
@@ -53,3 +52,52 @@ $h+1$ (ricerca) $+1$ (riscrittura del blocco). Se il blocco rimane pieno per met
 ## Modifica
 
 $h+1$ (ricerca) $+1$ (riscrittura del blocco) se la modifica non coinvolge campi della chiave, altrimenti corrisponde a una **cancellazione + inserimento**.
+
+# Esempio
+
+Supponiamo di avere un file di 170.000 record. Ogni record occupa 200 byte, di cui 20 per il campo chiave.
+Ogni blocco contiene 1024 byte. Un puntatore a blocco occupa 4 byte.
+
+## Se usiamo un B-tree e assumiamo che sia i blocchi indice che i blocchi del file sono pieni al minimo, quanti blocchi vengono usati per il livello foglia (file principale)
+
+Ogni blocco può contenere al massimo $\left\lfloor\frac{1024}{200}\right\rfloor = 5$ record.
+
+Per definizione, un blocco non può contenere meno di $\left\lceil\frac{5}{2}\right\rceil = 3$ record, quindi in questo contesto 3 è il numero di record in un blocco.
+
+Considerando che **ogni chiave si trova su un livello foglia**, il numero di blocchi nel livello foglia sarà $\left\lceil\frac{170000}{3}\right\rceil = 56667$.
+
+## e quanti per l’indice, considerando tutti i livelli non foglia ?
+
+I blocchi foglia sono 56667 e l'albero di indici li deve indicizzare tutti.
+
+Considerando che ogni blocco contiene 1024 byte e è formato da un puntatore iniziale (4 byte) e da $n$ coppie chiave-puntatore (20+4) byte, per occupare un blocco **a metà** servono 4 byte + $n$ coppie.
+
+$$
+4 + n(24) = \frac{1024}{2} \to \lceil n \rceil = 22\ \text{coppie}
+$$
+22 coppie corrispondono a 22 puntatori, più il puntatore iniziale sono 23.
+
+Adesso [il calcolo è matematico](https://www.youtube.com/shorts/wCVMa-CHWuY).
+
+1. Il primo livello di blocchi indice ha bisogno di $\left\lceil\frac{56667}{23}\right\rceil = 2464$ blocchi per indicizzare i 56667 blocchi del file principale;
+2. il secondo livello di blocchi indice ha bisogno di $\left\lceil\frac{2464}{23}\right\rceil = 108$ blocchi per indicizzare i 2464 blocchi del primo livello;
+3. il terzo livello di blocchi indice ha bisogno di $\left\lceil\frac{108}{23}\right\rceil = 5$ blocchi per indicizzare i 108 blocchi del secondo livello;
+4. il quarto livello di blocchi indice ha bisogno di $\left\lceil\frac{5}{23}\right\rceil = 1$ blocchi per indicizzare i 5 blocchi del terzo livello: è la radice.
+
+In totale l'albero del file indice occupa $2463 + 108 + 5 + 1 = 2578$ blocchi, distribuiti in 4 livelli.
+
+### Osservazione **importante** sul numero dei livelli
+
+Il fatto che ogni livello aveva $\frac{1}{23}$ nodi del livello sottostante, fa si che l'altezza $h$ dell'albero è esprimibile come:
+
+$$
+h = \left\lceil\log_{\text{puntatori per blocco}}{\text{blocchi foglia}}\right\rceil
+$$
+
+$$
+ = \left\lceil\log_{\text{puntatori per blocco}}{\left(\frac{\text{numero di record nel file principale}}{\text{capienza di record in un blocco principale}}\right)}\right\rceil
+$$
+
+## Qual è il costo di una ricerca in questo caso?
+
+Dato che ci sono 4 livelli di indici, di cui uno è la radice che è **sempre** in [[memoria]] principale, e in più c'è il livello dei blocchi del file principale, in totale la ricerca costa 4 accessi in **memoria secondaria**.

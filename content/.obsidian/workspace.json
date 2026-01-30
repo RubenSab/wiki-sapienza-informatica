@@ -4,8 +4,26 @@
     "type": "split",
     "children": [
       {
+        "id": "c651459168d8af44",
+        "type": "tabs",
+        "dimension": 57.162253903598106,
+        "children": [
+          {
+            "id": "3ca0bccf521e7305",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          }
+        ]
+      },
+      {
         "id": "a93a4c294a97a060",
         "type": "tabs",
+        "dimension": 42.8377460964019,
         "children": [
           {
             "id": "90c1a438dae3000b",
@@ -50,115 +68,22 @@
             }
           },
           {
-            "id": "641b8a8837dddba3",
+            "id": "f7ae32006ef6c1c5",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://drive.google.com/file/d/11RlECBPN3GQNNS9wBau_lNiIrceADR-O/view",
-                "title": "30. Time-stamp.pdf - Google Drive",
+                "url": "https://sites.google.com/di.uniroma1.it/basididati-modulo1canalem-z/home-page/materiale-del-corso",
+                "title": "Basi di Dati - Modulo 1 (canale M-Z) - Materiale del corso",
                 "mode": "webview"
               },
+              "pinned": true,
               "icon": "globe-2",
-              "title": "30. Time-stamp.pdf - Google Drive"
-            }
-          },
-          {
-            "id": "33d6c8fd47410c38",
-            "type": "leaf",
-            "state": {
-              "type": "webviewer",
-              "state": {
-                "url": "https://drive.google.com/file/d/0B-4exWJj0L7RUTFZOWNoUTRYN1U/view?resourcekey=0-63gAp_lD67lRLkQMGMj1Ug",
-                "title": "29. Deadlock e livelock - Protocollo di locking a due fasi stretto.pdf - Google Drive",
-                "mode": "webview"
-              },
-              "icon": "globe-2",
-              "title": "29. Deadlock e livelock - Protocollo di locking a due fasi stretto.pdf - Google Drive"
-            }
-          },
-          {
-            "id": "191498509ed01263",
-            "type": "leaf",
-            "state": {
-              "type": "webviewer",
-              "state": {
-                "url": "https://drive.google.com/file/d/0B-4exWJj0L7RT3V3d0xfUFhQR1k/view?resourcekey=0-URrbnGI4P37z0ghFhj8F-Q",
-                "title": "28. Write-only, read-only.pdf - Google Drive",
-                "mode": "webview"
-              },
-              "icon": "globe-2",
-              "title": "28. Write-only, read-only.pdf - Google Drive"
-            }
-          },
-          {
-            "id": "ca172d3d5f6c07e4",
-            "type": "leaf",
-            "state": {
-              "type": "webviewer",
-              "state": {
-                "url": "https://drive.google.com/file/d/0B-4exWJj0L7Ra2tXUmF4QTJZLUE/view?resourcekey=0-OvZhXazHUgH8eeiw3d307g",
-                "title": "27. Lock a tre valori.pdf - Google Drive",
-                "mode": "webview"
-              },
-              "icon": "globe-2",
-              "title": "27. Lock a tre valori.pdf - Google Drive"
-            }
-          },
-          {
-            "id": "de6bd8340d6ca8d9",
-            "type": "leaf",
-            "state": {
-              "type": "webviewer",
-              "state": {
-                "url": "https://drive.google.com/file/d/0B-4exWJj0L7Rb050RDBweFNPd00/view?resourcekey=0-6O_dNlMADR2Y5QuPisQmAQ",
-                "title": "26. Il meccanismo di lock – Lock binario.pdf - Google Drive",
-                "mode": "webview"
-              },
-              "icon": "globe-2",
-              "title": "26. Il meccanismo di lock – Lock binario.pdf - Google Drive"
-            }
-          },
-          {
-            "id": "9530805bc6066e4f",
-            "type": "leaf",
-            "state": {
-              "type": "webviewer",
-              "state": {
-                "url": "https://drive.google.com/file/d/0B-4exWJj0L7Ra2FsUXppOW5hNEk/view?resourcekey=0-hke1RCKpFIsMF6EyN-BUtg",
-                "title": "25. Il controllo della concorrenza.pdf - Google Drive",
-                "mode": "webview"
-              },
-              "icon": "globe-2",
-              "title": "25. Il controllo della concorrenza.pdf - Google Drive"
-            }
-          },
-          {
-            "id": "99e618d99a9afb06",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "index.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "index"
+              "title": "Basi di Dati - Modulo 1 (canale M-Z) - Materiale del corso"
             }
           }
-        ],
-        "currentTab": 8
+        ]
       }
     ],
     "direction": "vertical"
@@ -346,20 +271,21 @@
       "new-3d-graph:Open 3d graph": false
     }
   },
-  "active": "99e618d99a9afb06",
+  "active": "3ca0bccf521e7305",
   "lastOpenFiles": [
+    "basi di dati/file con indice (ISAM).md",
+    "basi di dati/organizzazione fisica di un database relazionale.md",
+    "basi di dati/file hash.md",
+    "basi di dati/file heap.md",
+    "basi di dati/B-tree.md",
+    "interdisciplinare/memoria.md",
     "basi di dati/Basi di dati.md",
     "index.md",
     "basi di dati/controllo della concorrenza in una base di dati.md",
-    "basi di dati/organizzazione fisica di un database relazionale.md",
     "Esercizio.md",
-    "basi di dati/B-tree.md",
     "interdisciplinare/albero.md",
-    "basi di dati/file con indice (ISAM).md",
     "introduzione agli algoritmi/heap sort.md",
     "basi di dati/modello ad oggetti (object).md",
-    "basi di dati/file heap.md",
-    "basi di dati/file hash.md",
     "interdisciplinare/puntatore.md",
     "interdisciplinare/hash table.md",
     "interdisciplinare/linked list.md",
@@ -373,7 +299,6 @@
     "calcolo delle probabilità/legge condizionata.md",
     "calcolo delle probabilità/Calcolo delle probabilità.md",
     "calcolo delle probabilità/legge congiunta e leggi marginali di variabili aleatorie.md",
-    "calcolo delle probabilità/varianza di una variabile aleatoria.md",
     "basi di dati/Pasted image 20260126120602.png",
     "Untitled.canvas",
     "algebra lineare/Pasted image 20260115114517.png",

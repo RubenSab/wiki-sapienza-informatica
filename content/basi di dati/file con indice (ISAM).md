@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-01-29T16:31:41.365+01:00
+updated_at: 2026-01-30T13:03:19.438+01:00
 ---
 # Cosa risolve l'ISAM
 
@@ -14,6 +14,7 @@ Ciò è utile perché avendo una [[struttura dati]] ordinata, l'operazione di ri
 Questa struttura dati si divide in due parti:
 
 - il **file indice**: è un file ordinato i cui record sono composti dalla **chiave di ricerca** e dal **[[puntatore]]** al primo record (quello con la chiave dal valore minore) di un blocco del **file principale**.
+  Potrebbe comunque essere così grande da non entrare nella [[memoria]] principale, quindi potrebbe necessitare di essere caricato a pezzi dalla memoria secondaria.
 - il **file principale**: è il file ordinato di record che contiene il database.
 
 # Operazioni

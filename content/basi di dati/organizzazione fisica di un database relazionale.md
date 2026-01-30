@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-01-29T23:51:58.360+01:00
+updated_at: 2026-01-30T13:05:32.148+01:00
 ---
 > In un [[DBMS (Database Management System)]], il [[efficienza degli algoritmi (costo computazionale)|costo]] di un'operazione è definito in termini del **numero di accessi** alla [[memoria]] secondaria.
 
@@ -12,7 +12,7 @@ updated_at: 2026-01-29T23:51:58.360+01:00
 Per *accesso* a un blocco si intende il suo trasferimento in due possibili direzioni:
 
 - dalla memoria secondaria a quella principale (lettura)
-- dalla memoria principale alla memoria secondaria (scrittura)
+- dalla [[memoria]] principale alla memoria secondaria (scrittura)
 
 # Metadata dei record/blocchi
 

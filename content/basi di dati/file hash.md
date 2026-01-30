@@ -34,7 +34,7 @@ organizzato come un heap.
 # Osservazioni
 
 - Ogni bucket deve avere almeno un blocco.
-- Se la bucket directory è troppo grande per stare completamente in memoria principale, banno eseguiti ulteriori accessi alla memoria secondaria.
+- Se la bucket directory è troppo grande per stare completamente in [[memoria]] principale, banno eseguiti ulteriori accessi alla memoria secondaria.
 - Ogni record deve essere contenuto **completamente** in un blocco.
 - I blocchi vengono allocati **per intero**, anche se contengono dello spazio vuoto.
 
