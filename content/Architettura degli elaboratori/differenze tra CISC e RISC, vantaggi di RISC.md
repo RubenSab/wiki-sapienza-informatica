@@ -11,7 +11,7 @@ updated_at: 2025-06-03T10:42:48.475+02:00
 | **Formato variabile**: decodifica complessa                                                       | **Istruzioni in [[formati delle istruzioni\|formato]] uniforme**: per semplificare la fase di decodifica                        |
 | **Operandi in memoria**: molti accessi alla [[memoria]] RAM per istruzione                  | **Operazioni [[ALU\|ALU]] solo tra [[registri]]:** senza accesso a memoria RAM                                                  |
 | **Pochi registri interni**: maggior numero di accessi in memoria                                  | **Molti [[registri generali dell'architettura RISC-V\|registri interni]]**: per i risultati parziali senza accessi alla memoria |
-| **Modi di indirizzamento complessi**                                                              | **[[Modi di indirizzamento]] semplici**                                                                                         |
+| **Modi di indirizzamento complessi**                                                              | **[[modi di indirizzamento]] semplici**                                                                                         |
 | **Istruzioni complesse**: pipeline più complicata                                                 | **Istruzioni semplici**: [[architettura RISC-V con pipeline\|pipeline]] più veloce                                              |
 
 > N.B. In [[RISC-V]], le parole ([[unità di misura del sistema binario|word]]) di default sono lunghe 32 bit.

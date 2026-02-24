@@ -32,7 +32,7 @@ Osservazioni:
 - Applicando la definizione di massimo comun divisore su $d_{1}$ e considerando $d_{2}$ come un semplice divisore di $a$ e $b$, poi facendo l'opposto per $d_{2}$, otteniamo che $d_{1} \mid d_{2} \land d_{2} \mid d_{1} \implies d_{1} = d_{2}$ per l'[[proprietà, tipi di relazioni e ordini|antisimmetria]] della relazione "$x$ divide $y$" su $\mathbb{R}^{\star}$.
 - Ciò contraddice l'assurdo, dimostrando che l'MCD è unico.
 
-# [[Algoritmo]] della divisione euclidea per il calcolo dell'MCD
+# [[algoritmo]] della divisione euclidea per il calcolo dell'MCD
 
 > L'algoritmo della divisione euclidea permette di calcolare l'MCD senza scomporre in primi i due numeri.
 

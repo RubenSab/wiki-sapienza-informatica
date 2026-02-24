@@ -1,7 +1,7 @@
 ---
 updated_at: 2025-06-03T10:55:50.757+02:00
 ---
-# [[Registri]]
+# [[registri]]
 
 L'architettura RISC-V ha:
 - 32 [[registri generali dell'architettura RISC-V|registri generali]] (indirizzabili con 5 bit) per gli interi (x0, x1, ..., x31)

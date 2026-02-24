@@ -1,6 +1,6 @@
 ---
 title: Wiki Informatica Sapienza (canale MZ)
-updated_at: 2026-01-29T23:57:34.658+01:00
+updated_at: 2026-02-24T14:58:31.665+01:00
 ---
 Scala di **qualità** degli appunti dei corsi:
 
@@ -9,6 +9,15 @@ Scala di **qualità** degli appunti dei corsi:
 - 1/3 - Appunti iniziati ma lasciati incompleti quasi subito.
 
 # Secondo anno
+
+## Secondo semestre
+
+| **Corso**                      | **Qualità** |
+| ------------------------------ | ----------- |
+| [[Basi di dati 2]]             | -           |
+| [[Sistemi operativi 2]]        | -           |
+| [[Reti di elaboratori]]        | -           |
+| [[Progettazione di algoritmi]] | -           |
 
 ## Primo semestre
 

@@ -1,0 +1,10 @@
+---
+updated_at: 2026-02-24T14:53:39.545+01:00
+---
+> È una [[rete]] che collega sistemi terminali in un'area geografica molto limitata, come un'università, spesso per la condivisione di risorse locali sotto il controllo di una sola organizzazione.
+
+Ogni LAN ha un indirizzo univoco in una rete più grande, può connettere un numero arbitrario di dispositivi.
+
+> Una LAN può essere **broadcast**: cioè una rete dove se un dispositivo manda un pacchetto ad un altro, allora tutti quanti lo ricevono e solo il varo destinatario lo processa, gli altri lo ignorano. Può trasmettere solo un pacchetto alla volta ed è vulnerabile al [[packet sniffing]] e al [[packet spoofing]]. È molto inefficiente.
+
+> Una LAN può essere "**a stella**": cioè ha uno switch di interconnessione a cui tutti i dispositivi di rete sono collegati direttamente. Quando viene mandato un pacchetto, lo switch lo invia solo al destinatario.

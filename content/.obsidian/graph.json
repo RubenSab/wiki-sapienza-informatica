@@ -5,7 +5,7 @@
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": false,
-  "collapse-color-groups": true,
+  "collapse-color-groups": false,
   "colorGroups": [
     {
       "query": "tag:todo",
@@ -15,87 +15,115 @@
       }
     },
     {
-      "query": "path: \"metodi matematici per l'informatica\"",
+      "query": "path: \"Metodi matematici per l'informatica\"",
       "color": {
         "a": 1,
         "rgb": 9002713
       }
     },
     {
-      "query": "path: \"calcolo differenziale\"  ",
+      "query": "path: \"Calcolo differenziale\"  ",
       "color": {
         "a": 1,
         "rgb": 6080726
       }
     },
     {
-      "query": "path: \"introduzione agli algoritmi\"  ",
+      "query": "path: \"Introduzione agli algoritmi\"  ",
       "color": {
         "a": 1,
-        "rgb": 9166930
+        "rgb": 11788370
       }
     },
     {
-      "query": "path: \"calcolo integrale\"  ",
+      "query": "path: \"Calcolo integrale\"  ",
       "color": {
         "a": 1,
         "rgb": 4294907
       }
     },
     {
-      "query": "path: \"progettazione di sistemi digitali\"  ",
+      "query": "path: \"Progettazione di sistemi digitali\"  ",
       "color": {
         "a": 1,
         "rgb": 14245495
       }
     },
     {
-      "query": "path: \"metodologie di programmazione\"  ",
+      "query": "path: \"Metodologie di programmazione\"  ",
       "color": {
         "a": 1,
         "rgb": 14731602
       }
     },
     {
-      "query": "path: \"architettura degli elaboratori\"  ",
+      "query": "path: \"Architettura degli elaboratori\"  ",
       "color": {
         "a": 1,
         "rgb": 14713938
       }
     },
     {
-      "query": "path: \"interdisciplinare\"  ",
+      "query": "path: \"Interdisciplinare\"  ",
       "color": {
         "a": 1,
         "rgb": 16777215
       }
     },
     {
-      "query": "path: \"calcolo delle probabilità\"  ",
+      "query": "path: \"Calcolo delle probabilità\"  ",
       "color": {
         "a": 1,
         "rgb": 13652704
       }
     },
     {
-      "query": "path:\"algebra lineare\" ",
+      "query": "path:\"Algebra lineare\" ",
       "color": {
         "a": 1,
         "rgb": 5431447
       }
     },
     {
-      "query": "path: \"sistemi operativi\"  ",
+      "query": "path: \"Sistemi operativi\"",
       "color": {
         "a": 1,
         "rgb": 14722386
       }
     },
     {
-      "query": "path: \"basi di dati\" ",
+      "query": "path: \"Basi di dati\" ",
       "color": {
         "a": 1,
-        "rgb": 16621761
+        "rgb": 16496317
+      }
+    },
+    {
+      "query": "path: \"Basi di dati 2\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 14837166
+      }
+    },
+    {
+      "query": "path: \"Sistemi operativi 2\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 14722386
+      }
+    },
+    {
+      "query": "path: \"Reti di elaboratori\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 16256496
+      }
+    },
+    {
+      "query": "path: \"Progettazione di algoritmi\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 5431454
       }
     }
   ],
@@ -109,6 +137,6 @@
   "repelStrength": 13.3848748945741,
   "linkStrength": 0.732218161371943,
   "linkDistance": 161,
-  "scale": 0.06058090067077838,
+  "scale": 0.05932617187499985,
   "close": true
 }

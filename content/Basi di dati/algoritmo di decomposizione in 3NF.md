@@ -1,30 +1,32 @@
 ---
-updated_at: 2026-01-04T17:44:08.526+01:00
+updated_at: 2026-02-03T13:08:23.261+01:00
 ---
-Dato uno [[tabella|schema di relazione]] e un insieme di [[dipendenza funzionale|dipendenze funzionali]] $G$ su $R$ esiste **sempre** una decomposizione $\rho = \{R_{1}, \ldots, R_{k}\}$ di $R$ che rispetta i criteri di una [[verifica di una buona decomposizione in 3NF|buona decomposizione in 3NF]], cioè:
+Dato uno [[tabella|schema di relazione]] e un insieme di [[dipendenza funzionale|dipendenze funzionali]] $F$ su $R$ esiste **sempre** una decomposizione $\rho = \{R_{1}, \ldots, R_{k}\}$ di $R$ che rispetta i criteri di una [[verifica di una buona decomposizione in 3NF|buona decomposizione in 3NF]], cioè:
 
 - ogni $R_{i}$ è in [[3NF (terza forma normale)|3NF]],
 - $\rho$ preserva $F$,
 - $\rho$ ha un [[join naturale]] senza perdita.
 
-Tale decomposizione può essere calcolata in [[complessità temporale|tempo polinomiale]] con un [[algoritmo]] che riceve in input una **qualunque** [[copertura minimale di un insieme di dipendenze|copertura minimale]] di $G$, che definiamo $F$.
+Una decomposizione $\rho$ di $R$ può essere calcolata in [[complessità temporale|tempo polinomiale]] con un [[algoritmo]] che riceve in input una **qualunque** [[copertura minimale di un insieme di dipendenze|copertura minimale]] di $F$, che definiamo $G$.
 
-**Input**: $R$, $F$.
+**Input**: $R$, $G$.
 
 **Output**: $\rho$.
 
 1. $S := \emptyset$
-2. for $A$ in $R$: (questa parte serve a selezionare nell'"accumulatore" $S$ tutte le dipendenze funzionali non coinvolte in nessuna dipendenza funzionale in $F$)
-	1. if $A$ non è coinvolto in nessuna dipendenza funzionale in $F$:
+2. for $A$ in $R$: (questa parte serve a selezionare nell'"accumulatore" $S$ tutte le dipendenze funzionali non coinvolte in nessuna dipendenza funzionale in $G$)
+	1. if $A$ non è coinvolto in nessuna dipendenza funzionale in $G$:
 		1. $S := S \cup \{A\}$
 3. if $S \neq \emptyset$: (questa parte rimuove tutti gli attributi di $S$ da $R$, inizializzando la decomposizione $\rho$ a $S$)
 	1. $R := R-S$
 	2. $\rho := \rho \cup \{S\}$
-4. if esiste $f \in F$ che coinvolge tutti gli attributi in $R$:
-	1. $\rho := \rho \cap \{R\}$
+4. if esiste $f \in G$ che coinvolge tutti gli attributi in $R$:
+	1. $\rho := \rho \cup \{R\}$
 5. else:
-	1. for $X \to A$ in $F$:
+	1. for $X \to A$ in $G$:
 		1. $\rho := \rho \cup \{XA\}$
+6. **Aggiungi $\{Y\}$ a $\rho$, con $Y$ chiave di $R$ se non è già presente in nessun sottoschema di $\rho$**. Questo serve per garantire un join senza perdita.
+7. (opzionale) semplifica rimuovendo tutti i sottoschemi [[sottoinsiemi]] di altri sottoschemi.
 
 # Esempio
 
@@ -72,13 +74,11 @@ $$
 G = \{AB \to C, AB \to D, C \to E\}
 $$
 
-> Trova una decomposizione $\rho$ di $R$ tale che preserva $G$ e ogni schema in $\rho$ è in 3NF.
+> Trova una decomposizione $\rho$ di $R$ tale che preserva $G$, ogni schema in $\rho$ è in 3NF ed è senza perdita.
 
 Iniziamo l'algoritmo: per prima cosa $H \notin G \implies \rho = \{H\}, R = \{A, B, C, D, E\}$. Non ci sono dipendenze che coinvolgono tutti gli attributi dello schema, quindi eseguiamo l'istruzione 5. dell'algoritmo, ottenendo $\rho = \{H, ABC, ABD, CE\}$.
 
-> Trova una decomposizione $\sigma$ di $R$ tale che preserva $G$ e ogni schema in $\sigma$ è in 3NF.
-
-per avere una decomposizione con join senza perdita, aggiungiamo alla decomposizione precedente un sottoschema che contenga la chiave $ABH$ (che non è già contenuta in alcuno degli schemi ottenuti)
+Per avere una decomposizione con join senza perdita, aggiungiamo alla decomposizione precedente un sottoschema che contenga la chiave $ABH$ (che non è già contenuta in alcuno degli schemi ottenuti), ottenendo $\rho = \{H, ABC, ABD, CE, ABH\}$, che si semplifica in $\rho = \{ABC, ABD, CE, ABH\}$.
 
 # Dimostrazione della correttezza dell'algoritmo
 

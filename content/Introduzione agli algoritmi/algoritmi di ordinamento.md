@@ -7,7 +7,7 @@ updated_at: 2025-11-23T17:14:31.628+01:00
 
 > Nonostante siano più i semplici, sia concettualmente sia per l'implementazione, sono anche i più inefficienti su grandi [[struttura dati|struttura dati]].
 
-| [[Algoritmo]] naive | Caso migliore           | Caso medio | Caso peggiore | Lista già ordinata      | [[Complessità spaziale]] |
+| [[algoritmo]] naive | Caso migliore           | Caso medio | Caso peggiore | Lista già ordinata      | [[complessità spaziale]] |
 | ------------------- | ----------------------- | ---------- | ------------- | ----------------------- | ------------------------ |
 | [[bubble sort]]     | $O(n)$ (se ottimizzato) | $O(n^2)$   | $O(n^2)$      | $O(n)$ (se ottimizzato) | $O(1)$                   |
 | [[selection sort]]  | $O(n^2)$                | $O(n^2)$   | $O(n^2)$      | $O(n^2)$                | $O(1)$                   |

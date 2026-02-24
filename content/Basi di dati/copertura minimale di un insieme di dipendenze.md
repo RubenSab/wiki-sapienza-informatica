@@ -1,11 +1,11 @@
 ---
-updated_at: 2026-01-28T09:08:58.460+01:00
+updated_at: 2026-02-03T12:27:35.836+01:00
 ---
 > Una *copertura minimale* di un [[insieme|insieme]] di $F$ è un insieme $G$ di [[dipendenza funzionale|dipendenze funzionali]] **[[dipendenza funzionale#^c57118|equivalente]]** a $F$ tale che:
 
-1. per ogni dipendenza funzionale in $G$, il determinato è un singleton. (non ci sono determinati ridondanti);
-2. per **nessuna** dipendenza funzionale $X \to A \in G$ esiste $X' \subset X$ tale che $G \equiv (G - \{X \to A\}) \cup \{X' \to A\}$ (nessun sottoinsieme del determinante determina il determinato: non ci sono determinanti ridondanti);
-3. per nessuna dipendenza funzionale $X \to A \in G$, $G \equiv G-\{X \to A\}$ (nessuna dipendenza è ridondante).
+1. per ogni dipendenza funzionale in $G$, il determinato è un singleton. (non ci sono **determinati** ridondanti);
+2. per nessuna dipendenza funzionale $X \to A \in G$ esiste $X' \subset X$ tale che $G \equiv (G - \{X \to A\}) \cup \{X' \to A\}$ (nessun sottoinsieme del determinante determina il determinato: non ci sono **determinanti** ridondanti);
+3. per nessuna dipendenza funzionale $X \to A \in G$, $G \equiv G-\{X \to A\}$ (non ci sono **dipendenze** ridondanti).
 
 Si chiama ***copertura*** perché è equivalente alla [[chiusura di un insieme di dipendenze funzionali|chiusura]] di $F$ e ***minimale*** perché non ha dipendenze ridondanti, secondo le tre condizioni.
 
@@ -46,7 +46,7 @@ $$
 - $C \to E$: $(C)^{+}_{F} = \{C, E\}$, la dipendenza deve rimanere per mantenere inalterata $(C)_{F}^{+}$
 - $AB \to E$: è ricavato transitivamente da $AB \to C \land C \to E$, quindi si può eliminare.
 
-La copertura minimale è
+Una copertura minimale è
 
 $$
 F = \{AB \to C, AB \to D, C \to E\}

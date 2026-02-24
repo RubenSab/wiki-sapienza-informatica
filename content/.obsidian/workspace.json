@@ -4,35 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "c651459168d8af44",
+        "id": "4509724f8bf84da7",
         "type": "tabs",
-        "dimension": 54.650373387644265,
         "children": [
           {
-            "id": "3ca0bccf521e7305",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
-            }
-          }
-        ]
-      },
-      {
-        "id": "a93a4c294a97a060",
-        "type": "tabs",
-        "dimension": 45.349626612355735,
-        "children": [
-          {
-            "id": "90c1a438dae3000b",
+            "id": "e7a7b303c61786dc",
             "type": "leaf",
             "pinned": true,
             "state": {
+              "type": "graph",
+              "state": {},
+              "pinned": true,
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          },
+          {
+            "id": "cd494052e512f198",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "basi di dati/organizzazione fisica di un database relazionale.md",
+                "file": "Reti di elaboratori/classificazione delle reti.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -46,44 +39,12 @@
                   "unlinkedCollapsed": true
                 }
               },
-              "pinned": true,
               "icon": "lucide-file",
-              "title": "organizzazione fisica di un database relazionale"
-            }
-          },
-          {
-            "id": "3235271ff2a4c129",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "webviewer",
-              "state": {
-                "url": "https://sites.google.com/di.uniroma1.it/basididati-modulo1canalem-z/home-page/materiale-del-corso",
-                "title": "Basi di Dati - Modulo 1 (canale M-Z) - Materiale del corso",
-                "mode": "webview"
-              },
-              "pinned": true,
-              "icon": "globe-2",
-              "title": "Basi di Dati - Modulo 1 (canale M-Z) - Materiale del corso"
-            }
-          },
-          {
-            "id": "f7ae32006ef6c1c5",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "webviewer",
-              "state": {
-                "url": "https://sites.google.com/di.uniroma1.it/basididati-modulo1canalem-z/home-page/materiale-del-corso",
-                "title": "Basi di Dati - Modulo 1 (canale M-Z) - Materiale del corso",
-                "mode": "webview"
-              },
-              "pinned": true,
-              "icon": "globe-2",
-              "title": "Basi di Dati - Modulo 1 (canale M-Z) - Materiale del corso"
+              "title": "classificazione delle reti"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -123,8 +84,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 283.5,
-    "collapsed": true
+    "width": 283.5
   },
   "right": {
     "id": "26b38658cac3fe47",
@@ -140,7 +100,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "preor",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -271,55 +231,55 @@
       "new-3d-graph:Open 3d graph": false
     }
   },
-  "active": "3ca0bccf521e7305",
+  "active": "cd494052e512f198",
   "lastOpenFiles": [
-    "basi di dati/file con indice (ISAM).md",
-    "basi di dati/organizzazione fisica di un database relazionale.md",
-    "basi di dati/file hash.md",
-    "basi di dati/file heap.md",
-    "basi di dati/B-tree.md",
-    "interdisciplinare/memoria.md",
-    "basi di dati/Basi di dati.md",
+    "Introduzione agli algoritmi/albero di ricerca.md",
+    "Interdisciplinare/albero.md",
+    "Interdisciplinare/proprietà, tipi di relazioni e ordini.md",
+    "Interdisciplinare/grafo.md",
+    "Progettazione di algoritmi/Progettazione di algoritmi.md",
     "index.md",
-    "basi di dati/controllo della concorrenza in una base di dati.md",
+    "Reti di elaboratori/Internet.md",
+    "Reti di elaboratori/WAN (Wide Area Network).md",
+    "Reti di elaboratori/dorsale internet (backbone).md",
+    "Reti di elaboratori/classificazione delle reti.md",
+    "Reti di elaboratori/internet.md",
+    "Reti di elaboratori/rete.md",
+    "Reti di elaboratori/accesso internet.md",
+    "Sistemi operativi 2/Sistemi operativi 2.md",
+    "Reti di elaboratori/Reti di elaboratori.md",
+    "Reti di elaboratori/LAN (Local Area Network).md",
+    "Reti di elaboratori/packet spoofing.md",
+    "Reti di elaboratori/packet sniffing.md",
+    "Reti di elaboratori/mezzi trasmissivi wireless.md",
+    "Reti di elaboratori/mezzi trasmissivi cablati.md",
+    "Introduzione agli algoritmi/introduzione agli algoritmi.md",
+    "Algebra lineare/Algebra.md",
+    "Basi di dati 2/Basi di dati 2.md",
+    "Progettazione di algoritmi",
+    "Reti di elaboratori",
     "Esercizio.md",
-    "interdisciplinare/albero.md",
-    "introduzione agli algoritmi/heap sort.md",
-    "basi di dati/modello ad oggetti (object).md",
-    "interdisciplinare/puntatore.md",
-    "interdisciplinare/hash table.md",
-    "interdisciplinare/linked list.md",
-    "interdisciplinare/dizionario.md",
-    "interdisciplinare/insieme.md",
-    "basi di dati/copertura minimale di un insieme di dipendenze.md",
-    "basi di dati/chiusura di un insieme di dipendenze funzionali.md",
-    "basi di dati/dipendenza funzionale.md",
-    "calcolo delle probabilità/indipendenza di due eventi.md",
-    "calcolo delle probabilità/distribuzione di Bernoulli.md",
-    "calcolo delle probabilità/legge condizionata.md",
-    "calcolo delle probabilità/Calcolo delle probabilità.md",
-    "calcolo delle probabilità/legge congiunta e leggi marginali di variabili aleatorie.md",
-    "basi di dati/Pasted image 20260126120602.png",
+    "Untitled.md",
+    "Sistemi operativi 2",
+    "a/Basi di dati 2.md",
+    "Basi di dati 2",
+    "a",
+    "Basi di dati/Pasted image 20260126120602.png",
     "Untitled.canvas",
-    "algebra lineare/Pasted image 20260115114517.png",
-    "algebra lineare/Pasted image 20260114133410.png",
-    "algebra lineare/Pasted image 20260114133204.png",
-    "algebra lineare/Pasted image 20260114133112.png",
+    "Algebra lineare/Pasted image 20260115114517.png",
+    "Algebra lineare/Pasted image 20260114133410.png",
+    "Algebra lineare/Pasted image 20260114133204.png",
+    "Algebra lineare/Pasted image 20260114133112.png",
     "foto/IMG-20251011-WA0005.jpg",
     "foto/IMG-20251011-WA0002.jpg",
     "foto/IMG-20251011-WA0001.jpg",
-    "algebra lineare/Pasted image 20251218113905.png",
-    "algebra lineare/Screenshot From 2025-12-18 11-29-56.png",
+    "Algebra lineare/Pasted image 20251218113905.png",
+    "Algebra lineare/Screenshot From 2025-12-18 11-29-56.png",
     "relazione tra tabelle master",
     "foto",
     "calcolo delle probabilità/Untitled",
-    "basi di dati",
+    "Basi di dati",
     "sistemi operativi",
-    "algebra lineare",
-    "calcolo delle probabilità",
-    "www.youtube.com",
-    "progettazione di sistemi digitali/rete sequenziale generica.canvas",
-    "Elementi di stato",
-    "todo"
+    "Progettazione di sistemi digitali/rete sequenziale generica.canvas"
   ]
 }

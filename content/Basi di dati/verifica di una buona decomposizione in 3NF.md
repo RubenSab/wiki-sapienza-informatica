@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-01-27T10:23:29.370+01:00
+updated_at: 2026-02-03T17:42:58.263+01:00
 ---
 > Uno [[tabella|schema di relazione]] $R$ si può *decomporre* in più schemi, ognuno un [[sottoinsiemi|sottoinsieme]] degli attributi di $R$ su cui valgono le [[dipendenza funzionale|dipendenze funzionali]] ereditate da $R$, rilevanti per i suoi attributi. Ciò equivale a [[proiezione|proiettare]] ogni tupla dell'istanza originaria sugli attributi dei singoli sottoschemi.
 
@@ -67,7 +67,9 @@ Sia $f \in F^{+}-F$ ($f \notin F^{+}$).
 2. $f$ è derivabile con gli assiomi di Armstrong da $F$ perché $F^{+} = F^{A}$.
 3. se $f$ è derivabile da $F$ e ogni dipendenza in $F$ può essere derivata da $G$, allora $f$ è derivabile da $G$ con gli assiomi di Armstrong, quindi $F^{+} \subseteq G^{+}$.
 
-## Algoritmo $F \subseteq G^{+}$
+## Algoritmo $F \subseteq G^{+}$ (test della preservazione delle dipendenze)
+
+^246d96
 
 **Input**: Gli insiemi di dipendenze funzionali $F$ e $G$ su $R$.
 
@@ -130,6 +132,8 @@ Osserviamo che gode delle seguenti proprietà:
 **Dimostrazione di 3**: $m_{\rho}(m_{\rho}(r)) = \pi_{R_{1}}(m_{\rho}(r)) \ \triangleright \! \! \triangleleft \ \ldots \ \triangleright \! \! \triangleleft \ \pi_{R_{k}}(m_{\rho}(r))$, ma per la proprietà 2 sappiamo che $\pi_{Ri}(m_{\rho}(r)) = \pi_{Ri}(r)$, quindi $m_{\rho}(m_{\rho}(r)) = \pi_{R_{1}}(r) \ \triangleright \! \! \triangleleft \ \ldots \ \triangleright \! \! \triangleleft \ \pi_{R_{k}}(r) = m_{\rho}(r)$ per definizione.
 
 ## Algoritmo per verificare se esiste un join senza perdita (tempo polinomiale)
+
+^d841f6
 
 **Input**: uno schema $R$, un insieme di dipendenze $F$ su $R$, una decomposizione $\rho = \{R_{1}, \ldots, R_{k}\}$ di $R$.
 

@@ -34,7 +34,7 @@ javax
 
 Se scriviamo `import java.util.Scanner;`, poi potremo usare la classe `java.util.Scanner` semplicemente scrivendo `Scanner`.
 
-> N.B.: Su [[metodologie di programmazione/Java]], l'import dei package **NON È RICORSIVO!!!** Bisogna importare i sotto-package necessari manualmente (anche se spesso gli IDE lo fanno per noi).
+> N.B.: Su [[Java]], l'import dei package **NON È RICORSIVO!!!** Bisogna importare i sotto-package necessari manualmente (anche se spesso gli IDE lo fanno per noi).
 
 # Creare dei package
 

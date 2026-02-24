@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-01-27T22:13:16.987+01:00
+updated_at: 2026-02-06T10:36:05.290+01:00
 ---
 Sia $X$ una [[variabili aleatorie|variabile aleatoria]] a valori in $S_{X}$ con pesetti $(p_{x})_{x \in S_{X}}\ (p_{x} = \mathbb{P}(X=x))$. ricordiamo che il [[valore atteso di una variabile aleatoria|valore atteso]] (media) di $X$ è definito da
 
@@ -7,7 +7,7 @@ $$
 \mathbb{E}(X) := \sum_{x \in S_{X}} x \cdot p_{x} \underset{p_{x} = \mathbb{P}(X = x)}{=} \sum_{x \in S_{X}}x \cdot \mathbb{P}(X=x)
 $$
 
-> Ora ci chiediamo **quanto è grande l'errore che in meda si commette**, cioè la **distanza dalla media** (valore atteso), approssimando $X$ al suo $\mathbb{E}(X)$. La *varianza* $\text{Var}$ della variabile aleatoria è data da:
+> Ora ci chiediamo **quanto è grande l'errore che in media si commette**, cioè la **distanza dalla media** (valore atteso), approssimando $X$ al suo $\mathbb{E}(X)$. La *varianza* $\text{Var}$ della variabile aleatoria è data da:
 
 $$
 \text{Var}(X) = \mathbb{E}\left[(X-\mathbb{E}(X))^{2}\right]

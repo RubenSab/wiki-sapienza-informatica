@@ -8,6 +8,6 @@ updated_at: 2025-05-26T17:56:55.944+02:00
 # Argomenti
 
 - Valutare l'[[efficienza degli algoritmi (costo computazionale)]] degli [[algoritmo|algoritmi]], anche [[algoritmi ricorsivi|ricorsivi]] con la [[notazione asintotica]] e il costo computazionale.
-- [[Problem solving]] per [[problemi combinatori]], con [[algoritmi di ordinamento]] e [[algoritmi di ricerca]] scritti in [[pseudocodice]] e Python.
+- [[problem solving]] per [[problemi combinatori]], con [[algoritmi di ordinamento]] e [[algoritmi di ricerca]] scritti in [[pseudocodice]] e Python.
 - Spiegazione e implementazione delle [[struttura dati|strutture dati]] più comuni (con i loro algoritmi), per compiere varie operazioni comuni nel modo più efficiente possibile.
 

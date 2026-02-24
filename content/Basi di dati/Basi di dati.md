@@ -1,7 +1,20 @@
 ---
-updated_at: 2026-01-29T23:56:24.891+01:00
+updated_at: 2026-02-04T12:28:25.501+01:00
 ---
 > [Materiale del corso](https://sites.google.com/di.uniroma1.it/basididati-modulo1canalem-z/home-page/materiale-del-corso)
+
+# Algoritmi da sapere per lo scritto
+
+- [[algoritmo per il calcolo della chiusura di un insieme di attributi]]
+- [[algoritmo per il calcolo delle chiavi|calcolo delle chiavi, unicità delle chiavi e test 3NF]]
+- Verifica di una buona decomposizione:
+	- test 3NF
+	- [[verifica di una buona decomposizione in 3NF#^246d96|test della preservazione delle dipendenze]]
+	- [[verifica di una buona decomposizione in 3NF#^d841f6|test del join senza perdita]]
+- [[algoritmo di decomposizione in 3NF]]
+- [[copertura minimale di un insieme di dipendenze]]
+
+# Tabella dei contenuti
 
 - [[database]]
 - [[database relazionali]]
