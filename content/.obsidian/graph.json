@@ -5,7 +5,7 @@
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": false,
-  "collapse-color-groups": false,
+  "collapse-color-groups": true,
   "colorGroups": [
     {
       "query": "tag:todo",
@@ -18,7 +18,7 @@
       "query": "path: \"Metodi matematici per l'informatica\"",
       "color": {
         "a": 1,
-        "rgb": 9002713
+        "rgb": 7102169
       }
     },
     {
@@ -67,7 +67,7 @@
       "query": "path: \"Calcolo delle probabilità\"  ",
       "color": {
         "a": 1,
-        "rgb": 13652704
+        "rgb": 14570208
       }
     },
     {
@@ -116,7 +116,7 @@
       "query": "path: \"Reti di elaboratori\"  ",
       "color": {
         "a": 1,
-        "rgb": 16256496
+        "rgb": 12263667
       }
     },
     {
@@ -137,6 +137,6 @@
   "repelStrength": 13.3848748945741,
   "linkStrength": 0.732218161371943,
   "linkDistance": 161,
-  "scale": 0.4414668095843517,
-  "close": false
+  "scale": 0.03852718931303408,
+  "close": true
 }

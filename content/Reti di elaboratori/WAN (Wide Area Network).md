@@ -1,7 +1,7 @@
 ---
-updated_at: 2026-02-24T14:58:46.546+01:00
+updated_at: 2026-02-26T22:01:29.638+01:00
 ---
-#todo
+#todo Pdf lezione 1, pag 24-29
 
 - differenza punto-punto e a commutazione
 - [[dorsale internet (backbone)]]

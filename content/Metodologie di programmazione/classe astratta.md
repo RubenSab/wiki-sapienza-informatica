@@ -1,7 +1,7 @@
 ---
-updated_at: 2025-03-31T18:35:57.167+02:00
+updated_at: 2026-02-26T22:20:06.276+01:00
 ---
-> Una [[classe]] astratta (definita con la parola chiave abstract), NON può essere istanziata, quindi non possono esistere [[oggetto|oggetti]] per quella classe. Una classe astratta può avere anche dei [[metodo|metodi]] astratti.
+> Una [[classe]] astratta (definita con la parola chiave abstract), NON può essere instanziata, quindi non possono esistere [[oggetto|oggetti]] per quella classe. Una classe astratta può avere anche dei [[metodo|metodi]] astratti.
 
 Esempio:
 
