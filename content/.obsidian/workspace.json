@@ -20,12 +20,12 @@
             }
           },
           {
-            "id": "060a78d06a1d1b81",
+            "id": "a7cfdc35c215f086",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sistemi operativi 2/Comandi della bash (Bourne Again shell).md",
+                "file": "Progettazione di algoritmi/Progettazione di algoritmi.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -40,7 +40,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Comandi della bash (Bourne Again shell)"
+              "title": "Progettazione di algoritmi"
             }
           }
         ],
@@ -232,10 +232,10 @@
       "new-3d-graph:Open 3d graph": false
     }
   },
-  "active": "060a78d06a1d1b81",
+  "active": "a7cfdc35c215f086",
   "lastOpenFiles": [
-    "Sistemi operativi 2/Sistemi operativi 2.md",
     "Sistemi operativi 2/Comandi della bash (Bourne Again shell).md",
+    "Sistemi operativi 2/Sistemi operativi 2.md",
     "index.md",
     "Interdisciplinare/grafo.md",
     "Progettazione di algoritmi/Progettazione di algoritmi.md",
