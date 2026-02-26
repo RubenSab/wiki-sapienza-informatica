@@ -64,17 +64,17 @@
       }
     },
     {
-      "query": "path: \"Interdisciplinare\"  ",
-      "color": {
-        "a": 1,
-        "rgb": 16777215
-      }
-    },
-    {
       "query": "path: \"Calcolo delle probabilità\"  ",
       "color": {
         "a": 1,
         "rgb": 13652704
+      }
+    },
+    {
+      "query": "path: \"Interdisciplinare\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 16777215
       }
     },
     {
@@ -92,17 +92,17 @@
       }
     },
     {
+      "query": "path: \"Basi di dati 2\"",
+      "color": {
+        "a": 1,
+        "rgb": 14837166
+      }
+    },
+    {
       "query": "path: \"Basi di dati\" ",
       "color": {
         "a": 1,
         "rgb": 16496317
-      }
-    },
-    {
-      "query": "path: \"Basi di dati 2\"  ",
-      "color": {
-        "a": 1,
-        "rgb": 14837166
       }
     },
     {
@@ -123,7 +123,7 @@
       "query": "path: \"Progettazione di algoritmi\"  ",
       "color": {
         "a": 1,
-        "rgb": 5431454
+        "rgb": 1035282
       }
     }
   ],
@@ -137,6 +137,6 @@
   "repelStrength": 13.3848748945741,
   "linkStrength": 0.732218161371943,
   "linkDistance": 161,
-  "scale": 0.05932617187499985,
-  "close": true
+  "scale": 0.05452060251761327,
+  "close": false
 }

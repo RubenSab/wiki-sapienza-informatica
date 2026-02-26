@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-12-15T14:45:26.331+01:00
+updated_at: 2026-02-26T11:41:20.783+01:00
 ---
 *Vedere prima [[valore atteso di una variabile aleatoria]]*.
 
@@ -136,9 +136,3 @@ Se $X$ e $Y$ sono variabili aleatorie **indipendenti**, la funzione generatrice 
 $$
 M_{X+Y}(\vartheta) = \mathbb{E}(e^{\vartheta(X+Y)}) = \mathbb{E}(e^{\vartheta X}) \cdot \mathbb{E}(e^{\vartheta Y})
 $$
-
-# Esercizio #todo 
-
-Trova la funzione generatrice dei momenti $N(\mu, \sigma^{2})$
-
-Suggerimento: per il calcolo dell'integrale applicare il cambio di variabile $y=\frac{x-\mu}{\lambda}$. Applicare il calcolo di variabile $y=\frac{x-\mu}{\sigma}$ prima di completare il quadrato ($M_{X}(\vartheta) = e^{\frac{\vartheta^{2} \sigma^{2}}{2} + \mu \vartheta}$).

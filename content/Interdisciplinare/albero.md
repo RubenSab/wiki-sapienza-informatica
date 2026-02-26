@@ -1,7 +1,9 @@
 ---
-updated_at: 2025-05-26T10:37:31.475+02:00
+updated_at: 2026-02-25T14:29:29.437+01:00
 ---
 > Un albero radicato è una [[struttura dati]] composta da nodi organizzati gerarchicamente. Ha un nodo radice che non ha genitori. Ogni altro nodo dell'albero ha esattamente un genitore e può avere $n$ figli. I nodi che non hanno figli sono chiamati foglie.
+
+> Un albero è un [[grafo]] connesso e aciclico.
 
 - [[nomenclatura degli alberi]]
 - [[implementazioni degli alberi binari]]

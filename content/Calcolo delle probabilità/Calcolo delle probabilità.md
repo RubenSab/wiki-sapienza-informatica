@@ -1,8 +1,6 @@
 ---
-updated_at: 2026-01-26T16:40:30.877+01:00
+updated_at: 2026-02-26T11:39:39.765+01:00
 ---
-#todo  metti varianza e valore atteso nelle distribuzioni di probabilità continue
-
 > Il calcolo delle probabilità è lo studio matematico di esperimenti con diversi possibili esiti (aleatori cioè non deterministici).
 
 Fonte di esercizi consigliata: *Sheldon Ross - calcolo delle probabilità*
@@ -35,7 +33,6 @@ Fonte di esercizi consigliata: *Sheldon Ross - calcolo delle probabilità*
 	- Variabili aleatorie
 		- [[variabili aleatorie]]
 		- [[variabile aleatoria indicatrice]]
-		- [[funzione di ripartizione]]
 		- [[valore atteso di una variabile aleatoria]]
 		- [[varianza di una variabile aleatoria]]
 		- [[covarianza di due variabili aleatorie]]

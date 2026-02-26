@@ -1,7 +1,7 @@
 ---
-updated_at: 2026-02-24T14:27:35.344+01:00
+updated_at: 2026-02-26T11:09:11.017+01:00
 ---
-Codice classroom: f5ubehac
+> Codice classroom: f5ubehac
 
 Niente lezione giovedì.
 

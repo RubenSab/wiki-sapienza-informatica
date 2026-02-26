@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-12-01T15:03:42.758+01:00
+updated_at: 2026-02-26T11:41:09.834+01:00
 ---
 > Per ogni coppia di [[variabili aleatorie]] $X$ e $Y$ si ha che
 
@@ -36,9 +36,3 @@ $$
 $$
 \text{Corr}(X, Y) := \frac{\text{Cov}(X, Y)}{\sqrt{\text{Var}(X) \cdot \text{Var}(Y)}} \in [-1, 1]
 $$
-
-Casi particolari: #todo
-
-- $Y = X$
-- $Y = -X$
-- $X$ e $Y$ [[indipendenza di due eventi]]

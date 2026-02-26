@@ -20,12 +20,12 @@
             }
           },
           {
-            "id": "cd494052e512f198",
+            "id": "060a78d06a1d1b81",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Reti di elaboratori/classificazione delle reti.md",
+                "file": "Sistemi operativi 2/Comandi della bash (Bourne Again shell).md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -40,7 +40,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "classificazione delle reti"
+              "title": "Comandi della bash (Bourne Again shell)"
             }
           }
         ],
@@ -84,7 +84,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 283.5
+    "width": 283.5,
+    "collapsed": true
   },
   "right": {
     "id": "26b38658cac3fe47",
@@ -100,7 +101,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "preor",
+                "query": "materiale",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -231,37 +232,39 @@
       "new-3d-graph:Open 3d graph": false
     }
   },
-  "active": "cd494052e512f198",
+  "active": "060a78d06a1d1b81",
   "lastOpenFiles": [
-    "Introduzione agli algoritmi/albero di ricerca.md",
-    "Interdisciplinare/albero.md",
-    "Interdisciplinare/proprietà, tipi di relazioni e ordini.md",
+    "Sistemi operativi 2/Sistemi operativi 2.md",
+    "Sistemi operativi 2/Comandi della bash (Bourne Again shell).md",
+    "index.md",
     "Interdisciplinare/grafo.md",
     "Progettazione di algoritmi/Progettazione di algoritmi.md",
-    "index.md",
-    "Reti di elaboratori/Internet.md",
-    "Reti di elaboratori/WAN (Wide Area Network).md",
-    "Reti di elaboratori/dorsale internet (backbone).md",
-    "Reti di elaboratori/classificazione delle reti.md",
-    "Reti di elaboratori/internet.md",
-    "Reti di elaboratori/rete.md",
-    "Reti di elaboratori/accesso internet.md",
-    "Sistemi operativi 2/Sistemi operativi 2.md",
-    "Reti di elaboratori/Reti di elaboratori.md",
-    "Reti di elaboratori/LAN (Local Area Network).md",
-    "Reti di elaboratori/packet spoofing.md",
-    "Reti di elaboratori/packet sniffing.md",
-    "Reti di elaboratori/mezzi trasmissivi wireless.md",
-    "Reti di elaboratori/mezzi trasmissivi cablati.md",
-    "Introduzione agli algoritmi/introduzione agli algoritmi.md",
-    "Algebra lineare/Algebra.md",
     "Basi di dati 2/Basi di dati 2.md",
+    "Interdisciplinare/UML (Unified Modeling Language).md",
+    "Reti di elaboratori/rete.md",
+    "Reti di elaboratori/classificazione delle reti.md",
+    "Basi di dati 2/ciclo di vita del software.md",
+    "Interdisciplinare/attori del ciclo di progettazione del software.md",
+    "arxiv.org/abs/2601.20245.md",
+    "arxiv.org/abs",
+    "arxiv.org",
+    "Interdisciplinare/funzioni di codifica e decodifica.md",
+    "Progettazione di sistemi digitali/rappresentazione o codifica dei numeri interi relativi.md",
+    "Progettazione di sistemi digitali/overflow.md",
+    "Calcolo delle probabilità/Calcolo delle probabilità.md",
+    "Calcolo delle probabilità/disuguaglianza di Cauchy-Schwarz.md",
+    "Calcolo delle probabilità/funzione generatrice dei momenti.md",
+    "Introduzione agli algoritmi/metodo dei limiti asintotici delle somme.md",
+    "Calcolo delle probabilità/funzione di ripartizione.md",
+    "Metodologie di programmazione/eccezioni.md",
+    "Progettazione di sistemi digitali/notazione polarizzata.md",
+    "Progettazione di sistemi digitali/esercizi/esercizi di progettazione di sistemi digitali.md",
+    "sia x un numero BCD. considerare la codifica y nel codice 2-su-5. scrivere le espressioni minimali per i singoli bit di y.md",
+    "Progettazione di sistemi digitali/sia x un numero BCD. considerare la codifica y nel codice 2-su-5. scrivere le espressioni minimali per i singoli bit di y.md",
+    "Progettazione di sistemi digitali/esercizi/circuito di controllo apertura cancello.md",
     "Progettazione di algoritmi",
     "Reti di elaboratori",
-    "Esercizio.md",
-    "Untitled.md",
     "Sistemi operativi 2",
-    "a/Basi di dati 2.md",
     "Basi di dati 2",
     "a",
     "Basi di dati/Pasted image 20260126120602.png",
@@ -278,8 +281,6 @@
     "relazione tra tabelle master",
     "foto",
     "calcolo delle probabilità/Untitled",
-    "Basi di dati",
-    "sistemi operativi",
     "Progettazione di sistemi digitali/rete sequenziale generica.canvas"
   ]
 }

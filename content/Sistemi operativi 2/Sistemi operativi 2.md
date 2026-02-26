@@ -1,4 +1,6 @@
 ---
-updated_at: 2026-02-23T16:31:42.157+01:00
+updated_at: 2026-02-26T16:42:23.924+01:00
 ---
 Codice classroom: hrv4ojym
+
+- [[Comandi della bash (Bourne Again shell)]]

@@ -1,6 +1,6 @@
 ---
 title: Wiki Informatica Sapienza (canale MZ)
-updated_at: 2026-02-24T14:58:31.665+01:00
+updated_at: 2026-02-26T16:37:20.732+01:00
 ---
 Scala di **qualità** degli appunti dei corsi:
 
