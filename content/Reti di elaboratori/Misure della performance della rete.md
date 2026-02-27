@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-02-27T15:45:59.390+01:00
+updated_at: 2026-02-27T15:54:52.997+01:00
 ---
 # Ampiezza di banda
 
@@ -39,4 +39,25 @@ La latenza è quindi la somma tra:
 - **ritardo di trasmissione**: significativo per i collegamenti a bassa bit rate.
 - **ritardo di propagazione**: pochi microsecondi a centinaia di millisecondi.
 
-#todo pag. 33-40 pdf. 2
+#todo pag. 33-49 pdf. 2
+
+# Esercizio
+
+## 1.
+
+Quanto tempo impiega un pacchetto di 1000 byte per **propagarsi** su un collegamento di 2500m, con velocità di propagazione di $2.5 \times 10^{8} \frac{m}{2}$ e rate di $2 \text{Mbps}$?
+
+$$
+\frac{d}{v} = \frac{2500\ Km}{2.5 \cdot 10^{8} \frac{m}{s}} = \frac{2500 \cdot 10^{3} \ m}{250 \cdot 10^{6} \frac{m}{s}} = 10 \cdot 10^{-3}\ s = 10\ ms
+$$
+
+## 2.
+
+Questo ritardo dipende dalla lunghezza del pacchetto? No.
+## 3.
+
+Calcolare il ritardo di trasmissione.
+
+$$
+\frac{L}{R} = \frac{8000\ b}{2\ Mbps} = \frac{8000\ b}{2 \times 10^{6} \frac{b}{s}} = 4\ ms
+$$
