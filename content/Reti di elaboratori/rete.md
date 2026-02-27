@@ -1,9 +1,10 @@
 ---
-updated_at: 2026-02-26T22:07:04.271+01:00
+updated_at: 2026-02-27T14:30:34.841+01:00
 ---
 > Una **rete** è composta da *nodi*, cioè *dispositivi di rete* che possono scambiarsi informazioni, divisi in *sistemi terminali (end system)* e *dispositivi di interconnessione*), collegati da *link*.
 
 - [[classificazione delle reti]]
+- [[Misure della performance della rete]]
 
 # Dispositivi di rete
 
