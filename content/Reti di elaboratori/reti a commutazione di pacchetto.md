@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-02-26T23:01:40.087+01:00
+updated_at: 2026-02-28T16:35:40.209+01:00
 ---
 > La comunicazione fra due sistemi terminali della [[rete]] è discontinua e viene effettuata attraverso blocchi di dati detti **pacchetti** divisi in blocchi di dimensione fissa. Non bisogna creare percorsi e riservare alcuna risorsa per i singoli utenti. Gli switch memorizzano e inoltrano i pacchetti.
 

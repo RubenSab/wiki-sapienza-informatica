@@ -1,11 +1,10 @@
 ---
-updated_at: 2026-02-26T12:42:01.043+01:00
+updated_at: 2026-03-02T15:05:52.524+01:00
 ---
-# Fasi
 
 1. Studio di fattibilità
-2. Raccolta dei requisiti
-3. Analisi concettuale dei requisiti
+2. Raccolta dei **requisiti** (*Vedi [[esempio di raffinamento dei requisiti]]*)
+3. **Analisi** concettuale dei requisiti (*Vedi [[Class and Object diagram]]*) ^062f10
 4. Progetto dell'applicazione
 5. Realizzazione dell'applicazione
 6. Integrazione dei componenti e testing dell'applicazione
@@ -14,7 +13,7 @@ updated_at: 2026-02-26T12:42:01.043+01:00
 
 Al termine di ogni fase si può tornare indietro.
 
-# Modelli di cicli di vita
+# Modelli di cicli di vita del software
 
 > **Modello a cascata**: ogni fase inizia quando termina la precedente, è usato esclusivamente in ambito didattico.
 

@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-02-26T12:31:01.015+01:00
+updated_at: 2026-02-28T16:42:13.299+01:00
 ---
 *(Vedi [[Basi di dati]])*
 
@@ -8,5 +8,7 @@ updated_at: 2026-02-26T12:31:01.015+01:00
 > [perché non usare l'IA per risolvere gli esercizi](https://arxiv.org/abs/2601.20245)
 
 - [[attori del ciclo di progettazione del software]]
-- [[ciclo di vita del software]]
+- [[fasi dello sviluppo del software]]
 - [[UML (Unified Modeling Language)]]
+- [[esercizio A.1.1]]
+- [[esercitazione E.A.1.1]]
