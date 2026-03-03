@@ -5,7 +5,7 @@
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": false,
-  "collapse-color-groups": true,
+  "collapse-color-groups": false,
   "colorGroups": [
     {
       "query": "tag:todo",
@@ -116,7 +116,7 @@
       "query": "path: \"Reti di elaboratori\"  ",
       "color": {
         "a": 1,
-        "rgb": 12263667
+        "rgb": 14715647
       }
     },
     {
@@ -137,6 +137,6 @@
   "repelStrength": 13.3848748945741,
   "linkStrength": 0.732218161371943,
   "linkDistance": 161,
-  "scale": 0.37841732596746663,
+  "scale": 0.09323749493982328,
   "close": true
 }

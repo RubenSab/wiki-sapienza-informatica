@@ -1,11 +1,11 @@
 ---
-updated_at: 2026-02-27T14:34:54.458+01:00
+updated_at: 2026-03-03T15:43:14.299+01:00
 ---
 #todo  pag. 39-48 pdf 1
 
 - [[dorsale internet (backbone)]]
 - [[accesso internet]]
-- storia e Arpanet
+- [[standard internet]]
 
 ---
 
@@ -20,3 +20,12 @@ Ad esempio ci sono le reti residenziali punto-punto (Modem dial-up) o modem via 
 # Backbone
 
 Sono [[reti a commutazione di circuito]] o [[reti a commutazione di pacchetto]].
+
+# Cenni storici
+
+- A metà degli anni 60 i calcolatori centrali dei centri di ricerca non erano ancora collegati.
+- [ARPANET](https://en.wikipedia.org/wiki/ARPANET)
+- [Internetting Project](https://en.wikipedia.org/wiki/Internet#History)
+- World Wide Web statico e ipertestuale
+- Applicazioni multimediali
+- Applicazioni peer-to-peer

@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-03-02T17:03:55.219+01:00
+updated_at: 2026-03-03T12:00:42.575+01:00
 ---
 Formato dei comandi:
 
@@ -27,6 +27,7 @@ comando [opzioni] argomentiobbligatori
 - `sudo` permette di eseguire un comando come **superuser** piuttosto che come l'utente corrente. Richiede la password.
 - `adduser` **crea** un nuovo utente.
 - `su [options] [-] [user [argument...]]` esegue un comando con un **utente** e un group ID **sostituto**.
+- `passwd` ^e612d9
 
 # File e directory
 
@@ -64,6 +65,6 @@ comando [opzioni] argomentiobbligatori
 
 # Partizioni e file systems
 
-- `mount` monta un file system, oppure se usato senza argomenti, lista il file [[etc-mtab|/etc/mtab]] dei file system montati.
-- `stat` visualizza gli attributi di accesso di un file o di un file system.
+- `mount` monta un file system, oppure se usato senza argomenti, lista il file [[etc-mtab|/etc/mtab]] dei file system montati. ^2efd45
+- `stat` visualizza gli attributi di accesso di un file o di un file system. ^07c6b6
 	- `stat -c %B filename` restituisce la dimensione del blocco su disco che coincide con la dimensione di un settore di disco.
