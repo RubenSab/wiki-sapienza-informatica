@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-02-26T17:29:57.001+01:00
+updated_at: 2026-03-02T17:03:55.219+01:00
 ---
 Formato dei comandi:
 
@@ -7,13 +7,27 @@ Formato dei comandi:
 comando [opzioni] argomentiobbligatori
 ```
 
-- man
-- echo
+- `man` apre un'interfaccia ai manuali di riferimento del sistema. Prende in argomento il nome del comando di cui si vuole leggere la documentazione.
+  Il man è diviso in 9 sezioni e `man numero_sezione nome_comando` visualizza la pagina del manuale del comando presa dalla sezione scelta.
+	1. Executable programs or shell commands
+	2. System calls (functions provided by the kernel)
+	3. Library calls (functions within program libraries)
+	4. Special files (usually found in /dev)
+	5. File formats and conventions, e.g. [[etc-mtab|/etc/passwd]]
+	6. Games
+	7. Miscellaneous  (including  macro  packages  and  conventions), e.g. man(7), groff(7), man-pages(7)
+	8. System administration commands (usually only for root)
+	9. Kernel routines \[Non standard\]
+
+- `echo` stampa a schermo una stringa di testo
+	- `-n` non va a capo alla fine
+ 
 # Gestione utenti
 
-- `sudo` permette di eseguire un comando come superuser piuttosto che come l'utente corrente. Richiede la password.
-- `adduser` crea un nuovo utente.
-- `su [options] [-] [user [argument...]]` esegue un comando con un utente e un group ID sostituto.
+- `sudo` permette di eseguire un comando come **superuser** piuttosto che come l'utente corrente. Richiede la password.
+- `adduser` **crea** un nuovo utente.
+- `su [options] [-] [user [argument...]]` esegue un comando con un **utente** e un group ID **sostituto**.
+
 # File e directory
 
 - `cwd` stampa a schermo la current working directory.
@@ -30,12 +44,26 @@ comando [opzioni] argomentiobbligatori
 	- `-d` list solo le directory.
 	- `-l` segue i symbolic link come se fossero directory.
 	- `-L` indica la profondità massima del livello di directory da includere.
+• `umask [mode]` #todo L3
+• `cp [-r] [-i] [-a] [-u] {filesorgenti} filedestinazione`
+• `mv [-i] [-u] [-f] {filesorgenti} filedestinazione`
+• `rm [-f] [-i] [-r] {file}`
+• `ln [-s] sorgente [destinazione]`
+• `touch [-a] [-m] [-t timestamp] {file}`
+• `du [-c] [-s] [-a] [-h] [--exclude=PATTERN] [files...]`
+• `df [-h] [-l] [-i] [file]`
+• `dd [opzioni]`
+• `mkfs [-t type fsoptions] device`
+
 # Permessi
 
-- groups
+- groups #todo L2
 - chown
+- `chmod` setta gli [[permessi di accesso]] a file o directory.
 - chgrp
-# Partizioni e filesystems
 
-- `mount` monta un filesystem, oppure se usato senza argomenti, lista il file `etc/mtab` dei file system montati.
-- stat
+# Partizioni e file systems
+
+- `mount` monta un file system, oppure se usato senza argomenti, lista il file [[etc-mtab|/etc/mtab]] dei file system montati.
+- `stat` visualizza gli attributi di accesso di un file o di un file system.
+	- `stat -c %B filename` restituisce la dimensione del blocco su disco che coincide con la dimensione di un settore di disco.
