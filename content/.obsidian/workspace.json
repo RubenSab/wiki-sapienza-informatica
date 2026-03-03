@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sistemi operativi 2/Comandi della bash (Bourne Again shell).md",
+                "file": "Sistemi operativi 2/etc-group.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Comandi della bash (Bourne Again shell)"
+              "title": "etc-group"
             }
           }
         ],
@@ -243,18 +243,21 @@
       "new-3d-graph:Open 3d graph": false
     }
   },
-  "active": "6b36e9a938a7c537",
+  "active": "10bbe0bc88433095",
   "lastOpenFiles": [
+    "Untitled.md",
+    "Sistemi operativi 2/etc-group.md",
+    "Algebra lineare/Esercizio.md",
+    "appunti del primo anno.md",
     "TODO.md",
     "Reti di elaboratori/Misure della performance della rete.md",
     "Sistemi operativi 2/file.md",
-    "tipi di file systems.md",
-    "inode.md",
-    "dev.md",
-    "etc-group.md",
-    "mkfs.md",
-    "etc-passwd.md",
-    "permessi di accesso.md",
+    "Sistemi operativi 2/tipi di file systems.md",
+    "Sistemi operativi 2/inode.md",
+    "Sistemi operativi 2/dev.md",
+    "Sistemi operativi 2/mkfs.md",
+    "Sistemi operativi 2/etc-passwd.md",
+    "Sistemi operativi 2/permessi di accesso.md",
     "Sistemi operativi 2/Comandi della bash (Bourne Again shell).md",
     "Sistemi operativi 2/Sistemi operativi 2.md",
     "Sistemi operativi 2/file speciali.md",
@@ -269,9 +272,6 @@
     "Basi di dati 2/fasi dello sviluppo del software.md",
     "Basi di dati 2/esempio di raffinamento dei requisiti.md",
     "Interdisciplinare/UML (Unified Modeling Language).md",
-    "appunti del primo anno.md",
-    "Basi di dati 2/esercizio A.1.1.md",
-    "Metodologie di programmazione/diagramma \"javesco\" delle classi in UML.md",
     "Basi di dati 2/Pasted image 20260227174433.png",
     "Basi di dati 2/Pasted image 20260227175338.png",
     "Basi di dati 2/Pasted image 20260227175806.png",
