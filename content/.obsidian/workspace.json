@@ -35,10 +35,20 @@
             "id": "10bbe0bc88433095",
             "type": "leaf",
             "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          },
+          {
+            "id": "b44c13a8285043fe",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "Sistemi operativi 2/etc-group.md",
-                "mode": "source",
+                "file": "Basi di dati 2/esempio di raffinamento dei requisiti.md",
+                "mode": "preview",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -52,11 +62,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "etc-group"
+              "title": "esempio di raffinamento dei requisiti"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -96,7 +106,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 283.5
+    "width": 283.5,
+    "collapsed": true
   },
   "right": {
     "id": "26b38658cac3fe47",
@@ -243,14 +254,13 @@
       "new-3d-graph:Open 3d graph": false
     }
   },
-  "active": "10bbe0bc88433095",
+  "active": "b44c13a8285043fe",
   "lastOpenFiles": [
-    "Untitled.md",
+    "Reti di elaboratori/Misure della performance della rete.md",
     "Sistemi operativi 2/etc-group.md",
+    "TODO.md",
     "Algebra lineare/Esercizio.md",
     "appunti del primo anno.md",
-    "TODO.md",
-    "Reti di elaboratori/Misure della performance della rete.md",
     "Sistemi operativi 2/file.md",
     "Sistemi operativi 2/tipi di file systems.md",
     "Sistemi operativi 2/inode.md",
