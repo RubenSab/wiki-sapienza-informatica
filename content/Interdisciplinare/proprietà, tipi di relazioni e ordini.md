@@ -28,6 +28,8 @@ Esempio: Avendo $X=\{1, 2, 3\}$ e si ha che la diagonale di $X^{2} = X \times X 
 
 >Una relazione è **simmetrica** se $\forall a,b \in A , (a,b)\in R\implies (b,a) \in R$
 
+^260c8b
+
 Con la notazione R: $\forall x, y \in R\ (x\ \mathcal{R}\ y \implies y\ \mathcal{R}\ x)$
 
 ## Antisimmetrica

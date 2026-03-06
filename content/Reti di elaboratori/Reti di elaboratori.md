@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-03-03T15:50:54.616+01:00
+updated_at: 2026-03-05T15:51:29.471+01:00
 ---
 > Codice classroom: f5ubehac
 
@@ -9,3 +9,9 @@ updated_at: 2026-03-03T15:50:54.616+01:00
 - [[servizio]]
 - [[stack protocollare TCP-IP]]
 - [[creare un'applicazione di rete]]
+- [[client-server]]
+- [[(P2P) Peer To Peer]]
+- [[WWW (World Wide Web)]]
+- [[HTTP]]
+- [[cookie]]
+- [[caching]]

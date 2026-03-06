@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-03-03T15:15:54.940+01:00
+updated_at: 2026-03-05T14:24:14.848+01:00
 ---
 > È la **gerarchia** modulare dei [[protocollo|protocolli]] utilizzati in [[Internet]]. Ad oggi è formata da 5 livelli (o strati) che elaborano i pacchetti di dati e li inoltrano al prossimo livello.
 
@@ -8,7 +8,7 @@ updated_at: 2026-03-03T15:15:54.940+01:00
 1. **Applicazione** (software)
 	- È la sede delle applicazioni di rete.
 	- I pacchetti si chiamano **messaggi**.
-	- HTTP, SMTP, FTP, DNS.
+	- [[HTTP]], SMTP, FTP, DNS.
 2. **Trasporto** (software)
 	- Definisce l'interazione fra processi.
 	- I pacchetti si chiamano **segmenti**.

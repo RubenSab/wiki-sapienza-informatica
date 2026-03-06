@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "047580f69a699ad3",
+        "id": "4509724f8bf84da7",
         "type": "tabs",
         "children": [
           {
-            "id": "9f4ca4fb7b3f724d",
+            "id": "e7a7b303c61786dc",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -20,12 +20,12 @@
             }
           },
           {
-            "id": "b5ab2e97514c43b7",
+            "id": "83dc98037ea56304",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Reti di elaboratori/creare un'applicazione di rete.md",
+                "file": "Interdisciplinare/proprietà, tipi di relazioni e ordini.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -40,34 +40,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "creare un'applicazione di rete"
-            }
-          },
-          {
-            "id": "15971a85007b1857",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Calcolo delle probabilità/distribuzione binomiale.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "distribuzione binomiale"
+              "title": "proprietà, tipi di relazioni e ordini"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -124,7 +101,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "materiale",
+                "query": "file",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -255,41 +232,41 @@
       "new-3d-graph:Open 3d graph": false
     }
   },
-  "active": "9f4ca4fb7b3f724d",
+  "active": "83dc98037ea56304",
   "lastOpenFiles": [
+    "Reti di elaboratori/Reti di elaboratori.md",
     "Reti di elaboratori/creare un'applicazione di rete.md",
+    "appunti del secondo anno.md",
+    "Reti di elaboratori/cookie.md",
+    "Reti di elaboratori/rete.md",
+    "Reti di elaboratori/HTTP.md",
+    "Reti di elaboratori/caching.md",
+    "Reti di elaboratori/misure della performance della rete.md",
+    "Reti di elaboratori/GET.md",
+    "Reti di elaboratori/WWW (World Wide Web).md",
+    "Reti di elaboratori/URL.md",
+    "Progettazione di algoritmi/Progettazione di algoritmi.md",
+    "Reti di elaboratori/stack protocollare TCP-IP.md",
+    "Basi di dati 2/Class and Object diagram.md",
+    "Interdisciplinare/UML (Unified Modeling Language).md",
+    "Progettazione di algoritmi/PL2, Dimostrazioni di proprietà dei grafi.md",
+    "Progettazione di algoritmi/principio dei buchi di piccionaia 🐦.md",
+    "Interdisciplinare/albero.md",
+    "Interdisciplinare/grafo.md",
+    "Progettazione di algoritmi/algoritmo per il calcolo del grado.md",
+    "Interdisciplinare/implementazioni dei grafi.md",
+    "Progettazione di sistemi digitali/progettazione di sistemi digitali.md",
     "Untitled.md",
     "Calcolo delle probabilità/distribuzione binomiale.md",
     "Calcolo delle probabilità/coefficiente binomiale.md",
     "Calcolo delle probabilità/distribuzione geometrica.md",
-    "Calcolo integrale/serie geometriche.md",
-    "Reti di elaboratori/reti a commutazione di pacchetto.md",
-    "Reti di elaboratori/Reti di elaboratori.md",
-    "Reti di elaboratori/Internet.md",
-    "Reti di elaboratori/misure della performance della rete.md",
-    "Reti di elaboratori/standard internet.md",
-    "Reti di elaboratori/rete.md",
-    "Reti di elaboratori/stack protocollare TCP-IP.md",
     "Reti di elaboratori/Pasted image 20260303154354.png",
-    "Reti di elaboratori/storia di Internet.md",
     "Reti di elaboratori/Pasted image 20260303151114.png",
-    "Reti di elaboratori/protocollo.md",
     "Reti di elaboratori/Pasted image 20260303150803.png",
     "Reti di elaboratori/Pasted image 20260303150706.png",
     "Reti di elaboratori/Pasted image 20260303150243.png",
-    "Reti di elaboratori/servizio.md",
-    "Reti di elaboratori/layer interface.md",
     "Reti di elaboratori/Pasted image 20260303145049.png",
-    "Sistemi operativi 2/inode.md",
-    "Sistemi operativi 2/comandi della bash (Bourne Again shell).md",
-    "Sistemi operativi 2/file system.md",
-    "Sistemi operativi 2/file.md",
-    "Sistemi operativi 2/file speciali.md",
-    "Sistemi operativi 2/etc-mtab.md",
-    "Sistemi operativi 2/permessi di accesso.md",
     "Sistemi operativi 2/Pasted image 20260303114958.png",
-    "Sistemi operativi 2/Untitled.md",
-    "Basi di dati 2/esempio di raffinamento dei requisiti.md",
     "etc",
     "Basi di dati 2/Pasted image 20260227174433.png",
     "Basi di dati 2/Pasted image 20260227175338.png",
