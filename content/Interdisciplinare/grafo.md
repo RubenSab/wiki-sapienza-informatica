@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-03-03T17:48:27.945+01:00
+updated_at: 2026-03-09T23:01:35.846+01:00
 ---
 > È una coppia $G = (V, E)$, dove $V$ è un [[insieme|insieme]] di *vertici o nodi* e $E$ è un insieme di *archi* $E$.
 
@@ -23,6 +23,11 @@ updated_at: 2026-03-03T17:48:27.945+01:00
 > In un grafo orientato, un **pozzo** è un nodo senza archi uscenti.
 
 > In un grafo orientato, un **pozzo universale** è un pozzo che riceve un arco da ogni altro nodo.
+
+*Vedi*:
+
+- [[algoritmo per la verifica di pozzo universale]]
+- [[algoritmo per la ricerca di un pozzo universale]]
 
 > In un grafo orientato, una **sorgente** è un nodo senza archi entranti.
 

@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-03-03T17:25:44.148+01:00
+updated_at: 2026-03-09T23:40:30.930+01:00
 ---
 > [Materiale del corso](https://twiki.di.uniroma1.it/twiki/view/Algoritmi2/PALGdiario2014_2)
 
@@ -8,6 +8,10 @@ updated_at: 2026-03-03T17:25:44.148+01:00
 - [[grafo]]
 - [[implementazioni dei grafi]]
 - [[algoritmo per il calcolo del grado]]
+- [[algoritmo per la verifica di pozzo universale]]
+- [[algoritmo per la ricerca di un pozzo universale]]
+- [[DFS (algoritmo della visita in profondità)]]
+- [[algoritmo per la 2-colorazione dei grafi]]
 
 # Esercizi
 

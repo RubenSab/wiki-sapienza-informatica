@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-03-03T17:34:26.410+01:00
+updated_at: 2026-03-09T22:27:56.337+01:00
 ---
 # Matrice di appartenenza
 
@@ -43,7 +43,7 @@ La complessità spaziale è $\Theta(n+m)$.
 
 # Dizionario
 
-Similmente alla lista di adiacenza si usa un [[dizionario]] di insiemi, dove ogni insieme rappresenta un nodo, i cui elementi sono i **nomi** dei nodi collegati. Ha la stessa complessità spaziale delle liste di adiacenza.
+Similmente alla lista di adiacenza, si usa un [[dizionario]](stringa, [[insieme]]) dove ogni insieme rappresenta un nodo, i cui elementi sono i **nomi** dei nodi collegati. Ha la stessa complessità spaziale delle liste di adiacenza.
 
 ## Vantaggi
 

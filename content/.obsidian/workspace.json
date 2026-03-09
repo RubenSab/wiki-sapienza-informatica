@@ -18,6 +18,78 @@
               "icon": "lucide-git-fork",
               "title": "Graph view"
             }
+          },
+          {
+            "id": "a3e3c3f103ef0e40",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Interdisciplinare/algoritmo per la ricerca di un pozzo universale.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "algoritmo per la ricerca di un pozzo universale"
+            }
+          },
+          {
+            "id": "ea09689180e9eb26",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Progettazione di algoritmi/algoritmo per la 2-colorazione dei grafi.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "algoritmo per la 2-colorazione dei grafi"
+            }
+          },
+          {
+            "id": "5f128d7238ef5f74",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Progettazione di algoritmi/Progettazione di algoritmi.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Progettazione di algoritmi"
+            }
           }
         ]
       }
@@ -209,6 +281,20 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "Progettazione di algoritmi/Progettazione di algoritmi.md",
+    "Progettazione di algoritmi/algoritmo per la 2-colorazione dei grafi.md",
+    "Progettazione di algoritmi/DFS (algoritmo della visita in profondità).md",
+    "Interdisciplinare/hash table.md",
+    "Progettazione di algoritmi/implementazioni dei grafi.md",
+    "Progettazione di algoritmi/Pasted image 20260309232935.png",
+    "Progettazione di algoritmi/dfs.gif",
+    "Progettazione di algoritmi/Pasted image 20260309232857.png",
+    "Progettazione di algoritmi/Pasted image 20260309232840.png",
+    "Progettazione di algoritmi/Pasted image 20260309232824.png",
+    "Interdisciplinare/algoritmo per la ricerca di un pozzo universale.md",
+    "Progettazione di algoritmi/algoritmo per la verifica di pozzo universale.md",
+    "Interdisciplinare/grafo.md",
+    "Progettazione di algoritmi/algoritmo per il calcolo del grado.md",
     "Progettazione di algoritmi/principio dei buchi di piccionaia 🐦.md",
     "Basi di dati 2/documenti di specifica.md",
     "Basi di dati 2/Basi di dati 2.md",
@@ -226,26 +312,12 @@
     "Reti di elaboratori/Reti di elaboratori.md",
     "Reti di elaboratori/indirizzi IP.md",
     "Reti di elaboratori/DNS (Domain Name System).md",
-    "Reti di elaboratori/stack protocollare TCP-IP.md",
-    "Reti di elaboratori/HTTP.md",
-    "Interdisciplinare/proprietà, tipi di relazioni e ordini.md",
-    "Reti di elaboratori/creare un'applicazione di rete.md",
-    "appunti del secondo anno.md",
-    "Reti di elaboratori/cookie.md",
-    "Reti di elaboratori/rete.md",
-    "Reti di elaboratori/caching.md",
-    "Reti di elaboratori/misure della performance della rete.md",
     "Reti di elaboratori/Pasted image 20260303154354.png",
     "Reti di elaboratori/Pasted image 20260303151114.png",
     "Reti di elaboratori/Pasted image 20260303150803.png",
     "Reti di elaboratori/Pasted image 20260303150706.png",
     "Reti di elaboratori/Pasted image 20260303150243.png",
-    "Reti di elaboratori/Pasted image 20260303145049.png",
-    "Sistemi operativi 2/Pasted image 20260303114958.png",
     "etc",
-    "Basi di dati 2/Pasted image 20260227174433.png",
-    "Basi di dati 2/Pasted image 20260227175338.png",
-    "Basi di dati 2/Pasted image 20260227175806.png",
     "arxiv.org/abs",
     "arxiv.org",
     "Progettazione di algoritmi",

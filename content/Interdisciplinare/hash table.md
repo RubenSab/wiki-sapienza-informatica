@@ -1,7 +1,7 @@
 ---
-updated_at: 2026-01-28T17:09:03.362+01:00
+updated_at: 2026-03-09T23:35:57.243+01:00
 ---
-L'hash table nasce per risolvere problemi che coinvolgono un'insieme in cui ogni elemento ha una chiave distinta necessaria per l'accesso, un numero intero contenuto nell'**insieme universo** $U = \{0, 1, \ldots, m-1\}$.
+L'hash table nasce per risolvere problemi che coinvolgono un [[insieme]] in cui ogni elemento ha una chiave distinta necessaria per l'accesso, un numero intero contenuto nell'**insieme universo** $U = \{0, 1, \ldots, m-1\}$.
 
 Per questi problemi si potrebbe usare un'[[array]] con accesso diretto, ma definendo la grandezza *fattore di carico*, ci si rende conto che questi sistemi sono molto inefficienti per la [[complessità spaziale]].
 
