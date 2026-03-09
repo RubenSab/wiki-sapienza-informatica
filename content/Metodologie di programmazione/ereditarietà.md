@@ -48,6 +48,6 @@ public class Triangolo extends Forma
 }
 ```
 
-[[diagramma "javesco" delle classi in UML]]
+[[diagramma "javesco" (Faralli) delle classi in UML]]
 
 ![[ereditarietàUML.svg]]

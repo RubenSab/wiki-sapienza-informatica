@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-03-05T15:49:57.876+01:00
+updated_at: 2026-03-06T14:19:30.856+01:00
 ---
 > È il [[protocollo]] per la comunicazione tra [[client-server|client e server web]].
 
@@ -7,7 +7,7 @@ updated_at: 2026-03-05T15:49:57.876+01:00
 
 # Lato client
 
-1. Il browser determina l'[[URL]] ed estrae host e [[file|filename]].
+1. Il browser determina l'[[URL]] ed estrae host e [[file|filename]] usando il [[DNS (Domain Name System)]]
 2. Esegue una connessione [[stack protocollare TCP-IP|TCP]] alla [[porta]] 80 dell'host indicato nell'url.
 3. Invia una richiesta per il file.
 4. Riceve il file dal server.

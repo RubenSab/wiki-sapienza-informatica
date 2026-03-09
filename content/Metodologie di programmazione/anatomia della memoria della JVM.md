@@ -1,10 +1,10 @@
 ---
-updated_at: 2025-05-30T11:04:07.232+02:00
+updated_at: 2026-03-07T17:31:34.125+01:00
 ---
 Nella Java Virtual Machine, esistono due (+1) tipi di memoria:
 
 - lo **[[stack]]** dove vengono caricate le **[[variabile|variabili]] locali**, i **riferimenti** agli [[oggetto|oggetti]];
-- lo **heap**, dove vanno le aree di memoria allocate per la **creazione dinamica**;
+- lo **heap**, dove vanno le aree di [[memoria]] allocate per la **creazione dinamica**;
 - la zona speciale di memoria **nativa** (gestita dal sistema operativo stesso in automatico) detta **metaspace**, che memorizza i [[campi]] static.
 
 ## Cosa succede alla creazione di un [[oggetto]]?

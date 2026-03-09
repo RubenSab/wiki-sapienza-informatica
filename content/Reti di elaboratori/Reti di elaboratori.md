@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-03-05T15:51:29.471+01:00
+updated_at: 2026-03-06T14:21:29.344+01:00
 ---
 > Codice classroom: f5ubehac
 
@@ -15,3 +15,4 @@ updated_at: 2026-03-05T15:51:29.471+01:00
 - [[HTTP]]
 - [[cookie]]
 - [[caching]]
+- [[DNS (Domain Name System)]]

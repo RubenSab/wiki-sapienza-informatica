@@ -18,4 +18,4 @@ UML definisce 14 tipi di diagrammi, di cui i principali sono:
 
 ---
 
-- [[diagramma "javesco" delle classi in UML]]
+- [[diagramma "javesco" (Faralli) delle classi in UML]]

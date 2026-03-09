@@ -18,33 +18,8 @@
               "icon": "lucide-git-fork",
               "title": "Graph view"
             }
-          },
-          {
-            "id": "83dc98037ea56304",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Interdisciplinare/proprietà, tipi di relazioni e ordini.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "proprietà, tipi di relazioni e ordini"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -101,7 +76,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "file",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -232,34 +207,34 @@
       "new-3d-graph:Open 3d graph": false
     }
   },
-  "active": "83dc98037ea56304",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "Progettazione di algoritmi/principio dei buchi di piccionaia 🐦.md",
+    "Basi di dati 2/documenti di specifica.md",
+    "Basi di dati 2/Basi di dati 2.md",
+    "Basi di dati 2/attori del ciclo di progettazione del software.md",
+    "Basi di dati 2/fasi dello sviluppo del software.md",
+    "Interdisciplinare/UML (Unified Modeling Language).md",
+    "Accademia 1.md",
+    "Basi di dati 2/Class and Object diagram.md",
+    "Algebra lineare/Esercizio.md",
+    "Sistemi operativi 2/Untitled.md",
+    "Metodologie di programmazione/diagramma \"javesco\" (Faralli) delle classi in UML.md",
+    "Interdisciplinare/memoria.md",
+    "Metodologie di programmazione/anatomia della memoria della JVM.md",
+    "Progettazione di sistemi digitali/latch.md",
     "Reti di elaboratori/Reti di elaboratori.md",
+    "Reti di elaboratori/indirizzi IP.md",
+    "Reti di elaboratori/DNS (Domain Name System).md",
+    "Reti di elaboratori/stack protocollare TCP-IP.md",
+    "Reti di elaboratori/HTTP.md",
+    "Interdisciplinare/proprietà, tipi di relazioni e ordini.md",
     "Reti di elaboratori/creare un'applicazione di rete.md",
     "appunti del secondo anno.md",
     "Reti di elaboratori/cookie.md",
     "Reti di elaboratori/rete.md",
-    "Reti di elaboratori/HTTP.md",
     "Reti di elaboratori/caching.md",
     "Reti di elaboratori/misure della performance della rete.md",
-    "Reti di elaboratori/GET.md",
-    "Reti di elaboratori/WWW (World Wide Web).md",
-    "Reti di elaboratori/URL.md",
-    "Progettazione di algoritmi/Progettazione di algoritmi.md",
-    "Reti di elaboratori/stack protocollare TCP-IP.md",
-    "Basi di dati 2/Class and Object diagram.md",
-    "Interdisciplinare/UML (Unified Modeling Language).md",
-    "Progettazione di algoritmi/PL2, Dimostrazioni di proprietà dei grafi.md",
-    "Progettazione di algoritmi/principio dei buchi di piccionaia 🐦.md",
-    "Interdisciplinare/albero.md",
-    "Interdisciplinare/grafo.md",
-    "Progettazione di algoritmi/algoritmo per il calcolo del grado.md",
-    "Interdisciplinare/implementazioni dei grafi.md",
-    "Progettazione di sistemi digitali/progettazione di sistemi digitali.md",
-    "Untitled.md",
-    "Calcolo delle probabilità/distribuzione binomiale.md",
-    "Calcolo delle probabilità/coefficiente binomiale.md",
-    "Calcolo delle probabilità/distribuzione geometrica.md",
     "Reti di elaboratori/Pasted image 20260303154354.png",
     "Reti di elaboratori/Pasted image 20260303151114.png",
     "Reti di elaboratori/Pasted image 20260303150803.png",
