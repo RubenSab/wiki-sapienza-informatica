@@ -20,12 +20,12 @@
             }
           },
           {
-            "id": "a3e3c3f103ef0e40",
+            "id": "4bf718ab262c2e70",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Interdisciplinare/algoritmo per la ricerca di un pozzo universale.md",
+                "file": "Reti di elaboratori/misure della performance della rete.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -40,16 +40,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "algoritmo per la ricerca di un pozzo universale"
+              "title": "misure della performance della rete"
             }
           },
           {
-            "id": "ea09689180e9eb26",
+            "id": "7b60aaeb06c6291b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Progettazione di algoritmi/algoritmo per la 2-colorazione dei grafi.md",
+                "file": "Reti di elaboratori/reti a commutazione di pacchetto.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -64,16 +64,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "algoritmo per la 2-colorazione dei grafi"
+              "title": "reti a commutazione di pacchetto"
             }
           },
           {
-            "id": "5f128d7238ef5f74",
+            "id": "5f0e96d13482d4ae",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Progettazione di algoritmi/Progettazione di algoritmi.md",
+                "file": "Reti di elaboratori/rete.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -88,10 +88,107 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Progettazione di algoritmi"
+              "title": "rete"
+            }
+          },
+          {
+            "id": "ba5787b372a3c2c4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Reti di elaboratori/Reti di elaboratori.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Reti di elaboratori"
+            }
+          },
+          {
+            "id": "bc8ac5ff0eeda657",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Reti di elaboratori/HTTP.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "HTTP"
+            }
+          },
+          {
+            "id": "dae2e4f07355a7a5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Reti di elaboratori/Reti di elaboratori.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Reti di elaboratori"
+            }
+          },
+          {
+            "id": "e37e60086de0a798",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Sistemi operativi 2/file.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": false
+                }
+              },
+              "icon": "lucide-file",
+              "title": "file"
             }
           }
-        ]
+        ],
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -148,7 +245,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "multiplexing",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -262,8 +359,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 354.5,
-    "collapsed": true
+    "width": 354.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -279,8 +375,17 @@
       "new-3d-graph:Open 3d graph": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "e37e60086de0a798",
   "lastOpenFiles": [
+    "Reti di elaboratori/Reti di elaboratori.md",
+    "Reti di elaboratori/HTTP.md",
+    "Reti di elaboratori/rete.md",
+    "Reti di elaboratori/misure della performance della rete.md",
+    "Reti di elaboratori/reti a commutazione di pacchetto.md",
+    "Reti di elaboratori/LAN (Local Area Network).md",
+    "Reti di elaboratori/stack protocollare TCP-IP.md",
+    "Reti di elaboratori/reti a commutazione di circuito.md",
+    "Progettazione di sistemi digitali/unità di misura del sistema binario.md",
     "Progettazione di algoritmi/Progettazione di algoritmi.md",
     "Progettazione di algoritmi/algoritmo per la 2-colorazione dei grafi.md",
     "Progettazione di algoritmi/DFS (algoritmo della visita in profondità).md",
@@ -303,15 +408,6 @@
     "Interdisciplinare/UML (Unified Modeling Language).md",
     "Accademia 1.md",
     "Basi di dati 2/Class and Object diagram.md",
-    "Algebra lineare/Esercizio.md",
-    "Sistemi operativi 2/Untitled.md",
-    "Metodologie di programmazione/diagramma \"javesco\" (Faralli) delle classi in UML.md",
-    "Interdisciplinare/memoria.md",
-    "Metodologie di programmazione/anatomia della memoria della JVM.md",
-    "Progettazione di sistemi digitali/latch.md",
-    "Reti di elaboratori/Reti di elaboratori.md",
-    "Reti di elaboratori/indirizzi IP.md",
-    "Reti di elaboratori/DNS (Domain Name System).md",
     "Reti di elaboratori/Pasted image 20260303154354.png",
     "Reti di elaboratori/Pasted image 20260303151114.png",
     "Reti di elaboratori/Pasted image 20260303150803.png",

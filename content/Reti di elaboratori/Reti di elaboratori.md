@@ -1,9 +1,11 @@
 ---
-updated_at: 2026-03-06T14:21:29.344+01:00
+updated_at: 2026-03-10T16:21:03.963+01:00
 ---
 > Codice classroom: f5ubehac
 
 - [[rete]]
+- [[classificazione delle reti]]
+- [[misure della performance della rete]]
 - [[Internet]]
 - [[protocollo]]
 - [[servizio]]
