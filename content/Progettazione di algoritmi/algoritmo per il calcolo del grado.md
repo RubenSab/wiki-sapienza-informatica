@@ -1,14 +1,14 @@
 ---
-updated_at: 2026-03-03T17:30:32.326+01:00
+updated_at: 2026-03-12T16:59:57.887+01:00
 ---
-# Per le [[implementazioni dei grafi|liste di adiacenza]] ($O(n)$)
+# [[Algoritmo]] per le [[implementazioni dei grafi|liste di adiacenza]] ($O(1)$)
 
 ``` python
 def degree(G, u):
-	return length(G[u])
+	return len(G[u])
 ```
 
-# Per le [[implementazioni dei grafi|matrici di appartenenza]] ($O(n)$)
+# Algoritmo per le [[implementazioni dei grafi|matrici di appartenenza]] ($O(n)$)
 
 ``` python
 def degree(G, u):

@@ -1,7 +1,7 @@
 ---
 updated_at: 2026-01-29T12:52:01.847+01:00
 ---
-> La [[struttura dati]] del file hash corrisponde a una [[hash table]] implementato con un'[[array]] (la *bucket directory*) di $B$ ***bucket***, cioè delle [[linked list]] di **blocchi** collegati da [[puntatore|puntatori]].
+> La [[struttura dati]] del [[file]] hash corrisponde a una [[hash table]] implementato con un'[[array]] (la *bucket directory*) di $B$ ***bucket***, cioè delle [[linked list]] di **blocchi** collegati da [[puntatore|puntatori]].
 
 L'i-esimo elemento della bucket directory contiene:
 - l'indirizzo (*bucket header*) del **primo blocco** del bucket corrispondente.

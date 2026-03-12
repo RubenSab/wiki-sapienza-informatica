@@ -141,7 +141,7 @@ $$
 
 La commutazione di circuito può essere realizzata suddividendo in slot ognuno dei quali viene assegnato a un host per trasmettere. Per esempio, se ci sono 4 host il tempo sarà suddiviso in gruppi di 4 slot (ogni host avrà il proprio slot per trasmettere).
 
-> Si supponga di voler spedire un file di 160000 bit dall'host A all'host B in una rete basata su slottizzazione del tempio con 48 slot e Rate pari a 1536 Mbps. Per stabilire il circuito end-to-end si impiegano 500ms. Quanto tempo è necessario per trasmettere il file?
+> Si supponga di voler spedire un [[file]] di 160000 bit dall'host A all'host B in una rete basata su slottizzazione del tempio con 48 slot e Rate pari a 1536 Mbps. Per stabilire il circuito end-to-end si impiegano 500ms. Quanto tempo è necessario per trasmettere il file?
 
 Bisogna calcolare la Rate in $\frac{Mb}{48/s}$.
 

@@ -29,11 +29,11 @@ comando [opzioni] argomentiobbligatori
 - `su [options] [-] [user [argument...]]` esegue un comando con un **utente** e un group ID **sostituto**.
 - `passwd` ^e612d9
 
-# File e directory
+# [[File]] e directory
 
 - `cwd` stampa a schermo la current working directory.
 - `mkdir` crea una directory vuota.
-- `touch` crea un nuovo file vuoto.
+- `touch` crea un nuovo [[file]] vuoto.
 - `cd` cambia la current working directory.
 - `ls` lista i file nella current working directory.
 	- `-R` o `--recursive` lista i contenuti e le directory ricorsivamente.

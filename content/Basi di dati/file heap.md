@@ -1,7 +1,7 @@
 ---
 updated_at: 2026-01-30T13:04:39.381+01:00
 ---
-> È una (dis)[[organizzazione fisica di un database relazionale]] che consiste in una semplice [[array]] dinamica di record ordinati solo per inserimento, in cui ogni record viene inserito all'inizio del file.
+> È una (dis)[[organizzazione fisica di un database relazionale]] che consiste in una semplice [[array]] dinamica di record ordinati solo per inserimento, in cui ogni record viene inserito all'inizio del [[file]].
 
 Esempio:
 

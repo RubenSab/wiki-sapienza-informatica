@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-03-03T12:00:57.535+01:00
+updated_at: 2026-03-10T17:10:51.384+01:00
 ---
 > N.B.: In Linux anche le directory e i dispositivi in [[dev]] sono file. *(Si vedano gli [[inode]])*
 

@@ -8,13 +8,6 @@
   "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "tag:todo",
-      "color": {
-        "a": 1,
-        "rgb": 16711680
-      }
-    },
-    {
       "query": "path: \"Metodi matematici per l'informatica\"",
       "color": {
         "a": 1,
@@ -71,10 +64,10 @@
       }
     },
     {
-      "query": "path: \"Interdisciplinare\"  ",
+      "query": "tag:todo",
       "color": {
         "a": 1,
-        "rgb": 16777215
+        "rgb": 16711680
       }
     },
     {
@@ -103,6 +96,13 @@
       "color": {
         "a": 1,
         "rgb": 16496317
+      }
+    },
+    {
+      "query": "path: \"Interdisciplinare\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 16777215
       }
     },
     {
@@ -137,6 +137,6 @@
   "repelStrength": 13.3848748945741,
   "linkStrength": 0.732218161371943,
   "linkDistance": 161,
-  "scale": 0.2513484322737871,
+  "scale": 0.24142403091442252,
   "close": true
 }

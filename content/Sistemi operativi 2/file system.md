@@ -1,7 +1,7 @@
 ---
 updated_at: 2026-03-03T12:02:43.637+01:00
 ---
-Le differenze tra i file systems sono:
+Le differenze tra i [[file]] systems sono:
 
 - dimensione massima della partizione
 - dimensione massima del file

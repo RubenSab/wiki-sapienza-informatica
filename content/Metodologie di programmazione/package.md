@@ -40,5 +40,5 @@ Se scriviamo `import java.util.Scanner;`, poi potremo usare la classe `java.util
 
 Una classe può essere inserita in un determinato package semplicemente:
 
-- specificandolo all'inizio del file (parola chiave package)
+- specificandolo all'inizio del [[file]] (parola chiave package)
 - posizionando il file nella corretta sottocartella

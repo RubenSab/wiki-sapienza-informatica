@@ -9,7 +9,7 @@ Ciò è utile perché avendo una [[struttura dati]] ordinata, l'operazione di ri
 
 # Cos'è l'ISAM
 
-> Il file ***ISAM*** *(Indexed Sequential Access Method)* è un file i cui record sono ordinati in base alla ***chiave di ricerca***. In genere viene lasciato dello spazio libero in ogni blocco.
+> Il [[file]] ***ISAM*** *(Indexed Sequential Access Method)* è un file i cui record sono ordinati in base alla ***chiave di ricerca***. In genere viene lasciato dello spazio libero in ogni blocco.
 
 Questa struttura dati si divide in due parti:
 

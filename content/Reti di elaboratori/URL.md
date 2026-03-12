@@ -5,4 +5,4 @@ updated_at: 2026-03-05T14:33:03.524+01:00
 
 1. il [[protocollo]],
 2. il nome della macchina host su cui è situata la pagina,
-3. il percorso del file, relativo alla macchina host.
+3. il percorso del [[file]], relativo alla macchina host.

@@ -15,7 +15,7 @@ I Cookie rappresentano un modo per creare una "sessione" (non correlata al conce
 
 - Una riga di intestazione del messaggio di risposta HTTP.
 - Una riga di intestazione del messaggio di richiesta HTTP.
-- Un file cookie mantenuto sul sistema terminale dell'utente e gestito dal browser dell'utente.
+- Un [[file]] cookie mantenuto sul sistema terminale dell'utente e gestito dal browser dell'utente.
 - Un database sul server.
 
 ## Esempio

@@ -1,7 +1,7 @@
 ---
-updated_at: 2026-03-09T23:03:03.761+01:00
+updated_at: 2026-03-12T16:58:04.045+01:00
 ---
-Per verificare che il nodo di un [[grafo]] diretto sia un pozzo universale, bisogna controllare che:
+Per verificare che il nodo di un [[grafo]] diretto sia un pozzo universale, l'[[algoritmo]] deve controllare che:
 
 - non ci siano archi uscenti,
 - formi un arco entrante con ogni altro nodo del grafo.

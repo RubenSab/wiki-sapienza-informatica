@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-01-30T13:02:31.694+01:00
+updated_at: 2026-03-10T17:08:30.343+01:00
 ---
 # Cosa risolve il B-tree
 
@@ -8,15 +8,15 @@ updated_at: 2026-01-30T13:02:31.694+01:00
 
 # Cos'è il B-tree
 
-Il B-tree è un [[albero]] di blocchi che ha come **radice un unico blocco**, quindi può risiedere in memoria principale durante l’utilizzo del file.
+Il B-tree è un [[albero]] di blocchi che ha come **radice un unico blocco**, quindi può risiedere in memoria principale durante l’utilizzo del [[file]].
 
 Il **primo record indice** di ogni blocco indice contiene **solo** un puntatore ad un blocco le cui chiavi sono minori di quelle nel blocco puntato dal secondo record indice.
 
-Ogni blocco del **file indice** contiene:
+Ogni blocco del **[[file]] indice** contiene:
 - un puntatore che collega il blocco al sotto-albero più a sinistra.
 - più record che memorizzano una coppia, i cui elementi sono:
-	1. il **valore** della chiave del primo record della porzione del file accessibile attraverso il puntatore,
-	2. il [[puntatore]] a un blocco al livello più basso, oppure a una **foglia**, cioè ad un blocco del **file principale**, il quale non contiene puntatori.
+	1. il **valore** della chiave del primo record della porzione del [[file]] accessibile attraverso il puntatore,
+	2. il [[puntatore]] a un blocco al livello più basso, oppure a una **foglia**, cioè ad un blocco del **[[file]] principale**, il quale non contiene puntatori.
 
 > N.B.: Per scelta progettuale, ogni blocco del B-tree è sempre pieno **almeno per metà dei BYTE (anche contando i puntatori)**, garantendo che il B-tree sia **bilanciato**.
 
@@ -25,8 +25,8 @@ Ogni blocco del **file indice** contiene:
 ## Ricerca
 
 Si parte dalla radice e si legge **un blocco alla volta**:
-- se si è arrivati a un blocco del file principale, allora il record cercato deve trovarsi lì.
-- se leggiamo un blocco del file indice, si cerca nel blocco un valore $\geq$ del valore della chiave cercata, ma $<$ del valore successivo nel blocco, e si segue il suo rispettivo puntatore verso il prossimo blocco a un livello inferiore.
+- se si è arrivati a un blocco del [[file]] principale, allora il record cercato deve trovarsi lì.
+- se leggiamo un blocco del [[file]] indice, si cerca nel blocco un valore $\geq$ del valore della chiave cercata, ma $<$ del valore successivo nel blocco, e si segue il suo rispettivo puntatore verso il prossimo blocco a un livello inferiore.
 
 È evidente che la ricerca richiede $h + 1$ accessi ($h$ = altezza dell'albero).
 
@@ -34,7 +34,7 @@ Si parte dalla radice e si legge **un blocco alla volta**:
 
 Il valore massimo di $h$ è
 $$
-\log_{\frac{\text{capienza di record in un blocco indice}}{2}}\left(\frac{\text{numero di record nel file principale}}{\text{capienza di record in un blocco principale}}\right)
+\log_{\frac{\text{capienza di record in un blocco indice}}{2}}\left(\frac{\text{numero di record nel [[file]] principale}}{\text{capienza di record in un blocco principale}}\right)
 $$
 
 Dimostrazione da pag. 19 a 23 del pdf 24.
@@ -55,10 +55,10 @@ $h+1$ (ricerca) $+1$ (riscrittura del blocco) se la modifica non coinvolge campi
 
 # Esempio
 
-Supponiamo di avere un file di 170.000 record. Ogni record occupa 200 byte, di cui 20 per il campo chiave.
+Supponiamo di avere un [[file]] di 170.000 record. Ogni record occupa 200 byte, di cui 20 per il campo chiave.
 Ogni blocco contiene 1024 byte. Un puntatore a blocco occupa 4 byte.
 
-## Se usiamo un B-tree e assumiamo che sia i blocchi indice che i blocchi del file sono pieni al minimo, quanti blocchi vengono usati per il livello foglia (file principale)
+## Se usiamo un B-tree e assumiamo che sia i blocchi indice che i blocchi del [[file]] sono pieni al minimo, quanti blocchi vengono usati per il livello foglia (file principale)
 
 Ogni blocco può contenere al massimo $\left\lfloor\frac{1024}{200}\right\rfloor = 5$ record.
 

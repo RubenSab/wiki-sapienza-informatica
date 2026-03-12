@@ -12,7 +12,7 @@ public class HelloWorld
 }
 ```
 
-L'intero programma è una [[classe]] che risiede in un file (con codifica `utf-8`), deve avere ***lo stesso nome*** della classe creata.
+L'intero programma è una [[classe]] che risiede in un [[file]] (con codifica `utf-8`), deve avere ***lo stesso nome*** della classe creata.
 
 La classe contiene il [[metodo]] main.
 

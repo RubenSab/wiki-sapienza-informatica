@@ -1,7 +1,7 @@
 ---
-updated_at: 2026-01-23T13:15:03.401+01:00
+updated_at: 2026-03-10T17:11:20.629+01:00
 ---
-> Una base di dati o database è un insieme di file mutualmente connessi (aggregati di informazioni omogenee, accoppiate a file di *indici*) in formati proprietari che serve per **gestire**, **memorizzare**, **processare** e comunicare dei dati utili per l'organizzazione che ne fa uso. I dati sono [[organizzazione fisica di un database relazionale|organizzati]], secondo le loro [[relazione|relazioni]], in [[struttura dati|strutture dati]] **omogenee** progettate per facilitarne la creazione, gestione e accesso, ottimizzando [[complessità spaziale]] e [[complessità temporale|temporale]].
+> Una base di dati o database è un insieme di [[file]] mutualmente connessi (aggregati di informazioni omogenee, accoppiate a [[file]] di *indici*) in formati proprietari che serve per **gestire**, **memorizzare**, **processare** e comunicare dei dati utili per l'organizzazione che ne fa uso. I dati sono [[organizzazione fisica di un database relazionale|organizzati]], secondo le loro [[relazione|relazioni]], in [[struttura dati|strutture dati]] **omogenee** progettate per facilitarne la creazione, gestione e accesso, ottimizzando [[complessità spaziale]] e [[complessità temporale|temporale]].
 
 > Dati: fatti grezzi che devono essere **interpretati** e **correlati** dal [[DBMS (Database Management System)]] per fornire informazione. Nelle basi di dati abbiamo dati **strutturati** (in composizione con quelli non strutturati del linguaggio naturale): gli oggetti sono rappresentati da brevi simboli o numeri.
 
@@ -39,7 +39,7 @@ I dati devono soddisfare dei **vincoli** che esistono nella realtà di interesse
 
 # 3 livelli di astrazione dei DB
 
-1. Schema **fisico**: l'insieme dei file
+1. Schema **fisico**: l'insieme dei [[file]]
 2. Schema **logico**: la struttura "principale" che descrive la relazione tra i dati, ad esempio le [[tabella|tabelle]] per i DB relazionali. Questo livello e il successivo sono **completamente indipendenti** da quello fisico.
 3. Schema **esterno** esposto agli utenti: la descrizione **parziale** della base di dati in [[vista|viste]] (indipendenti dallo schema logico) che possono prevedere organizzazioni dei dati diverse rispetto a quelle utilizzate nello schema logico secondo l'esigenza e il **privilegio di accesso** delle tipologie di utenti. **Tutti gli accessi al DB avvengono attraverso questo livello**.
 
@@ -62,7 +62,7 @@ I dati devono soddisfare dei **vincoli** che esistono nella realtà di interesse
 
 # Antenati dei DB
 
-Negli antichi sistemi informativi, la gestione dei dati veniva affidata a un file system. I file venivano manipolati da linguaggi orientati alla gestione dei file come COBOL.
+Negli antichi sistemi informativi, la gestione dei dati veniva affidata a un [[file system]]. I [[file]] venivano manipolati da linguaggi orientati alla gestione dei file come COBOL.
 
 Gli svantaggi erano:
 

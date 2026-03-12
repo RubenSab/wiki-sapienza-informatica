@@ -7,11 +7,11 @@ updated_at: 2026-03-03T11:49:34.916+01:00
 
 - leggere,
 - scrivere,
-- eseguire un file/directory.
+- eseguire un [[file]]/directory.
 
 Sono codificati da una stringa di 10 caratteri:
 
-- il primo carattere indica il **tipo del file**: `d` se è una directory e `-` altrimenti,
+- il primo carattere indica il **tipo del [[file]]**: `d` se è una directory e `-` altrimenti,
 - la prima sotto-stringa di tre caratteri indica i permessi dell'**[[utente]]**,
 - la seconda sotto-stringa di tre caratteri indica i permessi degli utenti appartenenti al **gruppo principale dell'utente**
 - la terza sotto-stringa indica i permessi degli **altri utenti**.

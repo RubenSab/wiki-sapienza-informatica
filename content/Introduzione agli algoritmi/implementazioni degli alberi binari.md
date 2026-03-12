@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-05-26T17:41:15.447+02:00
+updated_at: 2026-03-11T20:28:19.125+01:00
 ---
 # Con [[array]]
 
@@ -36,7 +36,9 @@ def da_lista_a_albero(lista, i=0) -> Nodo:
 Si usa [[albero#^34c59b|l'algoritmo della visita per ampiezza]] che produce esattamente ciò che vogliamo.
 # Con il vettore dei padri
 
-Si assegna (possibilmente con un criterio intuitivo) a ogni nodo un'indice di un'[[array]], e in quella posizione del vettore si inserisce l'indice del nodo padre. L'assenza di padre del nodo radice è rappresentata da un valore speciale come $-1$.
+^26ee6b
+
+Si assegna a ogni nodo un'indice di un'[[array]] (possibilmente con un criterio intuitivo, come l'ordine crescente da 0 a $n$), e in quella posizione del vettore si inserisce l'indice del nodo padre. L'assenza di padre del **nodo radice** è rappresentata da un **valore speciale** come $-1$.
 
 Esempio:
 

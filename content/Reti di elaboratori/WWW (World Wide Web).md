@@ -12,7 +12,7 @@ updated_at: 2026-03-05T14:36:44.290+01:00
 
 # Glossario
 
-> Una **pagina** web è costituita da oggetti ed è formata da un **file base [[HTML]]**.
+> Una **pagina** web è costituita da oggetti ed è formata da un **[[file]] base [[HTML]]**.
 
 > Un oggetto può essere un file HTML, un'immagine, un applet Java o altro.
 
