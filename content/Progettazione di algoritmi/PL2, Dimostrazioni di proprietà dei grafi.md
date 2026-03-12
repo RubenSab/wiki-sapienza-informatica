@@ -1,9 +1,9 @@
 ---
-updated_at: 2026-03-03T18:22:48.657+01:00
+updated_at: 2026-03-12T20:00:05.798+01:00
 ---
 # 1
 
-> Dimostrare che la somma dei gradi dei nodi di un [[grafo]] $G$ è sempre un numero pari.
+> Dimostrare che la somma dei gradi dei nodi di un grafo $G$ è sempre un numero pari.
 
 Ogni arco contribuisce 2 alla somma dei gradi totali, perché un arco $(a, b)$ contribuisce 1 al grado di $a$ e al grado di $b$.
 
@@ -54,5 +54,3 @@ Abbiamo un controesempio per $n = 4$ (un quadrato).
 > Dimostrare che se $G$ ha almeno due nodi, allora in $G$ ci sono due nodi con lo stesso grado.
 
 $\forall u \quad \deg(u) \in [1, n-1]$
-
-Per il [[principio dei buchi di piccionaia 🐦]] #todo

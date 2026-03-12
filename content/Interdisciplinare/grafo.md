@@ -1,9 +1,10 @@
 ---
-updated_at: 2026-03-12T17:21:17.149+01:00
+updated_at: 2026-03-12T19:55:04.455+01:00
 ---
 > È una coppia $G = (V, E)$, dove $V$ è un [[insieme|insieme]] di *vertici o nodi* e $E$ è un insieme di *archi* $E$.
 
 - [[implementazioni dei grafi]]
+- [[algoritmo per la classificazione degli archi in grafi diretti dopo la DFS]]
 
 > N.B.: Le proprietà dei grafi non si prestano quasi mai a dimostrazioni per [[induzione]].
 

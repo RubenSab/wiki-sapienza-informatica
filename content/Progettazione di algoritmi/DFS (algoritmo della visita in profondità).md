@@ -1,11 +1,21 @@
 ---
-updated_at: 2026-03-12T17:00:51.562+01:00
+updated_at: 2026-03-12T19:55:34.937+01:00
 ---
 > L'[[algoritmo]] di *Depth First Search* (DFS) ($O(n+m)$) trova tutti i nodi **raggiungibili** in un [[grafo]] da un nodo sorgente. Segue un cammino profondo, visitando i vicini del nodo corrente e tornando indietro solo quando tutti i vicini del nodo corrente sono stati visitati (backtracking), per terminare nel nodo sorgente.
 
 ![[dfs.gif]]
 
-# Con [[implementazioni dei grafi|matrice di appartenenza]]
+
+La [[DFS (algoritmo della visita in profondità)]] è legata a:
+
+- [[algoritmo per la 2-colorazione dei grafi]]
+- [[algoritmo per trovare i ponti in un grafo]]
+- [[algoritmo per trovare le componenti connesse]]
+- [[algoritmo per trovare i ponti in un grafo]]
+- [[algoritmo per la classificazione degli archi in grafi diretti dopo la DFS]]
+
+# Implementazioni
+## Con [[implementazioni dei grafi|matrice di appartenenza]]
 
 La [[complessità temporale]] è $O(n^{2})$ perché per ogni nodo visitato è necessario scorrere l'intera riga della matrice per trovare i vicini del nodo.
 
@@ -23,7 +33,7 @@ def ricerca_ricorsiva(matrice, sorgente, visitati):
 	return visitati
 ```
 
-# Con [[implementazioni dei grafi|liste di adiacenza]] o dizionari
+## Con [[implementazioni dei grafi|liste di adiacenza]] o dizionari
 
 Ha complessità temporale $O(n^{2})$ perché per ogni nodo visitato è necessario scorrere l'intera riga della matrice.
 
@@ -41,7 +51,7 @@ def ricerca_ricorsiva(liste, sorgente, visitati):
 	return visitati
 ```
 
-## Ottimizzazione con set
+### Ottimizzazione con set
 
 Usando un **set di nodi visitati** piuttosto che una lista nella DFS implementata con le liste di adiacenza, si può ridurre la complessità temporale a $O(n+m)$ **nel caso medio**, perché le operazioni di inserimento e controllo su un set hanno un costo ammortizzato di $O(1)$.
 
@@ -61,7 +71,7 @@ def ricerca_ricorsiva(liste, sorgente, visitati):
 	return visitati
 ```
 
-# Implementazione iterativa con [[stack]]
+## Implementazione iterativa con [[stack]]
 
 Le implementazioni **ricorsive** hanno il problema di non poter percorrere un cammino lungo più di $\approx 1000$ nodi, cioè la dimensione massima dello **stack delle chiamate ricorsive**.
 
@@ -115,7 +125,7 @@ def dfs_padri(liste, nodo, padri):
 		dfs_padri(liste, vicino, padri)
 ```
 
-## Algoritmo per ottenere i cammini in $O(n)$
+### Algoritmo per ottenere i cammini in $O(n)$
 
 per ottenere il cammino da un nodo alla radice dell'albero, risaliamo il vettore dei padri.
 
@@ -131,12 +141,3 @@ def percorri_cammino(nodo, padri):
 	cammino.reverse()
 	return cammino
 ```
-
----
-
-La [[DFS (algoritmo della visita in profondità)]] è legata a:
-
-- [[algoritmo per la 2-colorazione dei grafi]]
-- [[algoritmo per trovare i ponti in un grafo]]
-- [[algoritmo per trovare le componenti connesse]]
-- [[algoritmo per trovare i ponti in un grafo]]
