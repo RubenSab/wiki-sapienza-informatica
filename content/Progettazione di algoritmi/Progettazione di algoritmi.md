@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-03-12T19:59:42.710+01:00
+updated_at: 2026-03-13T18:13:20.472+01:00
 ---
 > [Materiale del corso](https://twiki.di.uniroma1.it/twiki/view/Algoritmi2/PALGdiario2014_2)
 
@@ -18,6 +18,7 @@ updated_at: 2026-03-12T19:59:42.710+01:00
 	- [[algoritmo per la classificazione degli archi in grafi diretti dopo la DFS]]
 	- [[algoritmo per il rilevamento dei cicli in grafi orientati]]
 	- [[ordinamento topologico]]
+	- [[algoritmo per trovare le sorgenti di un DAG da cui si può raggiungere un determinato nodo]]
 
 # Esercizi
 

@@ -10,9 +10,11 @@
           {
             "id": "e7a7b303c61786dc",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "graph",
               "state": {},
+              "pinned": true,
               "icon": "lucide-git-fork",
               "title": "Graph view"
             }
@@ -44,31 +46,7 @@
             }
           },
           {
-            "id": "cc8d177a6286cf3c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Interdisciplinare/grafo.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "grafo"
-            }
-          },
-          {
-            "id": "d84d2f682f4e6972",
+            "id": "5673f3325cd4b05b",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -92,12 +70,12 @@
             }
           },
           {
-            "id": "9c3c53c50466de2f",
+            "id": "f350686e36ec8c4b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Progettazione di algoritmi/algoritmo per il rilevamento dei cicli in grafi orientati.md",
+                "file": "Progettazione di algoritmi/algoritmo per trovare le sorgenti di un DAG da cui si può raggiungere un determinato nodo.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -112,82 +90,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "algoritmo per il rilevamento dei cicli in grafi orientati"
-            }
-          },
-          {
-            "id": "e59d7c4f66cbadf1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Progettazione di algoritmi/ordinamento topologico.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "ordinamento topologico"
-            }
-          },
-          {
-            "id": "b039ef8728b0bee5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Progettazione di algoritmi/PL2, Dimostrazioni di proprietà dei grafi.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "PL2, Dimostrazioni di proprietà dei grafi"
-            }
-          },
-          {
-            "id": "0174acbc0eba34d4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Progettazione di algoritmi/PL2, Dimostrazioni di proprietà dei grafi.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "PL2, Dimostrazioni di proprietà dei grafi"
+              "title": "algoritmo per trovare le sorgenti di un DAG da cui si può raggiungere un determinato nodo"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -375,17 +282,19 @@
       "new-3d-graph:Open 3d graph": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "f350686e36ec8c4b",
   "lastOpenFiles": [
-    "Progettazione di algoritmi/PL2, Dimostrazioni di proprietà dei grafi.md",
-    "Progettazione di algoritmi/principio dei buchi di piccionaia 🐦.md",
+    "Interdisciplinare/grafo.md",
+    "Progettazione di sistemi digitali/complementazione.md",
+    "Progettazione di algoritmi/algoritmo per trovare le sorgenti di un DAG da cui si può raggiungere un determinato nodo.md",
+    "Progettazione di algoritmi/DFS (algoritmo della visita in profondità).md",
     "Progettazione di algoritmi/Progettazione di algoritmi.md",
+    "Progettazione di algoritmi/algoritmo per la classificazione degli archi in grafi diretti dopo la DFS.md",
     "Progettazione di algoritmi/ordinamento topologico.md",
     "Progettazione di algoritmi/algoritmo per il rilevamento dei cicli in grafi orientati.md",
-    "Interdisciplinare/grafo.md",
+    "Progettazione di algoritmi/PL2, Dimostrazioni di proprietà dei grafi.md",
+    "Progettazione di algoritmi/principio dei buchi di piccionaia 🐦.md",
     "Progettazione di algoritmi/algoritmo per trovare i ponti in un grafo.md",
-    "Progettazione di algoritmi/algoritmo per la classificazione degli archi in grafi diretti dopo la DFS.md",
-    "Progettazione di algoritmi/DFS (algoritmo della visita in profondità).md",
     "Introduzione agli algoritmi/albero di ricerca.md",
     "Algebra lineare/partizione.md",
     "Interdisciplinare/algoritmo per la ricerca di un pozzo universale.md",
@@ -401,8 +310,6 @@
     "Introduzione agli algoritmi/implementazioni degli alberi binari.md",
     "Progettazione di algoritmi/albero DFS.md",
     "Introduzione agli algoritmi/notazione O-grande.md",
-    "Introduzione agli algoritmi/complessità temporale.md",
-    "Progettazione di algoritmi/implementazioni dei grafi.md",
     "Progettazione di algoritmi/Pasted image 20260309232935.png",
     "Progettazione di algoritmi/dfs.gif",
     "Progettazione di algoritmi/Pasted image 20260309232857.png",

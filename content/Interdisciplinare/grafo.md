@@ -1,7 +1,6 @@
 ---
-updated_at: 2026-03-12T19:55:04.455+01:00
+updated_at: 2026-03-13T18:20:59.267+01:00
 ---
-> È una coppia $G = (V, E)$, dove $V$ è un [[insieme|insieme]] di *vertici o nodi* e $E$ è un insieme di *archi* $E$.
 
 - [[implementazioni dei grafi]]
 - [[algoritmo per la classificazione degli archi in grafi diretti dopo la DFS]]
@@ -20,7 +19,15 @@ updated_at: 2026-03-12T19:55:04.455+01:00
 
 > Un grafo si dice **aciclico** se partendo da un qualsiasi nodo non possiamo tornare ad esso ripercorrendo gli archi del grafo.
 
+> Un grafo diretto senza cicli si dice **DAG** (*Directed Acyclic Graph*).
+
+> N.B.: Un DAG ha **sempre almeno** una sorgente.
+
 > Un grafo si dice **planare** se può essere disegnato sul piano senza che gli archi si intersechino.
+
+> Ogni grafo orientato $G$ ha un grafo **trasposto** $G^{T}$ che ha gli stessi nodi di $G$ ma con la direzione degli archi invertita.
+
+> Ogni grafo $G$ ha un grafo **[[complementazione|complementare]]** $G^{C}$ che ha gli stessi nodi di $G$ ma gli archi $E_{G^{C}} = \{(u, v): (u, v) \notin E_{G},\ u \in V_{G},\ v \in V_{G}\}$.
 
 > Un **arco** si dice cappio se collega un nodo a se stesso. I grafi senza cappi si dicono **grafi semplici**.
 
