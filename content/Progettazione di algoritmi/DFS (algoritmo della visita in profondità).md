@@ -1,20 +1,22 @@
 ---
-updated_at: 2026-03-13T18:13:49.142+01:00
+updated_at: 2026-03-13T18:37:24.443+01:00
 ---
 > L'[[algoritmo]] di *Depth First Search* (DFS) ($O(n+m)$) trova tutti i nodi **raggiungibili** in un [[grafo]] da un nodo sorgente. Segue un cammino profondo, visitando i vicini del nodo corrente e tornando indietro solo quando tutti i vicini del nodo corrente sono stati visitati (backtracking), per terminare nel nodo sorgente.
 
 ![[dfs.gif]]
 
 
-La [[DFS (algoritmo della visita in profondità)]] è legata a:
+La [[DFS (algoritmo della visita in profondità)]] si usa in:
 
 - [[algoritmo per la 2-colorazione dei grafi]]
 - [[algoritmo per trovare i ponti in un grafo]]
-- [[algoritmo per trovare le componenti connesse]]
+- [[algoritmo per trovare le componenti connesse in un grafo non orientato]]
 - [[algoritmo per la classificazione degli archi in grafi diretti dopo la DFS]]
 - [[algoritmo per il rilevamento dei cicli in grafi orientati]]
 - [[ordinamento topologico]]
 - [[algoritmo per trovare le sorgenti di un DAG da cui si può raggiungere un determinato nodo]]
+- [[algoritmo per calcolare la componente fortemente connessa di un nodo in un grafo orientato]]
+- [[algoritmo di Kosaraju per trovare le componenti fortemente connesse in un grafo orientato]]
 
 # Implementazioni
 ## Con [[implementazioni dei grafi|matrice di appartenenza]]

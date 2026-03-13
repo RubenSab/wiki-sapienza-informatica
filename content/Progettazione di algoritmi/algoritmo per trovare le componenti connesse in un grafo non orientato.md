@@ -1,7 +1,7 @@
 ---
-updated_at: 2026-03-12T17:12:00.197+01:00
+updated_at: 2026-03-13T18:34:55.525+01:00
 ---
-L'[[algoritmo]] itera su tutti i nodi e fa partire una [[DFS (algoritmo della visita in profondità)|DFS]] dal nodo corrente solo se non è stato ancora visitato, assegnando un nuovo ID ai nodi raggiunti.
+L'[[algoritmo]] itera su tutti i nodi del [[grafo]] **non orientato** e fa partire una [[DFS (algoritmo della visita in profondità)|DFS]] dal nodo corrente solo se non è stato ancora visitato, assegnando un nuovo ID ai nodi raggiunti.
 
 La [[complessità temporale]] è $O(n+m)$ perché ogni vertice e ogni arco sono visitati una sola volta.
 

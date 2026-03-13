@@ -1,7 +1,6 @@
 ---
-updated_at: 2026-03-13T18:20:59.267+01:00
+updated_at: 2026-03-13T18:44:40.017+01:00
 ---
-
 - [[implementazioni dei grafi]]
 - [[algoritmo per la classificazione degli archi in grafi diretti dopo la DFS]]
 
@@ -67,15 +66,21 @@ updated_at: 2026-03-13T18:20:59.267+01:00
 
 > Due vertici si dicono **connessi** se esiste un cammino che li collega.
 
-> Una **componente connessa** è un insieme massimo di nodi connessi fra loro. Le componenti connesse [[partizione|partizionano]] i nodi del grafo.
+> Una **componente connessa** è un insieme massimo di nodi connessi fra loro. Le componenti connesse [[partizione|partizionano]] i nodi dei **grafi non orientati**.
 
 Per sapere in $O(1)$ a quale componente appartiene ogni nodo, si usa una **lista delle componenti connesse**, i cui indici rappresentano i nodi del grafo e gli elementi corrispondenti rappresentano l'identificatore univoco della componente connessa.
 
-- [[algoritmo per trovare le componenti connesse]]
+- [[algoritmo per trovare le componenti connesse in un grafo non orientato]]
 
 > Un grafo si dice **connesso** se ha una sola componente connessa, altrimenti si dice **disconnesso**.
 
 > Un **punto di articolazione** è un nodo la cui rimozione sconnette il grafo.
+
+> Una **componente fortemente commessa (SCC)** di un grafo orientato è un [[sottoinsiemi|sottoinsieme]] massimo di nodi tale che per ogni coppia di nodi $u$ e $v$ appartenenti alla componente esiste un cammino orientato da $u$ a $v$ e un altro da $v$ a $u$.
+> Le componenti connesse partizionano i nodi dei **grafi orientati**.
+
+- [[algoritmo per calcolare la componente fortemente connessa di un nodo in un grafo orientato]]
+- [[algoritmo di Kosaraju per trovare le componenti fortemente connesse in un grafo orientato]]
 
 ### Ponti
 
