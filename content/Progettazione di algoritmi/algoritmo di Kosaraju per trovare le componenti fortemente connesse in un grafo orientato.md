@@ -1,8 +1,6 @@
 ---
-updated_at: 2026-03-15T10:58:05.286+01:00
+updated_at: 2026-03-15T10:59:22.273+01:00
 ---
-#todo 
-
 È un [[algoritmo]] che ha [[complessità temporale]] $O(n+m)$.
 
 Agisce in 2 fasi:

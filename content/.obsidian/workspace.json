@@ -43,8 +43,7 @@
               "title": "algoritmo di Kosaraju per trovare le componenti fortemente connesse in un grafo orientato"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -232,10 +231,10 @@
       "new-3d-graph:Open 3d graph": false
     }
   },
-  "active": "734e5539bf6176d0",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "Progettazione di algoritmi/algoritmo per calcolare la componente fortemente connessa di un nodo in un grafo orientato.md",
     "Progettazione di algoritmi/algoritmo di Kosaraju per trovare le componenti fortemente connesse in un grafo orientato.md",
+    "Progettazione di algoritmi/algoritmo per calcolare la componente fortemente connessa di un nodo in un grafo orientato.md",
     "Progettazione di algoritmi/Progettazione di algoritmi.md",
     "Progettazione di algoritmi/DFS (algoritmo della visita in profondità).md",
     "Interdisciplinare/grafo.md",
