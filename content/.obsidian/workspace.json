@@ -8,38 +8,24 @@
         "type": "tabs",
         "children": [
           {
-            "id": "dfed9bf255e78757",
+            "id": "e7a7b303c61786dc",
             "type": "leaf",
             "pinned": true,
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Progettazione di algoritmi/Progettazione di algoritmi.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
+              "type": "graph",
+              "state": {},
               "pinned": true,
-              "icon": "lucide-file",
-              "title": "Progettazione di algoritmi"
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           },
           {
-            "id": "5673f3325cd4b05b",
+            "id": "734e5539bf6176d0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Progettazione di algoritmi/algoritmo per la classificazione degli archi in grafi diretti dopo la DFS.md",
+                "file": "Progettazione di algoritmi/algoritmo di Kosaraju per trovare le componenti fortemente connesse in un grafo orientato.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -54,34 +40,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "algoritmo per la classificazione degli archi in grafi diretti dopo la DFS"
-            }
-          },
-          {
-            "id": "8a850fd75444c15b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Progettazione di algoritmi/algoritmo per calcolare la componente fortemente connessa di un nodo in un grafo orientato.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "algoritmo per calcolare la componente fortemente connessa di un nodo in un grafo orientato"
+              "title": "algoritmo di Kosaraju per trovare le componenti fortemente connesse in un grafo orientato"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -138,7 +101,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "cammini",
+                "query": "traspos",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -269,13 +232,14 @@
       "new-3d-graph:Open 3d graph": false
     }
   },
-  "active": "dfed9bf255e78757",
+  "active": "734e5539bf6176d0",
   "lastOpenFiles": [
     "Progettazione di algoritmi/algoritmo per calcolare la componente fortemente connessa di un nodo in un grafo orientato.md",
+    "Progettazione di algoritmi/algoritmo di Kosaraju per trovare le componenti fortemente connesse in un grafo orientato.md",
+    "Progettazione di algoritmi/Progettazione di algoritmi.md",
+    "Progettazione di algoritmi/DFS (algoritmo della visita in profondità).md",
     "Interdisciplinare/grafo.md",
     "Progettazione di algoritmi/algoritmo per la classificazione degli archi in grafi diretti dopo la DFS.md",
-    "Progettazione di algoritmi/DFS (algoritmo della visita in profondità).md",
-    "Progettazione di algoritmi/Progettazione di algoritmi.md",
     "Progettazione di algoritmi/algoritmo per trovare le componenti connesse in un grafo non orientato.md",
     "Progettazione di algoritmi/algoritmo per trovare le sorgenti di un DAG da cui si può raggiungere un determinato nodo.md",
     "Progettazione di sistemi digitali/complementazione.md",
@@ -296,7 +260,6 @@
     "Interdisciplinare/albero.md",
     "Basi di dati/Basi di dati.md",
     "Introduzione agli algoritmi/implementazioni degli alberi binari.md",
-    "Progettazione di algoritmi/albero DFS.md",
     "Progettazione di algoritmi/Pasted image 20260309232935.png",
     "Progettazione di algoritmi/dfs.gif",
     "Progettazione di algoritmi/Pasted image 20260309232857.png",
