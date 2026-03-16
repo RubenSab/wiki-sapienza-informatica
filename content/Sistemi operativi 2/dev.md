@@ -1,1 +1,6 @@
-#todo
+---
+updated_at: 2026-03-16T22:39:01.733+01:00
+---
+> `/dev` è la directory di [[file speciali]] o file (nello specifico directory) di **dispositivi** (HDD, SSD, etc.), i quali rappresentano le partizioni del sistema. Queste directory sono delle **interfacce** tra il file system e i dispositivi **hardware** che rappresentano.
+
+> Da [tldp.org](https://tldp.org/LDP/Linux-Filesystem-Hierarchy/html/dev.html): *"This may seem strange but it will make sense if you compare the characteristics of files to that of your hardware. Both can be read from and written to. Take /dev/dsp, for instance. This file represents your speaker device. Any data written to this file will be re-directed to your speaker. If you try 'cat /boot/vmlinuz > /dev/dsp' (on a properly configured system) you should hear some sound on the speaker. That's the sound of your kernel! A file sent to /dev/lp0 gets printed. Sending data to and reading from /dev/ttyS0 will allow you to communicate with a device attached there - for instance, your modem."*

@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-12-04T15:57:25.907+01:00
+updated_at: 2026-03-16T22:23:57.321+01:00
 ---
 > È un'insieme di dati in cui si possono individuare un **modo sistematico si organizzazione** e un **insieme di operatori/operazioni** che permettono di manipolarlo. Può essere *omogenea* o *disomogenea* rispetto ai [[tipi]] dei dati contenuti, *statica* (dimensione specificata al momento della creazione) o *dinamica* (dimensione variabile nel tempo).
 
@@ -17,15 +17,7 @@ Le strutture dati più comuni sono:
 - [[heap]]
 
 > N.B. Per cancellare una struttura dati dalla [[memoria]], in Python basta cancellare il riferimento (puntatore) alla "testa" (*parent*) della struttura dati rendendola inaccessibile: a cascata il *garbage collector* eliminerà in automatico tutto ciò che è inacccessibile.
+
 # In Java
 
 > In [[Java]] una struttura dati è una [[collezione]] di [[oggetto|oggetti]], vengono dette "collezioni notevoli" quelle che sono già built-in.
-
-- [[ArrayList]]
-- [[LinkedList]]
-- [[HashSet]]
-- [[TreeSet]]
-- [[LinkedHashSet]]
-- [[HashMap]]
-- [[TreeMap]]
-- [[LinkedHashMap]]

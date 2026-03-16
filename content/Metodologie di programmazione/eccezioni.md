@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-06-04T17:07:15.212+02:00
+updated_at: 2026-03-16T22:24:18.133+01:00
 ---
 > Nella terminologia [[RISC-V]] un'**eccezione** è qualsiasi **cambiamento non previsto** dal flusso di controllo, mentre un'**interrupt** è un evento con **cause esterne**.
 
@@ -11,8 +11,8 @@ updated_at: 2025-06-04T17:07:15.212+02:00
 | [[assembly RISC-V#^342042\|ecall]]                            | interna     | eccezione             |
 | Errore ALU / FPU (overflow, div. per 0, etc)                  | interna     | eccezione             |
 | malfunzionamenti hardware                                     | entrambe    | eccezione o interrupt |
-| accesso a indirizzo di [[memoria\|memoria]] inesistente | interna     | eccezione             |
-| [[page fault]]<br>(sistema operativo)                         | interna     | eccezione             |
+| accesso a indirizzo di [[memoria\|memoria]] inesistente       | interna     | eccezione             |
+| page fault (sistema operativo)                                | interna     | eccezione             |
 | utilizzo di un'istruzione non definita<br>(sistema operativo) | interna     | eccezione             |
 # Come gestire un'eccezione/interrupt
 

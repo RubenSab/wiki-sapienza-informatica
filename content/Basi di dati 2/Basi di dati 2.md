@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-03-09T15:40:07.934+01:00
+updated_at: 2026-03-15T17:00:09.741+01:00
 ---
 *(Vedi [[Basi di dati]])*
 
@@ -14,3 +14,4 @@ updated_at: 2026-03-09T15:40:07.934+01:00
 
 - [[esercizio A.1.1]]
 - [[esercitazione E.A.1.1]]
+- [[voli 2]]

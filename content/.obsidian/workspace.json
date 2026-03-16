@@ -20,12 +20,12 @@
             }
           },
           {
-            "id": "734e5539bf6176d0",
+            "id": "2d9f491ee4d0b429",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Progettazione di algoritmi/algoritmo di Kosaraju per trovare le componenti fortemente connesse in un grafo orientato.md",
+                "file": "Sistemi operativi 2/permessi di accesso.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -40,7 +40,55 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "algoritmo di Kosaraju per trovare le componenti fortemente connesse in un grafo orientato"
+              "title": "permessi di accesso"
+            }
+          },
+          {
+            "id": "a0bc46d2d675fdf7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Sistemi operativi 2/Sistemi operativi 2.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Sistemi operativi 2"
+            }
+          },
+          {
+            "id": "6ef5a6d1b6989fd8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Sistemi operativi 2/comandi della bash (Bourne Again shell).md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "comandi della bash (Bourne Again shell)"
             }
           }
         ]
@@ -100,7 +148,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "traspos",
+                "query": "tipo",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -233,42 +281,42 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "Sistemi operativi 2/comandi della bash (Bourne Again shell).md",
+    "Sistemi operativi 2/Sistemi operativi 2.md",
+    "Sistemi operativi 2/file system.md",
+    "Sistemi operativi 2/inode.md",
+    "Sistemi operativi 2/permessi di accesso.md",
+    "Sistemi operativi 2/file.md",
+    "Metodologie di programmazione/eccezioni.md",
+    "Interdisciplinare/struttura dati.md",
+    "Sistemi operativi 2/file speciali.md",
+    "Sistemi operativi 2/etc-group.md",
+    "Sistemi operativi 2/dev.md",
+    "Sistemi operativi 2/mkfs.md",
+    "Metodologie di programmazione/ArrayList.md",
+    "Sistemi operativi 2/Pasted image 20260316220140.png",
+    "Sistemi operativi 2/etc-passwd.md",
+    "Sistemi operativi 2/etc-mtab.md",
+    "Sistemi operativi 2/Pasted image 20260316184312.png",
+    "Sistemi operativi 2/etc-fstab.md",
+    "Sistemi operativi 2/Pasted image 20260316184306.png",
+    "Sistemi operativi 2/Pasted image 20260316184250.png",
+    "Basi di dati 2/Untitled.md",
+    "Basi di dati 2/voli 2.md",
+    "Basi di dati 2/Basi di dati 2.md",
+    "Basi di dati 2/documenti di specifica.md",
     "Progettazione di algoritmi/algoritmo di Kosaraju per trovare le componenti fortemente connesse in un grafo orientato.md",
+    "Basi di dati 2/esempio di raffinamento dei requisiti.md",
     "Progettazione di algoritmi/algoritmo per calcolare la componente fortemente connessa di un nodo in un grafo orientato.md",
     "Progettazione di algoritmi/Progettazione di algoritmi.md",
     "Progettazione di algoritmi/DFS (algoritmo della visita in profondità).md",
     "Interdisciplinare/grafo.md",
-    "Progettazione di algoritmi/algoritmo per la classificazione degli archi in grafi diretti dopo la DFS.md",
-    "Progettazione di algoritmi/algoritmo per trovare le componenti connesse in un grafo non orientato.md",
-    "Progettazione di algoritmi/algoritmo per trovare le sorgenti di un DAG da cui si può raggiungere un determinato nodo.md",
-    "Progettazione di sistemi digitali/complementazione.md",
-    "Progettazione di algoritmi/ordinamento topologico.md",
-    "Progettazione di algoritmi/algoritmo per il rilevamento dei cicli in grafi orientati.md",
-    "Progettazione di algoritmi/PL2, Dimostrazioni di proprietà dei grafi.md",
-    "Progettazione di algoritmi/principio dei buchi di piccionaia 🐦.md",
-    "Progettazione di algoritmi/algoritmo per trovare i ponti in un grafo.md",
-    "Introduzione agli algoritmi/albero di ricerca.md",
-    "Algebra lineare/partizione.md",
-    "Interdisciplinare/algoritmo per la ricerca di un pozzo universale.md",
-    "Progettazione di algoritmi/algoritmo per la verifica di pozzo universale.md",
-    "Progettazione di algoritmi/algoritmo per il calcolo del grado.md",
-    "Progettazione di algoritmi/algoritmo per la 2-colorazione dei grafi.md",
-    "appunti del secondo anno.md",
-    "index.md",
-    "appunti del primo anno.md",
-    "Interdisciplinare/albero.md",
-    "Basi di dati/Basi di dati.md",
-    "Introduzione agli algoritmi/implementazioni degli alberi binari.md",
     "Progettazione di algoritmi/Pasted image 20260309232935.png",
     "Progettazione di algoritmi/dfs.gif",
     "Progettazione di algoritmi/Pasted image 20260309232857.png",
     "Progettazione di algoritmi/Pasted image 20260309232840.png",
     "Progettazione di algoritmi/Pasted image 20260309232824.png",
     "Reti di elaboratori/Pasted image 20260303154354.png",
-    "Reti di elaboratori/Pasted image 20260303151114.png",
-    "Reti di elaboratori/Pasted image 20260303150803.png",
-    "Reti di elaboratori/Pasted image 20260303150706.png",
-    "Reti di elaboratori/Pasted image 20260303150243.png",
     "etc",
     "arxiv.org/abs",
     "arxiv.org",

@@ -1,8 +1,6 @@
 ---
-updated_at: 2026-03-03T11:49:34.916+01:00
+updated_at: 2026-03-16T22:55:45.390+01:00
 ---
-# Permessi di accesso
-
 > I permessi di accesso indicano chi può:
 
 - leggere,
@@ -11,9 +9,9 @@ updated_at: 2026-03-03T11:49:34.916+01:00
 
 Sono codificati da una stringa di 10 caratteri:
 
-- il primo carattere indica il **tipo del [[file]]**: `d` se è una directory e `-` altrimenti,
+- il primo carattere indica il **[[file#^90365a|tipo del file]]**,
 - la prima sotto-stringa di tre caratteri indica i permessi dell'**[[utente]]**,
-- la seconda sotto-stringa di tre caratteri indica i permessi degli utenti appartenenti al **gruppo principale dell'utente**
+- la seconda sotto-stringa di tre caratteri indica i permessi degli utenti appartenenti al **gruppo principale dell'utente**,
 - la terza sotto-stringa indica i permessi degli **altri utenti**.
 
 Le sotto-stringhe sono tutte formattate allo stesso modo, ma la stessa stringa significa **due cose diverse se si riferisce a file o directory**.

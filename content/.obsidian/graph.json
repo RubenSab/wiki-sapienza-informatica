@@ -71,13 +71,6 @@
       }
     },
     {
-      "query": "path:\"Algebra lineare\" ",
-      "color": {
-        "a": 1,
-        "rgb": 5431447
-      }
-    },
-    {
       "query": "path: \"Sistemi operativi\"",
       "color": {
         "a": 1,
@@ -96,6 +89,13 @@
       "color": {
         "a": 1,
         "rgb": 16496317
+      }
+    },
+    {
+      "query": "path: \"Algebra\"",
+      "color": {
+        "a": 1,
+        "rgb": 5431447
       }
     },
     {
@@ -137,6 +137,6 @@
   "repelStrength": 13.3848748945741,
   "linkStrength": 0.732218161371943,
   "linkDistance": 161,
-  "scale": 0.03877027635919353,
+  "scale": 0.05401735857789347,
   "close": true
 }

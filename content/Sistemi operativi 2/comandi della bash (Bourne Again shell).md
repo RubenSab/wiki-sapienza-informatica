@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-03-03T12:00:42.575+01:00
+updated_at: 2026-03-16T22:19:18.509+01:00
 ---
 Formato dei comandi:
 
@@ -24,7 +24,7 @@ comando [opzioni] argomentiobbligatori
  
 # Gestione utenti
 
-- `sudo` permette di eseguire un comando come **superuser** piuttosto che come l'utente corrente. Richiede la password.
+- `sudo` permette di eseguire un comando come **superuser** piuttosto che come l'[[utente]] corrente. Richiede la password.
 - `adduser` **crea** un nuovo utente.
 - `su [options] [-] [user [argument...]]` esegue un comando con un **utente** e un group ID **sostituto**.
 - `passwd` ^e612d9
@@ -35,16 +35,24 @@ comando [opzioni] argomentiobbligatori
 - `mkdir` crea una directory vuota.
 - `touch` crea un nuovo [[file]] vuoto.
 - `cd` cambia la current working directory.
-- `ls` lista i file nella current working directory.
+- `ls` lista i file nella current working directory. ^a4c080
 	- `-R` o `--recursive` lista i contenuti e le directory ricorsivamente.
 	- `-a` o`-all` lista anche i contenuti nascosti.
-	- `-n` fa vedere ID utente e ID gruppo dei file invece del nome esteso.
-	- `-l` fa vedere i timestamp dei file, in combinazione con `-c` (ctime), `-u` (atime). Senza niente fa vedere mtime.
+	- `-n` restituisce ID utente e ID gruppo dei file invece del nome esteso.
+	- `-i` restituisce l'[[inode]] number del file
+	- `-l` restituisce:
+		- i [[permessi di accesso]],
+		- l'user id,
+		- il gruppo,
+		- la dimensione in byte: per le directory è la dimensione del file speciale contenente lista di coppie `(nomefile, inode_number)`,
+		- la data,
+		- il tempo: se accompagnato da `-c`  indica il *ctime*, se da `-u` indica l'*atime*, senza niente indica il *mtime*.
 - `tree` visualizza l'albero delle directory.
 	- `-a` lista anche i file nascosti.
 	- `-d` list solo le directory.
 	- `-l` segue i symbolic link come se fossero directory.
 	- `-L` indica la profondità massima del livello di directory da includere.
+
 • `umask [mode]` #todo L3
 • `cp [-r] [-i] [-a] [-u] {filesorgenti} filedestinazione`
 • `mv [-i] [-u] [-f] {filesorgenti} filedestinazione`
