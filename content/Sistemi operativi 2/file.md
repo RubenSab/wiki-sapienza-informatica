@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-03-16T22:52:39.230+01:00
+updated_at: 2026-03-17T15:02:34.085+01:00
 ---
 Un file possiede:
 
@@ -16,7 +16,7 @@ Un file possiede:
 
 ^90365a
 
-Lo standard POSIX stabilisce i singoli caratteri che rappresentano i tipi di file Unix nel **formato lungo** del comando [[comandi della bash (Bourne Again shell)#^a4c080|ls]].
+Lo standard POSIX stabilisce i singoli caratteri che rappresentano i tipi di file Unix nel **formato lungo** del comando [[comandi della bash (Bourne Again shell)#^a4c080|ls]]:
 
 - `-` se è un *file regolare*,
 - `d` se è una *directory*,

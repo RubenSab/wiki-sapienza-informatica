@@ -5,7 +5,7 @@ updated_at: 2026-03-12T19:45:13.650+01:00
 
 # Ricerca esaustiva in $O(m(n+m))$
 
-Per ogni arco $(u, v)$ del [[grafo]] si esegue una [[DFS (algoritmo della visita in profondità)|DFS]] da $u$ escludendo l'arco $(u, v)$. Se $v$
+Per ogni arco $(u, v)$ del [[grafo]] si esegue una [[DFS|DFS]] da $u$ escludendo l'arco $(u, v)$. Se $v$
  non viene raggiunto, l'arco è un ponte.
 
 # Ricerca efficiente in $O(n+m)$ con l'algoritmo di Tarjan

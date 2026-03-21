@@ -3,7 +3,7 @@ updated_at: 2026-03-13T17:28:36.332+01:00
 ---
 Rilevare cicli in [[grafo|grafi]] orientati è un problema fondamentale; ad esempio, nel contesto delle dipendenze, un ciclo indica una dipendenza circolare, che è un'incoerenza logica.
 
-Si potrebbe pensare che la strategia più semplice da implementare sia una [[DFS (algoritmo della visita in profondità)|DFS]] che si ferma appena si imbatte in un arco che punta a un nodo già visitato, ma questa strategia è errata, perché non distingue tra i tipi diversi di archi.
+Si potrebbe pensare che la strategia più semplice da implementare sia una [[DFS|DFS]] che si ferma appena si imbatte in un arco che punta a un nodo già visitato, ma questa strategia è errata, perché non distingue tra i tipi diversi di archi.
 
 Ad esempio la DFS che parte da $0$ nel grafo $(0, 1), (0, 2), (1, 2)$ sarebbe un falso positivo.
 

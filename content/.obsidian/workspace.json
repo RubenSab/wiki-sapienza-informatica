@@ -18,78 +18,6 @@
               "icon": "lucide-git-fork",
               "title": "Graph view"
             }
-          },
-          {
-            "id": "2d9f491ee4d0b429",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Sistemi operativi 2/permessi di accesso.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "permessi di accesso"
-            }
-          },
-          {
-            "id": "a0bc46d2d675fdf7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Sistemi operativi 2/Sistemi operativi 2.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Sistemi operativi 2"
-            }
-          },
-          {
-            "id": "6ef5a6d1b6989fd8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Sistemi operativi 2/comandi della bash (Bourne Again shell).md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "comandi della bash (Bourne Again shell)"
-            }
           }
         ]
       }
@@ -131,8 +59,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 283.5,
-    "collapsed": true
+    "width": 283.5
   },
   "right": {
     "id": "26b38658cac3fe47",
@@ -148,7 +75,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tipo",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -281,36 +208,37 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "Progettazione di algoritmi/algoritmo di Dijkstra.md",
+    "Interdisciplinare/grafo.md",
+    "Progettazione di algoritmi/Progettazione di algoritmi.md",
+    "Basi di dati 2/Basi di dati 2.md",
+    "Basi di dati 2/Travel to the moon.md",
+    "Progettazione di algoritmi/DFS.md",
+    "Progettazione di algoritmi/BFS.md",
+    "Progettazione di algoritmi/algoritmo di Kosaraju per trovare le componenti fortemente connesse in un grafo orientato.md",
+    "Progettazione di algoritmi/Untitled.base",
+    "Progettazione di algoritmi/PL6.md",
+    "Reti di elaboratori/Reti di elaboratori.md",
+    "Reti di elaboratori/stack protocollare TCP-IP.md",
+    "Progettazione di algoritmi/algoritmo per la classificazione degli archi in grafi diretti dopo la DFS.md",
+    "Progettazione di algoritmi/PL5.md",
+    "Progettazione di algoritmi/ordinamento topologico.md",
+    "Progettazione di sistemi digitali/codice di Hamming.md",
+    "Progettazione di sistemi digitali/complemento a 1 (CA1).md",
+    "Sistemi operativi 2/file.md",
+    "Reti di elaboratori/HTTP.md",
+    "Reti di elaboratori/misure della performance della rete e ritardi.md",
     "Sistemi operativi 2/comandi della bash (Bourne Again shell).md",
+    "Interdisciplinare/array.md",
     "Sistemi operativi 2/Sistemi operativi 2.md",
     "Sistemi operativi 2/file system.md",
     "Sistemi operativi 2/inode.md",
     "Sistemi operativi 2/permessi di accesso.md",
-    "Sistemi operativi 2/file.md",
     "Metodologie di programmazione/eccezioni.md",
-    "Interdisciplinare/struttura dati.md",
-    "Sistemi operativi 2/file speciali.md",
-    "Sistemi operativi 2/etc-group.md",
-    "Sistemi operativi 2/dev.md",
-    "Sistemi operativi 2/mkfs.md",
-    "Metodologie di programmazione/ArrayList.md",
     "Sistemi operativi 2/Pasted image 20260316220140.png",
-    "Sistemi operativi 2/etc-passwd.md",
-    "Sistemi operativi 2/etc-mtab.md",
     "Sistemi operativi 2/Pasted image 20260316184312.png",
-    "Sistemi operativi 2/etc-fstab.md",
     "Sistemi operativi 2/Pasted image 20260316184306.png",
     "Sistemi operativi 2/Pasted image 20260316184250.png",
-    "Basi di dati 2/Untitled.md",
-    "Basi di dati 2/voli 2.md",
-    "Basi di dati 2/Basi di dati 2.md",
-    "Basi di dati 2/documenti di specifica.md",
-    "Progettazione di algoritmi/algoritmo di Kosaraju per trovare le componenti fortemente connesse in un grafo orientato.md",
-    "Basi di dati 2/esempio di raffinamento dei requisiti.md",
-    "Progettazione di algoritmi/algoritmo per calcolare la componente fortemente connessa di un nodo in un grafo orientato.md",
-    "Progettazione di algoritmi/Progettazione di algoritmi.md",
-    "Progettazione di algoritmi/DFS (algoritmo della visita in profondità).md",
-    "Interdisciplinare/grafo.md",
     "Progettazione di algoritmi/Pasted image 20260309232935.png",
     "Progettazione di algoritmi/dfs.gif",
     "Progettazione di algoritmi/Pasted image 20260309232857.png",
@@ -327,7 +255,6 @@
     "a",
     "Untitled.canvas",
     "relazione tra tabelle master",
-    "foto",
     "Progettazione di sistemi digitali/rete sequenziale generica.canvas"
   ]
 }

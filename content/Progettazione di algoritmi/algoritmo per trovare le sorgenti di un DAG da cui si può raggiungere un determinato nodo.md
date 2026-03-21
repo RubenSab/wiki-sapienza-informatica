@@ -4,7 +4,7 @@ updated_at: 2026-03-13T18:29:36.412+01:00
 L'approccio ingenuo sarebbe:
 
 1. trovare le sorgenti del [[grafo]],
-2. eseguire una [[DFS (algoritmo della visita in profondità)|DFS]] da ognuna, controllare se il nodo $x$ in input è raggiungibile
+2. eseguire una [[DFS|DFS]] da ognuna, controllare se il nodo $x$ in input è raggiungibile
 
 La [[complessità temporale]] è $O(n(n+m))$, ma c'è di meglio si può usare il grafo trasposto $G^{T}$, così che le **sorgenti di** $G$ **diventino i pozzi di** $G^{T}$.
 

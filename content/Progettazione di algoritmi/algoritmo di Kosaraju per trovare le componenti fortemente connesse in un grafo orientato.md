@@ -1,11 +1,11 @@
 ---
-updated_at: 2026-03-15T10:59:22.273+01:00
+updated_at: 2026-03-18T14:18:15.601+01:00
 ---
 È un [[algoritmo]] che ha [[complessità temporale]] $O(n+m)$.
 
 Agisce in 2 fasi:
 
-1. [[DFS (algoritmo della visita in profondità)|DFS]] sull'intero grafo $G$ annotando il tempo di fine visita per ciascun nodo.
+1. [[DFS|DFS]] sull'intero grafo $G$ annotando il tempo di fine visita per ciascun nodo.
 2. Costruzione del [[grafo]] trasposto $G^{T}$ e DFS su $G^{T}$ considerando i nodi in ordine decrescente rispetto al tempo di visita. Ogni nuova DFS su un nodo non ancora visitato identifica una nuova componente connessa nel grafo $G$.
 
 ``` python
@@ -26,16 +26,16 @@ def kosaraju(liste):
 	grafo_trasposto = trasponi(liste)
 	visitati = [False] * n
 	lista_ssc = [0] * n # lista con ID della componente del nodo all'indice corrispondente
-	componente = 0
+	ID_componente = 0
 	ordine.reverse()
 	for nodo in ordine:
 		if not visitati[nodo]
-			componente += 1
+			ID_componente += 1
 			dfs_etichetta_componenti(
 				nodo,
 				grafo_trasposto,
 				visitati,
-				componente,
+				ID_componente,
 				lista_ssc
 			)
 	return lista_ssc
@@ -52,7 +52,7 @@ def dfs_nodi_ordinati_per_tempo_visita(nodo, liste, visitati, ordine):
 			)
 	ordine.append(vicino)
 
-def dfs_etichetta_componenti(nodo, grafo_trasposto, visitati, componente, lista_ssc):
+def dfs_etichetta_componenti(nodo, grafo_trasposto, visitati, ID_componente, lista_ssc):
 	lista_ssc[nodo] = componente
 	visitati[nodo] = True
 	for vicino in grafo_trasposto[nodo]:
@@ -61,7 +61,7 @@ def dfs_etichetta_componenti(nodo, grafo_trasposto, visitati, componente, lista_
 				vicino,
 				grafo_trasposto,
 				visitati,
-				componente,
+				ID_componente,
 				lista_ssc
 			)
 ```

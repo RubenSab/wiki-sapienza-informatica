@@ -1,12 +1,14 @@
 ---
-updated_at: 2026-03-13T18:37:24.443+01:00
+updated_at: 2026-03-18T14:26:55.999+01:00
 ---
-> L'[[algoritmo]] di *Depth First Search* (DFS) ($O(n+m)$) trova tutti i nodi **raggiungibili** in un [[grafo]] da un nodo sorgente. Segue un cammino profondo, visitando i vicini del nodo corrente e tornando indietro solo quando tutti i vicini del nodo corrente sono stati visitati (backtracking), per terminare nel nodo sorgente.
+> L'[[algoritmo]] di *Depth First Search* (DFS) trova tutti i nodi **raggiungibili** in un [[grafo]] da un nodo sorgente. Segue un cammino **profondo**, visitando i vicini del nodo corrente e tornando indietro solo quando tutti i vicini del nodo corrente sono stati visitati (backtracking), per terminare nel nodo sorgente.
+
+L'implementazione ottima ha [[complessità temporale]] $O(n+m)$.
 
 ![[dfs.gif]]
 
 
-La [[DFS (algoritmo della visita in profondità)]] si usa in:
+La [[DFS]] si usa in:
 
 - [[algoritmo per la 2-colorazione dei grafi]]
 - [[algoritmo per trovare i ponti in un grafo]]

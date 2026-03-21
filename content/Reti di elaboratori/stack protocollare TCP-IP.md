@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-03-06T14:20:04.794+01:00
+updated_at: 2026-03-17T15:45:22.280+01:00
 ---
 > È la **gerarchia** modulare dei [[protocollo|protocolli]] utilizzati in [[Internet]]. Ad oggi è formata da 5 livelli (o strati) che elaborano i pacchetti di dati e li inoltrano al prossimo livello.
 
@@ -12,7 +12,7 @@ updated_at: 2026-03-06T14:20:04.794+01:00
 2. **Trasporto** (software)
 	- Definisce l'interazione fra processi.
 	- I pacchetti si chiamano **segmenti**.
-	- TCP, UDP.
+	- [[TCP]], [[UDP]].
 3. **Rete** (software/hardware)
 	- Si occupa dell'istradamento dei segmenti dall'origine alla destinazione.
 	- I pacchetti si chiamano **datagrammi**.

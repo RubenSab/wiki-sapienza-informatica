@@ -33,7 +33,7 @@ updated_at: 2026-03-06T14:19:30.856+01:00
 
 ### Problemi
 
-> Un RTT (Round Trip Time) è il tempo impiegato da un piccolo pacchetto per andare dal client al server e tornare. Include i [[misure della performance della rete#^aca7f0|ritardi]] del pacchetto.
+> Un RTT (Round Trip Time) è il tempo impiegato da un piccolo pacchetto per andare dal client al server e tornare. Include i [[misure della performance della rete e ritardi#^aca7f0|ritardi]] del pacchetto.
 
 Il tempo di risposta è un RTT per inizializzare la connessione + un RTT per la richiesta e i primi byte della risposta HTTP + il tempo di trasmissione del file.
 

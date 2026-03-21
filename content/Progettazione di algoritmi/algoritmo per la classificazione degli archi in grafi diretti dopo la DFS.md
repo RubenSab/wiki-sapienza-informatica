@@ -1,7 +1,7 @@
 ---
 updated_at: 2026-03-13T17:14:12.653+01:00
 ---
-L'[[albero]] [[DFS (algoritmo della visita in profondità)|DFS]] può essere usato come uno strumento per categorizzare i nodi in 4 tipologie. Ciò è utile per rilevare proprietà come [[algoritmo per il rilevamento dei cicli in grafi orientati|la presenza di cicli]].
+L'[[albero]] [[DFS|DFS]] può essere usato come uno strumento per categorizzare i nodi in 4 tipologie. Ciò è utile per rilevare proprietà come [[algoritmo per il rilevamento dei cicli in grafi orientati|la presenza di cicli]].
 
 Un arco diretto $(u, v)$ può essere un:
 

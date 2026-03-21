@@ -5,7 +5,7 @@ updated_at: 2026-03-10T16:21:03.963+01:00
 
 - [[rete]]
 - [[classificazione delle reti]]
-- [[misure della performance della rete]]
+- [[misure della performance della rete e ritardi]]
 - [[Internet]]
 - [[protocollo]]
 - [[servizio]]

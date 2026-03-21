@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-03-13T18:44:40.017+01:00
+updated_at: 2026-03-19T17:05:01.156+01:00
 ---
 - [[implementazioni dei grafi]]
 - [[algoritmo per la classificazione degli archi in grafi diretti dopo la DFS]]
@@ -22,9 +22,13 @@ updated_at: 2026-03-13T18:44:40.017+01:00
 
 > N.B.: Un DAG ha **sempre almeno** una sorgente.
 
+> N.B.: In un DAG ogni **nodo** è una componente connessa.
+
 > Un grafo si dice **planare** se può essere disegnato sul piano senza che gli archi si intersechino.
 
 > Ogni grafo orientato $G$ ha un grafo **trasposto** $G^{T}$ che ha gli stessi nodi di $G$ ma con la direzione degli archi invertita.
+
+> Un grafo **pesato** è un grafo dove ogni arco ha un valore numerico associato.
 
 > Ogni grafo $G$ ha un grafo **[[complementazione|complementare]]** $G^{C}$ che ha gli stessi nodi di $G$ ma gli archi $E_{G^{C}} = \{(u, v): (u, v) \notin E_{G},\ u \in V_{G},\ v \in V_{G}\}$.
 
@@ -93,6 +97,16 @@ I ponti rappresentano punti di vulnerabilità di una rete: dei collegamenti sing
 Il numero massimo di ponti che un grafo può avere è $m$, cioè tutti gli archi. Ciò si verifica nel caso degli **alberi**.
 
 - [[algoritmo per trovare i ponti in un grafo]]
+
+## Distanze
+
+> La **distanza** $d(u, v)$ tra due $u$ e $v$ del grafo è il numero minimo di archi da attraversare per andare dall'uno all'altro nodo.
+
+> Il **diametro** del grafo è la massima distanza possibile tra due nodi qualsiasi del grafo. È il percorso più lungo che si può trovare all'interno del grafo.
+
+$$
+\text{diametro}(G) = \max_{u,v \in V}d(u, v)
+$$
 
 # Notazione standard e proprietà [[notazione asintotica|asintotiche]]
 

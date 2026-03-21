@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-03-13T18:12:57.277+01:00
+updated_at: 2026-03-17T17:54:49.056+01:00
 ---
 > Un'ordinamento topologico è una sequenza lineare dei nodi di un [[grafo]] diretto aciclico (DAG). I nodi di un grafo si definiscono ordinati topologicamente se sono disposti in modo tale che ogni nodo viene prima di tutti i nodi collegati ai suoi archi uscenti.
 
@@ -41,7 +41,7 @@ def topo_sort(liste):
 	return None
 ```
 
-# Algoritmo $O(n)$ basato sulla [[DFS (algoritmo della visita in profondità)|DFS]]
+# Algoritmo $O(n)$ basato sulla [[DFS|DFS]]
 
 Si esegue la DFS del grafo e si aggiungono i nodi a una lista man mano
 che le loro visite terminano, poi si inverte la [[lista di Python|lista]].
