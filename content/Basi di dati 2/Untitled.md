@@ -1,46 +1,28 @@
 ---
-updated_at: 2026-03-15T18:18:32.681+01:00
+updated_at: 2026-03-26T10:46:59.965+01:00
 ---
-Studente:
+Dei giocatori interessa sapere:
 
-- nome: Stringa
-- cognome: Stringa
-- CF: Stringa secondo standard
-- matricola: Stringa secondo standard
-- data di nascita: Data
-- luogo di nascita (città)
-- corso di laurea
-- insegnamenti con esami superati
+- nickname univoco
+- nome
+- cognome
+- indirizzo email
+- rank dichiarato (intero positivo)
 
-Città:
+Delle partite interessa:
 
-- nome: Stringa
+- i due giocatori (chi usa pietre bianche o nere)
+- data
+- luogo
+- regole di conteggio (giapponesi o cinesi)
+- komi (reale tra 0 e 10)
+- esito (disjoint complete):
+	- rinuncia: rinuncia bianco, rinuncia nero
+	- coppia di punteggi (interi non negativi)
 
-Regione:
+Di un torneo interessa:
 
-- nome: Stringa
-
-
-Corso di laurea:
-
-- nome: Stringa
-- una o più facoltà di appartenenza
-
-Facoltà:
-
-- nome: Stringa
-
-Professore:
-
-- nome: Stringa
-- data di nascita: Data
-- CF: Stringa secondo standard
-- luogo di nascita
-- insegnamenti erogati
-
-Insegnamento:
-
-- codice: Stringa secondo standard
-- nome: Stringa
-- ore lezione: Intero
-- corsi di laurea a cui appartiene
+- il nome
+- una descrizione testuale
+- l'edizione (anno)
+- le partite

@@ -18,6 +18,92 @@
               "icon": "lucide-git-fork",
               "title": "Graph view"
             }
+          },
+          {
+            "id": "9bcd5a8739f9df77",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Progettazione di algoritmi/Progettazione di algoritmi.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Progettazione di algoritmi"
+            }
+          },
+          {
+            "id": "a38cb7401497c37f",
+            "type": "leaf",
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "https://twiki.di.uniroma1.it/twiki/view/Algoritmi2/PALGdiario2014_2",
+                "title": "PALGdiario2014_2 < Algoritmi2 < TWiki",
+                "mode": "webview"
+              },
+              "icon": "globe-2",
+              "title": "PALGdiario2014_2 < Algoritmi2 < TWiki"
+            }
+          },
+          {
+            "id": "829f20e4c2dbd47e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Basi di dati 2/Untitled.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Untitled"
+            }
+          },
+          {
+            "id": "27e5dd58c7b22dfc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Progettazione di algoritmi/DFS.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "DFS"
+            }
           }
         ]
       }
@@ -59,7 +145,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 283.5
+    "width": 283.5,
+    "collapsed": true
   },
   "right": {
     "id": "26b38658cac3fe47",
@@ -75,7 +162,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "\"vettore dei padri\"",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -208,15 +295,24 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "Progettazione di algoritmi/algoritmo di Dijkstra.md",
-    "Interdisciplinare/grafo.md",
-    "Progettazione di algoritmi/Progettazione di algoritmi.md",
-    "Basi di dati 2/Basi di dati 2.md",
-    "Basi di dati 2/Travel to the moon.md",
     "Progettazione di algoritmi/DFS.md",
+    "Basi di dati/file hash.md",
+    "Interdisciplinare/algoritmo per la ricerca di un pozzo universale.md",
+    "Progettazione di algoritmi/Progettazione di algoritmi.md",
+    "Progettazione di algoritmi/algoritmo di Kruskal.md",
+    "Basi di dati 2/Basi di dati 2.md",
+    "Basi di dati 2/Untitled.md",
     "Progettazione di algoritmi/BFS.md",
-    "Progettazione di algoritmi/algoritmo di Kosaraju per trovare le componenti fortemente connesse in un grafo orientato.md",
+    "Progettazione di algoritmi/algoritmo per il calcolo del diametro di un albero.md",
+    "Progettazione di algoritmi/algoritmo per il calcolo del vettore delle distanze.md",
+    "Progettazione di algoritmi/algoritmo di Dijkstra.md",
+    "Progettazione di algoritmi/sottoinsieme.md",
+    "Esercizi.md",
     "Progettazione di algoritmi/Untitled.base",
+    "Interdisciplinare/algebra di Boole.md",
+    "Interdisciplinare/grafo.md",
+    "Basi di dati 2/Travel to the moon.md",
+    "Progettazione di algoritmi/algoritmo di Kosaraju per trovare le componenti fortemente connesse in un grafo orientato.md",
     "Progettazione di algoritmi/PL6.md",
     "Reti di elaboratori/Reti di elaboratori.md",
     "Reti di elaboratori/stack protocollare TCP-IP.md",
@@ -226,15 +322,6 @@
     "Progettazione di sistemi digitali/codice di Hamming.md",
     "Progettazione di sistemi digitali/complemento a 1 (CA1).md",
     "Sistemi operativi 2/file.md",
-    "Reti di elaboratori/HTTP.md",
-    "Reti di elaboratori/misure della performance della rete e ritardi.md",
-    "Sistemi operativi 2/comandi della bash (Bourne Again shell).md",
-    "Interdisciplinare/array.md",
-    "Sistemi operativi 2/Sistemi operativi 2.md",
-    "Sistemi operativi 2/file system.md",
-    "Sistemi operativi 2/inode.md",
-    "Sistemi operativi 2/permessi di accesso.md",
-    "Metodologie di programmazione/eccezioni.md",
     "Sistemi operativi 2/Pasted image 20260316220140.png",
     "Sistemi operativi 2/Pasted image 20260316184312.png",
     "Sistemi operativi 2/Pasted image 20260316184306.png",

@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-03-19T16:48:28.703+01:00
+updated_at: 2026-03-26T11:51:26.099+01:00
 ---
 > [Materiale del corso](https://twiki.di.uniroma1.it/twiki/view/Algoritmi2/PALGdiario2014_2)
 
@@ -22,7 +22,10 @@ updated_at: 2026-03-19T16:48:28.703+01:00
 	- [[algoritmo per calcolare la componente fortemente connessa di un nodo in un grafo orientato]]
 	- [[algoritmo di Kosaraju per trovare le componenti fortemente connesse in un grafo orientato]]
 - [[BFS]]
+	- [[algoritmo per il calcolo del vettore delle distanze]]
+	- [[algoritmo per il calcolo del diametro di un albero]]
 - [[algoritmo di Dijkstra]]
+- [[algoritmo di Kruskal]]
 
 # Esercizi
 

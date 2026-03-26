@@ -92,17 +92,17 @@
       }
     },
     {
-      "query": "path: \"Algebra\"",
-      "color": {
-        "a": 1,
-        "rgb": 5431447
-      }
-    },
-    {
       "query": "path: \"Interdisciplinare\"  ",
       "color": {
         "a": 1,
         "rgb": 16777215
+      }
+    },
+    {
+      "query": "path: \"Algebra\"",
+      "color": {
+        "a": 1,
+        "rgb": 5431447
       }
     },
     {
@@ -137,6 +137,6 @@
   "repelStrength": 13.3848748945741,
   "linkStrength": 0.732218161371943,
   "linkDistance": 161,
-  "scale": 0.0632208569863801,
-  "close": true
+  "scale": 0.05993309144349151,
+  "close": false
 }
