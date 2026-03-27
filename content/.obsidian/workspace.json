@@ -20,12 +20,36 @@
             }
           },
           {
-            "id": "9bcd5a8739f9df77",
+            "id": "01036a6dc9590558",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Progettazione di algoritmi/Progettazione di algoritmi.md",
+                "file": "Basi di dati 2/semantica.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "semantica"
+            }
+          },
+          {
+            "id": "e7637a2b19ccd328",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Basi di dati 2/logica del primo ordine.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -40,72 +64,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Progettazione di algoritmi"
-            }
-          },
-          {
-            "id": "a38cb7401497c37f",
-            "type": "leaf",
-            "state": {
-              "type": "webviewer",
-              "state": {
-                "url": "https://twiki.di.uniroma1.it/twiki/view/Algoritmi2/PALGdiario2014_2",
-                "title": "PALGdiario2014_2 < Algoritmi2 < TWiki",
-                "mode": "webview"
-              },
-              "icon": "globe-2",
-              "title": "PALGdiario2014_2 < Algoritmi2 < TWiki"
-            }
-          },
-          {
-            "id": "829f20e4c2dbd47e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Basi di dati 2/Untitled.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Untitled"
-            }
-          },
-          {
-            "id": "27e5dd58c7b22dfc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Progettazione di algoritmi/DFS.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "DFS"
+              "title": "logica del primo ordine"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -293,15 +256,24 @@
       "new-3d-graph:Open 3d graph": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "01036a6dc9590558",
   "lastOpenFiles": [
+    "Basi di dati 2/logica del primo ordine.md",
+    "Basi di dati 2/semantica.md",
+    "Interdisciplinare/relazione.md",
+    "Reti di elaboratori/Esercizi.md",
+    "Basi di dati 2/Untitled.md",
+    "Basi di dati 2/Basi di dati 2.md",
+    "Interdisciplinare/UML (Unified Modeling Language).md",
+    "Basi di dati 2/Class and Object diagram.md",
+    "Basi di dati 2/documenti di specifica.md",
+    "Reti di elaboratori/Reti di elaboratori.md",
+    "Reti di elaboratori/rete.md",
     "Progettazione di algoritmi/DFS.md",
     "Basi di dati/file hash.md",
     "Interdisciplinare/algoritmo per la ricerca di un pozzo universale.md",
     "Progettazione di algoritmi/Progettazione di algoritmi.md",
     "Progettazione di algoritmi/algoritmo di Kruskal.md",
-    "Basi di dati 2/Basi di dati 2.md",
-    "Basi di dati 2/Untitled.md",
     "Progettazione di algoritmi/BFS.md",
     "Progettazione di algoritmi/algoritmo per il calcolo del diametro di un albero.md",
     "Progettazione di algoritmi/algoritmo per il calcolo del vettore delle distanze.md",
@@ -313,15 +285,6 @@
     "Interdisciplinare/grafo.md",
     "Basi di dati 2/Travel to the moon.md",
     "Progettazione di algoritmi/algoritmo di Kosaraju per trovare le componenti fortemente connesse in un grafo orientato.md",
-    "Progettazione di algoritmi/PL6.md",
-    "Reti di elaboratori/Reti di elaboratori.md",
-    "Reti di elaboratori/stack protocollare TCP-IP.md",
-    "Progettazione di algoritmi/algoritmo per la classificazione degli archi in grafi diretti dopo la DFS.md",
-    "Progettazione di algoritmi/PL5.md",
-    "Progettazione di algoritmi/ordinamento topologico.md",
-    "Progettazione di sistemi digitali/codice di Hamming.md",
-    "Progettazione di sistemi digitali/complemento a 1 (CA1).md",
-    "Sistemi operativi 2/file.md",
     "Sistemi operativi 2/Pasted image 20260316220140.png",
     "Sistemi operativi 2/Pasted image 20260316184312.png",
     "Sistemi operativi 2/Pasted image 20260316184306.png",

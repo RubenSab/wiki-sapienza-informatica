@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-03-19T16:08:30.282+01:00
+updated_at: 2026-03-27T14:11:21.408+01:00
 ---
 *(Vedi [[Basi di dati]])*
 
@@ -10,6 +10,7 @@ updated_at: 2026-03-19T16:08:30.282+01:00
 - [[fasi dello sviluppo del software]]
 - [[UML (Unified Modeling Language)]]
 - [[documenti di specifica]]
+- [[logica del primo ordine]]
 ---
 
 - [[esercizio A.1.1]]
