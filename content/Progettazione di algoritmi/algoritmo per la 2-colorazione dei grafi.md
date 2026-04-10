@@ -3,7 +3,7 @@ updated_at: 2026-03-12T16:59:12.993+01:00
 ---
 > Il problema della $k$-colorazione dei [[grafo|grafi]] consiste nel determinare se è possibile o meno assegnare un colore, scelto tra $k$ colori diversi, a ogni vertice del grafo in modo che due vertici adiacenti abbiano sempre colori diversi.
 
-La $k \geq 3$ colorazione è computazionalmente [[efficienza degli algoritmi (costo computazionale)|difficile]], mentre la 2-colorazione può essere risolta in [[complessità temporale|tempo]] [[notazione O-grande|lineare]].
+La $k \geq 3$ colorazione è computazionalmente [[costo computazionale|difficile]], mentre la 2-colorazione può essere risolta in [[complessità temporale|tempo]] [[notazione O-grande|lineare]].
 
 > Un grafo è 2-colorabile se e solo se non contiene cicli di lunghezza dispari, perché due vertici connessi da un ciclo di lunghezza dispari avrebbero lo stesso colore; d'altra parte, se il grafo non ha cicli dispari, è possibile colorarlo con due colori, alternandoli lungo una [[DFS|DFS]].
 

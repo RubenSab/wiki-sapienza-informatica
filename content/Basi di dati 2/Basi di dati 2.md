@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-03-27T14:11:21.408+01:00
+updated_at: 2026-03-31T10:55:12.111+02:00
 ---
 *(Vedi [[Basi di dati]])*
 
@@ -11,6 +11,8 @@ updated_at: 2026-03-27T14:11:21.408+01:00
 - [[UML (Unified Modeling Language)]]
 - [[documenti di specifica]]
 - [[logica del primo ordine]]
+- [[semantica]]
+
 ---
 
 - [[esercizio A.1.1]]

@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-03-19T17:05:01.156+01:00
+updated_at: 2026-04-09T11:45:11.283+02:00
 ---
 - [[implementazioni dei grafi]]
 - [[algoritmo per la classificazione degli archi in grafi diretti dopo la DFS]]
@@ -86,6 +86,14 @@ Per sapere in $O(1)$ a quale componente appartiene ogni nodo, si usa una **lista
 - [[algoritmo per calcolare la componente fortemente connessa di un nodo in un grafo orientato]]
 - [[algoritmo di Kosaraju per trovare le componenti fortemente connesse in un grafo orientato]]
 
+### Alberi di copertura
+
+> Dato un grafo connesso, un suo **albero di copertura o MST (*Minimum Spanning Tree*)** è un sottoinsieme dei suoi archi che mantiene connessi tutti i nodi del grafo ed è un albero.
+
+> Dato un grafo connesso e **pesato**, un **albero di copertura minimo** è l'albero di copertura che mantiene tanti archi con il peso totale minimo quanti servono per mantenere il grafo connesso, cioè minimizza il costo totale.
+
+- [[algoritmo di Kruskal]]
+
 ### Ponti
 
 ^042a02
@@ -102,11 +110,16 @@ Il numero massimo di ponti che un grafo può avere è $m$, cioè tutti gli archi
 
 > La **distanza** $d(u, v)$ tra due $u$ e $v$ del grafo è il numero minimo di archi da attraversare per andare dall'uno all'altro nodo.
 
+- [[algoritmo per il calcolo del vettore delle distanze]]
+
 > Il **diametro** del grafo è la massima distanza possibile tra due nodi qualsiasi del grafo. È il percorso più lungo che si può trovare all'interno del grafo.
 
 $$
 \text{diametro}(G) = \max_{u,v \in V}d(u, v)
 $$
+
+- [[algoritmo esaustivo per il calcolo del diametro di un grafo]]
+- [[algoritmo per il calcolo del diametro di un albero]]
 
 # Notazione standard e proprietà [[notazione asintotica|asintotiche]]
 

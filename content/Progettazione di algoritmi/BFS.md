@@ -5,7 +5,7 @@ updated_at: 2026-03-26T11:50:29.047+01:00
 
 L'implementazione ottima ha [[complessità temporale]] $O(n+m)$.
 
-Nella sua implementazione più [[efficienza degli algoritmi (costo computazionale)|efficiente]], la BFS fa uso di una [[queue]] come [[struttura dati]] di appoggio: durante ogni livello della visita i nodi vengono inseriti in essa, processati e espulsi (LIFO).
+Nella sua implementazione più [[costo computazionale|efficiente]], la BFS fa uso di una [[queue]] come [[struttura dati]] di appoggio: durante ogni livello della visita i nodi vengono inseriti in essa, processati e espulsi (LIFO).
 
 > N.B.: In tutti questi algoritmi i grafi sono [[implementazioni dei grafi|implementati con le liste di adiacenza]].
 

@@ -1,7 +1,7 @@
 ---
 updated_at: 2026-01-30T13:05:32.148+01:00
 ---
-> In un [[DBMS (Database Management System)]], il [[efficienza degli algoritmi (costo computazionale)|costo]] di un'operazione è definito in termini del **numero di accessi** alla [[memoria]] secondaria.
+> In un [[DBMS (Database Management System)]], il [[costo computazionale|costo]] di un'operazione è definito in termini del **numero di accessi** alla [[memoria]] secondaria.
 
 > Ogni [[algebra relazionale dei database|relazione]] (quindi ogni [[tabella]]) di un [[database relazionali|database relazionale]] è memorizzata in un singolo **[[file]]** composto da *blocchi* di byte contenenti più *record* (cioè "righe" che corrispondono ognuna a una **tupla**), tutti con lo tipo di campi (si pensi a un file `.csv`), i quali possono rappresentare:
 

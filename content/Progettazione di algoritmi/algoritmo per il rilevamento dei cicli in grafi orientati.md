@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-03-13T17:28:36.332+01:00
+updated_at: 2026-04-07T20:04:43.241+02:00
 ---
 Rilevare cicli in [[grafo|grafi]] orientati è un problema fondamentale; ad esempio, nel contesto delle dipendenze, un ciclo indica una dipendenza circolare, che è un'incoerenza logica.
 
@@ -13,7 +13,7 @@ Nel concreto, $v$ è un antenato di $u$ se, mentre $u$ viene visitato, $v$ è an
 
 # Implementazione con [[implementazioni dei grafi|liste di adiacenza]]
 
-L'[[algoritmo]] usa la [[lista di Python|lista]] *visitati*, a valori:
+L'[[algoritmo]] usa l'[[array]] *visitati*, a valori:
 
 - 0: il nodo corrispondente all'indice non è stato visitato,
 - 1: il nodo corrispondente all'indice è in visita,

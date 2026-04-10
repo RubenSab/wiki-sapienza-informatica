@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-05-27T09:39:06.388+02:00
+updated_at: 2026-04-10T11:19:08.023+02:00
 ---
 > è un [[albero]] binario [[nomenclatura degli alberi|completo o quasi completo]] che soddisfa la proprietà heap: per ogni nodo, il valore dei figli è maggiore o uguale del valore del nodo (*min heap*), o è minore o uguale del valore del nodo (*max heap*).
 
@@ -9,7 +9,7 @@ Gli heap supportano alcune operazioni di base:
 - la **conversione** da [[implementazioni degli alberi binari#^28a0a1|array]] a heap in $O(n)$,
 - la **restituzione** del **massimo** (in un max-heap) o del **minimo** (in un min-heap) in $\Theta(1)$ (è semplicemente il valore della radice),
 - l'**estrazione** del **massimo** e l'aggiornamento dell'heap in $O(\log{n})$,
-- il **rimpiazzo** della root in $O(\log{n})$.
+- il **rimpiazzo** della radice in $O(\log{n})$.
 
 # Implementazione in Python (di un max-heap)
 

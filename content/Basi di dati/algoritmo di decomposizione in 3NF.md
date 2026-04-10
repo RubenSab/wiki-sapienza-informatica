@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-02-03T13:08:23.261+01:00
+updated_at: 2026-04-10T12:04:34.810+02:00
 ---
 Dato uno [[tabella|schema di relazione]] e un insieme di [[dipendenza funzionale|dipendenze funzionali]] $F$ su $R$ esiste **sempre** una decomposizione $\rho = \{R_{1}, \ldots, R_{k}\}$ di $R$ che rispetta i criteri di una [[verifica di una buona decomposizione in 3NF|buona decomposizione in 3NF]], cioè:
 
@@ -82,4 +82,4 @@ Per avere una decomposizione con join senza perdita, aggiungiamo alla decomposiz
 
 # Dimostrazione della correttezza dell'algoritmo
 
-#todo pag. 5 pdf 19
+#dadimostrare pag. 5 pdf 19

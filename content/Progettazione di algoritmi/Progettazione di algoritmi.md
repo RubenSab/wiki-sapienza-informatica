@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-03-26T11:51:26.099+01:00
+updated_at: 2026-04-10T12:32:37.785+02:00
 ---
 > [Materiale del corso](https://twiki.di.uniroma1.it/twiki/view/Algoritmi2/PALGdiario2014_2)
 
@@ -24,11 +24,15 @@ updated_at: 2026-03-26T11:51:26.099+01:00
 - [[BFS]]
 	- [[algoritmo per il calcolo del vettore delle distanze]]
 	- [[algoritmo per il calcolo del diametro di un albero]]
-- [[algoritmo di Dijkstra]]
-- [[algoritmo di Kruskal]]
+	- [[algoritmo esaustivo per il calcolo del diametro di un grafo]]
+- [[tecnica greedy]]
+	- [[algoritmo di Dijkstra]]
+	- [[algoritmo di Kruskal]]
+- [[problema di ottimizzazione]]
 
 # Esercizi
 
 - [[PL2, Dimostrazioni di proprietà dei grafi]]
 - [[PL5]]
 - [[PL6]]
+- [[PL9]]

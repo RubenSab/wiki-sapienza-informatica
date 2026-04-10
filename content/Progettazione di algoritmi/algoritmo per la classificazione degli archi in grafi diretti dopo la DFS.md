@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-03-13T17:14:12.653+01:00
+updated_at: 2026-04-07T20:04:23.975+02:00
 ---
 L'[[albero]] [[DFS|DFS]] può essere usato come uno strumento per categorizzare i nodi in 4 tipologie. Ciò è utile per rilevare proprietà come [[algoritmo per il rilevamento dei cicli in grafi orientati|la presenza di cicli]].
 
@@ -10,7 +10,7 @@ Un arco diretto $(u, v)$ può essere un:
 - **arco in avanti**: se $v$ è il **discendente** di $u$ nell'albero DFS.
 - **arco di attraversamento**: se $v$ non è **né antenato né discendente** di $u$.
 
-L'[[algoritmo]] usa due [[lista di Python|liste]]:
+L'[[algoritmo]] usa due [[array]]:
 
 - *visitati*, a valori:
 	- 0: il nodo corrispondente all'indice non è stato visitato,

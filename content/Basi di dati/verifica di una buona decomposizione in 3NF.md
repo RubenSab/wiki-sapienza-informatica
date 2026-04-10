@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-02-03T17:42:58.263+01:00
+updated_at: 2026-04-10T12:04:51.125+02:00
 ---
 > Uno [[tabella|schema di relazione]] $R$ si può *decomporre* in più schemi, ognuno un [[sottoinsiemi|sottoinsieme]] degli attributi di $R$ su cui valgono le [[dipendenza funzionale|dipendenze funzionali]] ereditate da $R$, rilevanti per i suoi attributi. Ciò equivale a [[proiezione|proiettare]] ogni tupla dell'istanza originaria sugli attributi dei singoli sottoschemi.
 
@@ -156,7 +156,7 @@ Osserviamo che gode delle seguenti proprietà:
 
 ### Dimostrazione della validità dell'algoritmo
 
-#todo pag 25 pdf 15
+#dadimostrare  pag 25 pdf 15
  
 ### Esempio
 

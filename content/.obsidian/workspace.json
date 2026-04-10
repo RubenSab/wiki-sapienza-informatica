@@ -20,12 +20,12 @@
             }
           },
           {
-            "id": "01036a6dc9590558",
+            "id": "d0817a91a1308c66",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Basi di dati 2/semantica.md",
+                "file": "Progettazione di algoritmi/problema di ottimizzazione.md",
                 "mode": "preview",
                 "source": false,
                 "backlinks": true,
@@ -40,16 +40,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "semantica"
+              "title": "problema di ottimizzazione"
             }
           },
           {
-            "id": "e7637a2b19ccd328",
+            "id": "26c18e4ebbf6fabd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Basi di dati 2/logica del primo ordine.md",
+                "file": "Progettazione di algoritmi/algoritmo di Dijkstra.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -64,11 +64,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "logica del primo ordine"
+              "title": "algoritmo di Dijkstra"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -125,7 +125,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"vettore dei padri\"",
+                "query": "tag:#todo",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -256,35 +256,35 @@
       "new-3d-graph:Open 3d graph": false
     }
   },
-  "active": "01036a6dc9590558",
+  "active": "26c18e4ebbf6fabd",
   "lastOpenFiles": [
-    "Basi di dati 2/logica del primo ordine.md",
-    "Basi di dati 2/semantica.md",
-    "Interdisciplinare/relazione.md",
-    "Reti di elaboratori/Esercizi.md",
-    "Basi di dati 2/Untitled.md",
-    "Basi di dati 2/Basi di dati 2.md",
-    "Interdisciplinare/UML (Unified Modeling Language).md",
-    "Basi di dati 2/Class and Object diagram.md",
-    "Basi di dati 2/documenti di specifica.md",
-    "Reti di elaboratori/Reti di elaboratori.md",
-    "Reti di elaboratori/rete.md",
-    "Progettazione di algoritmi/DFS.md",
-    "Basi di dati/file hash.md",
-    "Interdisciplinare/algoritmo per la ricerca di un pozzo universale.md",
-    "Progettazione di algoritmi/Progettazione di algoritmi.md",
+    "Progettazione di algoritmi/problema di ottimizzazione.md",
     "Progettazione di algoritmi/algoritmo di Kruskal.md",
-    "Progettazione di algoritmi/BFS.md",
-    "Progettazione di algoritmi/algoritmo per il calcolo del diametro di un albero.md",
-    "Progettazione di algoritmi/algoritmo per il calcolo del vettore delle distanze.md",
+    "Progettazione di algoritmi/algoritmi di approssimazione.md",
+    "Progettazione di algoritmi/Progettazione di algoritmi.md",
     "Progettazione di algoritmi/algoritmo di Dijkstra.md",
-    "Progettazione di algoritmi/sottoinsieme.md",
-    "Esercizi.md",
-    "Progettazione di algoritmi/Untitled.base",
-    "Interdisciplinare/algebra di Boole.md",
+    "Algebra/isomorfismo.md",
+    "Algebra/sottogruppi.md",
+    "Algebra/gruppo quoziente.md",
+    "Algebra/proiezione canonica.md",
+    "Algebra/primo teorema dell'omomorfismo.md",
+    "Algebra/teorema fondamentale dell'aritmetica.md",
+    "Basi di dati/verifica di una buona decomposizione in 3NF.md",
+    "Basi di dati/algoritmo di decomposizione in 3NF.md",
+    "tecnica greedy.md",
+    "Progettazione di algoritmi/PL2, Dimostrazioni di proprietà dei grafi.md",
+    "Progettazione di algoritmi/algoritmo per il calcolo del diametro di un albero.md",
+    "Introduzione agli algoritmi/costo computazionale.md",
+    "Introduzione agli algoritmi/introduzione agli algoritmi.md",
+    "Interdisciplinare/heap.md",
+    "Interdisciplinare/algoritmo per la ricerca di un pozzo universale.md",
+    "Algebra/(SCR) sistema completo di rappresentanti.md",
+    "Interdisciplinare/sottoinsiemi.md",
+    "Interdisciplinare/algoritmo.md",
     "Interdisciplinare/grafo.md",
-    "Basi di dati 2/Travel to the moon.md",
     "Progettazione di algoritmi/algoritmo di Kosaraju per trovare le componenti fortemente connesse in un grafo orientato.md",
+    "Metodi matematici per l'informatica/induzione con definizione di funzione.md",
+    "Progettazione di algoritmi/Untitled.base",
     "Sistemi operativi 2/Pasted image 20260316220140.png",
     "Sistemi operativi 2/Pasted image 20260316184312.png",
     "Sistemi operativi 2/Pasted image 20260316184306.png",

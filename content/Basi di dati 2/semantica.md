@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-03-27T17:04:52.285+01:00
+updated_at: 2026-03-30T10:37:51.061+02:00
 ---
 # Esempio di formula
 
