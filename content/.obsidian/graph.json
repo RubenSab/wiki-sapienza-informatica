@@ -53,7 +53,7 @@
       "query": "path: \"Architettura degli elaboratori\"  ",
       "color": {
         "a": 1,
-        "rgb": 14713938
+        "rgb": 15105863
       }
     },
     {
@@ -81,7 +81,7 @@
       "query": "path: \"Sistemi operativi\"",
       "color": {
         "a": 1,
-        "rgb": 14722386
+        "rgb": 15378022
       }
     },
     {
@@ -144,6 +144,6 @@
   "repelStrength": 13.3848748945741,
   "linkStrength": 0.732218161371943,
   "linkDistance": 161,
-  "scale": 0.37493181818877963,
+  "scale": 0.03963813726959119,
   "close": true
 }

@@ -20,36 +20,12 @@
             }
           },
           {
-            "id": "d0817a91a1308c66",
+            "id": "aaf54533665318ba",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Progettazione di algoritmi/problema di ottimizzazione.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "problema di ottimizzazione"
-            }
-          },
-          {
-            "id": "26c18e4ebbf6fabd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Progettazione di algoritmi/algoritmo di Dijkstra.md",
+                "file": "tecnica greedy.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -64,11 +40,58 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "algoritmo di Dijkstra"
+              "title": "tecnica greedy"
+            }
+          },
+          {
+            "id": "b1b000e193c12382",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Sistemi operativi 2/system calls.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "system calls"
+            }
+          },
+          {
+            "id": "027168262fc1fc99",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Sistemi operativi 2/Sistemi operativi 2.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Sistemi operativi 2"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -125,7 +148,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#todo",
+                "query": "condens",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -256,13 +279,23 @@
       "new-3d-graph:Open 3d graph": false
     }
   },
-  "active": "26c18e4ebbf6fabd",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "Sistemi operativi 2/Sistemi operativi 2.md",
+    "Sistemi operativi 2/system calls.md",
+    "tecnica greedy.md",
+    "Progettazione di sistemi digitali/codice di Hamming.md",
+    "Progettazione di sistemi digitali/read only memory (ROM).md",
+    "Progettazione di sistemi digitali/decodificatore (DEC).md",
     "Progettazione di algoritmi/problema di ottimizzazione.md",
-    "Progettazione di algoritmi/algoritmo di Kruskal.md",
+    "Progettazione di algoritmi/PL6.md",
     "Progettazione di algoritmi/algoritmi di approssimazione.md",
-    "Progettazione di algoritmi/Progettazione di algoritmi.md",
+    "Reti di elaboratori/stack protocollare TCP-IP.md",
+    "Reti di elaboratori/misure della performance della rete e ritardi.md",
+    "TCP.md",
     "Progettazione di algoritmi/algoritmo di Dijkstra.md",
+    "Progettazione di algoritmi/algoritmo di Kruskal.md",
+    "Progettazione di algoritmi/Progettazione di algoritmi.md",
     "Algebra/isomorfismo.md",
     "Algebra/sottogruppi.md",
     "Algebra/gruppo quoziente.md",
@@ -271,19 +304,9 @@
     "Algebra/teorema fondamentale dell'aritmetica.md",
     "Basi di dati/verifica di una buona decomposizione in 3NF.md",
     "Basi di dati/algoritmo di decomposizione in 3NF.md",
-    "tecnica greedy.md",
     "Progettazione di algoritmi/PL2, Dimostrazioni di proprietà dei grafi.md",
     "Progettazione di algoritmi/algoritmo per il calcolo del diametro di un albero.md",
     "Introduzione agli algoritmi/costo computazionale.md",
-    "Introduzione agli algoritmi/introduzione agli algoritmi.md",
-    "Interdisciplinare/heap.md",
-    "Interdisciplinare/algoritmo per la ricerca di un pozzo universale.md",
-    "Algebra/(SCR) sistema completo di rappresentanti.md",
-    "Interdisciplinare/sottoinsiemi.md",
-    "Interdisciplinare/algoritmo.md",
-    "Interdisciplinare/grafo.md",
-    "Progettazione di algoritmi/algoritmo di Kosaraju per trovare le componenti fortemente connesse in un grafo orientato.md",
-    "Metodi matematici per l'informatica/induzione con definizione di funzione.md",
     "Progettazione di algoritmi/Untitled.base",
     "Sistemi operativi 2/Pasted image 20260316220140.png",
     "Sistemi operativi 2/Pasted image 20260316184312.png",
