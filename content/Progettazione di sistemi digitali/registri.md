@@ -1,7 +1,12 @@
 ---
-updated_at: 2025-03-18T12:27:00.358+01:00
+updated_at: 2026-04-20T15:13:22.170+02:00
 ---
 > Un **registro** è un componente che memorizza temporaneamente e gestisce informazioni binarie di pochi bit (x32 o x64) su un numero di posizioni, cioè un insieme di celle di memoria ([[flip-flop]]), per poter trasferire i bit tra i circuiti. Possono operare in parallelo o in serie.
+
+# tipi di registri con compiti diversi
+
+- [[registri di memorizzazione]]
+- [[registro contatore]]
 
 # registri con diverse modalità di input/ouput
 
@@ -28,8 +33,3 @@ Cioè indipendenti dal clock: sono usati per forzare il flip-flop in uno stato s
 > N.B.: PRESET si attiva quando è 1 (si dice ***active-high***) e CLEAR si attiva quando è 0 (si dice ***active-low***).
 
 ![[Pasted image 20250210173934 1.png]]
-
-# tipi di registri con compiti diversi
-
-- [[registri di memorizzazione]]
-- [[registro contatore]]
