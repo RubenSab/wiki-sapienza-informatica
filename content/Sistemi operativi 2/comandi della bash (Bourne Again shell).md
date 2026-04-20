@@ -8,9 +8,9 @@ comando [opzioni] argomentiobbligatori
 ```
 
 - `man` apre un'interfaccia ai manuali di riferimento del sistema. Prende in argomento il nome del comando di cui si vuole leggere la documentazione.
-  Il man è diviso in 9 sezioni e `man numero_sezione nome_comando` visualizza la pagina del manuale del comando presa dalla sezione scelta.
+  Il man è diviso in 9 sezioni e `man numero_sezione nome_comando` visualizza la pagina del manuale del comando presa dalla sezione scelta. ^8e3341
 	1. Executable programs or shell commands
-	2. System calls (functions provided by the kernel)
+	2. System calls (functions provided by the [[kernel]])
 	3. Library calls (functions within program libraries)
 	4. Special files (usually found in /dev)
 	5. File formats and conventions, e.g. [[etc-mtab|/etc/passwd]]

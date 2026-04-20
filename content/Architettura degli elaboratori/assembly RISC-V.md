@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-06-06T13:44:27.788+02:00
+updated_at: 2026-04-19T15:55:57.671+02:00
 ---
 # Implementazioni di costrutti ad alto livello in Assembly RISC-V
 
@@ -94,9 +94,10 @@ message: .asciz "Hello, RISC-V!\n"
 
 ^342042
 
-> Sono delle richieste che il programma in esecuzione fa al sistema operativo.
+> Le [[system call]] sono delle richieste che il programma in esecuzione fa al sistema operativo.
 
  Si preparano:
+ 
  - mettendo nel registro `a7` il numero che identifica la chiamata
  - Gli eventuali argomenti da mettere in `a0` e `a1`.
 

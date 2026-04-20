@@ -18,78 +18,6 @@
               "icon": "lucide-git-fork",
               "title": "Graph view"
             }
-          },
-          {
-            "id": "aaf54533665318ba",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "tecnica greedy.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "tecnica greedy"
-            }
-          },
-          {
-            "id": "b1b000e193c12382",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Sistemi operativi 2/system calls.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "system calls"
-            }
-          },
-          {
-            "id": "027168262fc1fc99",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Sistemi operativi 2/Sistemi operativi 2.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Sistemi operativi 2"
-            }
           }
         ]
       }
@@ -148,7 +76,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "condens",
+                "query": "man",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -281,32 +209,35 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "Sistemi operativi 2/system calls per la gestione degli errori.md",
+    "Sistemi operativi 2/system calls per la gestione dei file IO.md",
+    "Sistemi operativi 2/system call.md",
+    "Sistemi operativi 2/file.md",
+    "Sistemi operativi 2/Pasted image 20260419172446.png",
+    "Sistemi operativi 2/inode.md",
+    "Sistemi operativi 2/file speciali.md",
+    "sistema operativo.md",
     "Sistemi operativi 2/Sistemi operativi 2.md",
-    "Sistemi operativi 2/system calls.md",
+    "Sistemi operativi 2/system calls per l'allocazione della memoria.md",
+    "system calls per la gestione dei file I/O.md",
+    "system calls per la gestione dei file I",
+    "Metodologie di programmazione/variabile.md",
+    "utente.md",
+    "Sistemi operativi 2/comandi della bash (Bourne Again shell).md",
+    "Sistemi operativi 2/Pasted image 20260419160904.png",
+    "Sistemi operativi 2/kernel.md",
+    "Algebra/omomorfismo.md",
+    "Sistemi operativi 2/dev.md",
     "tecnica greedy.md",
+    "Sistemi operativi 2/permessi di accesso.md",
+    "Sistemi operativi 2/etc-passwd.md",
+    "Architettura degli elaboratori/assembly RISC-V.md",
     "Progettazione di sistemi digitali/codice di Hamming.md",
     "Progettazione di sistemi digitali/read only memory (ROM).md",
     "Progettazione di sistemi digitali/decodificatore (DEC).md",
     "Progettazione di algoritmi/problema di ottimizzazione.md",
     "Progettazione di algoritmi/PL6.md",
     "Progettazione di algoritmi/algoritmi di approssimazione.md",
-    "Reti di elaboratori/stack protocollare TCP-IP.md",
-    "Reti di elaboratori/misure della performance della rete e ritardi.md",
-    "TCP.md",
-    "Progettazione di algoritmi/algoritmo di Dijkstra.md",
-    "Progettazione di algoritmi/algoritmo di Kruskal.md",
-    "Progettazione di algoritmi/Progettazione di algoritmi.md",
-    "Algebra/isomorfismo.md",
-    "Algebra/sottogruppi.md",
-    "Algebra/gruppo quoziente.md",
-    "Algebra/proiezione canonica.md",
-    "Algebra/primo teorema dell'omomorfismo.md",
-    "Algebra/teorema fondamentale dell'aritmetica.md",
-    "Basi di dati/verifica di una buona decomposizione in 3NF.md",
-    "Basi di dati/algoritmo di decomposizione in 3NF.md",
-    "Progettazione di algoritmi/PL2, Dimostrazioni di proprietà dei grafi.md",
-    "Progettazione di algoritmi/algoritmo per il calcolo del diametro di un albero.md",
-    "Introduzione agli algoritmi/costo computazionale.md",
     "Progettazione di algoritmi/Untitled.base",
     "Sistemi operativi 2/Pasted image 20260316220140.png",
     "Sistemi operativi 2/Pasted image 20260316184312.png",
@@ -316,8 +247,6 @@
     "Progettazione di algoritmi/dfs.gif",
     "Progettazione di algoritmi/Pasted image 20260309232857.png",
     "Progettazione di algoritmi/Pasted image 20260309232840.png",
-    "Progettazione di algoritmi/Pasted image 20260309232824.png",
-    "Reti di elaboratori/Pasted image 20260303154354.png",
     "etc",
     "arxiv.org/abs",
     "arxiv.org",
@@ -327,7 +256,6 @@
     "Basi di dati 2",
     "a",
     "Untitled.canvas",
-    "relazione tra tabelle master",
     "Progettazione di sistemi digitali/rete sequenziale generica.canvas"
   ]
 }
