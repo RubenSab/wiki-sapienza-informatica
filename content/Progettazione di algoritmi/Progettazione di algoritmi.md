@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-04-10T12:32:37.785+02:00
+updated_at: 2026-04-29T12:50:33.842+02:00
 ---
 > [Materiale del corso](https://twiki.di.uniroma1.it/twiki/view/Algoritmi2/PALGdiario2014_2)
 
@@ -25,9 +25,12 @@ updated_at: 2026-04-10T12:32:37.785+02:00
 	- [[algoritmo per il calcolo del vettore delle distanze]]
 	- [[algoritmo per il calcolo del diametro di un albero]]
 	- [[algoritmo esaustivo per il calcolo del diametro di un grafo]]
-- [[tecnica greedy]]
-	- [[algoritmo di Dijkstra]]
-	- [[algoritmo di Kruskal]]
+- tecniche di progettazione di algoritmi:
+	- [[tecnica greedy]]
+		- [[algoritmo di Dijkstra]]
+		- [[algoritmo di Kruskal]]
+	- [[tecnica divide et impera]]
+	- [[tecnica della programmazione dinamica]]
 - [[problema di ottimizzazione]]
 
 # Esercizi

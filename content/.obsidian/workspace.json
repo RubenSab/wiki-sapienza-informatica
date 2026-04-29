@@ -18,8 +18,33 @@
               "icon": "lucide-git-fork",
               "title": "Graph view"
             }
+          },
+          {
+            "id": "f173146deefc9993",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Progettazione di algoritmi/tecnica divide et impera.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "tecnica divide et impera"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -207,8 +232,25 @@
       "new-3d-graph:Open 3d graph": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "f173146deefc9993",
   "lastOpenFiles": [
+    "Progettazione di algoritmi/tecnica divide et impera.md",
+    "Introduzione agli algoritmi/metodo di sostituzione.md",
+    "Introduzione agli algoritmi/quick sort.md",
+    "Progettazione di algoritmi/Progettazione di algoritmi.md",
+    "Progettazione di algoritmi/problema di ottimizzazione.md",
+    "BOZZE/Progetto TuTubi.md",
+    "appunti del primo anno.md",
+    "BOZZE",
+    "BOZZE/Esercizi sulla programmazione dinamica.md",
+    "Reti di elaboratori/stack protocollare TCP-IP.md",
+    "BOZZE/Esempio di vincolo di sovrapposizione.md",
+    "Sistemi operativi 2/utente.md",
+    "Sistemi operativi 2/sistema operativo.md",
+    "index.md",
+    "BOZZE/Crociere FOL.md",
+    "Progettazione di algoritmi/tecnica greedy.md",
+    "Reti di elaboratori/reti a commutazione di pacchetto.md",
     "Progettazione di sistemi digitali/codifica dell'informazione (alfa)numerica.md",
     "Progettazione di sistemi digitali/progettazione di sistemi digitali.md",
     "Progettazione di sistemi digitali/registri.md",
@@ -219,25 +261,9 @@
     "Sistemi operativi 2/Pasted image 20260419172446.png",
     "Sistemi operativi 2/inode.md",
     "Sistemi operativi 2/file speciali.md",
-    "sistema operativo.md",
     "Sistemi operativi 2/Sistemi operativi 2.md",
-    "Sistemi operativi 2/system calls per l'allocazione della memoria.md",
-    "system calls per la gestione dei file I/O.md",
     "system calls per la gestione dei file I",
-    "Metodologie di programmazione/variabile.md",
-    "utente.md",
-    "Sistemi operativi 2/comandi della bash (Bourne Again shell).md",
     "Sistemi operativi 2/Pasted image 20260419160904.png",
-    "Sistemi operativi 2/kernel.md",
-    "Algebra/omomorfismo.md",
-    "Sistemi operativi 2/dev.md",
-    "tecnica greedy.md",
-    "Sistemi operativi 2/permessi di accesso.md",
-    "Sistemi operativi 2/etc-passwd.md",
-    "Architettura degli elaboratori/assembly RISC-V.md",
-    "Progettazione di sistemi digitali/codice di Hamming.md",
-    "Progettazione di sistemi digitali/read only memory (ROM).md",
-    "Progettazione di sistemi digitali/decodificatore (DEC).md",
     "Progettazione di algoritmi/Untitled.base",
     "Sistemi operativi 2/Pasted image 20260316220140.png",
     "Sistemi operativi 2/Pasted image 20260316184312.png",
@@ -254,7 +280,6 @@
     "Reti di elaboratori",
     "Sistemi operativi 2",
     "Basi di dati 2",
-    "a",
     "Untitled.canvas",
     "Progettazione di sistemi digitali/rete sequenziale generica.canvas"
   ]
