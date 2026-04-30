@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-04-29T12:50:33.842+02:00
+updated_at: 2026-04-30T16:14:29.008+02:00
 ---
 > [Materiale del corso](https://twiki.di.uniroma1.it/twiki/view/Algoritmi2/PALGdiario2014_2)
 
@@ -31,6 +31,8 @@ updated_at: 2026-04-29T12:50:33.842+02:00
 		- [[algoritmo di Kruskal]]
 	- [[tecnica divide et impera]]
 	- [[tecnica della programmazione dinamica]]
+		- [[algoritmo di Bellman-Ford]]
+		- [[algoritmo di Floyd-Warshall]]
 - [[problema di ottimizzazione]]
 
 # Esercizi

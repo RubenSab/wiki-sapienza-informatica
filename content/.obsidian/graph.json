@@ -64,17 +64,17 @@
       }
     },
     {
-      "query": "tag:dadimostrare",
-      "color": {
-        "a": 1,
-        "rgb": 16711816
-      }
-    },
-    {
       "query": "tag:todo",
       "color": {
         "a": 1,
         "rgb": 16711680
+      }
+    },
+    {
+      "query": "tag:dadimostrare",
+      "color": {
+        "a": 1,
+        "rgb": 16711816
       }
     },
     {
@@ -144,6 +144,6 @@
   "repelStrength": 13.3848748945741,
   "linkStrength": 0.732218161371943,
   "linkDistance": 161,
-  "scale": 0.31809557195037863,
+  "scale": 0.03709146188949048,
   "close": true
 }

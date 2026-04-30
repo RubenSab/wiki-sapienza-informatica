@@ -20,12 +20,12 @@
             }
           },
           {
-            "id": "2db6bb688a254bfa",
+            "id": "dd689ea2a9e2972e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "BOZZE/Progetto TuTubi.md",
+                "file": "Progettazione di algoritmi/algoritmo di Floyd-Warshall.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -40,35 +40,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Progetto TuTubi"
-            }
-          },
-          {
-            "id": "98ae9dfdfeb879a8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Progettazione di algoritmi/tecnica divide et impera.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "tecnica divide et impera"
+              "title": "algoritmo di Floyd-Warshall"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -256,15 +232,20 @@
       "new-3d-graph:Open 3d graph": false
     }
   },
-  "active": "98ae9dfdfeb879a8",
+  "active": "dd689ea2a9e2972e",
   "lastOpenFiles": [
-    "Introduzione agli algoritmi/merge sort.md",
+    "Progettazione di algoritmi/algoritmo di Floyd-Warshall.md",
+    "Progettazione di algoritmi/Progettazione di algoritmi.md",
+    "Progettazione di algoritmi/algoritmo di Bellman-Ford.md",
+    "Interdisciplinare/grafo.md",
+    "Progettazione di algoritmi/Untitled.md",
+    "Progettazione di algoritmi/tecnica della programmazione dinamica.md",
     "Progettazione di algoritmi/tecnica divide et impera.md",
-    "Progettazione di algoritmi/tecnica greedy.md",
     "BOZZE/Progetto TuTubi.md",
+    "Introduzione agli algoritmi/merge sort.md",
+    "Progettazione di algoritmi/tecnica greedy.md",
     "Introduzione agli algoritmi/metodo di sostituzione.md",
     "Introduzione agli algoritmi/quick sort.md",
-    "Progettazione di algoritmi/Progettazione di algoritmi.md",
     "Progettazione di algoritmi/problema di ottimizzazione.md",
     "appunti del primo anno.md",
     "BOZZE",
@@ -280,12 +261,7 @@
     "Progettazione di sistemi digitali/progettazione di sistemi digitali.md",
     "Progettazione di sistemi digitali/registri.md",
     "Sistemi operativi 2/system calls per la gestione degli errori.md",
-    "Sistemi operativi 2/system calls per la gestione dei file IO.md",
-    "Sistemi operativi 2/system call.md",
-    "Sistemi operativi 2/file.md",
     "Sistemi operativi 2/Pasted image 20260419172446.png",
-    "Sistemi operativi 2/inode.md",
-    "Sistemi operativi 2/file speciali.md",
     "system calls per la gestione dei file I",
     "Sistemi operativi 2/Pasted image 20260419160904.png",
     "Progettazione di algoritmi/Untitled.base",

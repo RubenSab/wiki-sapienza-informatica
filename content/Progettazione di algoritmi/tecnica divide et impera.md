@@ -1,9 +1,9 @@
 ---
-updated_at: 2026-04-30T10:37:39.969+02:00
+updated_at: 2026-04-30T11:49:51.383+02:00
 ---
 > Un [[algoritmo]] che usa questa tecnica **divide** il problema principale in sotto-problemi più piccoli, li risolve (**impera**) e **combina** le loro soluzioni per ottenere la soluzione finale.
 
-È ideale per problemi che possono essere **scomposti** in modo efficiente in **sotto-problemi indipendenti**.
+È ideale per problemi che possono essere **scomposti** in modo efficiente in **sotto-problemi indipendenti**, altrimenti è meglio usare la [[tecnica della programmazione dinamica]].
 
 È il principio dietro a [[merge sort]], [[ricerca binaria]] e [[quick sort]].
 
