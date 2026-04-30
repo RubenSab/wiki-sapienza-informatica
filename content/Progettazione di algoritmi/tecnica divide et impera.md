@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-04-29T16:25:14.957+02:00
+updated_at: 2026-04-30T10:37:39.969+02:00
 ---
 > Un [[algoritmo]] che usa questa tecnica **divide** il problema principale in sotto-problemi più piccoli, li risolve (**impera**) e **combina** le loro soluzioni per ottenere la soluzione finale.
 
@@ -101,4 +101,58 @@ risolvendo con il [[metodo di sostituzione]] si ottiene $O(n)$ **nel caso peggio
 
 # Esempio 2: Coppia di punti a distanza minima
 
+#todo PL14 pag. 3 a 10
+
 # Esempio 3: Conteggio delle inversioni
+
+> Dato un array di interi, contare le inversioni, cioè tutte le coppie di interi in cui quello con l'indice più grande è minore di quello con l'indice più piccolo.
+
+Esaustivamente, si potrebbe confrontare ogni coppia possibile in $\Theta(n^{2})$; però esiste un'alternativa migliore basata sul divide et impera.
+
+Si modifica il [[merge sort]] per contare e ritornare anche il numero delle inversioni in $O(n\log{n})$.
+
+Se, durante l'esecuzione della funzione `merge`, l'elemento corrente dell'array di **sinistra** è **maggiore** dell'elemento corrente dell'array a **destra**, allora tutti gli elementi ancora da processare dell'array a **sinistra** sono sicuramente più grandi di esso; quindi si formano tante inversioni quanti sono questi elementi rimanenti a sinistra (lunghezza dell'array a sinistra **meno** il puntatore dell'elemento corrente a sinistra).
+
+La funzione `mergesort` deve essere modificata per sommare e ritornare le inversioni trovate con `merge` più quelle trovate prima nelle array destra e sinistra.
+
+``` python
+def merge(left, right):
+
+    sorted_array = []
+    i = j = 0
+    inversions = 0
+
+    while i < len(left) and j < len(right):
+        if left[i] < right[j]:
+            sorted_array.append(left[i])
+            i += 1
+        else:
+            sorted_array.append(right[j])
+            j += 1
+            inversions += len(left) - i # elementi rimanenti a sinistra
+
+    sorted_array.extend(left[i:])
+    sorted_array.extend(right[j:])
+
+    return sorted_array, inversions
+
+
+def mergesort(array):
+    if len(array) == 1:
+        return array, 0 # numero di inversioni
+    elif len(array) == 2:
+        if array[0] > array[1]:
+            return [array[1], array[0]], 1 # numero di inversioni
+        else:
+            return array, 0 # numero di inversioni
+    else:
+        mid = len(array) // 2
+        left_sorted_arr, left_inversions = mergesort(array[:mid])
+        right_sorted_arr, right_inversions = mergesort(array[mid:])
+        merged_arr, merge_inversions = merge(left_sorted_arr, right_sorted_arr)
+        return merged_arr, merge_inversions + left_inversions + right_inversions
+
+
+def count_inversions(array):
+    return mergesort(array)[1]
+```

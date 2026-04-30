@@ -20,7 +20,31 @@
             }
           },
           {
-            "id": "f173146deefc9993",
+            "id": "2db6bb688a254bfa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "BOZZE/Progetto TuTubi.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Progetto TuTubi"
+            }
+          },
+          {
+            "id": "98ae9dfdfeb879a8",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -44,7 +68,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -232,14 +256,16 @@
       "new-3d-graph:Open 3d graph": false
     }
   },
-  "active": "f173146deefc9993",
+  "active": "98ae9dfdfeb879a8",
   "lastOpenFiles": [
+    "Introduzione agli algoritmi/merge sort.md",
     "Progettazione di algoritmi/tecnica divide et impera.md",
+    "Progettazione di algoritmi/tecnica greedy.md",
+    "BOZZE/Progetto TuTubi.md",
     "Introduzione agli algoritmi/metodo di sostituzione.md",
     "Introduzione agli algoritmi/quick sort.md",
     "Progettazione di algoritmi/Progettazione di algoritmi.md",
     "Progettazione di algoritmi/problema di ottimizzazione.md",
-    "BOZZE/Progetto TuTubi.md",
     "appunti del primo anno.md",
     "BOZZE",
     "BOZZE/Esercizi sulla programmazione dinamica.md",
@@ -249,7 +275,6 @@
     "Sistemi operativi 2/sistema operativo.md",
     "index.md",
     "BOZZE/Crociere FOL.md",
-    "Progettazione di algoritmi/tecnica greedy.md",
     "Reti di elaboratori/reti a commutazione di pacchetto.md",
     "Progettazione di sistemi digitali/codifica dell'informazione (alfa)numerica.md",
     "Progettazione di sistemi digitali/progettazione di sistemi digitali.md",
@@ -261,7 +286,6 @@
     "Sistemi operativi 2/Pasted image 20260419172446.png",
     "Sistemi operativi 2/inode.md",
     "Sistemi operativi 2/file speciali.md",
-    "Sistemi operativi 2/Sistemi operativi 2.md",
     "system calls per la gestione dei file I",
     "Sistemi operativi 2/Pasted image 20260419160904.png",
     "Progettazione di algoritmi/Untitled.base",
