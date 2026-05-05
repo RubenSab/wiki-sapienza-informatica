@@ -20,12 +20,12 @@
             }
           },
           {
-            "id": "3d44023813072e82",
+            "id": "abb91ac17a0a8a02",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Reti di elaboratori/Cosa succede quando mandiamo una richiesta HTTPS?.md",
+                "file": "Reti di elaboratori/Cosa succede quando si fa una richiesta HTTPS?.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -40,35 +40,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Cosa succede quando mandiamo una richiesta HTTPS?"
-            }
-          },
-          {
-            "id": "8ced767df4dc2378",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Reti di elaboratori/Reti di elaboratori.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Reti di elaboratori"
+              "title": "Cosa succede quando si fa una richiesta HTTPS?"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -256,9 +232,11 @@
       "new-3d-graph:Open 3d graph": false
     }
   },
-  "active": "8ced767df4dc2378",
+  "active": "abb91ac17a0a8a02",
   "lastOpenFiles": [
-    "Reti di elaboratori/Cosa succede quando mandiamo una richiesta HTTPS?.md",
+    "Reti di elaboratori/DNS.md",
+    "Reti di elaboratori/Cosa succede quando si fa una richiesta HTTPS?.md",
+    "Reti di elaboratori/Reti di elaboratori.md",
     "Untitled.md",
     "Reti di elaboratori/Pasted image 20260505114446.png",
     "Basi di dati/tabella.md",
@@ -284,8 +262,6 @@
     "Sistemi operativi 2/sistema operativo.md",
     "index.md",
     "BOZZE/Crociere FOL.md",
-    "Reti di elaboratori/reti a commutazione di pacchetto.md",
-    "Progettazione di sistemi digitali/codifica dell'informazione (alfa)numerica.md",
     "Sistemi operativi 2/Pasted image 20260419172446.png",
     "system calls per la gestione dei file I",
     "Sistemi operativi 2/Pasted image 20260419160904.png",
