@@ -6,5 +6,6 @@
   "textFontFamily": "Adwaita Sans",
   "interfaceFontFamily": "Adwaita Sans",
   "baseFontSize": 16,
-  "nativeMenus": false
+  "nativeMenus": false,
+  "theme": "obsidian"
 }

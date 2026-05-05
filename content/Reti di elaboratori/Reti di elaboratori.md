@@ -1,8 +1,9 @@
 ---
-updated_at: 2026-03-10T16:21:03.963+01:00
+updated_at: 2026-05-05T18:30:37.298+02:00
 ---
 > Codice classroom: f5ubehac
 
+- [[Cosa succede quando mandiamo una richiesta HTTPS?]]
 - [[rete]]
 - [[classificazione delle reti]]
 - [[misure della performance della rete e ritardi]]
