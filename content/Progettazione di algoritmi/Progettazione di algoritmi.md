@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-04-30T16:14:29.008+02:00
+updated_at: 2026-05-13T14:17:07.558+02:00
 ---
 > [Materiale del corso](https://twiki.di.uniroma1.it/twiki/view/Algoritmi2/PALGdiario2014_2)
 
@@ -33,6 +33,7 @@ updated_at: 2026-04-30T16:14:29.008+02:00
 	- [[tecnica della programmazione dinamica]]
 		- [[algoritmo di Bellman-Ford]]
 		- [[algoritmo di Floyd-Warshall]]
+	- [[backtracking]]
 - [[problema di ottimizzazione]]
 
 # Esercizi

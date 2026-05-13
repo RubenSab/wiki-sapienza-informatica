@@ -20,12 +20,12 @@
             }
           },
           {
-            "id": "abb91ac17a0a8a02",
+            "id": "1c9ed43a16f9e731",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Reti di elaboratori/Cosa succede quando si fa una richiesta HTTPS?.md",
+                "file": "Progettazione di algoritmi/backtracking.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -40,7 +40,31 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Cosa succede quando si fa una richiesta HTTPS?"
+              "title": "backtracking"
+            }
+          },
+          {
+            "id": "94d5fc4666174b60",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algebra/rango.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "rango"
             }
           }
         ],
@@ -101,7 +125,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "man",
+                "query": "matrice",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -232,36 +256,36 @@
       "new-3d-graph:Open 3d graph": false
     }
   },
-  "active": "abb91ac17a0a8a02",
+  "active": "1c9ed43a16f9e731",
   "lastOpenFiles": [
-    "Reti di elaboratori/DNS.md",
+    "Algebra/rango.md",
+    "Algebra/regola di Sarrus.md",
+    "Algebra/sistema di equazioni lineari.md",
+    "Progettazione di sistemi digitali/programmable logic array (PLA).md",
+    "Interdisciplinare/algoritmo per la ricerca di un pozzo universale.md",
+    "Progettazione di algoritmi/backtracking.md",
+    "Progettazione di sistemi digitali/sistema binario.md",
+    "Algebra/spazio vettoriale di matrici.md",
+    "Algebra/sottogruppi.md",
+    "Progettazione di algoritmi/Progettazione di algoritmi.md",
+    "Calcolo delle probabilità/distribuzione geometrica.md",
+    "Progettazione di algoritmi/tecnica divide et impera.md",
+    "Progettazione di algoritmi/tecnica della programmazione dinamica.md",
     "Reti di elaboratori/Cosa succede quando si fa una richiesta HTTPS?.md",
+    "Esercizi finali.md",
+    "Calcolo integrale/serie geometriche.md",
+    "Calcolo delle probabilità/distribuzione di Bernoulli.md",
+    "Basi di dati/trovare la tupla con l'attributo massimo in un'istanza.md",
+    "Basi di dati/algebra relazionale dei database.md",
+    "Basi di dati/Basi di dati.md",
+    "Reti di elaboratori/DNS.md",
     "Reti di elaboratori/Reti di elaboratori.md",
-    "Untitled.md",
     "Reti di elaboratori/Pasted image 20260505114446.png",
     "Basi di dati/tabella.md",
     "Progettazione di algoritmi/algoritmo di Floyd-Warshall.md",
-    "Progettazione di algoritmi/Progettazione di algoritmi.md",
     "Progettazione di algoritmi/algoritmo di Bellman-Ford.md",
     "Interdisciplinare/grafo.md",
-    "Progettazione di algoritmi/Untitled.md",
-    "Progettazione di algoritmi/tecnica della programmazione dinamica.md",
-    "Progettazione di algoritmi/tecnica divide et impera.md",
-    "BOZZE/Progetto TuTubi.md",
-    "Introduzione agli algoritmi/merge sort.md",
-    "Progettazione di algoritmi/tecnica greedy.md",
-    "Introduzione agli algoritmi/metodo di sostituzione.md",
-    "Introduzione agli algoritmi/quick sort.md",
-    "Progettazione di algoritmi/problema di ottimizzazione.md",
-    "appunti del primo anno.md",
     "BOZZE",
-    "BOZZE/Esercizi sulla programmazione dinamica.md",
-    "Reti di elaboratori/stack protocollare TCP-IP.md",
-    "BOZZE/Esempio di vincolo di sovrapposizione.md",
-    "Sistemi operativi 2/utente.md",
-    "Sistemi operativi 2/sistema operativo.md",
-    "index.md",
-    "BOZZE/Crociere FOL.md",
     "Sistemi operativi 2/Pasted image 20260419172446.png",
     "system calls per la gestione dei file I",
     "Sistemi operativi 2/Pasted image 20260419160904.png",
