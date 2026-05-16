@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-03-05T14:36:44.290+01:00
+updated_at: 2026-05-16T19:22:52.722+02:00
 ---
 > È un'applicazione [[Internet]] nata dalla necessità di scambio e condivisione di informazioni tra ricercatori e università. Opera su richiesta, è caratterizzata da collegamenti ipertestuali e la sua navigazione è facilitata dai motori di ricerca.
 
@@ -8,7 +8,7 @@ updated_at: 2026-03-05T14:36:44.290+01:00
 - Web [[client-server|client]]: interfaccia con l'utente
 - Web [[client-server|server]]
 - [[HTML]]
-- [[HTTP]]
+- [[HTTP (HyperText Transfer Protocol)]]
 
 # Glossario
 

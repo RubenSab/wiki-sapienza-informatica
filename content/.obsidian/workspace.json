@@ -20,12 +20,12 @@
             }
           },
           {
-            "id": "bd116968a409ba34",
+            "id": "5725a50da57047a0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Reti di elaboratori/Cosa succede quando si fa una richiesta HTTPS?.md",
+                "file": "Reti di elaboratori/livello applicazione.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -40,7 +40,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Cosa succede quando si fa una richiesta HTTPS?"
+              "title": "livello applicazione"
             }
           }
         ],
@@ -232,11 +232,25 @@
       "new-3d-graph:Open 3d graph": false
     }
   },
-  "active": "bd116968a409ba34",
+  "active": "5725a50da57047a0",
   "lastOpenFiles": [
+    "Reti di elaboratori/livello applicazione.md",
+    "Reti di elaboratori/Reti di elaboratori.md",
+    "Reti di elaboratori/WWW (World Wide Web).md",
+    "Reti di elaboratori/indirizzi IP.md",
+    "Reti di elaboratori/cosa succede quando si fa una richiesta HTTPS?.md",
+    "Interdisciplinare/stack.md",
+    "Reti di elaboratori/stack protocollare TCP-IP.md",
+    "Reti di elaboratori/HTTP (HyperText Transfer Protocol).md",
+    "Reti di elaboratori/cookie.md",
+    "Reti di elaboratori/caching.md",
+    "Reti di elaboratori/creare un'applicazione di rete.md",
+    "Reti di elaboratori/servizio.md",
+    "Reti di elaboratori/Internet.md",
+    "Reti di elaboratori/protocollo.md",
+    "Reti di elaboratori/classificazione delle reti.md",
     "Esercizi finali.md",
     "Reti di elaboratori/Esercizi.md",
-    "Reti di elaboratori/Cosa succede quando si fa una richiesta HTTPS?.md",
     "Progettazione di algoritmi/backtracking.md",
     "Progettazione di algoritmi/tecnica della programmazione dinamica.md",
     "Progettazione di algoritmi/algoritmo di Floyd-Warshall.md",
@@ -246,21 +260,7 @@
     "Progettazione di sistemi digitali/programmable logic array (PLA).md",
     "Interdisciplinare/algoritmo per la ricerca di un pozzo universale.md",
     "Progettazione di sistemi digitali/sistema binario.md",
-    "Algebra/spazio vettoriale di matrici.md",
-    "Algebra/sottogruppi.md",
-    "Progettazione di algoritmi/Progettazione di algoritmi.md",
-    "Calcolo delle probabilità/distribuzione geometrica.md",
-    "Progettazione di algoritmi/tecnica divide et impera.md",
-    "Calcolo integrale/serie geometriche.md",
-    "Calcolo delle probabilità/distribuzione di Bernoulli.md",
-    "Basi di dati/trovare la tupla con l'attributo massimo in un'istanza.md",
-    "Basi di dati/algebra relazionale dei database.md",
-    "Basi di dati/Basi di dati.md",
-    "Reti di elaboratori/DNS.md",
-    "Reti di elaboratori/Reti di elaboratori.md",
     "Reti di elaboratori/Pasted image 20260505114446.png",
-    "Basi di dati/tabella.md",
-    "Progettazione di algoritmi/algoritmo di Bellman-Ford.md",
     "BOZZE",
     "Sistemi operativi 2/Pasted image 20260419172446.png",
     "system calls per la gestione dei file I",

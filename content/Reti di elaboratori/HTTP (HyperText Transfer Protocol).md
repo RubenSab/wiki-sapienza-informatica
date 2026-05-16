@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-03-06T14:19:30.856+01:00
+updated_at: 2026-05-16T19:16:06.827+02:00
 ---
 > È il [[protocollo]] per la comunicazione tra [[client-server|client e server web]].
 

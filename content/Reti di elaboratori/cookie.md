@@ -1,7 +1,7 @@
 ---
 updated_at: 2026-03-05T15:48:24.047+01:00
 ---
-I Cookie rappresentano un modo per creare una "sessione" (non correlata al concetto di connessione [[stack protocollare TCP-IP|TCP]], è solo una *relazione logica* tra richieste e risposte) di richieste [[HTTP]].
+I Cookie rappresentano un modo per creare una "sessione" (non correlata al concetto di connessione [[stack protocollare TCP-IP|TCP]], è solo una *relazione logica* tra richieste e risposte) di richieste [[HTTP (HyperText Transfer Protocol)]].
 
 > #todo definizione di cookie
 
