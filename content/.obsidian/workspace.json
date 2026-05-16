@@ -20,12 +20,12 @@
             }
           },
           {
-            "id": "1c9ed43a16f9e731",
+            "id": "bd116968a409ba34",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Progettazione di algoritmi/backtracking.md",
+                "file": "Reti di elaboratori/Cosa succede quando si fa una richiesta HTTPS?.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -40,31 +40,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "backtracking"
-            }
-          },
-          {
-            "id": "94d5fc4666174b60",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algebra/rango.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "rango"
+              "title": "Cosa succede quando si fa una richiesta HTTPS?"
             }
           }
         ],
@@ -256,23 +232,25 @@
       "new-3d-graph:Open 3d graph": false
     }
   },
-  "active": "1c9ed43a16f9e731",
+  "active": "bd116968a409ba34",
   "lastOpenFiles": [
+    "Esercizi finali.md",
+    "Reti di elaboratori/Esercizi.md",
+    "Reti di elaboratori/Cosa succede quando si fa una richiesta HTTPS?.md",
+    "Progettazione di algoritmi/backtracking.md",
+    "Progettazione di algoritmi/tecnica della programmazione dinamica.md",
+    "Progettazione di algoritmi/algoritmo di Floyd-Warshall.md",
     "Algebra/rango.md",
     "Algebra/regola di Sarrus.md",
     "Algebra/sistema di equazioni lineari.md",
     "Progettazione di sistemi digitali/programmable logic array (PLA).md",
     "Interdisciplinare/algoritmo per la ricerca di un pozzo universale.md",
-    "Progettazione di algoritmi/backtracking.md",
     "Progettazione di sistemi digitali/sistema binario.md",
     "Algebra/spazio vettoriale di matrici.md",
     "Algebra/sottogruppi.md",
     "Progettazione di algoritmi/Progettazione di algoritmi.md",
     "Calcolo delle probabilità/distribuzione geometrica.md",
     "Progettazione di algoritmi/tecnica divide et impera.md",
-    "Progettazione di algoritmi/tecnica della programmazione dinamica.md",
-    "Reti di elaboratori/Cosa succede quando si fa una richiesta HTTPS?.md",
-    "Esercizi finali.md",
     "Calcolo integrale/serie geometriche.md",
     "Calcolo delle probabilità/distribuzione di Bernoulli.md",
     "Basi di dati/trovare la tupla con l'attributo massimo in un'istanza.md",
@@ -282,9 +260,7 @@
     "Reti di elaboratori/Reti di elaboratori.md",
     "Reti di elaboratori/Pasted image 20260505114446.png",
     "Basi di dati/tabella.md",
-    "Progettazione di algoritmi/algoritmo di Floyd-Warshall.md",
     "Progettazione di algoritmi/algoritmo di Bellman-Ford.md",
-    "Interdisciplinare/grafo.md",
     "BOZZE",
     "Sistemi operativi 2/Pasted image 20260419172446.png",
     "system calls per la gestione dei file I",

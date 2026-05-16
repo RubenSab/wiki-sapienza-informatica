@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-05-13T19:51:15.046+02:00
+updated_at: 2026-05-13T19:55:29.773+02:00
 ---
 > Il **backtracking** può risolvere problemi di **enumerazione, ricerca e ottimizzazione**. Consiste nella visita esaustiva dello spazio delle soluzioni, le quali vengono esplorate seguendo un itinerario ad [[albero]] (le cui **foglie** sono le **soluzioni**) da un [[algoritmo]] che trova una soluzione, poi procede, torna indietro e cambia strada se non ci sono più soluzioni valide nel ramo corrente (cioè quando si raggiunge una "foglia").
 
@@ -14,7 +14,7 @@ O\left(\underset{\text{n. di soluzioni}}{\underbrace{S(n)}} \cdot \underset{\tex
 $$
 # Esempi
 
-## Stampare e stringhe binarie lunghe $n$ che hanno al massimo $k$ uno consecutivi
+## Stampare le stringhe binarie lunghe $n$ che hanno al massimo $k$ uno consecutivi
 
 Possiamo usare due approcci:
 
@@ -74,7 +74,7 @@ test(4)
 
 ```
 
-output:
+Output:
 
 ```
 ...
