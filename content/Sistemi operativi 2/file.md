@@ -1,11 +1,11 @@
 ---
-updated_at: 2026-04-19T17:26:10.188+02:00
+updated_at: 2026-05-18T18:57:37.018+02:00
 ---
 > In Linux i file sono **astrazioni** che descrivono ogni risorsa: i file su disco, le directory, i dispositivi in [[dev]], i socket e i FIFO **sono tutti file** implementati attraverso gli [[inode]].
 
 Un file possiede:
 
-- un **utente proprietario** che è solitamente chi crea il file o la directory: definisce i [[permessi di accesso]];
+- un **[[utente]] proprietario** che è solitamente chi crea il file o la directory: definisce i [[permessi di accesso]];
 - un **gruppo proprietario** che è il gruppo primario (specificato in [[etc-passwd|/etc/passwd]]) dell'utente proprietario.
 
 > N.B.: In Linux i nomi dei file sono *case sensitive*.

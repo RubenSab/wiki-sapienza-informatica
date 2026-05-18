@@ -1,52 +1,75 @@
 ---
-updated_at: 2026-03-06T14:43:00.857+01:00
+updated_at: 2026-05-18T18:32:46.570+02:00
 ---
-Gli host [[Internet]] hanno un nome, detto **hostname**. I nomi non danno informazioni sulla collocazione degli host su internet; per quello servono gli [[indirizzi IP]], quindi bisogna fare una traduzione da hostname a IP.
 
-Come può il DNS memorizzare 4 miliardi di indirizzi IP per renderli accessibili facilmente?
-Con un **[[database]] distribuito** implementato in una gerarchia di server [[DNS (Domain Name System)|DNS]].
+> Il DNS è un **protocollo a livello applicazione** che consente agli host di interrogare il data base per **risolvere** i nomi (tradurre da nome a indirizzi [[IP (Internet Protocol)]]).
 
-> Il DNS segue un **protocollo a livello applicazione** che consente agli host di interrogare il data base per **risolvere** i nomi (tradurre da nome a IP).
+Gli host [[Internet]] hanno un nome, detto **hostname** (parte dell'[[URL]]). I nomi non danno informazioni sulla collocazione degli host su internet; per quello servono gli IP, quindi bisogna fare una traduzione da hostname a IP con il **Domain Name System**, un **[[database]] distribuito** implementato in una gerarchia di server DNS che rendono 4 miliardi di indirizzi IP facilmente accessibili in pochissimo tempo.
 
-Il DNS viene utilizzato da altri protocolli a livello applicazione:
+Il DNS viene utilizzato da altri protocolli a livello applicazione, come [[HTTP (HyperText Transfer Protocol)]], [[SMTP (Simple Mail Transfer Protocol)]] e [[FTP (File Transfer Protocol)]].
 
-- HTTP,
-- SMTP,
-- FTP
+Il DNS utilizza il protocollo [[UDP (User Datagram Protocol)]] di trasporto end-to-end per trasferire messaggi tra gli end system (perché ha i messaggi corti, bisogna mandare un messaggio solo tra una coppia di server e [[TCP (Transmission Control Protocol)]] ha il set-up di connessione lungo) e indirizza la [[porta]] 53.
 
-> Il DNS utilizza il protocollo UDP di trasporto end-to-end per trasferire messaggi tra gli end system e indirizza la [[porta]] 53.
+# Infrastruttura DNS
 
-Il DNS è un'applicazione?
+Gerarchia:
 
-#todo
+1. Livello mondiale: **Root DNS** (13 server nel mondo che replicati per sicurezza diventano 247),
+2. Livello nazionale ed alto livello: **Top Level Domain DNS** (uno per ogni top level domain, ad esempio .com o .edu),
+3. Livello organizzativo o [[ISP (Internet Service Provider)]]: **Authoritative DNS** (o DNS di competenza), spesso divisi in server primario e secondario.
+4. Livello locale organizzativo o residenziale: **DNS locale** o *default name server*. Non appartiene propriamente alla gerarchia DNS, ma è il server proxy a cui vengono inviate le richiese DNS degli host e inoltra la query alla gerarchia di server DNS, infine spedisce all'host l'IP trovato.
 
-# Servizi DNS
+> N.B.: Tutti gli ISP hanno un DNS.
 
-#todo
-## Aliasing
+## Query DNS
 
-## Distribuzione del carico
+Le query possono essere:
 
-### Perché non si può centralizzare il DNS?
+- Iterativa: si parte dal DNS locale, poi a catena il server contattato gli risponde con il nome del server da contattare e il DNS locale fa tutte le richieste fino ad arrivare al DNS di competenza che ritorna l'IP.
+- Ricorsiva: a differenza dell'iterativa, affida il compito di tradurre il nome al DNS contattato.
 
-# Gerarchia DNS
+I DNS sfruttano un meccanismo di caching degli IP, anche di altri server DNS, quindi i server DNS radice non vengono visitati spesso.
+Gli IP memorizzati scompaiono dalla cache dopo un periodo prefissato.
 
-Un DNS centralizzato ipotetico non potrebbe mantenere tutti i nomi degli host di internet.
-## Server TLD
+## DNS record
 
-## Server di competenza
+> I DNS mappano gli IP e gli *alias* con un [[database]] di **Resource Record (RR)**, che vengono spediti (uno o più alla volta) tra server e host dentro messaggi DNS.
 
-# DNS locale
+Formato RR: (Name, Value, Type, TTL (Time To Leave))
 
-# Tipi di query
+Type:
 
-## Ricorsiva
+- A (IP **A**ddress):
+	- Name = hostname
+	- Value = IP
+- CNAME (**C**anonical **Name**)
+	- Name = alias di un nome canonico
+	- Value = nome canonico
+- NS (**N**ame **Server**)
+	- Name = dominio
+	- Value = hostname del DNS di competenza per il domino
+- MX (Mail server canonical name)
+	- Name = dominio
+	- Value = nome canonico del server di posta associato al dominio
 
-## Iterativa
+## Messaggi DNS
 
-# Caching
-# Record DNS
+Il protocollo DNS ha le query e i messaggi di risposta con lo stesso formato:
 
-## Tipi di record
+- ID: 16 bit uguali per la domanda e per la risposta;
+- Numero di domande;
+- Numero di RR di risposta;
+- Numero di RR autorevoli;
+- Numero di RR addizionali;
+- Flag:
+	- domanda o risposta;
+	- richiesta di ricorsione;
+	- ricorsione disponibile;
+	- richiesta di competenza.
 
-# Messaggi DNS
+## Come inserire record in un DNS
+
+1. Comprare un dominio presso un registrar;
+2. Inserire i record DNS adeguati nel server di competenza;
+3. Fornire al registrar i nomi e gli indirizzi IP dei server DNS di competenza primario e secondario;
+4. Aspettare che il registrar inserisca il record A per l'IP del dominio e il record NS per il DNS di competenza per il dominio.

@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-05-16T19:21:04.639+02:00
+updated_at: 2026-05-18T18:57:11.102+02:00
 ---
 >**PDU**: *Protocol Data Unit*, cioè i messaggi, i segmenti, i datagrammi, i frame e infine i bit.
 
@@ -13,7 +13,7 @@ updated_at: 2026-05-16T19:21:04.639+02:00
 
 # Invio dall'host sorgente
 
-## [[Livello applicazione]] (PDU = messaggio)
+## [[stack protocollare TCP-IP#^d89c08|Livello applicazione]] (PDU = messaggio)
 
 > Genera la richiesta originale e la prepara per la trasmissione.
 
@@ -27,19 +27,19 @@ L'applicazione (ad esempio il browser) in esecuzione nel livello **applicazione*
    **N.B.:** L'indirizzo IP **non** viene aggiunto né nel messaggio né nel datagramma, ma è necessario per l'header al livello di rete, quindi viene passato come **parametro esterno** tra i livelli.
 4. Inoltra il messaggio e l'IP destinazione al livello di trasporto con il protocollo adeguato.
 
-## [[Livello di trasporto]] (PDU = segmento)
+## [[stack protocollare TCP-IP#^3210b0|Livello di trasporto]] (PDU = segmento)
 
 > Gestisce la comunicazione fra applicazioni (porte).
 
 1. Fa il **multiplexing**: Combina messaggi da più flussi (es. HTTP, SMTP, DNS) da più applicazioni in parallelo (es: browser, client email) verso il livello di rete.
 2. Fa l'**incapsulamento**: aggiunge un header di trasporto ([[TCP (Transmission Control Protocol)]] o [[UDP (User Datagram Protocol)]]) con:
-	1. il numero di porta sorgente (effimero, scelto dinamicamente sul momento),
+	1. il numero di [[porta]] sorgente (effimero, scelto dinamicamente sul momento),
 	2. il numero di porta destinazione (codificato in base al protocollo applicazione, ad esempio 80 per HTTP e 25 per SMTP),
 	3. la checksum (per UDP) o flag/sequenza (per TCP), formando un **segmento**.
 	   **N.B.:** Il nome del protocollo di trasporto usato è implicito dal tipo di header e dal numero di porta destinazione, non serve un campo apposito.
 3. Inoltra il segmento al livello di rete e l'IP destinazione usando il protocollo di trasporto adeguato.
 
-## [[Livello di rete]] (PDU = datagramma)
+## [[stack protocollare TCP-IP#^77b116|Livello di rete]] (PDU = datagramma)
 
 > Gestisce il routing tra host (indirizzi IP).
 
@@ -56,7 +56,7 @@ L'applicazione (ad esempio il browser) in esecuzione nel livello **applicazione*
 	   **N.B.:** L'indirizzo MAC **non** viene aggiunto al datagramma ma è necessario per l'header al livello di collegamento, quindi gli viene passato come parametro esterno.
 4. Inoltra il datagramma + il MAC al livello di collegamento con il protocollo adeguato.
 
-## [[Livello di collegamento]] (PDU = frame)
+## [[stack protocollare TCP-IP#^d89304|Livello di collegamento]] (PDU = frame)
 
 > Gestisce la comunicazione tra nodi adiacenti (MAC).
 
@@ -67,9 +67,9 @@ L'applicazione (ad esempio il browser) in esecuzione nel livello **applicazione*
 	3. nome EtherType del protocollo (ad esempio [[Ethernet]]) per indicare al livello fisico il protocollo da cui proviene la PDU, formando un **frame**.
 3. Inoltra il frame al livello fisico con il protocollo appropriato.
 
-## [[Livello fisico]] (PDU = bit)
+## [[stack protocollare TCP-IP#^2f0c82|Livello fisico]] (PDU = bit)
 
-1. fa il **multiplexing**: gestisce l'arrivo di frame diversi, ad esempio da uno [[switch]], usando l'hardware, (ciò **non è** parte del modello TCP/IP, ma dipende dai produttori dell'hardware), poi codifica i frame in bit per la trasmissione sul mezzo fisico.
+1Fa il **multiplexing**: gestisce l'arrivo di frame diversi, ad esempio da uno [[switch]], usando l'hardware, (ciò **non è** parte del modello TCP/IP, ma dipende dai produttori dell'hardware), poi codifica i frame in bit per la trasmissione sul mezzo fisico.
 
 # Ricezione dall'host destinazione
 
@@ -95,7 +95,7 @@ L'host destinazione:
 5. Il livello di **applicazione**:
 	1. trova un header applicazione, riconoscendo la PDU come **messaggio**;
 	2. fa il decapsulamento: rimuove l'header;
-	3. elabora i dati e li passa all'applicazione utente (ad esempio il browser).
+	3. elabora i dati e li passa all'applicazione [[utente]] (ad esempio il browser).
 
 # Passaggio di PDU nei [[router]]
 

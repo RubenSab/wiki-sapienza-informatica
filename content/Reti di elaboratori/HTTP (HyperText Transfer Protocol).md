@@ -1,71 +1,114 @@
 ---
-updated_at: 2026-05-16T19:16:06.827+02:00
+updated_at: 2026-05-18T18:57:46.503+02:00
 ---
-> È il [[protocollo]] per la comunicazione tra [[client-server|client e server web]].
+> È un protocollo a [[stack protocollare TCP-IP|livello applicazione]] per la comunicazione tra client e server [[WWW (World Wide Web)|Web]].
 
-È un protocollo molto semplice: il [[browser]] manda una HTTP request al Web server, che gli manda una HTTP response.
+Usa un modello client/server:
 
-# Lato client
+- Il server sta in ascolto dei client,
+- un client web (browser) determina l'[[URL]] di un oggetto ed estrae host e filename,
+- esegue una connessione [[TCP (Transmission Control Protocol)]] alla [[porta]] 80 dell'host server e invia la richiesta per il file,
+- il server accetta la connessione TCP,
+- riceve il nome del file richiesto,
+- lo prende dal disco e lo invia al client,
+- rilascia la connessione,
+- il client lo riceve e lo visualizza.
 
-1. Il browser determina l'[[URL]] ed estrae host e [[file|filename]] usando il [[DNS (Domain Name System)]]
-2. Esegue una connessione [[stack protocollare TCP-IP|TCP]] alla [[porta]] 80 dell'host indicato nell'url.
-3. Invia una richiesta per il [[file]].
-4. Riceve il file dal server.
-5. Chiude la connessione.
-6. Visualizza il file.
+Ciò può avvenire a catena se un file ne referenzia un altro.
 
-# Lato server
+# Connessioni HTTP
 
-1. Accetta una connessione TCP da un client.
-2. Riceve il nome del file dal disco.
-3. Invia il file al client.
-4. Rilascia la connessione.
+Le connessioni possono essere **non persistenti** (connessione TCP separata aperta e poi chiusa per ogni oggetto) oppure **persistenti** (come di default, si fa una sola connessione TCP per più oggetti, terminata con un timeout).
 
-> N.B.: In un documento può esserci un riferimento URL ad un altro documento su un altra macchina.
+> Il **tempo di risposta** è definito come la somma di questi tempi: un [[RTT]] per la richiesta + accettazione della connessione TCP, un RTT uguale per la richiesta + risposta HTTP e il [[tempo di trasmissione]] dell'oggetto HTTP a metà di quest'ultimo.
 
-# Connessioni TCP HTTP
+## Formato di una richiesta HTTP
 
-## Non persistenti
+```
+METHOD URL VERSION
+header field name: value
+header field name: value
+header field name: value
+...
+BLANK LINE (cr lf)
+entity body (vuoto per GET, utilizzato per POST)
+```
 
-- Un solo oggetto è trasmesso su una connessione TCP.
-- Ciascuna coppia richiesta/risposta viene inviata su una connessione separata.
-- Prima di inviare una richiesta serve avere una connessione attiva.
+Esempio:
 
-### Problemi
+```
+GET /somedir/page.html HTTP/1.1
+Host: www.someschool.edu
+Connection: close
+User-agent: Mozilla/4.0
+Accept-language:it
+```
 
-> Un RTT (Round Trip Time) è il tempo impiegato da un piccolo pacchetto per andare dal client al server e tornare. Include i [[misure della performance della rete e ritardi#^aca7f0|ritardi]] del pacchetto.
+### Metodi di richiesta
 
-Il tempo di risposta è un RTT per inizializzare la connessione + un RTT per la richiesta e i primi byte della risposta HTTP + il tempo di trasmissione del file.
+- GET: il client vuole scaricare il documento specificato dall'URL. ^430f04
+- HEAD: il client vuole scaricare solo alcune info sul documento, come la data di ultima modifica,
+- POST: il client vuole dare dati in input al server.
+- PUT: il client vuole caricare un documento (nel corpo del messaggio) sul server nell'URL specificato.
 
-## Persistenti
+## Formato di una risposta HTTP
 
-- Modalità di default
-- Più oggetti in una sola connessione.
-- La connessione viene chiusa dopo un timeout configurabile.
+```
+VERSION STATUS_CODE PHRASE
+header field name: value
+header field name: value
+header field name: value
+...
+BLANK LINE (cr lf)
+entity body (vuoto per GET, utilizzato per POST)
+```
 
-# Messaggi di **richiesta** (da client a server) HTTP
+Esempio:
 
-- [[GET]]
-- [[HEAD]]
-- [[POST]]
-- [[PUT]]
+```
+HTTP/1.1 200 OK
+Connection close
+Date: Thu, 06 Aug 1998 12:00:15 GMT
+Server: Apache/1.3.0 (Unix)
+Last-Modified: Mon, 22 Jun 1998 ...
+Content-Length: 6821
+Content-Type: text/html
+```
 
-# Messaggi di **risposta** (da server a client) HTTP
+### Codici di risposta
 
-#todo
+- 100-199: Informazione
+- 200-299: Successo (esempio: 200 = request succeded)
+- 300-399: Ridirezione (esempio: 301 = page moved)
+- 400-499: Client error (esempio: 403 = forbidden page, 404 = page not found)
+- 500-599: Server error (esempio: 500 = internal server error)
 
-## Codici di stato della risposta
+# Sessioni
 
-## Intestazioni
+**HTTP è un protocollo *stateless***, ma è utile che il server si ricordi di uno "stato" del client che trascende le singole connessioni HTTP in modo da creare una "*sessione logica*" in cui i dati persistono (ad esempio per creare un carrello elettronico).
 
-# Cookie
+Una sessione deve avere:
+- un inizio e una fine,
+- un tempo di vita non troppo lungo,
+- la possibilità di essere chiusa sia dal client che dal server,
+- la caratteristica di essere implicita nello scambio di informazioni di stato.
 
-HTTP è un protocollo senza stato, ma a volte mantenere lo stato della richiesta e tenere traccia delle azione dell'utente può essere utile per motivi di telemetria e personalizzazione. Gli [[indirizzi IP]] degli host non sono adatti, perché gli indirizzi IP non sono necessariamente univoci per ogni utente (più utenti su un computer o ISP NAT).
+Dato che un ipotetico meccanismo basato sugli indirizzi [[IP (Internet Protocol)]] dei client non sarebbe adatto per realizzare una sessione del genere, esistono i *cookie*.
 
-La soluzione sono i [[cookie]].
+> N.B.: Una sessione può essere creata su connessioni persistenti o meno: è un meccanismo più astratto.
 
-#todo altre soluzioni (2-46)
+## Cookie
 
----
+> I **cookie** creano una sessione *stateful* di richieste e risposte HTTP.
 
-- [[caching]]
+Un cookie è fatto di:
+
+- Una riga di intestazione nel messaggio di risposta HTTP (un ID assegnato dal server al client la prima volta che ci si connette);
+- Una riga di intestazione nel messaggio di richiesta HTTP (lo stesso ID, reinviato al server a ogni connessione);
+- Un file cookie mantenuto nel computer dell'[[utente]] e gestito dal suo browser;
+- Una entry in un [[database]] sul server che memorizza tute le informazioni sul client (creata alla prima connessione del client, ha come [[chiave]] il suo ID assegnato dal server).
+
+I cookie hanno un attributo `Max-Age` che definisce il loro tempo di vita in secondi dopo cui il client dovrebbe rimuovere il cookie, ma i server possono forzarlo a 0 per farlo rimuovere subito e chiudere la sessione.
+
+Esiste un'alternativa ai cookie: mantenere tutte le informazioni nel client e inviarle ad ogni richiesta al server nell'URL o nel metodo POST.
+È facile da implementare e non richiede overhead sul server, però si scambiano troppi dati e il server processa molti più dati.

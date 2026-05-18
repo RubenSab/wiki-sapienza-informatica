@@ -20,12 +20,12 @@
             }
           },
           {
-            "id": "5725a50da57047a0",
+            "id": "0937e3a40b451ebf",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Reti di elaboratori/livello applicazione.md",
+                "file": "Reti di elaboratori/FTP (File Transfer Protocol).md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -40,11 +40,58 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "livello applicazione"
+              "title": "FTP (File Transfer Protocol)"
+            }
+          },
+          {
+            "id": "a6734b5f6d23de23",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Reti di elaboratori/FTP (File Transfer Protocol).md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "FTP (File Transfer Protocol)"
+            }
+          },
+          {
+            "id": "2305e4d29a8bc623",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Sistemi operativi 2/utente.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": true,
+                  "unlinkedCollapsed": false
+                }
+              },
+              "icon": "lucide-file",
+              "title": "utente"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -101,7 +148,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "matrice",
+                "query": "porta",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -232,34 +279,34 @@
       "new-3d-graph:Open 3d graph": false
     }
   },
-  "active": "5725a50da57047a0",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "Reti di elaboratori/livello applicazione.md",
-    "Reti di elaboratori/Reti di elaboratori.md",
-    "Reti di elaboratori/WWW (World Wide Web).md",
-    "Reti di elaboratori/indirizzi IP.md",
-    "Reti di elaboratori/cosa succede quando si fa una richiesta HTTPS?.md",
-    "Interdisciplinare/stack.md",
-    "Reti di elaboratori/stack protocollare TCP-IP.md",
+    "Sistemi operativi 2/utente.md",
+    "Reti di elaboratori/FTP (File Transfer Protocol).md",
     "Reti di elaboratori/HTTP (HyperText Transfer Protocol).md",
+    "Sistemi operativi 2/file.md",
+    "Reti di elaboratori/cosa succede quando si fa una richiesta HTTPS?.md",
+    "Reti di elaboratori/URL.md",
+    "Reti di elaboratori/stack protocollare TCP-IP.md",
+    "Reti di elaboratori/DNS (Domain Name System).md",
+    "Reti di elaboratori/Reti di elaboratori.md",
+    "Reti di elaboratori/layer interface.md",
+    "Algebra/spazio vettoriale R quadro.md",
+    "Reti di elaboratori/livello applicazione.md",
+    "Reti di elaboratori/WWW (World Wide Web).md",
     "Reti di elaboratori/cookie.md",
+    "Reti di elaboratori/Internet.md",
+    "Reti di elaboratori/HTML.md",
+    "Reti di elaboratori/indirizzi IP.md",
+    "Interdisciplinare/stack.md",
     "Reti di elaboratori/caching.md",
     "Reti di elaboratori/creare un'applicazione di rete.md",
     "Reti di elaboratori/servizio.md",
-    "Reti di elaboratori/Internet.md",
     "Reti di elaboratori/protocollo.md",
     "Reti di elaboratori/classificazione delle reti.md",
     "Esercizi finali.md",
     "Reti di elaboratori/Esercizi.md",
     "Progettazione di algoritmi/backtracking.md",
-    "Progettazione di algoritmi/tecnica della programmazione dinamica.md",
-    "Progettazione di algoritmi/algoritmo di Floyd-Warshall.md",
-    "Algebra/rango.md",
-    "Algebra/regola di Sarrus.md",
-    "Algebra/sistema di equazioni lineari.md",
-    "Progettazione di sistemi digitali/programmable logic array (PLA).md",
-    "Interdisciplinare/algoritmo per la ricerca di un pozzo universale.md",
-    "Progettazione di sistemi digitali/sistema binario.md",
     "Reti di elaboratori/Pasted image 20260505114446.png",
     "BOZZE",
     "Sistemi operativi 2/Pasted image 20260419172446.png",

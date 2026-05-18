@@ -1,44 +1,36 @@
 ---
-updated_at: 2026-05-16T19:18:28.837+02:00
+updated_at: 2026-05-18T18:35:44.194+02:00
 ---
+*Vedi [[cosa succede quando si fa una richiesta HTTPS?]]*
+
 > È la **gerarchia** modulare dei [[protocollo|protocolli]] utilizzati in [[Internet]]. Ad oggi è formata da 5 livelli (o strati) che elaborano i pacchetti di dati e li inoltrano al prossimo livello.
 
-> Le entità che formano gli strati sono chiamati pari, che comunicano **INDIRETTAMENTE** usando il protocollo.
+> Le entità che formano gli strati sono chiamati pari e comunicano **INDIRETTAMENTE** con "connessioni logiche" orizzontali rese possibili da connessioni concrete verticali scendendo e risalendo i livelli. 
 
-1. **Applicazione** (software)
+1. **Applicazione** (software) ^d89c08
 	- È la sede delle applicazioni di rete.
 	- I pacchetti si chiamano **messaggi**.
-	- [[HTTP (HyperText Transfer Protocol)]], SMTP, FTP, [[DNS (Domain Name System)]].
-2. **Trasporto** (software)
+	- Protocolli:
+		- [[HTTP (HyperText Transfer Protocol)]];
+		- [[DNS (Domain Name System)]];
+		- [[FTP (File Transfer Protocol)]];
+		- [[SMTP (Simple Mail Transfer Protocol)]]
+2. **Trasporto** (software) ^3210b0
 	- Definisce l'interazione fra processi.
 	- I pacchetti si chiamano **segmenti**.
 	- [[TCP (Transmission Control Protocol)]], [[UDP (User Datagram Protocol)]].
-3. **Rete** (software/hardware)
+3. **Rete** (software/hardware) ^77b116
 	- Si occupa dell'istradamento dei segmenti dall'origine alla destinazione.
 	- I pacchetti si chiamano **datagrammi**.
 	- IP, protocolli di instradamento.
-4. **Link** (hardware)
+4. **Collegamento** (hardware) ^d89304
 	- Trasmette i datagrammi da un nodo a quello successivo sul percorso.
 	- I pacchetti si chiamano **frame**.
 	- Ethernet, Wi-Fi, PPP.
-5. **Fisico** (hardware)
+5. **Fisico** (hardware) ^2f0c82
 	- Trasmette i singoli bit.
 
 > I **sistemi intermedi** tra la macchina sorgente e destinataria richiedono solo **alcuni** livelli.
-
-![[Pasted image 20260303145049.png]]
-
-![[Pasted image 20260303150243.png]]
-
-# Incapsulamento e decapsulamento
-
-> L'**incapsulamento** è l'aggiunta di un *header* (o intestazione) al payload (o carico dati) di pacchetti generati dal livello superiore. Avviene agli step di trasporto, rete e collegamento.
-
-![[Pasted image 20260303150803.png]]
-
-# Multiplexing e demultiplexing
-
-#todo pag. 22 e 23
 
 # Indirizzamento
 

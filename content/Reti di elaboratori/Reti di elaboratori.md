@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-05-16T19:18:03.725+02:00
+updated_at: 2026-05-18T11:49:43.805+02:00
 ---
 > Codice classroom: f5ubehac
 
@@ -7,24 +7,23 @@ updated_at: 2026-05-16T19:18:03.725+02:00
 	- [[rete]]
 		- [[classificazione delle reti]]
 		- [[misure della performance della rete e ritardi]]
-		- [[Internet]] e [[WWW (World Wide Web)]]
+		- [[Internet]]
 	- [[protocollo]]
 	- [[servizio]]
 - [[stack protocollare TCP-IP]]
 	- [[cosa succede quando si fa una richiesta HTTPS?]]
-	- [[livello applicazione]]
+	- livello applicazione
+		- [[WWW (World Wide Web)]]
 	    - [[HTTP (HyperText Transfer Protocol)]]
 	    - [[URL]]
 	    - [[DNS (Domain Name System)]]
 	    - [[FTP (File Transfer Protocol)]]
 	    - [[SMTP (Simple Mail Transfer Protocol)]]
 	    - [[POP3 (Post Office Protocol version 3)]]
-	    - [[cookie]]
-	    - [[web cache]]
-	- [[livello di trasporto]]
+	- livello di trasporto
 	    - [[UDP (User Datagram Protocol)]]
 	    - [[TCP (Transmission Control Protocol)]]
-	- [[livello di rete]]
+	- livello di rete
 	    - [[IP (Internet Protocol)]]
 	    - [[IPv4 (Internet Protocol version 4)]]
 	    - [[IPv6 (Internet Protocol version 6)]]
@@ -33,7 +32,7 @@ updated_at: 2026-05-16T19:18:03.725+02:00
 	    - [[ICMP (Internet Control Message Protocol)]]
 	    - [[OSPF (Open Shortest Path First)]]
 	    - [[BGP (Border Gateway Protocol)]]
-	- [[livello di collegamento]]
+	- livello di collegamento
 	    - [[DLC (Data Link Control)]]
 	    - [[MAC (Media Access Control)]]
 	    - [[ARP (Address Resolution Protocol)]]
