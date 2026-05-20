@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-05-20T10:18:31.004+02:00
+updated_at: 2026-05-20T19:49:17.827+02:00
 ---
 *Vedi [[cosa succede quando si fa una richiesta HTTPS?]]*
 
@@ -16,7 +16,7 @@ updated_at: 2026-05-20T10:18:31.004+02:00
 		- [[FTP (File Transfer Protocol)]];
 		- [[protocolli per le email]]
 2. **Trasporto** (software) ^3210b0
-	- Definisce l'interazione fra processi, distinti per numero di [[porta]] (indirizzo IP + porta = socket address).
+	- Definisce l'interazione fra processi, distinti per numero di [[porta]] e IP (indirizzo IP + porta = [[socket]] address).
 	- I pacchetti si chiamano **segmenti**.
 	- [[TCP (Transmission Control Protocol)]], [[UDP (User Datagram Protocol)]].
 3. **Rete** (software/hardware) ^77b116

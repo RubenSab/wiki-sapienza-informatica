@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-05-20T10:28:52.226+02:00
+updated_at: 2026-05-20T12:18:30.531+02:00
 ---
 >**PDU**: *Protocol Data Unit*, cioè i messaggi, i segmenti, i datagrammi, i frame e infine i bit.
 
@@ -69,7 +69,7 @@ L'applicazione (ad esempio il browser) in esecuzione nel livello **applicazione*
 
 ## [[stack protocollare TCP-IP#^2f0c82|Livello fisico]] (PDU = bit)
 
-1Fa il **multiplexing**: gestisce l'arrivo di frame diversi, ad esempio da uno [[switch]], usando l'hardware, (ciò **non è** parte del modello TCP/IP, ma dipende dai produttori dell'hardware), poi codifica i frame in bit per la trasmissione sul mezzo fisico.
+Fa il **multiplexing**: gestisce l'arrivo di frame diversi, ad esempio da uno [[switch]], usando l'hardware, (ciò **non è** parte del modello TCP/IP, ma dipende dai produttori dell'hardware), poi codifica i frame in bit per la trasmissione sul mezzo fisico.
 
 # Ricezione dall'host destinazione
 
