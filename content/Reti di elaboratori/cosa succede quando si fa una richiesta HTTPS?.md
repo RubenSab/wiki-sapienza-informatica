@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-05-18T18:57:11.102+02:00
+updated_at: 2026-05-20T10:28:52.226+02:00
 ---
 >**PDU**: *Protocol Data Unit*, cioè i messaggi, i segmenti, i datagrammi, i frame e infine i bit.
 
@@ -23,7 +23,7 @@ L'applicazione (ad esempio il browser) in esecuzione nel livello **applicazione*
 2. Se l'[[URL]] non è in nella cache (la quale mappa gli URL ai loro indirizzi [[IP (Internet Protocol)]]), fa la risoluzione [[DNS (Domain Name System)]] (operando tra i livelli di applicazione e di trasporto):
 	1. Il client DNS (integrato nel [[sistema operativo]]) invia una richiesta DNS incapsulata in un segmento [[UDP (User Datagram Protocol)]] al server DNS per ottenere l'IP che si riferisce al livello di rete della macchina su cui è hostato il contenuto puntato dall'URL in questione.
 	2. Il server DNS risponde al client con l'IP.
-3. Fa l'**incapsulamento**: aggiunge un header applicazione ([[HTTP (HyperText Transfer Protocol)]], [[SMTP (Simple Mail Transfer Protocol)]], [[FTP (File Transfer Protocol)]] o DNS) per indicare al livello inferiore di trasporto il protocollo da cui proviene la PDU, formando un **messaggio**.
+3. Fa l'**incapsulamento**: aggiunge un header applicazione ([[HTTP (HyperText Transfer Protocol)]], [[protocolli per le email]], [[FTP (File Transfer Protocol)]] o DNS) per indicare al livello inferiore di trasporto il protocollo da cui proviene la PDU, formando un **messaggio**.
    **N.B.:** L'indirizzo IP **non** viene aggiunto né nel messaggio né nel datagramma, ma è necessario per l'header al livello di rete, quindi viene passato come **parametro esterno** tra i livelli.
 4. Inoltra il messaggio e l'IP destinazione al livello di trasporto con il protocollo adeguato.
 

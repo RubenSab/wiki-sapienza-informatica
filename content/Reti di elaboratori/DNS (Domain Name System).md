@@ -1,12 +1,12 @@
 ---
-updated_at: 2026-05-18T18:32:46.570+02:00
+updated_at: 2026-05-19T15:28:53.012+02:00
 ---
 
 > Il DNS è un **protocollo a livello applicazione** che consente agli host di interrogare il data base per **risolvere** i nomi (tradurre da nome a indirizzi [[IP (Internet Protocol)]]).
 
 Gli host [[Internet]] hanno un nome, detto **hostname** (parte dell'[[URL]]). I nomi non danno informazioni sulla collocazione degli host su internet; per quello servono gli IP, quindi bisogna fare una traduzione da hostname a IP con il **Domain Name System**, un **[[database]] distribuito** implementato in una gerarchia di server DNS che rendono 4 miliardi di indirizzi IP facilmente accessibili in pochissimo tempo.
 
-Il DNS viene utilizzato da altri protocolli a livello applicazione, come [[HTTP (HyperText Transfer Protocol)]], [[SMTP (Simple Mail Transfer Protocol)]] e [[FTP (File Transfer Protocol)]].
+Il DNS viene utilizzato da altri protocolli a livello applicazione, come [[HTTP (HyperText Transfer Protocol)]], [[protocolli per le email]] e [[FTP (File Transfer Protocol)]].
 
 Il DNS utilizza il protocollo [[UDP (User Datagram Protocol)]] di trasporto end-to-end per trasferire messaggi tra gli end system (perché ha i messaggi corti, bisogna mandare un messaggio solo tra una coppia di server e [[TCP (Transmission Control Protocol)]] ha il set-up di connessione lungo) e indirizza la [[porta]] 53.
 
@@ -52,6 +52,13 @@ Type:
 	- Name = dominio
 	- Value = nome canonico del server di posta associato al dominio
 
+RR nella gerarchia:
+
+1. I DNS Root hanno solo record NS e A,
+2. I DNS TLD hanno solo record NS e A,
+3. I DNS Authoritative hanno tutti i record,
+4. I DNS Locali hanno tutti i record
+
 ## Messaggi DNS
 
 Il protocollo DNS ha le query e i messaggi di risposta con lo stesso formato:
@@ -71,5 +78,5 @@ Il protocollo DNS ha le query e i messaggi di risposta con lo stesso formato:
 
 1. Comprare un dominio presso un registrar;
 2. Inserire i record DNS adeguati nel server di competenza;
-3. Fornire al registrar i nomi e gli indirizzi IP dei server DNS di competenza primario e secondario;
+3. Fornire al registrar i nomi e gli indirizzi IP dei server DNS di competenza primario e secondario (che non sono in una relazione gerarchica ma di ridondanza);
 4. Aspettare che il registrar inserisca il record A per l'IP del dominio e il record NS per il DNS di competenza per il dominio.

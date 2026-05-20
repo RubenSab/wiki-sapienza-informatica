@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-05-18T18:35:44.194+02:00
+updated_at: 2026-05-20T10:18:31.004+02:00
 ---
 *Vedi [[cosa succede quando si fa una richiesta HTTPS?]]*
 
@@ -14,15 +14,15 @@ updated_at: 2026-05-18T18:35:44.194+02:00
 		- [[HTTP (HyperText Transfer Protocol)]];
 		- [[DNS (Domain Name System)]];
 		- [[FTP (File Transfer Protocol)]];
-		- [[SMTP (Simple Mail Transfer Protocol)]]
+		- [[protocolli per le email]]
 2. **Trasporto** (software) ^3210b0
-	- Definisce l'interazione fra processi.
+	- Definisce l'interazione fra processi, distinti per numero di [[porta]] (indirizzo IP + porta = socket address).
 	- I pacchetti si chiamano **segmenti**.
 	- [[TCP (Transmission Control Protocol)]], [[UDP (User Datagram Protocol)]].
 3. **Rete** (software/hardware) ^77b116
 	- Si occupa dell'istradamento dei segmenti dall'origine alla destinazione.
 	- I pacchetti si chiamano **datagrammi**.
-	- IP, protocolli di instradamento.
+	- [[IP (Internet Protocol)]], protocolli di instradamento.
 4. **Collegamento** (hardware) ^d89304
 	- Trasmette i datagrammi da un nodo a quello successivo sul percorso.
 	- I pacchetti si chiamano **frame**.

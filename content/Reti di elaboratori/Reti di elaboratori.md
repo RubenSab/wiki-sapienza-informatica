@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-05-18T11:49:43.805+02:00
+updated_at: 2026-05-20T10:11:43.055+02:00
 ---
 > Codice classroom: f5ubehac
 
@@ -18,8 +18,7 @@ updated_at: 2026-05-18T11:49:43.805+02:00
 	    - [[URL]]
 	    - [[DNS (Domain Name System)]]
 	    - [[FTP (File Transfer Protocol)]]
-	    - [[SMTP (Simple Mail Transfer Protocol)]]
-	    - [[POP3 (Post Office Protocol version 3)]]
+	    - [[protocolli per le email]]
 	- livello di trasporto
 	    - [[UDP (User Datagram Protocol)]]
 	    - [[TCP (Transmission Control Protocol)]]

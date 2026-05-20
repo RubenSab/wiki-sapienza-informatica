@@ -16,7 +16,7 @@ updated_at: 2026-05-18T11:44:31.207+02:00
 		- [[HTTP (HyperText Transfer Protocol)]]
 		- [[FTP (File Transfer Protocol)]]
 		- [[SSH]]
-		- [[SMTP (Simple Mail Transfer Protocol)]]
+		- [[protocolli per le email]]
 		- ...
 
 # Pagine e oggetti web
