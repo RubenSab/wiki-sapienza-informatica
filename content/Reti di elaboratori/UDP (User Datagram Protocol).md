@@ -1,11 +1,11 @@
 ---
-updated_at: 2026-05-20T23:11:42.898+02:00
+updated_at: 2026-05-22T16:54:36.335+02:00
 ---
-> È un [[protocollo]] del livello di trasporto dello [[stack protocollare TCP-IP]].
+> È un [[protocollo]] del livello di trasporto dello [[stack protocollare TCP-IP]]. Tra le sue varie applicazioni, viene usato dal [[DNS (Domain Name System)]].
 
 Caratteristiche:
 
-- usa i [[socket]] per comunicare tra processi,
+- usa i [[socket]] per comunicare tra processi;
 - **non** richiede la creazione di una connessione fra i processi client e server;
 - trasporto inaffidabile;
 

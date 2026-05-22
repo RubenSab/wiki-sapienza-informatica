@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-05-20T19:42:31.132+02:00
+updated_at: 2026-05-21T17:14:13.113+02:00
 ---
 > Codice classroom: f5ubehac
 
@@ -21,6 +21,7 @@ updated_at: 2026-05-20T19:42:31.132+02:00
 	    - [[protocolli per le email]]
 	- [[socket]]
 	- livello di trasporto
+		- [[meccanismi di trasporto affidabile]]
 	    - [[UDP (User Datagram Protocol)]]
 	    - [[TCP (Transmission Control Protocol)]]
 	- livello di rete
