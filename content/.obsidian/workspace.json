@@ -20,12 +20,12 @@
             }
           },
           {
-            "id": "35b520abe3f1fdfc",
+            "id": "95c20f5aa5401eb0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Reti di elaboratori/meccanismi di trasporto affidabile.md",
+                "file": "Reti di elaboratori/IP (Internet Protocol).md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -40,16 +40,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "meccanismi di trasporto affidabile"
+              "title": "IP (Internet Protocol)"
             }
           },
           {
-            "id": "aefa8fc6548bef83",
+            "id": "97908b76925e8f94",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Reti di elaboratori/reti a commutazione di pacchetto.md",
+                "file": "Reti di elaboratori/cosa succede quando si fa una richiesta HTTPS?.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -64,59 +64,10 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "reti a commutazione di pacchetto"
-            }
-          },
-          {
-            "id": "eab3945b8a2c8de1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Reti di elaboratori/TCP (Transmission Control Protocol).md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "TCP (Transmission Control Protocol)"
-            }
-          },
-          {
-            "id": "5c109aa37f9c3c63",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Reti di elaboratori/stack protocollare TCP-IP.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "stack protocollare TCP-IP"
+              "title": "cosa succede quando si fa una richiesta HTTPS?"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -304,36 +255,36 @@
       "new-3d-graph:Open 3d graph": false
     }
   },
-  "active": "eab3945b8a2c8de1",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "Reti di elaboratori/IP (Internet Protocol).md",
+    "Reti di elaboratori/cosa succede quando si fa una richiesta HTTPS?.md",
     "Reti di elaboratori/stack protocollare TCP-IP.md",
+    "Reti di elaboratori/protocolli di rete.md",
+    "Reti di elaboratori/IP.md",
+    "Reti di elaboratori/IPv4.md",
+    "Reti di elaboratori/router.md",
+    "Reti di elaboratori/reti a commutazione di circuito.md",
+    "Reti di elaboratori/reti a commutazione di pacchetto (o a datagramma).md",
+    "Reti di elaboratori/switch.md",
+    "Reti di elaboratori/Reti di elaboratori.md",
     "Reti di elaboratori/TCP (Transmission Control Protocol).md",
-    "Reti di elaboratori/reti a commutazione di pacchetto.md",
     "Reti di elaboratori/meccanismi di trasporto affidabile.md",
     "Reti di elaboratori/UDP (User Datagram Protocol).md",
-    "Reti di elaboratori/Reti di elaboratori.md",
     "Reti di elaboratori/rete.md",
     "Progettazione di algoritmi/tecnica della programmazione dinamica.md",
     "Reti di elaboratori/socket.md",
     "Interdisciplinare/queue.md",
     "Reti di elaboratori/classificazione delle reti.md",
-    "Reti di elaboratori/reti a commutazione di circuito.md",
     "Reti di elaboratori/Pasted image 20260520203035.png",
     "Reti di elaboratori/checksum.md",
     "Reti di elaboratori/porta.md",
-    "Reti di elaboratori/cosa succede quando si fa una richiesta HTTPS?.md",
     "Reti di elaboratori/HTTP (HyperText Transfer Protocol).md",
     "Sistemi operativi 2/file.md",
     "Reti di elaboratori/protocolli per le email.md",
     "Interdisciplinare/funzioni di codifica e decodifica.md",
     "Reti di elaboratori/Pasted image 20260519180547.png",
     "Reti di elaboratori/DNS (Domain Name System).md",
-    "Reti di elaboratori/FTP (File Transfer Protocol).md",
-    "Sistemi operativi 2/utente.md",
-    "Reti di elaboratori/URL.md",
-    "Reti di elaboratori/layer interface.md",
-    "Algebra/spazio vettoriale R quadro.md",
-    "Reti di elaboratori/livello applicazione.md",
     "Reti di elaboratori/Pasted image 20260505114446.png",
     "BOZZE",
     "Sistemi operativi 2/Pasted image 20260419172446.png",

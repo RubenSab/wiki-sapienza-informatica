@@ -19,7 +19,7 @@ Ad esempio ci sono le reti residenziali punto-punto (Modem dial-up) o modem via 
 
 # Backbone
 
-Sono [[reti a commutazione di circuito]] o [[reti a commutazione di pacchetto]].
+Sono [[reti a commutazione di circuito]] o [[reti a commutazione di pacchetto (o a datagramma)]].
 
 # Cenni storici
 

@@ -3,7 +3,7 @@ updated_at: 2026-03-17T14:39:06.445+01:00
 ---
 # Ampiezza di banda
 
-> Indica la larghezza dell'intervallo di frequenze elettromagnetiche usato dal sistema trasmissivo in una [[reti a commutazione di pacchetto]].
+> Indica la larghezza dell'intervallo di frequenze elettromagnetiche usato dal sistema trasmissivo in una [[reti a commutazione di pacchetto (o a datagramma)]].
 
 Oppure si usa lo stesso termine per indicare il **bit rate massimo** di un link.
 

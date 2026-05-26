@@ -137,7 +137,7 @@ In ognuno di questi due casi si risolve con un *buffer* di pacchetti.
 - gli ack cumulativi + il timer di ritrasmissione (RTO) associato al pacchetto più vecchio.
 - Ritrasmissione del segmento all’inizio della coda di spedizione.
 
-## Controllo della [[reti a commutazione di pacchetto|congestione]]
+## Controllo della [[reti a commutazione di pacchetto (o a datagramma)|congestione]]
 
 Sintomi:
 

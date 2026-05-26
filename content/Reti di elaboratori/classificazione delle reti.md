@@ -20,4 +20,4 @@ Le [[rete|reti]] si possono classificare sia per **scala** che per **modo di ope
 Esistono due tipi di rete basate su switch:
 
 - [[reti a commutazione di circuito]] (circuit-switched network)
-- [[reti a commutazione di pacchetto]] (packet-switched network)
+- [[reti a commutazione di pacchetto (o a datagramma)]] (packet-switched network)
