@@ -7,7 +7,7 @@ Un circuito virtuale consiste in:
 
 - un percorso tra gli host origine e destinazione,
 - i campi dei pacchetti con i numeri VC (Virtual Circuit), uno per collegamento,
-- righe nella [[protocolli di rete|tabella di inoltro]] che mappa l'interfaccia in ingresso e il VC del pacchetto entrante all'interfaccia in uscita e al VC da scrivere nel pacchetto uscente.
+- righe nella [[routing e forwarding|tabella di inoltro]] che mappa l'interfaccia in ingresso e il VC del pacchetto entrante all'interfaccia in uscita e al VC da scrivere nel pacchetto uscente.
 
 I [[router]] aggiungono alla tabella d'inoltro una nuova riga ogni volta che stabiliscono una nuova connessione e la cancellano quando viene rilasciata.
 

@@ -90,6 +90,8 @@ Per sapere in $O(1)$ a quale componente appartiene ogni nodo, si usa una **lista
 
 > Dato un grafo connesso, un suo **albero di copertura o MST (*Minimum Spanning Tree*)** è un sottoinsieme dei suoi archi che mantiene connessi tutti i nodi del grafo ed è un albero.
 
+^a7b73d
+
 > Dato un grafo connesso e **pesato**, un **albero di copertura minimo** è l'albero di copertura che mantiene tanti archi con il peso totale minimo quanti servono per mantenere il grafo connesso, cioè minimizza il costo totale.
 
 - [[algoritmo di Kruskal]]

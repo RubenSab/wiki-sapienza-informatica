@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-05-26T09:10:27.146+02:00
+updated_at: 2026-05-28T11:54:47.817+02:00
 ---
 > Codice classroom: f5ubehac
 
@@ -25,15 +25,17 @@ updated_at: 2026-05-26T09:10:27.146+02:00
 	    - [[UDP (User Datagram Protocol)]]
 	    - [[TCP (Transmission Control Protocol)]]
 	- livello di rete
-		- [[protocolli di rete]]
+		- [[routing e forwarding]]
 	    - [[IP (Internet Protocol)]]
+	    - [[broadcast]]
+	    - [[multicast]]
 	    - [[IPv4 (Internet Protocol version 4)]]
 	    - [[IPv6 (Internet Protocol version 6)]]
 	    - [[DHCP (Dynamic Host Configuration Protocol)]]
 	    - [[NAT (Network Address Translation)]]
 	    - [[ICMP (Internet Control Message Protocol)]]
 	    - [[OSPF (Open Shortest Path First)]]
-	    - [[BGP (Border Gateway Protocol)]]
+	    - [[routing su Internet]]
 	- livello di collegamento
 	    - [[DLC (Data Link Control)]]
 	    - [[MAC (Media Access Control)]]

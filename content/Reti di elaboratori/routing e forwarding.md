@@ -1,7 +1,7 @@
 ---
-updated_at: 2026-05-26T10:28:22.394+02:00
+updated_at: 2026-05-27T15:30:54.966+02:00
 ---
-> Il livello di rete dello [[stack protocollare TCP-IP]] implementa due funzioni: il **routing**, cioè la determinazione del percorso dei pacchetti dall'origine alla destinazione e il **forwarding**, cioè la scelta del prossimo [[router]] a cui inoltrare i pacchetti.
+> Il livello di rete dello [[stack protocollare TCP-IP]] implementa due funzioni: il **routing**, cioè la determinazione del percorso dei pacchetti dall'origine alla destinazione e il **forwarding**, cioè la scelta del prossimo [[router]] (nel cammino dalla sorgente alla destinazione) a cui inoltrare i pacchetti.
 
 # Tabelle di routing, router e switch
 
@@ -16,4 +16,6 @@ I router e gli [[switch]] sono entrambi *packet switch*, cioè commutatori di pa
 
 # Protocolli
 
-- [[IP (Internet Protocol)]]
+- [[RIP (Routing Information Protocol)]] crea le tabelle di routing,
+- [[OSPF (Open Shortest Path First)]] è un altro algoritmo che crea le tabelle di routing,
+- [[IP (Internet Protocol)]] esegue il forwarding.

@@ -1,7 +1,7 @@
 ---
-updated_at: 2026-04-24T14:17:27.692+02:00
+updated_at: 2026-05-27T17:07:31.781+02:00
 ---
-Utente:
+OUtente:
 - nome
 - data di iscrizione
 - cronologia

@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-05-22T16:54:36.335+02:00
+updated_at: 2026-05-26T10:36:11.647+02:00
 ---
 > È un [[protocollo]] del livello di trasporto dello [[stack protocollare TCP-IP]]. Tra le sue varie applicazioni, viene usato dal [[DNS (Domain Name System)]].
 
@@ -19,7 +19,7 @@ Non offre:
 - garanzie di ampiezza di banda minima,
 - sicurezza (almeno nella sua versione base).
 
-*Da [geeksforgeeks](geeksforgeeks.com)*
+*Da [geeksforgeeks](https://www.geeksforgeeks.org/)*
 
 ![[Pasted image 20260520203035.png]]
 

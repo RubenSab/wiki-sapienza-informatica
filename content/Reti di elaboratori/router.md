@@ -1,16 +1,20 @@
 ---
-updated_at: 2026-05-26T10:16:31.967+02:00
+updated_at: 2026-05-28T11:49:24.695+02:00
 ---
 Il router implementa il livello fisico e di collegamento dello [[stack protocollare TCP-IP]].
 
 È fatto da:
 
 - le **porte di input** con le [[queue]]: ricostruiscono i bit dal segnale, estraggono i frame, li decapsulano e passano i datagrammi al livello di rete,
-- un **processore di routing** che esegue il lookup della [[protocolli di rete|tabella di routing]],
+- un **processore di routing** che esegue il lookup della [[routing e forwarding|tabella di routing]],
 - una **struttura di commutazione** che sposta i datagrammi dalla queue di input a quella di output,
 - le porte di output con le queue: incapsulano i datagrammi in frame e li traducono in segnali fisici.
 
+> N.B.: Un router ha più indirizzi [[IP (Internet Protocol)]], uno per interfaccia.
+
 # Porte
+
+^8ff246
 
 Le porte di ingresso sono fatti da:
 

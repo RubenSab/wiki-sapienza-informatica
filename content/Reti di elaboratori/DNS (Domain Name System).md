@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-05-19T15:28:53.012+02:00
+updated_at: 2026-05-26T15:50:40.568+02:00
 ---
 
 > Il DNS è un **protocollo a livello applicazione** che consente agli host di interrogare il data base per **risolvere** i nomi (tradurre da nome a indirizzi [[IP (Internet Protocol)]]).
@@ -57,7 +57,7 @@ RR nella gerarchia:
 1. I DNS Root hanno solo record NS e A,
 2. I DNS TLD hanno solo record NS e A,
 3. I DNS Authoritative hanno tutti i record,
-4. I DNS Locali hanno tutti i record
+4. I DNS Locali hanno tutti i record.
 
 ## Messaggi DNS
 

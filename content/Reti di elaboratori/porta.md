@@ -1,7 +1,7 @@
 ---
-updated_at: 2026-05-20T19:46:30.489+02:00
+updated_at: 2026-05-26T10:38:27.890+02:00
 ---
-#todo 
+*Vedi [[router#^8ff246|porte nei router]]*
 
 Numeri di porta:
 

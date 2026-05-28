@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-05-20T12:18:30.531+02:00
+updated_at: 2026-05-26T16:00:43.761+02:00
 ---
 >**PDU**: *Protocol Data Unit*, cioè i messaggi, i segmenti, i datagrammi, i frame e infine i bit.
 
@@ -37,7 +37,7 @@ L'applicazione (ad esempio il browser) in esecuzione nel livello **applicazione*
 	2. il numero di porta destinazione (codificato in base al protocollo applicazione, ad esempio 80 per HTTP e 25 per SMTP),
 	3. la checksum (per UDP) o flag/sequenza (per TCP), formando un **segmento**.
 	   **N.B.:** Il nome del protocollo di trasporto usato è implicito dal tipo di header e dal numero di porta destinazione, non serve un campo apposito.
-3. Inoltra il segmento al livello di rete e l'IP destinazione usando il protocollo di trasporto adeguato.
+3. Stabilisce la connessione [[TCP (Transmission Control Protocol)]] con il router, inoltra il segmento al livello di rete e l'IP destinazione usando il protocollo di trasporto adeguato.
 
 ## [[stack protocollare TCP-IP#^77b116|Livello di rete]] (PDU = datagramma)
 

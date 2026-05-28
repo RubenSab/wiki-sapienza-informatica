@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-05-22T21:32:11.008+02:00
+updated_at: 2026-05-26T10:36:57.374+02:00
 ---
 > È un [[protocollo]] del livello di trasporto dello [[stack protocollare TCP-IP]].
 
@@ -24,7 +24,7 @@ Non offre:
 
 # Differenze con [[UDP (User Datagram Protocol)]]
 
-*Da [geeksforgeeks](geeksforgeeks.com)*
+*Da [geeksforgeeks](https://www.geeksforgeeks.org/)*
 
 ![[Pasted image 20260520203035.png]]
 

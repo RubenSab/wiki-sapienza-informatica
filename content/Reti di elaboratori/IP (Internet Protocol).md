@@ -1,9 +1,9 @@
 ---
-updated_at: 2026-05-26T10:34:24.178+02:00
+updated_at: 2026-05-27T23:03:04.002+02:00
 ---
 Funzioni:
 
-- [[protocolli di rete|forwarding]] dei pacchetti,
+- [[routing e forwarding|forwarding]] dei pacchetti,
 - consegna dei datagrammi al [[stack protocollare TCP-IP#^77b116|livello di rete]] (*host to host*),
 - frammentazione dei pacchetti (nota: non c'è in IPv6)
 
@@ -16,9 +16,9 @@ Funzioni:
 - Tipo di servizio (realtime o meno), per distinguere diversi datagrammi con requisiti di qualità del servizio diverse,
 - Lunghezza del datagramma (intestazione inclusa),
 - Identificatore, flag e offset di frammentazione (per la frammentazione),
-- Protocollo di trasporto ([[TCP (Transmission Control Protocol)]], [[UDP (User Datagram Protocol)]], [[ICMP (Internet Control Message Protocol)]], IGMP, OSPF),
+- Protocollo di trasporto ([[TCP (Transmission Control Protocol)]], [[UDP (User Datagram Protocol)]], [[ICMP (Internet Control Message Protocol)]], [[multicast|IGMP]], OSPF),
 - Checksum dell'intestazione (calcolata solo sull'intestazione, su tutti i router),
-- Indirizzi IP origine e destinazione,
+- [[indirizzi IP]] origine e destinazione,
 - Altre opzioni,
 - Dati.
 
