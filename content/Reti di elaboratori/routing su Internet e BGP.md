@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-05-28T18:26:47.906+02:00
+updated_at: 2026-05-29T16:23:29.227+02:00
 ---
 [[Internet]] è una [[rete]] troppo grande per usare un solo [[protocollo]] di [[routing e forwarding|routing]]. Inoltre ogni [[ISP (Internet Service Provider)]] vuole imporre **politiche** specifiche sul suo traffico.
 

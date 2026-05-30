@@ -1,0 +1,39 @@
+---
+updated_at: 2026-05-29T20:09:54.605+02:00
+---
+#todo 
+
+- Servizi offerti dal livello di collegamento
+- Sottolivelli
+- Errori
+- Accesso multiplo e protocolli MAC
+	- accesso casuale
+		- definizione di efficienza
+		- ALOHA
+		- CSMA/CD
+		- CSMA/CA
+	- accesso controllato
+		- reservation
+		- polling
+		- token passing
+	- suddivisione dei canali
+		- FDMA
+		- TDMA
+		- CDMA
+- Indirizzi MAC
+- ARP
+- Ethernet
+- Problema della compatibilità tra ethernet 10 Mbps e 100 Mbps
+	- prima soluzione con repeater e hub
+	- soluzione con switch
+- autoapprendimento della tabella di routing
+- LAN virtuali
+- LAN wireless
+	- differenze tra mezzo wireless e cablato
+	- controllo degli errori
+	- hidden terminal problem
+	- architetture
+	- 802.11
+	- CSMA/CA wireless
+	- collisioni
+	- mobilità

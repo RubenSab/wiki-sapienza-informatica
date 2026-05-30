@@ -16,7 +16,7 @@ Funzioni:
 - Tipo di servizio (realtime o meno), per distinguere diversi datagrammi con requisiti di qualità del servizio diverse,
 - Lunghezza del datagramma (intestazione inclusa),
 - Identificatore, flag e offset di frammentazione (per la frammentazione),
-- Protocollo di trasporto ([[TCP (Transmission Control Protocol)]], [[UDP (User Datagram Protocol)]], [[ICMP (Internet Control Message Protocol)]], [[multicast|IGMP]], OSPF),
+- Protocollo di trasporto ([[TCP (Transmission Control Protocol)]], [[UDP (User Datagram Protocol)]], [[ICMP (Internet Control Message Protocol)]], [[multicast e IGMP|IGMP]], OSPF),
 - Checksum dell'intestazione (calcolata solo sull'intestazione, su tutti i router),
 - [[indirizzi IP]] origine e destinazione,
 - Altre opzioni,

@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-05-28T11:54:47.817+02:00
+updated_at: 2026-05-29T19:57:21.170+02:00
 ---
 > Codice classroom: f5ubehac
 
@@ -28,15 +28,16 @@ updated_at: 2026-05-28T11:54:47.817+02:00
 		- [[routing e forwarding]]
 	    - [[IP (Internet Protocol)]]
 	    - [[broadcast]]
-	    - [[multicast]]
+	    - [[multicast e IGMP]]
 	    - [[IPv4 (Internet Protocol version 4)]]
 	    - [[IPv6 (Internet Protocol version 6)]]
 	    - [[DHCP (Dynamic Host Configuration Protocol)]]
 	    - [[NAT (Network Address Translation)]]
 	    - [[ICMP (Internet Control Message Protocol)]]
 	    - [[OSPF (Open Shortest Path First)]]
-	    - [[routing su Internet]]
-	- livello di collegamento
+	    - [[routing su Internet e BGP]]
+	- [[livello di collegamento]]
+		- [[servizi offerti dal livello di collegamento]]
 	    - [[DLC (Data Link Control)]]
 	    - [[MAC (Media Access Control)]]
 	    - [[ARP (Address Resolution Protocol)]]

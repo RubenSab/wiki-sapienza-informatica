@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-05-27T23:36:35.944+02:00
+updated_at: 2026-05-29T16:23:16.884+02:00
 ---
 > **Multicast** (al contrario di Unicast) è l'invio di un pacchetto da un nodo della [[rete]] a un **gruppo** di host. Per renderlo possibile esistono gli **[[indirizzi IP]] multicast** che associano più host.
 
