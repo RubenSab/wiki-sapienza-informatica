@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-05-26T10:36:57.374+02:00
+updated_at: 2026-05-31T18:42:43.486+02:00
 ---
 > È un [[protocollo]] del livello di trasporto dello [[stack protocollare TCP-IP]].
 
@@ -48,7 +48,7 @@ Una socket TCP è identificata da:
 	- PSH: richiesta di push;
 	- RST: azzeramento connessione;
 	- **SYN**: sincronizzazione numeri di sequenza;
-	- **FYN**: chiusura connessione;
+	- **FIN**: chiusura connessione;
 - 16 bit: Dimensione receive window;
 - 16 bit: Checksum;
 - 16 bit: Urgent pointer;
@@ -67,7 +67,7 @@ Una socket TCP è identificata da:
 
 ### 2. Trasferimento dei dati
 
-I pacchetti mandati dal mittente hanno flag ACK + PUSH.
+I pacchetti mandati dal mittente hanno flag ACK + PSH.
 
 Gli ack dal destinatario hanno solo la flag ACK.
 
@@ -75,7 +75,7 @@ I pacchetti URG vengono elaborati subito indipendentemente dalla posizione nel f
 
 ### 3. Chiusura della connessione
 
-Doppio scambio di messaggi FIN e ACK (opzionalmente inframezzati da dati dal server al client e un altro ACK, si parla di **half close**), solitamente iniziati dal client, ma potrebbe farlo anche il server.
+Doppio scambio di messaggi FIN e ACK (se sono inframezzati da dati dal server al client e un altro ACK, si parla di **half close**), solitamente iniziati dal client, ma potrebbe farlo anche il server.
 
 ## Controllo degli errori
 
@@ -95,7 +95,7 @@ I numeri di sequenza sono indici delle locazioni di [[memoria]] nei buffer. Ognu
 
 Ricevuto l'ack del pacchetto `p`, il destinatario libera la posizione di memoria `buffer[p.numero_di_sequenza]`.
 
-> Il buffer viene rappresentato con un insieme di settori *di lunghezza  prefissata* chiamati **sliding windows**, che in ogni istante occupano una porzione del cerchio, iniziando dal primo pacchetto non ancora confermato.
+> Il buffer viene rappresentato con un insieme di settori *di lunghezza prefissata* chiamati **sliding windows**, che in ogni istante occupano una porzione del cerchio, iniziando dal primo pacchetto non ancora confermato.
 
 ### Regole di generazione degli ACK
 
@@ -109,8 +109,8 @@ Client:
 
 Ritrasmissione di segmenti da parte del server:
 
-- Scade il timer del segmento più vecchio (il primo segmento all'inizio della finestra di invio) -> si ritrasmette il pacchetto e viene riattivato il timer.
-- 3 ack duplicati (4 totali uguali) -> il client fa la "ritrasmissione veloce" solo del segmento più vecchio, cioè non attente il timeout. **Questo è un approccio ibrido tra [[meccanismi di trasporto affidabile|Go back N e Selective repeat]]**.
+- Scade il timer del segmento più vecchio ricevuto ma non riscontrato (il primo segmento all'inizio della finestra di invio) -> avviene il Go Back N e viene resettato il timer.
+- 3 ack duplicati (4 totali uguali) -> il client fa la "ritrasmissione veloce" solo del segmento più vecchio, e non attende il timeout. **Questo è un approccio ibrido tra [[meccanismi di trasporto affidabile|Go back N e Selective repeat]]**.
 
 ## Controllo di flusso
 
@@ -118,11 +118,11 @@ Se la velocità di produzione dei pacchetti da inviare è maggiore della velocit
 
 Se invece la velocità di produzione è minore della velocità di consumo, il consumatore deve stare in attesa, riducendo l'efficienza del sistema.
 
-Il primo problema non è grave, ma il primo sì ed è quello di cui si occupa il **controllo di flusso**.
+Il secondo problema non è grave, ma il primo sì ed è quello di cui si occupa il **controllo di flusso**.
 
 Bisogna fare il controllo di flusso su due connessioni:
 
-- processo applicazione (produttore) e livello di trasporto dell'host mittente (consumatore),
+- processo applicazione (produttore) e livello di trasporto (consumatore) dell'host mittente,
 - livello di trasporto dell'host mittente (produttore) e livello di trasporto dell'host ricevente (consumatore).
 
 In ognuno di questi due casi si risolve con un *buffer* di pacchetti.
@@ -146,9 +146,9 @@ Sintomi:
 
 Il suo controllo consiste nel mantenere il **carico della rete sotto la capacità** della stessa.
 
-I due approcci per controllare la connessione sono:
+I due approcci per controllare la congestione sono:
 
-- Il controllo **end-to-end** usato da TCP, dove la connessione è dedotta dalle perdite e i ritardi nei sistemi terminali.
+- Il controllo **end-to-end** usato da TCP, dove la congestione è dedotta dalle perdite e dai ritardi nei sistemi terminali.
 - Il controllo assistito dalla rete, dove i router danno un feedback ai sistemi terminali.
 
 ### Come il mittente limita la frequenza di invio
@@ -165,7 +165,7 @@ L'idea è di incrementare il rate di trasmissione se non c'è congestione (gli a
 2. Inizia lo **slow start**:
 	1. A ogni ACK segue CWND = CWND + 1 (raddoppio esponenziale);
 	2. Se si perde un pacchetto: sstresh = CWND/2;
-	3. Se si raggiunge la soglia *sstresh* (*Slow Start Threshold*, inizializzata a 16), si ferma lo slow start e si inizia il **congestion avoidance**;
+	3. Se la CWND raggiunge la soglia *sstresh* (*Slow Start Threshold*, inizializzata a 16), si ferma lo slow start e si inizia il **congestion avoidance**;
 3. Inizia il **congestion avoidance**:
 	1. CWND incrementa di uno a ogni istante;
 	2. Al timeout si imposta:

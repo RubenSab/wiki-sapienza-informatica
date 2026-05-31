@@ -1,7 +1,9 @@
 ---
-updated_at: 2026-05-29T19:57:21.170+02:00
+updated_at: 2026-05-31T18:49:13.747+02:00
 ---
 > Codice classroom: f5ubehac
+
+[[Formulario reti di elaboratori]]
 
 - Concetti preliminari
 	- [[rete]]

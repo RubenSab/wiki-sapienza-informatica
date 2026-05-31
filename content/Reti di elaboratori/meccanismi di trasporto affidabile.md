@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-05-22T17:36:16.429+02:00
+updated_at: 2026-05-31T11:10:57.396+02:00
 ---
 Tutti questi [[protocollo|protocolli]] sono orientati alla connessione, hanno il controlli di flusso e il controllo degli errori, ma solo il *Selective repeat* ha il controllo della congestione.
 
@@ -16,7 +16,7 @@ Tutti questi [[protocollo|protocolli]] sono orientati alla connessione, hanno il
 
 Per individuare pacchetti duplicati, stop and wait usa i numeri di sequenza 0 e 1. Il numero di ack si riferisce al prossimo pacchetto atteso (in modulo 2) dal ricevente.
 
-Stop and wait è estremamente inefficiente perché i bit inviati in ogni momento (un solo pacchetto) sono costanti indipendentemente dal volume della pipe in bit (prodotto bit rate per ritardo).
+Stop and wait è estremamente inefficiente perché i bit inviati in ogni momento (un solo pacchetto) sono costanti indipendentemente dal volume del pipe in bit (prodotto bit rate per ritardo).
 
 # Go back N
 
@@ -55,8 +55,8 @@ Il ricevente invia riscontri specifici per tutti i pacchetti ricevuti correttame
 
 > N.B.: Finestra di invio e ricezione hanno la stessa dimensione.
 
-> N.B.: Qui cli ack sono **individuali** e non cumulativi; si riferiscono al singolo pacchetto ricevuto correttamente, non al prossimo atteso.
+> N.B.: Qui gli ack sono **individuali** e non cumulativi; si riferiscono al singolo pacchetto ricevuto correttamente, non al prossimo atteso.
 
 # Piggybacking
 
-> Tutti i protocolli sopra solo unidirezionali, cioè hanno una direzione per i pacchetti e una per gli ack. Dato così che per creare una comunicazione bidirezionale servirebbero quattro canali, si usa la tecnica del **piggybacking**: quando un pacchetto trasporta dati da A a B, può trasportare anche gli ack dei pacchetti ricevuti da B e viceversa.
+> Tutti i protocolli sopra solo unidirezionali, cioè hanno una direzione per i pacchetti e una per gli ack. Dato che così per creare una comunicazione bidirezionale servirebbero quattro canali, si usa la tecnica del **piggybacking**: quando un pacchetto trasporta dati da A a B, può trasportare anche gli ack dei pacchetti ricevuti da B e viceversa. In questo modo entrambi gli host possono essere sia mittenti che riceventi, usando solo 2 canali totali.

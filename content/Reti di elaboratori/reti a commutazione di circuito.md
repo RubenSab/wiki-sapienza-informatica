@@ -21,4 +21,4 @@ Le risorse non utilizzate da una comunicazione fra due utenti non possono essere
 Esistono due modi di dividere queste risorse:
 
 - **FDM (Frequency Division Multiplexing)**: si alloca un range di frequenze per ogni utente. ^160385
-- **TDM (Time Division Multiplexing)**: si allocano degli intervalli di tempo a turno per ogni utente.
+- **TDM (Time Division Multiplexing)**: si allocano degli intervalli di tempo a turno per ogni utente. ^c01548
