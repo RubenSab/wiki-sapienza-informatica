@@ -1,7 +1,7 @@
 ---
-updated_at: 2026-05-27T22:59:07.881+02:00
+updated_at: 2026-06-01T17:27:15.373+02:00
 ---
-> **Broadcast** (al contrario di Unicast) è l'invio di un pacchetto da un nodo della [[rete]] a tutti gli altri. Per renderlo possibile esiste l'**[[indirizzi IP|Indirizzo IP]] broadcast**.
+> **Broadcast** (al contrario di Unicast) è l'invio di un pacchetto da un nodo della [[rete]] a tutti gli altri. Per renderlo possibile esiste l'**[[IP (Internet Protocol)|Indirizzo IP]] broadcast**.
 
 Si può eseguire con:
 

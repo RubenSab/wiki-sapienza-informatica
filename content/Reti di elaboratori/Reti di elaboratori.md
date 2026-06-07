@@ -1,9 +1,12 @@
 ---
-updated_at: 2026-05-31T18:49:13.747+02:00
+updated_at: 2026-06-07T13:15:38.054+02:00
 ---
 > Codice classroom: f5ubehac
 
+> N.B.: Manca il livello di collegamento e la sicurezza di rete.
+
 [[Formulario reti di elaboratori]]
+[[Tipologie di esercizi]]
 
 - Concetti preliminari
 	- [[rete]]
@@ -15,6 +18,7 @@ updated_at: 2026-05-31T18:49:13.747+02:00
 - [[stack protocollare TCP-IP]]
 	- [[cosa succede quando si fa una richiesta HTTPS?]]
 	- livello applicazione
+		- [[creare un'applicazione di rete]]
 		- [[WWW (World Wide Web)]]
 	    - [[HTTP (HyperText Transfer Protocol)]]
 	    - [[URL]]
@@ -28,27 +32,52 @@ updated_at: 2026-05-31T18:49:13.747+02:00
 	    - [[TCP (Transmission Control Protocol)]]
 	- livello di rete
 		- [[routing e forwarding]]
+		- protocolli di instradamento (routing)
+			- [[RIP (Routing Information Protocol)]]
+			- [[OSPF (Open Shortest Path First)]]
+			- [[routing su Internet e BGP]]
 	    - [[IP (Internet Protocol)]]
 	    - [[broadcast]]
-	    - [[multicast e IGMP]]
-	    - [[IPv4 (Internet Protocol version 4)]]
-	    - [[IPv6 (Internet Protocol version 6)]]
+	    - [[multicast e IGMP (Internet Group Management Protocol)]]
 	    - [[DHCP (Dynamic Host Configuration Protocol)]]
 	    - [[NAT (Network Address Translation)]]
 	    - [[ICMP (Internet Control Message Protocol)]]
-	    - [[OSPF (Open Shortest Path First)]]
-	    - [[routing su Internet e BGP]]
-	- [[livello di collegamento]]
-		- [[servizi offerti dal livello di collegamento]]
-	    - [[DLC (Data Link Control)]]
-	    - [[MAC (Media Access Control)]]
-	    - [[ARP (Address Resolution Protocol)]]
-	    - [[Ethernet]]
-	    - [[VLAN (Virtual Local Area Network)]]
-
-Da sistemare
-
-- [[creare un'applicazione di rete]]
-- [[HTTP (HyperText Transfer Protocol)]]
-- [[cookie]]
-- [[DNS (Domain Name System)]]
+	- Da sapere sul livello di collegamento: sta tutto su lezione_reti_MAC, lezione_reti_Ethernet, lezione_reti_WirelessLAN
+		- servizi offerti dal livello di collegamento
+	    - Sottolivelli
+		    - DLC (Data Link Control)
+		    - [[MAC (Media Access Control)]]
+		- ARP (Address Resolution Protocol)
+	    - Ethernet
+	    - VLAN (Virtual Local Area Network)
+		- Controllo e correzione degli errori
+		- Protocolli MAC per l'accesso multiplo (non punto punto)
+			- ad accesso casuale
+				- definizione di efficienza
+				- ALOHA
+				- CSMA/CD
+				- CSMA/CA
+			- ad accesso controllato
+				- reservation
+				- polling
+				- token passing
+			- a suddivisione dei canali (saperli giusto di nome)
+				- FDMA
+				- TDMA
+				- CDMA
+		- Indirizzi MAC
+		- Problema della compatibilità tra Ethernet 10 Mbps e 100 Mbps
+			- prima soluzione con repeater e hub
+			- soluzione con switch
+		- Autoapprendimento della tabella di routing
+		- LAN virtuali
+		- LAN wireless
+			- Differenze tra mezzo wireless e cablato
+			- Controllo degli errori e Signal To Noise Ratio
+			- Hidden terminal problem
+			- Elementi di una LAN wireless
+			- IEEE 802.11
+			- BSS e architettura ESS
+			- MAC 802.11
+			- CSMA/CA, spazio interframe e finestra di contesa, NAV, segnali, RTS e CTS
+			- stazione esposta (risolta con indirizzi specifici per destinatario e mittente RTS e CTS)

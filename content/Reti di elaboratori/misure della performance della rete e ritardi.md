@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-05-31T17:50:17.200+02:00
+updated_at: 2026-06-01T18:03:38.567+02:00
 ---
 # Ampiezza di banda
 
@@ -39,11 +39,9 @@ La latenza è quindi la somma tra:
 ## Ordini di grandezza
 
 - **ritardo di elaborazione**: pochi microsecondi o meno.
-- **ritardo di accodamento**: dipende dalla congestione della rete ma non si può dire niente in formule. #todo pag. 33 pdf. 2
+- **ritardo di accodamento**: dipende dalla congestione della rete ma non si può dire niente in formule.
 - **ritardo di trasmissione**: significativo per i collegamenti a bassa bit rate.
 - **ritardo di propagazione**: pochi microsecondi a centinaia di millisecondi.
-
-#todo pag. 33-49 pdf. 2
 
 # Esercizi
 

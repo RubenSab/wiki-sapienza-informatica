@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-05-18T11:44:31.207+02:00
+updated_at: 2026-06-01T18:03:08.430+02:00
 ---
 > È un'applicazione [[Internet]] nata dalla necessità di scambio e condivisione di informazioni tra ricercatori e università. Opera su richiesta, è caratterizzata da collegamenti ipertestuali e la sua navigazione è facilitata dai motori di ricerca.
 
@@ -15,7 +15,7 @@ updated_at: 2026-05-18T11:44:31.207+02:00
 	- Protocolli:
 		- [[HTTP (HyperText Transfer Protocol)]]
 		- [[FTP (File Transfer Protocol)]]
-		- [[SSH]]
+		- SSH
 		- [[protocolli per le email]]
 		- ...
 

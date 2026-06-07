@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-05-18T18:57:46.503+02:00
+updated_at: 2026-06-01T18:02:56.026+02:00
 ---
 > È un protocollo a [[stack protocollare TCP-IP|livello applicazione]] per la comunicazione tra client e server [[WWW (World Wide Web)|Web]].
 
@@ -20,7 +20,7 @@ Ciò può avvenire a catena se un file ne referenzia un altro.
 
 Le connessioni possono essere **non persistenti** (connessione TCP separata aperta e poi chiusa per ogni oggetto) oppure **persistenti** (come di default, si fa una sola connessione TCP per più oggetti, terminata con un timeout).
 
-> Il **tempo di risposta** è definito come la somma di questi tempi: un [[RTT]] per la richiesta + accettazione della connessione TCP, un RTT uguale per la richiesta + risposta HTTP e il [[tempo di trasmissione]] dell'oggetto HTTP a metà di quest'ultimo.
+> Il **tempo di risposta** è definito come la somma di questi tempi: un RTT per la richiesta + accettazione della connessione TCP, un RTT uguale per la richiesta + risposta HTTP e il tempo di trasmissione dell'oggetto HTTP a metà di quest'ultimo.
 
 ## Formato di una richiesta HTTP
 

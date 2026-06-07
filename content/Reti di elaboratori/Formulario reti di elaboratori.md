@@ -1,8 +1,14 @@
 ---
-updated_at: 2026-05-31T18:48:03.430+02:00
+updated_at: 2026-06-04T00:36:07.385+02:00
 ---
+- Blocchi [[IP (Internet Protocol)|IP]]
+	- Numero di indirizzi nel blocco = $\neg(\text{maschera}) + 1$
+	- Primo indirizzo del blocco = $\text{indirizzo qualsiasi} \land \text{maschera}$
+	- Ultimo indirizzo del blocco = $\text{indirizzo qualsiasi} \lor \neg\text{maschera}$
+- Tempo di vulnerabilità di Aloha puro = $2 \cdot \text{tempooo di propagazione}$
+- Efficienza Aloha puro = 0.184
 - [[misure della performance della rete e ritardi|Ritardo]] trasmissione: $\frac{\text{lunghezza del pacchetto in bit}}{\text{rate del collegamento in bps}}$
-- Ritardo propagazione: $\frac{\text{lunghezza del collegamento fisico in metri}}{\approx \ 2 \cdot 10^{8} \frac{m}{s}\ \text{velocità della luce}}$
+- Ritardo propagazione: $\frac{\text{lunghezza del collegamento fisico in metri}}{\approx \ 2 \cdot 10^{8} \frac{m}{s}\ \text{velocità della luce}}$ IL RITARDO DI PROPAGAZIONE DIPENDE SOLO DALLA DISTANZA
 - Ritardo di nodo: $\text{r. processing} + \text{r. accodamento} + \text{r. trasmissione} + \text{r. propagazione}$
 - Intensità del traffico: $\frac{\text{pacchetto in bit}\ \cdot \ \text{tasso medio arrivo pacchetti}}{\text{r. trasmissione}}$ (il ritardo di accodamento aumenta rispetto ad esso, con asintoto verticale a $\text{intensità} = 1$)
 	- $\approx 0$: poco traffico;
@@ -13,6 +19,7 @@ updated_at: 2026-05-31T18:48:03.430+02:00
 - Utilizzo: $\frac{\text{traffico}}{\text{capacità}}$ (in percentuale o rapporto)
 - Rate del singolo host in [[reti a commutazione di circuito#^c01548|TDM]]: $\frac{\text{rate}}{\text{slot di tempo}}$
 - Rate del singolo host in [[reti a commutazione di circuito#^160385|FDM]]: $\frac{\text{rete}}{\text{numero di canali (ugualmente larghi)}}$
+- Throughput slotted ALOHA: probabilità che la stazione trasmetta e tutte le altre no
 - Throughput: $\min(\text{rate del link 1}, \dots, \text{rate del link n})$. Nei link condivisi per il singolo flusso è $\frac{\text{throughtput link}}{\text{numero link}}$
 - Throughput massimo in [[TCP (Transmission Control Protocol)|TCP]]: $\frac{\text{lunghezza massima pacchetto}}{\text{RTT} \cdot \sqrt{\text{tasso di packet loss}}}$ 
 - RTT stimato:
@@ -42,3 +49,5 @@ $$
 - Round Trip Time: $\text{ritardo di trasmissione} + 2 \cdot \text{ritardo di propagazione}$
 
 ![[Pasted image 20260531183117.png]]
+
+"Due sistemi terminali appartenenti a reti LAN diverse possono avere lo stesso indirizzo IP" è falsa.

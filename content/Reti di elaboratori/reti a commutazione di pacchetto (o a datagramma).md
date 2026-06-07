@@ -1,13 +1,13 @@
 ---
-updated_at: 2026-05-26T09:46:26.315+02:00
+updated_at: 2026-06-01T19:03:12.046+02:00
 ---
 > La comunicazione fra due sistemi terminali della [[rete]] è discontinua e viene effettuata attraverso blocchi di dati detti **pacchetti** divisi in blocchi di dimensione fissa. Non bisogna creare percorsi e riservare alcuna risorsa per i singoli utenti. I pacchetti vengono inoltrati dai [[router]] utilizzando l'indirizzo [[IP (Internet Protocol)]] dell'host destinatario.
 
-Le [[routing e forwarding|tabelle di routing]] mappano intervalli di indirizzi IP destinazione (memorizzati come *prefissi*) a interfacce di output.
+Le [[routing e forwarding|tabelle di routing]] mappano intervalli di indirizzi IP destinazione (memorizzati come *prefissi*) a indirizzi IP dei salti successivi, con relative interfacce di output. ^849e8c
 
 > Un **prefisso** IP è una stringa binaria più corta di un indirizzo IP. Può esprimere intervalli di indirizzi IP. Ad esempio se la stringa `..1010` è più corta di 2 caratteri di un indirizzo IP, allora può esprimere gli indirizzi `..101000`, `..101001`, `..101010` e `..101011`.
 
-In casi di corrispondenze multiple di usa sempre il prefisso più lungo.
+> N.B.: un datagramma IP non indica la lunghezza del prefisso di rete, quindi in casi di corrispondenze multiple di usa sempre il prefisso più lungo. Gli intervalli contigui vengono aggregati.
 
 I blocchi possono prendere percorsi diversi e arrivare in ordine diverso alla destinazione, che dovrà riordinarli.
 

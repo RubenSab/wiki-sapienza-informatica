@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-05-26T16:00:43.761+02:00
+updated_at: 2026-06-01T19:44:59.929+02:00
 ---
 >**PDU**: *Protocol Data Unit*, cioè i messaggi, i segmenti, i datagrammi, i frame e infine i bit.
 
@@ -43,13 +43,13 @@ L'applicazione (ad esempio il browser) in esecuzione nel livello **applicazione*
 
 > Gestisce il routing tra host (indirizzi IP).
 
-1. Se l'IP destinazione non è nella cache (la quale mappa gli [[IP (Internet Protocol)]] destinazione al [[MAC (Media Access Control)]] del prossimo hop del cammino per arrivarci partendo dall'host corrente), fa la risoluzione [[ARP (Address Resolution Protocol)]] (operando tra i livelli di rete e di collegamento):
+1. Se l'IP destinazione non è nella cache (la quale mappa gli [[IP (Internet Protocol)]] destinazione al [[MAC (Media Access Control)]] del prossimo hop del cammino per arrivarci partendo dall'host corrente), fa la risoluzione ARP (Address Resolution Protocol) (operando tra i livelli di rete e di collegamento):
 	1. Il client ARP (integrato nel sistema operativo) invia una richiesta l server ARP.
 	2. Il server controlla la tabella ARP per trovare l'indirizzo MAC associato al prossimo hop del cammino verso l'IP di destinazione.
 	3. Se l'IP non è nella tabella, il server invia tramite il client ARP una richiesta ARP broadcast sulla rete locale, i cui dispositivi fungono da server ARP: il dispositivo con l'indirizzo IP target risponde con il proprio indirizzo MAC.
 	4. Il server e il client ottengono il MAC di destinazione e aggiornano le loro tabelle ARP.
 2. Fa il **multiplexing**: Combina segmenti TCP e UDP da più flussi in un unico flusso verso il livello di collegamento, distinguendoli in entrata per numero di protocollo di trasporto.
-3. Fa l'**incapsulamento**: aggiunge un header di rete ([[IPv4 (Internet Protocol version 4)]], [[IPv6 (Internet Protocol version 6)]], ARP) con:
+3. Fa l'**incapsulamento**: aggiunge un header di rete (IPv4, IPv6, ARP) con:
 	1. l'indirizzo IP sorgente (immutabile per la singola interfaccia di rete WiFi o Ethernet, configurato sulla scheda di rete dell'host),
 	2. l'indirizzo IP destinazione (trovato con la risoluzione DNS),
 	3. il numero del protocollo (campo Protocol, 6 per TCP e 17 per UDP) per indicare al livello inferiore di collegamento il protocollo di Rete da cui proviene la PDU, formando un **datagramma**.
@@ -64,7 +64,7 @@ L'applicazione (ad esempio il browser) in esecuzione nel livello **applicazione*
 2. Fa l'**incapsulamento**: aggiunge un header di collegamento con:
 	1. indirizzo MAC del prossimo nodo (trovato con la risoluzione ARP),
 	2. indirizzo MAC sorgente (configurato sulla scheda di rete dell'host),
-	3. nome EtherType del protocollo (ad esempio [[Ethernet]]) per indicare al livello fisico il protocollo da cui proviene la PDU, formando un **frame**.
+	3. nome EtherType del protocollo (ad esempio Ethernet) per indicare al livello fisico il protocollo da cui proviene la PDU, formando un **frame**.
 3. Inoltra il frame al livello fisico con il protocollo appropriato.
 
 ## [[stack protocollare TCP-IP#^2f0c82|Livello fisico]] (PDU = bit)

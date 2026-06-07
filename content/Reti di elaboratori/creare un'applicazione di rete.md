@@ -1,8 +1,6 @@
 ---
-updated_at: 2026-03-03T16:36:18.073+01:00
+updated_at: 2026-06-01T19:42:58.424+02:00
 ---
-#todo pag 41-48 lezione 3
-
 Per creare un'applicazione di [[rete]] è necessario sviluppare software solo sul livello applicazione dello [[stack protocollare TCP-IP]], perché è quello che fornisce servizi all'utente; mentre gli altri livelli si possono dare per scontato perché sono già implementati nell'architettura software/hardware di [[Internet]].
 
 I due utenti possono immaginare che tra di essi esista un canale
@@ -20,6 +18,6 @@ Quando si fa un'applicazione bisogna fare delle scelte architetturali:
 
 # Paradigmi architetturali
 
-- [[client-server]]
-- [[(P2P) Peer To Peer]]
-- architetture ibride
+- Client-Server
+- (P2P) Peer To Peer
+- architetture ibride tra i due

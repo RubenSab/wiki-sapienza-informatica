@@ -1,0 +1,24 @@
+---
+updated_at: 2026-06-07T16:06:46.601+02:00
+---
+- Applicazione
+	- Resource Record nei [[DNS (Domain Name System)]]
+	- Scrivere i passi di un'interrogazione DNS
+	- Interpretare richiesta/risposta [[HTTP (HyperText Transfer Protocol)]]
+	- Scrivere richiesta/risposta HTTP
+- Trasporto
+	- Eventi e ACK nei server [[TCP (Transmission Control Protocol)]]
+	- Grafico CWND su tempo in TCP Tahoe e Reno
+	- Dimensione finestra di invio
+- Rete
+	- creare il Link state DB e i distance vector di una rete
+- Collegamento
+	- Effetto del rumore in bit
+	- RTT stimato
+	- Rate, ritardi, throughput, volume del collegamento su [[reti a commutazione di pacchetto (o a datagramma)]]
+	- [[reti a commutazione di circuito]], FDM e TDM
+	- Pacchetti spediti con successo in Aloha, Slotted Aloha, CSMA/CD
+	- Tempo di vulnerabilità aloha puro
+	- Probabilità di trasmissione istantanea nel backoff esponenziale
+	- Throughput delle stazioni Aloha
+	- Lunghezza totale della [[rete]]

@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-05-22T23:31:49.516+02:00
+updated_at: 2026-06-01T19:44:33.668+02:00
 ---
 *Vedi [[cosa succede quando si fa una richiesta HTTPS?]]*
 
@@ -40,9 +40,9 @@ updated_at: 2026-05-22T23:31:49.516+02:00
 | Nome dei pacchetti  | Livello      | Indirizzo                   |
 | ------------------- | ------------ | --------------------------- |
 | messaggio           | applicazione | nomi (dei siti web o email) |
-| segmento/datagramma | trasporto    | [[numeri di porta]]         |
-| datagramma          | rete         | [[indirizzi IP]]            |
-| frame               | collegamento | [[indirizzi MAC]]           |
+| segmento/datagramma | trasporto    | numeri di [[porta]]         |
+| datagramma          | rete         | indirizzi IP                |
+| frame               | collegamento | indirizzi MAC               |
 | bit                 | fisico       |                             |
 # Vantaggi e svantaggi del layering
 
