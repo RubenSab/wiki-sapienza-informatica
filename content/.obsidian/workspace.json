@@ -73,7 +73,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "BOZZE/Categorie brain.md",
+                "file": "Algebra/Algebra.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -88,7 +88,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Categorie brain"
+              "title": "Algebra"
             }
           }
         ],
@@ -283,6 +283,7 @@
   },
   "active": "88d27485d34c0e11",
   "lastOpenFiles": [
+    "BOZZE/Categorie brain.md",
     "Progettazione di sistemi digitali/esempio di progettazione dell'automa della macchina distributrice.md",
     "Progettazione di sistemi digitali/automa a stati finiti (finite state automata).md",
     "appunti del secondo anno.md",
@@ -298,7 +299,6 @@
     "Reti di elaboratori/ISP (Internet Service Provider).md",
     "Reti di elaboratori/WAN (Wide Area Network).md",
     "Reti di elaboratori/Reti di elaboratori.md",
-    "BOZZE/Categorie brain.md",
     "Calcolo delle probabilità/disuguaglianza di Ghebyshev.md",
     "Basi di dati/file hash.md",
     "Algebra/Algebra.md",
