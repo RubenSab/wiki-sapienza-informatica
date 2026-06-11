@@ -73,7 +73,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Algebra.md",
+                "file": "Interdisciplinare/relazione.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -88,7 +88,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Algebra"
+              "title": "relazione"
             }
           }
         ],
@@ -283,6 +283,7 @@
   },
   "active": "88d27485d34c0e11",
   "lastOpenFiles": [
+    "Algebra/Algebra.md",
     "BOZZE/Categorie brain.md",
     "Progettazione di sistemi digitali/esempio di progettazione dell'automa della macchina distributrice.md",
     "Progettazione di sistemi digitali/automa a stati finiti (finite state automata).md",
@@ -301,7 +302,6 @@
     "Reti di elaboratori/Reti di elaboratori.md",
     "Calcolo delle probabilità/disuguaglianza di Ghebyshev.md",
     "Basi di dati/file hash.md",
-    "Algebra/Algebra.md",
     "Reti di elaboratori/cosa succede quando si fa una richiesta HTTPS?.md",
     "Reti di elaboratori/MAC (Media Access Control).md",
     "Reti di elaboratori/ICMP (Internet Control Message Protocol).md",
