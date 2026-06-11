@@ -1,7 +1,7 @@
 ---
-updated_at: 2026-05-29T16:23:29.227+02:00
+updated_at: 2026-06-09T20:15:09.680+02:00
 ---
-[[Internet]] è una [[rete]] troppo grande per usare un solo [[protocollo]] di [[routing e forwarding|routing]]. Inoltre ogni [[ISP (Internet Service Provider)]] vuole imporre **politiche** specifiche sul suo traffico.
+[[Internet]] è una [[rete]] troppo grande per essere instradata da un solo [[protocollo]] di [[routing e forwarding|routing]]. Inoltre ogni [[ISP (Internet Service Provider)]] vuole imporre **politiche** specifiche sul suo traffico.
 
 > Ogni ISP è un AS (Autonomous System) che esegue un protocollo di routing intra-dominio, cioè **IGP (Interior Gateway Protocol)** e protocolli di forwarding come [[RIP (Routing Information Protocol)]] o [[OSPF (Open Shortest Path First)]].
 
@@ -26,7 +26,7 @@ Consente a ogni [[router]] in un AS di:
 
 > In BGP coppie di router, detti **peer BGP** si scambiano tabelle di routing su connessioni [[TCP (Transmission Control Protocol)]] usando la [[porta]] 179. La sessione dei messaggi inviati è detta **sessione BGP**. Le connessioni possono anche non corrispondere direttamente a collegamenti fisici.
 
-È un protocollo path vector come [[RIP (Routing Information Protocol)]], **ma le voci della tabella di routing hanno percorsi interi per raggiungere un determinata destinazione invece di avere solo la destinazione stessa.**
+È un protocollo path vector (invece [[RIP (Routing Information Protocol)]] è distance vector), **ma le voci della tabella di routing hanno percorsi interi per raggiungere un determinata destinazione invece di avere solo la destinazione stessa.**
 
 Ogni volta che un nodo $X$ riceve una copia del vettore di $Y$ esegue questo aggiornamento:
 

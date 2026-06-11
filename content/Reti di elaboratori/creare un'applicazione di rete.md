@@ -1,10 +1,9 @@
 ---
-updated_at: 2026-06-01T19:42:58.424+02:00
+updated_at: 2026-06-09T19:08:23.565+02:00
 ---
 Per creare un'applicazione di [[rete]] è necessario sviluppare software solo sul livello applicazione dello [[stack protocollare TCP-IP]], perché è quello che fornisce servizi all'utente; mentre gli altri livelli si possono dare per scontato perché sono già implementati nell'architettura software/hardware di [[Internet]].
 
-I due utenti possono immaginare che tra di essi esista un canale
-logico bidirezionale attraverso il quale si possono inviare messaggi.
+I due utenti possono immaginare che tra di essi esista un canale logico bidirezionale attraverso il quale si possono inviare messaggi.
 
 Un protocollo che viene aggiunto a un dato livello deve essere progettato in modo da usare i servizi del livello inferiore.
 

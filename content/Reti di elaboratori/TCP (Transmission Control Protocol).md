@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-05-31T18:42:43.486+02:00
+updated_at: 2026-06-09T20:00:28.714+02:00
 ---
 > È un [[protocollo]] del livello di trasporto dello [[stack protocollare TCP-IP]].
 
@@ -97,7 +97,7 @@ Ricevuto l'ack del pacchetto `p`, il destinatario libera la posizione di memoria
 
 > Il buffer viene rappresentato con un insieme di settori *di lunghezza prefissata* chiamati **sliding windows**, che in ogni istante occupano una porzione del cerchio, iniziando dal primo pacchetto non ancora confermato.
 
-### Regole di generazione degli ACK
+## Regole di generazione degli ACK
 
 Client:
 
@@ -109,7 +109,7 @@ Client:
 
 Ritrasmissione di segmenti da parte del server:
 
-- Scade il timer del segmento più vecchio ricevuto ma non riscontrato (il primo segmento all'inizio della finestra di invio) -> avviene il Go Back N e viene resettato il timer.
+- Scade il timer del segmento più vecchio ricevuto ma non riscontrato (il primo segmento all'inizio della finestra di invio) -> il client ritrasmette il segmento più vecchio non riscontrato e viene resettato il timer.
 - 3 ack duplicati (4 totali uguali) -> il client fa la "ritrasmissione veloce" solo del segmento più vecchio, e non attende il timeout. **Questo è un approccio ibrido tra [[meccanismi di trasporto affidabile|Go back N e Selective repeat]]**.
 
 ## Controllo di flusso
@@ -163,9 +163,9 @@ L'idea è di incrementare il rate di trasmissione se non c'è congestione (gli a
 
 1. Si inizializza CWND a 1 segmento;
 2. Inizia lo **slow start**:
-	1. A ogni ACK segue CWND = CWND + 1 (raddoppio esponenziale);
+	1. A ogni ACK segue CWND = CWND + 1 (raddoppio esponenziale per ogni RTT);
 	2. Se si perde un pacchetto: sstresh = CWND/2;
-	3. Se la CWND raggiunge la soglia *sstresh* (*Slow Start Threshold*, inizializzata a 16), si ferma lo slow start e si inizia il **congestion avoidance**;
+	3. Se la CWND raggiunge la soglia *sstresh* (*Slow Start Threshold*, inizializzata per esempio a 16), si ferma lo slow start e si inizia il **congestion avoidance**;
 3. Inizia il **congestion avoidance**:
 	1. CWND incrementa di uno a ogni istante;
 	2. Al timeout si imposta:

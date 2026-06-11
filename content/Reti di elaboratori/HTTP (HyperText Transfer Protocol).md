@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-06-01T18:02:56.026+02:00
+updated_at: 2026-06-09T19:24:02.888+02:00
 ---
 > È un protocollo a [[stack protocollare TCP-IP|livello applicazione]] per la comunicazione tra client e server [[WWW (World Wide Web)|Web]].
 
@@ -41,7 +41,7 @@ GET /somedir/page.html HTTP/1.1
 Host: www.someschool.edu
 Connection: close
 User-agent: Mozilla/4.0
-Accept-language:it
+Accept-language: it
 ```
 
 ### Metodi di richiesta
@@ -78,7 +78,7 @@ Content-Type: text/html
 ### Codici di risposta
 
 - 100-199: Informazione
-- 200-299: Successo (esempio: 200 = request succeded)
+- 200-299: Successo (esempio: 200 = request succeeded)
 - 300-399: Ridirezione (esempio: 301 = page moved)
 - 400-499: Client error (esempio: 403 = forbidden page, 404 = page not found)
 - 500-599: Server error (esempio: 500 = internal server error)
@@ -110,5 +110,5 @@ Un cookie è fatto di:
 
 I cookie hanno un attributo `Max-Age` che definisce il loro tempo di vita in secondi dopo cui il client dovrebbe rimuovere il cookie, ma i server possono forzarlo a 0 per farlo rimuovere subito e chiudere la sessione.
 
-Esiste un'alternativa ai cookie: mantenere tutte le informazioni nel client e inviarle ad ogni richiesta al server nell'URL o nel metodo POST.
-È facile da implementare e non richiede overhead sul server, però si scambiano troppi dati e il server processa molti più dati.
+Esistono alternative ai cookie: mantenere tutte le informazioni nel client e inviarle ad ogni richiesta al server nell'URL o nel metodo POST.
+Sono facile da implementare e non richiedono overhead sul server, però ci si scambia troppi dati e il server processa molti più dati.

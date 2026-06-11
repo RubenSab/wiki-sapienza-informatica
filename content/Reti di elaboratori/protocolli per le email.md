@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-05-20T00:06:47.806+02:00
+updated_at: 2026-06-09T19:40:00.696+02:00
 ---
 # Infrastruttura per l'invio e ricezione di email
 
@@ -26,7 +26,7 @@ Il server di posta di Ricevente usa:
 # Protocolli
 ## SMTP
 
-> Viene usato sia per mandare email tra i server di posta, sia per mandare email dall'user agent del mittente al suo server di posta.
+> Viene usato sia per mandare email tra i server di posta, sia per mandare email dal message transfer agent del mittente al suo server di posta.
 
 Trasmette email in [[ASCII]] a 7 bit. Le email finiscono con `CRLF.CRLF`.
 
@@ -36,13 +36,13 @@ Il trasferimento avviene in tre fasi, handshaking, trasferimento e chiusura, coo
 
 Il trasferimento è diretto, niente server intermedi possibili.
 
-SMTP è detto un protocollo *push* perché il server di posta spedisce il [[file]] e inizializza la connessione TCP, ma HTTP è detto *pull* perché gli utenti scaricano i file e inizializzano le connessioni TCP.
+SMTP è detto un protocollo *push* perché il server di posta spedisce il [[file]] e inizializza la connessione TCP, invece HTTP è detto *pull* perché gli utenti scaricano i file e inizializzano le connessioni TCP.
 
 ### Formato dei messaggi
 
 > N.B.: I comandi SMTP sono diversi dalle righe di intestazione di RFC 822, lo standard del formato di testo delle email.
 
-Esempio:
+Esempio di email:
 
 ```
 Received: from mittente@email.com to destinatario@email.com; date (riga aggiuntiva inserita dal server di ricezione SMTP)
@@ -76,6 +76,6 @@ A differenza di POP3, tiene tutte le email sul server, consente all'utente di cr
 
 Inoltre ha dei comandi per ottenere solo l'intestazione o altre parti delle email.
 
-## [[HTTP (HyperText Transfer Protocol)]]
+# HTTP
 
 Alcuni mail server forniscono accesso (al client ricevente) alla mail via web.

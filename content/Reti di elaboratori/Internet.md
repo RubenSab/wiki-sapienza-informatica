@@ -1,10 +1,9 @@
 ---
-updated_at: 2026-03-03T15:43:14.299+01:00
+updated_at: 2026-06-09T19:02:19.612+02:00
 ---
 #todo  pag. 39-48 pdf 1
 
-- [[dorsale internet (backbone)]]
-- [[accesso internet]]
+- accesso internet
 - [[standard internet]]
 
 ---

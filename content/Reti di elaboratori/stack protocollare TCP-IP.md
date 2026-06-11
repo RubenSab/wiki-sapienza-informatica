@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-06-01T19:44:33.668+02:00
+updated_at: 2026-06-09T19:05:53.269+02:00
 ---
 *Vedi [[cosa succede quando si fa una richiesta HTTPS?]]*
 
@@ -44,10 +44,3 @@ updated_at: 2026-06-01T19:44:33.668+02:00
 | datagramma          | rete         | indirizzi IP                |
 | frame               | collegamento | indirizzi MAC               |
 | bit                 | fisico       |                             |
-# Vantaggi e svantaggi del layering
-
-#todo 25-27 lezione 4
-
-# Modello OSI
-
-#todo 28-30 lezione 4

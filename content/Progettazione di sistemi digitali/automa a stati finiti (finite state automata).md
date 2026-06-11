@@ -1,8 +1,10 @@
 ---
-updated_at: 2025-03-11T09:24:43.377+01:00
+updated_at: 2026-06-11T10:19:48.973+02:00
 ---
-# modelli di automa
-## modello di Mealy
+# Modelli di automa
+
+## Modello di Mealy
+
 secondo il modello di Mealy, l'automa a stati finiti è la struttura matematica che ha:
 
 - $\Sigma$: un'alfabeto finito di ingresso in cui sono scritti gli input
@@ -17,7 +19,8 @@ Esempio: (0, 01) -> 01
 
 ![[esempio Mealy.png]]
 
-## modello di Moore
+## Modello di Moore
+
 Differisce dal modello di Mealy solo per la funzione di uscita $\lambda$,  qui definita come $\lambda ': Q \rightarrow U$
 
 Nel modello di Moore, l'uscita prodotta dallo stato dell'automa + lo stato dell'automa stesso sono considerati come un singolo stato.
@@ -26,7 +29,8 @@ Nel modello di Moore, l'uscita prodotta dallo stato dell'automa + lo stato dell'
 
 ![[esempio Moore.png]]
 
-# tabella dell'automa
+# Tabella dell'automa
+
 Una tavola degli stati futuri può essere rappresentata come tabella dell'automa, le cui caselle rappresentano lo stato futuro dell'automa a partire dallo stato (sulla riga) avendo un'input (sulla colonna).
 
 | stati / input | 0          | 1          |

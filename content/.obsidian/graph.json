@@ -64,6 +64,13 @@
       }
     },
     {
+      "query": "path: \"Reti di elaboratori\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 14715647
+      }
+    },
+    {
       "query": "tag:todo",
       "color": {
         "a": 1,
@@ -75,6 +82,13 @@
       "color": {
         "a": 1,
         "rgb": 16711816
+      }
+    },
+    {
+      "query": "path: \"Interdisciplinare\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 16777215
       }
     },
     {
@@ -99,13 +113,6 @@
       }
     },
     {
-      "query": "path: \"Interdisciplinare\"  ",
-      "color": {
-        "a": 1,
-        "rgb": 16777215
-      }
-    },
-    {
       "query": "path: \"Algebra\"",
       "color": {
         "a": 1,
@@ -117,13 +124,6 @@
       "color": {
         "a": 1,
         "rgb": 14722386
-      }
-    },
-    {
-      "query": "path: \"Reti di elaboratori\"  ",
-      "color": {
-        "a": 1,
-        "rgb": 14715647
       }
     },
     {
@@ -144,6 +144,6 @@
   "repelStrength": 13.2432432432432,
   "linkStrength": 0.732848232848233,
   "linkDistance": 161,
-  "scale": 0.165931282312206,
+  "scale": 0.052071579801312835,
   "close": true
 }

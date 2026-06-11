@@ -1,20 +1,20 @@
 ---
-updated_at: 2026-03-02T15:08:23.146+01:00
+updated_at: 2026-06-11T10:15:42.323+02:00
 ---
 # Primo semestre
 
-| Corso                                           | Qualità |
-| ----------------------------------------------- | ------- |
-| [[calcolo differenziale]]                       | 2/3     |
-| [[progettazione di sistemi digitali]]           | 3/3     |
-| [[metodi matematici per l'informatica]]         | 1/3     |
-| niente appunti per Fondamenti di Programmazione | -       |
+| Corso                                           | Esaustività                                           | Argomenti elencati |
+| ----------------------------------------------- | ----------------------------------------------------- | ------------------ |
+| [[progettazione di sistemi digitali]]           | molto alta per alcuni argomenti e più bassa per altri | tutti              |
+| [[calcolo differenziale]]                       | bassa                                                 | tutti              |
+| [[metodi matematici per l'informatica]]         | bassa                                                 | pochi              |
+| niente appunti per Fondamenti di Programmazione | -                                                     | -                  |
 
 # Secondo semestre
 
-| Corso                              | Qualità |
-| ---------------------------------- | ------- |
-| [[metodologie di programmazione]]  | 1/3     |
-| [[architettura degli elaboratori]] | 3/3     |
-| [[calcolo integrale]]              | 1/3     |
-| [[introduzione agli algoritmi]]    | 2/3     |
+| Corso                              | Esaustività                               | Argomenti elencati |
+| ---------------------------------- | ----------------------------------------- | ------------------ |
+| [[architettura degli elaboratori]] | molto alta                                | tutti              |
+| [[introduzione agli algoritmi]]    | alta, tranne per gli algoritmi di sorting | tutti              |
+| [[metodologie di programmazione]]  | bassissima                                | circa metà         |
+| [[calcolo integrale]]              | zero                                      | pochi              |

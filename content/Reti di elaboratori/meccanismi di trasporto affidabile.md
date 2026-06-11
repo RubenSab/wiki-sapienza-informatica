@@ -1,7 +1,7 @@
 ---
-updated_at: 2026-05-31T11:10:57.396+02:00
+updated_at: 2026-06-09T19:50:11.852+02:00
 ---
-Tutti questi [[protocollo|protocolli]] sono orientati alla connessione, hanno il controlli di flusso e il controllo degli errori, ma solo il *Selective repeat* ha il controllo della congestione.
+Tutti questi [[protocollo|protocolli]] sono orientati alla connessione, hanno il controllo di flusso e il controllo degli errori, ma solo il *Selective repeat* ha il controllo della congestione.
 
 > I protocolli *GoBackN* e *Selective repeat* hanno il **pipelining**: il mittente ammette più pacchetti in transito, ancora da notificare.
 
@@ -59,4 +59,4 @@ Il ricevente invia riscontri specifici per tutti i pacchetti ricevuti correttame
 
 # Piggybacking
 
-> Tutti i protocolli sopra solo unidirezionali, cioè hanno una direzione per i pacchetti e una per gli ack. Dato che così per creare una comunicazione bidirezionale servirebbero quattro canali, si usa la tecnica del **piggybacking**: quando un pacchetto trasporta dati da A a B, può trasportare anche gli ack dei pacchetti ricevuti da B e viceversa. In questo modo entrambi gli host possono essere sia mittenti che riceventi, usando solo 2 canali totali.
+> Tutti i protocolli sopra solo unidirezionali, cioè hanno una direzione per i pacchetti e una per gli ack. Dato che così per creare una comunicazione bidirezionale servirebbero quattro canali, si usa la tecnica del **piggybacking**: quando un pacchetto trasporta dati da A a B, può trasportare anche gli ack dei pacchetti ricevuti da B e viceversa. In questo modo entrambi gli host possono essere sia mittenti che riceventi, usando solo 2 canali totali invece che 4.

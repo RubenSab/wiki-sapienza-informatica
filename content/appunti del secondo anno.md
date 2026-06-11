@@ -1,22 +1,21 @@
 ---
-updated_at: 2026-03-02T15:08:52.242+01:00
+updated_at: 2026-06-11T10:17:10.182+02:00
 ---
 # Primo semestre
 
-| Corso                                | Qualità |
-| ------------------------------------ | ------- |
-| [[Algebra]]                          | 3/3     |
-| [[Calcolo delle probabilità]]        | 3/3     |
-| [[Basi di dati]]                     | 3-/3 \* |
-| niente appunti per Sistemi operativi | -       |
+| Corso                                | Esaustività | Argomenti elencati                          |
+| ------------------------------------ | ----------- | ------------------------------------------- |
+| [[Algebra]]                          | molto alta  | tutti                                       |
+| [[Calcolo delle probabilità]]        | molto alta  | tutti                                       |
+| [[Basi di dati]]                     | molto alta  | tutti tranne il controllo della concorrenza |
+| niente appunti per Sistemi operativi | -           | -                                           |
 
 # Secondo semestre
 
-| **Corso**                      | **Qualità** |
-| ------------------------------ | ----------- |
-| [[Basi di dati 2]]             | -           |
-| [[Sistemi operativi 2]]        | -           |
-| [[Reti di elaboratori]]        | -           |
-| [[Progettazione di algoritmi]] | -           |
+| **Corso**                      | **Esaustività** | Argomenti elencati                                                |
+| ------------------------------ | --------------- | ----------------------------------------------------------------- |
+| [[Reti di elaboratori]]        | molto alta      | tutti tranne 4 note piccole rimaste incomplete marcate con \#todo |
+| [[Progettazione di algoritmi]] | molto alta      | tutti                                                             |
+| [[Sistemi operativi 2]]        | -               |                                                                   |
+| [[Basi di dati 2]]             | -               |                                                                   |
 
-\* Manca l'ultimo argomento (controllo della concorrenza)

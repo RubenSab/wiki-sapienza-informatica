@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-06-01T18:03:08.430+02:00
+updated_at: 2026-06-09T19:19:38.730+02:00
 ---
 > È un'applicazione [[Internet]] nata dalla necessità di scambio e condivisione di informazioni tra ricercatori e università. Opera su richiesta, è caratterizzata da collegamenti ipertestuali e la sua navigazione è facilitata dai motori di ricerca.
 
@@ -23,7 +23,7 @@ updated_at: 2026-06-01T18:03:08.430+02:00
 
 > Una **pagina** web è costituita da oggetti (richiesti e ricevuti nelle transazioni tra client e server) ed è formata da un **[[file]] base HTML**.
 
-> Un oggetto può essere un file HTML, un'immagine, un applet Java o altro.
+> Un oggetto può essere un file HTML, un'immagine o altro.
 
 > Ogni oggetto è referenziato da un **[[URL]]**.
 

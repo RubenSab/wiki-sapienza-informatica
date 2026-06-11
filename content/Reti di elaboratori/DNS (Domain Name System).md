@@ -1,7 +1,6 @@
 ---
-updated_at: 2026-05-26T15:50:40.568+02:00
+updated_at: 2026-06-09T19:28:19.923+02:00
 ---
-
 > Il DNS è un **protocollo a livello applicazione** che consente agli host di interrogare il data base per **risolvere** i nomi (tradurre da nome a indirizzi [[IP (Internet Protocol)]]).
 
 Gli host [[Internet]] hanno un nome, detto **hostname** (parte dell'[[URL]]). I nomi non danno informazioni sulla collocazione degli host su internet; per quello servono gli IP, quindi bisogna fare una traduzione da hostname a IP con il **Domain Name System**, un **[[database]] distribuito** implementato in una gerarchia di server DNS che rendono 4 miliardi di indirizzi IP facilmente accessibili in pochissimo tempo.

@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-06-01T18:03:38.567+02:00
+updated_at: 2026-06-09T19:04:35.964+02:00
 ---
 # Ampiezza di banda
 
@@ -13,11 +13,8 @@ Oppure si usa lo stesso termine per indicare il **bit rate massimo** di un link.
 
 # Throughput
 
-> Indica quanto velocemente riusciamo **effettivamente** a inviare i dati tramite una rete attraverso un suo nodo. Va misurata empiricamente in bps.
+> Indica quanto velocemente riusciamo **effettivamente** a inviare i dati tramite una [[rete]] attraverso un suo nodo. Va misurata empiricamente in bps.
 
-## Throughput end-to-end
-
-#todo pag. 19-23 .pdf 2
 
 # Latenza (ritardo di nodo o delay)
 

@@ -1,9 +1,9 @@
 ---
-updated_at: 2026-06-01T19:18:58.877+02:00
+updated_at: 2026-06-09T22:19:46.199+02:00
 ---
 > **Multicast** (al contrario di Unicast) è l'invio di un pacchetto da un nodo della [[rete]] a un **gruppo** di host. Per renderlo possibile esistono gli **[[IP (Internet Protocol)|indirizzi IP]] multicast** che associano più host.
 
-Il primo nibble degli indirizzi riservati per il multicast in IPv4 è 1110, poi c'è l'identificatore del gruppo.
+I primi 4 bit degli indirizzi riservati per il multicast in IPv4 sono `1110`, poi c'è l'identificatore del gruppo.
 Quindi il blocco di indirizzi va da `224.0.0.0` a `239.255.255.255` ($2^{28}$ gruppi sulla rete).
 
 Un host può partecipare a più gruppi diversi, entrarci e lasciarli anche molto velocemente, variando i suoi indirizzi IP multicast.
@@ -22,7 +22,7 @@ Opera nel contesto della connessione tra un host e un router collegato direttame
 - **Membership report**: messaggio mandato dall'host al router al momento dell'adesione per informarlo di essa.
 - **Leave group**: messaggio mandato dall'host al router quando si lascia un gruppo. È opzionale perché se il router non riceve più report su un gruppo in risposta alle query capisce che non ci sono più host associati ad esso.
 
-I router hanno una mappa che associa ogni multicast group memberships a un timer, che rimuove gruppi in base al timeout o messaggi di leave.
+I router hanno una mappa che associa ogni multicast group membership a un timer, che rimuove gruppi in base al timeout o messaggi di leave.
 
 # Albero del routing multicast per coordinare diversi router multicast
 

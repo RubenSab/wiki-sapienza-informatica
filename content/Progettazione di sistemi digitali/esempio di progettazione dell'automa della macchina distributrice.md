@@ -1,5 +1,10 @@
+---
+updated_at: 2026-06-11T10:20:10.113+02:00
+---
 >Progettare l'automa per una macchina distributrice che può ricevere 10€ e 20€ e fornisce il prodotto con 50€ e memorizza l'eventuale resto.
-# tabella dell'automa
+
+# Tabella dell'automa
+
 Bisogna partire dalla tabella, specificando il significato di ogni stato, usando anche i nomi.
 
 |          | 10 €       | 20 €       |
@@ -10,6 +15,6 @@ Bisogna partire dalla tabella, specificando il significato di ogni stato, usando
 | $S_{30}$ | $S_{40}/0$ | $S_{i}/1$  |
 | $S_{40}$ | $S_{i}/1$  | $S_{10}/1$ |
 
-# diagramma con il modello di Moore
+# Diagramma con il modello di Moore
 
 ![[caffè Moore.jpg]]

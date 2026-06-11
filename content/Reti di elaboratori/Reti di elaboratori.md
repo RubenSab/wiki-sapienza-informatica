@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-06-07T13:15:38.054+02:00
+updated_at: 2026-06-09T22:28:23.877+02:00
 ---
 > Codice classroom: f5ubehac
 
@@ -46,7 +46,7 @@ updated_at: 2026-06-07T13:15:38.054+02:00
 		- servizi offerti dal livello di collegamento
 	    - Sottolivelli
 		    - DLC (Data Link Control)
-		    - [[MAC (Media Access Control)]]
+		    - MAC (Media Access Control)
 		- ARP (Address Resolution Protocol)
 	    - Ethernet
 	    - VLAN (Virtual Local Area Network)

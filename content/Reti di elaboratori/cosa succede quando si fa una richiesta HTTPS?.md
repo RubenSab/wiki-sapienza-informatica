@@ -1,11 +1,11 @@
 ---
-updated_at: 2026-06-01T19:44:59.929+02:00
+updated_at: 2026-06-09T22:28:47.955+02:00
 ---
 >**PDU**: *Protocol Data Unit*, cioè i messaggi, i segmenti, i datagrammi, i frame e infine i bit.
 
-> Il **multiplexing** è l'atto di ricevere PDU in diversi protocolli/canali dal livello superiore, combinarli e trasmetterli in un unico flusso verso il livello inferiore.
+> Il **multiplexing** è l'atto di ricevere PDU in diversi protocolli/canali dal livello superiore, *incapsularli* e trasmetterli in un unico flusso verso il livello inferiore.
 
-> Il **demultiplexing** è l'atto di ricevere un unico flusso di PDU provenienti da diversi protocolli/canali, scomporre il flusso in base ai protocolli delle PDU e inoltrarli ai destinatari corretti.
+> Il **demultiplexing** è l'atto di ricevere un unico flusso di PDU provenienti da diversi protocolli/canali, scomporre il flusso in base ai protocolli delle PDU (*decapsulamento*) e inoltrarli ai destinatari corretti.
 
 >  L'**incapsulamento** è l'atto di aggiungere un header di metadati alla PDU necessari per la sua processazione al livello inferiore.
 
@@ -43,7 +43,7 @@ L'applicazione (ad esempio il browser) in esecuzione nel livello **applicazione*
 
 > Gestisce il routing tra host (indirizzi IP).
 
-1. Se l'IP destinazione non è nella cache (la quale mappa gli [[IP (Internet Protocol)]] destinazione al [[MAC (Media Access Control)]] del prossimo hop del cammino per arrivarci partendo dall'host corrente), fa la risoluzione ARP (Address Resolution Protocol) (operando tra i livelli di rete e di collegamento):
+1. Se l'IP destinazione non è nella cache (la quale mappa gli [[IP (Internet Protocol)]] destinazione al MAC (Media Access Control) del prossimo hop del cammino per arrivarci partendo dall'host corrente), fa la risoluzione ARP (Address Resolution Protocol) (operando tra i livelli di rete e di collegamento):
 	1. Il client ARP (integrato nel sistema operativo) invia una richiesta l server ARP.
 	2. Il server controlla la tabella ARP per trovare l'indirizzo MAC associato al prossimo hop del cammino verso l'IP di destinazione.
 	3. Se l'IP non è nella tabella, il server invia tramite il client ARP una richiesta ARP broadcast sulla rete locale, i cui dispositivi fungono da server ARP: il dispositivo con l'indirizzo IP target risponde con il proprio indirizzo MAC.
@@ -116,7 +116,7 @@ Lo switch:
 - Impara gli indirizzi MAC delle porte di ingresso memorizzandole nella tabella MAC per inoltrare i frame solo alla porta corretta.
 - Se lo switch non conosce il MAC destinazione, invia il frame in broadcast a tutte le porte tranne quella di ingresso.
 
-# Passaggio di PDU negli [[hub]]
+# Passaggio di PDU negli hub
 
 Gli hub inoltrano i bit in reti a stella ai dispositivi terminali collegati solo attraverso il livello fisico.
 

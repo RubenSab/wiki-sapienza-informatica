@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-06-07T16:06:46.601+02:00
+updated_at: 2026-06-09T19:09:10.259+02:00
 ---
 - Applicazione
 	- Resource Record nei [[DNS (Domain Name System)]]
@@ -17,7 +17,7 @@ updated_at: 2026-06-07T16:06:46.601+02:00
 	- RTT stimato
 	- Rate, ritardi, throughput, volume del collegamento su [[reti a commutazione di pacchetto (o a datagramma)]]
 	- [[reti a commutazione di circuito]], FDM e TDM
-	- Pacchetti spediti con successo in Aloha, Slotted Aloha, CSMA/CD
+	- Pacchetti spediti con successo in Aloha, Slotted Aloha, CSMA, CSMA/CD
 	- Tempo di vulnerabilità aloha puro
 	- Probabilità di trasmissione istantanea nel backoff esponenziale
 	- Throughput delle stazioni Aloha
