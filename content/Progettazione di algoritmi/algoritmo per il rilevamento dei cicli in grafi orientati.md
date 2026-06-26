@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-04-07T20:04:43.241+02:00
+updated_at: 2026-06-26T20:20:21.756+02:00
 ---
 Rilevare cicli in [[grafo|grafi]] orientati è un problema fondamentale; ad esempio, nel contesto delle dipendenze, un ciclo indica una dipendenza circolare, che è un'incoerenza logica.
 
@@ -32,7 +32,7 @@ def ha_cicli(liste):
 def dfs(nodo, liste, visitati):
 	visitati[nodo] = 1
 	for vicino in liste[nodo]:
-		if visitati[nodo] == 0:
+		if visitati[vicino] == 0:
 			if dfs(vicino, liste, visitati):
 				return True
 		elif visitati[vicino] == 1:

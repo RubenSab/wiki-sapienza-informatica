@@ -20,12 +20,12 @@
             }
           },
           {
-            "id": "76b7a7669fbc0b56",
+            "id": "eff9c119354eba77",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "appunti del secondo anno.md",
+                "file": "Progettazione di algoritmi/algoritmo per la classificazione degli archi in grafi diretti dopo la DFS.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -40,40 +40,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "appunti del secondo anno"
+              "title": "algoritmo per la classificazione degli archi in grafi diretti dopo la DFS"
             }
           },
           {
-            "id": "85e9bf99b2a53326",
+            "id": "89f45f2b747ee4bf",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Progettazione di sistemi digitali/esempio di progettazione dell'automa della macchina distributrice.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "esempio di progettazione dell'automa della macchina distributrice"
-            }
-          },
-          {
-            "id": "88d27485d34c0e11",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Interdisciplinare/relazione.md",
+                "file": "Progettazione di algoritmi/algoritmo per il rilevamento dei cicli in grafi orientati.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -88,11 +64,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "relazione"
+              "title": "algoritmo per il rilevamento dei cicli in grafi orientati"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -132,7 +108,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 283.5
+    "width": 283.5,
+    "collapsed": true
   },
   "right": {
     "id": "26b38658cac3fe47",
@@ -276,13 +253,25 @@
       "command-palette:Open command palette": false,
       "homepage:Open homepage": false,
       "timethings:Activate view": false,
-      "new-3d-graph:Open 3d graph": false,
-      "brain-atlas:Open atlas": false,
-      "three-d-graph-view:Open 3D graph view": false
+      "brain-atlas:Open atlas": false
     }
   },
-  "active": "88d27485d34c0e11",
+  "active": "89f45f2b747ee4bf",
   "lastOpenFiles": [
+    "Progettazione di algoritmi/DFS.md",
+    "Progettazione di algoritmi/algoritmo per la classificazione degli archi in grafi diretti dopo la DFS.md",
+    "Progettazione di algoritmi/algoritmo per il rilevamento dei cicli in grafi orientati.md",
+    "Progettazione di algoritmi/algoritmo per trovare le componenti connesse in un grafo non orientato.md",
+    "Progettazione di algoritmi/algoritmo per trovare i ponti in un grafo.md",
+    "Progettazione di algoritmi/algoritmo per la 2-colorazione dei grafi.md",
+    "Introduzione agli algoritmi/complessità temporale.md",
+    "Introduzione agli algoritmi/notazione O-grande.md",
+    "Introduzione agli algoritmi/costo computazionale.md",
+    "Algebra/proiezione canonica.md",
+    "Algebra/applicazione lineare.md",
+    "Algebra/isomorfismo.md",
+    "Interdisciplinare/permutazioni.md",
+    "Interdisciplinare/relazione.md",
     "Algebra/Algebra.md",
     "BOZZE/Categorie brain.md",
     "Progettazione di sistemi digitali/esempio di progettazione dell'automa della macchina distributrice.md",
@@ -295,20 +284,6 @@
     "Metodologie di programmazione/Java.md",
     "Calcolo integrale/calcolo integrale.md",
     "Introduzione agli algoritmi/introduzione agli algoritmi.md",
-    "Calcolo differenziale/calcolo differenziale.md",
-    "Calcolo differenziale/derivate.md",
-    "Reti di elaboratori/ISP (Internet Service Provider).md",
-    "Reti di elaboratori/WAN (Wide Area Network).md",
-    "Reti di elaboratori/Reti di elaboratori.md",
-    "Calcolo delle probabilità/disuguaglianza di Ghebyshev.md",
-    "Basi di dati/file hash.md",
-    "Reti di elaboratori/cosa succede quando si fa una richiesta HTTPS?.md",
-    "Reti di elaboratori/MAC (Media Access Control).md",
-    "Reti di elaboratori/ICMP (Internet Control Message Protocol).md",
-    "Reti di elaboratori/NAT (Network Address Translation).md",
-    "Reti di elaboratori/DHCP (Dynamic Host Configuration Protocol).md",
-    "Reti di elaboratori/broadcast.md",
-    "Reti di elaboratori/multicast e IGMP (Internet Group Management Protocol).md",
     "Reti di elaboratori/Pasted image 20260601182121.png",
     "Reti di elaboratori/Pasted image 20260531183233.png",
     "Reti di elaboratori/Pasted image 20260531183117.png",

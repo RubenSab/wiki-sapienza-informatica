@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-03-12T19:45:13.650+01:00
+updated_at: 2026-06-26T17:43:03.647+02:00
 ---
 *Si veda la [[grafo#^042a02|definizione di ponte]]*.
 
@@ -10,7 +10,7 @@ Per ogni arco $(u, v)$ del [[grafo]] si esegue una [[DFS|DFS]] da $u$ escludendo
 
 # Ricerca efficiente in $O(n+m)$ con l'algoritmo di Tarjan
 
-Si basa sulla relazione tra i ponti e l'[[albero]] DFS: gli archi appartenenti a cicli non possono essere ponti, quindi un arco $(u, v)$ è un ponte se fa parte dell'albero DFS e non è coperto da alcun arco non appartenente all'albero.
+Si basa sulla relazione tra i ponti e l'[[albero]] DFS: gli archi appartenenti a cicli non possono essere ponti, quindi **un arco $(u, v)$ è un ponte se fa parte dell'albero DFS e non è coperto da alcun arco non appartenente all'albero.**
 
 Per implementare ciò si memorizzano due valori per ogni nodo $u$:
 

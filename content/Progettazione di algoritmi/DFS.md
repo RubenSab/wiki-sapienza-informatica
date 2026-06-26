@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-03-18T14:26:55.999+01:00
+updated_at: 2026-06-26T16:20:57.196+02:00
 ---
 > L'[[algoritmo]] di *Depth First Search* (DFS) trova tutti i nodi **raggiungibili** in un [[grafo]] da un nodo sorgente. Segue un cammino **profondo**, visitando i vicini del nodo corrente e tornando indietro solo quando tutti i vicini del nodo corrente sono stati visitati (backtracking), per terminare nel nodo sorgente.
 
@@ -41,7 +41,7 @@ def ricerca_ricorsiva(matrice, sorgente, visitati):
 
 ## Con [[implementazioni dei grafi|liste di adiacenza]] o dizionari
 
-Ha complessità temporale $O(n^{2})$ perché per ogni nodo visitato è necessario scorrere l'intera riga della matrice.
+Ha complessità temporale $O(n + m)$.
 
 ``` python
 def dfs_liste(liste, sorgente):
@@ -59,9 +59,11 @@ def ricerca_ricorsiva(liste, sorgente, visitati):
 
 ### Ottimizzazione con set
 
-Usando un **set di nodi visitati** piuttosto che una lista nella DFS implementata con le liste di adiacenza, si può ridurre la complessità temporale a $O(n+m)$ **nel caso medio**, perché le operazioni di inserimento e controllo su un set hanno un costo ammortizzato di $O(1)$.
+Usando un **set di nodi visitati** piuttosto che una lista nella DFS implementata con le liste di adiacenza, si può ridurre la complessità temporale di una DFS sulla matrice a $O(n+m)$ **nel caso medio**, perché le operazioni di inserimento e controllo su un set hanno un costo ammortizzato di $O(1)$.
 
 Il costo al caso pessimo (estremamente più raro del caso medio) è $O(n^{2} + nm)$.
+
+Però viene fornita un'implementazione sulle liste di adiacenza piuttosto che sulle matrici.
 
 ``` python
 def dfs_liste_e_set(liste, sorgente):
@@ -127,8 +129,8 @@ def vettore_padri(liste, sorgente):
 
 def dfs_padri(liste, nodo, padri):
 	for vicino in liste[nodo]:
-		if padri[vicino] = nodo
-		dfs_padri(liste, vicino, padri)
+		if padri[vicino] == -1:
+			dfs_padri(liste, vicino, padri)
 ```
 
 ### Algoritmo per ottenere i cammini in $O(n)$
@@ -142,7 +144,7 @@ def percorri_cammino(nodo, padri):
 		return cammino
 	while cammino[nodo] != nodo:
 		cammino.append(nodo)
-		nodo = cammino[nodo]
+		nodo = padri[nodo]
 	cammino.append(nodo)
 	cammino.reverse()
 	return cammino
