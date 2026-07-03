@@ -20,13 +20,13 @@
             }
           },
           {
-            "id": "eff9c119354eba77",
+            "id": "25135e7e5ecb893e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Progettazione di algoritmi/algoritmo per la classificazione degli archi in grafi diretti dopo la DFS.md",
-                "mode": "source",
+                "file": "Progettazione di algoritmi/esercizi da esami passati.md",
+                "mode": "preview",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -40,55 +40,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "algoritmo per la classificazione degli archi in grafi diretti dopo la DFS"
-            }
-          },
-          {
-            "id": "89f45f2b747ee4bf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Progettazione di algoritmi/DFS.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "DFS"
-            }
-          },
-          {
-            "id": "d5c9abeb4829d214",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Progettazione di algoritmi/BFS.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "BFS"
+              "title": "esercizi da esami passati"
             }
           }
         ],
@@ -280,54 +232,53 @@
       "brain-atlas:Open atlas": false
     }
   },
-  "active": "eff9c119354eba77",
+  "active": "25135e7e5ecb893e",
   "lastOpenFiles": [
+    "Progettazione di algoritmi/esercizi da esami passati.md",
+    "Progettazione di algoritmi/Screenshot From 2026-07-03 22-13-02.png",
+    "Progettazione di algoritmi/Screenshot From 2026-07-03 22-12-12.png",
+    "Progettazione di algoritmi/Screenshot From 2026-07-03 22-11-19.png",
+    "Progettazione di algoritmi/Screenshot From 2026-07-03 22-06-14.png",
+    "Progettazione di algoritmi/Screenshot From 2026-07-03 22-10-30.png",
+    "Progettazione di algoritmi/Screenshot From 2026-07-03 22-08-43.png",
+    "Progettazione di algoritmi/Screenshot From 2026-07-03 22-07-32.png",
+    "Programmazione dinamica.md",
+    "Progettazione di algoritmi/Screenshot From 2026-07-03 22-12-44.png",
+    "Progettazione di algoritmi/Screenshot From 2026-07-03 22-11-59.png",
+    "Progettazione di algoritmi/Screenshot From 2026-07-03 22-11-07.png",
+    "Progettazione di algoritmi/Progettazione di algoritmi.md",
+    "Progettazione di algoritmi/esercizi",
+    "Untitled.md",
+    "Progettazione di algoritmi/backtracking.md",
+    "Progettazione di algoritmi/tecnica della programmazione dinamica.md",
+    "Progettazione di algoritmi/tecnica divide et impera.md",
+    "Progettazione di algoritmi/tecnica greedy.md",
+    "Progettazione di algoritmi/algoritmo di Kruskal.md",
+    "Progettazione di algoritmi/problema di ottimizzazione.md",
+    "Progettazione di algoritmi/algoritmo di Dijkstra.md",
+    "Progettazione di algoritmi/algoritmo per il calcolo del vettore delle distanze.md",
+    "Interdisciplinare/algoritmo esaustivo per il calcolo del diametro di un grafo.md",
+    "Progettazione di algoritmi/algoritmo per il calcolo del diametro di un albero.md",
     "Progettazione di algoritmi/BFS.md",
     "Progettazione di algoritmi/DFS.md",
+    "Progettazione di algoritmi/algoritmo di Kosaraju per trovare le componenti fortemente connesse in un grafo orientato.md",
     "Progettazione di algoritmi/ordinamento topologico.md",
-    "Progettazione di algoritmi/algoritmo per la classificazione degli archi in grafi diretti dopo la DFS.md",
-    "Progettazione di algoritmi/algoritmo per trovare le sorgenti di un DAG da cui si può raggiungere un determinato nodo.md",
+    "Interdisciplinare/grafo.md",
     "Progettazione di algoritmi/algoritmo per calcolare la componente fortemente connessa di un nodo in un grafo orientato.md",
+    "Progettazione di algoritmi/algoritmo per trovare le sorgenti di un DAG da cui si può raggiungere un determinato nodo.md",
     "Progettazione di algoritmi/algoritmo per il rilevamento dei cicli in grafi orientati.md",
+    "Progettazione di algoritmi/algoritmo per la classificazione degli archi in grafi diretti dopo la DFS.md",
+    "Interdisciplinare/albero.md",
     "Progettazione di algoritmi/algoritmo per trovare le componenti connesse in un grafo non orientato.md",
-    "Progettazione di algoritmi/algoritmo per trovare i ponti in un grafo.md",
-    "Progettazione di algoritmi/algoritmo per la 2-colorazione dei grafi.md",
-    "Introduzione agli algoritmi/complessità temporale.md",
-    "Introduzione agli algoritmi/notazione O-grande.md",
-    "Introduzione agli algoritmi/costo computazionale.md",
-    "Algebra/proiezione canonica.md",
-    "Algebra/applicazione lineare.md",
-    "Algebra/isomorfismo.md",
-    "Interdisciplinare/permutazioni.md",
-    "Interdisciplinare/relazione.md",
-    "Algebra/Algebra.md",
-    "BOZZE/Categorie brain.md",
-    "Progettazione di sistemi digitali/esempio di progettazione dell'automa della macchina distributrice.md",
-    "Progettazione di sistemi digitali/automa a stati finiti (finite state automata).md",
-    "appunti del secondo anno.md",
-    "index.md",
-    "appunti del primo anno.md",
-    "Metodologie di programmazione/metodologie di programmazione.md",
-    "Reti di elaboratori/Pasted image 20260601182121.png",
-    "Reti di elaboratori/Pasted image 20260531183233.png",
-    "Reti di elaboratori/Pasted image 20260531183117.png",
     "Reti di elaboratori/Lezione_reti-MAC-aa2526.pdf",
-    "Reti di elaboratori/Pasted image 20260520203035.png",
-    "Reti di elaboratori/Pasted image 20260519180547.png",
-    "Reti di elaboratori/Pasted image 20260505114446.png",
     "BOZZE",
-    "Sistemi operativi 2/Pasted image 20260419172446.png",
     "system calls per la gestione dei file I",
-    "Sistemi operativi 2/Pasted image 20260419160904.png",
     "Progettazione di algoritmi/Untitled.base",
-    "Sistemi operativi 2/Pasted image 20260316220140.png",
-    "Sistemi operativi 2/Pasted image 20260316184312.png",
     "etc",
     "arxiv.org/abs",
     "arxiv.org",
     "Progettazione di algoritmi",
     "Reti di elaboratori",
-    "Sistemi operativi 2",
     "Untitled.canvas",
     "Progettazione di sistemi digitali/rete sequenziale generica.canvas"
   ]

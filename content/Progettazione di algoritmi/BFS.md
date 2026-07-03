@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-03-26T11:50:29.047+01:00
+updated_at: 2026-06-27T15:09:07.607+02:00
 ---
 > L'[[algoritmo]] di *Breadth First Search*, o visita in ampiezza, visita i nodi di un [[grafo]] livello per livello come un onda che si espande. **Ogni** nodo viene raggiunto seguendo il percorso più breve dalla sorgente della visita.
 
@@ -13,24 +13,23 @@ La BFS si usa in:
 
 - [[algoritmo per il calcolo del vettore delle distanze]]
 - [[algoritmo per il calcolo del diametro di un albero]]
-
+- [[algoritmo esaustivo per il calcolo del diametro di un grafo]]
 # Implementazioni
 
 ## Con la [[lista di Python|lista]] che simula una coda $O(n^{2})$
 
 ``` python
-def bfs_array(grafo, nodo):
-	n = len(grafo)
-	visitati = [False] * n
-	coda = [nodo]
-	visitati[nodo] = True
-	while coda:
-		nodo_corrente = coda.pop(0) # costo O(n)
-		for vicino in grafo[nodo]:
-			if not visitati[nodo]:
-				visitati[nodo] = True
-				coda.append(y)
-	return [nodo for nodo in range(n) if visitati[nodo]]
+def bfs_iterativa(liste, sorgente):
+	visitati = [False]*len(liste)
+	coda = [sorgente]
+	while len(stack) > 0:
+		nodo = coda.pop(0)
+		if not visitati[nodo]:
+			visitati[nodo] = True
+			for vicino in liste[nodo]:
+				if not visitati[vicino]:
+					coda.append(vicino)
+	return visitati
 ```
 
 ## Con la lista che simula una coda, ma con la cancellazione logica $O(n+m)$
@@ -64,7 +63,7 @@ def bfs_deque(grafo, primo_nodo):
 	visitati = [False] * n
 	coda = deque()
 	coda.append(primo_nodo)
-	visitati[primo_nodo] = 1
+	visitati[primo_nodo] = True
 	while coda:
 		nodo_corrente = coda.popleft() # O(1)
 		for vicino in grafo[nodo_corrente]:

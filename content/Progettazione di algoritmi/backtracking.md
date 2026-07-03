@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-05-13T19:55:29.773+02:00
+updated_at: 2026-06-29T15:29:08.970+02:00
 ---
 > Il **backtracking** può risolvere problemi di **enumerazione, ricerca e ottimizzazione**. Consiste nella visita esaustiva dello spazio delle soluzioni, le quali vengono esplorate seguendo un itinerario ad [[albero]] (le cui **foglie** sono le **soluzioni**) da un [[algoritmo]] che trova una soluzione, poi procede, torna indietro e cambia strada se non ci sono più soluzioni valide nel ramo corrente (cioè quando si raggiunge una "foglia").
 
@@ -42,9 +42,9 @@ def es(n, k, numero_di_1_consecutivi = 0, sol = []):
 
 *Per righe crescenti si intende che ogni riga va intesa come un numero binario e questi numeri sono disposti in ordine crescente dall'alto verso il basso nella matrice*.
 
-Si dimostra che le matrici binarie quadrate di lato $n$ senza vincolo sono $2^{n^{2}}$, quelle con il vincolo sono $n^{n}$.
+Si dimostra che le matrici binarie quadrate di lato $n$ senza vincolo sono $2^{n^{2}}$ e quelle con il vincolo sono $n^{n}$.
 
-*(Soluzione mia che sfrutta l'[[omomorfismo]] tra una lista di interi e le righe di una [[spazio vettoriale di matrici|matrice]] binaria)*
+*(Soluzione mia che sfrutta l'[[isomorfismo]] tra una lista di interi e le righe di una [[spazio vettoriale di matrici|matrice]] binaria)*
 
 ``` python
 def test(n, sol=[]):

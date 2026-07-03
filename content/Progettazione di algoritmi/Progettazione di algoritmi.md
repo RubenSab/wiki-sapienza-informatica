@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-05-13T14:17:07.558+02:00
+updated_at: 2026-07-03T22:21:51.808+02:00
 ---
 > [Materiale del corso](https://twiki.di.uniroma1.it/twiki/view/Algoritmi2/PALGdiario2014_2)
 
@@ -38,6 +38,7 @@ updated_at: 2026-05-13T14:17:07.558+02:00
 
 # Esercizi
 
+- [[esercizi da esami passati]]
 - [[PL2, Dimostrazioni di proprietà dei grafi]]
 - [[PL5]]
 - [[PL6]]

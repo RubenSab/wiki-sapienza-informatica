@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-04-09T11:45:11.283+02:00
+updated_at: 2026-06-27T10:19:57.303+02:00
 ---
 - [[implementazioni dei grafi]]
 - [[algoritmo per la classificazione degli archi in grafi diretti dopo la DFS]]
@@ -80,7 +80,7 @@ Per sapere in $O(1)$ a quale componente appartiene ogni nodo, si usa una **lista
 
 > Un **punto di articolazione** è un nodo la cui rimozione sconnette il grafo.
 
-> Una **componente fortemente commessa (SCC)** di un grafo orientato è un [[sottoinsiemi|sottoinsieme]] massimo di nodi tale che per ogni coppia di nodi $u$ e $v$ appartenenti alla componente esiste un cammino orientato da $u$ a $v$ e un altro da $v$ a $u$.
+> Una **componente strettamente (o fortemente) connessa (SCC)** di un grafo orientato è un [[sottoinsiemi|sottoinsieme]] massimo di nodi tale che per ogni coppia di nodi $u$ e $v$ appartenenti alla componente esiste un cammino orientato da $u$ a $v$ e un altro da $v$ a $u$.
 > Le componenti connesse partizionano i nodi dei **grafi orientati**.
 
 - [[algoritmo per calcolare la componente fortemente connessa di un nodo in un grafo orientato]]

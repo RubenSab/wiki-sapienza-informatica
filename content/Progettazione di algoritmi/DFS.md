@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-06-26T16:20:57.196+02:00
+updated_at: 2026-06-27T14:16:20.410+02:00
 ---
 > L'[[algoritmo]] di *Depth First Search* (DFS) trova tutti i nodi **raggiungibili** in un [[grafo]] da un nodo sorgente. Segue un cammino **profondo**, visitando i vicini del nodo corrente e tornando indietro solo quando tutti i vicini del nodo corrente sono stati visitati (backtracking), per terminare nel nodo sorgente.
 
@@ -91,7 +91,7 @@ def dfs_iterativa(liste, sorgente):
 	stack = [sorgente]
 	while len(stack) > 0:
 		nodo = stack.pop()
-		if not visitati(nodo):
+		if not visitati[nodo]:
 			visitati[nodo] = True
 			for vicino in liste[nodo]:
 				if not visitati[vicino]:

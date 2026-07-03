@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-04-10T17:08:42.414+02:00
+updated_at: 2026-06-29T13:32:07.244+02:00
 ---
 > Risolve il [[problema di ottimizzazione|problema di minimizzazione]] di trovare un [[albero]] di copertura minimo (MST) di un [[grafo]] pesato. È un [[algoritmo]] basato sulla [[tecnica greedy]], in quanto seleziona a ogni passo l'arco con il **peso minimo** che **non forma cicli** con quelli già scelti.
 
@@ -114,7 +114,7 @@ Complessità temporale:
 
 - Crea: $\Theta(n)$
 - Find: $O(n)$ nel caso peggiore di un albero sbilanciato.
-- Union: $O(1)$ Per essere utilizzata nell'algoritmo di Kruskal richiede prima due chiamate a `find` per ottenere gli ID dei due nodi, quindi la complessità nella pratica è di $O(2n) = O(n)$.
+- Union: $O(1)$. Per essere utilizzata nell'algoritmo di Kruskal richiede prima due chiamate a `find` per ottenere gli ID dei due nodi, quindi la complessità nella pratica è di $O(2n) = O(n)$.
 
 ### Ottimizzazione con il bilanciamento per rango
 
@@ -172,15 +172,15 @@ def kruskal(grafo):
 	archi = [
 		(costo, u, v)
 		for u in range(len(grafo))
-		for v, costo in grafo[u] if u < v
+		for v, costo in grafo[u] if u < v # u < v evita archi duplicati
 	] # O(m)
 	archi.sort() # ordina gli archi per costo: O(m*logm) = O(m*logn)
 	
 	MST = [[] for _ in range(n)] # inizializza l'albero di copertura, implementato con le liste di adiacenza: O(n)
-	union_find = UnionFind()
+	union_find = UnionFind(len(grafo))
 	union_find.crea()
 	
-	for costo, u, v in archi: # O(m*logn)
+	for costo, u, v in archi: # O(m*logn) totale
 		ID_u = union_find.find(u) # O(logn)
 		ID_v = union_find.find(v) # O(logn)
 		if ID_u != ID_v:
@@ -190,4 +190,4 @@ def kruskal(grafo):
 	return T
 ```
 
-La complessità temporale totale è $O(n + m\log{n})$.
+La complessità temporale totale è $O(m\log{n})$.
