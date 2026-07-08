@@ -38,7 +38,7 @@ updated_at: 2026-07-03T22:21:51.808+02:00
 
 # Esercizi
 
-- [[esercizi da esami passati]]
+- [[esercizi da esami passati (con indizi)]]
 - [[PL2, Dimostrazioni di proprietà dei grafi]]
 - [[PL5]]
 - [[PL6]]

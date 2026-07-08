@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-01-22T10:39:30.089+01:00
+updated_at: 2026-07-06T12:50:49.417+02:00
 ---
 > [Materiale del corso](https://drive.google.com/drive/folders/1IBBff-5DaA1tpisj7XJSW9FGGEKoE26N)
 
@@ -73,26 +73,26 @@ updated_at: 2026-01-22T10:39:30.089+01:00
 
 ### Algebra astratta
 
-- [x] Calcolare il massimo comun divisore con l'algoritmo della divisione euclidea;
-- [x] Decomporre le permutazioni e calcolarne ordine, parità e segnatura;
-- [x] Trovare isomorfismi tra gruppi;
-- [x] Trovare il sottogruppo generato da un insieme;
-- [x] Dimostrare che un gruppo è un sottogruppo di un altro gruppo;
-- [ ] Dimostrare se un sottogruppo è normale o no;
+- Calcolare il massimo comun divisore con l'algoritmo della divisione euclidea;
+- Decomporre le permutazioni e calcolarne ordine, parità e segnatura;
+- Trovare isomorfismi tra gruppi;
+- Trovare il sottogruppo generato da un insieme;
+- Dimostrare che un gruppo è un sottogruppo di un altro gruppo;
+- Dimostrare se un sottogruppo è normale o no;
 
 ### Algebra lineare
 
-- [x] Dimostrare l'indipendenza o meno di vettori;
-- [x] Metodo di Gauss per risolvere sistemi, per trovare il rango, anche di matrici parametriche;
-- [x] Capire se una matrice è invertibile;
-- [x] Invertire le matrici;
-- [x] Calcolare il determinante delle matrici: 2x2 e regola di Sarrus per le 3x3;
-- [x] Trasformazioni lineari, matrice associata
-- [ ] Trovare il kernel delle applicazioni lineari partendo dalla matrice associata;
-- [x] Determinare la span e la dimensione di uno spazio vettoriale, passare da un insieme di basi alla forma chiusa.
+- Dimostrare l'indipendenza o meno di vettori;
+- Metodo di Gauss per risolvere sistemi, per trovare il rango, anche di matrici parametriche;
+- Capire se una matrice è invertibile;
+- Invertire le matrici;
+- Calcolare il determinante delle matrici: 2x2 e regola di Sarrus per le 3x3;
+- Trasformazioni lineari, matrice associata
+- Trovare il kernel delle applicazioni lineari partendo dalla matrice associata;
+- Determinare la span e la dimensione di uno spazio vettoriale, passare da un insieme di basi alla forma chiusa.
 
 # Altro
 
 - [[Esercizi su strutture algebriche e divisibilità]]
-- [[orrore]]
+- [[Esercizio sul resto tra una potenza e un numero piccolo]]
 - [[Esercizi 21 novembre 2025]]

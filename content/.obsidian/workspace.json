@@ -20,13 +20,13 @@
             }
           },
           {
-            "id": "25135e7e5ecb893e",
+            "id": "a65e86f7f0b271a4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Progettazione di algoritmi/esercizi da esami passati.md",
-                "mode": "preview",
+                "file": "Progettazione di algoritmi/esercizi da esami passati (con indizi).md",
+                "mode": "source",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -40,7 +40,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "esercizi da esami passati"
+              "title": "esercizi da esami passati (con indizi)"
             }
           }
         ],
@@ -101,7 +101,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "path:\"Reti di elaboratori\" tag:todo",
+                "query": "orror",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -232,9 +232,21 @@
       "brain-atlas:Open atlas": false
     }
   },
-  "active": "25135e7e5ecb893e",
+  "active": "a65e86f7f0b271a4",
   "lastOpenFiles": [
-    "Progettazione di algoritmi/esercizi da esami passati.md",
+    "Progettazione di algoritmi/Pasted image 20260708165856.png",
+    "Progettazione di algoritmi/esercizi da esami passati (con indizi).md",
+    "Progettazione di algoritmi/algoritmo di Kruskal.md",
+    "Algebra/teorema fondamentale dell'aritmetica.md",
+    "Algebra/gruppo quoziente.md",
+    "Algebra/isomorfismo.md",
+    "Algebra/Algebra.md",
+    "Algebra/Esercizi 21 novembre 2025.md",
+    "Algebra/Esercizi su strutture algebriche e divisibilità.md",
+    "Algebra/Esercizio sul resto tra una potenza e un numero piccolo.md",
+    "Sistemi operativi 2/permessi di accesso.md",
+    "Sistemi operativi 2/comandi della bash (Bourne Again shell).md",
+    "Sistemi operativi 2/Sistemi operativi 2.md",
     "Progettazione di algoritmi/Screenshot From 2026-07-03 22-13-02.png",
     "Progettazione di algoritmi/Screenshot From 2026-07-03 22-12-12.png",
     "Progettazione di algoritmi/Screenshot From 2026-07-03 22-11-19.png",
@@ -253,23 +265,12 @@
     "Progettazione di algoritmi/tecnica della programmazione dinamica.md",
     "Progettazione di algoritmi/tecnica divide et impera.md",
     "Progettazione di algoritmi/tecnica greedy.md",
-    "Progettazione di algoritmi/algoritmo di Kruskal.md",
     "Progettazione di algoritmi/problema di ottimizzazione.md",
     "Progettazione di algoritmi/algoritmo di Dijkstra.md",
     "Progettazione di algoritmi/algoritmo per il calcolo del vettore delle distanze.md",
     "Interdisciplinare/algoritmo esaustivo per il calcolo del diametro di un grafo.md",
     "Progettazione di algoritmi/algoritmo per il calcolo del diametro di un albero.md",
     "Progettazione di algoritmi/BFS.md",
-    "Progettazione di algoritmi/DFS.md",
-    "Progettazione di algoritmi/algoritmo di Kosaraju per trovare le componenti fortemente connesse in un grafo orientato.md",
-    "Progettazione di algoritmi/ordinamento topologico.md",
-    "Interdisciplinare/grafo.md",
-    "Progettazione di algoritmi/algoritmo per calcolare la componente fortemente connessa di un nodo in un grafo orientato.md",
-    "Progettazione di algoritmi/algoritmo per trovare le sorgenti di un DAG da cui si può raggiungere un determinato nodo.md",
-    "Progettazione di algoritmi/algoritmo per il rilevamento dei cicli in grafi orientati.md",
-    "Progettazione di algoritmi/algoritmo per la classificazione degli archi in grafi diretti dopo la DFS.md",
-    "Interdisciplinare/albero.md",
-    "Progettazione di algoritmi/algoritmo per trovare le componenti connesse in un grafo non orientato.md",
     "Reti di elaboratori/Lezione_reti-MAC-aa2526.pdf",
     "BOZZE",
     "system calls per la gestione dei file I",

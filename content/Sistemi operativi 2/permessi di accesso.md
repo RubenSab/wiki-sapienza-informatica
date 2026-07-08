@@ -1,11 +1,11 @@
 ---
-updated_at: 2026-03-16T22:55:45.390+01:00
+updated_at: 2026-07-06T11:08:34.120+02:00
 ---
 > I permessi di accesso indicano chi può:
 
 - leggere,
 - scrivere,
-- eseguire un [[file]]/directory.
+- eseguire il [[file]]/attraversare la directory.
 
 Sono codificati da una stringa di 10 caratteri:
 
@@ -22,7 +22,7 @@ Le sotto-stringhe sono tutte formattate allo stesso modo, ma la stessa stringa s
 0 --- nessun permesso
 1 --x solo esecuzione
 2 -w- solo scrittura
-3 -wx scrittura e eseuzione
+3 -wx scrittura e esecuzione
 4 r-- solo lettura
 5 r-x lettura e esecuzione
 6 rw- lettura e scrittura
@@ -37,13 +37,11 @@ Per le directory, `w` non ha significato, `r` è il permesso di listare il conte
 
 # Permessi speciali
 
-> Non compaiono nella stringa dei permessi listata con [[comandi della bash (Bourne Again shell)#^07c6b6|stat]] ma sono applicati (o meno) lo stesso ai file e directory.
-
 Sono tre singoli bit:
 
-- **Sticky bit (t)**: è inutile sui file, applicato sulle directory corregge il comportamento di `w+x` permettendo di cancellare file all'interno se si hanno permessi di scrittura **specificatamente** su di essi, non solo sulla directory che li contiene.
-- **Setuid bit (s)**: si usa solo per file eseguibili, indica che al posto di eseguirli con i privilegi dell'utente che li lancia, vengono eseguiti con i **privilegi dell'utente proprietario**. Ad esempio [[comandi della bash (Bourne Again shell)#^e612d9|passwd]] ha il setuid=1 perché deve permettere all'utente di cambiare la sua password.
-- **Setgid bit (s)**: è analogo al setuid bit ma con i **gruppi** invece che con gli utenti. Può essere applicato anche ad una directory, e allora ogni file creato li dentro ha il gruppo della directory, anziché quello primario di chi crea i files.
+- **Sticky bit (t)**: è inutile sui file, applicato sulle directory corregge il comportamento di `w+x` permettendo di cancellare file all'interno se si hanno permessi di scrittura **specificatamente** su di essi, non solo sulla directory che li contiene. Per le directory viene visualizzato al posto della x nella tripla dei permessi degli utenti di altri gruppi.
+- **Setuid bit (s)**: si usa solo per file eseguibili, indica che al posto di eseguirli con i privilegi dell'utente che li lancia, vengono eseguiti con i **privilegi dell'utente proprietario**. Ad esempio [[comandi della bash (Bourne Again shell)#^e612d9|passwd]] ha il setuid=1 perché deve permettere all'utente di cambiare la sua password. Rimpiazza la x nella tripla dei permessi dell'utente.
+- **Setgid bit (s)**: è analogo al setuid bit ma con i **gruppi** invece che con gli utenti. Può essere applicato anche ad una directory, e allora ogni file creato li dentro ha il gruppo della directory, anziché quello primario di chi crea i files. Rimpiazza la x nella tripla dei permessi del gruppo principale dell'utente.
 
 ## Visualizzazione
 

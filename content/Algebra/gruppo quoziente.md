@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-12-07T17:16:26.315+01:00
+updated_at: 2026-07-06T12:53:31.720+02:00
 ---
 > Un *gruppo quoziente* è un [[gruppo]] i cui elementi solo le [[classe di equivalenza|classi di equivalenza]] di un altro gruppo, secondo una [[relazione]] di [[proprietà, tipi di relazioni e ordini|equivalenza]] scelta.
 
@@ -51,12 +51,11 @@ $$
 [x] + [y] = [x + y]
 $$
 
-#todo
-# Esercizi
+# Esercizi da fare
 
-Esercizio: $x \sim x' \iff Hx = Hx'$. (H=nZ)
+## 1.
 
----
+> $x \sim x' \iff Hx = Hx'$. (H=nZ)
 
 $[x] = Hx$ (la $x$ si scrive dietro perché non è detto che la moltiplicazione è commutativa, nemmeno se è abeliano)
 
@@ -69,6 +68,8 @@ $[x] = n \mathbb{Z} + x = x + n \mathbb{Z}$
 
 ---
 
-Esercizio 2: trovare su $G$ una relazione d'equivalenza $\sim$ le cui classi d'equivalenza siano $xH$.
+## 2.
+
+> trovare su $G$ una relazione d'equivalenza $\sim$ le cui classi d'equivalenza siano $xH$.
 
 Suggerimento $x \approx x' \iff x^{-1} x' \in H$.

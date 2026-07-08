@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-01-17T14:29:21.704+01:00
+updated_at: 2026-07-06T12:52:16.034+02:00
 ---
 Quando due [[Algebra|strutture algebriche]] sono isomorfe, sono indistinguibili dalla teoria dei gruppi, alla quale appaiono come se fossero la stessa struttura.
 
@@ -11,9 +11,7 @@ Quando due [[Algebra|strutture algebriche]] sono isomorfe, sono indistinguibili 
 
 > N.B.: Due gruppi isomorfi hanno lo stesso numero di [[sottogruppi]]; in più per ogni sottogruppo $H$ di $G_{1}$, esiste un sottogruppo $H'$ di $G_{2}$ con la stessa cardinalità: $\forall H < G_{1} (f(H) < G_{2})$, inoltre $\forall n \geq 1 (|\{H < G_{1} : |H| = n \}| = |\{H < G_{2} := |H'| = n\}|)$
 
-# Esercizi
-
-#todo 
+# Esercizi da fare
 
 Sia $f$ un isomorfismo.
 

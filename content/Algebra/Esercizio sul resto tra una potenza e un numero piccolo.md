@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-10-20T17:26:27.170+02:00
+updated_at: 2026-07-06T12:50:55.800+02:00
 ---
 > Trovare il resto della divisione di $89741^{527}$ per $9$.
 

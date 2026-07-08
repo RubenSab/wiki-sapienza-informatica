@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-06-29T13:32:07.244+02:00
+updated_at: 2026-07-06T12:49:56.576+02:00
 ---
 > Risolve il [[problema di ottimizzazione|problema di minimizzazione]] di trovare un [[albero]] di copertura minimo (MST) di un [[grafo]] pesato. È un [[algoritmo]] basato sulla [[tecnica greedy]], in quanto seleziona a ogni passo l'arco con il **peso minimo** che **non forma cicli** con quelli già scelti.
 
@@ -137,7 +137,7 @@ class UnionFind():
 		return u
 	
 	def union(ID_u, ID_v):
-		if ID_u != ID-v:
+		if ID_u != ID_v:
 			if self.C[ID_u][1] <= self.C[ID_v][1]:
 				piccolo, grande = ID_u, ID_v,
 			else:
