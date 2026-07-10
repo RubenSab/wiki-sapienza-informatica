@@ -20,12 +20,12 @@
             }
           },
           {
-            "id": "a65e86f7f0b271a4",
+            "id": "c6310d4440e9719c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Progettazione di algoritmi/esercizi da esami passati (con indizi).md",
+                "file": "Progettazione di algoritmi/algoritmo per la ricerca di un pozzo universale.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -40,11 +40,35 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "esercizi da esami passati (con indizi)"
+              "title": "algoritmo per la ricerca di un pozzo universale"
+            }
+          },
+          {
+            "id": "bb0cb8c6b5ca13a1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Progettazione di algoritmi/problema di ottimizzazione.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "problema di ottimizzazione"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -101,7 +125,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "orror",
+                "query": "mst",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -232,11 +256,19 @@
       "brain-atlas:Open atlas": false
     }
   },
-  "active": "a65e86f7f0b271a4",
+  "active": "bb0cb8c6b5ca13a1",
   "lastOpenFiles": [
-    "Progettazione di algoritmi/Pasted image 20260708165856.png",
-    "Progettazione di algoritmi/esercizi da esami passati (con indizi).md",
+    "Progettazione di algoritmi/algoritmi di approssimazione.md",
+    "Progettazione di algoritmi/problema di ottimizzazione.md",
+    "Progettazione di algoritmi/algoritmo di Kosaraju per trovare le componenti fortemente connesse in un grafo orientato.md",
+    "Progettazione di algoritmi/algoritmo per trovare i ponti in un grafo.md",
+    "Progettazione di algoritmi/algoritmo di Dijkstra.md",
+    "Interdisciplinare/grafo.md",
     "Progettazione di algoritmi/algoritmo di Kruskal.md",
+    "Progettazione di algoritmi/algoritmo esaustivo per il calcolo del diametro di un grafo.md",
+    "Progettazione di algoritmi/algoritmo per la ricerca di un pozzo universale.md",
+    "Progettazione di algoritmi/esercizi da esami passati (con indizi).md",
+    "Progettazione di algoritmi/Pasted image 20260708165856.png",
     "Algebra/teorema fondamentale dell'aritmetica.md",
     "Algebra/gruppo quoziente.md",
     "Algebra/isomorfismo.md",
@@ -257,20 +289,12 @@
     "Programmazione dinamica.md",
     "Progettazione di algoritmi/Screenshot From 2026-07-03 22-12-44.png",
     "Progettazione di algoritmi/Screenshot From 2026-07-03 22-11-59.png",
-    "Progettazione di algoritmi/Screenshot From 2026-07-03 22-11-07.png",
     "Progettazione di algoritmi/Progettazione di algoritmi.md",
     "Progettazione di algoritmi/esercizi",
     "Untitled.md",
     "Progettazione di algoritmi/backtracking.md",
     "Progettazione di algoritmi/tecnica della programmazione dinamica.md",
     "Progettazione di algoritmi/tecnica divide et impera.md",
-    "Progettazione di algoritmi/tecnica greedy.md",
-    "Progettazione di algoritmi/problema di ottimizzazione.md",
-    "Progettazione di algoritmi/algoritmo di Dijkstra.md",
-    "Progettazione di algoritmi/algoritmo per il calcolo del vettore delle distanze.md",
-    "Interdisciplinare/algoritmo esaustivo per il calcolo del diametro di un grafo.md",
-    "Progettazione di algoritmi/algoritmo per il calcolo del diametro di un albero.md",
-    "Progettazione di algoritmi/BFS.md",
     "Reti di elaboratori/Lezione_reti-MAC-aa2526.pdf",
     "BOZZE",
     "system calls per la gestione dei file I",

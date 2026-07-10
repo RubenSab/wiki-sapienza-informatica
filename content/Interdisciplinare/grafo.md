@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-06-27T10:19:57.303+02:00
+updated_at: 2026-07-10T10:54:28.663+02:00
 ---
 - [[implementazioni dei grafi]]
 - [[algoritmo per la classificazione degli archi in grafi diretti dopo la DFS]]
@@ -88,11 +88,11 @@ Per sapere in $O(1)$ a quale componente appartiene ogni nodo, si usa una **lista
 
 ### Alberi di copertura
 
-> Dato un grafo connesso, un suo **albero di copertura o MST (*Minimum Spanning Tree*)** è un sottoinsieme dei suoi archi che mantiene connessi tutti i nodi del grafo ed è un albero.
+> Dato un grafo connesso, un suo **albero di copertura o spanning tree** è un sottoinsieme dei suoi archi che mantiene connessi tutti i nodi del grafo ed è un albero.
 
 ^a7b73d
 
-> Dato un grafo connesso e **pesato**, un **albero di copertura minimo** è l'albero di copertura che mantiene tanti archi con il peso totale minimo quanti servono per mantenere il grafo connesso, cioè minimizza il costo totale.
+> Dato un grafo connesso e **pesato**, un **albero di copertura minimo o MST (*Minimum Spanning Tree*)** è l'albero di copertura che mantiene tanti archi con il peso totale minimo quanti servono per mantenere il grafo connesso, cioè minimizza il costo totale.
 
 - [[algoritmo di Kruskal]]
 
@@ -114,7 +114,7 @@ Il numero massimo di ponti che un grafo può avere è $m$, cioè tutti gli archi
 
 - [[algoritmo per il calcolo del vettore delle distanze]]
 
-> Il **diametro** del grafo è la massima distanza possibile tra due nodi qualsiasi del grafo. È il percorso più lungo che si può trovare all'interno del grafo.
+> Il **diametro** del grafo è la massima distanza possibile tra due nodi qualsiasi del grafo.
 
 $$
 \text{diametro}(G) = \max_{u,v \in V}d(u, v)

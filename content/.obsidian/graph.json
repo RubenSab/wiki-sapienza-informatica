@@ -78,6 +78,13 @@
       }
     },
     {
+      "query": "path: \"Progettazione di algoritmi/\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 1035282
+      }
+    },
+    {
       "query": "tag:todo",
       "color": {
         "a": 1,
@@ -125,13 +132,6 @@
         "a": 1,
         "rgb": 14722386
       }
-    },
-    {
-      "query": "path: \"Progettazione di algoritmi/\"  ",
-      "color": {
-        "a": 1,
-        "rgb": 1035282
-      }
     }
   ],
   "collapse-display": false,
@@ -144,6 +144,6 @@
   "repelStrength": 13.2432432432432,
   "linkStrength": 0.732848232848233,
   "linkDistance": 161,
-  "scale": 0.05207157980131271,
-  "close": true
+  "scale": 0.09533891724420838,
+  "close": false
 }

@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-04-10T17:53:23.518+02:00
+updated_at: 2026-07-10T11:33:07.751+02:00
 ---
 > Un problema di ottimizzazione consiste nel trovare la soluzione migliore tra un insieme di soluzioni funzionanti. Serve quindi avere un **[[insieme]] di soluzioni ammissibili**, una **[[funzione]] obiettivo** da massimizzare o minimizzare in base al problema e dei **vincoli**.
 
@@ -69,4 +69,4 @@ $$
 \rho := \frac{\text{costo della soluzione trovata}}{\text{costo della soluzione ottima}} = \frac{2m}{m} = 2 \quad \square
 $$
 
-> Nota: Non si sono trovati algoritmi con $\rho < 2$ e i congettura che non esistano.
+> Nota: Non si sono trovati algoritmi con $\rho < 2$ e si congettura che non esistano.
