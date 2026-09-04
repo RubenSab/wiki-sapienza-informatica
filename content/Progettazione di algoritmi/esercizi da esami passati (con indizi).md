@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-07-08T16:58:48.191+02:00
+updated_at: 2026-09-02T15:13:52.895+02:00
 ---
 # 1. [[grafo|Grafi]]
 
@@ -50,26 +50,31 @@ updated_at: 2026-07-08T16:58:48.191+02:00
 
 ![[Pasted image 20260708165856.png]]
 
-- Ottobre 2025: la soluzione si può trovare in $O(n)$, mantenendo due array, una per il numero di sotto-sequenze pari con $i$ elementi e l'altra per le dispari. A ogni avanzamento di $i$ si calcolano gli scenari con l'aggiunta (o meno) dell'elemento $A[i-1]$ sia alle sotto-sequenze pari che a quelle dispari, ma esse si aggiornano in modo diverso in base alla parità di $A[i-1]$. Attenzione al primo caso base che è l'insieme vuoto: per questo l'array pari e quello dispari sono lunghi `len(A)+1`.
+- Ottobre 2025: la soluzione si può trovare in $O(n)$, mantenendo due array, una per il numero di sotto-sequenze pari con $i$ elementi e l'altra per le dispari.
 
 ``` python
->>> def es2(A):
-...     P = [0] * (len(A)+1)
-...     D = [0] * (len(A)+1)
-...     P[0] = 1
-...     P[1] = 2 if A[0]%2==0 else 1
-...     D[1] = 1 if A[0]%2==1 else 0
-...     for i in range(2, len(A)+1):
-...         if A[i-1]%2:
-...             P[i] = P[i-1]+P[i-2]
-...             D[i] = D[i-1]+D[i-2]
-...         else:
-...             P[i] = P[i-1]+D[i-2]
-...             D[i] = D[i-1]+P[i-2]
-...     return P[len(A)]
-...     
->>> es2([1, 2, 5, 4, 6])
-7
+def p(n):
+    return 0 if n%2 else 1
+
+def d(n):
+    return 1 if n%2 else 0
+
+def es2(A):
+    P = [0] * len(A)
+    D = [0] * len(A)
+    P[0] = p(A[0])
+    D[0] = d(A[0])
+    P[1] = p(A[1]) + P[0]
+    D[1] = d(A[1]) + D[0]
+    for t in range(2, len(A)):
+        # somme: vecchie sequenze + nuove sequenze + eventuale sequenza col nuovo numero
+        P[t] = P[t-1] + (P[t-2] if p(A[t]) else D[t-2]) + p(A[t])
+        D[t] = D[t-1] + (D[t-2] if p(A[t]) else P[t-2]) + d(A[t]) 
+    return P[-1]
+
+print(es2([1, 2, 5, 4, 6]))
+
+# output: 7
 ```
 
 - Settembre 2025: classica programmazione dinamica con array.

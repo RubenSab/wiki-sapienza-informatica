@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-06-26T20:36:44.513+02:00
+updated_at: 2026-07-12T12:13:06.174+02:00
 ---
 Rilevare cicli in [[grafo|grafi]] orientati è un problema fondamentale; ad esempio, nel contesto delle dipendenze, un ciclo indica una dipendenza circolare, che è un'incoerenza logica.
 
@@ -9,7 +9,7 @@ Ad esempio la DFS che parte da $0$ nel grafo $(0, 1), (0, 2), (1, 2)$ sarebbe un
 
 La **vera** condizione per trovare un ciclo in un grafo **ORDINATO** è l'incontro di un **arco all'indietro**, cioè un arco $(u, v)$, dove $v$ è un antenato (non padre) di $u$.
 
-Nel concreto, $v$ è un antenato di $u$ se, mentre $u$ viene visitato, $v$ è ancora in visita.
+Nel concreto, $v$ è un antenato non padre di $u$ se, mentre $u$ viene visitato, $v$ è ancora in visita.
 
 # Implementazione con [[implementazioni dei grafi|liste di adiacenza]]
 

@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-06-29T15:29:08.970+02:00
+updated_at: 2026-09-04T14:22:23.409+02:00
 ---
 > Il **backtracking** può risolvere problemi di **enumerazione, ricerca e ottimizzazione**. Consiste nella visita esaustiva dello spazio delle soluzioni, le quali vengono esplorate seguendo un itinerario ad [[albero]] (le cui **foglie** sono le **soluzioni**) da un [[algoritmo]] che trova una soluzione, poi procede, torna indietro e cambia strada se non ci sono più soluzioni valide nel ramo corrente (cioè quando si raggiunge una "foglia").
 
@@ -89,3 +89,16 @@ Output:
 
 ...
 ```
+
+# Consigli per gli esercizi
+
+- Le condizioni delle branch hanno loro stesse delle precondizioni (come la lunghezza di una stringa).
+- Esiste un tipo di backtracking molto più facile da scrivere in cui un loop fa una "proposta" e un if la rifiuta o accoglie.
+- Consideriamo un problema dove ogni volta si fanno $n$ scelte, come ad esempio un alfabeto di $n$ caratteri da poter appendere a ogni passo alla stringa. A volte è meglio pensare "se il carattere $c$ dovrà prima o poi poter essere aggiunto, quali condizioni portano alla sua aggiunta?" e non "se questa condizione si verifica, quali caratteri posso aggiungere?".
+- È molto più facile scrivere casi base "atomici" (cioè che si impostano in un passaggio solo) e non alla pari con le altre azioni del programma. Devono essere dei setup iniziali e basta, da scrivere con le **chiamate di partenza alla funzione** + un **return** alla fine.
+- Se non si fa il pruning, le condizioni che filtrano lo stato finale si scrivono così: `if condizione_di_fine: if condizione_di_filtro: ...`, **MAI** con un and tra le due.
+- Se un dato mutabile (come l'ultimo carattere di una stringa) viene mutato in una branch, è necessario sempre salvarlo prima di fare il branching, in modo da averne una copia immutabile.
+- Attenzione a definire tutte le variabili.
+- Attenzione a scrivere tutti i pezzi delle condizioni.
+- Attenzione ai tipi (da stringa a intero e viceversa, da stringa a lista e viceversa).
+- Ripristina **SEMPRE** le cose allo stato di default dopo una nuova branch, anche se sembra inutile.

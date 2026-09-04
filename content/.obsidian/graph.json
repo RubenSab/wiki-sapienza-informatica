@@ -78,10 +78,10 @@
       }
     },
     {
-      "query": "path: \"Progettazione di algoritmi/\"  ",
+      "query": "path: \"Sistemi operativi 2\"  ",
       "color": {
         "a": 1,
-        "rgb": 1035282
+        "rgb": 14722386
       }
     },
     {
@@ -106,6 +106,13 @@
       }
     },
     {
+      "query": "path: \"Progettazione di algoritmi/\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 1035282
+      }
+    },
+    {
       "query": "path: \"Sistemi operativi/\"",
       "color": {
         "a": 1,
@@ -125,13 +132,6 @@
         "a": 1,
         "rgb": 16496317
       }
-    },
-    {
-      "query": "path: \"Sistemi operativi 2\"  ",
-      "color": {
-        "a": 1,
-        "rgb": 14722386
-      }
     }
   ],
   "collapse-display": false,
@@ -144,6 +144,6 @@
   "repelStrength": 13.2432432432432,
   "linkStrength": 0.732848232848233,
   "linkDistance": 161,
-  "scale": 0.09533891724420838,
-  "close": false
+  "scale": 0.0557120702583941,
+  "close": true
 }

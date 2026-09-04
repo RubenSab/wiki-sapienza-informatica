@@ -20,12 +20,12 @@
             }
           },
           {
-            "id": "c6310d4440e9719c",
+            "id": "d61083e72c5ade06",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Progettazione di algoritmi/algoritmo per la ricerca di un pozzo universale.md",
+                "file": "Progettazione di algoritmi/tecnica della programmazione dinamica.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -40,35 +40,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "algoritmo per la ricerca di un pozzo universale"
-            }
-          },
-          {
-            "id": "bb0cb8c6b5ca13a1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Progettazione di algoritmi/problema di ottimizzazione.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "problema di ottimizzazione"
+              "title": "tecnica della programmazione dinamica"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -88,7 +64,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -256,18 +234,26 @@
       "brain-atlas:Open atlas": false
     }
   },
-  "active": "bb0cb8c6b5ca13a1",
+  "active": "d61083e72c5ade06",
   "lastOpenFiles": [
-    "Progettazione di algoritmi/algoritmi di approssimazione.md",
-    "Progettazione di algoritmi/problema di ottimizzazione.md",
-    "Progettazione di algoritmi/algoritmo di Kosaraju per trovare le componenti fortemente connesse in un grafo orientato.md",
+    "Progettazione di algoritmi/tecnica della programmazione dinamica.md",
+    "Interdisciplinare/array.md",
+    "Progettazione di algoritmi/backtracking.md",
+    "Progettazione di algoritmi/esercizi da esami passati (con indizi).md",
+    "Progettazione di algoritmi/Progettazione di algoritmi.md",
+    "Progettazione di algoritmi/algoritmo per il rilevamento dei cicli in grafi orientati.md",
+    "Interdisciplinare/algoritmo.md",
+    "Progettazione di algoritmi/algoritmo per trovare le componenti connesse in un grafo non orientato.md",
     "Progettazione di algoritmi/algoritmo per trovare i ponti in un grafo.md",
+    "Progettazione di algoritmi/algoritmo per la 2-colorazione dei grafi.md",
+    "Progettazione di algoritmi/problema di ottimizzazione.md",
+    "Progettazione di algoritmi/algoritmi di approssimazione.md",
+    "Progettazione di algoritmi/algoritmo di Kosaraju per trovare le componenti fortemente connesse in un grafo orientato.md",
     "Progettazione di algoritmi/algoritmo di Dijkstra.md",
     "Interdisciplinare/grafo.md",
     "Progettazione di algoritmi/algoritmo di Kruskal.md",
     "Progettazione di algoritmi/algoritmo esaustivo per il calcolo del diametro di un grafo.md",
     "Progettazione di algoritmi/algoritmo per la ricerca di un pozzo universale.md",
-    "Progettazione di algoritmi/esercizi da esami passati (con indizi).md",
     "Progettazione di algoritmi/Pasted image 20260708165856.png",
     "Algebra/teorema fondamentale dell'aritmetica.md",
     "Algebra/gruppo quoziente.md",
@@ -277,8 +263,6 @@
     "Algebra/Esercizi su strutture algebriche e divisibilità.md",
     "Algebra/Esercizio sul resto tra una potenza e un numero piccolo.md",
     "Sistemi operativi 2/permessi di accesso.md",
-    "Sistemi operativi 2/comandi della bash (Bourne Again shell).md",
-    "Sistemi operativi 2/Sistemi operativi 2.md",
     "Progettazione di algoritmi/Screenshot From 2026-07-03 22-13-02.png",
     "Progettazione di algoritmi/Screenshot From 2026-07-03 22-12-12.png",
     "Progettazione di algoritmi/Screenshot From 2026-07-03 22-11-19.png",
@@ -286,15 +270,9 @@
     "Progettazione di algoritmi/Screenshot From 2026-07-03 22-10-30.png",
     "Progettazione di algoritmi/Screenshot From 2026-07-03 22-08-43.png",
     "Progettazione di algoritmi/Screenshot From 2026-07-03 22-07-32.png",
-    "Programmazione dinamica.md",
     "Progettazione di algoritmi/Screenshot From 2026-07-03 22-12-44.png",
     "Progettazione di algoritmi/Screenshot From 2026-07-03 22-11-59.png",
-    "Progettazione di algoritmi/Progettazione di algoritmi.md",
     "Progettazione di algoritmi/esercizi",
-    "Untitled.md",
-    "Progettazione di algoritmi/backtracking.md",
-    "Progettazione di algoritmi/tecnica della programmazione dinamica.md",
-    "Progettazione di algoritmi/tecnica divide et impera.md",
     "Reti di elaboratori/Lezione_reti-MAC-aa2526.pdf",
     "BOZZE",
     "system calls per la gestione dei file I",

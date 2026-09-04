@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-07-03T22:21:51.808+02:00
+updated_at: 2026-08-18T07:40:58.836+02:00
 ---
 > [Materiale del corso](https://twiki.di.uniroma1.it/twiki/view/Algoritmi2/PALGdiario2014_2)
 
@@ -35,6 +35,7 @@ updated_at: 2026-07-03T22:21:51.808+02:00
 		- [[algoritmo di Floyd-Warshall]]
 	- [[backtracking]]
 - [[problema di ottimizzazione]]
+- [[algoritmi di approssimazione]]
 
 # Esercizi
 
