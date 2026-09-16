@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-01-11T11:16:07.965+01:00
+updated_at: 2026-09-16T15:37:47.563+02:00
 ---
 > Sia $\Omega$ uno [[spazio campionario]]. Diciamo che due [[evento|eventi]] $A$ e $B$ su $\Omega$ sono indipendenti se
 
