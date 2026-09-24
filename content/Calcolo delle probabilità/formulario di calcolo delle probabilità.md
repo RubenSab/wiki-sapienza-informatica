@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-09-16T15:50:07.685+02:00
+updated_at: 2026-09-16T16:54:06.222+02:00
 ---
 # [[scelta di k elementi da n|Scelta di k elementi da n]]
 
@@ -24,7 +24,7 @@ updated_at: 2026-09-16T15:50:07.685+02:00
 | [[distribuzione geometrica]]    | $p_k = (1-p)^{k-1} p$                       |  $\frac{1}{p}$  | $\frac{1-p}{p^2}$ |
 | [[distribuzione di Poisson 🐟]] | $p_k = \frac{\lambda^k}{k!} e^{-\lambda}$   |    $\lambda$    |     $\lambda$     |
 
-## Serie geometrica
+## [[serie geometriche|Serie geometrica]]
  
  $$\sum_{k=0}^{\infty} n^k = \frac{1}{1-n}$$
 

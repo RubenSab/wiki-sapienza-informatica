@@ -18,7 +18,7 @@
       "query": "path: \"Calcolo differenziale/\"  ",
       "color": {
         "a": 1,
-        "rgb": 6080726
+        "rgb": 10737663
       }
     },
     {
@@ -85,24 +85,10 @@
       }
     },
     {
-      "query": "tag:todo",
-      "color": {
-        "a": 1,
-        "rgb": 16711680
-      }
-    },
-    {
       "query": "tag:dadimostrare",
       "color": {
         "a": 1,
         "rgb": 16711816
-      }
-    },
-    {
-      "query": "path: \"Interdisciplinare/\"  ",
-      "color": {
-        "a": 1,
-        "rgb": 16777215
       }
     },
     {
@@ -116,7 +102,14 @@
       "query": "path: \"Sistemi operativi/\"",
       "color": {
         "a": 1,
-        "rgb": 15378022
+        "rgb": 15389798
+      }
+    },
+    {
+      "query": "tag:todo",
+      "color": {
+        "a": 1,
+        "rgb": 16711680
       }
     },
     {
@@ -132,6 +125,27 @@
         "a": 1,
         "rgb": 16496317
       }
+    },
+    {
+      "query": "path:\"Automi calcolabilità e complessità\" ",
+      "color": {
+        "a": 1,
+        "rgb": 61183
+      }
+    },
+    {
+      "query": "path:\"Linguaggi di programmazione\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 6159795
+      }
+    },
+    {
+      "query": "path: \"Interdisciplinare/\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 16777215
+      }
     }
   ],
   "collapse-display": false,
@@ -144,6 +158,6 @@
   "repelStrength": 13.2432432432432,
   "linkStrength": 0.732848232848233,
   "linkDistance": 161,
-  "scale": 0.0557120702583941,
-  "close": false
+  "scale": 0.10166028698927901,
+  "close": true
 }

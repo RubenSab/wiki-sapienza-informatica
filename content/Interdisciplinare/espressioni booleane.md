@@ -4,7 +4,7 @@ Può essere:
 - la negazione di una variabile.
 - la somma e il prodotto di variabili.
 
- Per [[induzione sulla struttura del linguaggio]], posso combinare le due definizioni precedenti e usare parentesi per ottenere espressioni booleane più complesse.
+ Per [[induzione strutturale]], posso combinare le due definizioni precedenti e usare parentesi per ottenere espressioni booleane più complesse.
 
 ## espressione duale
 Ogni identità valida nell'Algebra Booleana rimane valida se si scambiano fra loro:

@@ -11,7 +11,7 @@ Bisogna dimostrare che in ogni formula corretta il numero di parentesi aperte è
 
 # Dimostrazione
 
-Dimostriamo la tesi per [[induzione sulla struttura del linguaggio]].
+Dimostriamo la tesi per [[induzione strutturale]].
 ## Caso base
 
 1. Consideriamo le formule $A$ e $B$.

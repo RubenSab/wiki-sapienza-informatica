@@ -20,45 +20,12 @@
             }
           },
           {
-            "id": "2d6f4d8cfdcfa364",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Calcolo delle probabilità/formulario di calcolo delle probabilità.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "formulario di calcolo delle probabilità"
-            }
-          }
-        ],
-        "currentTab": 1
-      },
-      {
-        "id": "08ee551f41903085",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "6b898ddc53397d11",
+            "id": "334f61df21c67ba8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Calcolo delle probabilità/Calcolo delle probabilità.md",
+                "file": "BOZZE/Progetto TuTubi.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -73,10 +40,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Calcolo delle probabilità"
+              "title": "Progetto TuTubi"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -118,8 +86,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 283.5,
-    "collapsed": true
+    "width": 283.5
   },
   "right": {
     "id": "26b38658cac3fe47",
@@ -135,7 +102,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "mst",
+                "query": "cases",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -266,34 +233,37 @@
       "brain-atlas:Open atlas": false
     }
   },
-  "active": "6b898ddc53397d11",
+  "active": "334f61df21c67ba8",
   "lastOpenFiles": [
-    "Calcolo delle probabilità/formulario di calcolo delle probabilità.md",
-    "Calcolo delle probabilità/Calcolo delle probabilità.md",
-    "Calcolo delle probabilità/casi notevoli di varianza e valore atteso.md",
-    "Calcolo delle probabilità/indipendenza di due eventi.md",
-    "Calcolo delle probabilità/indipendenza di n eventi.md",
-    "Calcolo delle probabilità/scelta di k elementi da n.md",
-    "Calcolo delle probabilità/probabilità.md",
-    "Reti di elaboratori/Esercizi.md",
-    "Progettazione di algoritmi/algoritmi di approssimazione.md",
-    "Progettazione di algoritmi/problema di ottimizzazione.md",
-    "Progettazione di algoritmi/algoritmo per il calcolo del diametro di un albero.md",
-    "Progettazione di algoritmi/ordinamento topologico.md",
-    "Progettazione di algoritmi/algoritmo per il rilevamento dei cicli in grafi orientati.md",
-    "Progettazione di algoritmi/algoritmo per trovare i ponti in un grafo.md",
-    "Progettazione di algoritmi/algoritmo per la classificazione degli archi in grafi diretti dopo la DFS.md",
-    "Progettazione di algoritmi/algoritmo per la 2-colorazione dei grafi.md",
-    "Progettazione di algoritmi/Untitled 1.md",
-    "Interdisciplinare/grafo.md",
-    "Progettazione di algoritmi/algoritmo di Dijkstra.md",
-    "Progettazione di algoritmi/algoritmo di Kruskal.md",
+    "BOZZE/Esercizi sulla programmazione dinamica.md",
+    "BOZZE/Esercizi finali.md",
+    "BOZZE/Esempio di vincolo di sovrapposizione.md",
+    "BOZZE/Crociere FOL.md",
+    "BOZZE/Categorie brain.md",
     "Progettazione di algoritmi/tecnica della programmazione dinamica.md",
-    "Interdisciplinare/array.md",
     "Progettazione di algoritmi/backtracking.md",
-    "Progettazione di algoritmi/esercizi da esami passati (con indizi).md",
-    "Progettazione di algoritmi/Progettazione di algoritmi.md",
-    "Interdisciplinare/algoritmo.md",
+    "Linguaggi di programmazione/Linguaggi di programmazione.md",
+    "Linguaggi di programmazione/linguaggio.md",
+    "Linguaggi di programmazione/?.md",
+    "Linguaggi di programmazione/pragmatica.md",
+    "Basi di dati 2/semantica.md",
+    "Linguaggi di programmazione/eager vs lazy.md",
+    "appunti del terzo anno.md",
+    "Metodi matematici per l'informatica/induzione strutturale.md",
+    "Metodi matematici per l'informatica/induzione.md",
+    "Linguaggi di programmazione/sintassi astratta.md",
+    "Interdisciplinare/espressioni booleane.md",
+    "Basi di dati/chiusura di Armstrong.md",
+    "appunti del secondo anno.md",
+    "Algebra/applicazione.md",
+    "Algebra/relazione di equivalenza associata a un'applicazione.md",
+    "Interdisciplinare/funzione.md",
+    "Interdisciplinare/relazione.md",
+    "Interdisciplinare/linguaggio regolare.md",
+    "Linguaggi di programmazione",
+    "Interdisciplinare/automa a stati finiti (DFA).md",
+    "Automi calcolabilità e complessità",
+    "Sistemi operativi 2/Pasted image 20260316220140.png",
     "Progettazione di algoritmi/Pasted image 20260708165856.png",
     "Progettazione di algoritmi/Screenshot From 2026-07-03 22-13-02.png",
     "Progettazione di algoritmi/Screenshot From 2026-07-03 22-12-12.png",
@@ -303,7 +273,6 @@
     "Progettazione di algoritmi/Screenshot From 2026-07-03 22-08-43.png",
     "Progettazione di algoritmi/Screenshot From 2026-07-03 22-07-32.png",
     "Progettazione di algoritmi/Screenshot From 2026-07-03 22-12-44.png",
-    "Progettazione di algoritmi/Screenshot From 2026-07-03 22-11-59.png",
     "Progettazione di algoritmi/esercizi",
     "Reti di elaboratori/Lezione_reti-MAC-aa2526.pdf",
     "BOZZE",
@@ -312,8 +281,6 @@
     "etc",
     "arxiv.org/abs",
     "arxiv.org",
-    "Progettazione di algoritmi",
-    "Reti di elaboratori",
     "Untitled.canvas",
     "Progettazione di sistemi digitali/rete sequenziale generica.canvas"
   ]

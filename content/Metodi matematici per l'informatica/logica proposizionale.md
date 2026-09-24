@@ -16,7 +16,7 @@ $P, Q \in LP$
 
 # definizioni
 
-> Le formule sono definite per [[induzione sulla struttura del linguaggio]].
+> Le formule sono definite per [[induzione strutturale]].
 
 > L'interpretazione di una formula è l'attribuzione del suo valore a *vero* o *falso*. Questo valore dipende dall'interpretazione dei simboli dell'espressione, su cui operano i gli *operatori* o *connettivi logici*.
 

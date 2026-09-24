@@ -18,7 +18,7 @@ Libro consigliato: **Reti logiche** M. Morris Mano, C. R. Kime, T. Martin, Pears
 
 ## reti sequenziali
 
-- [[flip-flop]], [[reti sequenziali]] e [[automa a stati finiti (finite state automata)]]
+- [[flip-flop]], [[reti sequenziali]] e [[automa a stati finiti (DFA)]]
 - [[registri]]
 
 

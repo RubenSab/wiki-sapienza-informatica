@@ -14,7 +14,7 @@ Un'espressione SOP (o POS) è minimale se tra tutte le espressioni booleane poss
 - Il minimo numero di prodotti (o somme)
 - il minimo numero di letterali per ogni prodotto (o somma)
 
-# Per gli [[automa a stati finiti (finite state automata)|automi a stati finiti]]
+# Per gli [[automa a stati finiti (DFA)|automi a stati finiti]]
 
 Un'automa è minimale se è realizzato con il minor numero di [[flip-flop]] possibili, cioè non ha stati equivalenti.
 
