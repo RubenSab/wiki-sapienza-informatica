@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "BOZZE/Progetto TuTubi.md",
+                "file": "Linguaggi di programmazione/linguaggio.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -40,7 +40,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Progetto TuTubi"
+              "title": "linguaggio"
             }
           }
         ],
@@ -235,6 +235,9 @@
   },
   "active": "334f61df21c67ba8",
   "lastOpenFiles": [
+    "Metodi matematici per l'informatica/sintassi.md",
+    "Linguaggi di programmazione/linguaggio.md",
+    "BOZZE/Progetto TuTubi.md",
     "BOZZE/Esercizi sulla programmazione dinamica.md",
     "BOZZE/Esercizi finali.md",
     "BOZZE/Esempio di vincolo di sovrapposizione.md",
@@ -243,7 +246,6 @@
     "Progettazione di algoritmi/tecnica della programmazione dinamica.md",
     "Progettazione di algoritmi/backtracking.md",
     "Linguaggi di programmazione/Linguaggi di programmazione.md",
-    "Linguaggi di programmazione/linguaggio.md",
     "Linguaggi di programmazione/?.md",
     "Linguaggi di programmazione/pragmatica.md",
     "Basi di dati 2/semantica.md",
@@ -259,9 +261,7 @@
     "Algebra/relazione di equivalenza associata a un'applicazione.md",
     "Interdisciplinare/funzione.md",
     "Interdisciplinare/relazione.md",
-    "Interdisciplinare/linguaggio regolare.md",
     "Linguaggi di programmazione",
-    "Interdisciplinare/automa a stati finiti (DFA).md",
     "Automi calcolabilità e complessità",
     "Sistemi operativi 2/Pasted image 20260316220140.png",
     "Progettazione di algoritmi/Pasted image 20260708165856.png",
