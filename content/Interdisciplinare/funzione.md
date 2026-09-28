@@ -31,6 +31,8 @@ Esempio:
 
 >$f:A\rightarrow B$ si dice **iniettiva** se $x\neq y \implies f(x)\neq f(y)$, cioè se non esistono due argomenti con lo stesso valore.
 
+^b987df
+
 >N.B.: per rendere una funzione iniettiva si restringe il di codominio.
 
 >$f: A \rightarrow B$ si dice **biiettiva** o **corrispondenza biunivoca** se $\forall b \in B\ \exists\ !a\in A\ |\ f(a)=b$. Solo le funzioni biettive sono invertibili.

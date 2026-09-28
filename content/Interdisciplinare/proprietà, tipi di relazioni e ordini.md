@@ -59,7 +59,7 @@ Con la notazione R: $\forall x, y \in R\ (x\ \mathcal{R}\ y\ \lor y\ \mathcal{R}
 ^815a70
 
 >Una relazione è un'**equivalenza** se è:
-- riflessiva
+- riflessiva ^37e605
 - simmetrica
 - transitiva
 

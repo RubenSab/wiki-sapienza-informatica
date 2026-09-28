@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-09-23T09:33:44.106+02:00
+updated_at: 2026-09-25T10:37:19.089+02:00
 ---
 # (Venturi)
 
@@ -16,7 +16,9 @@ Gli automi sono usati per applicazioni come parser dei compilatori e riconoscime
 $$
 U_{k \in \mathbb{N}}\ \{0, 1\}^{k}
 $$
- 
+- [[relazione tra linguaggi e DFA]]
+- [[configurazione|Concetto di configurazione]]
+
 ## Esempio
 
 #todo  spiega cosa significa riconoscere la stringa, spiega input/output nel diagramma
@@ -46,6 +48,8 @@ Esempio di input: l'input $w$ è $1101$
 - $q_{3} \overset{1}{\to} q_{2}$
 
 L'automa termina il processing in $q2$, che è lo stato finale, quindi la stringa $1101$ viene riconosciuta.
+
+---
 
 # (Massini)
 ## Modelli di automa

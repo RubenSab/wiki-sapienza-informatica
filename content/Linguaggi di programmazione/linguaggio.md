@@ -1,6 +1,8 @@
 ---
-updated_at: 2026-09-24T20:48:48.939+02:00
+updated_at: 2026-09-25T10:12:21.934+02:00
 ---
+> Un linguaggio è un'[[insieme]] di stringhe.
+
 > Lo studio di un linguaggio è lo studio della sua:
 
 - [[sintassi]]

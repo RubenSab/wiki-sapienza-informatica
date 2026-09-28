@@ -10,22 +10,10 @@
           {
             "id": "e7a7b303c61786dc",
             "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "graph",
-              "state": {},
-              "pinned": true,
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
-            }
-          },
-          {
-            "id": "334f61df21c67ba8",
-            "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linguaggi di programmazione/linguaggio.md",
+                "file": "Linguaggi di programmazione/Linguaggi di programmazione.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -40,7 +28,31 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "linguaggio"
+              "title": "Linguaggi di programmazione"
+            }
+          },
+          {
+            "id": "24d823a641cebded",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linguaggi di programmazione/algebra induttiva.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "algebra induttiva"
             }
           }
         ],
@@ -83,10 +95,28 @@
             }
           }
         ]
+      },
+      {
+        "id": "39c57e9f5ff27942",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e7a7b303c61786dc",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "graph",
+              "state": {},
+              "pinned": true,
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 283.5
+    "width": 319.8000183105469
   },
   "right": {
     "id": "26b38658cac3fe47",
@@ -102,7 +132,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "cases",
+                "query": "inietti",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -216,8 +246,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 354.5,
-    "collapsed": true
+    "width": 354.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -233,34 +262,34 @@
       "brain-atlas:Open atlas": false
     }
   },
-  "active": "334f61df21c67ba8",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "Metodi matematici per l'informatica/sintassi.md",
-    "Linguaggi di programmazione/linguaggio.md",
-    "BOZZE/Progetto TuTubi.md",
-    "BOZZE/Esercizi sulla programmazione dinamica.md",
-    "BOZZE/Esercizi finali.md",
-    "BOZZE/Esempio di vincolo di sovrapposizione.md",
-    "BOZZE/Crociere FOL.md",
-    "BOZZE/Categorie brain.md",
-    "Progettazione di algoritmi/tecnica della programmazione dinamica.md",
-    "Progettazione di algoritmi/backtracking.md",
+    "Linguaggi di programmazione/algebra induttiva.md",
+    "Calcolo differenziale/numeri naturali.md",
     "Linguaggi di programmazione/Linguaggi di programmazione.md",
-    "Linguaggi di programmazione/?.md",
-    "Linguaggi di programmazione/pragmatica.md",
-    "Basi di dati 2/semantica.md",
-    "Linguaggi di programmazione/eager vs lazy.md",
-    "appunti del terzo anno.md",
+    "BOZZE/25 sep 2026.md",
+    "Linguaggi di programmazione/primo e secondo ordine.md",
+    "Linguaggi di programmazione/algebra eterogenea.md",
+    "Basi di dati/algoritmo per il calcolo della chiusura di un insieme di attributi.md",
+    "Metodologie di programmazione/espressione.md",
     "Metodi matematici per l'informatica/induzione strutturale.md",
     "Metodi matematici per l'informatica/induzione.md",
+    "Metodi matematici per l'informatica/induzione matematica.md",
+    "Linguaggi di programmazione/regola di inferenza.md",
+    "Metodi matematici per l'informatica/logica proposizionale.md",
+    "Metodi matematici per l'informatica/metodi matematici per l'informatica.md",
+    "appunti del terzo anno.md",
     "Linguaggi di programmazione/sintassi astratta.md",
-    "Interdisciplinare/espressioni booleane.md",
-    "Basi di dati/chiusura di Armstrong.md",
-    "appunti del secondo anno.md",
-    "Algebra/applicazione.md",
-    "Algebra/relazione di equivalenza associata a un'applicazione.md",
-    "Interdisciplinare/funzione.md",
-    "Interdisciplinare/relazione.md",
+    "Linguaggi di programmazione/linguaggio.md",
+    "Interdisciplinare/linguaggio regolare.md",
+    "BOZZE/Untitled.md",
+    "Interdisciplinare/automa a stati finiti (DFA).md",
+    "Interdisciplinare/relazione tra linguaggi e DFA.md",
+    "Interdisciplinare/configurazione.md",
+    "Basi di dati/prodotto cartesiano.md",
+    "Interdisciplinare/proprietà, tipi di relazioni e ordini.md",
+    "Automi calcolabilità e complessità/Automi calcolabilità e complessità.md",
+    "Automi calcolabilità e complessità/teoria dell'incompletezza di Godel.md",
     "Linguaggi di programmazione",
     "Automi calcolabilità e complessità",
     "Sistemi operativi 2/Pasted image 20260316220140.png",

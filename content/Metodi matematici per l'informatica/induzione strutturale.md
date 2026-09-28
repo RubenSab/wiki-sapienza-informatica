@@ -1,7 +1,7 @@
 ---
-updated_at: 2026-09-24T10:58:34.184+02:00
+updated_at: 2026-09-28T12:26:37.247+02:00
 ---
-> È la generalizzazione dell'[[induzione matematica]].
+
 
 # Esempio (di Piperno)
 
