@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-09-25T10:36:05.026+02:00
+updated_at: 2026-09-29T19:30:15.394+02:00
 ---
 > È una "fotografia" dell'[[automa a stati finiti (DFA)]] in un determinato istante. È una coppia (stato dell'automa, stringa) in $Q \times \Sigma^{\star}$, ad esempio $(q_{3}, x) \in Q \times \Sigma^{\star}$.
 

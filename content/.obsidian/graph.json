@@ -146,6 +146,13 @@
         "a": 1,
         "rgb": 16777215
       }
+    },
+    {
+      "query": "path: \"Ingegneria del software\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 494926
+      }
     }
   ],
   "collapse-display": false,
@@ -158,6 +165,6 @@
   "repelStrength": 13.2432432432432,
   "linkStrength": 0.732848232848233,
   "linkDistance": 161,
-  "scale": 0.022766669958658975,
+  "scale": 0.03270619544139995,
   "close": true
 }

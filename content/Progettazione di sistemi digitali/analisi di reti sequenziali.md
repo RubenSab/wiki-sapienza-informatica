@@ -1,3 +1,6 @@
+---
+updated_at: 2026-09-29T19:29:46.187+02:00
+---
 Data una [[rete sequenziale generica.canvas|rete sequenziale generica]] si applicano questi passaggi:
 - si ricava l'espressione booleana delle funzioni di eccitazione (ingressi dei [[flip-flop]]) e delle uscite.
 - si scrive la tavola degli stati futuri, che dovrà contenere:
@@ -8,10 +11,10 @@ Data una [[rete sequenziale generica.canvas|rete sequenziale generica]] si appli
 
 
 
-- diagramma della rete [[automa a stati finiti (DFA)]]
+- diagramma della rete [[macchine di Moore e Mealy|macchine a stati finiti]]
 - diagramma della "macchina" con astrazione dai valori binari
 
-Grazie all'analisi compiuta, si può verificare se l'[[automa a stati finiti (DFA)]] è stato realizzato con il minore numero di flip flop.
+Grazie all'analisi compiuta, si può verificare se il diagramma delle [[macchine di Moore e Mealy|macchine a stati finiti]] è stato realizzato con il minore numero di flip flop.
 
 - [[esempio di analisi di una rete sequenziale (automa contatore)]]
 - [[esempio di analisi di una rete sequenziale (automa riconoscitore)]]

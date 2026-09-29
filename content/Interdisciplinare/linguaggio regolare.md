@@ -1,12 +1,9 @@
 ---
-updated_at: 2026-09-25T10:38:47.154+02:00
+updated_at: 2026-09-29T21:38:24.506+02:00
 ---
-# (Venturi)
+# Classe REG dei [[linguaggio|linguaggi]]
 
-
-# Classe REG (*[[linguaggio regolare|linguaggi regolari]]*) dei [[linguaggio|linguaggi]]
-
-> Un linguaggio è **regolare** se esiste un automa che ne riconosce tutte le stringhe.
+> Un [[linguaggio]] è **regolare** se esiste un [[macchine di Moore e Mealy|macchina a stati finiti]] che ne riconosce tutte le stringhe.
 
 $$
 \text{REG} = \{L \subseteq \Sigma^{\star}:\ \exists\ \text{DFA}\ M\ \text{t.c.}\ L(M) = L\}
@@ -14,41 +11,36 @@ $$
 
 $L(M) = L$ significa che l'automa $M$ riconosce $L$.
 
-## Esempio: progettare un DFA che accetta solo le stringhe che iniziano con "1"
+# Definire un linguaggio regolare tramite la funzione di transizione estesa
+
+> Per definire rigorosamente un $L(DFA)$, cioè il linguaggio regolare associato ad un DFA, si usa la **[[funzione]] di transizione estesa**.
 
 $$
-L = \{x \in \{0, 1\}^{\star}:\ x = 1y,\ y \in \{0, 1\}^{\star}\}
+\delta:\ Q \times \Sigma \to Q
 $$
 
-```
-             1
-start -> q0 ---> [q1] --+
-          |       ^     |
-          | 0     |     | 0, 1
-          v       +-----+
-      +-> q2
- 0, 1 |   |
-      +---+
-```
+$$
+\delta^{\star}: Q \times \Sigma^{\star} \to Q
+$$
 
-$q_{1}$ è lo stato finale.
+Così un linguaggio regolare si può definire come l'[[insieme]] $\{\sigma \in \Sigma:\ \delta^{\star}(\sigma) \in F\}$.
 
-> N.B.: Per far rifiutare la stringa, bisogna far andare l'automa in loop su un vicolo cieco, detto *stato pozzo*.
-
-## Correttezza
-
-Bisogna dimostrare entrambe le tesi:
-
-1. $x \in L \implies M(\text{accetta})$
-2. $x \notin L \implies M(\text{rifiuta})$
-
-Si può dimostrare sia per induzione che con $\delta^{\star}$, ma è scontato e noioso.
-
-# Esercizio per casa
+Delta star si può definire ricorsivamente in modo elegante partendo da $\delta$:
 
 $$
-L = \{x \in \{0, 1\}^{\star}: \#_{1}(x) \geq 3\}
+\begin{cases}
+\delta^{\star}(q, \varepsilon) = \delta(q, \varepsilon) \\
+\delta^{\star}(q, ax) = \delta^{\star}(\delta(q, a), x) \quad a \in \Sigma,\ x \in \Sigma^{\star}
+\end{cases}
 $$
+
+> N.B.: La stringa vuota $\varepsilon$ sta in $\Sigma^{\star}$ ([[Star di Kleene]] di $\Sigma$) per definizione, ma non per forza nel linguaggio, che è un sottoinsieme di $\Sigma^{\star}$.
+
+$$
+a \in \Sigma \quad x \in \Sigma^{\star}
+$$
+
+> Il linguaggio riconosciuto da un DFA $M = (Q, \Sigma, \delta, q_{0}, F)$ è $L(M) = \{x \in \Sigma^{\star}:\ \delta^{\star}(q_{0}, x) \in F\}$.
 
 # Proprietà dei linguaggi regolari
 
@@ -107,13 +99,3 @@ Devo definire $M = (Q, \Sigma, \delta, q_{0}, F)$ tale che:
 - $F = (F_{1} \times Q_{2}) \cup (F_{2} \times Q_{1}) = \{(r_{1}, r_{2}):\ r_{1} \in F_{1} \lor r_{2} \in F_{2}\}$ (se uno dei due stati $Q_{1}$ o $Q_{2}$ sono finali non ci interessa dell'altro, stiamo ragionando sull'unione)
 
 Il resto della dimostrazione è inutile per il corso.
-
-# (Faralli)
-
-> Un [[linguaggio]] regolare è definito dall'insieme di parole che possono essere combinate ([[sintassi]]) per generare [[regex (espressioni regolari)]].
-
-Esempio con lo "Sheep Language": {"baaa", "baaaa", "baaaaa", "baaa...a"}
-
-`baaa*` è l'espressione regolare che permette a un [[automa a stati finiti (DFA)]] di riconoscere input e produrre output per lo Sheep Language.
-
-

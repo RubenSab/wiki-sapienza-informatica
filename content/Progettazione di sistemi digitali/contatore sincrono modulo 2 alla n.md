@@ -1,5 +1,8 @@
+---
+updated_at: 2026-09-29T19:30:26.811+02:00
+---
 # esempio di contatore sincrono mod 8
-Disegniamo lo schema dell'automa con il [[automa a stati finiti (DFA)|modello di Moore]].
+Disegniamo lo schema dell'automa con il [[macchine di Moore e Mealy|modello di Moore]].
 
 ![[automa contatore Moore.jpg]]
 

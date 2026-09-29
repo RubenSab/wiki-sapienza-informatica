@@ -1,7 +1,8 @@
 ---
-updated_at: 2026-09-24T08:40:16.156+02:00
+updated_at: 2026-09-28T13:55:14.840+02:00
 ---
 # Primo semestre
 
 - [[Automi calcolabilità e complessità]]
 - [[Linguaggi di programmazione]]
+- [[Ingegneria del software]]

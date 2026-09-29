@@ -1,6 +1,8 @@
 ---
-updated_at: 2026-09-28T12:57:17.827+02:00
+updated_at: 2026-09-29T11:02:25.999+02:00
 ---
+> [Materiale del corso](http://wwwusers.di.uniroma1.it/~lpara)
+
 # Argomenti
 
 - [[linguaggio]]

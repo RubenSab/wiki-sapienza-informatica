@@ -4,40 +4,76 @@
     "type": "split",
     "children": [
       {
-        "id": "4509724f8bf84da7",
+        "id": "6b34f61ed20fb837",
         "type": "tabs",
         "children": [
           {
-            "id": "e7a7b303c61786dc",
+            "id": "927b956990429a94",
             "type": "leaf",
+            "pinned": true,
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Linguaggi di programmazione/Linguaggi di programmazione.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Linguaggi di programmazione"
+              "type": "graph",
+              "state": {},
+              "pinned": true,
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           },
           {
-            "id": "24d823a641cebded",
+            "id": "95285e88ecac2d5f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linguaggi di programmazione/algebra induttiva.md",
+                "file": "Interdisciplinare/linguaggio regolare.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "linguaggio regolare"
+            }
+          },
+          {
+            "id": "1b2faf14b3381bc6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Automi calcolabilità e complessità/automa a stati finiti (DFA).md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "automa a stati finiti (DFA)"
+            }
+          },
+          {
+            "id": "4c896b6cd4ee144f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Automi calcolabilità e complessità/complessità (P vs NP).md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,11 +88,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "algebra induttiva"
+              "title": "complessità (P vs NP)"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -95,28 +131,11 @@
             }
           }
         ]
-      },
-      {
-        "id": "39c57e9f5ff27942",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "e7a7b303c61786dc",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "graph",
-              "state": {},
-              "pinned": true,
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
-            }
-          }
-        ]
       }
     ],
     "direction": "horizontal",
-    "width": 319.8000183105469
+    "width": 322.3883819580078,
+    "collapsed": true
   },
   "right": {
     "id": "26b38658cac3fe47",
@@ -132,7 +151,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "inietti",
+                "query": "kle",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -246,7 +265,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 354.5
+    "width": 354.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -262,34 +282,40 @@
       "brain-atlas:Open atlas": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "1b2faf14b3381bc6",
   "lastOpenFiles": [
-    "Linguaggi di programmazione/algebra induttiva.md",
-    "Calcolo differenziale/numeri naturali.md",
-    "Linguaggi di programmazione/Linguaggi di programmazione.md",
-    "BOZZE/25 sep 2026.md",
-    "Linguaggi di programmazione/primo e secondo ordine.md",
-    "Linguaggi di programmazione/algebra eterogenea.md",
-    "Basi di dati/algoritmo per il calcolo della chiusura di un insieme di attributi.md",
-    "Metodologie di programmazione/espressione.md",
-    "Metodi matematici per l'informatica/induzione strutturale.md",
-    "Metodi matematici per l'informatica/induzione.md",
-    "Metodi matematici per l'informatica/induzione matematica.md",
-    "Linguaggi di programmazione/regola di inferenza.md",
-    "Metodi matematici per l'informatica/logica proposizionale.md",
-    "Metodi matematici per l'informatica/metodi matematici per l'informatica.md",
-    "appunti del terzo anno.md",
-    "Linguaggi di programmazione/sintassi astratta.md",
-    "Linguaggi di programmazione/linguaggio.md",
+    "Automi calcolabilità e complessità/automa 2.png",
+    "Automi calcolabilità e complessità/automa 1.png",
+    "Automi calcolabilità e complessità/automa.png",
     "Interdisciplinare/linguaggio regolare.md",
-    "BOZZE/Untitled.md",
-    "Interdisciplinare/automa a stati finiti (DFA).md",
-    "Interdisciplinare/relazione tra linguaggi e DFA.md",
-    "Interdisciplinare/configurazione.md",
-    "Basi di dati/prodotto cartesiano.md",
-    "Interdisciplinare/proprietà, tipi di relazioni e ordini.md",
+    "Automi calcolabilità e complessità/complessità (P vs NP).md",
+    "Automi calcolabilità e complessità/Star di Kleene.md",
     "Automi calcolabilità e complessità/Automi calcolabilità e complessità.md",
+    "Automi calcolabilità e complessità/automa a stati finiti (DFA).md",
+    "Interdisciplinare/configurazione.md",
+    "Automi calcolabilità e complessità/relazione tra linguaggi e DFA.md",
+    "Interdisciplinare/automa.md",
+    "BOZZE/25 sep 2026.md",
+    "Progettazione di sistemi digitali/macchine di Moore e Mealy.md",
     "Automi calcolabilità e complessità/teoria dell'incompletezza di Godel.md",
+    "Progettazione di sistemi digitali/progettazione di sistemi digitali.md",
+    "Architettura degli elaboratori/CPU.md",
+    "Progettazione di sistemi digitali/criterio di minimalità.md",
+    "Progettazione di sistemi digitali/contatore sincrono modulo 2 alla n.md",
+    "Progettazione di sistemi digitali/analisi di reti sequenziali.md",
+    "Progettazione di sistemi digitali/addizionatore sequenziale.md",
+    "Linguaggi di programmazione/linguaggio.md",
+    "BOZZE/communication timed automata.md",
+    "Ingegneria del software/catena di Markov (DTMC).md",
+    "Ingegneria del software/Ingegneria del software.md",
+    "Ingegneria del software/rete di catene di Markov.md",
+    "Ingegneria del software/hist.png",
+    "Calcolo delle probabilità/probabilità condizionata.md",
+    "Ingegneria del software/Pasted image 20260929125921.png",
+    "Ingegneria del software/Pasted image 20260929125846.png",
+    "Linguaggi di programmazione/Linguaggi di programmazione.md",
+    "Basi di dati/trovare la tupla con l'attributo massimo in un'istanza.md",
+    "Ingegneria del software",
     "Linguaggi di programmazione",
     "Automi calcolabilità e complessità",
     "Sistemi operativi 2/Pasted image 20260316220140.png",
@@ -297,11 +323,6 @@
     "Progettazione di algoritmi/Screenshot From 2026-07-03 22-13-02.png",
     "Progettazione di algoritmi/Screenshot From 2026-07-03 22-12-12.png",
     "Progettazione di algoritmi/Screenshot From 2026-07-03 22-11-19.png",
-    "Progettazione di algoritmi/Screenshot From 2026-07-03 22-06-14.png",
-    "Progettazione di algoritmi/Screenshot From 2026-07-03 22-10-30.png",
-    "Progettazione di algoritmi/Screenshot From 2026-07-03 22-08-43.png",
-    "Progettazione di algoritmi/Screenshot From 2026-07-03 22-07-32.png",
-    "Progettazione di algoritmi/Screenshot From 2026-07-03 22-12-44.png",
     "Progettazione di algoritmi/esercizi",
     "Reti di elaboratori/Lezione_reti-MAC-aa2526.pdf",
     "BOZZE",
@@ -309,7 +330,6 @@
     "Progettazione di algoritmi/Untitled.base",
     "etc",
     "arxiv.org/abs",
-    "arxiv.org",
     "Untitled.canvas",
     "Progettazione di sistemi digitali/rete sequenziale generica.canvas"
   ]

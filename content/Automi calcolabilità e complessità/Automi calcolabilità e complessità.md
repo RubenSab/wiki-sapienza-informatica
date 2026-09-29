@@ -1,7 +1,10 @@
 ---
-updated_at: 2026-09-23T09:25:59.584+02:00
+updated_at: 2026-09-29T21:25:01.390+02:00
 ---
 > Tratta di come si modella la computazione e dei limiti della computazione.
+> [Materiale del corso](https://dventuri83.github.io/teaching/3_acc/)
+
+# Modalità d'esame
 
 Esame strutturato in 3 parti:
 
@@ -15,8 +18,10 @@ Libro di testo: *Sipser, Introduzione alla teoria della computazione.*
 
 # Argomenti
 
-- [[automa a stati finiti (DFA)]]
+- [[automa]]
+	- [[automa a stati finiti (DFA)]]
 	- [[linguaggio regolare]]
+	- [[Star di Kleene]]
 - [[calcolabilità]]
 	- [[(TM) macchina di Turing]]
 	- [[problemi NP completi]]

@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-02-22T15:24:03.930+01:00
+updated_at: 2026-09-29T19:31:43.225+02:00
 ---
 Libro consigliato: **Reti logiche** M. Morris Mano, C. R. Kime, T. Martin, Pearson Ed.
 
@@ -18,7 +18,7 @@ Libro consigliato: **Reti logiche** M. Morris Mano, C. R. Kime, T. Martin, Pears
 
 ## reti sequenziali
 
-- [[flip-flop]], [[reti sequenziali]] e [[automa a stati finiti (DFA)]]
+- [[flip-flop]], [[reti sequenziali]] e [[macchine di Moore e Mealy]]
 - [[registri]]
 
 

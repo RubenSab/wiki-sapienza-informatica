@@ -1,9 +1,9 @@
 ---
-updated_at: 2026-01-26T18:16:02.227+01:00
+updated_at: 2026-09-29T10:59:33.894+02:00
 ---
 <iframe src="https://stackoverflow.com/a/7882306" style="width: 100%; height: 500px; zoom: 90%"></iframe>
 
-L'idea di base è che un attributo di una tupla ha valore massimo se non esiste un'altra tupla con lo stesso attributo dal valore maggiore, quindi bisogna eliminare tutte le tuple che hanno un'altra dal valore maggiore di loro.
+L'idea di base è che un attributo di una tupla ha valore massimo se non esiste un'altra tupla con lo *stesso* attributo dal valore maggiore, quindi bisogna eliminare tutte le tuple che hanno un'altra dal valore maggiore di loro.
 
 # Esempio: [[relazione]] $A$
 
