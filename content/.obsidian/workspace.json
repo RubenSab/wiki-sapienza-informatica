@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "6b34f61ed20fb837",
+        "id": "4509724f8bf84da7",
         "type": "tabs",
         "children": [
           {
-            "id": "927b956990429a94",
+            "id": "e7a7b303c61786dc",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -20,13 +20,13 @@
             }
           },
           {
-            "id": "95285e88ecac2d5f",
+            "id": "52ce7877a6d86abe",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Interdisciplinare/linguaggio regolare.md",
-                "mode": "preview",
+                "file": "Automi calcolabilità e complessità/automa non deterministico a stati finiti (NFA).md",
+                "mode": "source",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -40,17 +40,17 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "linguaggio regolare"
+              "title": "automa non deterministico a stati finiti (NFA)"
             }
           },
           {
-            "id": "1b2faf14b3381bc6",
+            "id": "d4d99d899c8a1763",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Automi calcolabilità e complessità/automa a stati finiti (DFA).md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -66,33 +66,9 @@
               "icon": "lucide-file",
               "title": "automa a stati finiti (DFA)"
             }
-          },
-          {
-            "id": "4c896b6cd4ee144f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Automi calcolabilità e complessità/complessità (P vs NP).md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "complessità (P vs NP)"
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -151,7 +127,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "kle",
+                "query": "\"lunghezza 7\"",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -279,22 +255,36 @@
       "command-palette:Open command palette": false,
       "homepage:Open homepage": false,
       "timethings:Activate view": false,
-      "brain-atlas:Open atlas": false
+      "brain-atlas:Open atlas": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "1b2faf14b3381bc6",
+  "active": "52ce7877a6d86abe",
   "lastOpenFiles": [
+    "Automi calcolabilità e complessità/Automi calcolabilità e complessità.md",
+    "Interdisciplinare/automa.md",
+    "Automi calcolabilità e complessità/automa a stati finiti (DFA).md",
+    "Automi calcolabilità e complessità/non determinismo.md",
+    "Automi calcolabilità e complessità/automa non deterministico a stati finiti (NFA).md",
+    "Interdisciplinare/configurazione.md",
+    "Automi calcolabilità e complessità/Pasted image 20260930090019.png",
+    "Automi calcolabilità e complessità/Pasted image 20260930090015.png",
+    "Automi calcolabilità e complessità/Pasted image 20260930085715.png",
+    "Automi calcolabilità e complessità/Pasted image 20260930084920.png",
+    "Excalidraw/Drawing 2026-09-30 08.47.26.excalidraw.md",
+    "Excalidraw",
+    "Automi calcolabilità e complessità/Pasted image 20260930083848.png",
+    "Automi calcolabilità e complessità/Pasted image 20260930083729.png",
+    "Reti di elaboratori/cosa succede quando si fa una richiesta HTTPS?.md",
+    "Automi calcolabilità e complessità/Pasted image 20260930082907.png",
+    "Interdisciplinare/linguaggio regolare.md",
+    "Automi calcolabilità e complessità/complessità (P vs NP).md",
+    "Calcolo delle probabilità/combinazioni con ripetizioni consentite.md",
     "Automi calcolabilità e complessità/automa 2.png",
     "Automi calcolabilità e complessità/automa 1.png",
     "Automi calcolabilità e complessità/automa.png",
-    "Interdisciplinare/linguaggio regolare.md",
-    "Automi calcolabilità e complessità/complessità (P vs NP).md",
     "Automi calcolabilità e complessità/Star di Kleene.md",
-    "Automi calcolabilità e complessità/Automi calcolabilità e complessità.md",
-    "Automi calcolabilità e complessità/automa a stati finiti (DFA).md",
-    "Interdisciplinare/configurazione.md",
     "Automi calcolabilità e complessità/relazione tra linguaggi e DFA.md",
-    "Interdisciplinare/automa.md",
     "BOZZE/25 sep 2026.md",
     "Progettazione di sistemi digitali/macchine di Moore e Mealy.md",
     "Automi calcolabilità e complessità/teoria dell'incompletezza di Godel.md",
@@ -307,29 +297,15 @@
     "Linguaggi di programmazione/linguaggio.md",
     "BOZZE/communication timed automata.md",
     "Ingegneria del software/catena di Markov (DTMC).md",
-    "Ingegneria del software/Ingegneria del software.md",
-    "Ingegneria del software/rete di catene di Markov.md",
-    "Ingegneria del software/hist.png",
-    "Calcolo delle probabilità/probabilità condizionata.md",
-    "Ingegneria del software/Pasted image 20260929125921.png",
-    "Ingegneria del software/Pasted image 20260929125846.png",
-    "Linguaggi di programmazione/Linguaggi di programmazione.md",
-    "Basi di dati/trovare la tupla con l'attributo massimo in un'istanza.md",
     "Ingegneria del software",
     "Linguaggi di programmazione",
     "Automi calcolabilità e complessità",
-    "Sistemi operativi 2/Pasted image 20260316220140.png",
-    "Progettazione di algoritmi/Pasted image 20260708165856.png",
-    "Progettazione di algoritmi/Screenshot From 2026-07-03 22-13-02.png",
-    "Progettazione di algoritmi/Screenshot From 2026-07-03 22-12-12.png",
-    "Progettazione di algoritmi/Screenshot From 2026-07-03 22-11-19.png",
     "Progettazione di algoritmi/esercizi",
     "Reti di elaboratori/Lezione_reti-MAC-aa2526.pdf",
     "BOZZE",
     "system calls per la gestione dei file I",
     "Progettazione di algoritmi/Untitled.base",
     "etc",
-    "arxiv.org/abs",
     "Untitled.canvas",
     "Progettazione di sistemi digitali/rete sequenziale generica.canvas"
   ]

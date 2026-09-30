@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-09-29T21:52:25.856+02:00
+updated_at: 2026-09-29T22:03:34.476+02:00
 ---
 > Gli **automi a stati finiti, o DFA** (*Deterministic Finite-state Automaton*) sono [[automa|macchine a stati finiti]] in grado di accettare o rifiutare stringhe date loro in input carattere per carettere. Sono usati per applicazioni come parser dei compilatori e riconoscimento dei pattern nei dati.
 
@@ -50,8 +50,8 @@ start ---> q1 ----> q2 ----> q3
 	- $\delta((q_{1}, 1)) = q_{2}$
 	- $\delta((q_{2}, 0)) = q_{3}$
 	- $\delta((q_{2}, 1)) = q_{2}$
-	- $\delta((q_{3}, 0)) = q_{3}$
-	- $\delta((q_{3}, 1)) = q_{3}$
+	- $\delta((q_{3}, 0)) = q_{2}$
+	- $\delta((q_{3}, 1)) = q_{2}$
 - $F = \{q_{2}\}$ è lo stato finale
 - $q_{0} = q_{1}$ è lo stato iniziale
 
