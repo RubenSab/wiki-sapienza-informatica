@@ -1,6 +1,8 @@
 ---
-updated_at: 2026-09-29T19:30:15.394+02:00
+updated_at: 2026-09-30T11:17:32.192+02:00
 ---
+# Nei DFA
+
 > È una "fotografia" dell'[[automa a stati finiti (DFA)]] in un determinato istante. È una coppia (stato dell'automa, stringa) in $Q \times \Sigma^{\star}$, ad esempio $(q_{3}, x) \in Q \times \Sigma^{\star}$.
 
 > N.B.: $q_{n}$ è la stringa **che rimane** da leggere, non quella letta fino a quel momento. a ogni transizione, l'automa consuma il carattere sinistro.
@@ -21,3 +23,21 @@ Si può estendere per catturare tante iterazioni successive, si fa considerando 
 - chiusura transitiva: Se $(q, aby) \vdash_{M} (p, by) \land (p, by) \vdash_{M} (r, y) \implies (q, aby) \vdash_{M}^{\star} (r, y)$
 
 Conseguenza: $M\ \text{accetta}\ X \in \Sigma^{\star} \iff (q_{0}, x) \vdash_{M}^{\star} (q, \varepsilon) \quad q \in F$. Ciò è esprimibile anche come $\delta^{\star} (q_{0}, x) \in F$.
+
+# Nei NFA
+
+In un NFA $N$ le configurazioni sono $(q, x) \in Q \times \Sigma_{\varepsilon}$.
+
+$$
+(p, ax) \vdash_{N} (q, x)
+$$
+
+$$
+q \in \delta(p, a)
+$$
+
+Come per i DFA, si può estendere $\vdash_{N}$ per riflessione e transitività:
+
+$$
+N\ \text{accetta}\ w \iff \exists \in F:\ (q_{0}, w) \vdash_{N}^{\star} (q, \varepsilon) \quad \text{(esiste almeno un cammino che accetta)}
+$$

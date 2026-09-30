@@ -20,7 +20,7 @@
             }
           },
           {
-            "id": "52ce7877a6d86abe",
+            "id": "f8551883adb2766c",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -41,30 +41,6 @@
               },
               "icon": "lucide-file",
               "title": "automa non deterministico a stati finiti (NFA)"
-            }
-          },
-          {
-            "id": "d4d99d899c8a1763",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Automi calcolabilità e complessità/automa a stati finiti (DFA).md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "automa a stati finiti (DFA)"
             }
           }
         ],
@@ -259,14 +235,14 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "52ce7877a6d86abe",
+  "active": "f8551883adb2766c",
   "lastOpenFiles": [
+    "Interdisciplinare/configurazione.md",
+    "Automi calcolabilità e complessità/automa non deterministico a stati finiti (NFA).md",
+    "Automi calcolabilità e complessità/automa a stati finiti (DFA).md",
     "Automi calcolabilità e complessità/Automi calcolabilità e complessità.md",
     "Interdisciplinare/automa.md",
-    "Automi calcolabilità e complessità/automa a stati finiti (DFA).md",
     "Automi calcolabilità e complessità/non determinismo.md",
-    "Automi calcolabilità e complessità/automa non deterministico a stati finiti (NFA).md",
-    "Interdisciplinare/configurazione.md",
     "Automi calcolabilità e complessità/Pasted image 20260930090019.png",
     "Automi calcolabilità e complessità/Pasted image 20260930090015.png",
     "Automi calcolabilità e complessità/Pasted image 20260930085715.png",
