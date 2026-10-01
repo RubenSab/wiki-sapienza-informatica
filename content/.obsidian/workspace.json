@@ -20,12 +20,12 @@
             }
           },
           {
-            "id": "f8551883adb2766c",
+            "id": "3e97b6b8a53af15c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Automi calcolabilità e complessità/automa non deterministico a stati finiti (NFA).md",
+                "file": "Metodi matematici per l'informatica/induzione strutturale.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -40,11 +40,35 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "automa non deterministico a stati finiti (NFA)"
+              "title": "induzione strutturale"
+            }
+          },
+          {
+            "id": "66fc4a0049faac6e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linguaggi di programmazione/algebra induttiva.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "algebra induttiva"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -103,7 +127,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"lunghezza 7\"",
+                "query": "segnatura",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -217,8 +241,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 354.5,
-    "collapsed": true
+    "width": 354.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -235,44 +258,44 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "f8551883adb2766c",
+  "active": "66fc4a0049faac6e",
   "lastOpenFiles": [
-    "Interdisciplinare/configurazione.md",
+    "Metodi matematici per l'informatica/induzione strutturale.md",
+    "Linguaggi di programmazione/morfismi tra algebre.md",
+    "Linguaggi di programmazione/Pasted image 20261001110530.png",
+    "Linguaggi di programmazione/Pasted image 20261001105356.png",
+    "Linguaggi di programmazione/Pasted image 20261001105043.png",
+    "Linguaggi di programmazione/algebra induttiva.md",
+    "Metodologie di programmazione/overriding.md",
+    "Algebra/determinante.md",
+    "Interdisciplinare/permutazioni.md",
+    "Algebra/Algebra.md",
+    "Linguaggi di programmazione/algebra eterogenea.md",
+    "Linguaggi di programmazione/struttura e rappresentazione.md",
+    "Linguaggi di programmazione/Linguaggi di programmazione.md",
+    "Interdisciplinare/induzione completa.md",
+    "Linguaggi di programmazione/Pasted image 20261001103029.png",
+    "Linguaggi di programmazione/Untitled.md",
+    "Linguaggi di programmazione/Pasted image 20261001101718.png",
+    "Linguaggi di programmazione/Pasted image 20261001101535.png",
+    "Linguaggi di programmazione/Pasted image 20261001101235.png",
+    "Linguaggi di programmazione/Pasted image 20261001101225.png",
+    "Linguaggi di programmazione/linguaggio.md",
+    "Metodi matematici per l'informatica/induzione.md",
+    "Untitled.md",
     "Automi calcolabilità e complessità/automa non deterministico a stati finiti (NFA).md",
+    "Interdisciplinare/configurazione.md",
     "Automi calcolabilità e complessità/automa a stati finiti (DFA).md",
     "Automi calcolabilità e complessità/Automi calcolabilità e complessità.md",
     "Interdisciplinare/automa.md",
     "Automi calcolabilità e complessità/non determinismo.md",
     "Automi calcolabilità e complessità/Pasted image 20260930090019.png",
     "Automi calcolabilità e complessità/Pasted image 20260930090015.png",
-    "Automi calcolabilità e complessità/Pasted image 20260930085715.png",
-    "Automi calcolabilità e complessità/Pasted image 20260930084920.png",
     "Excalidraw/Drawing 2026-09-30 08.47.26.excalidraw.md",
     "Excalidraw",
-    "Automi calcolabilità e complessità/Pasted image 20260930083848.png",
-    "Automi calcolabilità e complessità/Pasted image 20260930083729.png",
     "Reti di elaboratori/cosa succede quando si fa una richiesta HTTPS?.md",
-    "Automi calcolabilità e complessità/Pasted image 20260930082907.png",
     "Interdisciplinare/linguaggio regolare.md",
     "Automi calcolabilità e complessità/complessità (P vs NP).md",
-    "Calcolo delle probabilità/combinazioni con ripetizioni consentite.md",
-    "Automi calcolabilità e complessità/automa 2.png",
-    "Automi calcolabilità e complessità/automa 1.png",
-    "Automi calcolabilità e complessità/automa.png",
-    "Automi calcolabilità e complessità/Star di Kleene.md",
-    "Automi calcolabilità e complessità/relazione tra linguaggi e DFA.md",
-    "BOZZE/25 sep 2026.md",
-    "Progettazione di sistemi digitali/macchine di Moore e Mealy.md",
-    "Automi calcolabilità e complessità/teoria dell'incompletezza di Godel.md",
-    "Progettazione di sistemi digitali/progettazione di sistemi digitali.md",
-    "Architettura degli elaboratori/CPU.md",
-    "Progettazione di sistemi digitali/criterio di minimalità.md",
-    "Progettazione di sistemi digitali/contatore sincrono modulo 2 alla n.md",
-    "Progettazione di sistemi digitali/analisi di reti sequenziali.md",
-    "Progettazione di sistemi digitali/addizionatore sequenziale.md",
-    "Linguaggi di programmazione/linguaggio.md",
-    "BOZZE/communication timed automata.md",
-    "Ingegneria del software/catena di Markov (DTMC).md",
     "Ingegneria del software",
     "Linguaggi di programmazione",
     "Automi calcolabilità e complessità",

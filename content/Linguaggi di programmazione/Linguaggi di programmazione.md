@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-09-29T11:02:25.999+02:00
+updated_at: 2026-10-01T09:09:59.128+02:00
 ---
 > [Materiale del corso](http://wwwusers.di.uniroma1.it/~lpara)
 
@@ -7,5 +7,7 @@ updated_at: 2026-09-29T11:02:25.999+02:00
 
 - [[linguaggio]]
 - [[primo e secondo ordine]]
+- [[algebra eterogenea]]
 - [[algebra induttiva]]
+- [[induzione completa]]
 - [[induzione strutturale]]

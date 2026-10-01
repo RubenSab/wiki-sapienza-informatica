@@ -1,7 +1,11 @@
 ---
-updated_at: 2026-09-28T12:26:37.247+02:00
+updated_at: 2026-10-01T11:08:06.748+02:00
 ---
+# Esempio di una dimostrazione di una proposizione sugli alberi binari (Cenciarelli)
 
+> *Ogni albero binario con $n$ foglie ha $n-1$ nodi*.
+
+#todo
 
 # Esempio (di Piperno)
 

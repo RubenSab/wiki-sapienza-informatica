@@ -1,9 +1,7 @@
 ---
-updated_at: 2026-09-28T12:51:24.920+02:00
+updated_at: 2026-10-01T10:35:49.362+02:00
 ---
 > Un'algebra eterogenea è una coppia $(A, \gamma)$, dove $A$ è un [[insieme]] e $\gamma$ è un insieme di operazioni che restituiscono elementi di $A$ e possono avere come input elementi al di fuori di essa, detti **parametri esterni**.
-
-- [[algebra induttiva]]
 
 Ad esempio, un'algebra delle liste, potrebbe avere le operazioni
 
@@ -19,8 +17,12 @@ $$
 
 Es: cons(2, (3, 4, 5)) = (2, 3, 4, 5)
 
-> Si dice che $S$ è chiuso rispetto alla [[funzione]] $f(n)$ se $\forall n \ (n \in S \implies f(n) \in S)$.
+> $\text{cons}$ e un insieme di liste $L$ che contiene la lista vuota, insieme definiscono un'[[algebra induttiva]].
 
-> Si dice che $S$ è chiuso rispetto alla funzione $f(n, k)$ se $\forall k\forall n \ (n \in S \implies f(n, k) \in S)$.
+> Si dice che $S$ è **chiuso rispetto alla [[funzione]]** $f(n)$ se $\forall n \ (n \in S \implies f(n) \in S)$.
 
-> N.B.: Se il dominio della funzione $f$ solo parametri esterni a $S$, $f$ è chiuso rispetto ad $S$.
+> Si dice che $S$ è **chiuso rispetto alla funzione $f(n, k)$** se $\forall k\forall n \ (n \in S \implies f(n, k) \in S)$.
+
+> N.B.: Se il dominio della funzione $f$ ha solo parametri esterni a $S$, $f$ è chiuso rispetto ad $S$ (perché l'antecedente dell'implicazione nella definizione di "chiuso rispetto a $f$" è falso).
+
+- [[morfismi tra algebre]]

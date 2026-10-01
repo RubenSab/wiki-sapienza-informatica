@@ -1,11 +1,15 @@
 ---
-updated_at: 2026-09-28T12:56:51.299+02:00
+updated_at: 2026-10-01T10:35:32.456+02:00
 ---
 > Un'[[algebra eterogenea|algebra]] $(A, \gamma)$ si dice **induttiva** quando:
 
 1. Tutte le $\gamma$ sono *[[funzione#^b987df|iniettive]]*.
 2. Tutte le $\gamma$ hanno *immagini disgiunte*.
 3. $\forall S \subseteq A \quad S\ \text{è chiuso rispetto a tutte le}\ \gamma_{i} \implies S = A$.
+
+> Le operazioni $\gamma$ si chiamano **costruttori** dell'algebra induttiva.
+
+- [[morfismi tra algebre]]
 
 # Esempio dell'algebra [[induzione|induttiva]] dei [[numeri naturali]]
 
@@ -67,3 +71,61 @@ $$
 $$
 
 Cioè l'[[induzione]].
+
+## Perché gli assiomi di Peano sono necessari?
+
+### Cosa succede se si toglie il terzo assioma? (Elemento minimo)
+
+Sarebbe impossibile dimostrare induttivamente una proprietà per tutti gli elementi dell'insieme.
+
+### Cosa succede se si toglie il quarto assioma? (Iniettività di $\text{succ}(n)$)
+
+Consideriamo un'algebra su $\{0, 1\}$ dove $\text{succ}(0) = 1$, $\text{succ}(1) = 1$, $\text{not}(\text{true}) = \text{false}$, $\text{not}(\text{false}) = \text{true}$.
+
+Definiamo una [[funzione]] $\text{is-even}$ per casi:
+
+$$
+\begin{cases}
+\text{is-even}(0) = \text{true} \\
+\text{is-even}(\text{succ}(n)) = \text{not}(\text{is-even}(n)) \\
+\end{cases}
+$$
+
+Si può dimostrare che $\text{true} = \text{false}$, quindi questa matematica non è valida.
+
+### Cosa succede se si toglie il quinto assioma? (Induzione)
+
+Non si riesce a fare definizioni induttive:
+
+$$
+\begin{cases}
+\text{fact}(0) = 1 \\
+\text{fact}(\text{succ}(n)) = \text{fact}(n) \cdot \text{succ}(n)
+\end{cases}
+$$
+
+Inoltre ovviamente non si potrebbero fare definizioni per induzione.
+
+Ad esempio in un insieme $\mathbb{N}$ fatto così
+
+$$
+\mathbb{N} = \begin{Bmatrix}
+0 \\
+\text{succ}(0) \\
+\text{succ}(\text{succ}(0)) \\
+\text{succ}(\text{succ}(\text{succ}(0))) \\
+\ldots \\
+\end{Bmatrix}\ \cup\
+\{\heartsuit,\ \text{con}\ \text{succ}(\heartsuit) = \heartsuit \}
+$$
+
+Applicando l'induzione si potrebbe dimostrare che $\heartsuit \neq \heartsuit$. Questo succede perché $\heartsuit$ non è "raggiungibile" da $0$ attraverso una catena di induzione, visto che è scollegato dagli altri elementi. Ciò significa che l'insieme $\mathbb{N}$ così definito contiene due sottoalgebre proprie, quella generata da $0$ e $\text{succ}$ e quella in $\{\heartsuit\}$.
+
+Ciò non deve succedere nell'insieme $\mathbb{N}$ induttivo che conosciamo.
+
+# Come gli assiomi di Peano dei numeri naturali rispettano la definizione astratta di algebra
+
+- $0$ può essere definita la funzione che va da qualsiasi insieme $\mathbb{1}$ (insieme con un solo elemento) al numero natrurale minimo.
+- $\text{succ}$ è l'altra funzione che "genera" gli altri numeri partendo dal numero naturale minimo.
+
+$O(z) = \text{zero},\ z \in \mathbb{1},\ \text{succ}(\text{zero}) \in \mathbb{N}$ e $\text{succ}(n) = m,\ n, m \in \mathbb{N},\ n, m \neq \text{zero},\ \text{zero} \in \mathbb{N}$ hanno immagini disgiunte, sono iniettive, e $\mathbb{N}$ è chiuso rispetto a entrambe, quindi $(\mathbb{N}, \{0, \text{succ}\})$ è un'algebra induttiva.
