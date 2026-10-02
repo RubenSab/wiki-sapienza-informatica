@@ -20,12 +20,12 @@
             }
           },
           {
-            "id": "3e97b6b8a53af15c",
+            "id": "557b8da55a9f6e1c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Metodi matematici per l'informatica/induzione strutturale.md",
+                "file": "Interdisciplinare/linguaggio regolare.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -40,16 +40,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "induzione strutturale"
+              "title": "linguaggio regolare"
             }
           },
           {
-            "id": "66fc4a0049faac6e",
+            "id": "b3ce52ec279d9806",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linguaggi di programmazione/algebra induttiva.md",
+                "file": "Automi calcolabilità e complessità/Star di Kleene.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -64,11 +64,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "algebra induttiva"
+              "title": "Star di Kleene"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -241,7 +241,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 354.5
+    "width": 354.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -258,44 +259,45 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "66fc4a0049faac6e",
+  "active": "557b8da55a9f6e1c",
   "lastOpenFiles": [
-    "Metodi matematici per l'informatica/induzione strutturale.md",
+    "Automi calcolabilità e complessità/Star di Kleene.md",
+    "Interdisciplinare/linguaggio regolare.md",
+    "Interdisciplinare/Pasted image 20261002090846.png",
+    "Interdisciplinare/Pasted image 20261002090311.png",
+    "Automi calcolabilità e complessità/automa non deterministico a stati finiti (NFA).md",
+    "Automi calcolabilità e complessità/Pasted image 20261002085808.png",
+    "Automi calcolabilità e complessità/Pasted image 20261002085242.png",
+    "Automi calcolabilità e complessità/Pasted image 20261002085139.png",
+    "Automi calcolabilità e complessità/Pasted image 20261002082023.png",
+    "BOZZE/software.md",
+    "Ingegneria del software/catena di Markov (DTMC).md",
+    "Interdisciplinare/permutazioni.md",
+    "Algebra/determinante.md",
     "Linguaggi di programmazione/morfismi tra algebre.md",
+    "Algebra/ordine.md",
+    "Algebra/Algebra.md",
+    "Linguaggi di programmazione/algebra induttiva.md",
+    "Metodi matematici per l'informatica/induzione strutturale.md",
     "Linguaggi di programmazione/Pasted image 20261001110530.png",
     "Linguaggi di programmazione/Pasted image 20261001105356.png",
     "Linguaggi di programmazione/Pasted image 20261001105043.png",
-    "Linguaggi di programmazione/algebra induttiva.md",
     "Metodologie di programmazione/overriding.md",
-    "Algebra/determinante.md",
-    "Interdisciplinare/permutazioni.md",
-    "Algebra/Algebra.md",
     "Linguaggi di programmazione/algebra eterogenea.md",
     "Linguaggi di programmazione/struttura e rappresentazione.md",
     "Linguaggi di programmazione/Linguaggi di programmazione.md",
     "Interdisciplinare/induzione completa.md",
     "Linguaggi di programmazione/Pasted image 20261001103029.png",
     "Linguaggi di programmazione/Untitled.md",
-    "Linguaggi di programmazione/Pasted image 20261001101718.png",
-    "Linguaggi di programmazione/Pasted image 20261001101535.png",
-    "Linguaggi di programmazione/Pasted image 20261001101235.png",
-    "Linguaggi di programmazione/Pasted image 20261001101225.png",
     "Linguaggi di programmazione/linguaggio.md",
     "Metodi matematici per l'informatica/induzione.md",
     "Untitled.md",
-    "Automi calcolabilità e complessità/automa non deterministico a stati finiti (NFA).md",
     "Interdisciplinare/configurazione.md",
     "Automi calcolabilità e complessità/automa a stati finiti (DFA).md",
     "Automi calcolabilità e complessità/Automi calcolabilità e complessità.md",
     "Interdisciplinare/automa.md",
     "Automi calcolabilità e complessità/non determinismo.md",
-    "Automi calcolabilità e complessità/Pasted image 20260930090019.png",
-    "Automi calcolabilità e complessità/Pasted image 20260930090015.png",
-    "Excalidraw/Drawing 2026-09-30 08.47.26.excalidraw.md",
     "Excalidraw",
-    "Reti di elaboratori/cosa succede quando si fa una richiesta HTTPS?.md",
-    "Interdisciplinare/linguaggio regolare.md",
-    "Automi calcolabilità e complessità/complessità (P vs NP).md",
     "Ingegneria del software",
     "Linguaggi di programmazione",
     "Automi calcolabilità e complessità",

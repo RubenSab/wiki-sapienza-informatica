@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-09-29T21:38:24.506+02:00
+updated_at: 2026-10-02T09:16:34.648+02:00
 ---
 # Classe REG dei [[linguaggio|linguaggi]]
 
@@ -99,3 +99,20 @@ Devo definire $M = (Q, \Sigma, \delta, q_{0}, F)$ tale che:
 - $F = (F_{1} \times Q_{2}) \cup (F_{2} \times Q_{1}) = \{(r_{1}, r_{2}):\ r_{1} \in F_{1} \lor r_{2} \in F_{2}\}$ (se uno dei due stati $Q_{1}$ o $Q_{2}$ sono finali non ci interessa dell'altro, stiamo ragionando sull'unione)
 
 Il resto della dimostrazione è inutile per il corso.
+
+## Ri-dimostrazioni usando gli [[automa non deterministico a stati finiti (NFA)|NFA]]
+### REG è chiuso per $\cup$
+
+Dati due NFA $N_{1},\ N_{2}$ che riconoscono rispettivamente $L_{1},\ L_{2}$ costruisco un NFA $N$ che riconosce $L_{1} \cup L_{2}$.
+
+![[Pasted image 20261002090311.png]]
+
+### REG è chiuso per $\circ$ (concatenazione)
+
+Dati due NFA $N_{1},\ N_{2}$ che riconoscono rispettivamente $L_{1},\ L_{2}$ costruisco un NFA $N$ che riconosce $L_{1} \circ L_{2}$.
+
+![[Pasted image 20261002090846.png]]
+
+### REG è chiusa per $\star$
+
+Dato un NFA $N_{1}$ tale che $L(N) = L$ (che riconosce $L$) costruisco un NFA $N^{\star}$ tale che $L(N^{\star}) = L^{\star}$.

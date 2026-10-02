@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-09-30T11:20:53.413+02:00
+updated_at: 2026-10-02T08:59:29.029+02:00
 ---
 > Un *Non deterministic Finite state [[automa|Automaton]]* è una tupla $N = (Q, \Sigma, \delta, q_{0}, f)$, dove $Q, \Sigma, q_{0}, F$ corrispondono a quelle dell'[[automa a stati finiti (DFA)]], mentre $\delta$ cambia da ogni stato del NFA si può transitare verso **più stati**.
 
@@ -46,3 +46,49 @@ Esecuzione:
 	4. Aggiungiamo gli $\varepsilon$-archi. Cosa cambia? (nota: $E(\text{stato})$ è l'insieme di stati di $N$ raggiungibili tramite $\varepsilon$ archi)
 		1. $q_{0}^{M} = E(\{q_{0}^{N}\})$
 		2. $\delta_{M}(R, a) = \bigcup_{r \in R} E(\delta_{N}(r, a))$
+
+# Esercizio
+
+![[Pasted image 20261002082023.png]]
+
+## Definizione degli stati $Q_{m}$
+
+$$
+\quad Q_{m} = \{q_{\emptyset},\ q_{\{1\}},\ q_{\{2\}},\ q_{\{3\}},\ q_{\{1, 2\}},\ q_{\{2, 3\}},\ q_{\{1, 3\}},\ q_{\{1, 2, 3\}}\}
+$$
+
+## Definizione dello stato iniziale $q_{0}^{M}$
+
+$$
+q_{0}^{M} = q_{1, 3}
+$$
+
+## Definizione degli stati finali $F_{M}$
+
+$$
+F_{M} = \{q_{\{1\}},\ q_{\{1, 2\}},\ q_{\{1, 3\}},\ q_{\{1, 2, 3\}}\}
+$$
+
+## Definizione della funzione di transizione $S_{M}$
+
+$$
+S_{M}:\quad Q_{M} \times \Sigma \to Q_{M}
+$$
+
+Considero i diversi casi:
+
+- Nello stato $q_{1}$:
+	- se $N$ legge $b$ può transitare in $q_{2}$, cioè $S_{M}(q_{\{1\}}, b) = q_{\{2\}}$.
+	- se $N$ legge $a$ va in uno stato pozzo, cioè $S_{M}(q_{\{1\}}, a) = q_{\emptyset}$.
+- Nello stato $q_{2}$:
+	- se $N$ legge $a$ può transitare in $q_{2}$ e $q_{3}$, cioè $S_{M}(q_{\{2\}}, a) = q_{\{2, 3\}}$.
+	- se $N$ legge $b$ può transitare in $q_{3}$, cioè $S_{M}(q_{\{2\}}, b) = q_{\{3\}}$.
+- Nello stato $q_{3}$:
+	- se $N$ legge $a$ può transitare in $q_{1}$, cioè $S_{M}(q_{\{3\}}, a) = q_{\{1, 3\}}$. Nell'insieme c'è anche $q_{3}$ perché si prende immediatamente l'$\varepsilon$-arco da $q_{1}$.
+	- se $N$ legge $b$ va in uno stato pozzo, cioè $S_{M}(q_{\{1\}}, b) = q_{\emptyset}$.
+
+> N.B.: Per un qualsiasi stato $q_{n}$ si deve **MAI** definire $S_{M}(q_{n}, \varepsilon)$, ma accorpare la destinazione dell'$\varepsilon$-arco nella $S_{M}$ degli altri input, cioè $S_{M}(q_{n}, \text{input}_{k})$.
+
+## Disegno del NFA $M$
+
+![[Pasted image 20261002085242.png]]
