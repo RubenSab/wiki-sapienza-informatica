@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-10-02T09:16:34.648+02:00
+updated_at: 2026-10-02T10:01:07.191+02:00
 ---
 # Classe REG dei [[linguaggio|linguaggi]]
 
@@ -116,3 +116,26 @@ Dati due NFA $N_{1},\ N_{2}$ che riconoscono rispettivamente $L_{1},\ L_{2}$ cos
 ### REG è chiusa per $\star$
 
 Dato un NFA $N_{1}$ tale che $L(N) = L$ (che riconosce $L$) costruisco un NFA $N^{\star}$ tale che $L(N^{\star}) = L^{\star}$.
+
+Mettiamo conto che $N$ riconosce $L=\{0, 1\}$, implementato con un albero di caratteri:
+
+![[Pasted image 20261002095514.png|204]]
+
+Per fare un DFA che riconosce $L^{2} = \{00, 01, 10, 11\}$ bisogna copiare l'albero di $N$ e "attaccarlo" su ogni sua foglia:
+
+![[Pasted image 20261002095646.png|212]]
+
+Si potrebbe provare a ripetere il procedimento all'infinito per $N^{\star}$:
+
+![[Pasted image 20261002095908.png|310]]
+
+Ma questo non sarebbe un DFA, perché ha stati infiniti.
+
+Però si può costruire un NFA analogo a questo partendo dal caso iniziale $\{0, 1\}$:
+
+![[Pasted image 20261002100106.png|165]]
+
+Nel caso generale, vale che:
+
+![[Pasted image 20261002095257.png]]
+
