@@ -1,13 +1,24 @@
 ---
-updated_at: 2026-10-01T11:08:06.748+02:00
+updated_at: 2026-10-05T12:08:26.706+02:00
 ---
+![[Pasted image 20261005114624.png]]
+
+
+È espressa con la [[regola di inferenza]]:
+
+$$
+\frac{P(U) \land ((P(t_{1}) \land P(t_{2})) \implies P(B(t_{1}, t_{2})))}{\forall t \in A\ P(t)}
+$$
+
+Ad esempio, applicandola all'[[algebra induttiva degli alberi binari (finiti)]], si può dimostrare che ogni albero binario con $n$ foglie ha $2n-1$ nodi.
+
 # Esempio di una dimostrazione di una proposizione sugli alberi binari (Cenciarelli)
 
 > *Ogni albero binario con $n$ foglie ha $n-1$ nodi*.
 
 #todo
 
-# Esempio (di Piperno)
+# Esempio (Piperno)
 
 ## Ipotesi
 

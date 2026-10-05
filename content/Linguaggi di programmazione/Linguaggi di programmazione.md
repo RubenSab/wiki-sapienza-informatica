@@ -1,13 +1,17 @@
 ---
-updated_at: 2026-10-01T09:09:59.128+02:00
+updated_at: 2026-10-05T12:17:58.115+02:00
 ---
 > [Materiale del corso](http://wwwusers.di.uniroma1.it/~lpara)
 
 # Argomenti
 
-- [[linguaggio]]
-- [[primo e secondo ordine]]
-- [[algebra eterogenea]]
-- [[algebra induttiva]]
-- [[induzione completa]]
-- [[induzione strutturale]]
+- Algebre e induzione:
+	- [[primo e secondo ordine]]
+	- [[algebra eterogenea]]
+	- [[algebra induttiva]]
+	- [[morfismi tra algebre]]
+	- [[induzione completa]]
+	- [[induzione strutturale]]
+- Linguaggi
+	- [[linguaggio]]
+	- [[linguaggio di programmazione]]

@@ -20,36 +20,12 @@
             }
           },
           {
-            "id": "557b8da55a9f6e1c",
+            "id": "adc9345d945dc221",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Interdisciplinare/espressioni regolari (regex).md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "espressioni regolari (regex)"
-            }
-          },
-          {
-            "id": "b3ce52ec279d9806",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Automi calcolabilità e complessità/Star di Kleene.md",
+                "file": "Linguaggi di programmazione/linguaggio di programmazione.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -64,7 +40,103 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Star di Kleene"
+              "title": "linguaggio di programmazione"
+            }
+          },
+          {
+            "id": "473224766b82d8b9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linguaggi di programmazione/morfismi tra algebre.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "morfismi tra algebre"
+            }
+          },
+          {
+            "id": "9a61fd74f573c365",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linguaggi di programmazione/linguaggio di programmazione.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "linguaggio di programmazione"
+            }
+          },
+          {
+            "id": "c4728a76b97032d4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Metodi matematici per l'informatica/induzione matematica.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "induzione matematica"
+            }
+          },
+          {
+            "id": "68ea6e66ce0a0c4e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linguaggi di programmazione/linguaggio.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "linguaggio"
             }
           }
         ],
@@ -127,7 +199,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "segnatura",
+                "query": "peano",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -241,8 +313,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 354.5,
-    "collapsed": true
+    "width": 354.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -259,44 +330,44 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "557b8da55a9f6e1c",
+  "active": "adc9345d945dc221",
   "lastOpenFiles": [
-    "Interdisciplinare/espressioni regolari (regex).md",
+    "Linguaggi di programmazione/Pasted image 20261005124809.png",
+    "Linguaggi di programmazione/Pasted image 20261005123145.png",
+    "Linguaggi di programmazione/linguaggio di programmazione.md",
+    "Linguaggi di programmazione/Linguaggi di programmazione.md",
+    "Linguaggi di programmazione/algebra induttiva.md",
+    "Linguaggi di programmazione/morfismi tra algebre.md",
+    "Metodi matematici per l'informatica/induzione matematica.md",
+    "Linguaggi di programmazione/linguaggio.md",
+    "Metodi matematici per l'informatica/induzione strutturale.md",
+    "Metodi matematici per l'informatica/algebra induttiva degli alberi binari (finiti).md",
+    "Metodi matematici per l'informatica/Pasted image 20261005121553.png",
+    "Metodi matematici per l'informatica/Pasted image 20261005121427.png",
+    "Interdisciplinare/induzione completa.md",
+    "Metodi matematici per l'informatica/induzione.md",
+    "Metodi matematici per l'informatica/Pasted image 20261005114624.png",
+    "Interdisciplinare/Pasted image 20261005113941.png",
+    "Metodi matematici per l'informatica/Pasted image 20261005113310.png",
+    "Interdisciplinare/Pasted image 20261005113243.png",
+    "Linguaggi di programmazione/Untitled 1.md",
+    "Progettazione di algoritmi/Untitled.md",
     "Linguaggi di programmazione/algebra eterogenea.md",
+    "BOZZE/Osservazioni IUM.md",
+    "Interdisciplinare/espressioni regolari (regex).md",
     "Automi calcolabilità e complessità/Automi calcolabilità e complessità.md",
     "Interdisciplinare/linguaggio regolare.md",
     "Interdisciplinare/Pasted image 20261002100106.png",
     "Interdisciplinare/Pasted image 20261002095908.png",
     "Interdisciplinare/Pasted image 20261002095646.png",
-    "Interdisciplinare/Pasted image 20261002095514.png",
-    "Interdisciplinare/Pasted image 20261002095257.png",
     "Automi calcolabilità e complessità/Star di Kleene.md",
-    "Interdisciplinare/Pasted image 20261002090846.png",
-    "Interdisciplinare/Pasted image 20261002090311.png",
     "Automi calcolabilità e complessità/automa non deterministico a stati finiti (NFA).md",
-    "Automi calcolabilità e complessità/Pasted image 20261002085808.png",
-    "Automi calcolabilità e complessità/Pasted image 20261002085242.png",
-    "Automi calcolabilità e complessità/Pasted image 20261002085139.png",
     "BOZZE/software.md",
     "Ingegneria del software/catena di Markov (DTMC).md",
     "Interdisciplinare/permutazioni.md",
     "Algebra/determinante.md",
-    "Linguaggi di programmazione/morfismi tra algebre.md",
     "Algebra/ordine.md",
     "Algebra/Algebra.md",
-    "Linguaggi di programmazione/algebra induttiva.md",
-    "Metodi matematici per l'informatica/induzione strutturale.md",
-    "Metodologie di programmazione/overriding.md",
-    "Linguaggi di programmazione/struttura e rappresentazione.md",
-    "Linguaggi di programmazione/Linguaggi di programmazione.md",
-    "Interdisciplinare/induzione completa.md",
-    "Linguaggi di programmazione/Untitled.md",
-    "Linguaggi di programmazione/linguaggio.md",
-    "Metodi matematici per l'informatica/induzione.md",
-    "Untitled.md",
-    "Interdisciplinare/configurazione.md",
-    "Automi calcolabilità e complessità/automa a stati finiti (DFA).md",
-    "Interdisciplinare/automa.md",
     "Excalidraw",
     "Ingegneria del software",
     "Linguaggi di programmazione",

@@ -1,15 +1,9 @@
 ---
-updated_at: 2026-09-28T12:22:27.539+02:00
+updated_at: 2026-10-05T12:00:21.155+02:00
 ---
-È la [[regola di inferenza]]:
-
-$$
-\frac{P(0) \quad P(n) \implies P(n+1)}{\forall n \quad P(n)}
-$$
-
 - [[induzione matematica]]: $[P(0)\land(P(n)\implies P(n+1))]\implies \forall n, P(n)$
 - [[induzione completa]]: $[P(0)\ \land\ [\forall x \leq nP(x)]]\implies \forall n,\ P(n)$
-- [[induzione strutturale]]
+- [[induzione strutturale]]: $\frac{P(U) \land ((P(t_{1}) \land P(t_{2})) \implies P(B(t_{1}, t_{2})))}{\forall t \in A\ P(t)}$
 
 # Esempi
 

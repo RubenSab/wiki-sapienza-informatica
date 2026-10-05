@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-10-01T10:35:32.456+02:00
+updated_at: 2026-10-05T12:07:04.393+02:00
 ---
 > Un'[[algebra eterogenea|algebra]] $(A, \gamma)$ si dice **induttiva** quando:
 
@@ -10,6 +10,7 @@ updated_at: 2026-10-01T10:35:32.456+02:00
 > Le operazioni $\gamma$ si chiamano **costruttori** dell'algebra induttiva.
 
 - [[morfismi tra algebre]]
+- [[algebra induttiva degli alberi binari (finiti)]]
 
 # Esempio dell'algebra [[induzione|induttiva]] dei [[numeri naturali]]
 
@@ -28,7 +29,7 @@ La funzione per generare il successore di $n$ è $\text{succ}(n) = n \cup \{n\}$
 
 ## Struttura dei numeri naturali
 
-È definita tramite i quattro assiomi di Peano del **primo [[primo e secondo ordine|ordine]]**:
+È definita tramite i quattro assiomi di Peano del **primo [[primo e secondo ordine|ordine]]**: ^ca2bbb
 
 1. $\emptyset \in \mathbb{N}$
 2. $\forall n \quad n \in \mathbb{N} \implies \text{succ}(n) \in \mathbb{N}$
