@@ -20,12 +20,12 @@
             }
           },
           {
-            "id": "adc9345d945dc221",
+            "id": "9a1f3bbc006e521d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linguaggi di programmazione/linguaggio di programmazione.md",
+                "file": "BOZZE/software.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -40,16 +40,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "linguaggio di programmazione"
+              "title": "software"
             }
           },
           {
-            "id": "473224766b82d8b9",
+            "id": "71951f25ae5a6755",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linguaggi di programmazione/morfismi tra algebre.md",
+                "file": "Ingegneria del software/catena di Markov (DTMC).md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -64,83 +64,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "morfismi tra algebre"
-            }
-          },
-          {
-            "id": "9a61fd74f573c365",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Linguaggi di programmazione/linguaggio di programmazione.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "linguaggio di programmazione"
-            }
-          },
-          {
-            "id": "c4728a76b97032d4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Metodi matematici per l'informatica/induzione matematica.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "induzione matematica"
-            }
-          },
-          {
-            "id": "68ea6e66ce0a0c4e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Linguaggi di programmazione/linguaggio.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "linguaggio"
+              "title": "catena di Markov (DTMC)"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -199,7 +127,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "peano",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -313,7 +241,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 354.5
+    "width": 354.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -330,11 +259,14 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "adc9345d945dc221",
+  "active": "71951f25ae5a6755",
   "lastOpenFiles": [
+    "Ingegneria del software/Ingegneria del software.md",
+    "BOZZE/software.md",
+    "BOZZE/Untitled.md",
+    "Linguaggi di programmazione/linguaggio di programmazione.md",
     "Linguaggi di programmazione/Pasted image 20261005124809.png",
     "Linguaggi di programmazione/Pasted image 20261005123145.png",
-    "Linguaggi di programmazione/linguaggio di programmazione.md",
     "Linguaggi di programmazione/Linguaggi di programmazione.md",
     "Linguaggi di programmazione/algebra induttiva.md",
     "Linguaggi di programmazione/morfismi tra algebre.md",
@@ -359,15 +291,12 @@
     "Interdisciplinare/linguaggio regolare.md",
     "Interdisciplinare/Pasted image 20261002100106.png",
     "Interdisciplinare/Pasted image 20261002095908.png",
-    "Interdisciplinare/Pasted image 20261002095646.png",
     "Automi calcolabilità e complessità/Star di Kleene.md",
     "Automi calcolabilità e complessità/automa non deterministico a stati finiti (NFA).md",
-    "BOZZE/software.md",
     "Ingegneria del software/catena di Markov (DTMC).md",
     "Interdisciplinare/permutazioni.md",
     "Algebra/determinante.md",
     "Algebra/ordine.md",
-    "Algebra/Algebra.md",
     "Excalidraw",
     "Ingegneria del software",
     "Linguaggi di programmazione",

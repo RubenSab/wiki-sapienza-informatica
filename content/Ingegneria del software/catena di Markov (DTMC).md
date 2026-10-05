@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-09-29T17:41:48.365+02:00
+updated_at: 2026-10-05T15:14:45.400+02:00
 ---
 > N.B.: Una catena di Markov ha uno stato corrente che cambia a ogni iterazione, attraversandola. L'input è ricevuto tutto insieme all'inizio, **inizializzando la catena** stessa; invece l'output è la **catena stessa di stati attraversati**, prodotta a ogni transizione.
 
@@ -21,8 +21,7 @@ updated_at: 2026-09-29T17:41:48.365+02:00
 
 > Avendo una catena $M$, $M(U)$ è il suo input, $M(X)$ il suo stato corrente e $M(Y)$ il suo output.
 
-# Esempio
-
+# Esempio di catena di Markov
 
 ![[Pasted image 20260929125921.png]]
 
@@ -124,3 +123,69 @@ plt.show()
 ![[hist.png]]
 
 Media = ~18.09 mesi per un progetto completo.
+
+# Tempo di soggiorno nella catena di Markov
+
+## A stati numerabili
+
+Consideriamo un modello **semplificato** della catena di Markov, cioé una tupla $(X, P)$ dove $X$ è un'insieme [[cardinalità|numerabile]] non vuoto di stati e $P:\ X \times X \to [0, 1]$ è la probabilità di transizione della catena di Markov, che soddisfa la condizione $\sum_{x'\in X}P(x, x') = 1$.
+
+Ad esempio, possiamo definire una catena di Markov
+
+$$
+(\mathbb{N}, P),\quad P(x, x') = \begin{cases} \frac{2}{3}\ \text{se}\ x' = x+2 \\ \frac{1}{3}\ \text{se}\ x' = x+1 \\ 0 \ \text{altrimenti} \end{cases}
+$$
+
+> N.B.: $\forall x \in \mathbb{N} \quad \sum_{x' \in \mathbb{N}} = 1$
+
+## A stati finiti
+
+> Nella catena $(X, P)$, se $X$ ha cardinalità finita, $P$ può essere rappresentata come una [[spazio vettoriale di matrici|matrice]] $n \times n$ che chiamiamo la **matrice di transizione** $Q$, indicizzata da $i$ sulle colonne e $j$ sulle righe, definita come $Q(i, j) = P(i,j)$, ovvero la probabilità che dallo stato $i$ si transiti nello stato $j$. La colonna $i$ rappresenta lo stato da cui si parte e la riga $j$ rappresenta lo stato prossimo a cui si arriva.
+
+Segue che:
+
+$$
+\sum_{j=1}^{n} Q(i, j) = \sum_{j=1}^{n} P(i, j) = 1
+$$
+
+La rappresentazione della transizione come una matrice ci permette di calcolare la distribuzione di probabilità $z'$ dalla distribuzione $z$ in un singolo passaggio usando un prodotto [[spazio vettoriale|vettore]]-matrice:
+
+$$
+z' = z\ Q
+$$
+
+Per modellare un processo stocastico temporale, possiamo usare:
+
+$$
+P(X(t+1) = x' \mid X(t) = x) = P(x, x')
+$$
+
+Dove $t$ è l'istante corrente, $t+1$ il prossimo, $x$ lo stato all'istante $t$ e $x'$ lo stato all'istante $t+1$.
+
+---
+
+> Un **self-loop** è una transizione da uno stato a se stesso. La sua probabilità $P(x, x)$ è denotata $S(x)$.
+
+> La distribuzione della **probabilità di salto** da $x$, denotata $J(x, k)$ è la probabilità che si facciano $k$ self-loop da $x$ in $x$ prima di prendere una transizione da $x$ a $k$.
+
+Quindi:
+
+- $J(x, 0) = 1 - S(x)$
+- $J(x, 1) = S(x)(1 - S(x))$
+- $\ldots$
+- $K(x, k) = S(x)^{k}(1-S(X))$
+
+> N.B.: $S(X) = 1 \implies J(x, k) = 0$.
+
+$$
+|z| < 1 \implies \sum_{k=0}^{+\infty}z^{k} = \frac{1}{1-z}
+$$
+
+## Tempo di soggiorno
+
+> Il **tempo atteso di soggiorno** nello stato $x$, denotato $SJ(x)$ è il [[valore atteso di una variabile aleatoria|valore atteso]] del numero di self-loop fatti prima di lasciare $x$:
+
+$$
+SJ(x) = \sum_{k=0}^{+\infty}kJ(x, k) = \ldots = (1-S(x))\sum_{k=1}^{+\infty}kS(x)^{k}
+$$
+#todo
