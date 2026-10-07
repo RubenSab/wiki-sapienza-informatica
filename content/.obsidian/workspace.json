@@ -20,12 +20,12 @@
             }
           },
           {
-            "id": "9a1f3bbc006e521d",
+            "id": "b7ab8c7a9e632ad3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "BOZZE/software.md",
+                "file": "Automi calcolabilità e complessità/Generic Non deterministic Finite state Automaton (GNFA).md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -40,35 +40,66 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "software"
-            }
-          },
-          {
-            "id": "71951f25ae5a6755",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Ingegneria del software/catena di Markov (DTMC).md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "catena di Markov (DTMC)"
+              "title": "Generic Non deterministic Finite state Automaton (GNFA)"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
+      },
+      {
+        "id": "f474a72622ea9da8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "828b1c29fae90a3f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Automi calcolabilità e complessità/automa non deterministico a stati finiti (NFA).md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "automa non deterministico a stati finiti (NFA)"
+            }
+          },
+          {
+            "id": "8ee4f0651b5b550f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Automi calcolabilità e complessità/Generic Non deterministic Finite state Automaton (GNFA).md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Generic Non deterministic Finite state Automaton (GNFA)"
+            }
+          }
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -259,8 +290,21 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "71951f25ae5a6755",
+  "active": "b7ab8c7a9e632ad3",
   "lastOpenFiles": [
+    "Automi calcolabilità e complessità/Pasted image 20261007092632.png",
+    "Interdisciplinare/espressioni regolari (regex).md",
+    "Automi calcolabilità e complessità/Generic Non deterministic Finite state Automaton (GNFA).md",
+    "Automi calcolabilità e complessità/Pasted image 20261007091758.png",
+    "Automi calcolabilità e complessità/Pasted image 20261007090521.png",
+    "Automi calcolabilità e complessità/Automi calcolabilità e complessità.md",
+    "Automi calcolabilità e complessità/Pasted image 20261007085825.png",
+    "Interdisciplinare/forma canonica degli NFA.md",
+    "Automi calcolabilità e complessità/Pasted image 20261007083725.png",
+    "Automi calcolabilità e complessità/Pasted image 20261007083119.png",
+    "Automi calcolabilità e complessità/automa non deterministico a stati finiti (NFA).md",
+    "Interdisciplinare/grafo.md",
+    "Ingegneria del software/catena di Markov (DTMC).md",
     "Ingegneria del software/Ingegneria del software.md",
     "BOZZE/software.md",
     "BOZZE/Untitled.md",
@@ -279,24 +323,11 @@
     "Interdisciplinare/induzione completa.md",
     "Metodi matematici per l'informatica/induzione.md",
     "Metodi matematici per l'informatica/Pasted image 20261005114624.png",
-    "Interdisciplinare/Pasted image 20261005113941.png",
-    "Metodi matematici per l'informatica/Pasted image 20261005113310.png",
-    "Interdisciplinare/Pasted image 20261005113243.png",
     "Linguaggi di programmazione/Untitled 1.md",
     "Progettazione di algoritmi/Untitled.md",
     "Linguaggi di programmazione/algebra eterogenea.md",
     "BOZZE/Osservazioni IUM.md",
-    "Interdisciplinare/espressioni regolari (regex).md",
-    "Automi calcolabilità e complessità/Automi calcolabilità e complessità.md",
     "Interdisciplinare/linguaggio regolare.md",
-    "Interdisciplinare/Pasted image 20261002100106.png",
-    "Interdisciplinare/Pasted image 20261002095908.png",
-    "Automi calcolabilità e complessità/Star di Kleene.md",
-    "Automi calcolabilità e complessità/automa non deterministico a stati finiti (NFA).md",
-    "Ingegneria del software/catena di Markov (DTMC).md",
-    "Interdisciplinare/permutazioni.md",
-    "Algebra/determinante.md",
-    "Algebra/ordine.md",
     "Excalidraw",
     "Ingegneria del software",
     "Linguaggi di programmazione",

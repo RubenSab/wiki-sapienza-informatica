@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-10-02T08:59:29.029+02:00
+updated_at: 2026-10-07T08:23:58.262+02:00
 ---
 > Un *Non deterministic Finite state [[automa|Automaton]]* è una tupla $N = (Q, \Sigma, \delta, q_{0}, f)$, dove $Q, \Sigma, q_{0}, F$ corrispondono a quelle dell'[[automa a stati finiti (DFA)]], mentre $\delta$ cambia da ogni stato del NFA si può transitare verso **più stati**.
 

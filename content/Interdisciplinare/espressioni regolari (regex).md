@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-10-02T10:34:47.306+02:00
+updated_at: 2026-10-07T08:18:22.730+02:00
 ---
 È l'equivalente delle espressioni [[algebra eterogenea|algebriche]] per le stringhe:
 
@@ -50,6 +50,8 @@ $$
 
 # Teorema: un [[linguaggio]] è [[linguaggio regolare|regolare]] $\iff$ esiste un'espressione regolare che lo descrive
 
+## Primo passo
+
 Data $r \in \text{re}(\Sigma)$, voglio costruire un [[automa a stati finiti (DFA)]] o un [[automa non deterministico a stati finiti (NFA)]] $N$ tale che $L(r) = L(N)$.
 
 Usiamo la ricorsione:
@@ -68,3 +70,10 @@ $$
 R_{1} \cup R_{2} \implies \exists\ \text{DFA/NFA}\ M_{1}, M_{2}: \quad R_{1} \circ R_{2} \land L(R_{1}) = L(M_{1}) \land L(R_{2}) = M_{2} \implies \exists\ \text{DFA/NFA}\ M\ \text{tale che}\ L(M) = L(r)
 $$
 
+#todo continua
+
+## Secondo passo
+
+> Da $M$ definiamo un GNFA equivalente... #todo continua
+
+Definiamo il [[Generic Non deterministic Finite state Automaton (GNFA)]] [[forma canonica degli NFA|canonico]]

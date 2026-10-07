@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-10-02T10:01:42.508+02:00
+updated_at: 2026-10-07T09:02:20.136+02:00
 ---
 > Tratta di come si modella la computazione e dei limiti della computazione.
 > [Materiale del corso](https://dventuri83.github.io/teaching/3_acc/)
@@ -25,6 +25,8 @@ Libro di testo: *Sipser, Introduzione alla teoria della computazione.*
 	- [[non determinismo]]
 	- [[automa non deterministico a stati finiti (NFA)]]
 	- [[espressioni regolari (regex)]]
+	- [[forma canonica degli NFA]]
+	- [[Generic Non deterministic Finite state Automaton (GNFA)]]
 - [[calcolabilità]]
 	- [[(TM) macchina di Turing]]
 	- [[problemi NP completi]]
