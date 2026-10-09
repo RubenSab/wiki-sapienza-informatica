@@ -1,26 +1,30 @@
 ---
-updated_at: 2026-09-29T22:03:34.476+02:00
+updated_at: 2026-10-09T10:46:43.890+02:00
 ---
 > Gli **automi a stati finiti, o DFA** (*Deterministic Finite-state Automaton*) sono [[automa|macchine a stati finiti]] in grado di accettare o rifiutare stringhe date loro in input carattere per carettere. Sono usati per applicazioni come parser dei compilatori e riconoscimento dei pattern nei dati.
 
+> Un [[automa]] **deterministico** è un'automa il cui prossimo stato è **noto** e **unico**. I DFA sono deterministici.
+
 # Definizione formale
 
-Un DFA è una tupla $(Q, \Sigma, \delta, q_{0}, F)$ tale che:
+Un DFA è una quintupla $(Q, \Sigma, \delta, q_{0}, F)$ tale che:
 
 - $Q$ è un [[insieme]] finito di stati;
-- $\Sigma$ è un insieme finito di caratteri dell'alfabeto che compongono tutti gli input possibili;
+- $\Sigma$ è un insieme finito dei simboli dell'alfabeto che compongono tutti gli input possibili;
 - $\delta: Q \times \Sigma \to Q$ è la [[funzione]] di transizione;
-- $F \subseteq Q$ è l'insieme degli stati finali;
 - $q_{0}$ è lo stato iniziale.
+- $F \subseteq Q$ è l'insieme degli stati finali (anche detti *di accettazione*);
 
-> **Riconoscere/accettare** una stringa vuol dire consumare tutti i suoi caratteri, trovandosi in uno stato finale al termine dell'esecuzione. **Rifiutare** una stringa vuol dire terminare l'esecuzione in uno stato non finale.
+> Per un DFA, **Riconoscere/accettare** una stringa vuol dire trovarsi in uno stato finale al termine dell'esecuzione. **Rifiutare** una stringa vuol dire terminare l'esecuzione in uno stato non finale.
 
 > Nonostante un DFA abbia un numero finito di stati, esso può processare stringhe di lunghezza **infinita** in tempo finito. Ad esempio, se si dà una stringa infinita $cabbb\ldots$ a un automa che riconosce le stringhe che iniziano con $ca$, l'automa accetterà la stringa appena riceverà $a$.
 
 # A ogni DFA corrisponde un linguaggio
 
-> Ad ogni DFA corrisponde un [[linguaggio]] $L$ detto **[[linguaggio regolare|regolare]]**, cioé l'insieme di tutte le stringhe che esso può riconoscere.
-> Formalmente, $L \subseteq \Sigma^{\star}$ (ad esempio $\{0, 1\}^{\star}$, cioè tutte le stringhe binarie di lunghezza $\star$)
+> Ogni DFA $M$ ***riconosce*** un [[linguaggio]] $A$ detto [[linguaggio regolare]]**, cioé l'insieme di tutte le stringhe che esso può accettare**.
+> Formalmente, $A \subseteq \Sigma^{\star}$ (per esempio $\Sigma = \{0, 1\}^{\star}$, cioè tutte le stringhe binarie di lunghezza $\star$).
+
+> "$M$ riconosce $A$" si scrive $L(M) = A$.
 
 $$
 U_{k \in \mathbb{N}}\ \{0, 1\}^{k} \equiv\ \text{tutte le stringhe binarie di}\ k \in \mathbb{N}\ \text{caratteri}
@@ -32,16 +36,7 @@ $$
 
 ## 1.
 
-```
-            0       1
-           +-+     +-+
-           | |     | |
-           | v  1  | v   0
-start ---> q1 ----> q2 ----> q3
-                    ^        |
-                    |  0, 1  | 
-                    +--------+
-```
+![[Pasted image 20261009102047.png]]
 
 - $Q = \{q_{1}, q_{2}, q_{3}\}$ è l'insieme di tutti gli stati
 - $\Sigma = \{0, 1\}$ è l'alfabeto
@@ -72,16 +67,7 @@ $$
 L = \{x \in \{0, 1\}^{\star}:\ x = 1y,\ y \in \{0, 1\}^{\star}\}
 $$
 
-```
-             1
-start -> q0 ---> [q1] --+
-          |       ^     |
-          | 0     |     | 0, 1
-          v       +-----+
-      +-> q2
- 0, 1 |   |
-      +---+
-```
+![[Pasted image 20261009102318.png|505]]
 
 $q_{1}$ è lo stato finale.
 

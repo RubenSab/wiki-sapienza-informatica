@@ -20,12 +20,12 @@
             }
           },
           {
-            "id": "b7ab8c7a9e632ad3",
+            "id": "5946addd6bfb68e6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Automi calcolabilità e complessità/Generic Non deterministic Finite state Automaton (GNFA).md",
+                "file": "Interdisciplinare/espressioni regolari (regex).md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -40,47 +40,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Generic Non deterministic Finite state Automaton (GNFA)"
-            }
-          }
-        ],
-        "currentTab": 1
-      },
-      {
-        "id": "f474a72622ea9da8",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "828b1c29fae90a3f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Automi calcolabilità e complessità/automa non deterministico a stati finiti (NFA).md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "automa non deterministico a stati finiti (NFA)"
+              "title": "espressioni regolari (regex)"
             }
           },
           {
-            "id": "8ee4f0651b5b550f",
+            "id": "e2c15b74ba579f96",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Automi calcolabilità e complessità/Generic Non deterministic Finite state Automaton (GNFA).md",
+                "file": "Interdisciplinare/linguaggio regolare.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -95,7 +64,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Generic Non deterministic Finite state Automaton (GNFA)"
+              "title": "linguaggio regolare"
             }
           }
         ],
@@ -158,7 +127,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "convert",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -290,19 +259,33 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "b7ab8c7a9e632ad3",
+  "active": "5946addd6bfb68e6",
   "lastOpenFiles": [
-    "Automi calcolabilità e complessità/Pasted image 20261007092632.png",
+    "Interdisciplinare/linguaggio regolare.md",
+    "Automi calcolabilità e complessità/automa deterministico a stati finiti (DFA).md",
     "Interdisciplinare/espressioni regolari (regex).md",
+    "Automi calcolabilità e complessità/Star di Kleene.md",
+    "Linguaggi di programmazione/linguaggio.md",
+    "Linguaggi di programmazione/algebra eterogenea.md",
+    "Automi calcolabilità e complessità/Automi calcolabilità e complessità.md",
+    "Interdisciplinare/configurazione.md",
+    "Automi calcolabilità e complessità/automa non deterministico a stati finiti (NFA).md",
+    "Automi calcolabilità e complessità/Pasted image 20261009112059.png",
     "Automi calcolabilità e complessità/Generic Non deterministic Finite state Automaton (GNFA).md",
+    "Interdisciplinare/automa.md",
+    "Progettazione di algoritmi/DFS.md",
+    "Automi calcolabilità e complessità/non determinismo.md",
+    "Automi calcolabilità e complessità/determinismo.md",
+    "Automi calcolabilità e complessità/forma canonica degli NFA.md",
+    "Automi calcolabilità e complessità/Pasted image 20261009102318.png",
+    "Automi calcolabilità e complessità/Pasted image 20261009102047.png",
+    "BOZZE/esercitazione.md",
+    "Automi calcolabilità e complessità/Pasted image 20261007092632.png",
     "Automi calcolabilità e complessità/Pasted image 20261007091758.png",
     "Automi calcolabilità e complessità/Pasted image 20261007090521.png",
-    "Automi calcolabilità e complessità/Automi calcolabilità e complessità.md",
     "Automi calcolabilità e complessità/Pasted image 20261007085825.png",
-    "Interdisciplinare/forma canonica degli NFA.md",
     "Automi calcolabilità e complessità/Pasted image 20261007083725.png",
     "Automi calcolabilità e complessità/Pasted image 20261007083119.png",
-    "Automi calcolabilità e complessità/automa non deterministico a stati finiti (NFA).md",
     "Interdisciplinare/grafo.md",
     "Ingegneria del software/catena di Markov (DTMC).md",
     "Ingegneria del software/Ingegneria del software.md",
@@ -310,24 +293,10 @@
     "BOZZE/Untitled.md",
     "Linguaggi di programmazione/linguaggio di programmazione.md",
     "Linguaggi di programmazione/Pasted image 20261005124809.png",
-    "Linguaggi di programmazione/Pasted image 20261005123145.png",
     "Linguaggi di programmazione/Linguaggi di programmazione.md",
     "Linguaggi di programmazione/algebra induttiva.md",
     "Linguaggi di programmazione/morfismi tra algebre.md",
     "Metodi matematici per l'informatica/induzione matematica.md",
-    "Linguaggi di programmazione/linguaggio.md",
-    "Metodi matematici per l'informatica/induzione strutturale.md",
-    "Metodi matematici per l'informatica/algebra induttiva degli alberi binari (finiti).md",
-    "Metodi matematici per l'informatica/Pasted image 20261005121553.png",
-    "Metodi matematici per l'informatica/Pasted image 20261005121427.png",
-    "Interdisciplinare/induzione completa.md",
-    "Metodi matematici per l'informatica/induzione.md",
-    "Metodi matematici per l'informatica/Pasted image 20261005114624.png",
-    "Linguaggi di programmazione/Untitled 1.md",
-    "Progettazione di algoritmi/Untitled.md",
-    "Linguaggi di programmazione/algebra eterogenea.md",
-    "BOZZE/Osservazioni IUM.md",
-    "Interdisciplinare/linguaggio regolare.md",
     "Excalidraw",
     "Ingegneria del software",
     "Linguaggi di programmazione",

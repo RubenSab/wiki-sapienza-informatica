@@ -1,8 +1,8 @@
 ---
-updated_at: 2026-10-07T09:02:20.136+02:00
+updated_at: 2026-10-09T11:48:52.636+02:00
 ---
 > Tratta di come si modella la computazione e dei limiti della computazione.
-> [Materiale del corso](https://dventuri83.github.io/teaching/3_acc/)
+> [Materiale del corso](https://dventuri83.github.io/teaching/3_acc/), [Libro](https://archive.org/details/introduction-to-the-theory-of-computation-michael-sipser/mode/1up).
 
 # Modalità d'esame
 
@@ -19,7 +19,8 @@ Libro di testo: *Sipser, Introduzione alla teoria della computazione.*
 # Argomenti
 
 - [[automa]]
-	- [[automa a stati finiti (DFA)]]
+	- [[automa deterministico a stati finiti (DFA)]]
+	- [[configurazione]]
 	- [[linguaggio regolare]]
 	- [[Star di Kleene]]
 	- [[non determinismo]]

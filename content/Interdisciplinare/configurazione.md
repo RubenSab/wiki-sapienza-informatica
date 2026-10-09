@@ -3,7 +3,7 @@ updated_at: 2026-09-30T11:17:32.192+02:00
 ---
 # Nei DFA
 
-> È una "fotografia" dell'[[automa a stati finiti (DFA)]] in un determinato istante. È una coppia (stato dell'automa, stringa) in $Q \times \Sigma^{\star}$, ad esempio $(q_{3}, x) \in Q \times \Sigma^{\star}$.
+> È una "fotografia" dell'[[automa deterministico a stati finiti (DFA)]] in un determinato istante. È una coppia (stato dell'automa, stringa) in $Q \times \Sigma^{\star}$, ad esempio $(q_{3}, x) \in Q \times \Sigma^{\star}$.
 
 > N.B.: $q_{n}$ è la stringa **che rimane** da leggere, non quella letta fino a quel momento. a ogni transizione, l'automa consuma il carattere sinistro.
 

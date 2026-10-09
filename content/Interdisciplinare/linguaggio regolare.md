@@ -1,9 +1,7 @@
 ---
-updated_at: 2026-10-02T10:01:07.191+02:00
+updated_at: 2026-10-09T11:57:25.540+02:00
 ---
-# Classe REG dei [[linguaggio|linguaggi]]
-
-> Un [[linguaggio]] è **regolare** se esiste un [[macchine di Moore e Mealy|macchina a stati finiti]] che ne riconosce tutte le stringhe.
+> Un [[linguaggio]] è **regolare** se esiste un [[automa|automa a stati finiti]] che ne riconosce tutte le stringhe, o equivalentemente, se è il risultato di una [[espressioni regolari (regex)|regex]].
 
 $$
 \text{REG} = \{L \subseteq \Sigma^{\star}:\ \exists\ \text{DFA}\ M\ \text{t.c.}\ L(M) = L\}
@@ -25,7 +23,7 @@ $$
 
 Così un linguaggio regolare si può definire come l'[[insieme]] $\{\sigma \in \Sigma:\ \delta^{\star}(\sigma) \in F\}$.
 
-Delta star si può definire ricorsivamente in modo elegante partendo da $\delta$:
+$\delta^{\star}$ si può definire ricorsivamente in modo elegante partendo da $\delta$:
 
 $$
 \begin{cases}
@@ -42,9 +40,9 @@ $$
 
 > Il linguaggio riconosciuto da un DFA $M = (Q, \Sigma, \delta, q_{0}, F)$ è $L(M) = \{x \in \Sigma^{\star}:\ \delta^{\star}(q_{0}, x) \in F\}$.
 
-# Proprietà dei linguaggi regolari
+# Operazioni sui linguaggi regolari
 
-I linguaggi regolari hanno una chiusura rispetto ad alcune [[operazioni fra gli insiemi|operazioni]]:
+I linguaggi regolari sono **chiusi** rispetto ad alcune [[operazioni fra gli insiemi|operazioni]]:
 
 - **unione**: $L_{1} \cup L_{2} = \{x \in \Sigma^{\star}:\ x \in L_{1} \lor x \in L_{2}\}$
 - **intersezione**: $L_{1} \cap L_{2} = \{x \in \Sigma^{\star}:\ x \in L_{1} \land x \in L_{2}\}$
