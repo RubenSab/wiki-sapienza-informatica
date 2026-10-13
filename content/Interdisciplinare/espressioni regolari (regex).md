@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-10-09T12:42:43.751+02:00
+updated_at: 2026-10-10T19:20:19.928+02:00
 ---
 > Sono le espressioni di un'[[algebra eterogenea|algebra]] dei [[linguaggio|linguaggi]], la quale supporta le operazioni chiuse $\cup,\ \circ$ (binarie) e $\star$ (unaria).
 
@@ -57,7 +57,7 @@ Valutazione:
 
 > **Teorema**: Ogni espressione regolare può essere convertita nell'[[automa deterministico a stati finiti (DFA)]] che riconosce il linguaggio che essa descrive e viceversa. Quindi un linguaggio è regolare se e solo se esiste una regex che lo descrive.
 
-#todo pag. 66
+#todo pag. 67
 
 ## Primo passo
 

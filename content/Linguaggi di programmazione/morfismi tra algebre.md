@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-10-01T11:06:01.817+02:00
+updated_at: 2026-10-12T11:20:53.747+02:00
 ---
 # Definizioni
 ## Omomorfismo di algebre
@@ -20,7 +20,7 @@ updated_at: 2026-10-01T11:06:01.817+02:00
 
 **Teorema**: $A$ è induttiva e $B$ hanno la stessa segnatura di $A$ $\implies \exists !\ f: A \to B$.
 
-**Lemma** (è più importante del suo teorema sopra): $A, B$ sono induttive e hanno la stessa segnatura $\implies A, B$ sono isomorfe.
+> **Lemma di Lamback** (è più importante del suo teorema sopra): $A, B$ sono induttive e hanno la stessa segnatura $\implies A, B$ sono isomorfe.
 
 Il lemma di Lamback si può usare per dimostrare che due algebre sono isomorfe in modo elegante:
 

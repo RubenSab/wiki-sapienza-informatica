@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-10-05T12:17:58.115+02:00
+updated_at: 2026-10-12T11:32:13.085+02:00
 ---
 > [Materiale del corso](http://wwwusers.di.uniroma1.it/~lpara)
 
@@ -9,7 +9,8 @@ updated_at: 2026-10-05T12:17:58.115+02:00
 	- [[primo e secondo ordine]]
 	- [[algebra eterogenea]]
 	- [[algebra induttiva]]
-	- [[morfismi tra algebre]]
+		- [[algebra induttiva degli alberi binari (finiti)]]
+		- [[morfismi tra algebre]]
 	- [[induzione completa]]
 	- [[induzione strutturale]]
 - Linguaggi
