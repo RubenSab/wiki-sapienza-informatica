@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-10-15T14:35:28.559+02:00
+updated_at: 2026-10-15T17:14:35.504+02:00
 ---
 > [Materiale del corso](http://wwwusers.di.uniroma1.it/~lpara)
 
@@ -14,14 +14,17 @@ updated_at: 2026-10-15T14:35:28.559+02:00
 	- [[induzione completa]]
 	- [[induzione strutturale]]
 - Linguaggi:
+	- [[espressione]]
 	- [[linguaggio]]
 	- [[linguaggio di programmazione]]
 	- [[scoping]]
 		- [[scoping statico]]
 		- [[scoping dinamico]]
+	- [[ambiente]]
 	- Regole di valutazione:
 		- [[valutazione eager]]
 		- [[valutazione lazy]]
+		- [[teorema dell'equivalenza tra lazy statica e eager]]
 	- il [[linguaggio Exp]]
 	- il [[linguaggio Fun]]
 	- [[lambda calculus]]

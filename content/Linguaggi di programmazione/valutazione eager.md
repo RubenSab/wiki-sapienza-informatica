@@ -1,10 +1,10 @@
 ---
-updated_at: 2026-10-15T15:46:06.910+02:00
+updated_at: 2026-10-15T17:02:17.612+02:00
 ---
 > È la regola di valutazione "impaziente" che consiste nel ritornare immediatamente la valutazione dell'[[espressione]] associata a una [[variabile]] appena essa è incontrata.
 
 
-Nella *semantica operazionale eager o strict* anche detta *call by **value***, l'**ambiente** è una mappatura tra i nomi delle variabili e i risultati della loro valutazione.
+Nella *semantica operazionale eager o strict* anche detta *call by **value***, l'**[[ambiente]]** è una mappatura tra i nomi delle variabili e i risultati della loro valutazione.
 
 $$
 \text{Env} \ni E:\ \text{Var} \overset{\text{fin}}{\to}\text{Val}

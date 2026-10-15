@@ -1,6 +1,8 @@
 ---
-updated_at: 2026-10-15T11:59:46.908+02:00
+updated_at: 2026-10-15T17:19:16.694+02:00
 ---
+#todo 
+
 $$
 M, N ::= \underset{\text{costante}}{\underbrace{\mathcal{k}}} \mid \underset{\text{variabile}}{\underbrace{x}} \mid N+M \mid \text{let}\ x = M\ \text{in}\ N
 $$
@@ -124,3 +126,17 @@ L sta nello scope di y, quindi se nell'espressione di L c'è y o è associato a 
 - lazy statica (recuperiamo il comportamento operazionale della semantica eager)
 
 è possibile dimostrare che lazy statica = eager (dimostrazione sulle note) nel caso in cui c'è un linguaggio semplice.
+
+
+# Esempi di valutazione
+
+- `let x = 3 in x+1` $\to$ Non è ambiguo poiché l'operatore $+$ è associativo e la struttura sintattica standard lega il `let` verso destra.
+- `let x = 3 in let x = 2 in x+x` $\to$ **Ambiguo**, poiché la precedenza strutturale non specifica se debba essere inteso come:
+- `let x = 3 in (let x = 2 in x) + x`
+- `let x = 3 in (let x = 2 in (x + x))`
+- `let x = (let x = x in x) in 3`
+	- **Scoping Statico:** Genera un errore (la variabile $x$ interna non è definita o vi è unuso non valido).
+	- **Scoping Dinamico:** Sintatticamente viene accettato, ma durante la valutazione va in **loop infinito** (cattura ricorsivamente se stessa).
+    - Con valutazione **Lazy**: Restituisce `3`, perché l'espressione interna legata a $x$ non viene mai valutata (essendo il corpo del `let` principale semplicemente la costante `3`).
+    - Con valutazione **Eager**: Tenta di valutare subito l'argomento del `let` esterno, entrando in un **loop infinito**.
+    - Confronto tra `let x = (let y = M in N) in L` e `let y = M in (let x = N in L)`. **Sono logicamente equivalenti?** Non sempre in modo generale. $L$ si trova nello scope di $y$ nella seconda forma, mentre nella prima $y$ è confinato all'interno di $N$ e non è visibile in $L$ (a meno che $L$ non contenga a sua volta legami o conflitti). Se $L$ utilizza la variabile $y$, la prima forma fallisce o fa riferimento a un $y$ esterno (libero), mentre la seconda lega correttamente $y$ tramite il `let` più esterno. Dunque, i due termini non sono equivalenti a meno che $L$ non contenga variabili libere $y$ dipendenti da quel legame.

@@ -20,59 +20,7 @@
             }
           },
           {
-            "id": "4f37f2d97dea1960",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Linguaggi di programmazione/Linguaggi di programmazione.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "Linguaggi di programmazione"
-            }
-          },
-          {
-            "id": "4ff8ff258240f588",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Interdisciplinare/espressione.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": false
-                }
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "espressione"
-            }
-          },
-          {
-            "id": "83de38e7872af3f9",
+            "id": "ff806156f76e3f98",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -96,17 +44,78 @@
             }
           },
           {
-            "id": "7acda959569c8b0f",
+            "id": "aa778a77fca664e0",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Linguaggi di programmazione/valutazione lazy.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "valutazione lazy"
+            }
+          },
+          {
+            "id": "e341516e46a10370",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linguaggi di programmazione/ambiente.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "ambiente"
+            }
+          },
+          {
+            "id": "f9616511d21f1885",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linguaggi di programmazione/Linguaggi di programmazione.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Linguaggi di programmazione"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -297,35 +306,35 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "83de38e7872af3f9",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "Linguaggi di programmazione/valutazione eager.md",
     "Linguaggi di programmazione/valutazione lazy.md",
+    "Linguaggi di programmazione/ambiente.md",
+    "Linguaggi di programmazione/linguaggio Exp.md",
+    "Linguaggi di programmazione/valutazione eager.md",
+    "Linguaggi di programmazione/scroom.md",
+    "Interdisciplinare/programma.md",
     "Linguaggi di programmazione/Linguaggi di programmazione.md",
+    "Linguaggi di programmazione/teorema dell'equivalenza tra lazy statica e eager.md",
+    "Linguaggi di programmazione/linguaggio di programmazione.md",
+    "Automi calcolabilità e complessità/configurazione.md",
+    "Linguaggi di programmazione/chiusura (o thunk).md",
     "Metodologie di programmazione/variabile.md",
-    "Linguaggi di programmazione/chiusura.md",
     "Linguaggi di programmazione/scoping dinamico.md",
     "Progettazione di algoritmi/Pasted image 20260708165856.png",
     "Metodologie di programmazione/binding in Java.md",
     "Interdisciplinare/espressione.md",
-    "Linguaggi di programmazione/linguaggio Exp.md",
     "Metodi matematici per l'informatica/sintassi.md",
     "Linguaggi di programmazione/regola di inferenza.md",
     "Ingegneria del software/catena di Markov (DTMC).md",
     "Linguaggi di programmazione/regola di valutazione.md",
     "Linguaggi di programmazione/scoping statico.md",
-    "Interdisciplinare/programma.md",
-    "Linguaggi di programmazione/linguaggio di programmazione.md",
     "Linguaggi di programmazione/scoping.md",
     "Interdisciplinare/espressioni booleane.md",
     "Progettazione di sistemi digitali/ottimizzazione delle reti combinatorie.md",
     "Reti di elaboratori/protocolli per le email.md",
     "Progettazione di sistemi digitali/PC (Program Counter).md",
     "Progettazione di sistemi digitali/multiplexer (MUX).md",
-    "Progettazione di sistemi digitali/mappa di Karnaugh.md",
-    "Metodi matematici per l'informatica/logica proposizionale.md",
-    "Automi calcolabilità e complessità/Generic Non deterministic Finite state Automaton (GNFA).md",
-    "Progettazione di sistemi digitali/full adder (FA).md",
     "Multicore",
     "Automi calcolabilità e complessità/Pasted image 20261009112059.png",
     "Automi calcolabilità e complessità/Pasted image 20261009102318.png",
