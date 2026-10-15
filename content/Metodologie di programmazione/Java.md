@@ -21,7 +21,7 @@ updated_at: 2025-05-30T10:55:49.906+02:00
 - [[javadoc]]
 - [[lettura input da console]]
 - [[classe Object]]
-- [[binding]]
+- [[binding in Java]]
 - [[java.lang.String]]
 - [[array]]
 - [[enumerazione]]

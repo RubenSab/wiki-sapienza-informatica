@@ -1,7 +1,7 @@
 ---
-updated_at: 2026-09-28T12:18:19.897+02:00
+updated_at: 2026-10-15T14:49:32.537+02:00
 ---
-Si scrivono con la [[sintassi]]
+Si scrivono con la [[sintassi]]:
 
 $$
 \frac{\text{premessa}}{\text{conclusione}}

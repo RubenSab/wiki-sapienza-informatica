@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-03-27T13:52:55.185+01:00
+updated_at: 2026-10-15T15:08:25.607+02:00
 ---
 > Il binding consiste nell'associare un [[metodo]] con il [[tipi|tipo]] della [[classe]] di una [[variabile]] riferimento. 
 # Binding statico e dinamico

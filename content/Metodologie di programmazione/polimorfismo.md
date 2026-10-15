@@ -12,7 +12,7 @@ Animale a = new Gatto();
 a = new Chihuahua();
 ```
 
-Ciò è possibile grazie al [[binding]] dinamico.
+Ciò è possibile grazie al [[binding in Java]] dinamico.
 
 Si usa quando vogliamo utilizzare oggetti diversi ma con caratteristiche comuni.
 
