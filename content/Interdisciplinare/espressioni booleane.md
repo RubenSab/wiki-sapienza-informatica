@@ -1,4 +1,7 @@
-Un'espressione booleana è uno degli infiniti modi (quindi non necessariamente il più semplice) per esprimere una [[funzione]].
+---
+updated_at: 2026-10-15T12:51:30.441+02:00
+---
+Un'[[espressione]] booleana è uno degli infiniti modi (quindi non necessariamente il più semplice) per esprimere una [[funzione]].
 Può essere:
 - la [[logica proposizionale|variabile atomica]].
 - la negazione di una variabile.

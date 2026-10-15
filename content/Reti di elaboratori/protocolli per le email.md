@@ -32,7 +32,7 @@ Trasmette email in [[ASCII]] a 7 bit. Le email finiscono con `CRLF.CRLF`.
 
 Usa [[TCP (Transmission Control Protocol)]] al [[stack protocollare TCP-IP#^77b116|livello di rete]] sulla [[porta]] 25. Se ci sono, vengono mandate più email in una stessa connessione persistente.
 
-Il trasferimento avviene in tre fasi, handshaking, trasferimento e chiusura, coordinate da comandi (in ASCII) e risposte con codice di stato ed espressione (ad esempio 250 OK).
+Il trasferimento avviene in tre fasi, handshaking, trasferimento e chiusura, coordinate da comandi (in ASCII) e risposte con codice di stato ed [[espressione]] (ad esempio 250 OK).
 
 Il trasferimento è diretto, niente server intermedi possibili.
 

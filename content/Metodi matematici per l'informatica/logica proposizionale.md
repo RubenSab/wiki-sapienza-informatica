@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-05-17T18:49:09.083+02:00
+updated_at: 2026-10-15T12:52:40.878+02:00
 ---
 Chiamiamo $LP$ la logica proposizionale, cioè l'insieme di tutte le formule rappresentabili con la [[sintassi]] della logica proposizionale (una delle interpretazioni dell'[[algebra di Boole]]) e chiamiamo $S$ il suo insieme di simboli (simboli proposizionali).
 
@@ -25,7 +25,7 @@ $P, Q \in LP$
 
 - [[esempio di formula logica]]
 
-> Il valore di verità di un'espressione si determina con le tavole di verità.
+> Il valore di verità di un'[[espressione]] si determina con le tavole di verità.
 
 - Se esiste almeno un modo di rendere la formula vera, la formula si chiama ***soddisfacibile***.
 - Se esiste non esiste un modo di rendere la formula vera, la formula si chiama ***insoddisfacibile***.

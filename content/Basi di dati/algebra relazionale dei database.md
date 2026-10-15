@@ -50,7 +50,7 @@ Procedimento:
 4. B1 = proietta la targa, la cilindrata e il modello su B.
 5. Restituisci A1 unita a B1.
 
-Espressione relazionale:
+[[Espressione]] relazionale:
 
 $\pi_{\text{targa, cilindrata, modello}}({\sigma_{\text{Città = Roma}\ \land\ \text{posti} = 2}(\text{Auto})}) \cup \pi_{\text{targa, cilindrata, modello}}({\sigma_{\text{regione = Lazio}}(\text{Moto})})$
 

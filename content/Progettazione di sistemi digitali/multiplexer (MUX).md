@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-04-16T12:13:29.635+02:00
+updated_at: 2026-10-15T12:52:52.635+02:00
 ---
 # multiplexer standard
 
@@ -7,7 +7,7 @@ updated_at: 2025-04-16T12:13:29.635+02:00
 
 Viene prodotto con una serie di [[AND gate con funzione di controllo]], in cui le linee di ingresso sono il segnale da selezionare, e le linee di selezione le selezionano.
 
-> Espressione booleana: $x_{3}s_{3}+x_{2}s_{2}+x_{1}s_{1}+x_{0}s_{0}$
+> [[espressione|Espressione]] booleana: $x_{3}s_{3}+x_{2}s_{2}+x_{1}s_{1}+x_{0}s_{0}$
 
 ![[multiplexer.svg]]
 # multiplexer con [[decodificatore (DEC)]]

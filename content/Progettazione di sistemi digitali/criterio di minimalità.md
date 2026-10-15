@@ -10,7 +10,7 @@ le [[reti AND-TO-OR]] ( o [[reti OR-TO-AND|OR-TO-AND]]) sono minimali se tra tut
 - il minimo numero di ingressi per ogni porta
 # Per le [[espressioni booleane]]
 
-Un'espressione SOP (o POS) è minimale se tra tutte le espressioni booleane possibili SOP (o POS) ha:
+Un'[[espressione]] SOP (o POS) è minimale se tra tutte le espressioni booleane possibili SOP (o POS) ha:
 - Il minimo numero di prodotti (o somme)
 - il minimo numero di letterali per ogni prodotto (o somma)
 

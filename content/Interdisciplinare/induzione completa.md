@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-10-05T11:57:05.941+02:00
+updated_at: 2026-10-15T11:54:49.015+02:00
 ---
 È la [[regola di inferenza]]:
 
@@ -8,6 +8,8 @@ $$
 $$
 
 # Esempio di una dimostrazione di una proposizione sugli alberi binari (Cenciarelli)
+
+#todo 
 
 > *Ogni albero binario con $n$ foglie ha $n-1$ nodi*.
 

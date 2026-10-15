@@ -14,4 +14,4 @@ La connessione dati (sempre TCP) esiste solo durante il trasferimento del singol
 
 C'è una corrispondenza uno a uno tra i comandi scritti dall'utente e i comandi FTP inviati sulla connessione di controllo.
 
-> A ogni comando segue un **codice di ritorno** e un'espressione dal server come in [[HTTP (HyperText Transfer Protocol)]].
+> A ogni comando segue un **codice di ritorno** e un'[[espressione]] dal server come in [[HTTP (HyperText Transfer Protocol)]].

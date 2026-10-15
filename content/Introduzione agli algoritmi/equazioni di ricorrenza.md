@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-11-23T17:15:55.412+01:00
+updated_at: 2026-10-15T12:45:36.176+02:00
 ---
 > Le equazioni di ricorrenza esprimono la [[complessità temporale]] degli [[algoritmi ricorsivi]]. Non si può calcolare normalmente la complessità di questi algoritmi dato che la loro [[funzione]] di costo computazionale è anch'essa ricorsiva.
 
@@ -49,7 +49,7 @@ $$T(n) =
 T(n-1) + \Theta(1) & \text{altrimenti}
 \end{cases}
 $$
-Risolvendo l'equazione di ricorrenza, la complessità del programma risulta $\Theta(n)$.
+Risolvendo l'equazione di ricorrenza, la complessità del [[programma]] risulta $\Theta(n)$.
 ### Esempio con la somma delle liste
 
 ``` python

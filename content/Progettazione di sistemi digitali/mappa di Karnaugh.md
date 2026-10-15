@@ -1,3 +1,6 @@
+---
+updated_at: 2026-10-15T12:52:47.852+02:00
+---
 Per [[criterio di minimalità|minimizzare]] le [[espressioni booleane]] si usano le **mappe di Karnaugh** (anche dette **K-mappe**) fino a 4 variabili.
 # K-mappa a 3 variabili
 Tavola di verità generica a 3 variabili:
@@ -45,7 +48,7 @@ Volendo scrivere una SOP, cerchiamo gli 1 adiacenti in gruppi da 2, 4 o 8: 010 c
 
 > Un ***implicante*** è un insieme di mintermini/maxtermini che posso esprimere in forma minima.  
 
-L'espressione corrispondente per l'implicante 010 - 011 è $\overline{a} b$, perché 010 e 011 hanno:
+L'[[espressione]] corrispondente per l'implicante 010 - 011 è $\overline{a} b$, perché 010 e 011 hanno:
 - $a=0$ in comune $\implies \overline{a}$
 - $b=1$ in comune $\implies b$
 - $c=0$ e $c=1$ non in comune $\implies$ non scrivere $c$

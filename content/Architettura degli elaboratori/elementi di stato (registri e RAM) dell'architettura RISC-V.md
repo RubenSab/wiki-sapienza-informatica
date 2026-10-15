@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-06-03T10:55:50.757+02:00
+updated_at: 2026-10-15T12:44:56.161+02:00
 ---
 # [[registri]]
 
@@ -16,7 +16,7 @@ I registri hanno lunghezza fissa, sono chiamati x0, x1 ... x31, usati per memori
 
 # [[memoria]]
 
-La memoria consente di memorizzare vettori, altre strutture dati, il contenuto dei registri **e il programma stesso (!!!)** (**ogni riga è indicizzata in un indirizzo di memoria**): vi si accede dai registri solamente attraverso istruzioni di trasferimento dati dai registri (S-type).
+La memoria consente di memorizzare vettori, altre strutture dati, il contenuto dei registri **e il [[programma]] stesso (!!!)** (**ogni riga è indicizzata in un indirizzo di memoria**): vi si accede dai registri solamente attraverso istruzioni di trasferimento dati dai registri (S-type).
 
 Abbiamo a disposizione $2^{30}$ word (di 32 bit) a 32 bit di memoria, dalla posizione Memoria\[$0$\] a Memoria\[$2^{32}-4$\].
 

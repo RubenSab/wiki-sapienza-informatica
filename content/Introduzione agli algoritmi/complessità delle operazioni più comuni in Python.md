@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-05-21T19:27:07.999+02:00
+updated_at: 2026-10-15T12:44:04.828+02:00
 ---
 # funzioni built-in
 ## Il metodo `count` in Python
@@ -34,7 +34,7 @@ def in(A, x):
 	return False
 ```
 
-- Nel peggiore dei casi (l'elemento da trovare è all'ultima posizione), il programma sarà in $O(n)$;
+- Nel peggiore dei casi (l'elemento da trovare è all'ultima posizione), il [[programma]] sarà in $O(n)$;
 - Nel migliore dei casi (l'elemento da trovare è alla prima posizione), il programma sarà in $\Omega(1)$;
 - Dato che si potrebbero verificare entrambi i casi o l'intero spettro di quelli intermedi, non esiste una funzione asintoticamente uguale al programma $T$, quindi $\Theta(T(n))$ non esiste. (Sarebbe interessante vedere il **caso medio** per stimare $\Theta(n)$ probabilisticamente, ma si può capire sperimentalmente che il caso medio coincide circa con il caso pessimo $\Theta(n)$).
 

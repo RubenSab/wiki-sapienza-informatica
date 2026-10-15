@@ -1,3 +1,6 @@
+---
+updated_at: 2026-10-15T12:51:46.434+02:00
+---
 > è un tipo di flip-flop che cambia stato a ogni impulso di clock quando l'ingresso $T$ (toggle) è 1.
 
 # Funzionamento
@@ -15,7 +18,8 @@
 | 1   | 0   | 1        |
 | 1   | 1   | 0        |
 
-## Espressione booleana
+## [[espressioni booleane|Espressione booleana]]
+
 $y(t+1) = T \oplus y(t)$
 
 # realizzazione

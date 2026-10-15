@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-09-25T10:12:21.934+02:00
+updated_at: 2026-10-15T12:07:11.403+02:00
 ---
 > Un linguaggio è un'[[insieme]] di stringhe.
 
@@ -11,7 +11,7 @@ updated_at: 2026-09-25T10:12:21.934+02:00
 
 # Esempio di linguaggio formale
 
-Definizione di elemento del linguaggio:
+[[grammatica generativa|Grammatica]]:
 
 $$
 E ::= 3 \mid 9 \mid \dots \mid E + E' \mid E * E'

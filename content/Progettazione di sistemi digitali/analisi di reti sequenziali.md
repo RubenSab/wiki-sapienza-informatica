@@ -1,8 +1,8 @@
 ---
-updated_at: 2026-09-29T19:29:46.187+02:00
+updated_at: 2026-10-15T12:50:56.276+02:00
 ---
 Data una [[rete sequenziale generica.canvas|rete sequenziale generica]] si applicano questi passaggi:
-- si ricava l'espressione booleana delle funzioni di eccitazione (ingressi dei [[flip-flop]]) e delle uscite.
+- si ricava l'[[espressione]] booleana delle funzioni di eccitazione (ingressi dei [[flip-flop]]) e delle uscite.
 - si scrive la tavola degli stati futuri, che dovrà contenere:
 	- tutte le possibili combinazioni degli input della rete combinatoria ($x_{i}$)
 	- tutti gli stati dei flip flop ($y_{i}{t}$) (si ricavano dalle espressioni booleane dei [[flip-flop]])

@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-10-12T11:32:13.085+02:00
+updated_at: 2026-10-15T14:35:28.559+02:00
 ---
 > [Materiale del corso](http://wwwusers.di.uniroma1.it/~lpara)
 
@@ -13,6 +13,16 @@ updated_at: 2026-10-12T11:32:13.085+02:00
 		- [[morfismi tra algebre]]
 	- [[induzione completa]]
 	- [[induzione strutturale]]
-- Linguaggi
+- Linguaggi:
 	- [[linguaggio]]
 	- [[linguaggio di programmazione]]
+	- [[scoping]]
+		- [[scoping statico]]
+		- [[scoping dinamico]]
+	- Regole di valutazione:
+		- [[valutazione eager]]
+		- [[valutazione lazy]]
+	- il [[linguaggio Exp]]
+	- il [[linguaggio Fun]]
+	- [[lambda calculus]]
+	- [[teoria dei tipi]]

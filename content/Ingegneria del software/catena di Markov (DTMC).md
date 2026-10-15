@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-10-05T15:14:45.400+02:00
+updated_at: 2026-10-15T14:43:40.736+02:00
 ---
 > N.B.: Una catena di Markov ha uno stato corrente che cambia a ogni iterazione, attraversandola. L'input è ricevuto tutto insieme all'inizio, **inizializzando la catena** stessa; invece l'output è la **catena stessa di stati attraversati**, prodotta a ogni transizione.
 
@@ -123,6 +123,61 @@ plt.show()
 ![[hist.png]]
 
 Media = ~18.09 mesi per un progetto completo.
+
+### Implementazione migliore (di un'altra catena) con la matrice
+
+``` java
+import random
+
+
+def extract(weights: list[float]) -> int:
+    r = random.random()
+    accumulated = 0
+    for i, w in enumerate(weights):
+        if accumulated < r < accumulated+w:
+            return i
+        accumulated += w
+
+
+class MarkovChain:
+    def __init__(self, states: list[str], matrix: list[list[float]]) -> None:
+        self.states = states
+        self.matrix = matrix
+
+    def step(self) -> None:
+        prev_i = 0
+        current_i = 0
+        sojourn = 1
+        while current_i != len(states)-1:
+            if prev_i == current_i:
+                sojourn += 1
+            else:
+                print(f'state: {states[prev_i]} (x{sojourn})')
+                sojourn = 1
+            prev_i = current_i
+            current_distribution = self.matrix[current_i]
+            current_i = extract(current_distribution)
+        print(f'state: {states[prev_i]} (x{sojourn})\nend')
+
+
+states = [
+    "1: Requirements analysis",
+    "2: Software design",
+    "3: Software development",
+    "4: Testing",
+    "5: Delivery"
+]
+
+matrix = [
+    [0.933, 0.067, 0, 0, 0],
+    [0.008, 0.967, 0.025, 0, 0],
+    [0, 0.004, 0.983, 0.013, 0],
+    [0, 0, 0.006, 0.975, 0.019],
+    [1, 0, 0, 0, 0]
+]
+m = MarkovChain(states = states, matrix = matrix)
+m.step()
+```
 
 # Tempo di soggiorno nella catena di Markov
 

@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-09-24T14:05:40.190+02:00
+updated_at: 2026-10-15T12:49:44.123+02:00
 ---
 Inventata da George Boole, l'algebra di Boole fornisce un modo simbolico per manipolare e rappresentare le informazioni logiche.
 
@@ -53,7 +53,7 @@ Ogni identità valida nell'Algebra Booleana rimane valida se si scambiano fra lo
 
 avendo cura di mantenere le precedenze degli operatori, cioè le proprietà esplicite (parentesi) e quelle implicite (ordine delle operazioni NOT, AND, OR).
 
->  N.B.: ciò **NON significa** che l'espressione duale assume gli stessi valori di verità dell'originale. 
+>  N.B.: ciò **NON significa** che l'[[espressione]] duale assume gli stessi valori di verità dell'originale. 
 ## osservazioni
 - **Se un'espressione è [[logica proposizionale|tautologica]] in Algebra Booleana, anche la sua duale è tautologica**, quindi il principio di dualità è utile per dimostrare identità booleane: invece di dimostrare due relazioni separate (una per OR e una per AND), basta dimostrarne una e ottenere l'altra per dualità.
 - **Duale del duale**: Se prendi la duale di un'espressione due volte, ottieni di nuovo l'espressione originale.

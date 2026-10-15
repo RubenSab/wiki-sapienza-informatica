@@ -1,11 +1,11 @@
 ---
-updated_at: 2025-05-17T18:55:02.462+02:00
+updated_at: 2026-10-15T12:53:46.463+02:00
 ---
 > La sintassi è un'insieme di regole che definiscono un linguaggio.
 
-> Un linguaggio è l'insieme di tutte le possibili espressioni che possiamo scrivere con i simboli disponibili.
+> Un [[linguaggio]] è l'insieme di tutte le possibili espressioni che possiamo scrivere con i simboli disponibili.
 
-Un'espressione è una sequenza di simboli. Essa è corretta:
+Un'[[espressione]] è una sequenza di simboli. Essa è corretta:
 
 - **sintatticamente** se rispetta le regole di sintassi imposte.
 - **semanticamente** se assume un significato sensato.

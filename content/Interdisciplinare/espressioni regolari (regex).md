@@ -1,9 +1,9 @@
 ---
-updated_at: 2026-10-10T19:20:19.928+02:00
+updated_at: 2026-10-15T12:51:37.978+02:00
 ---
 > Sono le espressioni di un'[[algebra eterogenea|algebra]] dei [[linguaggio|linguaggi]], la quale supporta le operazioni chiuse $\cup,\ \circ$ (binarie) e $\star$ (unaria).
 
-> $R$ è un'**espressione regolare** ($R \in \text{re}(\Sigma)$) se ([[induzione|induttivamente]]):
+> $R$ è un'**[[espressione]] regolare** ($R \in \text{re}(\Sigma)$) se ([[induzione|induttivamente]]):
 
 $$
 R = \begin{cases}

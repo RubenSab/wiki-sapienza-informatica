@@ -20,12 +20,64 @@
             }
           },
           {
-            "id": "ef9619fbc9e659dd",
+            "id": "4f37f2d97dea1960",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linguaggi di programmazione/Linguaggi di programmazione.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "Linguaggi di programmazione"
+            }
+          },
+          {
+            "id": "4ff8ff258240f588",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Interdisciplinare/espressione.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": false
+                }
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "espressione"
+            }
+          },
+          {
+            "id": "83de38e7872af3f9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Multicore/Message Passing Interface (MPI).md",
+                "file": "Linguaggi di programmazione/valutazione lazy.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -40,11 +92,35 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Message Passing Interface (MPI)"
+              "title": "valutazione lazy"
+            }
+          },
+          {
+            "id": "a9b8575c69162fce",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Ingegneria del software/catena di Markov (DTMC).md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "catena di Markov (DTMC)"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -103,7 +179,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\" let \"",
+                "query": "programma",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -235,36 +311,36 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "ef9619fbc9e659dd",
+  "active": "a9b8575c69162fce",
   "lastOpenFiles": [
-    "Multicore/parallelism.md",
-    "Multicore/Message Passing Interface (MPI).md",
-    "Multicore/Programmazione multicore.md",
-    "Interdisciplinare/architettura di Von Neumann.md",
-    "Progettazione di sistemi digitali/bus.md",
-    "Multicore/non serial computation.md",
-    "Multicore",
-    "Reti di elaboratori/Internet.md",
-    "appunti del terzo anno.md",
-    "Ingegneria del software/catena di Markov (DTMC).md",
-    "Linguaggi di programmazione/linguaggio di programmazione.md",
-    "Linguaggi di programmazione/Untitled 1.md",
+    "Linguaggi di programmazione/valutazione lazy.md",
+    "Interdisciplinare/espressione.md",
     "Linguaggi di programmazione/Linguaggi di programmazione.md",
-    "Metodi matematici per l'informatica/algebra induttiva degli alberi binari (finiti).md",
-    "Linguaggi di programmazione/algebra induttiva.md",
-    "Metodi matematici per l'informatica/induzione strutturale.md",
-    "Linguaggi di programmazione/morfismi tra algebre.md",
-    "Interdisciplinare/espressioni regolari (regex).md",
-    "Automi calcolabilità e complessità/Automi calcolabilità e complessità.md",
-    "Interdisciplinare/linguaggio regolare.md",
-    "Automi calcolabilità e complessità/automa deterministico a stati finiti (DFA).md",
-    "Automi calcolabilità e complessità/Star di Kleene.md",
-    "Linguaggi di programmazione/linguaggio.md",
-    "Linguaggi di programmazione/algebra eterogenea.md",
-    "Interdisciplinare/configurazione.md",
-    "Automi calcolabilità e complessità/automa non deterministico a stati finiti (NFA).md",
-    "Automi calcolabilità e complessità/Pasted image 20261009112059.png",
+    "Linguaggi di programmazione/valutazione eager.md",
+    "Linguaggi di programmazione/regola di valutazione.md",
+    "Linguaggi di programmazione/scoping statico.md",
+    "Metodologie di programmazione/variabile.md",
+    "Interdisciplinare/programma.md",
+    "Linguaggi di programmazione/scoping dinamico.md",
+    "Linguaggi di programmazione/linguaggio di programmazione.md",
+    "Linguaggi di programmazione/scoping.md",
+    "Interdisciplinare/espressioni booleane.md",
+    "Metodi matematici per l'informatica/sintassi.md",
+    "Progettazione di sistemi digitali/ottimizzazione delle reti combinatorie.md",
+    "Reti di elaboratori/protocolli per le email.md",
+    "Progettazione di sistemi digitali/PC (Program Counter).md",
+    "Progettazione di sistemi digitali/multiplexer (MUX).md",
+    "Progettazione di sistemi digitali/mappa di Karnaugh.md",
+    "Metodi matematici per l'informatica/logica proposizionale.md",
     "Automi calcolabilità e complessità/Generic Non deterministic Finite state Automaton (GNFA).md",
+    "Progettazione di sistemi digitali/full adder (FA).md",
+    "Reti di elaboratori/FTP (File Transfer Protocol).md",
+    "Architettura degli elaboratori/formati delle istruzioni.md",
+    "Metodologie di programmazione/flussi di controllo.md",
+    "Interdisciplinare/espressioni regolari (regex).md",
+    "Progettazione di sistemi digitali/flip-flop toggle (T).md",
+    "Multicore",
+    "Automi calcolabilità e complessità/Pasted image 20261009112059.png",
     "Automi calcolabilità e complessità/Pasted image 20261009102318.png",
     "Automi calcolabilità e complessità/Pasted image 20261009102047.png",
     "Automi calcolabilità e complessità/Pasted image 20261007092632.png",

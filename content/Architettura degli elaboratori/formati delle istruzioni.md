@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-06-03T10:37:22.799+02:00
+updated_at: 2026-10-15T12:45:47.629+02:00
 ---
 ### R-type (Register type)
 
@@ -10,7 +10,7 @@ updated_at: 2025-06-03T10:37:22.799+02:00
 | **n bit** | 7      | 5   | 5   | 3      | 5   | 7      |
 ### I-type (Immediate type)
 
-> Compiono operazioni immediate, cioè tra un registro e un valore costante codificato nell'espressione stessa (**imm**), operano con 2 registri. (1 argomento, 1 argomento immediato e 1 risultato).
+> Compiono operazioni immediate, cioè tra un registro e un valore costante codificato nell'[[espressione]] stessa (**imm**), operano con 2 registri. (1 argomento, 1 argomento immediato e 1 risultato).
 
 | campo     | imm | rs1 | funct3 | rd  | opcode |
 | --------- | --- | --- | ------ | --- | ------ |
@@ -24,7 +24,7 @@ updated_at: 2025-06-03T10:37:22.799+02:00
 | **n bit** | 7                   | 5   | 5   | 3      | 5                  | 7      |
 ### SB-type (Conditional branching type)
 
-> Gestiscono il branching condizionale, gli *immediate* codificano la posizione della memoria (dove sono scritte altre istruzioni del programma) a cui si deve saltare per iniziare la branch se una certa condizione in input è verificata.
+> Gestiscono il branching condizionale, gli *immediate* codificano la posizione della memoria (dove sono scritte altre istruzioni del [[programma]]) a cui si deve saltare per iniziare la branch se una certa condizione in input è verificata.
 
 La posizione a cui si deve saltare è codificata [[PC (Program Counter)]] + immediate \* 2
 

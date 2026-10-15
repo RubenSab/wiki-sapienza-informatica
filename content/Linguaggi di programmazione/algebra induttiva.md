@@ -1,7 +1,7 @@
 ---
-updated_at: 2026-10-05T12:07:04.393+02:00
+updated_at: 2026-10-15T11:53:47.779+02:00
 ---
-> Un'[[algebra eterogenea|algebra]] $(A, \gamma)$ si dice **induttiva** quando:
+> Un'[[algebra eterogenea|algebra]] $(A, \gamma)$ si dice **[[induzione|induttiva]]** quando:
 
 1. Tutte le $\gamma$ sono *[[funzione#^b987df|iniettive]]*.
 2. Tutte le $\gamma$ hanno *immagini disgiunte*.
@@ -9,10 +9,12 @@ updated_at: 2026-10-05T12:07:04.393+02:00
 
 > Le operazioni $\gamma$ si chiamano **costruttori** dell'algebra induttiva.
 
+Ad esempio l'[[insieme]] dei [[numeri naturali]] è un'algebra induttiva, la [[sintassi]] è un'algebra induttiva e le [[struttura dati|strutture dati]] come [[lista di Python|liste]] e [[albero|alberi binari]] sono algebre induttive.
+
 - [[morfismi tra algebre]]
 - [[algebra induttiva degli alberi binari (finiti)]]
 
-# Esempio dell'algebra [[induzione|induttiva]] dei [[numeri naturali]]
+# Esempio dell'algebra induttiva dei numeri naturali
 
 ## Rappresentazione (di Von Neumann) dei numeri naturali
 

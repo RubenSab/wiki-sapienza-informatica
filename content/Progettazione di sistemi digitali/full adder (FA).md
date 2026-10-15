@@ -1,3 +1,6 @@
+---
+updated_at: 2026-10-15T12:52:23.383+02:00
+---
 Si ottiene concatenando 2 [[half adder (HA)]].
 
 ![[Full-Adder.png]]
@@ -23,7 +26,7 @@ $r = \overline{a}bc + a(b+c)$
 | 1                     | 0   | 1   | 1   | 1   |
 Gli implicanti della SOP sono 101-111, 011-111, 111-110
 
-$r=ac+ab+bc=ab+c(a+b)$: questa è l'espressione minimale del riporto; ma dato che nel circuito abbiamo già uno XOR (quello del risultato della somma), possiamo trovare un modo di riusarlo per diminuire le porte logiche necessarie per creare il circuito completo.
+$r=ac+ab+bc=ab+c(a+b)$: questa è l'[[espressione]] minimale del riporto; ma dato che nel circuito abbiamo già uno XOR (quello del risultato della somma), possiamo trovare un modo di riusarlo per diminuire le porte logiche necessarie per creare il circuito completo.
 
 Stranamente $r=ab+c(a\oplus b)$ è equivalente all'espressione di partenza $r=ab+c(a+b)$, ciò si può verificare con l'[[espressioni booleane|induzione perfetta]].
 

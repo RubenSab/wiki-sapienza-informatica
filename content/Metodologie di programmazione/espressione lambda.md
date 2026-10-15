@@ -1,9 +1,9 @@
 ---
-updated_at: 2025-04-08T09:53:35.628+02:00
+updated_at: 2026-10-15T12:51:07.026+02:00
 ---
 > Da [[Java]] 8, è possibile specificare funzioni anonime utilizzando una notazione molto compatta, le [[espressione|espressioni]] lambda.
 
-Esempio di espressione lambda:
+Esempio di [[espressione]] [[lambda calculus|lambda]]:
 
 ``` Java
 () -> { System.out.println("hello!"); }
