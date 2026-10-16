@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-09-30T11:17:32.192+02:00
+updated_at: 2026-10-16T10:24:54.881+02:00
 ---
 # Nei DFA
 
@@ -24,7 +24,7 @@ Si può estendere per catturare tante iterazioni successive, si fa considerando 
 
 Conseguenza: $M\ \text{accetta}\ X \in \Sigma^{\star} \iff (q_{0}, x) \vdash_{M}^{\star} (q, \varepsilon) \quad q \in F$. Ciò è esprimibile anche come $\delta^{\star} (q_{0}, x) \in F$.
 
-# Nei NFA
+# Negli [[automa non deterministico a stati finiti (NFA)|NFA]]
 
 In un NFA $N$ le configurazioni sono $(q, x) \in Q \times \Sigma_{\varepsilon}$.
 
@@ -39,5 +39,31 @@ $$
 Come per i DFA, si può estendere $\vdash_{N}$ per riflessione e transitività:
 
 $$
-N\ \text{accetta}\ w \iff \exists \in F:\ (q_{0}, w) \vdash_{N}^{\star} (q, \varepsilon) \quad \text{(esiste almeno un cammino che accetta)}
+N\ \text{accetta}\ w \iff \exists q \in F:\ (q_{0}, w) \vdash_{N}^{\star} (q, \varepsilon) \quad \text{(esiste almeno un cammino che accetta)}
 $$
+
+# Nei [[automa a pila (PDA)|PDA]]
+
+^782132
+
+In un $PDA$ $M$ le configurazioni sono $(p, x, y) \in Q \times \Sigma_\varepsilon \times \Gamma_\varepsilon$
+
+$$
+(p, ax, by) \vdash_{M} (q, x, cy) \iff (q, c) \in \delta(p, a, b)
+$$
+
+Con:
+
+- $p, q \in Q$
+- $a \in \Sigma_\varepsilon$
+- $b, c \in \Gamma_\varepsilon$
+- $x \in \Sigma^\star$
+- $y \in \Gamma^\star$
+
+Come per i DFA, si può estendere $\vdash_{N}$ per riflessione e transitività:
+
+$$
+M\ \text{accetta}\ w \iff \exists w \in \Sigma^{\star}:\ (q_{0}, w, \varepsilon) \vdash_{M}^{\star} (q, \varepsilon, y)
+$$
+
+dove $q \in F,\ y \in \Gamma^\star$.
