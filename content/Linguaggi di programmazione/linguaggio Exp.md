@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-10-15T17:19:16.694+02:00
+updated_at: 2026-10-18T18:54:01.362+02:00
 ---
 #todo 
 
@@ -11,7 +11,7 @@ $$
 \begin{cases}
 E \vdash k \to k \\
 E \vdash x \to v\ (\text{se}\ E(x)=v) \\
-\frac{E \vdash M \to v_{1}\quad E \to N \to v_{2}}{E \vdash M + N \to v}\ (\text{se}\ v_{1} + v_{2} = v) \\
+\frac{E \vdash M \to v_{1}\quad E \vdash N \to v_{2}}{E \vdash M + N \to v}\ (\text{se}\ v_{1} + v_{2} = v) \\
 \frac{E \vdash M \to v\quad E(x, v) \vdash N \to v'}{E \vdash \text{let} x = M\  \text{in}\ N \to v'}
 \end{cases}
 $$

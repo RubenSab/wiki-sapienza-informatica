@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-10-16T09:52:39.691+02:00
+updated_at: 2026-10-19T12:29:13.565+02:00
 ---
 > [Materiale del corso](http://wwwusers.di.uniroma1.it/~lpara)
 
@@ -21,11 +21,15 @@ updated_at: 2026-10-16T09:52:39.691+02:00
 		- [[scoping statico]]
 		- [[scoping dinamico]]
 	- [[ambiente]]
+	- [[chiusura]]
+	- [[variabile libera]]
 	- Regole di valutazione:
 		- [[valutazione eager]]
 		- [[valutazione lazy]]
 		- [[teorema dell'equivalenza tra lazy statica e eager]]
 	- il [[linguaggio Exp]]
 	- il [[linguaggio Fun]]
-	- [[lambda calculus]]
+	- [[effetto computazionale]]
+	- [[numeri di Church]]
+- [[lambda calculus]]
 	- [[teoria dei tipi]]

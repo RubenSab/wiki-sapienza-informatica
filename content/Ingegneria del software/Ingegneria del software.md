@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-09-29T15:02:03.483+02:00
+updated_at: 2026-10-18T22:23:32.166+02:00
 ---
 > [Materiale del corso](https://drive.google.com/drive/folders/1M05SFpb_5mnRXHlcI1UNSkyz7es1sP6u?hl=it)
 
@@ -16,4 +16,3 @@ Entrambi gli esami sono al computer. Per la seconda prova è caldamente consigli
 # Argomenti
 
 - [[catena di Markov (DTMC)]]
-- [[rete di catene di Markov]]

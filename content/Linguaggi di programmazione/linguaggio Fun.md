@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-10-15T10:48:39.036+02:00
+updated_at: 2026-10-19T12:17:40.844+02:00
 ---
 È un superlinguaggio del [[linguaggio Exp]]. La sua grammatica contiene tutti i suoi elementi e le funzioni unarie.
 
@@ -94,3 +94,18 @@ $$
 $$
 
 All'estremo, si può fare a meno del + e a meno dei numeri, usando i [[numeri di Church]]. Si ottiene il [[lambda calculus]].
+
+
+---
+
+#todo 
+
+![[Pasted image 20261019114759.png]]
+
+![[Pasted image 20261019121112.png]]
+
+in eager va in loop infinito ([[effetto computazionale]] che introducono le funzioni) e non da un valore, mentre in lazy.
+
+---
+
+`let x = M in N` è  operazionalmente equivalente ($\equiv$) a `(fn x -> N)M` in un mondo non tipato, dove in `let x = M in N` possiamo avere il polimorfismo, mentre in `(fn x -> N)M` no.

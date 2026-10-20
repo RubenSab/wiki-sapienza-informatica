@@ -1,7 +1,6 @@
 ---
-updated_at: 2026-10-13T18:13:28.990+02:00
+updated_at: 2026-10-19T15:33:53.855+02:00
 ---
-
 > Parallelism can either concern **data** or **tasks**. Data parallelism consists in partitioning the data used in solving the problem among the cores, while task parallelism consists in partitioning the problem's task in sub-tasks, each processed by a core.
 
 Efficient parallel programs must take care of those properties:

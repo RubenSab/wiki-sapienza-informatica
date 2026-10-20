@@ -153,18 +153,25 @@
         "a": 1,
         "rgb": 494926
       }
+    },
+    {
+      "query": "path:Multicore ",
+      "color": {
+        "a": 1,
+        "rgb": 9742079
+      }
     }
   ],
   "collapse-display": false,
   "showArrow": true,
   "textFadeMultiplier": -1.8,
-  "nodeSizeMultiplier": 1.81909718161619,
+  "nodeSizeMultiplier": 1.55555466302514,
   "lineSizeMultiplier": 1.30741025641026,
   "collapse-forces": false,
   "centerStrength": 0.196465696465696,
   "repelStrength": 13.2432432432432,
   "linkStrength": 0.732848232848233,
   "linkDistance": 161,
-  "scale": 0.1263256199424965,
+  "scale": 0.037769257135050915,
   "close": true
 }

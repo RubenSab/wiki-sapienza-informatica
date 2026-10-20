@@ -20,12 +20,12 @@
             }
           },
           {
-            "id": "0f79397d804d169f",
+            "id": "4eed132f79df4802",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Automi calcolabilità e complessità/forma normale di Chomsky.md",
+                "file": "Multicore/message.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -40,26 +40,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "forma normale di Chomsky"
+              "title": "message"
             }
           },
           {
-            "id": "e5ce9e64c1e89159",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
-          },
-          {
-            "id": "c8bea8c7dc3ddac6",
+            "id": "2bd8fe5e320e7533",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Automi calcolabilità e complessità/automa a pila (PDA).md",
+                "file": "Multicore/Message Passing Interface (MPI).md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -74,11 +64,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "automa a pila (PDA)"
+              "title": "Message Passing Interface (MPI)"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -120,7 +110,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 322.3883819580078
+    "width": 322.3883819580078,
+    "collapsed": true
   },
   "right": {
     "id": "26b38658cac3fe47",
@@ -136,7 +127,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "programma",
+                "query": "\"NIC\"",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -250,7 +241,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 354.5,
+    "width": 280.1500244140625,
     "collapsed": true
   },
   "left-ribbon": {
@@ -268,45 +259,45 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "c8bea8c7dc3ddac6",
+  "active": "2bd8fe5e320e7533",
   "lastOpenFiles": [
-    "Automi calcolabilità e complessità/Pasted image 20261016103605.png",
-    "Automi calcolabilità e complessità/configurazione.md",
-    "Automi calcolabilità e complessità/automa a pila (PDA).md",
-    "Automi calcolabilità e complessità/automa deterministico a stati finiti (DFA).md",
-    "Excalidraw/Drawing 2026-09-30 08.47.26.excalidraw.md",
-    "Automi calcolabilità e complessità/automa non deterministico a stati finiti (NFA).md",
-    "Automi calcolabilità e complessità/Pasted image 20261016100048.png",
-    "Automi calcolabilità e complessità/non determinismo.md",
-    "Interdisciplinare/automa.md",
-    "Automi calcolabilità e complessità/Automi calcolabilità e complessità.md",
+    "Multicore/message.md",
+    "Multicore/Message Passing Interface (MPI).md",
+    "Multicore/Programmazione multicore.md",
+    "Multicore/communicator.md",
+    "Multicore/non serial computation.md",
+    "Multicore/parallelism.md",
+    "Multicore/process.md",
+    "Interdisciplinare/architettura di Von Neumann.md",
+    "BOZZE/Esercizi finali.md",
+    "Algebra/applicazione.md",
+    "Interdisciplinare/espressione.md",
+    "Scheda.md",
+    "Reti di elaboratori/stack protocollare TCP-IP.md",
+    "Interdisciplinare/complementazione.md",
+    "Reti di elaboratori/standard internet.md",
+    "Reti di elaboratori/socket.md",
+    "Multicore/rank.md",
+    "Ingegneria del software/Ingegneria del software.md",
+    "Linguaggi di programmazione/numeri di Church.md",
+    "Linguaggi di programmazione/valutazione eager.md",
+    "Linguaggi di programmazione/effetto computazionale.md",
     "Linguaggi di programmazione/Linguaggi di programmazione.md",
-    "Automi calcolabilità e complessità/forma normale di Chomsky.md",
+    "Linguaggi di programmazione/valutazione lazy.md",
+    "Interdisciplinare/algebra di Boole.md",
+    "Linguaggi di programmazione/linguaggio Fun.md",
+    "Linguaggi di programmazione/Pasted image 20261019121112.png",
+    "Linguaggi di programmazione/teorema dell'equivalenza tra lazy statica e eager.md",
+    "Linguaggi di programmazione/Pasted image 20261019114759.png",
+    "Automi calcolabilità e complessità/Pasted image 20261016103605.png",
+    "Automi calcolabilità e complessità/Pasted image 20261016100048.png",
     "Automi calcolabilità e complessità/subway-surfers.gif",
     "Automi calcolabilità e complessità/Pasted image 20261016090407.png",
     "Automi calcolabilità e complessità/Pasted image 20261016090325.png",
     "Automi calcolabilità e complessità/Pasted image 20261016085845.png",
-    "Automi calcolabilità e complessità/grammatica acontestuale (CFG).md",
-    "BOZZE/Mancini.md",
-    "Linguaggi di programmazione/valutazione lazy.md",
-    "Linguaggi di programmazione/ambiente.md",
-    "Linguaggi di programmazione/linguaggio Exp.md",
-    "Linguaggi di programmazione/valutazione eager.md",
-    "Linguaggi di programmazione/scroom.md",
-    "Interdisciplinare/programma.md",
-    "Linguaggi di programmazione/teorema dell'equivalenza tra lazy statica e eager.md",
-    "Linguaggi di programmazione/linguaggio di programmazione.md",
-    "Linguaggi di programmazione/chiusura (o thunk).md",
-    "Metodologie di programmazione/variabile.md",
-    "Linguaggi di programmazione/scoping dinamico.md",
     "Progettazione di algoritmi/Pasted image 20260708165856.png",
-    "Metodologie di programmazione/binding in Java.md",
-    "Interdisciplinare/espressione.md",
     "Multicore",
     "Automi calcolabilità e complessità/Pasted image 20261009112059.png",
-    "Automi calcolabilità e complessità/Pasted image 20261009102318.png",
-    "Automi calcolabilità e complessità/Pasted image 20261009102047.png",
-    "Automi calcolabilità e complessità/Pasted image 20261007092632.png",
     "Excalidraw",
     "Ingegneria del software",
     "Linguaggi di programmazione",

@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-10-07T09:29:25.765+02:00
+updated_at: 2026-10-18T18:55:12.892+02:00
 ---
 > Un *Generic Non deterministic Finite state [[automa|Automaton]]* è una tupla $N = (Q, \Sigma, \delta, q_{\text{start}}, q_{\text{accept}})$, dove $\delta:\ Q\ \setminus \{q_{\text{accept}}\} \times Q \setminus \{q_{\text{start}}\} \to \text{re}(\Sigma) = \mathcal{R}$.
 
@@ -57,6 +57,8 @@ $\square$
 
 ## 1. Trasformare $(ab \cup a)^{\star}$ in NFA.
 
+ #todo 
+ 
 ## 2. Trovare l'espressione regolare equivalente al seguente NFA
 
 ![[Pasted image 20261007092632.png]]
