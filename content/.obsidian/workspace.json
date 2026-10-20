@@ -25,8 +25,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Multicore/message.md",
-                "mode": "source",
+                "file": "Multicore/collective communication.md",
+                "mode": "preview",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -40,7 +40,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "message"
+              "title": "collective communication"
             }
           },
           {
@@ -66,9 +66,57 @@
               "icon": "lucide-file",
               "title": "Message Passing Interface (MPI)"
             }
+          },
+          {
+            "id": "72c4698d0d8947fd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Automi calcolabilità e complessità/grammatica acontestuale (CFG).md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "grammatica acontestuale (CFG)"
+            }
+          },
+          {
+            "id": "f3852f4cbaedbd7a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Automi calcolabilità e complessità/automa a pila (PDA).md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "automa a pila (PDA)"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -259,11 +307,19 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "2bd8fe5e320e7533",
+  "active": "72c4698d0d8947fd",
   "lastOpenFiles": [
-    "Multicore/message.md",
+    "Automi calcolabilità e complessità/forma normale di Chomsky.md",
+    "Automi calcolabilità e complessità/grammatica acontestuale (CFG).md",
+    "Automi calcolabilità e complessità/Pasted image 20261020224259.png",
+    "Automi calcolabilità e complessità/automa a pila (PDA).md",
+    "Linguaggi di programmazione/grammatica generativa.md",
     "Multicore/Message Passing Interface (MPI).md",
+    "Automi calcolabilità e complessità/configurazione.md",
+    "Automi calcolabilità e complessità/Automi calcolabilità e complessità.md",
+    "Multicore/collective communication.md",
     "Multicore/Programmazione multicore.md",
+    "Multicore/message.md",
     "Multicore/communicator.md",
     "Multicore/non serial computation.md",
     "Multicore/parallelism.md",
@@ -279,15 +335,7 @@
     "Reti di elaboratori/socket.md",
     "Multicore/rank.md",
     "Ingegneria del software/Ingegneria del software.md",
-    "Linguaggi di programmazione/numeri di Church.md",
-    "Linguaggi di programmazione/valutazione eager.md",
-    "Linguaggi di programmazione/effetto computazionale.md",
-    "Linguaggi di programmazione/Linguaggi di programmazione.md",
-    "Linguaggi di programmazione/valutazione lazy.md",
-    "Interdisciplinare/algebra di Boole.md",
-    "Linguaggi di programmazione/linguaggio Fun.md",
     "Linguaggi di programmazione/Pasted image 20261019121112.png",
-    "Linguaggi di programmazione/teorema dell'equivalenza tra lazy statica e eager.md",
     "Linguaggi di programmazione/Pasted image 20261019114759.png",
     "Automi calcolabilità e complessità/Pasted image 20261016103605.png",
     "Automi calcolabilità e complessità/Pasted image 20261016100048.png",
@@ -297,7 +345,6 @@
     "Automi calcolabilità e complessità/Pasted image 20261016085845.png",
     "Progettazione di algoritmi/Pasted image 20260708165856.png",
     "Multicore",
-    "Automi calcolabilità e complessità/Pasted image 20261009112059.png",
     "Excalidraw",
     "Ingegneria del software",
     "Linguaggi di programmazione",

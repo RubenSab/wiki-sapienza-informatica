@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-10-20T16:40:26.055+02:00
+updated_at: 2026-10-20T18:03:50.843+02:00
 ---
 > [[Message Passing Interface (MPI)]] enables the communication between [[process|processes]] through the functions `MPI_Send` and `MPI_Recv`.
 
@@ -8,9 +8,9 @@ updated_at: 2026-10-20T16:40:26.055+02:00
 Takes:
 - a [[puntatore|pointer]] to the data buffer (OUT),
 - the number of **elements** in each message (IN),
-- the MPI data type of the message (MPI has wrappers of the most common types, like MPI_INT),
+- the MPI data type of the messages (MPI has wrappers of the most common types, like MPI_INT),
 - the rank of destination process (IN),
-- label identifying the message's type (IN),
+- an arbitrary tag identifying this Send,
 - the [[communicator]] that contains both the sender process and the receiver (IN)
 Returns an int.
 
@@ -55,9 +55,9 @@ MPI can either use [[stack protocollare TCP-IP|TCP/IP]] [[socket|sockets]] (whic
 Takes:
 - a pointer to the receive buffer (output),
 - number of expected messages to receive
-- the MPI data type of the message,
+- the MPI data type of the messages,
 - rank of the sender process (optional, can be MPI_ANY_SOURCE),
-- rank of this process (optional, can be MPI_ANY_TAG),
+- an arbitrary tag identifying the corresponding Send (optional, can be MPI_ANY_TAG),
 - pointer to the communicator that contains both the sender process and the receiver,
 - the status (output), of type MPI_Status. It's a record type with fields MPI_SOURCE, MPI_TAG and MPI_ERROR.
   It can be MPI_STATUS_IGNORE.
@@ -84,6 +84,6 @@ Returns an int.
 - `MPI_Waitall`
 - `MPI_Testall`
 - `MPI_Waitany`
-- `MPI_Waitall`
+- `MPI_Waitall` (needs MPI_STATUS**ES** IGNORE if you want to ignore the states)
 - `MPI_Testany`
 - etc...
