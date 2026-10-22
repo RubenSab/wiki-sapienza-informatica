@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-10-16T09:52:54.583+02:00
+updated_at: 2026-10-21T08:17:25.738+02:00
 ---
 > Tratta di come si modella la computazione e dei limiti della computazione.
 > [Materiale del corso](https://dventuri83.github.io/teaching/3_acc/), [Libro](https://archive.org/details/introduction-to-the-theory-of-computation-michael-sipser/mode/1up).
@@ -31,6 +31,7 @@ Libro di testo: *Sipser, Introduzione alla teoria della computazione.*
 	- [[grammatica acontestuale (CFG)]]
 		- [[forma normale di Chomsky]]
 	- [[automa a pila (PDA)]]
+	- [[equivalenza tra PDA e CFG]]
 - [[calcolabilità]]
 	- [[(TM) macchina di Turing]]
 	- [[problemi NP completi]]

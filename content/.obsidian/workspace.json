@@ -18,105 +18,8 @@
               "icon": "lucide-git-fork",
               "title": "Graph view"
             }
-          },
-          {
-            "id": "4eed132f79df4802",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Multicore/collective communication.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "collective communication"
-            }
-          },
-          {
-            "id": "2bd8fe5e320e7533",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Multicore/Message Passing Interface (MPI).md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Message Passing Interface (MPI)"
-            }
-          },
-          {
-            "id": "72c4698d0d8947fd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Automi calcolabilità e complessità/grammatica acontestuale (CFG).md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "grammatica acontestuale (CFG)"
-            }
-          },
-          {
-            "id": "f3852f4cbaedbd7a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Automi calcolabilità e complessità/automa a pila (PDA).md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "automa a pila (PDA)"
-            }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -158,8 +61,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 322.3883819580078,
-    "collapsed": true
+    "width": 322.3883819580078
   },
   "right": {
     "id": "26b38658cac3fe47",
@@ -307,16 +209,36 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "72c4698d0d8947fd",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "Automi calcolabilità e complessità/forma normale di Chomsky.md",
-    "Automi calcolabilità e complessità/grammatica acontestuale (CFG).md",
-    "Automi calcolabilità e complessità/Pasted image 20261020224259.png",
+    "Automi calcolabilità e complessità/equivalenza tra PDA e CFG.md",
+    "Excalidraw/Drawing 2026-10-21 09.05.25.excalidraw.md",
+    "-.md",
+    "Excalidraw/Drawing 2026-10-21 09.16.54.excalidraw.md",
+    "Automi calcolabilità e complessità/Pasted image 20261021090750.png",
+    "Excalidraw/Drawing 2026-10-21 08.35.19.excalidraw.md",
+    "Automi calcolabilità e complessità/Pasted image 20261021085616.png",
+    "Excalidraw/Drawing 2026-10-21 08.24.36.excalidraw.md",
+    "Excalidraw/Drawing 2026-10-21 08.50.47.excalidraw.md",
+    "Automi calcolabilità e complessità/Pasted image 20261021085559.png",
+    "Automi calcolabilità e complessità/Pasted image 20261021084611.png",
+    "Automi calcolabilità e complessità/Pasted image 20261021084553.png",
+    "Excalidraw/Drawing 2026-10-21 08.45.11.excalidraw.md",
+    "Automi calcolabilità e complessità/Pasted image 20261021084334.png",
+    "Automi calcolabilità e complessità/Pasted image 20261021084309.png",
+    "Automi calcolabilità e complessità/Pasted image 20261021083454.png",
     "Automi calcolabilità e complessità/automa a pila (PDA).md",
+    "Automi calcolabilità e complessità/Pasted image 20261021082609.png",
+    "Automi calcolabilità e complessità/Pasted image 20261021082502.png",
+    "Excalidraw",
+    "Automi calcolabilità e complessità/grammatica acontestuale (CFG).md",
+    "Automi calcolabilità e complessità/Automi calcolabilità e complessità.md",
+    "Automi calcolabilità e complessità/automa non deterministico a stati finiti (NFA).md",
+    "Automi calcolabilità e complessità/automa deterministico a stati finiti (DFA).md",
+    "Automi calcolabilità e complessità/forma normale di Chomsky.md",
     "Linguaggi di programmazione/grammatica generativa.md",
     "Multicore/Message Passing Interface (MPI).md",
     "Automi calcolabilità e complessità/configurazione.md",
-    "Automi calcolabilità e complessità/Automi calcolabilità e complessità.md",
     "Multicore/collective communication.md",
     "Multicore/Programmazione multicore.md",
     "Multicore/message.md",
@@ -326,26 +248,7 @@
     "Multicore/process.md",
     "Interdisciplinare/architettura di Von Neumann.md",
     "BOZZE/Esercizi finali.md",
-    "Algebra/applicazione.md",
-    "Interdisciplinare/espressione.md",
-    "Scheda.md",
-    "Reti di elaboratori/stack protocollare TCP-IP.md",
-    "Interdisciplinare/complementazione.md",
-    "Reti di elaboratori/standard internet.md",
-    "Reti di elaboratori/socket.md",
-    "Multicore/rank.md",
-    "Ingegneria del software/Ingegneria del software.md",
-    "Linguaggi di programmazione/Pasted image 20261019121112.png",
-    "Linguaggi di programmazione/Pasted image 20261019114759.png",
-    "Automi calcolabilità e complessità/Pasted image 20261016103605.png",
-    "Automi calcolabilità e complessità/Pasted image 20261016100048.png",
-    "Automi calcolabilità e complessità/subway-surfers.gif",
-    "Automi calcolabilità e complessità/Pasted image 20261016090407.png",
-    "Automi calcolabilità e complessità/Pasted image 20261016090325.png",
-    "Automi calcolabilità e complessità/Pasted image 20261016085845.png",
-    "Progettazione di algoritmi/Pasted image 20260708165856.png",
     "Multicore",
-    "Excalidraw",
     "Ingegneria del software",
     "Linguaggi di programmazione",
     "Automi calcolabilità e complessità",

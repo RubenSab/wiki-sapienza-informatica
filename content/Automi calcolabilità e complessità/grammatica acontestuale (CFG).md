@@ -1,9 +1,10 @@
 ---
-updated_at: 2026-10-20T23:17:28.126+02:00
+updated_at: 2026-10-21T08:23:43.967+02:00
 ---
 #todo 
 
 - [[forma normale di Chomsky]]
+
 # Esercizi: formalizzare le descrizioni dei seguenti linguaggi in CFG
 
 ## 1. $L_{1} = \{w \in {\{0, 1\}}^{\star}:\ {\#}_{1}(w) \geq 3\}$
