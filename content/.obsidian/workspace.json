@@ -18,6 +18,152 @@
               "icon": "lucide-git-fork",
               "title": "Graph view"
             }
+          },
+          {
+            "id": "678fad0d00cbc88e",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "BOZZE/Da studiare.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "Da studiare"
+            }
+          },
+          {
+            "id": "4296ff71a250716e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "BOZZE/Da studiare.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Da studiare"
+            }
+          },
+          {
+            "id": "4e2a29562e14ebc2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linguaggi di programmazione/Standard Meta Language (SML).md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Standard Meta Language (SML)"
+            }
+          },
+          {
+            "id": "6968153e1347b943",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linguaggi di programmazione/curryficazione.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "curryficazione"
+            }
+          },
+          {
+            "id": "d5ae81869a5f786b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linguaggi di programmazione/Linguaggi di programmazione.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Linguaggi di programmazione"
+            }
+          },
+          {
+            "id": "407db5261652ae71",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linguaggi di programmazione/linguaggio di programmazione.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "linguaggio di programmazione"
+            }
           }
         ]
       }
@@ -61,7 +207,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 322.3883819580078
+    "width": 238.828125
   },
   "right": {
     "id": "26b38658cac3fe47",
@@ -77,7 +223,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"NIC\"",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -211,43 +357,43 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "Linguaggi di programmazione/linguaggio di programmazione.md",
+    "Linguaggi di programmazione/Linguaggi di programmazione.md",
+    "Linguaggi di programmazione/linguaggio.md",
+    "Metodi matematici per l'informatica/sintassi.md",
+    "Linguaggi di programmazione/curryficazione.md",
+    "BOZZE/Da studiare.md",
+    "Linguaggi di programmazione/Standard Meta Language (SML).md",
+    "BOZZE/Untitled.md",
+    "Linguaggi di programmazione/regola di inferenza.md",
+    "Pasted image 20261024114628.png",
+    "Linguaggi di programmazione/Pasted image 20261001101225.png",
+    "Linguaggi di programmazione/Pasted image 20261001101235.png",
+    "Linguaggi di programmazione/Pasted image 20261001101535.png",
+    "Linguaggi di programmazione/Pasted image 20261001101718.png",
+    "Linguaggi di programmazione/Pasted image 20261001105043.png",
+    "Linguaggi di programmazione/Pasted image 20261001105356.png",
+    "Linguaggi di programmazione/Pasted image 20261001110530.png",
+    "Linguaggi di programmazione/Pasted image 20261005123145.png",
+    "Linguaggi di programmazione/Pasted image 20261005124809.png",
+    "Linguaggi di programmazione/numerali di Church.md",
+    "Linguaggi di programmazione/codifica di Church.md",
+    "Linguaggi di programmazione/booleani di Church.md",
+    "Interdisciplinare/funzioni di codifica e decodifica.md",
+    "Linguaggi di programmazione/pragmatica.md",
+    "Linguaggi di programmazione/linguaggio Fun.md",
+    "Interdisciplinare/UML (Unified Modeling Language).md",
+    "Progettazione di sistemi digitali/rappresentazione o codifica dei numeri naturali.md",
+    "Interdisciplinare/algebra di Boole.md",
+    "Linguaggi di programmazione/valutazione lazy.md",
+    "Linguaggi di programmazione/scoping.md",
+    "Linguaggi di programmazione/scoping statico.md",
+    "Automi calcolabilità e complessità/Automi calcolabilità e complessità.md",
+    "Linguaggi di programmazione/effetto computazionale.md",
+    "Linguaggi di programmazione/linguaggio Exp.md",
     "Automi calcolabilità e complessità/equivalenza tra PDA e CFG.md",
     "Excalidraw/Drawing 2026-10-21 09.05.25.excalidraw.md",
-    "-.md",
-    "Excalidraw/Drawing 2026-10-21 09.16.54.excalidraw.md",
-    "Automi calcolabilità e complessità/Pasted image 20261021090750.png",
-    "Excalidraw/Drawing 2026-10-21 08.35.19.excalidraw.md",
-    "Automi calcolabilità e complessità/Pasted image 20261021085616.png",
-    "Excalidraw/Drawing 2026-10-21 08.24.36.excalidraw.md",
-    "Excalidraw/Drawing 2026-10-21 08.50.47.excalidraw.md",
-    "Automi calcolabilità e complessità/Pasted image 20261021085559.png",
-    "Automi calcolabilità e complessità/Pasted image 20261021084611.png",
-    "Automi calcolabilità e complessità/Pasted image 20261021084553.png",
-    "Excalidraw/Drawing 2026-10-21 08.45.11.excalidraw.md",
-    "Automi calcolabilità e complessità/Pasted image 20261021084334.png",
-    "Automi calcolabilità e complessità/Pasted image 20261021084309.png",
-    "Automi calcolabilità e complessità/Pasted image 20261021083454.png",
-    "Automi calcolabilità e complessità/automa a pila (PDA).md",
-    "Automi calcolabilità e complessità/Pasted image 20261021082609.png",
-    "Automi calcolabilità e complessità/Pasted image 20261021082502.png",
     "Excalidraw",
-    "Automi calcolabilità e complessità/grammatica acontestuale (CFG).md",
-    "Automi calcolabilità e complessità/Automi calcolabilità e complessità.md",
-    "Automi calcolabilità e complessità/automa non deterministico a stati finiti (NFA).md",
-    "Automi calcolabilità e complessità/automa deterministico a stati finiti (DFA).md",
-    "Automi calcolabilità e complessità/forma normale di Chomsky.md",
-    "Linguaggi di programmazione/grammatica generativa.md",
-    "Multicore/Message Passing Interface (MPI).md",
-    "Automi calcolabilità e complessità/configurazione.md",
-    "Multicore/collective communication.md",
-    "Multicore/Programmazione multicore.md",
-    "Multicore/message.md",
-    "Multicore/communicator.md",
-    "Multicore/non serial computation.md",
-    "Multicore/parallelism.md",
-    "Multicore/process.md",
-    "Interdisciplinare/architettura di Von Neumann.md",
-    "BOZZE/Esercizi finali.md",
     "Multicore",
     "Ingegneria del software",
     "Linguaggi di programmazione",

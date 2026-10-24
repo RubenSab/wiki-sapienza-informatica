@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-10-19T12:29:13.565+02:00
+updated_at: 2026-10-24T20:19:29.205+02:00
 ---
 > [Materiale del corso](http://wwwusers.di.uniroma1.it/~lpara)
 
@@ -16,6 +16,7 @@ updated_at: 2026-10-19T12:29:13.565+02:00
 - Linguaggi:
 	- [[espressione]]
 	- [[linguaggio]]
+	- [[sintassi astratta]]
 	- [[linguaggio di programmazione]]
 	- [[scoping]]
 		- [[scoping statico]]
@@ -30,6 +31,11 @@ updated_at: 2026-10-19T12:29:13.565+02:00
 	- il [[linguaggio Exp]]
 	- il [[linguaggio Fun]]
 	- [[effetto computazionale]]
-	- [[numeri di Church]]
-- [[lambda calculus]]
+	- [[curryficazione]]
+	- [[Standard Meta Language (SML)]]
+	- [[codifica di Church]]
+		- [[booleani di Church]]
+		- [[numerali di Church]]
+	- [[polimorfismo dei tipi]]
+- [[lambda calcolo]]
 	- [[teoria dei tipi]]

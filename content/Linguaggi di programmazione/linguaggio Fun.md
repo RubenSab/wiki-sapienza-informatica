@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-10-19T12:17:40.844+02:00
+updated_at: 2026-10-24T14:29:02.030+02:00
 ---
 È un superlinguaggio del [[linguaggio Exp]]. La sua grammatica contiene tutti i suoi elementi e le funzioni unarie.
 
@@ -48,7 +48,7 @@ $$
 
 ---
 
-Possiamo creare funzioni binarie con la *curryficazione* componendo funzioni *unarie*.
+Possiamo creare funzioni binarie con la *[[curryficazione]]*, componendo funzioni *unarie*.
 
 $$
 \text{Fn}\ x \implies \text{Fn}\ y \implies x + y
@@ -93,7 +93,7 @@ $$
 \text{let}\ x = M\ \text{in}\ N \equiv (\text{Fn}\ x \implies N) M
 $$
 
-All'estremo, si può fare a meno del + e a meno dei numeri, usando i [[numeri di Church]]. Si ottiene il [[lambda calculus]].
+All'estremo, si può fare a meno del + e a meno dei numeri, usando i [[numerali di Church]]. Si ottiene il [[lambda calculus]].
 
 
 ---
