@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-10-19T12:10:53.708+02:00
+updated_at: 2026-10-26T12:10:56.554+01:00
 ---
 > L'**effetto computazionale** è dove la valutazione di un [[linguaggio di programmazione]] differisce dalla matematica, cioè un *side effect*.
 

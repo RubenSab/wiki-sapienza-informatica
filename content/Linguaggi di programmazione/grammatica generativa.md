@@ -19,7 +19,7 @@ $$
 
 Il carattere $\mid$ esprime l'OR logico.
 
-Ad esempio, la grammatica del [[linguaggio Exp]] è
+Ad esempio, la grammatica del [[Linguaggio EXP]] è
 
 $$
 M, N ::= \underset{\text{costante}}{\underbrace{\mathcal{k}}} \mid \underset{\text{variabile}}{\underbrace{x}} \mid N+M \mid \text{let}\ x = M\ \text{in}\ N

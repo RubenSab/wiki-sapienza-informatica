@@ -10,7 +10,7 @@ $$
 \text{Env} \ni E:\ \text{Var} \overset{\text{fin}}{\rightsquigarrow}\text{Val}
 $$
 
-[[regola di inferenza|Regole di inferenza]] della valutazione eager per la versione lazy del [[linguaggio Exp]]:
+[[regola di inferenza|Regole di inferenza]] della valutazione eager per la versione lazy del [[Linguaggio EXP]]:
 
 $$
 \begin{cases}
@@ -26,4 +26,4 @@ $$
 
 - [[teorema dell'equivalenza tra lazy statica e eager]]
 
-Nei linguaggi che hanno le [[funzione|funzioni]], eager si differenzia in statico e dinamico, perché stiamo introducendo gli [[effetto computazionale|effetti computazionali]].
+Nei linguaggi che hanno le [[funzione|funzioni]], eager si differenzia in statico e dinamico, perché stiamo introducendo gli [[effetto computazionale (side effect)|effetti computazionali]].

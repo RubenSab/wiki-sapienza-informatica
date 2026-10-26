@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-10-19T11:27:35.745+02:00
+updated_at: 2026-10-26T12:22:41.420+01:00
 ---
 Si scrivono con la [[sintassi]]:
 
@@ -8,6 +8,8 @@ $$
 $$
 
 Dove *premessa* e *conclusione* sono due formule di logica **predicativa**.
+
+# Sintassi delle forme dei sequenti dei [[linguaggio di programmazione|linguaggi di programmazione]]
 
 > $E \vdash M \rightsquigarrow v$ si legge "nell'ambiente $E$, l'espressione $M$ valuta al valore $v$".
 

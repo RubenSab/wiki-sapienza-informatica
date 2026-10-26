@@ -15,4 +15,4 @@ Il problema della definizione di $\text{eval}$ è che stiamo applicando una defi
 
 > Però basta dichiarare che quella sintassi è la **[[sintassi astratta]]** di $\text{Exp}$. Nel concreto, se al posto di scrivere $5 \ast 7 + 9$, che è ambiguo, si scrive $\ast(5,\ +(7, 9))$ o $+(*(5, 7),\ 9)$ e si dichiarano come diversi (***si deccide che la diversità sta nei programmi, non nei loro risultati***), allora le immagini di $+$ e $\ast$ si disgiungono e si è risolve l'ambiguità.
 
-- [[linguaggio Exp]]
+- [[Linguaggio EXP]]

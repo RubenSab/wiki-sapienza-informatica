@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-10-24T20:19:29.205+02:00
+updated_at: 2026-10-26T12:37:26.653+01:00
 ---
 > [Materiale del corso](http://wwwusers.di.uniroma1.it/~lpara)
 
@@ -28,14 +28,18 @@ updated_at: 2026-10-24T20:19:29.205+02:00
 		- [[valutazione eager]]
 		- [[valutazione lazy]]
 		- [[teorema dell'equivalenza tra lazy statica e eager]]
-	- il [[linguaggio Exp]]
-	- il [[linguaggio Fun]]
-	- [[effetto computazionale]]
-	- [[curryficazione]]
-	- [[Standard Meta Language (SML)]]
-	- [[codifica di Church]]
-		- [[booleani di Church]]
-		- [[numerali di Church]]
-	- [[polimorfismo dei tipi]]
-- [[lambda calcolo]]
-	- [[teoria dei tipi]]
+	- [[effetto computazionale (side effect)]]
+	- Programmazione funzionale: La vediamo in due passi, prima passando per *EXP* e poi aumentandolo con le *funzioni*, creando *FUN*.
+		- il [[Linguaggio EXP]]
+		- il [[Linguaggio FUN]]
+		- [[curryficazione]]
+		- [[Standard Meta Language (SML)]]
+		- [[codifica di Church]]
+			- [[booleani di Church]]
+			- [[numerali di Church]]
+		- [[polimorfismo dei tipi]]
+		- [[lambda calcolo]]
+			- [[teoria dei tipi]]
+	- Programmazione imperativa: La vediamo in due passi, prima passando per *IMP* e poi aumentandolo con le *procedure*, creando *HAL*.
+		- [[Linguaggio IMP]]
+		- [[Linguaggio HAL]]

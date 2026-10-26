@@ -1,7 +1,7 @@
 ---
-updated_at: 2026-10-24T14:29:02.030+02:00
+updated_at: 2026-10-26T12:38:11.305+01:00
 ---
-È un superlinguaggio del [[linguaggio Exp]]. La sua grammatica contiene tutti i suoi elementi e le funzioni unarie.
+È un superlinguaggio del [[Linguaggio EXP]]. La sua grammatica contiene tutti i suoi elementi e le funzioni unarie.
 
 $$
 M, N ::= 5 \mid 7 \mid \ldots \mid N+M \mid \text{let}\ x = M\ \text{in}\ N \mid Fn\ x\implies M \mid MN
@@ -42,21 +42,11 @@ $$
 
 ---
 
+#todo 
+
 $$
 (\text{Fn} x \implies (\text{Fn}\ y \implies x)) 7 \rightsquigarrow \text{Fn}\ y \implies 7
 $$
-
----
-
-Possiamo creare funzioni binarie con la *[[curryficazione]]*, componendo funzioni *unarie*.
-
-$$
-\text{Fn}\ x \implies \text{Fn}\ y \implies x + y
-$$
-
-Il curry di una funzione è da $A \land B \to C$ a $A \to (B \to C)$ e la uncurryficazione è il contrario.
-
----
 
 Bisogna cambiare l'insieme $\text{val}$:
 
@@ -98,13 +88,11 @@ All'estremo, si può fare a meno del + e a meno dei numeri, usando i [[numerali 
 
 ---
 
-#todo 
-
 ![[Pasted image 20261019114759.png]]
 
 ![[Pasted image 20261019121112.png]]
 
-in eager va in loop infinito ([[effetto computazionale]] che introducono le funzioni) e non da un valore, mentre in lazy.
+> In eager va in loop infinito (la **non terminazione**, uno degli [[effetto computazionale (side effect)]] che introducono le funzioni) e non da un valore, mentre in lazy.
 
 ---
 

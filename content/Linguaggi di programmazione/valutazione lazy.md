@@ -5,7 +5,7 @@ updated_at: 2026-10-19T12:41:13.747+02:00
 
 Nella *semantica operazionale lazy*, l'**[[ambiente]]** è una mappatura tra i nomi delle variabili e una coppia $\langle M, E_{M}\rangle$, detta **thunk**, dove $M$ è l'espressione corrispondente valutata solo nel momento della loro chiamata, e $E_{M}$ è un ambiente.
 
-[[regola di inferenza|Regole di inferenza]] della valutazione lazy per la versione lazy del [[linguaggio Exp]]:
+[[regola di inferenza|Regole di inferenza]] della valutazione lazy per la versione lazy del [[Linguaggio EXP]]:
 
 $$
 \begin{cases}

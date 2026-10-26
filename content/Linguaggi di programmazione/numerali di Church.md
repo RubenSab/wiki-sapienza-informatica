@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-10-24T20:15:05.453+02:00
+updated_at: 2026-10-26T11:46:17.921+01:00
 ---
 I numerali di Church si basano sull'idea di non rappresentare il numero naturale $n$ come elemento di un dominio, ma come *la ripetizione di un qualcosa $n$ volte*.
 
@@ -44,6 +44,9 @@ Se $n$ è definito come il ripetere qualcosa ($f$) $n$ volte, allora la funzione
 val succ = fn numerale => (fn f => fn x => f (numerale f x));
 ```
 
+> N.B.: Il successore funziona correttamente perché `numerale f x` ha lo stesso tipo di `x`, quindi `f` si può applicare a entrambe. In [[teoria dei tipi]] si dice che `f` è di tipo $A \to A$, `w` è di tipo $(A \to A) \to (A \to A)$ e la funzione successore in generale è
+> $((A \to A) \to (A \to A)) \to ((A \to A) \to (A \to A))$.
+
 Avendo lo zero e alla funzione successore possiamo costruire tutti i numeri naturali:
 
 ``` sml
@@ -67,6 +70,10 @@ eval zero; (* valuta a 0 *)
 eval uno; (* valuta a 1 *)
 eval due; (* valuta a 2 *)
 ```
+
+## Funzione predecessore
+
+#todo 
 
 ## Funzione somma
 
