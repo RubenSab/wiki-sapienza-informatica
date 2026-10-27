@@ -20,12 +20,12 @@
             }
           },
           {
-            "id": "de3444766021823b",
+            "id": "d620d81d6679a6a7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linguaggi di programmazione/Linguaggio IMP.md",
+                "file": "Basi di dati/organizzazione fisica di un database relazionale.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -40,16 +40,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Linguaggio IMP"
+              "title": "organizzazione fisica di un database relazionale"
             }
           },
           {
-            "id": "1c0a46e03739d7a0",
+            "id": "baa3fb0c25b59136",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linguaggi di programmazione/regola di inferenza.md",
+                "file": "BOZZE/Esercizi sulla programmazione dinamica.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -64,11 +64,59 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "regola di inferenza"
+              "title": "Esercizi sulla programmazione dinamica"
+            }
+          },
+          {
+            "id": "b79b211ce7117377",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Automi calcolabilità e complessità/grammatica acontestuale (CFG).md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "grammatica acontestuale (CFG)"
+            }
+          },
+          {
+            "id": "27b77cea77b134e1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linguaggi di programmazione/grammatica generativa.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "grammatica generativa"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -259,23 +307,34 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "de3444766021823b",
+  "active": "b79b211ce7117377",
   "lastOpenFiles": [
-    "Linguaggi di programmazione/regola di inferenza.md",
-    "Linguaggi di programmazione/Linguaggio IMP.md",
-    "Linguaggi di programmazione/ambiente.md",
+    "Linguaggi di programmazione/grammatica generativa.md",
+    "Automi calcolabilità e complessità/grammatica acontestuale (CFG).md",
+    "Automi calcolabilità e complessità/configurazione.md",
+    "Automi calcolabilità e complessità/Automi calcolabilità e complessità.md",
+    "Automi calcolabilità e complessità/equivalenza tra PDA e CFG.md",
+    "Automi calcolabilità e complessità/forma normale di Chomsky.md",
+    "Automi calcolabilità e complessità/automa a pila (PDA).md",
+    "BOZZE/Esercizi sulla programmazione dinamica.md",
+    "Basi di dati/organizzazione fisica di un database relazionale.md",
+    "Multicore/parallelism.md",
+    "Linguaggi di programmazione/numerali di Church.md",
     "Linguaggi di programmazione/Linguaggi di programmazione.md",
+    "Multicore/collective communication.md",
+    "Multicore/Programmazione multicore.md",
+    "Linguaggi di programmazione/Linguaggio IMP.md",
+    "Linguaggi di programmazione/regola di inferenza.md",
+    "Linguaggi di programmazione/ambiente.md",
     "Linguaggi di programmazione/Linguaggio FUN.md",
     "Linguaggi di programmazione/Linguaggio EXP.md",
     "BOZZE/Da studiare.md",
     "Linguaggi di programmazione/curryficazione.md",
     "Linguaggi di programmazione/effetto computazionale (side effect).md",
-    "Linguaggi di programmazione/numerali di Church.md",
     "Linguaggi di programmazione/linguaggio di programmazione.md",
     "Linguaggi di programmazione/linguaggio.md",
     "Metodi matematici per l'informatica/sintassi.md",
     "Linguaggi di programmazione/Standard Meta Language (SML).md",
-    "BOZZE/Untitled.md",
     "Pasted image 20261024114628.png",
     "Linguaggi di programmazione/Pasted image 20261001101225.png",
     "Linguaggi di programmazione/Pasted image 20261001101235.png",
@@ -286,17 +345,6 @@
     "Linguaggi di programmazione/Pasted image 20261001110530.png",
     "Linguaggi di programmazione/Pasted image 20261005123145.png",
     "Linguaggi di programmazione/Pasted image 20261005124809.png",
-    "Linguaggi di programmazione/codifica di Church.md",
-    "Linguaggi di programmazione/booleani di Church.md",
-    "Interdisciplinare/funzioni di codifica e decodifica.md",
-    "Linguaggi di programmazione/pragmatica.md",
-    "Interdisciplinare/UML (Unified Modeling Language).md",
-    "Progettazione di sistemi digitali/rappresentazione o codifica dei numeri naturali.md",
-    "Interdisciplinare/algebra di Boole.md",
-    "Linguaggi di programmazione/valutazione lazy.md",
-    "Linguaggi di programmazione/scoping.md",
-    "Linguaggi di programmazione/scoping statico.md",
-    "Automi calcolabilità e complessità/Automi calcolabilità e complessità.md",
     "Excalidraw",
     "Multicore",
     "Ingegneria del software",
