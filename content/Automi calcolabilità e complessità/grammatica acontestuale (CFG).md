@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-10-27T18:29:20.207+01:00
+updated_at: 2026-10-30T17:39:30.833+01:00
 ---
 Sono un modo di descrivere [[linguaggio|linguaggi]]. Permettono di descrivere caratteristiche ricorsive delle stringhe riconosciute. Per questo sono utili per descrivere linguaggi umani e [[Linguaggi di programmazione|linguaggi di programmazione]].
 
@@ -72,40 +72,61 @@ $$
 # Implementazione mia su python
 
 ``` python
-def generate(grammar, iterations):
-    strings = [grammar['start']]
-    for _ in range(iterations):
-        for variable, substitutions in grammar['rules'].items():
+def derive_from(string, grammar, iterations, i=0, path=None):
+    if path is None:
+        path = []
+    if i > iterations:
+        return
+    if not any([var in string for var in grammar.keys()]):
+        print(*path, string, sep=' -> ')
+    for variable, substitutions in grammar.items():
+        if variable in string:
             for substitution in substitutions:
-                old_strings = strings[::]
-                for string in old_strings:
-                    strings.append(string.replace(variable, substitution))
-    return sorted(list(set([
-        string for string in strings
-        if not any(
-            variable in string for variable in grammar['rules'].keys()
-        )
-    ])))
-
-
+                path.append(string)
+                derive_from(
+                    string.replace(variable, substitution, 1),
+                    grammar,
+                    iterations,
+                    i+1,
+                    path
+                )
+                path.pop()
 
 G = {
-    'rules': {
-        'A': ['0A1', 'B'],
-        'B': ['#']
-    },
-    'start': 'A'
+    'A': ['0A1', 'B'],
+    'B': ['#']
 }
 
-print(*generate(G, 4), sep='\n')
+derive_from('A', G, 5)
 ```
 
 output:
 
 ```
-#
-0#1
-00#11
-000#111
-0000#1111
+A -> 0A1 -> 00A11 -> 000A111 -> 000B111 -> 000#111
+A -> 0A1 -> 00A11 -> 00B11 -> 00#11
+A -> 0A1 -> 0B1 -> 0#1
+A -> B -> #
+```
+
+Altro esempio
+
+``` python
+G = {
+    'START': ['Hi! SENTENCE'],
+    'SENTENCE': ['I am PERSON', 'I know a PERSON', 'have a nice TIME in PLACE!', 'I really like ACTIVITY in PLACE', 'I really like ACTIVITY in PLACE in the TIME'],
+    'PLACE': ['Rome', 'Paris'],
+    'TIME': ['morning', 'evening'],
+    'PERSON': ['a GENDER who PREFERENCE ACTIVITY in the TIME', 'a GENDER from PLACE who PREFERENCE ACTIVITY in the TIME'],
+    'PREFERENCE': ['likes', 'hates', 'would like'],
+    'GENDER': ['boy', 'girl'],
+    'ACTIVITY': ['running', 'skating', 'singing']
+}
+
+derive_from('START', G, 8)
+
+# Esempi output:
+# Hi! have a nice time in Paris!
+# Hi! I know a girl from Rome who likes singing in the morning
+# Hi! I really like skating in Rome
 ```

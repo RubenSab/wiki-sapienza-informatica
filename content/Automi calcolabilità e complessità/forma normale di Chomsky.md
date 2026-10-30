@@ -1,12 +1,14 @@
 ---
-updated_at: 2026-10-16T09:30:09.837+02:00
+updated_at: 2026-10-30T18:17:45.524+01:00
 ---
 > Una [[grammatica acontestuale (CFG)]] è in **forma normale** se oni sua regola è nella forma $A \to BC$ oppure $A \to a$. Dove $A, B, C \in V,\quad a \in \Sigma,\quad B,C \notin S$. È ammessa anche la regola $S \to \varepsilon$.
 
-> Teorema: ogni CFG ammette una CFG equivalente in forma normale.
+> Teorema: ogni CFG ammette una CFG equivalente nella forma normale di Chomsky.
 
-1. Dobbiamo trasformare le regola della CFG. Per prima cosa aggiungo $S_{0}$, la nuova variabile iniziale e le regole $S_{0} \to S$.
-2. Passiamo poi alle $\varepsilon$-regole: $A \to \varepsilon$. Per ogni occorrenza di $A$ sul lato destro di una regola, aggiungo nuove regole con occorrenza cancellata. (praticamente per poter togliere $A \to \varepsilon$ si applica $A \to \varepsilon$ a tutte le regole vecchie).
+Per farlo, dobbiamo trasformare le regola della CFG:
+
+1. Per prima cosa aggiungo $S_{0}$, la *nuova variabile iniziale*, e con essa la regola $S_{0} \to S$.
+2. Passiamo poi alle *$\varepsilon$-regole ($A \to \varepsilon$) in cui la variabile a sinistra appare nella destra di un'altra regola ($\ldots \to A$)*. Per ogni occorrenza di $A$ sul lato destro di una regola, aggiungo nuove regole con occorrenza cancellata. (praticamente per poter togliere $A \to \varepsilon$ si applica $A \to \varepsilon$ a tutte le regole vecchie).
    **Esempio**:
    $A \to \varepsilon$
    $B \to u A v$, con $u, v$ stringhe di variabili/terminali.
@@ -16,10 +18,11 @@ updated_at: 2026-10-16T09:30:09.837+02:00
    $\implies B \to u v w \mid u A v w \mid u v A w \mid u A v A w$
    **Altro esempio**:
    $B \to C \quad C \to A \mid c$ diventano $B \to A \mid c$ e $C \to A \mid c$
-3. Togliamo le regole unitarie: $A \to B$. Per ogni occorrenza di regole $B \to u$, aggiungo $A \to u$. ($u$ sempre sequenza di variabili/terminali)
+3. Togliamo le *regole unitarie*: $A \to B$. Per ogni occorrenza di regole $B \to u$, aggiungo $A \to u$. ($u$ sempre sequenza di variabili/terminali)
    ![[subway-surfers.gif]]
    *(piccola gif a scopo di intrattenimento)*
-4. Infine tolgo tutte le $A \to u_{1},\ u_{2},\ \ldots,\ u_{k} \quad k \geq 3$, quindi per compensare introduco nelle regole nuove $A \to w_{1}A_{1},\ A_{1} \to w_{2} A_{2},\ A_{2}\to w_{3}A_{3}\ \ldots\ A_{k-2} \to w_{k-2}w_{k}$
+4. Infine tolgo tutte le *regole che non hanno esclusivamente 2 variabili a destra*:
+   $A \to V_{1}V_{2}\ldots V_{k} \quad k \geq 3$, quindi per compensare introduco nelle regole nuove $A \to W_{1}A_{1},\ A_{1} \to W_{2} A_{2},\ A_{2}\to W_{3}A_{3}\ \ldots\ A_{k-2} \to W_{k-2}W_{k}$
    **Esempio:** $A \to aBC$
    $A \to a A_{1}$
    $A_{1} \to BC$
@@ -35,20 +38,38 @@ Regole originali
 - $A \to B \mid S$
 - $B \to b \mid \varepsilon$
 
-Primo passaggio: aggiunta di $S_{0}$.
+**Primo passaggio**: aggiunta di $S_{0}$.
 
 - $S_{0} \to S$
 - $A \to ASA \mid aB$
 - $A \to B \mid S$
 - $B \to b \mid \varepsilon$
 
-Secondo passaggio: togliamo le $\varepsilon$ regole.
+**Secondo passaggio**: togliamo ogni $\varepsilon$ regola la cui variabile a sinistra appare nella destra di un'altra regola.
 
 - $S_{0} \to S$
 - $S \to ASA \mid aB \mid a$
-- $a \to B \mid S \mid \varepsilon$
+- $A \to B \mid S \mid \varepsilon$
 - $B \to b$
 
-Terzo passaggio: togliamo le regole unitarie.
+Abbiamo dovuto introdurre $A \to \varepsilon$ per togliere $B \to \varepsilon$, ma va anche questa va tolta. L'unica regola che deriva $A$ è $S \to ASA$, quindi per preservare $A \to \varepsilon$ senza scriverla esplicitamente dobbiamo dare la responsabilità di derivare $\varepsilon$ non più ad $A$ ma a $S$, quindi introdurre $S \to SA \mid AS \mid S$ e rimuovere $A \to \varepsilon$.
 
-- togliamo $S_{0} \to S$ e per compensare aggiungiamo $S_{0} \to ASA \mid aB \mid a \mid SA \mid AS \mid S$
+- $S_{0} \to S$
+- $S \to ASA \mid aB \mid a \mid SA \mid AS \mid S$
+- $A \to B \mid S$
+- $B \to b$
+
+**Terzo passaggio**: togliamo le regole unitarie.
+
+- Togliamo $S_{0} \to S$ e per compensare aggiungiamo $S_{0} \to ASA \mid aB \mid a \mid SA \mid AS$.
+- Togliamo $A \to B$ e per compensare aggiungiamo $A \to b$.
+- Togliamo $A \to S$ e per compensare aggiungiamo $A \to ASA \mid aB \mid a \mid SA \mid AS \mid S$.
+
+Otteniamo:
+
+- $S_{0} \to ASA \mid aB \mid a \mid SA \mid AS$
+- $S \to ASA \mid aB \mid a \mid SA \mid AS$
+- $A \to b \mid ASA \mid aB \mid a \mid SA \mid AS$
+- $B \to b$
+
+**Quarto passaggio**: convertiamo tutte le rimanenti regole con almeno una variabile a destra in regole che hanno esclusivamente due variabili a destra, aggiungendo variabili d'appoggio.

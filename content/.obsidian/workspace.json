@@ -20,12 +20,12 @@
             }
           },
           {
-            "id": "d620d81d6679a6a7",
+            "id": "75991270c45b7ac0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Basi di dati/organizzazione fisica di un database relazionale.md",
+                "file": "Automi calcolabilità e complessità/forma normale di Chomsky.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -40,16 +40,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "organizzazione fisica di un database relazionale"
+              "title": "forma normale di Chomsky"
             }
           },
           {
-            "id": "baa3fb0c25b59136",
+            "id": "08c52f9632acc64a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "BOZZE/Esercizi sulla programmazione dinamica.md",
+                "file": "Automi calcolabilità e complessità/Automi calcolabilità e complessità.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -64,59 +64,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Esercizi sulla programmazione dinamica"
-            }
-          },
-          {
-            "id": "b79b211ce7117377",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Automi calcolabilità e complessità/grammatica acontestuale (CFG).md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "grammatica acontestuale (CFG)"
-            }
-          },
-          {
-            "id": "27b77cea77b134e1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Linguaggi di programmazione/grammatica generativa.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "grammatica generativa"
+              "title": "Automi calcolabilità e complessità"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -307,12 +259,12 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "b79b211ce7117377",
+  "active": "75991270c45b7ac0",
   "lastOpenFiles": [
-    "Linguaggi di programmazione/grammatica generativa.md",
     "Automi calcolabilità e complessità/grammatica acontestuale (CFG).md",
-    "Automi calcolabilità e complessità/configurazione.md",
     "Automi calcolabilità e complessità/Automi calcolabilità e complessità.md",
+    "Linguaggi di programmazione/grammatica generativa.md",
+    "Automi calcolabilità e complessità/configurazione.md",
     "Automi calcolabilità e complessità/equivalenza tra PDA e CFG.md",
     "Automi calcolabilità e complessità/forma normale di Chomsky.md",
     "Automi calcolabilità e complessità/automa a pila (PDA).md",
