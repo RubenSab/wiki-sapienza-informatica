@@ -1,82 +1,67 @@
 ---
-updated_at: 2026-10-21T09:21:05.911+02:00
+updated_at: 2026-10-31T19:13:21.458+01:00
 ---
-> Teorema: Un [[linguaggio]] è [[grammatica acontestuale (CFG)|acontestuale]] se e solo se esiste un [[automa a pila (PDA)]] che lo riconosce.
+> Teorema: Un [[linguaggio]] $L$ è [[grammatica acontestuale (CFG)|acontestuale]] $\iff$ esiste un [[automa a pila (PDA)]] che lo riconosce.
 
-# Dimostrazione $\implies$
+# Dimostrazione del lemma $\implies$
 
 > Se $L = L(G)$ per una qualche CFG $G$, allora esiste un PDA $P$ tale che $L(P) = L$
 
-Intuizione: Dato un input $w \in \Sigma^{\star}$ $P$ userà la [[stack|pila]] e il [[non determinismo]] per cercare di capire se $w$ è generabile da $G$.
+## Intuizione
 
-Ad esempio:
+Nel concreto, per dimostare questo lemma, bisogna trovare una strategia universale per costruire un PDA partendo da una qualsiasi CFG.
+
+L'idea è che il PDA deve:
+
+1. Mettere il simbolo `$` all'inizio dello [[stack]].
+2. Fare il pop sullo stack e agire di conseguenza:
+	1. Se il simbolo estratto è un **simbolo di variabile** $A$, creare [[non determinismo|non deterministicamente]] tanti rami di computazione per quante regole $A \to \ldots$ esistono e sostituisci $A$ con ogni $\ldots$, poi ripetere il loop.
+	2. Se la cima dello stack ha un simbolo terminale, leggere il prossimo simbolo  di input e compararlo ad esso:
+		1. Se coincidono, ripeti il loop.
+		2. Se non coincidono, rifiuta la stringa e scarta questo ramo di computazione.
+	3. Se la cima dello stack ha il simbolo `$`, entra nello stato accept. Questo accetta la stringa completa in input, se già letta per intero.
+
+## Notazioni ausiliarie
+
+È utile definire una notazione per scrivere insieme più passi della [[funzione]] $\delta$ di transizione, **espandendola** per poter pushare **un'intera stringa** sullo stack in un singolo step. per fare ciò bisogna introdurre degli stati intermedi che corrispondono ai push dei singoli simboli.
+
+Come la notazione $a,b \to c$ per il singolo carattere ("se ricevi in input $a$ e sulla cima dello stack c'è $b$, allora fai pop e pusha $c$"), la notazione per la stringa completa, ad esempio "xyz", sarà $i,c \to xyz$, cioè "se ricevi in input il simbolo $i$ e sulla cima dello stack c'è il simbolo $c$, allora pusha $z$, poi $y$, poi $x$" (**da destra a sinistra**).
+
+Riassumendo:
 
 $$
-S \to V_{1} \mid V_{2} \\
-V_{1} \to bV_{2}V_{3} \\
-V_{1} \to cV_{2}V_{4} \\
-V_{2} \to c \\
-V_{4} \to d
+i, c \to xyz \quad \equiv \quad (\text{stato prossimo}, xyz) \in \delta(\text{stato corrente}, i, c)
 $$
 
-La pila contiene le sostituzioni. Il determinismo serve perché l'automa deve esplorare per forza tutti gli alberi di sostituzione.
+Sarà eseguita passando per due stati ausiliari:
 
-All'inizio nella pila (leggi da sinistra a destra) ci sarà $\mid \$\ S \mid$. La prima sostituzione sarà $\mid \$\ V_{2}\ a\ V_{1} \mid$.
+1. $i, c \to z$, cioè $\delta(\text{stato corrente}, i, c) \ni (\text{stato intermedio 1}, z)$
+2. $\varepsilon, \varepsilon \to y$, cioè $\delta(\text{stato intermedio 1}, \varepsilon, \varepsilon) \ni (\text{stato intermedio 2}, y)$
+3. $\varepsilon, \varepsilon \to x$, cioè $\delta(\text{stato intermedio 2}, \varepsilon, \varepsilon) \ni (\text{stato prossimo}, z)$
 
-Di fatto $P$ esplora in profondità tutti gli alberi generabili da $G$.
+## Dimostrazione formale
 
-In dettaglio:
+Il vantaggio di avere la notazione abbreviata per il push di stringhe intere ci permette di definire esplicitamente solo tre stati, tutti quelli intermedi ($E$) saranno impliciti. Segue che gli stati di $P$ sono $Q = \{q_{\text{start}}, q_{\text{loop}}, q_{\text{accept}}\} \cup E$.
 
-- Inserisce $\$\ S$ nella pila
-- e ripete:
-	- Se il cima alla pila c'è $A \in V$, sceglile non deterministicamente le regole del tipo $A \to \ldots$ di $G$ e sostituisce $A$.
-	- Se nella pila c'è $a \in \Sigma$, faccio pop di $a$ e provo a fare match con il prossimo carattere di input.
+Si possono definire i passi del loop come casi della definizione della funzione di transizione:
 
-![[Pasted image 20261021084611.png]]
+1. $\delta(q_{\text{start}}, \varepsilon, \varepsilon) = \{(q_{\text{loop}}, S\$)\}$
+2. Loop:
+	1. Variabile in cima: $\delta(q_\text{loop}, \varepsilon, A) = \{(q_{\text{loop}}, w) \mid A \to w \in G\}$, dove $A \to w$ è una regola della CFG $G$.
+	2. Terminale in cima: $\delta(q_{\text{loop}}, a, a) = \{(q_{\text{loop}}, \varepsilon)\}$
+	3. `$` in cima: $\delta(q_{\text{loop}}, \varepsilon, \$) = \{(q_{\text{accept}}, \varepsilon)\}$
 
-*(nel disegno più passi sono stati eseguiti in uno per semplicità.)*
-
-Formalmente, $P = (Q, \Sigma, \Gamma, \delta, q_{0}, F)$.
-
-Per semplicità, ammettiamo senza perdita di generalità:
-
-3 stati = $\{q_{\text{st}}, q_{\text{acc}}, q_{\text{loop}}\}$ = $Q$.
-
-All'inizio inserisce $\$\ S$:
-$\delta(q_{\text{start}}, \varepsilon, \varepsilon) = \{(q_{\text{loop}}, S\ \$)\}$
-Poi:
-- Se la cima contiene la variabile $A$:
-   $\delta(q_{\text{loop}}, \varepsilon, a) = \{(q_{\text{loop}}, w):\ A \to w \in G\}$
-- Se la cima contiene il terminale $a$:
-   $\delta(q_{\text{loop}}, a, a) = \{(q_{\text{loop}}, \varepsilon)\}$
-   ![[Pasted image 20261021085616.png|562]]
-- Se la cima contiene $\$$:
-   $\delta(q_{\text{loop}}, \varepsilon, \$) = \{(q_{\text{acc}}, \varepsilon)\}$
-
-![[Pasted image 20261021090750.png]]
-
-# Dimostrazione $\Longleftarrow$
+# Dimostrazione del lemma $\Longleftarrow$
 
 > Se $L = L(P)$ per una qualche PDA $P$, allora esiste un CFG $G$ tale che $L(G) = L$
 
-Dato un PDA $P$, facciamo la grammatica equivalente $G$.
+## Intuizione
 
-$$
-P = (Q, \Sigma, \Gamma, \delta, q_{0}, \{q_\text{acc}\})
-$$
+Nel concreto, per dimostare questo lemma, bisogna trovare una strategia universale per formalizzare una CFG le cui regole simulano un PDA.
 
-$$
-G = (\Sigma, V, R, S)
-$$
+## Lemma: Se un linguaggio è riconosciuto da un PDA, allora è acontestuale
 
-Per ogni coppia di stati $p, q$ pongo $V = \{A_{pq}:\ p, q \in Q\}$ e $S = Aq_{0}q_{\text{acc}}$.
+Dato un PDA $P$, facciamo la grammatica equivalente $G$ che genera tutte le stringhe che $P$ accetta.
 
-Per semplificare la $G$ assumo che $G$ è in [[forma normale di Chomsky]] e $P$ è in forma canonica:
 
-- Prima di accettare svuota la pila.
-- Non fa mai push e pop insieme, ma separatamente.
-
-Le regole: #todo
-
-1. Per ogni $p, q, V \in \Gamma, S \in Q$ e $a, b \in \Sigma \quad A_{PQ} \to aA_{RS}b$. 
-2. 
+#todo pagine 119 a 122

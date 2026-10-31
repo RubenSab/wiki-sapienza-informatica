@@ -20,12 +20,13 @@
             }
           },
           {
-            "id": "75991270c45b7ac0",
+            "id": "8b3bb10686238868",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Automi calcolabilità e complessità/forma normale di Chomsky.md",
+                "file": "BOZZE/Da fare.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -39,17 +40,18 @@
                   "unlinkedCollapsed": true
                 }
               },
+              "pinned": true,
               "icon": "lucide-file",
-              "title": "forma normale di Chomsky"
+              "title": "Da fare"
             }
           },
           {
-            "id": "08c52f9632acc64a",
+            "id": "326434e553697224",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Automi calcolabilità e complessità/Automi calcolabilità e complessità.md",
+                "file": "Automi calcolabilità e complessità/equivalenza tra PDA e CFG.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -64,11 +66,35 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Automi calcolabilità e complessità"
+              "title": "equivalenza tra PDA e CFG"
+            }
+          },
+          {
+            "id": "45dad0328fd3d12c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Automi calcolabilità e complessità/configurazione.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "configurazione"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -127,7 +153,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "overset",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -259,15 +285,19 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "75991270c45b7ac0",
+  "active": "326434e553697224",
   "lastOpenFiles": [
-    "Automi calcolabilità e complessità/grammatica acontestuale (CFG).md",
-    "Automi calcolabilità e complessità/Automi calcolabilità e complessità.md",
-    "Linguaggi di programmazione/grammatica generativa.md",
     "Automi calcolabilità e complessità/configurazione.md",
+    "Automi calcolabilità e complessità/grammatica acontestuale (CFG).md",
     "Automi calcolabilità e complessità/equivalenza tra PDA e CFG.md",
-    "Automi calcolabilità e complessità/forma normale di Chomsky.md",
     "Automi calcolabilità e complessità/automa a pila (PDA).md",
+    "Interdisciplinare/funzione.md",
+    "BOZZE/Da fare.md",
+    "Automi calcolabilità e complessità/Automi calcolabilità e complessità.md",
+    "Automi calcolabilità e complessità/non determinismo.md",
+    "BOZZE/Untitled.md",
+    "Automi calcolabilità e complessità/forma normale di Chomsky.md",
+    "Linguaggi di programmazione/grammatica generativa.md",
     "BOZZE/Esercizi sulla programmazione dinamica.md",
     "Basi di dati/organizzazione fisica di un database relazionale.md",
     "Multicore/parallelism.md",
@@ -280,13 +310,9 @@
     "Linguaggi di programmazione/ambiente.md",
     "Linguaggi di programmazione/Linguaggio FUN.md",
     "Linguaggi di programmazione/Linguaggio EXP.md",
-    "BOZZE/Da studiare.md",
     "Linguaggi di programmazione/curryficazione.md",
     "Linguaggi di programmazione/effetto computazionale (side effect).md",
     "Linguaggi di programmazione/linguaggio di programmazione.md",
-    "Linguaggi di programmazione/linguaggio.md",
-    "Metodi matematici per l'informatica/sintassi.md",
-    "Linguaggi di programmazione/Standard Meta Language (SML).md",
     "Pasted image 20261024114628.png",
     "Linguaggi di programmazione/Pasted image 20261001101225.png",
     "Linguaggi di programmazione/Pasted image 20261001101235.png",

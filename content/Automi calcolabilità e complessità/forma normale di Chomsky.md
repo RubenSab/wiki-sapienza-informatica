@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-10-30T18:17:45.524+01:00
+updated_at: 2026-10-30T23:08:05.811+01:00
 ---
 > Una [[grammatica acontestuale (CFG)]] è in **forma normale** se oni sua regola è nella forma $A \to BC$ oppure $A \to a$. Dove $A, B, C \in V,\quad a \in \Sigma,\quad B,C \notin S$. È ammessa anche la regola $S \to \varepsilon$.
 
@@ -28,11 +28,7 @@ Per farlo, dobbiamo trasformare le regola della CFG:
    $A_{1} \to BC$
    dopodiché $A \to aA_{1}$ (che non è ancora in CFG) diventa $A \to U A_{1}$ e $U \to a$, dove $U$ è una variabile d'appoggio introdotta adesso.
 
-# Esercizio
-
-#ŧodo
-
-Regole originali
+# Esercizio: Convertire la seguente CFG in forma normale
 
 - $S \to A S A \mid aB$
 - $A \to B \mid S$
@@ -72,4 +68,11 @@ Otteniamo:
 - $A \to b \mid ASA \mid aB \mid a \mid SA \mid AS$
 - $B \to b$
 
-**Quarto passaggio**: convertiamo tutte le rimanenti regole con almeno una variabile a destra in regole che hanno esclusivamente due variabili a destra, aggiungendo variabili d'appoggio.
+**Quarto passaggio**: convertiamo tutte le rimanenti regole con almeno una variabile a destra in regole che hanno esclusivamente due variabili a destra, eventualmente aggiungendo variabili d'appoggio.
+
+- $S_{0} \to X_{1}A \mid X_{2}B \mid a \mid SA \mid AS$
+- $X_{1} \to AS$
+- $X_{2} \to a$
+- $S \to X_{1}A \mid X_{2}B \mid a \mid SA \mid AS$
+- $A \to b \mid X_{1}A \mid X_{2}B \mid a \mid SA \mid AS$
+- $B \to b$
