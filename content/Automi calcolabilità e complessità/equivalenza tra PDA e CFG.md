@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-10-31T19:13:21.458+01:00
+updated_at: 2026-11-01T17:25:49.349+01:00
 ---
 > Teorema: Un [[linguaggio]] $L$ è [[grammatica acontestuale (CFG)|acontestuale]] $\iff$ esiste un [[automa a pila (PDA)]] che lo riconosce.
 
@@ -57,11 +57,34 @@ Si possono definire i passi del loop come casi della definizione della funzione 
 
 ## Intuizione
 
-Nel concreto, per dimostare questo lemma, bisogna trovare una strategia universale per formalizzare una CFG le cui regole simulano un PDA.
+Nel concreto, per dimostare questo lemma, bisogna trovare una strategia universale per definire una CFG le cui regole simulano un dato PDA, cioè trovare una $G$ che genera ogni stringa che, data in input al PDA $P$, lo porta dallo stato iniziale allo stato di accept una volta processata per intero.
 
-## Lemma: Se un linguaggio è riconosciuto da un PDA, allora è acontestuale
+L'idea è di trasformare le transizioni tra stati di $P$ in regole di $G$.
 
-Dato un PDA $P$, facciamo la grammatica equivalente $G$ che genera tutte le stringhe che $P$ accetta.
+Implementiamo ciò con regole nel formato "$A_{pq} \to$ tutte le stringhe che possono portare $P$ dallo stato $p$ allo stato $q$ lasciando lo stack invariato alla fine della loro esecuzione e funzionando indipendentemente dai contenuti già presenti sullo stack" (cioè svuotando lo stack di tutti i simboli aggiunti nel cammino tra $p$ a $q$).
+
+## Semplificazione necessaria di $P$
+
+Senza perdita di generalità, semplifichiamo $P$ in modo che:
+
+- Abbia un solo stato di accettazione;
+- Svuoti lo stack prima di accettare;
+- Faccia push o pop di **esattamente** un simbolo in ogni transizione, senza fare entrambi insieme: si rimpiazza ogni transizione da $p$ a $q$ che faccia entrambe le cose con due transizioni da $p$ a uno stato di appoggio (la quale fa push) e dallo stato di appoggio a $q$ (la quale fa pop). Inoltre si rimpiazza ogni transizione da $p$ a $q$ che non fa ne pop ne push con due transizioni da $p$ a uno stato di appoggio (la quale fa push di un simbolo arbitrario) e dallo stato di appoggio a $q$ (la quale fa pop).
+
+Date queste semplificazioni, possiamo assumere che la prima transizione compiuta da $P$ ricevendo una stringa $x$ in input è un push, e l'ultima è un pop.
+Quindi, per costruzione, il contenuto dello stack rimane invariato tra la prima e ultima mossa.
+
+L'ultimo simbolo su cui si fa pop può essere:
+
+- **Il simbolo pushato all'inizio di $x$**: significa che lo stack è vuoto solo all'inizio e alla fine della processazione della stringa $x$.
+  Modelliamo ciò con la regola $A_{pq} \to a A_{rs} b$, dove $r$ è lo stato successivo di $p$ e $s$ è lo stato precedente di $q$.
+- **Un altro simbolo**: significa che, in qualche istante intermedio della computazione, lo stack è stato svuotato completamente per poi essere stato popolato da nuovi simboli.
+  Modelliamo ciò con la regola $A_{pq} \to A_{pr}A_{rq}$, dove $r$ è lo stato intermedio in cui lo stack si svota completamente.
+
+## Dimostrazione formale
+### Lemma: Se un linguaggio è riconosciuto da un PDA, allora è acontestuale
+
+Dato un PDA $P$, definiamo la grammatica equivalente $G$ che genera tutte le stringhe che $P$ accetta.
 
 
 #todo pagine 119 a 122
