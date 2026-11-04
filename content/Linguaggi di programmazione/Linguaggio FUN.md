@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-10-26T12:38:11.305+01:00
+updated_at: 2026-11-04T08:17:13.089+01:00
 ---
 È un superlinguaggio del [[Linguaggio EXP]]. La sua grammatica contiene tutti i suoi elementi e le funzioni unarie.
 
@@ -83,7 +83,7 @@ $$
 \text{let}\ x = M\ \text{in}\ N \equiv (\text{Fn}\ x \implies N) M
 $$
 
-All'estremo, si può fare a meno del + e a meno dei numeri, usando i [[numerali di Church]]. Si ottiene il [[lambda calculus]].
+All'estremo, si può fare a meno del + e a meno dei numeri, usando i [[numerali di Church]]. Si ottiene il [[lambda calcolo]].
 
 
 ---

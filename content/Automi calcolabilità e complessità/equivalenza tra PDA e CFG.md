@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-11-01T17:25:49.349+01:00
+updated_at: 2026-11-01T17:59:20.697+01:00
 ---
 > Teorema: Un [[linguaggio]] $L$ è [[grammatica acontestuale (CFG)|acontestuale]] $\iff$ esiste un [[automa a pila (PDA)]] che lo riconosce.
 
@@ -76,15 +76,30 @@ Quindi, per costruzione, il contenuto dello stack rimane invariato tra la prima 
 
 L'ultimo simbolo su cui si fa pop può essere:
 
-- **Il simbolo pushato all'inizio di $x$**: significa che lo stack è vuoto solo all'inizio e alla fine della processazione della stringa $x$.
-  Modelliamo ciò con la regola $A_{pq} \to a A_{rs} b$, dove $r$ è lo stato successivo di $p$ e $s$ è lo stato precedente di $q$.
-- **Un altro simbolo**: significa che, in qualche istante intermedio della computazione, lo stack è stato svuotato completamente per poi essere stato popolato da nuovi simboli.
+- **Il simbolo pushato all'inizio di $x$**: significa che **lo stack è vuoto solo all'inizio e alla fine** della processazione della stringa $x$.
+  Modelliamo ciò con la regola $A_{pq} \to a A_{rs} b$, dove $r$ è lo stato successivo di $p$ e $s$ è lo stato precedente di $q$ e dove $a$ è il primo simbolo di $x$ e $b$ l'ultimo.
+- **Un altro simbolo**: significa che, **in qualche istante intermedio** della computazione, **lo stack è stato svuotato** completamente per poi essere stato popolato da nuovi simboli.
   Modelliamo ciò con la regola $A_{pq} \to A_{pr}A_{rq}$, dove $r$ è lo stato intermedio in cui lo stack si svota completamente.
 
+Ora bisogna provare che quanto detto sopra funziona, dimostrando che $A_{pq}$ genera $x$ se e solo se $x$ porta $P$ da $p$ con lo stack vuoto a $q$ con lo stack vuoto.
+
+#dadimostrare 
+
 ## Dimostrazione formale
-### Lemma: Se un linguaggio è riconosciuto da un PDA, allora è acontestuale
 
-Dato un PDA $P$, definiamo la grammatica equivalente $G$ che genera tutte le stringhe che $P$ accetta.
+### Definizioni del PDA e della CFG
 
+$$
+P = (Q, \Sigma, \Gamma, \lambda, q_{0}, \{q_{\text{accept}}\})
+$$
 
-#todo pagine 119 a 122
+$$
+G = (\{A_{pq} \mid p, q \in Q\}, \Sigma, R, A_{q_{0}, q_{\text{accept}}})
+$$
+
+### Definizione di ogni regola $A_{pq} \to \ldots$ della CFG
+
+- L'ultimo pop è sul simbolo del primo push:
+  $\forall p, q, r, s \in Q,\ \ t \in \Gamma,\ \ a, b \in \Sigma_{\varepsilon} \\ \delta(p, a, \varepsilon) \ni (r, t)\ \land\ \delta(s, b, t) \ni (q, \varepsilon) \implies (A_{pq} \to aA_{rs}b) \in R$
+- L'ultimo pop è su un'altro simbolo: $\forall p, q, r \in Q \quad (A_{pq} \to A_{pr}A_{rq}) \in R$
+- Regola banale: $\forall p \in Q \quad (A_{pp} \to \varepsilon) \in R$

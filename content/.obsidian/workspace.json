@@ -20,12 +20,12 @@
             }
           },
           {
-            "id": "46342bc68a546913",
+            "id": "ae1ba8ddd2a27587",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Automi calcolabilità e complessità/equivalenza tra PDA e CFG.md",
+                "file": "Automi calcolabilità e complessità/configurazione.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -40,11 +40,47 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "equivalenza tra PDA e CFG"
+              "title": "configurazione"
+            }
+          },
+          {
+            "id": "4eb2f37c7fc357b9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Automi calcolabilità e complessità/macchina di Turing (TM).md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "macchina di Turing (TM)"
+            }
+          },
+          {
+            "id": "a93eff527f72d4e0",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2026-11-04 09.14.25.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2026-11-04 09.14.25.excalidraw"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -103,7 +139,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "overset",
+                "query": "calcu",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -235,34 +271,35 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "46342bc68a546913",
+  "active": "4eb2f37c7fc357b9",
   "lastOpenFiles": [
-    "Automi calcolabilità e complessità/equivalenza tra PDA e CFG.md",
+    "Automi calcolabilità e complessità/macchina di Turing (TM).md",
     "Automi calcolabilità e complessità/configurazione.md",
-    "Automi calcolabilità e complessità/grammatica acontestuale (CFG).md",
-    "Automi calcolabilità e complessità/automa a pila (PDA).md",
-    "Interdisciplinare/funzione.md",
-    "BOZZE/Da fare.md",
+    "Excalidraw/Drawing 2026-11-04 09.14.25.excalidraw.md",
+    "Metodologie di programmazione/espressione lambda.md",
+    "Linguaggi di programmazione/Linguaggio FUN.md",
+    "Automi calcolabilità e complessità/Pasted image 20261104092418.png",
+    "Automi calcolabilità e complessità/Pasted image 20261104092144.png",
     "Automi calcolabilità e complessità/Automi calcolabilità e complessità.md",
+    "Interdisciplinare/linguaggio regolare.md",
+    "Interdisciplinare/automa.md",
+    "Automi calcolabilità e complessità/grammatica acontestuale (CFG).md",
+    "Linguaggi di programmazione/grammatica generativa.md",
+    "Interdisciplinare/algebra di Boole.md",
+    "BOZZE/Da fare.md",
+    "Automi calcolabilità e complessità/Generic Non deterministic Finite state Automaton (GNFA).md",
+    "Automi calcolabilità e complessità/forma normale di Chomsky.md",
+    "Automi calcolabilità e complessità/automa a pila (PDA).md",
+    "Automi calcolabilità e complessità/equivalenza tra PDA e CFG.md",
+    "Automi calcolabilità e complessità/automa deterministico a stati finiti (DFA).md",
+    "Automi calcolabilità e complessità/equivalenza tra linguaggi regolari e DFA.md",
+    "Automi calcolabilità e complessità/equivalenza tra linguaggio regolare e DFA.md",
+    "Interdisciplinare/espressioni regolari (regex).md",
+    "Interdisciplinare/funzione.md",
     "Automi calcolabilità e complessità/non determinismo.md",
     "BOZZE/Untitled.md",
-    "Automi calcolabilità e complessità/forma normale di Chomsky.md",
-    "Linguaggi di programmazione/grammatica generativa.md",
     "BOZZE/Esercizi sulla programmazione dinamica.md",
     "Basi di dati/organizzazione fisica di un database relazionale.md",
-    "Multicore/parallelism.md",
-    "Linguaggi di programmazione/numerali di Church.md",
-    "Linguaggi di programmazione/Linguaggi di programmazione.md",
-    "Multicore/collective communication.md",
-    "Multicore/Programmazione multicore.md",
-    "Linguaggi di programmazione/Linguaggio IMP.md",
-    "Linguaggi di programmazione/regola di inferenza.md",
-    "Linguaggi di programmazione/ambiente.md",
-    "Linguaggi di programmazione/Linguaggio FUN.md",
-    "Linguaggi di programmazione/Linguaggio EXP.md",
-    "Linguaggi di programmazione/curryficazione.md",
-    "Linguaggi di programmazione/effetto computazionale (side effect).md",
-    "Linguaggi di programmazione/linguaggio di programmazione.md",
     "Pasted image 20261024114628.png",
     "Linguaggi di programmazione/Pasted image 20261001101225.png",
     "Linguaggi di programmazione/Pasted image 20261001101235.png",
@@ -271,8 +308,6 @@
     "Linguaggi di programmazione/Pasted image 20261001105043.png",
     "Linguaggi di programmazione/Pasted image 20261001105356.png",
     "Linguaggi di programmazione/Pasted image 20261001110530.png",
-    "Linguaggi di programmazione/Pasted image 20261005123145.png",
-    "Linguaggi di programmazione/Pasted image 20261005124809.png",
     "Excalidraw",
     "Multicore",
     "Ingegneria del software",

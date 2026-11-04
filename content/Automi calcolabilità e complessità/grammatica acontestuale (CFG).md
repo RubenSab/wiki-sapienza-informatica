@@ -1,9 +1,7 @@
 ---
-updated_at: 2026-10-30T17:39:30.833+01:00
+updated_at: 2026-11-01T19:11:46.467+01:00
 ---
 Sono un modo di descrivere [[linguaggio|linguaggi]]. Permettono di descrivere caratteristiche ricorsive delle stringhe riconosciute. Per questo sono utili per descrivere linguaggi umani e [[Linguaggi di programmazione|linguaggi di programmazione]].
-
-> Il **linguaggio di una grammatica acontestuale**, cioè l'[[insieme]] di tutte le stringhe che possono essere generate dalla suddetta grammatica, è detto *context free language*.
 
 > Una grammatica acontestuale consiste in un insieme di **regole di sostituzione**, anche chiamate **produzioni**, scritte nel formato $\text{variabile} \to \text{stringa}$.
 > Le **variabili** (indicate con lettere maiuscole) sono simboli da sostituire, mentre le **stringhe** sono sequenze di variabili e **terminali**, altri simboli dell'alfabeto.
@@ -23,6 +21,14 @@ $$
 
 > N.B.: Più regole $X \to Y$ e $X \to Z$ possono essere abbreviate in $X \to Y \mid Z$.
 
+# Linguaggi acontestuali
+
+> Il *linguaggio di una grammatica acontestuale*, cioè l'[[insieme]] di tutte le stringhe che possono essere generate dalla suddetta grammatica, è detto **context free language** (linguaggio acontestuale).
+
+> I [[linguaggio regolare|linguaggi regolari]] sono linguaggi acontestuali.
+
+#dadimostrare 
+
 # Definizioni formali
 
 > Una **grammatica acontestuale** è una quadrupla $(V, \Sigma, R, S)$ dove:
@@ -40,8 +46,8 @@ $$
 
 > Una grammatica si dice **ambigua** se genera ambiguamente almeno una stringa.
 
-
 - [[forma normale di Chomsky]]
+- [[equivalenza tra PDA e CFG]]
 
 # Esercizi: formalizzare le descrizioni dei seguenti linguaggi in CFG
 

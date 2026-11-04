@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-10-16T10:24:54.881+02:00
+updated_at: 2026-11-04T09:32:50.953+01:00
 ---
 # Nei DFA
 
@@ -67,3 +67,33 @@ M\ \text{accetta}\ w \iff \exists w \in \Sigma^{\star}:\ (q_{0}, w, \varepsilon)
 $$
 
 dove $q \in F,\ y \in \Gamma^\star$.
+
+# Nelle [[macchina di Turing (TM)|TM]]
+
+^8f10d6
+
+Nelle macchine di Turing, la configurazione è una quadrupla $C$ con
+
+- porzione sinistra del **nastro**, eventualmente nulla ($u$),
+- lo **stato** corrente dell'[[automa]] della testina ($q$),
+- il **simbolo** nella cella puntata dalla testina ($a$),
+- la porzione destra del **nastro** ($v$)
+
+scritta come $uqav$.
+
+$$
+C = u q a v \quad u, v \in \Gamma^{\star}, \quad q \in Q, \quad a \in \Gamma
+$$
+
+$$
+C_{0} = q_{\text{start}} w_{1} w_{2} \ldots w_{n} \sqcup \sqcup \ldots
+$$
+
+Posso dire che $C_{i} = u a q_{i} b v$ produce $C_{j} = u q_{j} a c v$ se e solo se $\delta(q_{i}, b) = (q_{i}, c, L)$
+
+Cioè:
+
+- $C_{i}$ è $\mid u \mid a \mid (b) \mid v \mid \sqcup \mid \ldots$, la testina punta a $b$.
+- $C_{j}$ è $\mid u \mid (a) \mid c \mid c \mid \sqcup \mid \ldots$, la testina punta ad $a$.
+
+La testina è uno "stato fittizio" inserito in $C$ prima dello stato a cui punta.

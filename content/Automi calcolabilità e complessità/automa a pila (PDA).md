@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-10-31T18:02:38.441+01:00
+updated_at: 2026-11-01T19:04:46.830+01:00
 ---
 Potenziamo l'[[automa non deterministico a stati finiti (NFA)]] in modo da ottenere un [[automa]] equivalente alla CFG. Sarà [[non determinismo|non deterministico]], ma avrà in aggiunta una [[stack|pila]] che contiene dei *simboli*, in cui può fare:
 
@@ -30,6 +30,8 @@ La notazione $a;b \to c$ vuol dire: "se l'input è $a$ e sulla cima della pila c
 - $M$ si trova nello stato finale di accept quando riceve l'input finale: $r_{m} \in F$
 
 allora $M$ accetta $r$.
+
+- [[equivalenza tra PDA e CFG]]
 
 ## Definizione alternativa
 

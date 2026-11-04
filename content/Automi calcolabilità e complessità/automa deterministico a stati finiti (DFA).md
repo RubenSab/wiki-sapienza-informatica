@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-10-09T10:46:43.890+02:00
+updated_at: 2026-11-01T19:01:44.174+01:00
 ---
 > Gli **automi a stati finiti, o DFA** (*Deterministic Finite-state Automaton*) sono [[automa|macchine a stati finiti]] in grado di accettare o rifiutare stringhe date loro in input carattere per carettere. Sono usati per applicazioni come parser dei compilatori e riconoscimento dei pattern nei dati.
 
@@ -30,7 +30,8 @@ $$
 U_{k \in \mathbb{N}}\ \{0, 1\}^{k} \equiv\ \text{tutte le stringhe binarie di}\ k \in \mathbb{N}\ \text{caratteri}
 $$
 
-- [[configurazione|Concetto di configurazione]]
+- [[equivalenza tra linguaggi regolari e DFA]]
+- [[configurazione]]
 
 # Esempi di automa
 

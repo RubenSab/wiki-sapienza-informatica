@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-10-15T12:51:37.978+02:00
+updated_at: 2026-11-01T18:59:42.015+01:00
 ---
 > Sono le espressioni di un'[[algebra eterogenea|algebra]] dei [[linguaggio|linguaggi]], la quale supporta le operazioni chiuse $\cup,\ \circ$ (binarie) e $\star$ (unaria).
 
@@ -52,37 +52,3 @@ Valutazione:
 - $0 \circ (0 \cup 1)^{\star} = \{00, 01, 000, 010, 001, 011, \ldots\}$
 - $(0 \cup 1)^{\star} \circ 1 = \{01, 11, 001, 101, 011, 111, \ldots\}$
 - $(0 \circ (0 \cup 1)^{\star}) \cup ((0 \cup 1)^{\star} \circ 1) = \{00, 01, 01, 11, 000, 001, 010, 101, 001, 011, 011, 111, \ldots\}$
-
-# Teorema: un linguaggio è regolare $\iff$ esiste un'espressione regolare che lo descrive
-
-> **Teorema**: Ogni espressione regolare può essere convertita nell'[[automa deterministico a stati finiti (DFA)]] che riconosce il linguaggio che essa descrive e viceversa. Quindi un linguaggio è regolare se e solo se esiste una regex che lo descrive.
-
-#todo pag. 67
-
-## Primo passo
-
-Data $r \in \text{re}(\Sigma)$, voglio costruire un [[automa deterministico a stati finiti (DFA)]] o un [[automa non deterministico a stati finiti (NFA)]] $N$ tale che $L(r) = L(N)$.
-
-Usiamo la ricorsione:
-
-$$
-\text{caso base} \quad \begin{cases}
-r = a \in \Sigma \quad \text{start} \to \bigcirc \overset{a}{\to} \bullet  \\
-r = \varepsilon \quad \text{start} \to \bullet \\
-r = \emptyset \quad \text{start} \to \bigcirc
-\end{cases}
-$$
-
-Per induzione,
-
-$$
-R_{1} \cup R_{2} \implies \exists\ \text{DFA/NFA}\ M_{1}, M_{2}: \quad R_{1} \circ R_{2} \land L(R_{1}) = L(M_{1}) \land L(R_{2}) = M_{2} \implies \exists\ \text{DFA/NFA}\ M\ \text{tale che}\ L(M) = L(r)
-$$
-
-#todo continua
-
-## Secondo passo
-
-> Da $M$ definiamo un GNFA equivalente... #todo continua
-
-Definiamo il [[Generic Non deterministic Finite state Automaton (GNFA)]] [[forma canonica degli NFA|canonico]]

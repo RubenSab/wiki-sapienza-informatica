@@ -1,7 +1,7 @@
 ---
-updated_at: 2026-10-15T12:49:44.123+02:00
+updated_at: 2026-11-01T19:07:48.074+01:00
 ---
-Inventata da George Boole, l'algebra di Boole fornisce un modo simbolico per manipolare e rappresentare le informazioni logiche.
+Inventata da George Boole, l'[[algebra eterogenea|algebra]] di Boole fornisce un modo simbolico per manipolare e rappresentare le informazioni logiche.
 
 L'algebra di Boole può essere interpretata in più modi, ad esempio considerandola come
 - manipolazione di aree di figure geometriche (vedi i diagrammi di Eulero-Venn),

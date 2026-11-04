@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-10-09T11:57:25.540+02:00
+updated_at: 2026-11-01T19:02:51.056+01:00
 ---
 > Un [[linguaggio]] è **regolare** se esiste un [[automa|automa a stati finiti]] che ne riconosce tutte le stringhe, o equivalentemente, se è il risultato di una [[espressioni regolari (regex)|regex]].
 
@@ -8,6 +8,8 @@ $$
 $$
 
 $L(M) = L$ significa che l'automa $M$ riconosce $L$.
+
+- [[equivalenza tra linguaggi regolari e DFA]]
 
 # Definire un linguaggio regolare tramite la funzione di transizione estesa
 

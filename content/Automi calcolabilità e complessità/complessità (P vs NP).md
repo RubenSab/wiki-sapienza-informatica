@@ -1,7 +1,7 @@
 ---
 updated_at: 2026-09-29T18:52:26.972+02:00
 ---
-> I problemi che una [[(TM) macchina di Turing]] può risolvere date certe risorse di [[complessità temporale|tempo]] e [[complessità spaziale|spazio]] si possono dividere in due classi di complessità:
+> I problemi che una [[macchina di Turing (TM)]] può risolvere date certe risorse di [[complessità temporale|tempo]] e [[complessità spaziale|spazio]] si possono dividere in due classi di complessità:
 
 - **Classe P**: [[problem solving|problemi]] che una TM può **risolvere** con un [[algoritmo]] in tempo polinomiale.
 - **Classe NP (*Non deterministic Polynomial time*)**: problemi per cui posso **verificare** una soluzione in tempo efficiente.
