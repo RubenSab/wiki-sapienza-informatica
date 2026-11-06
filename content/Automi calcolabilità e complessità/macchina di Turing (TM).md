@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-11-04T09:38:51.571+01:00
+updated_at: 2026-11-06T10:26:24.439+01:00
 ---
 Cattura l'essenza della computazione moderna in modo semplice. Può eseguire ogni computazione.
 
@@ -69,7 +69,7 @@ Si dimostra che esistono linguaggi non riconoscibili.
 
 Si dimostra che esistono linguaggi non decidibili.
 
-# Esempio
+# Primo Esempio
 
 > Usiamo la notazione $i \to o, d$ sulle frecce per indicare una transizione: $i$ è il simbolo letto nella cella, $o$ è il simbolo che sovrascrive quello corrente e $d$ è la posizione del prossimo stato rispetto a quello corrente ($L$ o $R$).
 
@@ -78,3 +78,127 @@ Abbiamo un [[linguaggio regolare]] $L = 0 1^{\star} 0$
 ![[Pasted image 20261104092418.png]]
 
 > Nota: Una TM può *marcare* simboli sul nastro per indicare che li ha già processati. In questo caso, marchiamo gli 0 con X e gli 1 con Y. X e Y non sono simboli dell'alfabeto di input, ma dell'alfabeto del nastro. Qui è inutile, ma negli automi in cui la testina può andare in entrambe le direzioni, può essere necessario.
+
+# Secondo esempio
+
+Riconoscitore del linguaggio non regolare $L = \{0^{n}1^{n},\ n \geq 0\}$.
+
+![[Pasted image 20261106083713.png]]
+
+# Trucchi di programmazione
+
+## 1. Marcare e smarcare simboli
+
+Già visto nel primo esempio
+
+## 2. Marcare l'inizio del nastro inserendo "\$"
+
+## 3. Una TM può eseguire una sub-routine al suo interno
+
+Esempio: $L = \{0^{n}1^{n}0^{n}:\ n \geq 0\}$
+
+Uso la TM vista nel secondo esempio come subroutine per $L' = \{0^{n}1^{n}:\ n \geq 0\}$, modificandola in modo che il vecchio stato di accettazione diventa uno stato che porta al resto del "codice", un altro pezzo della macchina di Turing. Questo permette di ragionare in modo più modulare a algoritmico.
+
+Altro esempio: $L = \{w \# w:\ w \in \{a, b, c\}^{\star}\}$
+
+Algoritmicamente, possiamo pensare a un procedimento come:
+
+1. $aabac\# aabac$
+2. $Xabac\# Xabac$
+3. $XXbac\# XXbac$
+4. $\ldots$
+5. $XXXXX\# XXXXX$, stringa riconosciuta.
+
+# Varianti di TM
+
+## TM che può stare ferma
+
+$$
+\delta' = Q \times \Gamma \to Q \times \Gamma \times \{L, R, S\}
+$$
+
+Data $\delta'(q, a) = (q', b, S)$
+
+Aggiungo stato $r$:
+
+$$
+\delta(q, a) = (r, b, E)
+$$
+
+$$
+\delta(r, \star) = (q', \star, L)
+$$
+
+## TM multinastro
+
+$$
+\delta: Q \times \Gamma^{K} \to Q \times \Gamma^{K} \times \{L, R, S\}^{K}
+$$
+
+> Per definizione, l'input sta solo sul primo nastro. Gli altri si chiamano nastri "di lavoro" e sono vuoti.
+
+### Teorema
+
+$L$ è turing decidibile se esiste una TM multinastro che lo decide/riconosce.
+
+Dimostrazione:
+
+- Ovviamente una TM multinastro è più generale di una TM a singolo nastro.
+- D'altra parte mostro che se $L$ è riconoscibile/decidibile con TM $M$ multinastro, allora esiste una TM $M'$ a singolo nastro che decide/riconosce $L$.
+
+Prima idea: La TM $M'$ "simulerà" i $K$ nastri di $M$ sul suo nastro separati da $\#$. Il problema è che ci sono più testine, ma possiamo marcare gli elementi puntati da ogni testina.
+
+Seconda idea: Posso tenere traccia delle testine marcando un simbolo su ciascuno dei sottonastri.
+
+Implementiamo queste idee:
+
+1. $M'$ scrive sul nastro $\# \overset{\bullet}{w_{1}} \ldots w_{n} \# \overset{\bullet}{\sqcup} \# \overset{\bullet}{\sqcup} \# \overset{\bullet}{\sqcup} \# \ldots$ (gli $\#$ separano i contenuti di ogni nastro di $M$)
+2. Scansiono il nastro per determinare i simboli marcati. Aggiorno il contenuto dei sotto nastri in accordo alla $\delta$ di $M$.
+3. Se una delle testine virtuali si sposta su $\#$, devo preventivamente spostare il nastro di una posizione per creare lo spazio necessario.
+
+## TM [[non determinismo|non deterministica]] (NTM)
+
+$$
+\delta_{N} : Q \times \Gamma \to \mathcal{P}(Q \times \Gamma \times \{L, R\})
+$$
+
+Esplora in parallelo diversi cammini di computazione. Accetta se e solo se esiste un cammino accettante.
+
+### Teorema: un linguaggio $L$ è turing decidibile/riconoscibile se e solo se esiste una NTM $N$ che lo decide/riconosce
+
+#todo capire
+
+Dimostrazione banale: se $L$ è un decisore/riconoscitore con TM deterministica $M$, allora esiste anche una NTM $N$ che lo decide/riconosce ($N=M$).
+
+Dimostrazione interessante: Sia $N$ una NTM che *riconosce* $L$. Devo devinire una TM $M$ che pure riconosce $L$.
+
+Idea: Siccome $N$ accetta $w \in L \iff \exists$ cammino accettante, $M$ deve provare tutti i cammini cercando uno che accetti.
+
+Come fa? Fissiamo le possibili scelte non deterministiche e simuliamo un singolo cammino non deterministicamente.
+
+> N.B.: Il singolo cammino può andare in loop, perciò non posso esplorare l'[[albero]] in profondità, quindi lo [[BFS|esploro in ampiezza]].
+
+Sia $b$ il numero massimo di scelte non deterministiche.
+
+Esempio di albero con $b=2$ (albero binario).
+
+![[Pasted image 20261106101249.png]]
+
+
+Implementazione, 3 nastri:
+
+1. Nastro di input
+2. Nastro di lavoro
+3. Nastro di indirizzo
+
+$\text{STEP}(N, w, i)$: Usando l'input $w$ su nastro 1, usa il nastro 2 per simulare la computazione deterministica che corrisponde al cammino di $N$ con indirizzo $i$. A questo punto:
+
+- Se incontro una configurazione accettante, accetto.
+- Altrimenti diciamo che $\text{STEP}$ fallisce (ma continua).
+- Per default se $i$ non è un indirizzo valido (secondo la $\delta_{N}$), $\text{STEP}$ fallisce.
+
+La TM $M$ procede così:
+
+1. Inizialmente: $w$ su nastro 1, altrimenti vuoto,
+2. Copio $w$ su nastro 2 e inizializzo nastro 3 a '1'=i.
+3. Lancio $\text{STEP}(N, w, i)$ e se accetta accetto. Altrimenti se fallisce incremento $i$ e riconosco.
