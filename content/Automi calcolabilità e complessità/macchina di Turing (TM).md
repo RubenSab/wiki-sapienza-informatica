@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-11-06T10:26:24.439+01:00
+updated_at: 2026-11-11T09:27:31.422+01:00
 ---
 Cattura l'essenza della computazione moderna in modo semplice. Può eseguire ogni computazione.
 
@@ -108,6 +108,123 @@ Algoritmicamente, possiamo pensare a un procedimento come:
 3. $XXbac\# XXbac$
 4. $\ldots$
 5. $XXXXX\# XXXXX$, stringa riconosciuta.
+
+## 4. Codificare oggetti complessi in stringhe e darle in pasto a una TM
+
+Ad esempio si può [[funzioni di codifica e decodifica|codificare]] un [[grafo]] in una stringa e implementare un algoritmo dei grafi su una TM.
+
+### Addirittura si possono codificare gli [[automa|automi]] in stringhe
+
+Ad esempio si può creare una TM che decide se un [[automa deterministico a stati finiti (DFA)]] accetta una stringa data.
+
+$$
+A_{DFA} = \{\langle B, w\rangle:\ B \in \text{DFA},\ w \in L(B)\}
+$$
+
+($\text{DFA}$ è l'insieme di tutti i DFA)
+
+> Spoiler: Se $B$ fosse una TM, $A_{\text{TM}}$ **non sarebbe** decidibile.
+
+Idea algoritmica:
+
+- Su input $\langle B, w \rangle$ la $\text{TM}$ deve simulare una esecuzione del DFA $B$ su $w$.
+- Se la simulazione termina su uno stato accettante, la $\text{TM}$, altrimenti rifiuta.
+
+Implementazione ad alto livello:
+
+- $B = (Q, \Sigma, \delta, q_{0}, F)$ è parte dell'input
+
+Posso immaginarmi la $\delta$ come sequenza di stringhe separate da $\#$.
+
+- Per comodità posso anche pensare di avere la $\delta$ su un nastro apposito. Un nastro che memorizza solo $w$ e un nastro per tenere traccia dello stato del DFA.
+- Al $t$-esimo passo di computazione leggo lo stato del DFA, leggo carattere in input sul nastro contentente $w$, scorro le $\langle \delta \rangle$ per capire lo stato di arrivo e aggiorno lo stato sull'ultimo nastro.
+- Accetto se e solo se dopo aver eseguito uno stato nell'ultimo nastro appartiene ad $F$.
+
+### Codificare gli [[automa non deterministico a stati finiti (NFA)]] in stringhe
+
+$$
+A_{NFA} = \{\langle B, w\rangle:\ B \in \text{NFA},\ w \in L(B)\}
+$$
+
+Idea: definisco $M'$ tale che trasformare $\langle B, w \rangle$ in $\langle C, w \rangle$ dove $C \in \text{DFA}$ e $L(C) = L(B)$.
+
+Poi lancio $M$ di prima su $\langle C, w \rangle$.
+
+### Codificare le [[espressioni regolari (regex)]] in stringhe
+
+$$
+A_{\text{REX}} = \{\langle R, w \rangle;\ R \in \text{RE}(\Sigma),\ w\ \text{generata da}\ R\}
+$$
+
+### Esempio concreto: Il test del vuoto sui DFA
+
+Passiamo in input un DFA a una macchina di Turing e lo accettiamo se il DFA non accetta nessuna stringa:
+
+$$
+E_{\text{DFA}} = \{\langle B \rangle:\ B \in \text{DFA},\ L(B)=\emptyset\}
+$$
+
+E lo rifiutiamo altrimenti.
+
+Idea: $L(B) = \emptyset$ (quindi la TM accetta il DFA) se e solo se lo stato finale è raggiungibile dallo stato iniziale. La TM deve fare una [[BFS]] sugli stati del DFA. 
+
+#todo
+
+### Altro esempio concreto: Il test dell'uguaglianza
+
+$$
+\text{EQ}_\text{DFA} = \{\langle B, B'\rangle:\ L(B)=L(B')\}
+$$
+
+Idea: lo riduciamo al test del vuoto, perché
+$L(B)=L(B') \iff (L(B) - L(B')) \cup (L(B') - L(B)) = \emptyset$
+
+Quindi:
+
+- Su input $\langle B, B' \rangle$ definisco DFA $B''$ tale che $L(B'') = (L(B) - L(B')) \cup (L(B') - L(B))$. Posso farlo perché REG è chiusa per $\cap, \cup, \overline{}$.
+- Poi uso le TM per decidere se $\langle B'' \rangle \in E_{\text{DFA}}$.
+
+### Codificare [[grammatica acontestuale (CFG)|CFG]] in stringhe
+
+$$
+A_{\text{CFG}} = \{\langle G, w\rangle:\ G \in \text{CFG},\ w \in \text{LCG}\}
+$$
+
+Anche $A_{\text{CFG}}$ è decidibile: $w \in L(G)$ se esiste derivazione; ma non posso provarle tutte. Potrei usare un [[automa a pila (PDA)]], oppure:
+
+- Su input $\langle G, w\rangle$, trasformo $G$ nella $\tilde{G}$ equivalente in [[forma normale di Chomsky]].
+- Abbiamo già visto che se $| w | = n$ allora $\tilde{G}$ genera $w$ in al più $2n-1$ passi.
+- Quindi la nostra TM deve provare solo le derivazioni di lunghezza al più $2n-1$.
+
+### Esempio concreto: Il test del vuoto sulle CFG
+
+$$
+A_{\text{CFG}} = \{\langle G\rangle:\ G \in \text{CFG},\ L(G) = \emptyset\}
+$$
+
+Posso usare anche l'algoritmo di marcatura:
+
+- Su input $\langle G \rangle$, marco tutti terminali.
+- Ripeto: marco tutte le variabili $A$ su un $G$ tale che esiste solo la regola $A \to V_{1} \ldots V_{k}$ e $V_{1} \ldots V_{k}$ sono marcati.
+- Accetto solo se $S$ non è marcata
+
+### Esempio concreto: Il test dell'uguaglianza sulle CFG
+
+$$
+\text{EQ}_\text{CFG} = \{\langle LG, G'\rangle:\ G \in \text{CFG}, L(G) = L(G')\}
+$$
+
+> Non è decidibile! Lo vedremo.
+
+### E se volessimo creare una TM che data una coppia TM, stringa la accetta solo se la TM in input la accetta?
+
+$$
+\text{A}_{\text{TM}} = \{\langle M, w\rangle:\ M \in \text{TM}, w \in L(M)\}
+$$
+
+> Non è decidibile.
+
+#todo
 
 # Varianti di TM
 

@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-10-26T12:37:26.653+01:00
+updated_at: 2026-11-09T11:12:51.274+01:00
 ---
 > [Materiale del corso](http://wwwusers.di.uniroma1.it/~lpara)
 
@@ -40,6 +40,6 @@ updated_at: 2026-10-26T12:37:26.653+01:00
 		- [[polimorfismo dei tipi]]
 		- [[lambda calcolo]]
 			- [[teoria dei tipi]]
-	- Programmazione imperativa: La vediamo in due passi, prima passando per *IMP* e poi aumentandolo con le *procedure*, creando *HAL*.
+	- Programmazione imperativa: La vediamo in due passi, prima passando per *IMP* e poi aumentandolo con le *procedure*, creando *ALL*.
 		- [[Linguaggio IMP]]
-		- [[Linguaggio HAL]]
+		- [[Linguaggio ALL]]

@@ -1,7 +1,7 @@
 ---
-updated_at: 2026-10-15T12:45:59.158+02:00
+updated_at: 2026-11-08T11:24:10.289+01:00
 ---
-> Una [[funzione]] è calcolabile se esiste un [[programma]] che la calcola.
+> Una [[funzione]] è [[calcolabilità|calcolabile]] se esiste un [[programma]] che la calcola.
 
 > Esempio: esiste un programma che determina se domani piove o no, restituendo 0 o 1, anche se non sappiamo qual è.
 
