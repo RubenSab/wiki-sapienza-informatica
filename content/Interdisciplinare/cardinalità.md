@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-10-07T17:23:40.223+02:00
+updated_at: 2026-11-18T09:26:11.919+01:00
 ---
 > Indicata con $|I|$ oppure $\text{Card}(I)$, per gli [[insieme|insiemi]] **finiti** si identifica come il numero di elementi nell'insieme, mentre per gli insiemi **infiniti** vale che due insiemi hanno la stessa cardinalità o potenza quando esiste una [[corrispondenza|corrispondenza biunivoca]] tra di loro, indipendentemente se uno sia o non sia il [[sottoinsiemi|sottoinsiemi]] dell'altro.
 
@@ -7,7 +7,7 @@ Esempio di insiemi infiniti con la stessa cardinalità:
 $$\mathbb{N} = \text{numeri naturali}$$
 $$\mathbb{P} = \text{insieme dei numeri pari}$$
 $$F=\{(a,b)\in\mathbb{N}\times\mathbb{P}\ |\ b=2a\}$$
-$F$ è una corrispondenza biunivoca tra $\mathbb{N}$ e $\mathbb{P}$, quindi i due insiemi hanno la stessa **quantità** (non numero) di elementi, cioè la stessa **cardinalità**.
+$F$ è una corrispondenza [[applicazione biiettiva o biiezione|biunivoca]] tra $\mathbb{N}$ e $\mathbb{P}$, quindi i due insiemi hanno la stessa **quantità** (non numero) di elementi, cioè la stessa **cardinalità**.
 ## Insieme numerabile
 
 ^05ea02

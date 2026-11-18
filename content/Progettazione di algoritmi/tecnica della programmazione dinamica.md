@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-09-04T14:38:26.386+02:00
+updated_at: 2026-11-18T09:20:17.620+01:00
 ---
 > È un miglioramento della [[tecnica divide et impera]] nel caso in cui i sotto-problemi si sovrappongono (non sono indipendenti). Consiste nel risolvere ogni sotto-problema una sola volta, memorizzandone il risultato per riutilizzarlo.
 
@@ -11,6 +11,8 @@ Ci sono due modi per implementare gli algoritmi con questo principio:
 #todo
 
 ---
+
+- [[Esercizi sulla programmazione dinamica]]
 
 # Tecnica mia (top-down)
 

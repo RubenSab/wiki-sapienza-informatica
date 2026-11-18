@@ -20,12 +20,12 @@
             }
           },
           {
-            "id": "e7f194e3192a233f",
+            "id": "d2493b64aa7b3753",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Automi calcolabilità e complessità/macchina di Turing (TM).md",
+                "file": "Automi calcolabilità e complessità/riduzione.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -40,19 +40,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "macchina di Turing (TM)"
-            }
-          },
-          {
-            "id": "fe2924296070cf3e",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2026-11-11 08.41.23.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2026-11-11 08.41.23.excalidraw"
+              "title": "riduzione"
             }
           }
         ]
@@ -114,7 +102,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "biunivo",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -248,42 +236,42 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "Excalidraw/Drawing 2026-11-11 08.41.23.excalidraw.md",
+    "Automi calcolabilità e complessità/riduzione.md",
+    "Algebra/teorema di Rouché-Capelli.md",
+    "Calcolo differenziale/teorema ponte.md",
+    "Metodi matematici per l'informatica/esercizi/dimostrazione della numerabilità con l'induzione.md",
+    "Interdisciplinare/funzione.md",
+    "Metodi matematici per l'informatica/funzione caratteristica di un insieme.md",
+    "Algebra/corrispondenza.md",
+    "Algebra/applicazione biiettiva o biiezione.md",
+    "Interdisciplinare/cardinalità.md",
+    "Progettazione di algoritmi/tecnica della programmazione dinamica.md",
+    "Untitled.md",
+    "Progettazione di algoritmi/Progettazione di algoritmi.md",
+    "Progettazione di algoritmi/Esercizi sulla programmazione dinamica.md",
+    "Automi calcolabilità e complessità/Automi calcolabilità e complessità.md",
+    "Automi calcolabilità e complessità/indecidibilità di A di TM.md",
+    "Automi calcolabilità e complessità/Pasted image 20261118085932.png",
+    "Excalidraw/Drawing 2026-11-18 08.55.32.excalidraw.md",
     "Automi calcolabilità e complessità/macchina di Turing (TM).md",
-    "Automi calcolabilità e complessità/automa deterministico a stati finiti (DFA).md",
+    "Introduzione agli algoritmi/introduzione agli algoritmi.md",
+    "Linguaggi di programmazione/logica di Hoare.md",
+    "Linguaggi di programmazione/regola di inferenza.md",
+    "Linguaggi di programmazione/Linguaggio IMP.md",
     "Linguaggi di programmazione/Linguaggi di programmazione.md",
-    "Metodi matematici per l'informatica/funzione calcolabile.md",
-    "Linguaggi di programmazione/algebra induttiva degli alberi binari (finiti).md",
-    "Architettura degli elaboratori/assembly RISC-V.md",
-    "Architettura degli elaboratori/formati delle istruzioni.md",
-    "Linguaggi di programmazione/grammatica generativa.md",
-    "Excalidraw/Drawing 2026-11-06 10.08.30.excalidraw.md",
-    "Automi calcolabilità e complessità/grammatica acontestuale (CFG).md",
-    "Progettazione di algoritmi/algoritmo di Floyd-Warshall.md",
-    "Progettazione di algoritmi/algoritmo di Bellman-Ford.md",
+    "Linguaggi di programmazione/invariante.md",
+    "Untitled 1.md",
+    "Linguaggi di programmazione/Untitled.md",
+    "Linguaggi di programmazione/dimostrazioni per invarianti.md",
     "Automi calcolabilità e complessità/Pasted image 20261106101249.png",
-    "Automi calcolabilità e complessità/forma normale di Chomsky.md",
     "Automi calcolabilità e complessità/Pasted image 20261106083713.png",
-    "Excalidraw/Drawing 2026-11-06 08.28.30.excalidraw.md",
     "Automi calcolabilità e complessità/Pasted image 20261106083657.png",
     "Automi calcolabilità e complessità/Pasted image 20261106083647.png",
-    "Automi calcolabilità e complessità/configurazione.md",
-    "Excalidraw/Drawing 2026-11-04 09.14.25.excalidraw.md",
-    "Metodologie di programmazione/espressione lambda.md",
-    "Linguaggi di programmazione/Linguaggio FUN.md",
     "Automi calcolabilità e complessità/Pasted image 20261104092418.png",
     "Automi calcolabilità e complessità/Pasted image 20261104092144.png",
-    "Automi calcolabilità e complessità/Automi calcolabilità e complessità.md",
-    "Interdisciplinare/linguaggio regolare.md",
-    "Interdisciplinare/automa.md",
-    "Interdisciplinare/algebra di Boole.md",
-    "BOZZE/Da fare.md",
-    "Automi calcolabilità e complessità/Generic Non deterministic Finite state Automaton (GNFA).md",
-    "Automi calcolabilità e complessità/automa a pila (PDA).md",
     "Pasted image 20261024114628.png",
     "Linguaggi di programmazione/Pasted image 20261001101225.png",
     "Linguaggi di programmazione/Pasted image 20261001101235.png",
-    "Linguaggi di programmazione/Pasted image 20261001101535.png",
     "Excalidraw",
     "Multicore",
     "Ingegneria del software",

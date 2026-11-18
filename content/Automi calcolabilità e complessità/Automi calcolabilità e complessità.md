@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-11-01T19:00:03.313+01:00
+updated_at: 2026-11-18T09:09:55.617+01:00
 ---
 > Tratta di come si modella la computazione e dei limiti della computazione.
 > [Materiale del corso](https://dventuri83.github.io/teaching/3_acc/), [Libro](https://archive.org/details/introduction-to-the-theory-of-computation-michael-sipser/mode/1up).
@@ -35,6 +35,8 @@ Libro di testo: *Sipser, Introduzione alla teoria della computazione.*
 	- [[equivalenza tra PDA e CFG]]
 - [[calcolabilità]]
 	- [[macchina di Turing (TM)]]
+		- [[indecidibilità di A di TM]]
+		- [[riduzione]]
 	- [[problemi NP completi]]
 	- [[teoria dell'incompletezza di Godel]]
 	- [[teoria dell'indecidibilità di Turing]]

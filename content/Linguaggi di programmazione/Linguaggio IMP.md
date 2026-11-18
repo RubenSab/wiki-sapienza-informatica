@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-10-26T15:13:29.600+01:00
+updated_at: 2026-11-12T09:01:53.816+01:00
 ---
 $$
 \text{Exp} = \begin{cases}
@@ -10,13 +10,23 @@ M, N ::= \underset{\text{costante}}{\underbrace{\mathcal{k}}} \mid \underset{\te
 \underset{\text{programmi}}{\underbrace{p, q}} ::= \text{skip} \mid p; q \mid \underset{\text{assegnamento}}{\underbrace{x := M}} \mid \underset{\text{inizializzazione}}{\underbrace{\text{var}\ x = M\ \text{in}\ p}} \mid \text{while}\ M\ \text{do}\ p \mid \text{if}\ M\ \text{then}\ p\ \text{else}\ q
 $$
 
+#todo merge con quello sotto
+
+$$
+k ::= 5 \mid \ldots \mid \text{true} \mid \text{false} \\
+V ::= x \mid x[M] \\
+N, M ::= k \mid V \mid N+M \mid M < N \\
+p, q ::= \text{skip} \mid p; q \mid \text{if}\ M\ \text{then}\ p\ \text{else}\ q \mid V ::= M \mid \text{while}\ M\ \text{do}\ p \mid \text{var}\ x=M\ \text{in}\ p \mid \ldots \\ \ldots \mid \text{arr}\ x = [M_{0} \ldots M_{n}]\ \mid \text{proc}\ y(x)\ \text{is}\ p\ \text{in}\ q \mid \text{call}\ y[M]
+$$
+
+
 > Nota: IMP contiene il [[linguaggio di programmazione]] [[Linguaggio EXP|EXP]].
 
 - **skip** è il programma che non fa niente (lascia lo *store* invariato).
 - Il `:=` è l'**assegnamento**.
 - `;` è un costruttore dell'[[algebra induttiva]] dei programmi di IMP che dati due programmi crea un programma che è la loro concatenazione.
 
-# [[semantica|Semantica]] operazionale 
+# [[semantica|Semantica]] operazionale
 
 > Rispetto a EXP e a [[Linguaggio FUN|FUN]], l'ambiente non contiene i valori o le espressioni associate al nome di una variabile, perché la mappatura si fa in due step: l'**ambiente** mappa i nomi delle variabili alle locazioni di [[memoria]] e lo **store** mappa le locazioni ai valori.
 

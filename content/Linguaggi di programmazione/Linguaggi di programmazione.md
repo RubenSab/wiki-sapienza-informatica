@@ -1,7 +1,7 @@
 ---
-updated_at: 2026-11-09T11:12:51.274+01:00
+updated_at: 2026-11-16T12:25:19.800+01:00
 ---
-> [Materiale del corso](http://wwwusers.di.uniroma1.it/~lpara)
+> [Materiale del corso](http://wwwusers.di.uniroma1.it/~lpara) e [pdf](http://wwwusers.di.uniroma1.it/~lpara/DISPENSE/note.pdf)
 
 # Argomenti
 
@@ -43,3 +43,5 @@ updated_at: 2026-11-09T11:12:51.274+01:00
 	- Programmazione imperativa: La vediamo in due passi, prima passando per *IMP* e poi aumentandolo con le *procedure*, creando *ALL*.
 		- [[Linguaggio IMP]]
 		- [[Linguaggio ALL]]
+- [[dimostrazioni per invarianti]]
+- [[logica di Hoare]]

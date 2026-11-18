@@ -1,9 +1,12 @@
+---
+updated_at: 2026-11-18T09:27:40.250+01:00
+---
 $A_n={0,...,n}$
 $\mathbb{N}-A_n$ è numerabile
 # Caso base
 $n = 0 \rightarrow A_n=\{0\}$
 $\mathbb{N}-A_{n}=\mathbb{N}-\{0\}$ è numerabile per dimostrazione diretta:
-infatti se per ogni elemento di indice $i$ di $\mathbb{N}$, corrisponde l'elemento di indice $i+1$ di $\mathbb{N}-A_0$, allora esiste una corrispondenza biunivoca tra $\mathbb{N}$ e $\mathbb{N}-\{0\}$, quindi $\mathbb{N}-A_{0}$ è numerabile.
+infatti se per ogni elemento di indice $i$ di $\mathbb{N}$, corrisponde l'elemento di indice $i+1$ di $\mathbb{N}-A_0$, allora esiste una corrispondenza [[applicazione biiettiva o biiezione|biunivoca]] tra $\mathbb{N}$ e $\mathbb{N}-\{0\}$, quindi $\mathbb{N}-A_{0}$ è numerabile.
 # Passo induttivo
 - $\mathbb{N}-A_n$ è numerabile, cioè è in relazione biunivoca con $\mathbb{N}$
 A ogni elemento di $\mathbb{N}$ di indice $i$ corrisponde l'elemento di $\mathbb{N}-A_{n}$ di indice $i+n+1$, perché gli elementi di $\mathbb{N}-A_n$ sono spostati a sinistra di $n+1$ posizioni rispetto a $\mathbb{N}$, essendo che $\mathbb{N}-A_n$ non ha i primi $n+1$ elementi di $\mathbb{N}$. Quindi $\mathbb{N}-A_n$ è numerabile.
@@ -20,7 +23,7 @@ Quanti elementi di $P(A_n)$ hanno l'elemento $0$?
 # Caso base
 $A_0=\{0\}$
 $P(A_0)=\{\{0\},\emptyset\}$
-1 insieme di $P(A_0)$ contiene 0.
+1 [[insieme]] di $P(A_0)$ contiene 0.
 # ipotesi
 $2^n$ insiemi di $P(A_n)$ contengono 0.
 # passo induttivo

@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-11-11T09:27:31.422+01:00
+updated_at: 2026-11-18T08:41:04.419+01:00
 ---
 Cattura l'essenza della computazione moderna in modo semplice. Può eseguire ogni computazione.
 
@@ -285,9 +285,9 @@ Esplora in parallelo diversi cammini di computazione. Accetta se e solo se esist
 
 #todo capire
 
-Dimostrazione banale: se $L$ è un decisore/riconoscitore con TM deterministica $M$, allora esiste anche una NTM $N$ che lo decide/riconosce ($N=M$).
+Dimostrazione banale $\implies$: se $L$ è un decisore/riconoscitore con TM deterministica $M$, allora esiste anche una NTM $N$ che lo decide/riconosce ($N=M$).
 
-Dimostrazione interessante: Sia $N$ una NTM che *riconosce* $L$. Devo devinire una TM $M$ che pure riconosce $L$.
+Dimostrazione interessante $\Longleftarrow$: Sia $N$ una NTM che *riconosce* $L$. Devo definire una TM $M$ che pure riconosce $L$.
 
 Idea: Siccome $N$ accetta $w \in L \iff \exists$ cammino accettante, $M$ deve provare tutti i cammini cercando uno che accetti.
 

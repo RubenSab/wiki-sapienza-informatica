@@ -1,5 +1,5 @@
 ---
-updated_at: 2025-10-23T16:03:24.929+02:00
+updated_at: 2026-11-18T09:26:56.617+01:00
 ---
 $f:\mathbb{R}\rightarrow\mathbb{R}, \ \ x\mapsto f(x)$
 $f: A \rightarrow B$
@@ -35,7 +35,7 @@ Esempio:
 
 >N.B.: per rendere una funzione iniettiva si restringe il di codominio.
 
->$f: A \rightarrow B$ si dice **biiettiva** o **corrispondenza biunivoca** se $\forall b \in B\ \exists\ !a\in A\ |\ f(a)=b$. Solo le funzioni biettive sono invertibili.
+>$f: A \rightarrow B$ si dice **biiettiva** o **corrispondenza [[applicazione biiettiva o biiezione|biunivoca]]** se $\forall b \in B\ \exists\ !a\in A\ |\ f(a)=b$. Solo le funzioni biettive sono invertibili.
 
 >Data $f:A\rightarrow B$ iniettiva e suriettiva esiste la funzione inversa $f^-1:B\rightarrow A$, che ha la proprietà: $$f^{-1}(f(x))=x\ \forall x \in A$$$$f(f^{-1}(x))=x\ \forall x \in A$$
 

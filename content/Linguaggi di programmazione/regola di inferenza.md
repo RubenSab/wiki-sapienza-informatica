@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-10-26T12:22:41.420+01:00
+updated_at: 2026-11-12T08:33:26.817+01:00
 ---
 Si scrivono con la [[sintassi]]:
 
@@ -14,3 +14,5 @@ Dove *premessa* e *conclusione* sono due formule di logica **predicativa**.
 > $E \vdash M \rightsquigarrow v$ si legge "nell'ambiente $E$, l'espressione $M$ valuta al valore $v$".
 
 > $\text{Fn}\ x \implies v$ si legge "la funzione $\text{Fn}$, applicata a $x$ ritorna $v$".
+
+> $\vdash$ è detto il *simbolo di deduzione*.
