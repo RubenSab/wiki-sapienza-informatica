@@ -1,5 +1,5 @@
 ---
-updated_at: 2026-11-18T08:41:04.419+01:00
+updated_at: 2026-11-18T11:47:48.062+01:00
 ---
 Cattura l'essenza della computazione moderna in modo semplice. Può eseguire ogni computazione.
 
@@ -10,7 +10,7 @@ Nasce negli anni 30 con Alan Turing per rispondere alla domanda: cos'è un [[alg
 Differenze con gli [[automa|automi]]:
 
 - La TM ha un nastro illimitato a destra (per convenzione) che può leggere e scrivere;
-- La TM ha una testina (governata da un automa) che consente movimento sul nastro;
+- La TM ha una testina (governata da un automa) che consente il movimento bidirezionale sul nastro;
 - C'è sono uno stato di accettazione e uno di rifiuto, e entrambi hanno valenza immediata.
 - Si fa l'assunzione che l'input è già presente sul nastro.
 
@@ -26,46 +26,49 @@ $$
 
 > Una TM è una tupla $(Q, \Sigma, \Gamma, \delta, q_{\text{start}}, q_{\text{acc}}, q_{\text{rej}})$, dove:
 
-- $Q$ è l'[[insieme]] finito degli stati,
-- $\Sigma$ è l'alfabeto di input, (per convenzione $\sqcup \notin \Sigma$)
-- $\Gamma$ è l'alfabeto del nastro $\subseteq \Gamma$, (per convenzione $\sqcup \in \Gamma$)
-- $\delta$ è una [[funzione]] $Q \times \Gamma \to Q \times \Gamma \times \{L, R\}$: prende in input uno stato e il simbolo di nastro attuale letto dalla testina (quindi in un determinato stato), poi trascrive il simbolo con uno nuovo e sposta la testina nello stato a destra o sinistra.
+- $Q$ è l'[[insieme]] finito degli stati.
+- $\Sigma$ è l'alfabeto di input, (per convenzione $\sqcup \notin \Sigma$).
+- $\Gamma$ è l'alfabeto del nastro $\subseteq \Gamma$, (per convenzione $\sqcup \in \Gamma$).
+- $\delta$ è una [[funzione]] $Q \times \Gamma \to Q \times \Gamma \times \{L, R\}$: prende in input lo stato corrente e il simbolo di nastro attuale letto dalla testina (quindi in un determinato stato), poi trascrive il simbolo con uno nuovo, transiziona nel prossimo stato e sposta la testina nella cella a destra o sinistra.
+- $q_{0} \in Q$ è lo stato di start.
+- $q_{\text{accept}} \in Q$ è lo stato di accept.
+- $q_{\text{reject}} \in Q$ è lo stato di reject ($q_{\text{reject}} \in Q \neq q_{\text{accept}} \in Q$).
 
 ## Come computa?
 
 Configurazione iniziale:
 
 - input $w \ =\ \mid w_{1} \mid \ldots \mid w_{n} \mid$ sul nastro,
-- seguito da celle vuote $\mid \sqcup \mid \ldots \mid \sqcup \mid \ldots$.
+- seguito da celle vuote $\sqcup$.
 
 La TM computa aggiornando le *configurazioni* come prescritto da $\delta$. Non appena una configurazione contiene $q_{\text{accept}}$ diremo che la TM accetta l'input, o nel caso di $q_{\text{reject}}$ lo rifiuta.
 
 - [[configurazione#^8f10d6|Concetto di configurazione nelle TM]]
 
-> Diciamo che $M$ accetta $w$ se esistono configurazioni $C_{0}, \ldots, C_{k}$ tale che:
+> Diciamo che $M$ accetta $w$ se esise una sequenza di configurazioni $C_{0}, \ldots, C_{k}$ tale che:
 
-- $C_{0} = q_{\text{start}} w$
+- $C_{0} = q_{\text{start}} w$ è la configurazione iniziale di $M$ sull'input $w$.
 - $\forall i \in \mathbb{N} \quad C_{i}\ \text{produce}\ C_{i+1}$
-- $C_{k}\ \text{contiene}\ q_{\text{acc}}$
+- $C_{k}$ è una configurazione **accettante** (cioè il cui stato è $q_{\text{accept}}$).
 
 > N.B.: Se questo non succede, $M$ potrebbe anche non accettare o rifiutare un input, andando in loop per sempre.
 
+> Rifiutare vuol dire raggiungere una $C_{m}$ tale che $C_{m}$ contiene $q_{\text{rej}}$. 
+>
 # Turing riconoscibilità
 
-> Rifiutare vuol dire raggiungere un $C_{m}$ tale che $C_{m}$ contiene $q_{\text{rej}}$. Una tale TM si chiama **Riconoscitore**.
-
-> Un [[linguaggio]] $L$ si dice **Turing riconoscibile** se $\exists M$ (TM) che lo *riconosce*, cioè accetta tutte le stringhe del linguaggio e va in loop e rifiuta le stringhe fuori dal linguaggio.
+> Un [[linguaggio]] $L$ si dice **Turing riconoscibile** se $\exists M$ (TM), detta **Riconoscitore**, che lo *riconosce*, cioè accetta tutte le stringhe del linguaggio e va in loop o rifiuta se riceve in input stringhe fuori dal linguaggio.
 > Formalmente $\forall w \in L \ \ \text{M}\ \text{accetta}\ w \quad \land \quad \forall w \notin L \ \ M\ \text{rifiuta o va in loop}$.
 
 Si dimostra che esistono linguaggi non riconoscibili.
 
 # Turing decidibilità
 
-> Un **Decisore** è una TM che non va mai in loop.
+> Un **Decisore** è una TM che non va mai in loop, ma accetta le stringhe del suo linguaggio e rifiuta quelle fuori da esso.
 
 > Un linguaggio $L$ si dice **Turing decidbile** se $\exists\ \text{TM}\ M$ che lo *decide*, cioè accetta tutte le stringhe del linguaggio e rifiuta le stringhe fuori dal linguaggio.
 
-> N.B.: Ogni decisore è anche un riconoscitore.
+> N.B.: Banalmente, ogni decisore è anche un riconoscitore. Ogni linguaggio decidibile è anche riconoscibile.
 
 Si dimostra che esistono linguaggi non decidibili.
 

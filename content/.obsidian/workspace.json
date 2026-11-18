@@ -4,8 +4,30 @@
     "type": "split",
     "children": [
       {
+        "id": "51d8466fa047305a",
+        "type": "tabs",
+        "dimension": 48.748159057437405,
+        "children": [
+          {
+            "id": "519f5a20a1e745e6",
+            "type": "leaf",
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "https://archive.org/details/introduction-to-the-theory-of-computation-michael-sipser/page/143/mode/1up",
+                "title": "Introduction To The Theory Of Computation : Free Download, Borrow, and Streaming : Internet Archive",
+                "mode": "webview"
+              },
+              "icon": "globe-2",
+              "title": "Introduction To The Theory Of Computation : Free Download, Borrow, and Streaming : Internet Archive"
+            }
+          }
+        ]
+      },
+      {
         "id": "4509724f8bf84da7",
         "type": "tabs",
+        "dimension": 51.25184094256259,
         "children": [
           {
             "id": "e7a7b303c61786dc",
@@ -20,12 +42,12 @@
             }
           },
           {
-            "id": "d2493b64aa7b3753",
+            "id": "67d08de37c5a556b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Automi calcolabilità e complessità/riduzione.md",
+                "file": "Automi calcolabilità e complessità/macchina di Turing (TM).md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -40,10 +62,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "riduzione"
+              "title": "macchina di Turing (TM)"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -234,8 +257,14 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "67d08de37c5a556b",
   "lastOpenFiles": [
+    "Linguaggi di programmazione/linguaggio.md",
+    "Automi calcolabilità e complessità/macchina di Turing (TM).md",
+    "Automi calcolabilità e complessità/configurazione.md",
+    "Automi calcolabilità e complessità/Automi calcolabilità e complessità.md",
+    "Interdisciplinare/automa.md",
+    "calcolabilità.md",
     "Automi calcolabilità e complessità/riduzione.md",
     "Algebra/teorema di Rouché-Capelli.md",
     "Calcolo differenziale/teorema ponte.md",
@@ -249,20 +278,14 @@
     "Untitled.md",
     "Progettazione di algoritmi/Progettazione di algoritmi.md",
     "Progettazione di algoritmi/Esercizi sulla programmazione dinamica.md",
-    "Automi calcolabilità e complessità/Automi calcolabilità e complessità.md",
     "Automi calcolabilità e complessità/indecidibilità di A di TM.md",
     "Automi calcolabilità e complessità/Pasted image 20261118085932.png",
     "Excalidraw/Drawing 2026-11-18 08.55.32.excalidraw.md",
-    "Automi calcolabilità e complessità/macchina di Turing (TM).md",
     "Introduzione agli algoritmi/introduzione agli algoritmi.md",
     "Linguaggi di programmazione/logica di Hoare.md",
     "Linguaggi di programmazione/regola di inferenza.md",
     "Linguaggi di programmazione/Linguaggio IMP.md",
     "Linguaggi di programmazione/Linguaggi di programmazione.md",
-    "Linguaggi di programmazione/invariante.md",
-    "Untitled 1.md",
-    "Linguaggi di programmazione/Untitled.md",
-    "Linguaggi di programmazione/dimostrazioni per invarianti.md",
     "Automi calcolabilità e complessità/Pasted image 20261106101249.png",
     "Automi calcolabilità e complessità/Pasted image 20261106083713.png",
     "Automi calcolabilità e complessità/Pasted image 20261106083657.png",
